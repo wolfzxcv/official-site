@@ -4,10 +4,18 @@ export type Header = {
    ********/
   /** home */
   home: string;
-  /** game */
-  game: string;
-  /** clock */
-  clock: string;
-  /** choose language */
-  chooseLanguage: string;
+  /** about */
+  about: string;
+  /** products */
+  products: string;
+  /** platform */
+  platform: string;
+  /** notice */
+  notice: string;
+  /** learn trade */
+  learnTrade: string;
+  /** market news */
+  marketNews: string;
+  /** partner */
+  partner: string;
 };

@@ -1,16 +1,20 @@
-export type Locales = 'en' | 'nb-NO' | 'zh-TW';
+export type Locales = 'cn' | 'sa' | 'en' | 'my' | 'id' | 'vn' | 'hk';
 
 interface localesOptions {
   code: Locales;
   value: string;
 }
 
-export const locales: Locales[] = ['en', 'nb-NO', 'zh-TW'];
+export const locales: Locales[] = ['cn', 'sa', 'en', 'my', 'id', 'vn', 'hk'];
 
 export const localesOptions: localesOptions[] = [
+  { code: 'cn', value: '简体' },
+  { code: 'sa', value: 'بالعربية' },
   { code: 'en', value: 'English' },
-  { code: 'nb-NO', value: 'norsk(bokmål)' },
-  { code: 'zh-TW', value: '中文' }
+  { code: 'my', value: 'Malay' },
+  { code: 'id', value: 'Indonesia' },
+  { code: 'vn', value: 'Việt Nam' },
+  { code: 'hk', value: '繁體' }
 ];
 
 // const fs = require('fs');

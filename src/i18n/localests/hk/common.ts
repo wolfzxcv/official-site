@@ -1,9 +1,9 @@
 import { Common } from '../@types/common';
 
 export const common: Common = {
-  contactUs: 'Contact*us',
+  contactUs: '聯繫我們',
   telegram: 'Telegram',
-  online: 'online',
+  online: '線上客服',
   whatsApp: 'whatsApp',
   line: 'Line',
   clientPortal: 'Client*Portal',

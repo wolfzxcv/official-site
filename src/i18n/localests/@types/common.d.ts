@@ -2,14 +2,20 @@ export type Common = {
   /********
    * common
    ********/
-  /** welcome to */
-  welcomeTo: string;
-  /** site name */
-  siteName: string;
-  /** loading */
-  loading: string;
-  /** submitting */
-  submitting: string;
-  /** hello */
-  hello: string;
+  /** contactUs */
+  contactUs: string;
+  /** telegram */
+  telegram: string;
+  /** online */
+  online: string;
+  /** whatsApp */
+  whatsApp: string;
+  /** line */
+  line: string;
+  /** clientPortal */
+  clientPortal: string;
+  /** downloadMT4 */
+  downloadMT4: string;
+  /** top */
+  top: string;
 };

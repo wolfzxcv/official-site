@@ -1,8 +1,8 @@
 import { Common } from '../@types/common';
 
 export const common: Common = {
-  contactUs: 'Contact*us',
-  telegram: 'Telegram',
+  contactUs: '联系我们',
+  telegram: '在线客服',
   online: 'online',
   whatsApp: 'whatsApp',
   line: 'Line',
