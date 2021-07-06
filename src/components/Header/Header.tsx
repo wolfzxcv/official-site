@@ -1,131 +1,64 @@
-import { HamburgerIcon } from '@chakra-ui/icons';
-import { Box, Flex, Select, Stack, useDisclosure } from '@chakra-ui/react';
-import { i18n, useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
-import { Locales, locales, localesOptions } from '../../i18n/locales';
+import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
+import {
+  Box,
+  Collapse,
+  Flex,
+  IconButton,
+  useColorModeValue,
+  useDisclosure
+} from '@chakra-ui/react';
+import React from 'react';
+import DesktopNav from './DesktopNav';
+import LangSelector from './LangSelector';
 import Logo from './Logo';
-import MenuItem from './MenuItem';
-import { IMenuItem, menuList } from './menuList';
+import MobileNav from './MobileNav';
 
-const Header: React.FC<{}> = () => {
-  useEffect(() => {
-    getCurrentLanguage();
-  }, []);
-
-  const [language, setLanguage] = useState(i18n?.languages[0]);
-  const [isSelected, setIsSelected] = useState('');
-
-  const router = useRouter();
-
-  const { t } = useTranslation(['header']);
-
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
-  const handleToggle = () => {
-    isOpen ? onClose() : onOpen();
-  };
-
-  const getCurrentLanguage = () => {
-    const langInLocalStorage = localStorage.getItem('language');
-
-    if (langInLocalStorage) {
-      handleSetLanguage(langInLocalStorage as Locales);
-    } else {
-      // to save locale in localStorage
-      localStorage.setItem('language', i18n?.languages[0] as Locales);
-    }
-  };
-
-  const handleLanguageChange = (
-    event: React.ChangeEvent<HTMLSelectElement>
-  ) => {
-    const locale = event.target.value as Locales;
-    handleSetLanguage(locale);
-  };
-
-  const handleSetLanguage = (locale: Locales) => {
-    // to show option in select
-    setLanguage(locale);
-    // to change router locale
-    router.push(router.asPath, router.asPath, { locale: locale });
-    // to save locale in localStorage
-    localStorage.setItem('language', locale);
-  };
+export default function Header2() {
+  const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Flex
-      as="nav"
-      align="center"
-      justify="space-between"
-      wrap="wrap"
-      padding={6}
-      bg="gray.500"
-      color="red.800"
-    >
-      <Flex align="center" mr={5}>
-        <Logo />
+    <Box>
+      <Flex
+        bg={useColorModeValue('white', 'gray.800')}
+        color={useColorModeValue('gray.600', 'white')}
+        minH={'60px'}
+        py={{ base: 2 }}
+        px={{ base: 4 }}
+        borderBottom={1}
+        borderStyle={'solid'}
+        borderColor={useColorModeValue('gray.200', 'gray.900')}
+        align={'center'}
+      >
+        <Flex
+          flex={{ base: 1, md: 'auto' }}
+          ml={{ base: -2 }}
+          display={{ base: 'flex', md: 'none' }}
+        >
+          <IconButton
+            onClick={onToggle}
+            icon={
+              isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
+            }
+            variant={'ghost'}
+            aria-label={'Toggle Navigation'}
+          />
+        </Flex>
+        <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+          <Logo />
+
+          <Flex display={{ base: 'none', md: 'flex' }} mx={10}>
+            <DesktopNav />
+          </Flex>
+
+          <Flex justify="end">
+            <LangSelector />
+          </Flex>
+        </Flex>
       </Flex>
 
-      <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
-        <HamburgerIcon _hover={{ cursor: 'pointer' }} />
-      </Box>
-
-      <Stack
-        color="gray.100"
-        direction={{ base: 'column', md: 'row' }}
-        display={{ base: isOpen ? 'block' : 'none', md: 'flex' }}
-        width={{ base: 'full', md: 'auto' }}
-        alignItems="center"
-        flexGrow={1}
-        mt={{ base: 4, md: 0 }}
-        spacing={10}
-      >
-        {menuList.map((each: IMenuItem) => (
-          <div
-            key={each.menu.src}
-            onMouseOver={() => setIsSelected(each.menu.i18n)}
-          >
-            <MenuItem
-              href={each.menu.src}
-              text={t(`header:${each.menu.i18n}`)}
-              subMenu={each.subMenu || undefined}
-              isSelected={isSelected}
-            />
-          </div>
-        ))}
-      </Stack>
-
-      <Box
-        display={{ base: isOpen ? 'block' : 'none', md: 'block' }}
-        mt={{ base: 4, md: 0 }}
-      >
-        <Flex>
-          <Select
-            _hover={{
-              bg: 'gray.600',
-              color: 'white',
-              borderColor: 'gray.200',
-              cursor: 'pointer'
-            }}
-            bg="gray.500"
-            onChange={handleLanguageChange}
-            value={language}
-          >
-            {locales.map((locale: string) => (
-              <option
-                style={{ background: '#718096', color: 'white' }}
-                value={locale}
-                key={locale}
-              >
-                {localesOptions.find((x) => x.code === locale)?.value || locale}
-              </option>
-            ))}
-          </Select>
-        </Flex>
-      </Box>
-    </Flex>
+      <Collapse in={isOpen} animateOpacity>
+        <MobileNav />
+      </Collapse>
+    </Box>
   );
-};
-
-export default Header;
+}

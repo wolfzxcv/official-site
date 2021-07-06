@@ -1,80 +1,83 @@
 export interface ILinkSource {
   i18n: string;
-  src: string;
+  href: string;
 }
 
 export interface IMenuItem {
-  menu: ILinkSource;
-  subMenu?: ILinkSource[];
+  i18n: string;
+  href?: string;
+  children?: ILinkSource[];
 }
 
-export const menuList = [
+export const menuList: IMenuItem[] = [
   {
-    menu: { i18n: 'home', src: '/' }
+    i18n: 'home',
+    href: '/'
   },
   {
-    menu: { i18n: 'about', src: '/about' },
-    subMenu: [
-      { i18n: 'companyNews', src: '/about/companyNews' },
+    i18n: 'about',
+    children: [
+      { i18n: 'about', href: '/about' },
+      { i18n: 'companyNews', href: '/about/companyNews' },
       {
         i18n: 'corporateResponsibility',
-        src: '/about/corporateResponsibility'
+        href: '/about/corporateResponsibility'
       },
-      { i18n: 'questions', src: '/about/questions' },
-      { i18n: 'announcements', src: '/about/announcements' },
-      { i18n: 'contactUs', src: '/about/contactUs' }
+      { i18n: 'questions', href: '/about/questions' },
+      { i18n: 'announcements', href: '/about/announcements' },
+      { i18n: 'contactUs', href: '/about/contactUs' }
     ]
   },
   {
-    menu: { i18n: 'products', src: '/products' },
-    subMenu: [
-      { i18n: 'forex', src: '/products/forex' },
-      { i18n: 'preciousMetals', src: '/products/preciousMetals' },
-      { i18n: 'crudeOil', src: '/products/crudeOil' },
-      { i18n: 'index', src: '/products/indexPage' },
-      { i18n: 'uSShareCFD', src: '/products/uSShareCFD' },
-      { i18n: 'cryptocurrencies', src: '/products/cryptocurrencies' }
+    i18n: 'products',
+    children: [
+      { i18n: 'forex', href: '/products/forex' },
+      { i18n: 'preciousMetals', href: '/products/preciousMetals' },
+      { i18n: 'crudeOil', href: '/products/crudeOil' },
+      { i18n: 'index', href: '/products/indexPage' },
+      { i18n: 'uSShareCFD', href: '/products/uSShareCFD' },
+      { i18n: 'cryptocurrencies', href: '/products/cryptocurrencies' }
     ]
   },
   {
-    menu: { i18n: 'platform', src: '/platform' },
-    subMenu: [
-      { i18n: 'MT4Overview', src: '/platform/MT4Overview' },
-      { i18n: 'MT4PCDownload', src: '/platform/MT4PCDownload' },
-      { i18n: 'MT4APPDownload', src: '/platform/MT4APPDownload' },
-      { i18n: 'MAMSystem', src: '/platform/MAMSystem' }
+    i18n: 'platform',
+    children: [
+      { i18n: 'MT4Overview', href: '/platform/MT4Overview' },
+      { i18n: 'MT4PCDownload', href: '/platform/MT4PCDownload' },
+      { i18n: 'MT4APPDownload', href: '/platform/MT4APPDownload' },
+      { i18n: 'MAMSystem', href: '/platform/MAMSystem' }
     ]
   },
   {
-    menu: { i18n: 'notice', src: '/notice' },
-    subMenu: [
-      { i18n: 'abnormalTrade', src: '/about/abnormalTrade' },
-      { i18n: 'tradeDetails', src: '/about/tradeDetails' }
+    i18n: 'notice',
+    children: [
+      { i18n: 'abnormalTrade', href: '/about/abnormalTrade' },
+      { i18n: 'tradeDetails', href: '/about/tradeDetails' }
     ]
   },
   {
-    menu: { i18n: 'learnTrade', src: '/learnTrade' },
-    subMenu: [
-      { i18n: 'basicTrading', src: '/about/basicTrading' },
-      { i18n: 'intermediateTrading', src: '/about/intermediateTrading' },
-      { i18n: 'advancedTrading', src: '/about/advancedTrading' }
+    i18n: 'learnTrade',
+    children: [
+      { i18n: 'basicTrading', href: '/about/basicTrading' },
+      { i18n: 'intermediateTrading', href: '/about/intermediateTrading' },
+      { i18n: 'advancedTrading', href: '/about/advancedTrading' }
     ]
   },
   {
-    menu: { i18n: 'marketNews', src: '/marketNews' },
-    subMenu: [
-      { i18n: 'financialCalendar', src: '/about/financialCalendar' },
-      { i18n: 'financialNews', src: '/about/financialNews' },
-      { i18n: 'marketAnalysis', src: '/about/marketAnalysis' }
+    i18n: 'marketNews',
+    children: [
+      { i18n: 'financialCalendar', href: '/about/financialCalendar' },
+      { i18n: 'financialNews', href: '/about/financialNews' },
+      { i18n: 'marketAnalysis', href: '/about/marketAnalysis' }
     ]
   },
   {
-    menu: { i18n: 'partner', src: '/partner' },
-    subMenu: [
-      { i18n: 'fundManager', src: '/about/fundManager' },
-      { i18n: 'iBBroker', src: '/about/iBBroker' },
-      { i18n: 'regionalRepresentative', src: '/about/regionalRepresentative' },
-      { i18n: 'whiteLabelCooperation', src: '/about/whiteLabelCooperation' }
+    i18n: 'partner',
+    children: [
+      { i18n: 'fundManager', href: '/about/fundManager' },
+      { i18n: 'iBBroker', href: '/about/iBBroker' },
+      { i18n: 'regionalRepresentative', href: '/about/regionalRepresentative' },
+      { i18n: 'whiteLabelCooperation', href: '/about/whiteLabelCooperation' }
     ]
   }
 ];
