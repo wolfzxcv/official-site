@@ -2,7 +2,7 @@ import React from 'react';
 
 interface marketNewsProps {}
 
-const marketNews: React.FC<marketNewsProps> = ({}) => {
+const marketNews: React.FC<marketNewsProps> = () => {
   return <div>marketNews page!</div>;
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 interface fundManagerProps {}
 
-const fundManager: React.FC<fundManagerProps> = ({}) => {
+const fundManager: React.FC<fundManagerProps> = () => {
   return <div>fundManager page!</div>;
 };
 

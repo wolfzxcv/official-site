@@ -2,7 +2,7 @@ import React from 'react';
 
 interface basicTradingProps {}
 
-const basicTrading: React.FC<basicTradingProps> = ({}) => {
+const basicTrading: React.FC<basicTradingProps> = () => {
   return <div>basicTrading page!</div>;
 };
 

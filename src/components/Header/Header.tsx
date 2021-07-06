@@ -14,12 +14,14 @@ const Header: React.FC<{}> = () => {
   }, []);
 
   const [language, setLanguage] = useState(i18n?.languages[0]);
+  const [isSelected, setIsSelected] = useState('');
 
   const router = useRouter();
 
   const { t } = useTranslation(['header']);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
+
   const handleToggle = () => {
     isOpen ? onClose() : onOpen();
   };
@@ -80,11 +82,17 @@ const Header: React.FC<{}> = () => {
         spacing={10}
       >
         {menuList.map((each: IMenuItem) => (
-          <MenuItem
+          <div
             key={each.menu.src}
-            href={each.menu.src}
-            text={t(`header:${each.menu.i18n}`)}
-          />
+            onMouseOver={() => setIsSelected(each.menu.i18n)}
+          >
+            <MenuItem
+              href={each.menu.src}
+              text={t(`header:${each.menu.i18n}`)}
+              subMenu={each.subMenu || undefined}
+              isSelected={isSelected}
+            />
+          </div>
         ))}
       </Stack>
 
