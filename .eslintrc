@@ -34,6 +34,8 @@
      * DOC: https://eslint.org/docs/rules
      ****************************************/
     "no-console": "warn",
+    // suppress errors for missing 'import React' in files
+    "react/react-in-jsx-scope": "off",
 
     /***********************************
      * other plugins

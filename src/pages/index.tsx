@@ -1,56 +1,62 @@
-import {
-  Link as ChakraLink,
-  Text,
-  Code,
-  List,
-  ListIcon,
-  ListItem,
-} from '@chakra-ui/react'
-import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
+import { Box, Flex, Text } from '@chakra-ui/react';
+import { GetStaticProps } from 'next';
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import React from 'react';
+import Wrapper from '../components/Wrapper';
 
-import { Hero } from '../components/Hero'
-import { Container } from '../components/Container'
-import { Main } from '../components/Main'
-import { DarkModeSwitch } from '../components/DarkModeSwitch'
-import { CTA } from '../components/CTA'
-import { Footer } from '../components/Footer'
+const Index: React.FC<{}> = () => {
+  const { t } = useTranslation('common');
 
-const Index = () => (
-  <Container height="100vh">
-    <Hero />
-    <Main>
-      <Text>
-        Example repository of <Code>Next.js</Code> + <Code>chakra-ui</Code> +{' '}
-        <Code>typescript</Code>.
-      </Text>
+  return (
+    <Wrapper variant="large">
+      <Box
+        height="50vh"
+        backgroundImage="url('../assets/images/nature01.jpg')"
+        bgAttachment="fixed"
+        bgPosition="top center"
+        bgSize="cover"
+      >
+        <Flex height="inherit" justifyContent="center" align="center">
+          <Text fontSize="72px" color="gray.300">
+            {`${t('common:online')} ${t('common:contactUs')}`}
+          </Text>
+        </Flex>
+      </Box>
 
-      <List spacing={3} my={0}>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink
-            isExternal
-            href="https://chakra-ui.com"
-            flexGrow={1}
-            mr={2}
-          >
-            Chakra UI <LinkIcon />
-          </ChakraLink>
-        </ListItem>
-        <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://nextjs.org" flexGrow={1} mr={2}>
-            Next.js <LinkIcon />
-          </ChakraLink>
-        </ListItem>
-      </List>
-    </Main>
+      <Box textAlign="center" lineHeight="5rem">
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sunt.
+        </Text>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint,
+          dolore.
+        </Text>
+        <Text>
+          Dignissimos vitae hic asperiores. Voluptatem odio libero aspernatur
+          repudiandae iste.
+        </Text>
+        <Text>
+          Minus eveniet, placeat veniam inventore maiores totam quos distinctio
+          quibusdam.
+        </Text>
+        <Text>
+          Iure rem quaerat accusantium, nulla distinctio deserunt voluptatum
+          esse aliquid?
+        </Text>
+        <Text>
+          Perspiciatis, vero! Est suscipit similique nisi eum tempora ex
+          corrupti?
+        </Text>
+      </Box>
+    </Wrapper>
+  );
+};
 
-    <DarkModeSwitch />
-    <Footer>
-      <Text>Next ❤️ Chakra</Text>
-    </Footer>
-    <CTA />
-  </Container>
-)
+export const getStaticProps: GetStaticProps = async (props) => ({
+  props: {
+    ...(await serverSideTranslations(props.locale!, ['common', 'header']))
+  }
+});
 
-export default Index
+export default Index;
