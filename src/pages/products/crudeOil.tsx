@@ -11,7 +11,7 @@ const crudeOil: React.FC<crudeOilProps> = () => {
 
 export const getStaticProps: GetStaticProps = async (props) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, ['header']))
+    ...(await serverSideTranslations(props.locale!, ['common', 'header']))
   }
 });
 

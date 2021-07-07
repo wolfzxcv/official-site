@@ -2,6 +2,14 @@ export type Common = {
   /********
    * common
    ********/
+  /** Open real account */
+  openRealAccount: string;
+  /** Open demo account */
+  openDemoAccount: string;
+  /** Users' Center */
+  usersCenter: string;
+  /** IB Center */
+  iBCenter: string;
   /** contactUs */
   contactUs: string;
   /** telegram */

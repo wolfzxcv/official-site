@@ -2,6 +2,7 @@ import { Box } from '@chakra-ui/react';
 import React from 'react';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
+import TopLinks from './TopLinks/TopLinks';
 
 interface WrapperProps {
   variant?: 'small' | 'regular' | 'large';
@@ -17,6 +18,7 @@ const Wrapper: React.FC<WrapperProps> = ({
   return (
     <>
       <Header />
+      <TopLinks />
       <Box minH="70vh" mt={8} mx="auto" maxW={maxW} w="100%">
         {children}
       </Box>

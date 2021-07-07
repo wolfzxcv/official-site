@@ -11,7 +11,7 @@ const preciousMetals: React.FC<preciousMetalsProps> = () => {
 
 export const getStaticProps: GetStaticProps = async (props) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, ['header']))
+    ...(await serverSideTranslations(props.locale!, ['common', 'header']))
   }
 });
 

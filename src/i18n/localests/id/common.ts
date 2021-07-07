@@ -1,6 +1,10 @@
 import { Common } from '../@types/common';
 
 export const common: Common = {
+  openRealAccount: 'Buka*akun*real',
+  openDemoAccount: 'Buka*akun*demo',
+  usersCenter: 'Pusat*Pengguna',
+  iBCenter: 'Pusat*IB',
   contactUs: 'Contact*us',
   telegram: 'sambungan*layanan',
   online: 'online',
