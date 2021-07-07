@@ -2,8 +2,8 @@ export type Footer = {
   /********
    * footer
    ********/
-  /** copyRight */
-  copyRight: string;
+  /** copyright */
+  copyright: string;
   /** Privacy policy */
   privacyPolicy: string;
   /** Terms And Conditions */

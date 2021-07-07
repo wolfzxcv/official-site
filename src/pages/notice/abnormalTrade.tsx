@@ -11,7 +11,11 @@ const abnormalTrade: React.FC<abnormalTradeProps> = () => {
 
 export const getStaticProps: GetStaticProps = async (props) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, ['common', 'header']))
+    ...(await serverSideTranslations(props.locale!, [
+      'common',
+      'footer',
+      'header'
+    ]))
   }
 });
 

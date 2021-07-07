@@ -40,10 +40,10 @@ const DesktopNav = () => {
                     _hover={{
                       textDecoration: 'underline',
                       color: linkHoverColor,
-                      bgColor: 'pink.50'
+                      bgColor: 'blue.50'
                     }}
                   >
-                    {t(`header:${each.i18n}`)}
+                    {t(each.i18n)}
                   </Link>
                 ) : (
                   <Text
@@ -55,10 +55,10 @@ const DesktopNav = () => {
                       textDecoration: 'underline',
                       color: linkHoverColor,
                       cursor: 'pointer',
-                      bgColor: 'pink.50'
+                      bgColor: 'blue.50'
                     }}
                   >
-                    {t(`header:${each.i18n}`)}
+                    {t(each.i18n)}
                   </Text>
                 )}
               </Center>
@@ -96,16 +96,16 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
       display={'block'}
       p={2}
       rounded={'md'}
-      _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}
+      _hover={{ bg: useColorModeValue('blue.50', 'gray.900') }}
     >
       <Stack direction={'row'} align={'center'}>
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'pink.400' }}
+            _groupHover={{ color: 'blue.400' }}
             fontWeight={500}
           >
-            {t(`header:${i18n}`)}
+            {t(i18n)}
           </Text>
         </Box>
         <Flex
@@ -117,7 +117,7 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
           align={'center'}
           flex={1}
         >
-          <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={'blue.400'} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>

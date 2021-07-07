@@ -1,7 +1,7 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
-  copyRight:
+  copyright:
     '©*Seluruh*hak*cipta*dilindungi*Undang-Undang*dan*dilarang*keras*untuk*menduplikasi*seluruh*isi*materi*di*dalamnya',
   privacyPolicy: 'Kebijakan*Privasi',
   termsAndConditions: 'Syarat*dan*Ketentuan',

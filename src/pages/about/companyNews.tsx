@@ -11,7 +11,11 @@ const companyNews: React.FC<companyNewsProps> = () => {
 
 export const getStaticProps: GetStaticProps = async (props) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, ['common', 'header']))
+    ...(await serverSideTranslations(props.locale!, [
+      'common',
+      'footer',
+      'header'
+    ]))
   }
 });
 

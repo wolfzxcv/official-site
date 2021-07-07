@@ -19,7 +19,7 @@ const Wrapper: React.FC<WrapperProps> = ({
     <>
       <Header />
       <TopLinks />
-      <Box minH="70vh" mt={8} mx="auto" maxW={maxW} w="100%">
+      <Box minH="70vh" mx="auto" maxW={maxW} w="100%">
         {children}
       </Box>
       <Footer />

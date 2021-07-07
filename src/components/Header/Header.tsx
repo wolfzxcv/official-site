@@ -24,16 +24,13 @@ export default function Header2() {
         minH={'60px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
-        borderBottom={1}
-        borderStyle={'solid'}
-        borderColor={useColorModeValue('gray.200', 'gray.900')}
         align={'center'}
       >
         {/* mobile layout */}
         <Flex
           flex="1"
           ml={{ base: -2 }}
-          display={{ base: 'flex', md: 'none' }}
+          display={{ base: 'flex', lg: 'none' }}
           justify="space-between"
         >
           <IconButton
@@ -53,7 +50,8 @@ export default function Header2() {
           width="100vw"
           mx={5}
           justify="space-between"
-          display={{ base: 'none', md: 'flex' }}
+          align={'center'}
+          display={{ base: 'none', lg: 'flex' }}
         >
           <Logo />
 

@@ -12,14 +12,14 @@ const Index: React.FC<{}> = () => {
     <Wrapper variant="large">
       <Box
         height="50vh"
-        backgroundImage="url('../assets/images/nature01.jpg')"
+        backgroundImage="url('../assets/images/banner.png')"
         bgAttachment="fixed"
         bgPosition="top center"
         bgSize="cover"
       >
         <Flex height="inherit" justifyContent="center" align="center">
           <Text fontSize="72px" color="gray.300">
-            {`${t('common:online')} ${t('common:contactUs')}`}
+            {t('openRealAccount')}
           </Text>
         </Flex>
       </Box>
@@ -55,7 +55,11 @@ const Index: React.FC<{}> = () => {
 
 export const getStaticProps: GetStaticProps = async (props) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, ['common', 'header']))
+    ...(await serverSideTranslations(props.locale!, [
+      'common',
+      'footer',
+      'header'
+    ]))
   }
 });
 

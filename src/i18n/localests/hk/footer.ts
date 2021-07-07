@@ -1,7 +1,7 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
-  copyRight: '©*WCG*Markets*Ltd版權所有，不得轉載',
+  copyright: '©*WCG*Markets*Ltd版權所有，不得轉載',
   privacyPolicy: '隱私條款',
   termsAndConditions: '條款細則',
   disputeSettlement: '爭端處理',
