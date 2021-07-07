@@ -1,7 +1,6 @@
-import { Box, Stack } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import React from 'react';
 import { Copyright } from './Copyright';
-import { SocialMediaLinks } from './SocialMediaLinks';
 
 const Footer: React.FC<{}> = () => {
   return (
@@ -10,21 +9,10 @@ const Footer: React.FC<{}> = () => {
       role="contentinfo"
       py="12"
       width="full"
-      px={{ base: '4', md: '200px' }}
-      bg="gray.500"
+      bg="gray.700"
       color="gray.200"
     >
-      <Stack>
-        <Stack
-          direction="row"
-          spacing="4"
-          align="center"
-          justify="space-between"
-        >
-          <SocialMediaLinks />
-        </Stack>
-        <Copyright />
-      </Stack>
+      <Copyright />
     </Box>
   );
 };
