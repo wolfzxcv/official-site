@@ -10,7 +10,7 @@ export const common: Common = {
   online: '在线客服',
   whatsApp: 'whatsApp',
   line: 'Line',
-  clientPortal: 'Client*Portal',
-  downloadMT4: 'Download*MT4',
-  top: '回到頂端'
+  clientPortal: '存取款登陆',
+  downloadMT4: 'MT4下载',
+  top: '回到頂部'
 };
