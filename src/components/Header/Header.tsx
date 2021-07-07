@@ -29,10 +29,12 @@ export default function Header2() {
         borderColor={useColorModeValue('gray.200', 'gray.900')}
         align={'center'}
       >
+        {/* mobile layout */}
         <Flex
-          flex={{ base: 1, md: 'auto' }}
+          flex="1"
           ml={{ base: -2 }}
           display={{ base: 'flex', md: 'none' }}
+          justify="space-between"
         >
           <IconButton
             onClick={onToggle}
@@ -42,17 +44,24 @@ export default function Header2() {
             variant={'ghost'}
             aria-label={'Toggle Navigation'}
           />
+          <Logo />
+          <LangSelector />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+
+        {/* desktop layout */}
+        <Flex
+          width="100vw"
+          mx={5}
+          justify="space-between"
+          display={{ base: 'none', md: 'flex' }}
+        >
           <Logo />
 
-          <Flex display={{ base: 'none', md: 'flex' }} mx={10}>
+          <Flex mx={10}>
             <DesktopNav />
           </Flex>
 
-          <Flex justify="end">
-            <LangSelector />
-          </Flex>
+          <LangSelector />
         </Flex>
       </Flex>
 

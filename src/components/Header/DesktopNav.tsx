@@ -30,19 +30,37 @@ const DesktopNav = () => {
           <Popover trigger={'hover'} placement={'bottom-start'}>
             <PopoverTrigger>
               <Center>
-                <Link
-                  p={2}
-                  href={each.href ?? '#'}
-                  fontSize={'sm'}
-                  fontWeight={600}
-                  color={linkColor}
-                  _hover={{
-                    textDecoration: 'none',
-                    color: linkHoverColor
-                  }}
-                >
-                  {t(`header:${each.i18n}`)}
-                </Link>
+                {each.href ? (
+                  <Link
+                    p={2}
+                    href={each.href ?? '#'}
+                    fontSize={'sm'}
+                    fontWeight={600}
+                    color={linkColor}
+                    _hover={{
+                      textDecoration: 'underline',
+                      color: linkHoverColor,
+                      bgColor: 'pink.50'
+                    }}
+                  >
+                    {t(`header:${each.i18n}`)}
+                  </Link>
+                ) : (
+                  <Text
+                    p={2}
+                    fontSize={'sm'}
+                    fontWeight={600}
+                    color={linkColor}
+                    _hover={{
+                      textDecoration: 'underline',
+                      color: linkHoverColor,
+                      cursor: 'pointer',
+                      bgColor: 'pink.50'
+                    }}
+                  >
+                    {t(`header:${each.i18n}`)}
+                  </Text>
+                )}
               </Center>
             </PopoverTrigger>
 

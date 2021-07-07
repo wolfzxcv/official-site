@@ -4,14 +4,14 @@ export type Footer = {
    ********/
   /** copyRight */
   copyRight: string;
-  /** privacypolicy */
-  privacypolicy: string;
-  /** termscondition */
-  termscondition: string;
-  /** settlement */
-  settlement: string;
-  /** declare */
-  declare: string;
+  /** Privacy policy */
+  privacyPolicy: string;
+  /** Terms And Conditions */
+  termsAndConditions: string;
+  /** Dispute Settlement */
+  disputeSettlement: string;
+  /** Risk Disclaimer */
+  riskDisclaimer: string;
   /** followUs */
   followUs: string;
   /** provideYouWith */

@@ -2,10 +2,10 @@ import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
   copyRight: '©*WCG*Markets*Ltd版權所有，不得轉載',
-  privacypolicy: '隱私條款',
-  termscondition: '條款細則',
-  settlement: '爭端處理',
-  declare: '免責申明',
+  privacyPolicy: '隱私條款',
+  termsAndConditions: '條款細則',
+  disputeSettlement: '爭端處理',
+  riskDisclaimer: '免責申明',
   followUs: '關注我們',
   provideYouWith: '憑藉業內最專業的經驗為您提供優質的投資服務',
   allTradesInvolveRisks:

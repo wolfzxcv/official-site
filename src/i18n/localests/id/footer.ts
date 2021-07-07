@@ -3,10 +3,10 @@ import { Footer } from '../@types/footer';
 export const footer: Footer = {
   copyRight:
     '©*Seluruh*hak*cipta*dilindungi*Undang-Undang*dan*dilarang*keras*untuk*menduplikasi*seluruh*isi*materi*di*dalamnya',
-  privacypolicy: 'Kebijakan*Privasi',
-  termscondition: 'Syarat*dan*Ketentuan',
-  settlement: 'Penyelesaian*Sengketa',
-  declare: 'Penafsiran*tentang*Risiko',
+  privacyPolicy: 'Kebijakan*Privasi',
+  termsAndConditions: 'Syarat*dan*Ketentuan',
+  disputeSettlement: 'Penyelesaian*Sengketa',
+  riskDisclaimer: 'Penafsiran*tentang*Risiko',
   followUs: 'Ikuti*kami',
   provideYouWith:
     'Memberi*Anda*layanan*investasi*berkualitas*tinggi*dengan*pengalaman*paling*profesional*di*industrinya',

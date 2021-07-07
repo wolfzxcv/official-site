@@ -2,10 +2,10 @@ import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
   copyRight: '©*WCG*All*rights*reserved，*no*reprint',
-  privacypolicy: 'Privacy*Policy',
-  termscondition: 'Terms*and*Conditions',
-  settlement: 'Dispute*Settlement',
-  declare: 'Risk*Disclaimer',
+  privacyPolicy: 'Privacy*Policy',
+  termsAndConditions: 'Terms*and*Conditions',
+  disputeSettlement: 'Dispute*disputeSettlement',
+  riskDisclaimer: 'Risk*Disclaimer',
   followUs: 'Follow*us',
   provideYouWith:
     'Provide*you*with*high-quality*investment*services*with*the*most*professional*experience*in the*industry',
