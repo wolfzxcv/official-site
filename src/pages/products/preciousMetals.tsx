@@ -1,9 +1,18 @@
+import { GetStaticProps } from 'next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
+import Wrapper from '../../components/Wrapper';
 
 interface preciousMetalsProps {}
 
 const preciousMetals: React.FC<preciousMetalsProps> = () => {
-  return <div>preciousMetals page!</div>;
+  return <Wrapper variant="large">preciousMetals page!</Wrapper>;
 };
+
+export const getStaticProps: GetStaticProps = async (props) => ({
+  props: {
+    ...(await serverSideTranslations(props.locale!, ['header']))
+  }
+});
 
 export default preciousMetals;

@@ -51,33 +51,36 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'notice',
     children: [
-      { i18n: 'abnormalTrade', href: '/about/abnormalTrade' },
-      { i18n: 'tradeDetails', href: '/about/tradeDetails' }
+      { i18n: 'abnormalTrade', href: '/notice/abnormalTrade' },
+      { i18n: 'tradeDetails', href: '/notice/tradeDetails' }
     ]
   },
   {
     i18n: 'learnTrade',
     children: [
-      { i18n: 'basicTrading', href: '/about/basicTrading' },
-      { i18n: 'intermediateTrading', href: '/about/intermediateTrading' },
-      { i18n: 'advancedTrading', href: '/about/advancedTrading' }
+      { i18n: 'basicTrading', href: '/learnTrade/basicTrading' },
+      { i18n: 'intermediateTrading', href: '/learnTrade/intermediateTrading' },
+      { i18n: 'advancedTrading', href: '/learnTrade/advancedTrading' }
     ]
   },
   {
     i18n: 'marketNews',
     children: [
-      { i18n: 'financialCalendar', href: '/about/financialCalendar' },
-      { i18n: 'financialNews', href: '/about/financialNews' },
-      { i18n: 'marketAnalysis', href: '/about/marketAnalysis' }
+      { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' },
+      { i18n: 'financialNews', href: '/marketNews/financialNews' },
+      { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
     ]
   },
   {
     i18n: 'partner',
     children: [
-      { i18n: 'fundManager', href: '/about/fundManager' },
-      { i18n: 'iBBroker', href: '/about/iBBroker' },
-      { i18n: 'regionalRepresentative', href: '/about/regionalRepresentative' },
-      { i18n: 'whiteLabelCooperation', href: '/about/whiteLabelCooperation' }
+      { i18n: 'fundManager', href: '/partner/fundManager' },
+      { i18n: 'iBBroker', href: '/partner/iBBroker' },
+      {
+        i18n: 'regionalRepresentative',
+        href: '/partner/regionalRepresentative'
+      },
+      { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
     ]
   }
 ];
