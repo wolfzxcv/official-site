@@ -5,17 +5,20 @@ interface LinkButtonProps {
   text: string;
   href: string;
   inMobile?: boolean;
+  withBorder?: boolean;
 }
 
 const LinkButton: React.FC<LinkButtonProps> = ({
   text,
   href,
-  inMobile = false
+  inMobile = false,
+  withBorder = false
 }: LinkButtonProps) => {
   return (
     <Box
+      border={withBorder ? '1px' : '0px'}
       as="button"
-      mx={['10']}
+      mx={withBorder ? '0' : '10'}
       display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
       height="50px"
       minW="100px"
@@ -26,6 +29,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({
       }}
     >
       <Link
+        width="100%"
         _hover={{
           textDecoration: 'none'
         }}

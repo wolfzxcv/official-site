@@ -6,7 +6,7 @@ export const common: Common = {
   usersCenter: 'Pusat*pelanggan',
   iBCenter: 'Pusat*Agen',
   contactUs: 'Contact*us',
-  telegram: 'pelanggan*pautan',
+  telegram: 'Telegram',
   online: 'online',
   whatsApp: 'whatsApp',
   line: 'Line',

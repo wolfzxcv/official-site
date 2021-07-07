@@ -6,11 +6,11 @@ export const common: Common = {
   usersCenter: '客户中心',
   iBCenter: '代理中心',
   contactUs: '联系我们',
-  telegram: '在线客服',
-  online: 'online',
+  telegram: 'Telegram',
+  online: '在线客服',
   whatsApp: 'whatsApp',
   line: 'Line',
   clientPortal: 'Client*Portal',
   downloadMT4: 'Download*MT4',
-  top: 'Top'
+  top: '回到頂端'
 };

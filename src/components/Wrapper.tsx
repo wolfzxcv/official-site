@@ -1,5 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import React from 'react';
+import BackToTop from './BackToTop/BackToTop';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import TopLinks from './TopLinks/TopLinks';
@@ -22,6 +23,7 @@ const Wrapper: React.FC<WrapperProps> = ({
       <Box minH="70vh" mx="auto" maxW={maxW} w="100%">
         {children}
       </Box>
+      <BackToTop />
       <Footer />
     </>
   );

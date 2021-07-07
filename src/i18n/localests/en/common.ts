@@ -12,5 +12,5 @@ export const common: Common = {
   line: 'Line',
   clientPortal: 'Client*Portal',
   downloadMT4: 'Download*MT4',
-  top: 'Top'
+  top: 'Back*To*Top'
 };

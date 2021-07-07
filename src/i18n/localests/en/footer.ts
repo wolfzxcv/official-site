@@ -14,7 +14,7 @@ export const footer: Footer = {
   newbiesGettingStarted: 'Newbies*Getting*Started',
   getUSD: 'Get*USD*100,000*virtual*funds*for*demo*account',
   demoAccount: 'demo*account',
-  startRealFXTrading: 'Start*real*FX*trading',
+  startRealFXTrading: 'Start*Real*FX*Trading',
   aRealAccount: 'a*real*account',
   WCGIsABusinessBrand:
     'WCG*is*a*business*brand*jointly*shared*by*many*companies,*including：',

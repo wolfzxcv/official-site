@@ -8,6 +8,7 @@ export const Copyright: React.FC<{}> = () => {
   const { t } = useTranslation(['footer']);
   return (
     <Flex
+      mb={{ base: '5', md: '0' }}
       fontSize={'0.8rem'}
       minH="100px"
       direction={{ base: 'column', md: 'row' }}
