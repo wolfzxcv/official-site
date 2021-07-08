@@ -7,13 +7,15 @@ import {
   useColorModeValue,
   useDisclosure
 } from '@chakra-ui/react';
+import dynamic from 'next/dynamic';
 import React from 'react';
-import DesktopNav from './DesktopNav';
-import LangSelector from './LangSelector';
 import Logo from './Logo';
 import MobileNav from './MobileNav';
 
-export default function Header2() {
+const LangSelector = dynamic(() => import('./LangSelector'), { ssr: false });
+const DesktopNav = dynamic(() => import('./DesktopNav'), { ssr: false });
+
+export default function Header() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
