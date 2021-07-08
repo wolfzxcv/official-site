@@ -1,8 +1,7 @@
-import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Script from 'next/script';
 import React from 'react';
 import { AiFillLock, AiFillTags } from 'react-icons/ai';
 import { BsLightningFill } from 'react-icons/bs';
@@ -233,37 +232,34 @@ const Index: React.FC<{}> = () => {
         ></iframe>
       </Box> */}
 
-      <Box>
-        {/* TradingView Widget BEGIN */}
+      {/* TradingView Widget BEGIN */}
+      <Box my={10} display={{ base: 'none', md: 'block' }}>
         <div className="tradingview-widget-container">
           <div className="tradingview-widget-container__widget"></div>
-          <div className="tradingview-widget-copyright">
-            <a
-              href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span className="blue-text">財經日曆</span>
-            </a>
-            由TradingView提供
-          </div>
-          <Script
-            src="https://s3.tradingview.com/external-embedding/embed-widget-events.js"
-            dangerouslySetInnerHTML={{
-              __html: `{
-              "width": "100%",
-              "height": "500px",
-              "colorTheme": "light",
-              "isTransparent": false,
-              "locale": "zh_TW",
-              "importanceFilter": "-1,0,1"
-            }`
+          <iframe
+            scrolling="no"
+            allowTransparency
+            frameBorder="0"
+            src="https://www.tradingview-widget.com/embed-widget/events/?locale=zh_CN#%7B%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22importanceFilter%22%3A%22-1%2C0%2C1%22%2C%22utm_source%22%3A%22www.wcglb.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22events%22%7D"
+            style={{
+              height: '600px',
+              margin: '0 auto',
+              width: '80vw',
+              minWidth: '600px'
             }}
-            async
-          />
+          ></iframe>
+          <Box textAlign="center">
+            <Link
+              href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
+              isExternal
+            >
+              財經日曆
+            </Link>
+            由TradingView提供
+          </Box>
         </div>
-        {/* TradingView Widget END */}
       </Box>
+      {/* TradingView Widget END */}
 
       {/* Real-time quotation of our trading products */}
     </Wrapper>
