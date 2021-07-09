@@ -11,7 +11,7 @@ const BackToTopMobile: React.FC<{}> = () => {
   };
 
   return (
-    <Box position="fixed" zIndex={1} bottom="0" left="45%">
+    <Box zIndex={1} position="fixed" bottom="0" left="45%">
       <IconButton
         title={t('top')}
         borderRadius="50%"

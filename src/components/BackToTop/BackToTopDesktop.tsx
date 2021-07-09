@@ -19,7 +19,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
   };
 
   return (
-    <StyledBox position="fixed" bottom="30%" right="3">
+    <StyledBox zIndex={1} position="fixed" bottom="30%" right="3">
       <Flex direction="column">
         <StyledIconButton
           as="a"
