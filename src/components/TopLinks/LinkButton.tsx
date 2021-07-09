@@ -20,12 +20,14 @@ const LinkButton: React.FC<LinkButtonProps> = ({
       as="button"
       mx={withBorder ? '0' : '10'}
       display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
-      height="50px"
+      minH="50px"
       minW="100px"
       px={2}
       _hover={{
         bgColor: 'gray.100',
-        color: 'gray.700'
+        color: 'gray.700',
+        transform: 'scale(1.1)',
+        fontWeight: '600'
       }}
     >
       <Link

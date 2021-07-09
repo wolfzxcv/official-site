@@ -8,5 +8,8 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Chakra"]
+  "cSpell.words": [
+    "Chakra",
+    "allowtransparency"
+  ]
 }

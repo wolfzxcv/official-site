@@ -1,4 +1,4 @@
-import { Box, Flex, IconButton } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import {
@@ -9,6 +9,7 @@ import {
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
+import { StyledBox, StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {
   const { t } = useTranslation(['common']);
@@ -18,9 +19,9 @@ const BackToTopDesktop: React.FC<{}> = () => {
   };
 
   return (
-    <Box position="fixed" bottom="30%" right="0">
+    <StyledBox position="fixed" bottom="30%" right="3">
       <Flex direction="column">
-        <IconButton
+        <StyledIconButton
           as="a"
           href="/about/contactUs"
           mb={3}
@@ -30,7 +31,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<AiOutlineMail fontSize="32px" />}
         />
-        <IconButton
+        <StyledIconButton
           as="a"
           href="https://api.whatsapp.com/message/2CCAPQTYUPV6P1"
           target="_blank"
@@ -41,7 +42,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<AiOutlineWhatsApp fontSize="32px" />}
         />
-        <IconButton
+        <StyledIconButton
           as="a"
           href="https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage"
           target="_blank"
@@ -52,7 +53,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<FaLine fontSize="32px" />}
         />
-        <IconButton
+        <StyledIconButton
           as="a"
           href="https://t.me/WCGMarketsLtd"
           target="_blank"
@@ -63,7 +64,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<FaTelegramPlane fontSize="32px" />}
         />
-        <IconButton
+        <StyledIconButton
           as="a"
           href="https://trader.wc012.com/register"
           target="_blank"
@@ -74,7 +75,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<BsPencilSquare fontSize="32px" />}
         />
-        <IconButton
+        <StyledIconButton
           as="a"
           href="/platform/MT4PCDownload"
           mb={3}
@@ -84,7 +85,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<AiOutlineCloudDownload fontSize="32px" />}
         />
-        <IconButton
+        <StyledIconButton
           title={t('top')}
           borderRadius="50%"
           onClick={scrollToTop}
@@ -92,7 +93,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           icon={<BiArrowToTop fontSize="32px" />}
         />
       </Flex>
-    </Box>
+    </StyledBox>
   );
 };
 

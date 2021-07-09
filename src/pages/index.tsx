@@ -1,15 +1,20 @@
-import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
 import React from 'react';
 import { AiFillLock, AiFillTags } from 'react-icons/ai';
 import { BsLightningFill } from 'react-icons/bs';
 import { GiServerRack } from 'react-icons/gi';
+import { StyledBox } from '../components/Styled/Styled';
 import Wrapper from '../components/Wrapper';
+import { Locales } from '../i18n/locales';
 
 const Index: React.FC<{}> = () => {
   const { t } = useTranslation(['common', 'home']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
 
   return (
     <Wrapper variant="large">
@@ -44,7 +49,7 @@ const Index: React.FC<{}> = () => {
           </Stack>
 
           {/* Button under Banner */}
-          <Box
+          <StyledBox
             as="a"
             href="/products/forex"
             m={3}
@@ -60,11 +65,12 @@ const Index: React.FC<{}> = () => {
             _hover={{
               bgColor: 'gray.100',
               color: 'gray.700',
-              cursor: 'pointer'
+              cursor: 'pointer',
+              transform: 'scale(1.2)'
             }}
           >
             {t('home:askProductsNow')}
-          </Box>
+          </StyledBox>
         </Flex>
       </Box>
 
@@ -207,18 +213,19 @@ const Index: React.FC<{}> = () => {
           <Text fontSize="22px">{t('home:timesLeverage')}</Text>
         </Box>
 
-        <Box
+        <StyledBox
           mt={{ base: 10, xl: 0 }}
           p={2}
           bg="red.600"
           fontSize="28px"
           _hover={{
             bgColor: 'red.500',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            transform: 'scale(1.2)'
           }}
         >
           {t('home:accountOpening')}
-        </Box>
+        </StyledBox>
       </Flex>
 
       {/* embed from  */}
@@ -238,7 +245,8 @@ const Index: React.FC<{}> = () => {
           <div className="tradingview-widget-container__widget"></div>
           <iframe
             scrolling="no"
-            allowTransparency
+            // @ts-expect-error
+            allowtransparency="true"
             frameBorder="0"
             src="https://www.tradingview-widget.com/embed-widget/events/?locale=zh_CN#%7B%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22importanceFilter%22%3A%22-1%2C0%2C1%22%2C%22utm_source%22%3A%22www.wcglb.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22events%22%7D"
             style={{
@@ -252,6 +260,7 @@ const Index: React.FC<{}> = () => {
             <Link
               href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
               isExternal
+              color="blue.300"
             >
               財經日曆
             </Link>
@@ -261,7 +270,184 @@ const Index: React.FC<{}> = () => {
       </Box>
       {/* TradingView Widget END */}
 
-      {/* Real-time quotation of our trading products */}
+      {/* Mobile Real-time quotation of our trading products */}
+      <Box display={{ base: 'block', xxl: 'none' }} width="inherit">
+        <Box
+          width="inherit"
+          backgroundImage="url('../assets/images/home_mobileBg.png')"
+          bgSize="cover"
+          height="980px"
+        ></Box>
+
+        <Box p={5}>
+          <Stack spacing={3} textAlign="center">
+            <Text fontSize="24px" fontWeight="700">
+              {t('home:realTimeQuotation')}
+            </Text>
+            <Text>{t('home:aVarietyOfProfessional')}</Text>
+          </Stack>
+
+          <Stack my={10} spacing={3} textAlign="center">
+            <Text fontSize="24px" fontWeight="700">
+              {t('home:investmentProductsAcross')}
+            </Text>
+            <Text>{t('home:includingMoreThan')}</Text>
+          </Stack>
+
+          <Stack spacing={3} textAlign="center">
+            <Text fontSize="24px" fontWeight="700">
+              {t('home:connectingTo')}
+            </Text>
+            <Text>{t('home:automatedProcess')}</Text>
+          </Stack>
+        </Box>
+      </Box>
+
+      {/* Desktop Real-time quotation of our trading products */}
+      <Box display={{ base: 'none', xxl: 'block' }}>
+        <Flex justify="center" mt="100px">
+          <Box maxW="432px" my={5} mx={2}>
+            <Image src="../assets/images/home_phone.png" alt="left" />
+            <Stack
+              backgroundImage="url('../assets/images/home_cardBg.png')"
+              bgSize="cover"
+              minH={
+                currentLang === 'cn' || currentLang === 'hk' ? '150px' : '215px'
+              }
+              p={6}
+              spacing={3}
+              color="white"
+              textAlign="left"
+            >
+              <Text fontSize="24px" fontWeight="700">
+                {t('home:realTimeQuotation')}
+              </Text>
+              <Text>{t('home:aVarietyOfProfessional')}</Text>
+            </Stack>
+          </Box>
+
+          <Box
+            maxW="432px"
+            my={5}
+            position="relative"
+            top="-115px"
+            right="16px"
+          >
+            <Image
+              src="../assets/images/home_twoPhone.png"
+              alt="middle"
+              maxW="512px"
+            />
+
+            <Stack
+              backgroundImage="url('../assets/images/home_cardBg.png')"
+              bgSize="cover"
+              minH={
+                currentLang === 'cn' || currentLang === 'hk' ? '150px' : '215px'
+              }
+              position="relative"
+              top="-28px"
+              left="16px"
+              zIndex={-1}
+              p={6}
+              spacing={3}
+              color="white"
+              textAlign="left"
+            >
+              <Text fontSize="24px" fontWeight="700">
+                {t('home:investmentProductsAcross')}
+              </Text>
+              <Text>{t('home:includingMoreThan')}</Text>
+            </Stack>
+          </Box>
+
+          <Box maxW="432px" my={5} mx={2}>
+            <Image src="../assets/images/home_connectServer.png" alt="right" />
+            <Stack
+              backgroundImage="url('../assets/images/home_cardBg.png')"
+              bgSize="cover"
+              minH={
+                currentLang === 'cn' || currentLang === 'hk' ? '150px' : '215px'
+              }
+              p={6}
+              spacing={3}
+              color="white"
+              textAlign="left"
+            >
+              <Text fontSize="24px" fontWeight="700">
+                {t('home:connectingTo')}
+              </Text>
+              <Text>{t('home:automatedProcess')}</Text>
+            </Stack>
+          </Box>
+        </Flex>
+      </Box>
+
+      {/* account opening */}
+      <StyledBox my={10}>
+        <Flex
+          justify="center"
+          align="center"
+          height="70px"
+          my={{ base: 20, md: 10 }}
+          direction={{ base: 'column', md: 'row' }}
+        >
+          <Box
+            fontSize="48px"
+            fontWeight="700"
+            color="black"
+            textAlign="center"
+            mr={{ base: 0, md: 5 }}
+          >
+            {t('home:downloadImmediately')}
+          </Box>
+          <Box>
+            <Image src="../assets/images/home_meta4.png" alt="meta4"></Image>
+          </Box>
+        </Flex>
+
+        <Box textAlign="center">{t('home:fastExecutionOfEachOrder')}</Box>
+
+        <Flex my={10} justify="center">
+          <Link
+            mx={2}
+            _hover={{
+              transform: 'scale(1.2)'
+            }}
+            isExternal
+            href="https://apps.apple.com/us/app/metatrader-4/id496212596"
+          >
+            <Image src="../assets/images/home_apple.png" alt="apple"></Image>
+          </Link>
+          <Link
+            mx={2}
+            _hover={{
+              transform: 'scale(1.2)'
+            }}
+            isExternal
+            href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk?utm_source=www.metatrader4.com&utm_campaign=download"
+          >
+            <Image
+              src="../assets/images/home_android.png"
+              alt="android"
+            ></Image>
+          </Link>
+
+          <Link
+            mx={2}
+            _hover={{
+              transform: 'scale(1.2)'
+            }}
+            href="https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe"
+          >
+            <Image src="../assets/images/home_pc.png" alt="pc"></Image>
+          </Link>
+        </Flex>
+
+        <Center>
+          <Image src="../assets/images/home_divider.png" alt="divider" />
+        </Center>
+      </StyledBox>
     </Wrapper>
   );
 };
