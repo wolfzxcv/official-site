@@ -11,19 +11,44 @@ import {
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
+import LinkButton from '../TopLinks/LinkButton';
 import { IMenuItem, menuList } from './menuList';
 
 const MobileNav = () => {
+  const { t } = useTranslation(['common']);
+
   return (
-    <Stack
-      bg={useColorModeValue('white', 'gray.800')}
-      p={4}
-      display={{ md: 'none' }}
-    >
-      {menuList.map((navItem) => (
-        <MobileNavItem key={navItem.i18n} {...navItem} />
-      ))}
-    </Stack>
+    <>
+      <Stack
+        bg={useColorModeValue('white', 'gray.800')}
+        p={4}
+        display={{ md: 'none' }}
+      >
+        {menuList.map((navItem) => (
+          <MobileNavItem key={navItem.i18n} {...navItem} />
+        ))}
+      </Stack>
+      <Flex
+        bgColor="gray.700"
+        minH="50px"
+        alignItems="center"
+        justify="center"
+        color="white"
+        borderBottom="1px"
+      >
+        <LinkButton
+          text={t('usersCenter')}
+          href="https://trader.wc012.com/login"
+          inMobile
+        ></LinkButton>
+
+        <LinkButton
+          text={t('iBCenter')}
+          href="https://broker.wc012.com/"
+          inMobile
+        ></LinkButton>
+      </Flex>
+    </>
   );
 };
 
