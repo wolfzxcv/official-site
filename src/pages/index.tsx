@@ -324,7 +324,7 @@ const Index: React.FC<{}> = () => {
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
-              minH={isChinese ? '150px' : '215px'}
+              minH={isChinese ? '150px' : '225px'}
               p={6}
               spacing={3}
               color="white"
@@ -347,7 +347,7 @@ const Index: React.FC<{}> = () => {
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
-              minH={isChinese ? '150px' : '215px'}
+              minH={isChinese ? '150px' : '225px'}
               position="relative"
               top="-28px"
               left="16px"
@@ -369,7 +369,7 @@ const Index: React.FC<{}> = () => {
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
-              minH={isChinese ? '150px' : '215px'}
+              minH={isChinese ? '150px' : '225px'}
               p={6}
               spacing={3}
               color="white"

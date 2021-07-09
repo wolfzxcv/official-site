@@ -1,14 +1,14 @@
 {
   "openRealAccount": "افتح حساب حقيقي",
   "openDemoAccount": "افتح حساب تجريبي",
-  "usersCenter": "مركز المستخدمين",
+  "usersCenter": "مركز المستخدم",
   "iBCenter": "مركز الوسطاء المُعرّفين",
-  "contactUs": "Contact us",
+  "contactUs": "اتصل بنا",
   "telegram": "Telegram",
-  "online": "online",
-  "whatsApp": "whatsApp",
+  "online": "عبر الانترنت",
+  "whatsApp": "WhatsApp",
   "line": "Line",
-  "clientPortal": "Client Portal",
-  "downloadMT4": "Download MT4",
-  "top": "Top"
+  "clientPortal": "تسجيل",
+  "downloadMT4": "تحميل MT4",
+  "top": "عد إلى الأعلى"
 }

@@ -4,11 +4,11 @@ export const footer: Footer = {
   copyright: '©*WCG*All*rights*reserved,*no*reprint',
   privacyPolicy: 'Privacy*Policy',
   termsAndConditions: 'Terms*and*Conditions',
-  disputeSettlement: 'Dispute*disputeSettlement',
+  disputeSettlement: 'Dispute*Settlement',
   riskDisclaimer: 'Risk*Disclaimer',
   followUs: 'Follow*us',
   provideYouWith:
-    'Provide*you*with*high-quality*investment*services*with*the*most*professional*experience*in the*industry',
+    'Provide*you*with*high-quality*investment*services*with*the*most*professional*experience*in*the*industry',
   allTradesInvolveRisks:
     'Risk*policy:*All*trades*involve*risks.*Your*trading*loss*may*be*greater*than*your*total*deposit.',
   newbiesGettingStarted: 'Newbies*Getting*Started',

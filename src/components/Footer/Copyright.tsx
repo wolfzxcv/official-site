@@ -15,7 +15,9 @@ export const Copyright: React.FC<{}> = () => {
       alignItems="center"
       justify="space-around"
     >
-      <Box>{t('copyright')}</Box>
+      <Box width={{ base: 'auto', md: '20vw' }} px={{ base: 3, md: 0 }}>
+        {t('copyright')}
+      </Box>
 
       {/* mobile layout */}
       <Flex wrap="wrap" display={{ base: 'flex', lg: 'none' }} my={3}>

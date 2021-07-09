@@ -8,7 +8,7 @@ export const common: Common = {
   contactUs: '联系我们',
   telegram: 'Telegram',
   online: '在线客服',
-  whatsApp: 'whatsApp',
+  whatsApp: 'WhatsApp',
   line: 'Line',
   clientPortal: '存取款登陆',
   downloadMT4: 'MT4下载',

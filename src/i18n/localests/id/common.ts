@@ -5,12 +5,12 @@ export const common: Common = {
   openDemoAccount: 'Buka*akun*demo',
   usersCenter: 'Pusat*Pengguna',
   iBCenter: 'Pusat*IB',
-  contactUs: 'Contact*us',
+  contactUs: 'Hubungi*kami',
   telegram: 'Telegram',
-  online: 'online',
-  whatsApp: 'whatsApp',
+  online: 'on*line',
+  whatsApp: 'WhatsApp',
   line: 'Line',
-  clientPortal: 'Client*Portal',
-  downloadMT4: 'Download*MT4',
-  top: 'Top'
+  clientPortal: 'daftar',
+  downloadMT4: 'Unduh*MT4',
+  top: 'kembali*ke*atas'
 };

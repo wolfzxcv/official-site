@@ -2,32 +2,32 @@ import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
   copyright: '©*WCG*All*rights*reserved,*no*reprint',
-  privacyPolicy: 'Privacy*Policy',
-  termsAndConditions: 'Terms*and*Conditions',
-  disputeSettlement: 'Dispute*disputeSettlement',
-  riskDisclaimer: 'Risk*Disclaimer',
-  followUs: 'Follow*us',
+  privacyPolicy: 'Polisi*Peribadi',
+  termsAndConditions: 'Terma*dan*Syarat',
+  disputeSettlement: 'Penyelesaian*Pertikaian',
+  riskDisclaimer: 'Penafian*Risiko',
+  followUs: 'Ikut*kami',
   provideYouWith:
-    'Provide*you*with*high-quality*investment*services*with*the*most*professional*experience*in the*industry',
+    'Memberi*anda*perkhidmatan*pelaburan*berkualiti*tinggi*dengan*pengalaman*paling*profesional*dalam*industri*ini',
   allTradesInvolveRisks:
-    'Risk*policy:*All*trades*involve*risks.*Your*trading*loss*may*be*greater*than*your*total*deposit.',
-  newbiesGettingStarted: 'Newbies*Getting*Started',
-  getUSD: 'Get*USD*100,000*virtual*funds*for*demo*account',
-  demoAccount: 'demo*account',
-  startRealFXTrading: 'Start*real*FX*trading',
-  aRealAccount: 'a*real*account',
+    'Dasar*risiko:*Semua*perdagangan*melibatkan*risiko.*Kerugian*perdagangan*anda*mungkin*lebih*besar*daripada*jumlah*deposit*anda.',
+  newbiesGettingStarted: 'Pemula*Baru*Bermula',
+  getUSD: 'Dapatkan*dana*maya*sebanyak*USD*100,000*untuk*akaun*demo',
+  demoAccount: 'Buka*akaun*demo',
+  startRealFXTrading: 'Mulakan*perdagangan*FX*yang*sebenar',
+  aRealAccount: 'Buka*akaun*sebenar',
   WCGIsABusinessBrand:
-    'WCG*is*a*business*brand*jointly*shared*by*many*companies,*including:',
+    'WCG*adalah*jenama*perniagaan*yang*dikongsi*bersama*oleh*banyak*syarikat*,termasuk:',
   WCGMarketsLtdIsALimitedLiabilityCompany:
-    'WCG*Markets*Ltd*is*a*limited*liability*company*registered*under*the*International*Business*Company*Law*in*Saint*Vincent*and*the*Grenadines.*The*company*number*is*26087*BC*2020.*The*registered*address*is:*The*Financial*Services*Centre*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
+    'WCG*Markets*Ltd*adalah*syarikat*liabiliti*terhad*yang*didaftarkan*di*bawah*Undang-undang*Syarikat*Perniagaan*Antarabangsa*di*Saint*Vincent*dan*Grenadines.*Nombor*syarikat*adalah*26087*SM*2020.*Alamat*berdaftar*adalah:*Pusat*Perkhidmatan*Kewangan*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
-    'WCG*Markets*Ltd*is*regulated*by*the*FINTRAC.*The*MSB*license*number*is*M20282836.*The*registered*address*is:*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
+    'WCG*Markets*Ltd*dikawal*selia*oleh*FINTRAC.*Nombor*lesen*MSB*adalah*M20282836.*Alamat*berdaftar*adalah:*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Kanada.',
   WenchuanGoldCompany:
-    'Wenchuan*Gold*Company*Limited*is*regulated*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*It*is*the*No.12*A1*member*unit.*The*registered*address*is:*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38 Wai*Yip*Street,*Kowloon,*Hong*Kong.',
+    'Wenchuan*Gold*Company*Limited*dikawal*selia*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*Ia*adalah*unit*anggota*No.12*A1.*Alamat*berdaftar*adalah:*Flat*D,*22*/*F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WenchuanGlobalLtd:
-    'Wenchuan*Global*Ltd*is*a*limited*liability*company*incorporated*in*the*United*Kingdom*with*the*company*number*11019948.*The*registered*address*is:*WC1E*6HA,*5th*Floor,*3*Gower*Street,*London,*UK.',
+    'Wenchuan*Global*Ltd*adalah*syarikat*berhad*yang*diperbadankan*di*United*Kingdom*dengan*nombor*syarikat*11019948.*Alamat*berdaftar*adalah:*WC1E*6HA,*5th*Floor,*3*Gower*Street,*London,*UK.',
   HighRiskInvestmentWarning:
-    'High-risk*investment*warning:*Contracts*for*Difference*(CFD)*are*complex*financial*products,*and*their*use*of*leveraged*trading*attributes*is*likely*to*cause*rapid*loss*of*principal,*and*you*may*be*required*to*call*for*margin.*Please*understand*the*product*principles*of*CFDs*and*consider*whether*you*can*withstand*this*risk*before*entering*the*market.*The*past*prices*and*performance*of*all*financial*derivatives*instruments*do*not*guarantee*or*represent*future*trends.*Such*financial*products*are*not*suitable*for*all*investors.*Please*be*sure*to*fully*understand*all*potential*risks*before*entering*the*market*and*seek*independent*advice*when*necessary.',
+    'Amaran*pelaburan*berisiko*tinggi:*Kontrak*untuk*Perbezaan*(CFD)*adalah*produk*kewangan*yang*kompleks,*dan*penggunaannya*atribut*perdagangan*leveraged*cenderung*menyebabkan*kehilangan*prinsipal*yang*cepat,*dan*anda*mungkin*diminta*untuk*meminta*margin.*Harap*fahami*prinsip*produk*CFD*dan*pertimbangkan*sama*ada*anda*dapat*menahan*risiko*ini*sebelum*memasuki*pasaran.*Harga*dan*prestasi*masa*lalu*semua*instrumen*derivatif*kewangan*tidak*menjamin*atau*mewakili*trend*masa*depan.*Produk*kewangan*seperti*itu*tidak*sesuai*untuk*semua*pelabur.*Pastikan*anda*memahami*sepenuhnya*semua*potensi*risiko*sebelum*memasuki*pasaran*dan*dapatkan*nasihat*bebas*apabila*perlu.',
   restrictedAreas:
-    "Restricted*areas:*WCG*International*Co.,*Ltd.'s*website*information*does*not*aimed*at*targeting*residents*of*British*Columbia,*Quebec*and*Saskatchewan,*the*Democratic*People's*Republic*of*Korea*(North*Korea),*Iran,*the*United*States*and*Hong*Kong;*And*not*to*send*or*use*the*information*to*people*in*countries*or*jurisdictions*where*the*publication*or*use*of this*information*violates*local*laws*and*regulations."
+    'Kawasan*terhad:*Maklumat*laman*web*WCG*International*Co.,*Ltd.*tidak*bertujuan*menyasarkan*penduduk*British*Columbia,*Quebec*dan*Saskatchewan,*Republik*Rakyat*Demokratik*Korea*(Korea*Utara),*Iran,*Amerika*Syarikat*dan*Hong*Kong;*Dan*untuk*tidak*mengirim*atau*menggunakan*maklumat*tersebut*kepada*orang-orang*di*negara*atau*wilayah*hukum*di*mana*penerbitan*atau*penggunaan*maklumat*ini*melanggar*undang-undang*dan*peraturan*tempatan.'
 };
