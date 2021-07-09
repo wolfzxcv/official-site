@@ -1,47 +1,48 @@
 import { Home } from '../@types/home';
 
 export const home: Home = {
-  diversifiedProducts: 'Diversified*products,to*meet*your*investment*needs',
+  diversifiedProducts:
+    'Produk*yang*pelbagai,*untuk*memenuhi*keperluan*pelaburan*anda',
   strongAdvantages:
-    'Strong*advantages,*to*ensure*the*safety*of*your*transactions',
+    'Kelebihan*besar,*untuk*memastikan*keselamatan*transaksi*anda',
   highLiquidity:
-    'High*liquidity,*significant*spreads*discount,*low*cost*and*high*return',
+    'Kecairan*tinggi,*potongan*spread*yang*ketara,*kos*rendah*dan*pulangan*tinggi.',
   safetyOfFunds:
-    'Safety*of*funds,*rapid*deposit*and*withdrawal*process,*smooth*system,*round-the-clock*service',
-  askProductsNow: 'Ask*Products*Now',
-  safeAndSecureDepository: 'Safe*and*secure*depository',
+    'Keselamatan*dana,*proses*deposit*dan*pengeluaran*yang*cepat,*sistem*lancar,*perkhidmatan*sepanjang*masa',
+  askProductsNow: 'Tanya*Produk*Sekarang',
+  safeAndSecureDepository: 'Simpanan*selamat*dan*terlindung',
   customerFunds:
-    'Customer*funds*are*deposited*separately*and*reviewed*by*regulatory*agencies.*With*ten*years*of*financial*professional*risk*control*experience,*each*single*transaction*is*strictly*reviewed*to*ensure*the*safety*of*customer*funds.',
-  efficientDeposit: 'Efficient*deposit*and*withdrawal*of*funds',
+    'Dana*pelanggan*disimpan*secara*berasingan*dan*disemak*oleh*agensi*pengawal*selia.*Dengan*pengalaman*pengendalian*risiko*profesional*kewangan*selama*sepuluh*tahun,*setiap*satu*transaksi*dikaji*dengan*ketat*untuk*memastikan*keselamatan*dana*pelanggan.',
+  efficientDeposit: 'Deposit*dan*pengeluaran*dana*yang*cekap',
   theDepositAndWithdrawal:
-    'The*deposit*and*withdrawal*of*funds*is*simple*and*unrestricted,*simplifying*the*complicated*deposit*and*withdrawal*procedures,*allowing*you*to*deposit*and*withdraw*you*money*quickly*at*anytime,*anywhere,*as*fast*as*two*hours.',
-  fastPayment: 'Fast*payment*processing',
+    'Deposit*dan*pengeluaran*dana*adalah*sederhana*dan*tidak*terhad,*menyederhanakan*prosedur*deposit*dan*pengeluaran*yang*rumit,*membolehkan*anda*menyimpan*dan*mengeluarkan*wang*anda*dengan*cepat*pada*bila-bila*masa,*di*mana*sahaja*sepantas*dua*jam.',
+  fastPayment: 'Pemprosesan*pembayaran*pantas',
   theLatestTechnology:
-    'The*latest*technology*makes*the*review*and*account*opening*process*faster.*The*goal*of*the*payment*system*is*to*be*the*latest*system*that*provides*the*fastest*deposit*and*withdrawal*services*in*the*industry.',
-  invest: 'Invest*',
-  inNewChannels: 'in*new*channels,*make*money*in*WCG',
-  professionalEquals: '100%*professional*equals*100%*confidence',
-  mobileTradingSystem: 'Mobile*Trading*System',
+    'Teknologi*terkini*menjadikan*proses*semakan*dan*pembukaan*akaun*lebih*cepat.*Matlamat*sistem*pembayaran*adalah*menjadi*sistem*terbaru*yang*menyediakan*perkhidmatan*deposit*dan*pengeluaran*yang*paling*cepat*di*dalam*industri.',
+  invest: 'Melabur*',
+  inNewChannels: 'dalam*saluran*baru,*menjana*wang*di*WCG',
+  professionalEquals: '100%*profesional*sama*dengan*100%*keyakinan',
+  mobileTradingSystem: 'Sistem*Perdagangan*Mudah*Alih',
   WCGMobileTradingSystem:
-    'WCG*Mobile*Trading*System*provides*a*simple*and*convenient*method*so*that*customers*can*trade*while*traveling*and*immediately*react*to*instant*market*news*and*data,*thereby*maximizing*trading*opportunities.',
+    'Sistem*Perdagangan*Mudah*Alih*WCG*menyediakan*kaedah*yang*mudah*sehingga*pelanggan*dapat*melakukan*perdagangan*semasa*dalam*perjalanan*dan*segera*bertindak*balas*terhadap*berita*dan*data*pasaran*segera,*sehingga*memaksimumkan*peluang*perdagangan.',
   brandReputation:
-    'Brand*reputation*and*customer*service*team*led*by*famous*market*tutors',
+    'Reputasi*jenama*dan*pasukan*perkhidmatan*pelanggan*yang*diketuai*oleh*tutor*pasaran*terkenal',
   withFormalBusinessLicense:
-    'With*formal*business*license*in*the*international*financial*market,*which*is*protected*by*the*laws*of*Hong*Kong,*China*and*the*international*regulations*of*St.*Vincent.*It*is*the*Internet*"the*most*trusted*precious*metal*broker*for*investors".',
-  preciousMetalsContract: 'Precious*Metals*Contract',
+    'Dengan*lesen*perniagaan*formal*di*pasaran*kewangan*antarabangsa,*yang*dilindungi*oleh*undang-undang*Hong*Kong,*China*dan*peraturan*antarabangsa*St.Vincent.*Ini*adalah*Internet*"broker*logam*berharga*yang*paling*dipercayai*untuk*pelabur".',
+  preciousMetalsContract: 'Kontrak*Logam*Berharga',
   timesLeverage:
-    '100-200*times*leverage,low-cost*and*high-return,global*24-hours*trading,can*make*profit*by*both*buy*and*sell.London*Gold*&*London*Silver*is*a*trading*product*provided*by*the*International*Financial*Futures*Exchange,*with*simple*trading*rules,*T+0 operation,*short*fund*settlement*time,*and*fast*and*safe*online*electronic*transactions.',
-  accountOpening: 'Account*Opening',
-  realTimeQuotation: 'Real-time*quotation*of*our*trading*products',
+    '100-200*kali*leverage,*kos*rendah*dan*pulangan*tinggi,*perdagangan*24*jam*global,*dapat*memperoleh*keuntungan*dengan*membeli*dan*menjual.*London*Gold*&*London*Silver*adalah*produk*perdagangan*yang*disediakan*oleh*International*Financial*Futures*Exchange,*dengan*peraturan*perdagangan*yang*mudah,*operasi*T*+*0,*waktu*penyelesaian*dana*pendek,*dan*transaksi*elektronik*dalam*talian*yang*cepat*dan*selamat.',
+  accountOpening: 'Pembukaan*Akaun',
+  realTimeQuotation: 'Petikan*masa*nyata*produk*perdagangan*kami',
   aVarietyOfProfessional:
-    'A*variety*of*professional*chart*analysis*tools*and*technical*indicators.*You*can*freely*set*your*own*technical*indicator*parameters*and*time*frame.',
-  investmentProductsAcross: 'Investment*products*across*the*globe',
+    'Pelbagai*alat*analisis*carta*profesional*dan*petunjuk*teknikal.*Anda*boleh*menetapkan*parameter*dan*jangka*masa*penunjuk*teknikal*anda*secara*bebas.',
+  investmentProductsAcross: 'Produk*pelaburan*di*seluruh*dunia',
   includingMoreThan:
-    'Including*more*than*a*hundred*investment*products*such*as*margin*FX,*precious*metals,*crude*oil,*futures,*crypto*currencies,*stocks,*etc.',
-  connectingTo: 'Connecting*to*thousands*of*servers',
+    'Termasuk*lebih*daripada*seratus*produk*pelaburan*seperti*margin*FX*met*logam*berharga*oil*minyak*mentah,*niaga*hadapan,*mata*wang*kripto,*saham,*dll.',
+  connectingTo: 'Menyambung*ke*ribuan*pelayan',
   automatedProcess:
-    'Automated*process*can*effectively*improve*the*speed*and*accuracy*of*fund*transfer,*so*that*you*can*enjoy*the*best*deposit*and*withdrawal*experience.',
-  downloadImmediately: 'Download*immediately',
+    'Proses*automatik*dapat*meningkatkan*kelajuan*dan*ketepatan*pemindahan*dana*dengan*berkesan*that*sehingga*anda*dapat*menikmati*pengalaman*deposit*dan*pengeluaran*terbaik.',
+  downloadImmediately: 'Muat*turun*dengan*segera',
   fastExecutionOfEachOrder:
-    'Fast*execution*of*each*order,*minimum*slippage,*high*liquidity,*high*stability,*high*transparency'
+    'Pelaksanaan*cepat*setiap*pesanan*sl*slippage*minimum,*kecairan*tinggi*stability*kestabilan*tinggi*transparency*ketelusan*tinggi'
 };

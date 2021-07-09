@@ -1,47 +1,46 @@
 import { Home } from '../@types/home';
 
 export const home: Home = {
-  diversifiedProducts: 'Diversified*products,to*meet*your*investment*needs',
-  strongAdvantages:
-    'Strong*advantages,*to*ensure*the*safety*of*your*transactions',
+  diversifiedProducts: 'منتجات*متنوعة*لتلبية，احتياجاتك*الاستثمارية',
+  strongAdvantages: 'مزايا*قوية*لتضمن，*أمان*معاملاتك',
   highLiquidity:
-    'High*liquidity,*significant*spreads*discount,*low*cost*and*high*return',
+    'سيولة*عالية،*خصم*كبير*على*فروق*الأسعار،*تكلفة*منخفضة*وعائد*مرتفع.',
   safetyOfFunds:
-    'Safety*of*funds,*rapid*deposit*and*withdrawal*process,*smooth*system,*round-the-clock*service',
-  askProductsNow: 'Ask*Products*Now',
-  safeAndSecureDepository: 'Safe*and*secure*depository',
+    'أمان*الأموال،*عملية*الإيداع*والسحب*السريعة،*النظام*السلس،*الخدمة*على*مدار*الساعة',
+  askProductsNow: 'اطرح*أسئلة*حول*منتجات*التداول*الآن',
+  safeAndSecureDepository: 'إيداعات*آمنة*ومضمونة',
   customerFunds:
-    'Customer*funds*are*deposited*separately*and*reviewed*by*regulatory*agencies.*With*ten*years*of*financial*professional*risk*control*experience,*each*single*transaction*is*strictly*reviewed*to*ensure*the*safety*of*customer*funds.',
-  efficientDeposit: 'Efficient*deposit*and*withdrawal*of*funds',
+    'إن*أموال*العملاء*يتم*إيداعها*بشكل*منفصل*و*يتم*مراجعتها*من*قبل*الهيئات*التنظيمية.*مع*عشر*سنوات*من*الخبرة*المالية*والمهنية*لإدارة*المخاطر*حيث*تتم*مراجعة*كل*عملية*تحويل*مالي*بدقة*لضمان*سلامة*أموال*العملاء',
+  efficientDeposit: 'إيداع*وسحب*الأموال*بكفاءة',
   theDepositAndWithdrawal:
-    'The*deposit*and*withdrawal*of*funds*is*simple*and*unrestricted,*simplifying*the*complicated*deposit*and*withdrawal*procedures,*allowing*you*to*deposit*and*withdraw*you*money*quickly*at*anytime,*anywhere,*as*fast*as*two*hours.',
-  fastPayment: 'Fast*payment*processing',
+    '.التقنيات*الحديثة*تجعل*أحدث*التقنيات*لعملية*المراجعة*وفتح*الحساب*أسرع.*يهدف*نظام*الدفع*لأن يكون*أحدث*نظام*يوفر*أسرع*خدمات*للإيداع*والسحب*متاحة*في*السوق',
+  fastPayment: 'معالجة*سريعة*للمدفوعات',
   theLatestTechnology:
-    'The*latest*technology*makes*the*review*and*account*opening*process*faster.*The*goal*of*the*payment*system*is*to*be*the*latest*system*that*provides*the*fastest*deposit*and*withdrawal*services*in*the*industry.',
-  invest: 'Invest*',
-  inNewChannels: 'in*new*channels,*make*money*in*WCG',
-  professionalEquals: '100%*professional*equals*100%*confidence',
-  mobileTradingSystem: 'Mobile*Trading*System',
+    '.التقنيات*الحديثة*تجعل*أحدث*التقنيات*لعملية*المراجعة*وفتح*الحساب*أسرع.*يهدف*نظام*الدفع*لأن يكون*أحدث*نظام*يوفر*أسرع*خدمات*للإيداع*والسحب*متاحة*في*السوق',
+  invest: 'استثمار*',
+  inNewChannels: 'في*قنوات*جديدة*，*اربح*المال*في*WCG',
+  professionalEquals: '٪100مهنية*تساوي 100٪*ثقة',
+  mobileTradingSystem: 'نظام*التداول*للهاتف*المحمول',
   WCGMobileTradingSystem:
-    'WCG*Mobile*Trading*System*provides*a*simple*and*convenient*method*so*that*customers*can*trade*while*traveling*and*immediately*react*to*instant*market*news*and*data,*thereby*maximizing*trading*opportunities.',
+    'يوفر*نظام*التداول*للهاتف*المحمول*من*WCG*طريقة*بسيطة*ومريحة*بحيث*يمكن*للعملاء*التداول*أثناء السفر*والتنقل*والرد*الفوري*على*أخبار*وبيانات*السوق*الفورية*وبالتالي*زيادة*فرص*التداول*إلى أقصى*حد',
   brandReputation:
-    'Brand*reputation*and*customer*service*team*led*by*famous*market*tutors',
+    '.تتم*إدارة*سمعة*العلامة*التجارية*وفريق*خدمة*العملاء*بواسطة*معلمين*مشهورين*في*السوق',
   withFormalBusinessLicense:
-    'With*formal*business*license*in*the*international*financial*market,*which*is*protected*by*the*laws*of*Hong*Kong,*China*and*the*international*regulations*of*St.*Vincent.*It*is*the*Internet*"the*most*trusted*precious*metal*broker*for*investors".',
-  preciousMetalsContract: 'Precious*Metals*Contract',
+    '.مع*حيازتها*لرخصة*تجارية*رسمية*في*السوق*المالية*الدولية،*والتي*تحميها*قوانين*هونغ*كونغ* والصين*واللوائح*الدولية*لسانت*فنسنت.* فإنها*تعتبر"الوسيط*الأكثر*ثقة*للمستثمرين*في*المعادن الثمينة"*على*الانترنيت',
+  preciousMetalsContract: 'عقود*المعادن*الثمينة',
   timesLeverage:
-    '100-200*times*leverage,low-cost*and*high-return,global*24-hours*trading,can*make*profit*by*both*buy*and*sell.London*Gold*&*London*Silver*is*a*trading*product*provided*by*the*International*Financial*Futures*Exchange,*with*simple*trading*rules,*T+0 operation,*short*fund*settlement*time,*and*fast*and*safe*online*electronic*transactions.',
-  accountOpening: 'Account*Opening',
-  realTimeQuotation: 'Real-time*quotation*of*our*trading*products',
+    '.بفضل*الرافعة*المالية*التي*تتراوح*قيمتها*ما*بين 100 الى 200 مرة،*والتداول*العالمي*منخفض*التكلفة*وذو*العائد*المرتفع*على*مدار 24 ساعة،*يمكنك*تحقيق*الربح*عن*طريق*الشراء*والبيع.*إن*London*Gold*&*London*Silver。*هو*منتج*تداول*مقدم*من*البورصة*المالية*الدولية*للعقود*الآجلة،*مع*قواعد*تداول*بسيطة،*وعملية*T+0*،*ووقت قصير*لتسوية*الأموال،*ومعاملات*إلكترونية*سريعة*وآمنة*عبر*الإنترنت',
+  accountOpening: 'فتح*الحساب',
+  realTimeQuotation: 'عرض*أسعار*فوري*في*الوقت*الفعلي*لمنتجاتنا*التجارية',
   aVarietyOfProfessional:
-    'A*variety*of*professional*chart*analysis*tools*and*technical*indicators.*You*can*freely*set*your*own*technical*indicator*parameters*and*time*frame.',
-  investmentProductsAcross: 'Investment*products*across*the*globe',
+    'مجموعة*متنوعة*من*الأدوات*الاحترافية*لتحليل*الرسوم*البيانية*والمؤشرات*الفنية.*يمكنك*تعيين*معلمات*المؤشر*الفني*والإطار*الزمني*الخاصة*بك*بحرية',
+  investmentProductsAcross: 'منتجات*استثمارية*من*جميع*أنحاء*العالم',
   includingMoreThan:
-    'Including*more*than*a*hundred*investment*products*such*as*margin*FX,*precious*metals,*crude*oil,*futures,*crypto*currencies,*stocks,*etc.',
-  connectingTo: 'Connecting*to*thousands*of*servers',
+    '.بما*في*ذلك*أكثر*من*مائة*منتج*استثماري*مثل*تداول*هامش*الفوركس،*والمعادن*الثمينة،*والنفط*الخام،*والعقود*الآجلة،*والعملات*المشفرة،*والأسهم،*وما*إلى*ذلك',
+  connectingTo: 'الاتصال*بآلاف*الخوادم',
   automatedProcess:
-    'Automated*process*can*effectively*improve*the*speed*and*accuracy*of*fund*transfer,*so*that*you*can*enjoy*the*best*deposit*and*withdrawal*experience.',
-  downloadImmediately: 'Download*immediately',
+    '.يمكن*أن*تحسن*العملية*الآلية*من*سرعة*ودقة*تحويل*الأموال*بشكل*فعال،*حيث*يمكنك*الاستمتاع*بأفضل تجربة*للإيداع*والسحب',
+  downloadImmediately: 'قم*بالتحميل*على*الفور',
   fastExecutionOfEachOrder:
-    'Fast*execution*of*each*order,*minimum*slippage,*high*liquidity,*high*stability,*high*transparency'
+    'تنفيذ*سريع*لكل*أمر*،*حد*أدنى*من*انزلاق*الأسعار،*سيولة*عالية،*إستقرار*عالي،*شفافية*عالية'
 };

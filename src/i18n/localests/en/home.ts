@@ -1,7 +1,7 @@
 import { Home } from '../@types/home';
 
 export const home: Home = {
-  diversifiedProducts: 'Diversified*products,to*meet*your*investment*needs',
+  diversifiedProducts: 'Diversified*products,*to*meet*your*investment*needs',
   strongAdvantages:
     'Strong*advantages,*to*ensure*the*safety*of*your*transactions',
   highLiquidity:

@@ -57,7 +57,7 @@ const Index: React.FC<{}> = () => {
           <StyledBox
             as="a"
             href="/products/forex"
-            m={3}
+            m={10}
             p={2}
             minH="48px"
             minW="200px"
