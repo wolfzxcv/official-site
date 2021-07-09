@@ -22,7 +22,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 {t('footer:startRealFXTrading')}
               </Text>
             </Box>
-            <StyledBox ml={3}>
+            <StyledBox ml={10}>
               <LinkButton
                 text={t('openRealAccount')}
                 href="https://trader.wc012.com/register"
@@ -38,7 +38,7 @@ const FooterMiddle: React.FC<{}> = () => {
               </Text>
               <Text fontSize="sm">{t('footer:getUSD')}</Text>
             </Box>
-            <StyledBox ml={3}>
+            <StyledBox ml={10}>
               <LinkButton
                 text={t('openDemoAccount')}
                 href="https://trader.wc012.com/registerMock"

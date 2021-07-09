@@ -167,11 +167,21 @@ const Index: React.FC<{}> = () => {
       </Flex>
 
       {/* Mobile Trading System */}
-      <Flex my={10} direction={{ base: 'column', xl: 'row' }}>
+      <Flex
+        my={10}
+        direction={{ base: 'column', xl: 'row' }}
+        justify="center"
+        align="center"
+      >
         <Box m={5} color="red.600" display={{ base: 'none', xl: 'block' }}>
           <AiFillTags fontSize="32px" />
         </Box>
-        <Stack p={2} spacing={3} textAlign={{ base: 'center', xl: 'left' }}>
+        <Stack
+          p={2}
+          spacing={3}
+          width={{ base: '80vw', xl: '40vw' }}
+          textAlign={{ base: 'center', xl: 'left' }}
+        >
           <Text fontSize="24px" fontWeight="700">
             {t('home:mobileTradingSystem')}
           </Text>
@@ -185,6 +195,7 @@ const Index: React.FC<{}> = () => {
           my={{ base: 10, xl: 0 }}
           p={2}
           spacing={3}
+          width={{ base: '80vw', xl: '40vw' }}
           textAlign={{ base: 'center', xl: 'left' }}
         >
           <Text fontSize="24px" fontWeight="700">

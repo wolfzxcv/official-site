@@ -5,7 +5,7 @@ import React from 'react';
 const FooterBottom: React.FC<{}> = () => {
   const { t } = useTranslation(['footer']);
   return (
-    <Flex direction="column" align="center" py={5}>
+    <Flex direction="column" align="center" p={10}>
       <Box fontSize="sm">{t('WCGIsABusinessBrand')}</Box>
       <Flex direction={{ base: 'column', md: 'row' }} m={3}>
         <Flex direction="column" mx={2}>
@@ -24,7 +24,7 @@ const FooterBottom: React.FC<{}> = () => {
           <Box fontSize="sm">{t('WenchuanGlobalLtd')}</Box>
         </Flex>
       </Flex>
-      <Box width={{ base: '92vw', md: '95vw' }} my={3} p={3} bg="tomato">
+      <Box width={{ base: '85vw', md: '92vw' }} m={3} p={3} bg="tomato">
         {t('HighRiskInvestmentWarning')}
       </Box>
       <Box fontSize="sm" p={3}>
