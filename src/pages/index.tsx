@@ -10,6 +10,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { GiChampions, GiServerRack } from 'react-icons/gi';
 import { HiServer } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
+import CommonCard from '../components/Common/CommonCard';
 import { StyledBox } from '../components/Styled/Styled';
 import Wrapper from '../components/Wrapper';
 import { Locales } from '../i18n/locales';
@@ -160,7 +161,14 @@ const Index: React.FC<{}> = () => {
       </Flex>
 
       {/* Invest */}
-      <Flex my="80px" direction="column" align="center">
+      <Flex
+        my="80px"
+        py={5}
+        direction="column"
+        align="center"
+        bgColor={{ base: 'black', xl: 'white' }}
+        color={{ base: 'white', xl: 'black' }}
+      >
         <Flex fontSize="36px" fontWeight="700">
           <Text color="red.500" mr={isChinese ? 0 : 3}>
             {t('home:invest')}
@@ -173,44 +181,26 @@ const Index: React.FC<{}> = () => {
         <Image src="../assets/images/home_divider.png" alt="divider" />
       </Flex>
 
-      {/* Mobile Trading System */}
+      {/* Trading System */}
       <Flex
-        my={10}
+        m={10}
         direction={{ base: 'column', xl: 'row' }}
-        justify="center"
+        justify="space-evenly"
         align="center"
       >
-        <Box m={5} color="red.600">
-          <FaMobileAlt fontSize="32px" />
-        </Box>
+        <CommonCard
+          icon={<FaMobileAlt fontSize="32px" />}
+          title={t('home:mobileTradingSystem')}
+          text={t('home:WCGMobileTradingSystem')}
+          isTwo
+        />
 
-        <Stack
-          p={2}
-          spacing={3}
-          width={{ base: '80vw', xl: '40vw' }}
-          textAlign={{ base: 'center', xl: 'left' }}
-        >
-          <Text fontSize="24px" fontWeight="700">
-            {t('home:mobileTradingSystem')}
-          </Text>
-          <Text>{t('home:WCGMobileTradingSystem')}</Text>
-        </Stack>
-
-        <Box mt={{ base: 10, xl: 5 }} mb={5} mx={5} color="red.600">
-          <GiChampions fontSize="32px" />
-        </Box>
-
-        <Stack
-          p={2}
-          spacing={3}
-          width={{ base: '80vw', xl: '40vw' }}
-          textAlign={{ base: 'center', xl: 'left' }}
-        >
-          <Text fontSize="24px" fontWeight="700">
-            {t('home:brandReputation')}
-          </Text>
-          <Text>{t('home:withFormalBusinessLicense')}</Text>
-        </Stack>
+        <CommonCard
+          icon={<GiChampions fontSize="32px" />}
+          title={t('home:brandReputation')}
+          text={t('home:withFormalBusinessLicense')}
+          isTwo
+        />
       </Flex>
 
       {/* Precious Metals Contract */}
@@ -300,51 +290,30 @@ const Index: React.FC<{}> = () => {
       {/* TradingView Widget END */}
 
       {/* Mobile Real-time quotation of our trading products */}
-      <Box display={{ base: 'block', xxl: 'none' }} width="inherit">
-        <Box
-          width="inherit"
-          backgroundImage="url('../assets/images/home_mobileBg.png')"
-          bgSize="cover"
-          height="980px"
-        ></Box>
-
-        <Box p={5}>
-          <Box mt={10} mx="auto" color="red.600">
-            <Center>
-              <AiOutlineFieldTime fontSize="32px" />
-            </Center>
-          </Box>
-          <Stack spacing={3} textAlign="center">
-            <Text fontSize="24px" fontWeight="700">
-              {t('home:realTimeQuotation')}
-            </Text>
-            <Text>{t('home:aVarietyOfProfessional')}</Text>
-          </Stack>
-
-          <Box mt={10} mx="auto" color="red.600">
-            <Center>
-              <ImEarth fontSize="32px" />
-            </Center>
-          </Box>
-          <Stack spacing={3} textAlign="center">
-            <Text fontSize="24px" fontWeight="700">
-              {t('home:investmentProductsAcross')}
-            </Text>
-            <Text>{t('home:includingMoreThan')}</Text>
-          </Stack>
-
-          <Box mt={10} mx="auto" color="red.600">
-            <Center>
-              <HiServer fontSize="32px" />
-            </Center>
-          </Box>
-          <Stack spacing={3} textAlign="center">
-            <Text fontSize="24px" fontWeight="700">
-              {t('home:connectingTo')}
-            </Text>
-            <Text>{t('home:automatedProcess')}</Text>
-          </Stack>
+      <Box display={{ base: 'block', xxl: 'none' }} width="100%">
+        <Box width="100%" height="auto">
+          <Image src="../assets/images/home_mobileBg.png" alt="mobile" />
         </Box>
+
+        <Flex m={10} direction="column" justify="center" align="center">
+          <CommonCard
+            icon={<AiOutlineFieldTime fontSize="32px" />}
+            title={t('home:realTimeQuotation')}
+            text={t('home:aVarietyOfProfessional')}
+          />
+
+          <CommonCard
+            icon={<ImEarth fontSize="32px" />}
+            title={t('home:investmentProductsAcross')}
+            text={t('home:includingMoreThan')}
+          />
+
+          <CommonCard
+            icon={<HiServer fontSize="32px" />}
+            title={t('home:connectingTo')}
+            text={t('home:automatedProcess')}
+          />
+        </Flex>
       </Box>
 
       {/* Desktop Real-time quotation of our trading products */}
@@ -416,7 +385,7 @@ const Index: React.FC<{}> = () => {
       </Box>
 
       {/* Download immediately */}
-      <StyledBox m={10}>
+      <StyledBox mt={{ base: '100px', md: 0 }} mx={10} mb="100px">
         <Flex
           justify="center"
           align="center"
