@@ -4,9 +4,12 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { AiFillLock, AiFillTags } from 'react-icons/ai';
+import { AiFillLock, AiOutlineFieldTime } from 'react-icons/ai';
 import { BsLightningFill } from 'react-icons/bs';
-import { GiServerRack } from 'react-icons/gi';
+import { FaMobileAlt } from 'react-icons/fa';
+import { GiChampions, GiServerRack } from 'react-icons/gi';
+import { HiServer } from 'react-icons/hi';
+import { ImEarth } from 'react-icons/im';
 import { StyledBox } from '../components/Styled/Styled';
 import Wrapper from '../components/Wrapper';
 import { Locales } from '../i18n/locales';
@@ -15,6 +18,7 @@ const Index: React.FC<{}> = () => {
   const { t } = useTranslation(['common', 'home']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
+  const isChinese = currentLang === 'cn' || currentLang === 'hk';
 
   return (
     <Wrapper variant="large">
@@ -80,7 +84,7 @@ const Index: React.FC<{}> = () => {
         direction={{ base: 'column', xl: 'row' }}
         justify="space-around"
         align="center"
-        my={3}
+        my={10}
       >
         <Box
           bg={{ base: 'none', xl: 'red.600' }}
@@ -156,10 +160,13 @@ const Index: React.FC<{}> = () => {
       </Flex>
 
       {/* Invest */}
-      <Flex my={10} direction="column" align="center">
-        <Box fontSize="36px" fontWeight="700">
-          {t('home:investInNewChannels')}
-        </Box>
+      <Flex my="80px" direction="column" align="center">
+        <Flex fontSize="36px" fontWeight="700">
+          <Text color="red.500" mr={isChinese ? 0 : 3}>
+            {t('home:invest')}
+          </Text>
+          <Text>{t('home:inNewChannels')}</Text>
+        </Flex>
         <Box fontSize="24px" my={3}>
           {t('home:professionalEquals')}
         </Box>
@@ -173,9 +180,10 @@ const Index: React.FC<{}> = () => {
         justify="center"
         align="center"
       >
-        <Box m={5} color="red.600" display={{ base: 'none', xl: 'block' }}>
-          <AiFillTags fontSize="32px" />
+        <Box m={5} color="red.600">
+          <FaMobileAlt fontSize="32px" />
         </Box>
+
         <Stack
           p={2}
           spacing={3}
@@ -188,11 +196,11 @@ const Index: React.FC<{}> = () => {
           <Text>{t('home:WCGMobileTradingSystem')}</Text>
         </Stack>
 
-        <Box m={5} color="red.600" display={{ base: 'none', xl: 'block' }}>
-          <AiFillTags fontSize="32px" />
+        <Box mt={{ base: 10, xl: 5 }} mb={5} mx={5} color="red.600">
+          <GiChampions fontSize="32px" />
         </Box>
+
         <Stack
-          my={{ base: 10, xl: 0 }}
           p={2}
           spacing={3}
           width={{ base: '80vw', xl: '40vw' }}
@@ -301,6 +309,11 @@ const Index: React.FC<{}> = () => {
         ></Box>
 
         <Box p={5}>
+          <Box mt={10} mx="auto" color="red.600">
+            <Center>
+              <AiOutlineFieldTime fontSize="32px" />
+            </Center>
+          </Box>
           <Stack spacing={3} textAlign="center">
             <Text fontSize="24px" fontWeight="700">
               {t('home:realTimeQuotation')}
@@ -308,13 +321,23 @@ const Index: React.FC<{}> = () => {
             <Text>{t('home:aVarietyOfProfessional')}</Text>
           </Stack>
 
-          <Stack my={10} spacing={3} textAlign="center">
+          <Box mt={10} mx="auto" color="red.600">
+            <Center>
+              <ImEarth fontSize="32px" />
+            </Center>
+          </Box>
+          <Stack spacing={3} textAlign="center">
             <Text fontSize="24px" fontWeight="700">
               {t('home:investmentProductsAcross')}
             </Text>
             <Text>{t('home:includingMoreThan')}</Text>
           </Stack>
 
+          <Box mt={10} mx="auto" color="red.600">
+            <Center>
+              <HiServer fontSize="32px" />
+            </Center>
+          </Box>
           <Stack spacing={3} textAlign="center">
             <Text fontSize="24px" fontWeight="700">
               {t('home:connectingTo')}
@@ -326,15 +349,13 @@ const Index: React.FC<{}> = () => {
 
       {/* Desktop Real-time quotation of our trading products */}
       <Box display={{ base: 'none', xxl: 'block' }}>
-        <Flex justify="center" mt="100px">
-          <Box maxW="432px" my={5} mx={2}>
+        <Flex justify="center" mt="250px">
+          <Box maxW="432px" mx={2}>
             <Image src="../assets/images/home_phone.png" alt="left" />
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
-              minH={
-                currentLang === 'cn' || currentLang === 'hk' ? '150px' : '215px'
-              }
+              minH={isChinese ? '150px' : '215px'}
               p={6}
               spacing={3}
               color="white"
@@ -347,13 +368,7 @@ const Index: React.FC<{}> = () => {
             </Stack>
           </Box>
 
-          <Box
-            maxW="432px"
-            my={5}
-            position="relative"
-            top="-115px"
-            right="16px"
-          >
+          <Box maxW="432px" position="relative" top="-115px" right="16px">
             <Image
               src="../assets/images/home_twoPhone.png"
               alt="middle"
@@ -363,9 +378,7 @@ const Index: React.FC<{}> = () => {
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
-              minH={
-                currentLang === 'cn' || currentLang === 'hk' ? '150px' : '215px'
-              }
+              minH={isChinese ? '150px' : '215px'}
               position="relative"
               top="-28px"
               left="16px"
@@ -382,14 +395,12 @@ const Index: React.FC<{}> = () => {
             </Stack>
           </Box>
 
-          <Box maxW="432px" my={5} mx={2}>
+          <Box maxW="432px" mx={2}>
             <Image src="../assets/images/home_connectServer.png" alt="right" />
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
-              minH={
-                currentLang === 'cn' || currentLang === 'hk' ? '150px' : '215px'
-              }
+              minH={isChinese ? '150px' : '215px'}
               p={6}
               spacing={3}
               color="white"
@@ -404,13 +415,13 @@ const Index: React.FC<{}> = () => {
         </Flex>
       </Box>
 
-      {/* account opening */}
-      <StyledBox my={10}>
+      {/* Download immediately */}
+      <StyledBox m={10}>
         <Flex
           justify="center"
           align="center"
           height="70px"
-          my={{ base: 20, md: 10 }}
+          mb={{ base: 20, md: 10 }}
           direction={{ base: 'column', md: 'row' }}
         >
           <Box

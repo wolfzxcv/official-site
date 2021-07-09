@@ -15,7 +15,8 @@ export const home: Home = {
   fastPayment: '极速款项处理',
   theLatestTechnology:
     '最新科技使稽核与开户速度变得更加迅速。支付系统的目标在于成为：提供业界最快速之入款及出款服务的最新系统。',
-  investInNewChannels: '投资新渠道，聚金在WCG',
+  invest: '投资',
+  inNewChannels: '新渠道，聚金在WCG',
   professionalEquals: '用百分的认真，赢得百分的信心',
   mobileTradingSystem: '移动交易系统',
   WCGMobileTradingSystem:

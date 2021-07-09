@@ -24,8 +24,10 @@ export type Home = {
   fastPayment: string;
   /** The latest technology */
   theLatestTechnology: string;
-  /** Invest in new channels */
-  investInNewChannels: string;
+  /** Invest */
+  invest: string;
+  /** in new channels */
+  inNewChannels: string;
   /** professional equals */
   professionalEquals: string;
   /** Mobile Trading System */

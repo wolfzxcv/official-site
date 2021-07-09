@@ -18,7 +18,8 @@ export const home: Home = {
   fastPayment: 'Fast*payment*processing',
   theLatestTechnology:
     'The*latest*technology*makes*the*review*and*account*opening*process*faster.*The*goal*of*the*payment*system*is*to*be*the*latest*system*that*provides*the*fastest*deposit*and*withdrawal*services*in*the*industry.',
-  investInNewChannels: 'Invest*in*new*channels，*make*money*in*WCG',
+  invest: 'Invest*',
+  inNewChannels: 'in*new*channels，*make*money*in*WCG',
   professionalEquals: '100%*professional*equals*100%*confidence',
   mobileTradingSystem: 'Mobile*Trading*System',
   WCGMobileTradingSystem:
