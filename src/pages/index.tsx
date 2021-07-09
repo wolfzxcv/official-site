@@ -66,7 +66,8 @@ const Index: React.FC<{}> = () => {
               bgColor: 'gray.100',
               color: 'gray.700',
               cursor: 'pointer',
-              transform: 'scale(1.2)'
+              transform: 'scale(1.1)',
+              fontWeight: '600'
             }}
           >
             {t('home:askProductsNow')}
@@ -213,19 +214,28 @@ const Index: React.FC<{}> = () => {
           <Text fontSize="22px">{t('home:timesLeverage')}</Text>
         </Box>
 
-        <StyledBox
-          mt={{ base: 10, xl: 0 }}
-          p={2}
-          bg="red.600"
-          fontSize="28px"
+        <Link
           _hover={{
-            bgColor: 'red.500',
-            cursor: 'pointer',
-            transform: 'scale(1.2)'
+            textDecoration: 'none'
           }}
+          href="https://trader.wc012.com/register"
+          isExternal
         >
-          {t('home:accountOpening')}
-        </StyledBox>
+          <StyledBox
+            mt={{ base: 10, xl: 0 }}
+            p={2}
+            bg="red.600"
+            fontSize="28px"
+            _hover={{
+              bgColor: 'red.500',
+              cursor: 'pointer',
+              transform: 'scale(1.1)',
+              fontWeight: '600'
+            }}
+          >
+            {t('home:accountOpening')}
+          </StyledBox>
+        </Link>
       </Flex>
 
       {/* embed from  */}
