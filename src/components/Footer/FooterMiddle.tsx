@@ -15,14 +15,14 @@ const FooterMiddle: React.FC<{}> = () => {
         </Text>
         <Text fontSize="sm">{t('footer:allTradesInvolveRisks')}</Text>
 
-        <Flex direction={{ base: 'column', md: 'row' }} justify="space-around">
-          <Flex alignItems="center" justify="center">
-            <Box textAlign="left">
+        <Flex direction={{ base: 'column', md: 'row' }} justify="space-evenly">
+          <Flex ml={{ base: 10, md: 0 }} alignItems="center">
+            <Box textAlign="left" width={{ base: '50vw', md: '30vw' }}>
               <Text fontSize="3xl" fontWeight="700">
                 {t('footer:startRealFXTrading')}
               </Text>
             </Box>
-            <StyledBox ml={10}>
+            <StyledBox width={{ base: '30vw', md: '15vw' }}>
               <LinkButton
                 text={t('openRealAccount')}
                 href="https://trader.wc012.com/register"
@@ -31,14 +31,14 @@ const FooterMiddle: React.FC<{}> = () => {
               ></LinkButton>
             </StyledBox>
           </Flex>
-          <Flex alignItems="center" justify="center">
-            <Box textAlign="left">
+          <Flex ml={{ base: 10, md: 0 }} alignItems="center">
+            <Box textAlign="left" width={{ base: '50vw', md: '30vw' }}>
               <Text fontSize="3xl" fontWeight="700">
                 {t('footer:newbiesGettingStarted')}
               </Text>
               <Text fontSize="sm">{t('footer:getUSD')}</Text>
             </Box>
-            <StyledBox ml={10}>
+            <StyledBox width={{ base: '30vw', md: '15vw' }}>
               <LinkButton
                 text={t('openDemoAccount')}
                 href="https://trader.wc012.com/registerMock"
