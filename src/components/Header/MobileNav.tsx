@@ -97,7 +97,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
         >
           {children &&
             children.map((child) => (
-              <Link key={child.href} py={2} href={child.href}>
+              <Link width="100%" key={child.href} py={2} href={child.href}>
                 {t(`header:${child.i18n}`)}
               </Link>
             ))}

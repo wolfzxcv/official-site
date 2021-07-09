@@ -1,5 +1,4 @@
-import { Box, Image } from '@chakra-ui/react';
-import Link from 'next/link';
+import { Box, Image, Link } from '@chakra-ui/react';
 import React from 'react';
 
 const Logo: React.FC<{}> = () => {

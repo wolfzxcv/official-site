@@ -18,7 +18,7 @@ export const Copyright: React.FC<{}> = () => {
       <Box>{t('copyright')}</Box>
 
       {/* mobile layout */}
-      <Flex wrap="wrap" display={{ base: 'flex', lg: 'none' }}>
+      <Flex wrap="wrap" display={{ base: 'flex', lg: 'none' }} my={3}>
         <CopyrightLinks
           text={t('privacyPolicy')}
           href="/conditions/privacyPolicy"
