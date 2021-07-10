@@ -50,11 +50,11 @@ const LangSelector: React.FC<{}> = () => {
       <MenuButton minW="90px" as={Button} rightIcon={<ChevronDownIcon />}>
         <Image src={`../assets/images/${language}.png`} alt={language}></Image>
       </MenuButton>
-      <MenuList minW="0" w={{ base: '90px', lg: '150px' }} zIndex={3}>
+      <MenuList minW="0" w={{ base: '90px', md: '150px' }} zIndex={3}>
         {locales.map((locale: Locales) => (
           <MenuItem key={locale} onClick={() => handleLanguageChange(locale)}>
             <Image src={`../assets/images/${locale}.png`} alt={locale}></Image>
-            <Text ml={4} display={{ base: 'none', lg: 'block' }}>
+            <Text ml={4} display={{ base: 'none', md: 'block' }}>
               {localesOptions.find((x) => x.code === locale)?.value || locale}
             </Text>
           </MenuItem>

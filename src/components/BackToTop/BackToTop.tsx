@@ -4,10 +4,8 @@ import BackToTopDesktop from './BackToTopDesktop';
 import BackToTopMobile from './BackToTopMobile';
 
 const BackToTop: React.FC<{}> = () => {
-  // const [isLargerThanSetting] = useMediaQuery('(min-width: 1020px)');
   return (
     <>
-      {/* {isLargerThanSetting ? <BackToTopDesktop /> : <BackToTopMobile />} */}
       <Box display={{ base: 'block', md: 'none' }}>
         <BackToTopMobile />
       </Box>

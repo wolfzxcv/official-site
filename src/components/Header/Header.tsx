@@ -32,7 +32,7 @@ export default function Header() {
         <Flex
           flex="1"
           ml={{ base: -2 }}
-          display={{ base: 'flex', lg: 'none' }}
+          display={{ base: 'flex', md: 'none' }}
           justify="space-between"
         >
           <IconButton
@@ -53,7 +53,7 @@ export default function Header() {
           mx={5}
           justify="space-between"
           align={'center'}
-          display={{ base: 'none', lg: 'flex' }}
+          display={{ base: 'none', md: 'flex' }}
         >
           <Logo />
 

@@ -8,7 +8,7 @@ export const common: Common = {
   contactUs: 'Contact*us',
   telegram: 'Telegram',
   online: 'online',
-  whatsApp: 'whatsApp',
+  whatsApp: 'WhatsApp',
   line: 'Line',
   clientPortal: 'Client*Portal',
   downloadMT4: 'Download*MT4',
