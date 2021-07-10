@@ -3,19 +3,19 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { Locales } from '../../i18n/locales';
 
-interface CommonCardProps {
+interface InfoCardProps {
   icon: JSX.Element;
   title: string;
   text: string;
   isTwo?: boolean;
 }
 
-const CommonCard: React.FC<CommonCardProps> = ({
+const InfoCard: React.FC<InfoCardProps> = ({
   icon,
   title,
   text,
   isTwo = false
-}: CommonCardProps) => {
+}: InfoCardProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isArabic = currentLang === 'sa';
@@ -41,4 +41,4 @@ const CommonCard: React.FC<CommonCardProps> = ({
   );
 };
 
-export default CommonCard;
+export default InfoCard;

@@ -10,7 +10,7 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { GiChampions, GiServerRack } from 'react-icons/gi';
 import { HiServer } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
-import CommonCard from '../components/Common/CommonCard';
+import InfoCard from '../components/Common/InfoCard';
 import { StyledBox } from '../components/Styled/Styled';
 import Wrapper from '../components/Wrapper';
 import { Locales } from '../i18n/locales';
@@ -206,14 +206,14 @@ const Index: React.FC<{}> = () => {
         justify="space-evenly"
         align="center"
       >
-        <CommonCard
+        <InfoCard
           icon={<FaMobileAlt fontSize="32px" />}
           title={t('home:mobileTradingSystem')}
           text={t('home:WCGMobileTradingSystem')}
           isTwo
         />
 
-        <CommonCard
+        <InfoCard
           icon={<GiChampions fontSize="32px" />}
           title={t('home:brandReputation')}
           text={t('home:withFormalBusinessLicense')}
@@ -314,19 +314,19 @@ const Index: React.FC<{}> = () => {
         </Box>
 
         <Flex m={10} direction="column" justify="center" align="center">
-          <CommonCard
+          <InfoCard
             icon={<AiOutlineFieldTime fontSize="32px" />}
             title={t('home:realTimeQuotation')}
             text={t('home:aVarietyOfProfessional')}
           />
 
-          <CommonCard
+          <InfoCard
             icon={<ImEarth fontSize="32px" />}
             title={t('home:investmentProductsAcross')}
             text={t('home:includingMoreThan')}
           />
 
-          <CommonCard
+          <InfoCard
             icon={<HiServer fontSize="32px" />}
             title={t('home:connectingTo')}
             text={t('home:automatedProcess')}
