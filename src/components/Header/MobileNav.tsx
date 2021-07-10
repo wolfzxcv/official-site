@@ -22,7 +22,7 @@ const MobileNav = () => {
       <Stack
         bg={useColorModeValue('white', 'gray.800')}
         p={4}
-        display={{ md: 'none' }}
+        display={{ lg: 'none' }}
       >
         {menuList.map((navItem) => (
           <MobileNavItem key={navItem.i18n} {...navItem} />

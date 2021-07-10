@@ -20,6 +20,7 @@ const Index: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'hk';
+  const isArabic = currentLang === 'sa';
 
   return (
     <Wrapper variant="large">
@@ -38,7 +39,12 @@ const Index: React.FC<{}> = () => {
           align="center"
         >
           {/* Banner */}
-          <Stack spacing={3} p={3} width={{ base: '80vw', xl: '60vw' }}>
+          <Stack
+            textAlign={isArabic ? 'right' : 'left'}
+            spacing={3}
+            p={3}
+            width={{ base: '80vw', xl: '60vw' }}
+          >
             <Text fontWeight="700" fontSize="42px" color="white">
               {t('home:diversifiedProducts')}
             </Text>
@@ -94,15 +100,19 @@ const Index: React.FC<{}> = () => {
           my={3}
         >
           <Flex
-            direction={{ base: 'column', xl: 'row' }}
-            minH={{ base: '100px', xl: '250px' }}
+            direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '250px' }}
             border={{ base: 'none', xl: '1px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
               <AiFillLock fontSize="32px" />
             </Box>
-            <Stack p={2} spacing={3} textAlign={{ base: 'center', xl: 'left' }}>
+            <Stack
+              p={2}
+              spacing={3}
+              textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
+            >
               <Text fontSize="24px" fontWeight="700">
                 {t('home:safeAndSecureDepository')}
               </Text>
@@ -118,15 +128,19 @@ const Index: React.FC<{}> = () => {
           my={3}
         >
           <Flex
-            direction={{ base: 'column', xl: 'row' }}
-            minH={{ base: '100px', xl: '250px' }}
+            direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '250px' }}
             border={{ base: 'none', xl: '1px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
               <BsLightningFill fontSize="32px" />
             </Box>
-            <Stack p={2} spacing={3} textAlign={{ base: 'center', xl: 'left' }}>
+            <Stack
+              p={2}
+              spacing={3}
+              textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
+            >
               <Text fontSize="24px" fontWeight="700">
                 {t('home:efficientDeposit')}
               </Text>
@@ -142,15 +156,19 @@ const Index: React.FC<{}> = () => {
           my={3}
         >
           <Flex
-            direction={{ base: 'column', xl: 'row' }}
-            minH={{ base: '100px', xl: '250px' }}
+            direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '250px' }}
             border={{ base: 'none', xl: '1px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
               <GiServerRack fontSize="32px" />
             </Box>
-            <Stack p={2} spacing={3} textAlign={{ base: 'center', xl: 'left' }}>
+            <Stack
+              p={2}
+              spacing={3}
+              textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
+            >
               <Text fontSize="24px" fontWeight="700">
                 {t('home:fastPayment')}
               </Text>
@@ -184,7 +202,7 @@ const Index: React.FC<{}> = () => {
       {/* Trading System */}
       <Flex
         m={10}
-        direction={{ base: 'column', xl: 'row' }}
+        direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
         justify="space-evenly"
         align="center"
       >
@@ -216,7 +234,7 @@ const Index: React.FC<{}> = () => {
         justify="space-evenly"
         color="white"
       >
-        <Box maxW="70vw">
+        <Box textAlign={isArabic ? 'right' : 'left'} maxW="70vw">
           <Text fontSize="36px" fontWeight="700">
             {t('home:preciousMetalsContract')}
           </Text>
@@ -328,7 +346,7 @@ const Index: React.FC<{}> = () => {
               p={6}
               spacing={3}
               color="white"
-              textAlign="left"
+              textAlign={isArabic ? 'right' : 'left'}
             >
               <Text fontSize="24px" fontWeight="700">
                 {t('home:realTimeQuotation')}
@@ -355,7 +373,7 @@ const Index: React.FC<{}> = () => {
               p={6}
               spacing={3}
               color="white"
-              textAlign="left"
+              textAlign={isArabic ? 'right' : 'left'}
             >
               <Text fontSize="24px" fontWeight="700">
                 {t('home:investmentProductsAcross')}
@@ -373,7 +391,7 @@ const Index: React.FC<{}> = () => {
               p={6}
               spacing={3}
               color="white"
-              textAlign="left"
+              textAlign={isArabic ? 'right' : 'left'}
             >
               <Text fontSize="24px" fontWeight="700">
                 {t('home:connectingTo')}
