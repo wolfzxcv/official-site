@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/layout';
+import { Box, Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import CopyrightLinks from './CopyrightLinks';
@@ -19,42 +19,34 @@ export const Copyright: React.FC<{}> = () => {
         {t('copyright')}
       </Box>
 
-      {/* mobile layout */}
-      <Flex wrap="wrap" display={{ base: 'flex', lg: 'none' }} my={3}>
-        <CopyrightLinks
-          text={t('privacyPolicy')}
-          href="/conditions/privacyPolicy"
-        />
-        <Box mx={1}>|</Box>
-        <CopyrightLinks
-          text={t('termsAndConditions')}
-          href="/conditions/termsAndConditions"
-        />
-      </Flex>
+      <Flex direction={{ base: 'column', md: 'row' }}>
+        <Flex wrap="wrap">
+          <CopyrightLinks
+            text={t('privacyPolicy')}
+            href="/conditions/privacyPolicy"
+          />
+          <Box mx={1}>|</Box>
+          <CopyrightLinks
+            text={t('termsAndConditions')}
+            href="/conditions/termsAndConditions"
+          />
+        </Flex>
 
-      {/* desktop layout */}
-      <Flex wrap="wrap" display={{ base: 'none', lg: 'flex' }}>
-        <CopyrightLinks
-          text={t('privacyPolicy')}
-          href="/conditions/privacyPolicy"
-        />
-        <Box mx={1}>|</Box>
-        <CopyrightLinks
-          text={t('termsAndConditions')}
-          href="/conditions/termsAndConditions"
-        />
+        <Box mx={1} display={{ base: 'none', lg: 'flex' }}>
+          |
+        </Box>
 
-        <Box mx={1}>|</Box>
-
-        <CopyrightLinks
-          text={t('disputeSettlement')}
-          href="/conditions/disputeSettlement"
-        />
-        <Box mx={1}>|</Box>
-        <CopyrightLinks
-          text={t('riskDisclaimer')}
-          href="/conditions/riskDisclaimer"
-        />
+        <Flex wrap="wrap">
+          <CopyrightLinks
+            text={t('disputeSettlement')}
+            href="/conditions/disputeSettlement"
+          />
+          <Box mx={1}>|</Box>
+          <CopyrightLinks
+            text={t('riskDisclaimer')}
+            href="/conditions/riskDisclaimer"
+          />
+        </Flex>
       </Flex>
 
       <SocialMediaLinks />

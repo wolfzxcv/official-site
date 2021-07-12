@@ -457,7 +457,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               transform: 'scale(1.2)'
             }}
-            href="https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe"
+            href="https://download.mql5.com/cdn/web/17749/mt4/WenChuangloballtd4setup.exe"
           >
             <Image src="../assets/images/home_pc.png" alt="pc"></Image>
           </Link>

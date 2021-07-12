@@ -1,8 +1,8 @@
 import { Home } from '../@types/home';
 
 export const home: Home = {
-  diversifiedProducts: 'منتجات*متنوعة*لتلبية，احتياجاتك*الاستثمارية',
-  strongAdvantages: 'مزايا*قوية*لتضمن，*أمان*معاملاتك',
+  diversifiedProducts: 'منتجات*متنوعة*لتلبية,احتياجاتك*الاستثمارية',
+  strongAdvantages: 'مزايا*قوية*لتضمن,*أمان*معاملاتك',
   highLiquidity:
     'سيولة*عالية،*خصم*كبير*على*فروق*الأسعار،*تكلفة*منخفضة*وعائد*مرتفع.',
   safetyOfFunds:
@@ -18,7 +18,7 @@ export const home: Home = {
   theLatestTechnology:
     '.التقنيات*الحديثة*تجعل*أحدث*التقنيات*لعملية*المراجعة*وفتح*الحساب*أسرع.*يهدف*نظام*الدفع*لأن يكون*أحدث*نظام*يوفر*أسرع*خدمات*للإيداع*والسحب*متاحة*في*السوق',
   invest: 'استثمار*',
-  inNewChannels: 'في*قنوات*جديدة*，*اربح*المال*في*WCG',
+  inNewChannels: 'في*قنوات*جديدة*,*اربح*المال*في*WCG',
   professionalEquals: '٪100مهنية*تساوي 100٪*ثقة',
   mobileTradingSystem: 'نظام*التداول*للهاتف*المحمول',
   WCGMobileTradingSystem:

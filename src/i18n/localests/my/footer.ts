@@ -22,10 +22,10 @@ export const footer: Footer = {
     'WCG*Markets*Ltd*adalah*syarikat*liabiliti*terhad*yang*didaftarkan*di*bawah*Undang-undang*Syarikat*Perniagaan*Antarabangsa*di*Saint*Vincent*dan*Grenadines.*Nombor*syarikat*adalah*26087*SM*2020.*Alamat*berdaftar*adalah:*Pusat*Perkhidmatan*Kewangan*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd*dikawal*selia*oleh*FINTRAC.*Nombor*lesen*MSB*adalah*M20282836.*Alamat*berdaftar*adalah:*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Kanada.',
-  WenchuanGoldCompany:
-    'Wenchuan*Gold*Company*Limited*dikawal*selia*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*Ia*adalah*unit*anggota*No.12*A1.*Alamat*berdaftar*adalah:*Flat*D,*22*/*F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
-  WenchuanGlobalLtd:
-    'Wenchuan*Global*Ltd*adalah*syarikat*berhad*yang*diperbadankan*di*United*Kingdom*dengan*nombor*syarikat*11019948.*Alamat*berdaftar*adalah:*WC1E*6HA,*5th*Floor,*3*Gower*Street,*London,*UK.',
+  WenChuanGoldCompany:
+    'WenChuan*Gold*Company*Limited*dikawal*selia*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*Ia*adalah*unit*anggota*No.12*A1.*Alamat*berdaftar*adalah:*Flat*D,*22*/*F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
+  WenChuanGlobalLtd:
+    'WenChuan*Global*Ltd*adalah*syarikat*berhad*yang*diperbadankan*di*United*Kingdom*dengan*nombor*syarikat*11019948.*Alamat*berdaftar*adalah:*WC1E*6HA,*5th*Floor,*3*Gower*Street,*London,*UK.',
   HighRiskInvestmentWarning:
     'Amaran*pelaburan*berisiko*tinggi:*Kontrak*untuk*Perbezaan*(CFD)*adalah*produk*kewangan*yang*kompleks,*dan*penggunaannya*atribut*perdagangan*leveraged*cenderung*menyebabkan*kehilangan*prinsipal*yang*cepat,*dan*anda*mungkin*diminta*untuk*meminta*margin.*Harap*fahami*prinsip*produk*CFD*dan*pertimbangkan*sama*ada*anda*dapat*menahan*risiko*ini*sebelum*memasuki*pasaran.*Harga*dan*prestasi*masa*lalu*semua*instrumen*derivatif*kewangan*tidak*menjamin*atau*mewakili*trend*masa*depan.*Produk*kewangan*seperti*itu*tidak*sesuai*untuk*semua*pelabur.*Pastikan*anda*memahami*sepenuhnya*semua*potensi*risiko*sebelum*memasuki*pasaran*dan*dapatkan*nasihat*bebas*apabila*perlu.',
   restrictedAreas:

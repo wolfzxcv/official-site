@@ -144,7 +144,8 @@ const forex: React.FC<forexProps> = () => {
           </Text>
 
           <Flex
-            p={10}
+            px={10}
+            py={'100px'}
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
             justify="space-evenly"
             align="center"

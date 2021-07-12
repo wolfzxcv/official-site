@@ -34,10 +34,10 @@ export type Footer = {
   WCGMarketsLtdIsALimitedLiabilityCompany: string;
   /** WCGMarketsLtdIsRegulatedByTheFINTRAC */
   WCGMarketsLtdIsRegulatedByTheFINTRAC: string;
-  /** WenchuanGoldCompany */
-  WenchuanGoldCompany: string;
-  /** WenchuanGlobalLtd */
-  WenchuanGlobalLtd: string;
+  /** WenChuanGoldCompany */
+  WenChuanGoldCompany: string;
+  /** WenChuanGlobalLtd */
+  WenChuanGlobalLtd: string;
   /** HighRiskInvestmentWarning */
   HighRiskInvestmentWarning: string;
   /** restrictedAreas */
