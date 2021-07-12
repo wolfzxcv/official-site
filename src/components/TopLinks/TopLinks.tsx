@@ -16,6 +16,7 @@ const TopLinks: React.FC<{}> = () => {
       alignItems="center"
       justify="center"
       color="white"
+      py={1}
     >
       <LinkButton
         text={t('openRealAccount')}

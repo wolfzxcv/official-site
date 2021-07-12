@@ -13,6 +13,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import React from 'react';
 import { ILinkSource, menuList } from './menuList';
 
@@ -32,9 +33,9 @@ const DesktopNav = () => {
               <Center>
                 {each.href ? (
                   <Link
-                    p={2}
+                    p={1}
                     href={each.href ?? '#'}
-                    fontSize={'sm'}
+                    fontSize={'md'}
                     fontWeight={600}
                     color={linkColor}
                     _hover={{
@@ -47,8 +48,8 @@ const DesktopNav = () => {
                   </Link>
                 ) : (
                   <Text
-                    p={2}
-                    fontSize={'sm'}
+                    p={1}
+                    fontSize={'md'}
                     fontWeight={600}
                     color={linkColor}
                     _hover={{
@@ -88,6 +89,7 @@ const DesktopNav = () => {
 
 const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
   const { t } = useTranslation(['header']);
+  const router = useRouter();
 
   return (
     <Link
@@ -96,6 +98,7 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
       display={'block'}
       p={2}
       rounded={'md'}
+      bgColor={router.pathname === href ? 'red.50' : 'inherit'}
       _hover={{ bg: useColorModeValue('gray.100', 'gray.900') }}
     >
       <Stack direction={'row'} align={'center'}>
@@ -103,7 +106,8 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
           <Text
             transition={'all .5s ease'}
             _groupHover={{ color: 'gray.600' }}
-            fontWeight={500}
+            fontWeight={router.pathname === href ? 700 : 500}
+            color={router.pathname === href ? 'red.800' : 'inherit'}
           >
             {t(i18n)}
           </Text>

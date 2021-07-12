@@ -10,6 +10,7 @@ import {
   useDisclosure
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import React from 'react';
 import LinkButton from '../TopLinks/LinkButton';
 import { IMenuItem, menuList } from './menuList';
@@ -29,12 +30,13 @@ const MobileNav = () => {
         ))}
       </Stack>
       <Flex
+        display={{ base: 'flex', md: 'none' }}
         bgColor="gray.700"
-        minH="50px"
-        alignItems="center"
+        minH="40px"
         justify="center"
         color="white"
-        borderBottom="1px"
+        pt={1}
+        // borderBottom="1px"
       >
         <LinkButton
           text={t('usersCenter')}
@@ -54,6 +56,7 @@ const MobileNav = () => {
 
 const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
   const { t } = useTranslation(['header']);
+  const router = useRouter();
 
   const { isOpen, onToggle } = useDisclosure();
 
@@ -97,7 +100,15 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
         >
           {children &&
             children.map((child) => (
-              <Link width="100%" key={child.href} py={2} href={child.href}>
+              <Link
+                width="100%"
+                key={child.href}
+                py={2}
+                href={child.href}
+                bgColor={router.pathname === child.href ? 'red.50' : 'inherit'}
+                fontWeight={router.pathname === child.href ? 700 : 500}
+                color={router.pathname === child.href ? 'red.800' : 'inherit'}
+              >
                 {t(`header:${child.i18n}`)}
               </Link>
             ))}
