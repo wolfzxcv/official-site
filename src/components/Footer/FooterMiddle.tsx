@@ -28,6 +28,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 href="https://trader.wc012.com/register"
                 inMobile
                 borderColor="red"
+                isFooter
               ></LinkButton>
             </StyledBox>
           </Flex>
@@ -44,6 +45,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 href="https://trader.wc012.com/registerMock"
                 inMobile
                 borderColor="green"
+                isFooter
               ></LinkButton>
             </StyledBox>
           </Flex>

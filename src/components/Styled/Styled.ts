@@ -1,7 +1,11 @@
-import { Box, IconButton } from '@chakra-ui/react';
+import { Box, Flex, IconButton } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 
 export const StyledBox = styled(Box)`
+  transition: 1 all;
+`;
+
+export const StyledFlex = styled(Flex)`
   transition: 1 all;
 `;
 
