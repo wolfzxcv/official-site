@@ -22,12 +22,14 @@ const TopLinks: React.FC<{}> = () => {
         text={t('openRealAccount')}
         href="https://trader.wc012.com/register"
         inMobile
+        borderColor="red"
       ></LinkButton>
 
       <LinkButton
         text={t('openDemoAccount')}
         href="https://trader.wc012.com/registerMock"
         inMobile
+        borderColor="green"
       ></LinkButton>
 
       <LinkButton

@@ -6,17 +6,20 @@ interface LinkButtonProps {
   href: string;
   inMobile?: boolean;
   withBorder?: boolean;
+  borderColor?: 'red' | 'green' | 'inherit';
 }
 
 const LinkButton: React.FC<LinkButtonProps> = ({
   text,
   href,
   inMobile = false,
-  withBorder = true
+  withBorder = true,
+  borderColor = 'inherit'
 }: LinkButtonProps) => {
   return (
     <Box
       border={withBorder ? '1px' : '0px'}
+      borderColor={withBorder && borderColor ? borderColor : 'inherit'}
       as="button"
       display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
       width={{ base: '45vw', md: '15vw' }}

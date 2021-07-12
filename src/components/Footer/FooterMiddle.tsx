@@ -27,7 +27,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 text={t('openRealAccount')}
                 href="https://trader.wc012.com/register"
                 inMobile
-                withBorder
+                borderColor="red"
               ></LinkButton>
             </StyledBox>
           </Flex>
@@ -43,7 +43,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 text={t('openDemoAccount')}
                 href="https://trader.wc012.com/registerMock"
                 inMobile
-                withBorder
+                borderColor="green"
               ></LinkButton>
             </StyledBox>
           </Flex>
