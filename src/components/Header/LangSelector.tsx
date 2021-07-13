@@ -52,7 +52,13 @@ const LangSelector: React.FC<{}> = () => {
       </MenuButton>
       <MenuList minW={{ base: '90px', md: '150px' }} zIndex={3}>
         {locales.map((locale: Locales) => (
-          <MenuItem key={locale} onClick={() => handleLanguageChange(locale)}>
+          <MenuItem
+            key={locale}
+            onClick={() => handleLanguageChange(locale)}
+            _hover={{
+              bgColor: '#CBD5E0'
+            }}
+          >
             <Image
               border="1px"
               src={`../assets/images/${locale}.png`}
