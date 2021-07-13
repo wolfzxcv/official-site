@@ -21,7 +21,7 @@ const MT4Overview: React.FC<{}> = () => {
   return (
     <Wrapper>
       <Flex my={10} direction="column" align="center">
-        <Box width={{ base: '80vw', md: '60vw' }} textAlign="center">
+        <Box my={20} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title="WCG MT4" />
           <InfoTitleSub title={t('efficientAndFreeTrading')} />
           <Image src="../assets/images/mt4overview_1.png" alt="device" />
