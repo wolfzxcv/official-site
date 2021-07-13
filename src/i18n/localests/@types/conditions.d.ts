@@ -16,10 +16,10 @@ export type Conditions = {
   transferSuchPersonalData: string;
   /** To provide any */
   toProvideAny: string;
-  /** WenChuan will keep the client’s personal */
-  WenChuanWillKeep: string;
-  /** WenChuan other companies include */
-  WenChuanOtherCompanies: string;
+  /** WCG will keep the client’s personal */
+  WCGWillKeep: string;
+  /** WCG other companies include */
+  WCGOtherCompanies: string;
   /** Agents and third-party service */
   agentsAndThirdPartyService: string;
   /** Any regulatory or government agency */
@@ -52,8 +52,8 @@ export type Conditions = {
   thirdPartyInformation: string;
   /** This website may contain */
   thisWebsiteMayContain: string;
-  /** Responsibilities of WenChuan International */
-  responsibilitiesOfWenChuanInternational: string;
+  /** Responsibilities of WCG International */
+  responsibilitiesOfWCGInternational: string;
   /** When you register as */
   whenYouRegisterAs: string;
   /** In addition to the above-mentioned service descriptions */
@@ -66,8 +66,8 @@ export type Conditions = {
   inAdditionToYourObligation: string;
   /** Company Information */
   companyInformation: string;
-  /** WenChuan International */
-  WenChuanInternational: string;
+  /** WCG International */
+  WCGInternational: string;
   /** Dispute Settlement */
   disputeSettlement: string;
   /** We welcome your invaluable comments */
@@ -99,13 +99,9 @@ export type Conditions = {
   /** If the problem */
   ifTheProblem: string;
   /** You can write to */
-  youCanWriteTo: string;
+  emailTo: string;
   /** Head of compliance */
   headOfCompliance: string;
-  /** WCG Markets Limited */
-  WCGMarketsLimited: string;
-  /** Or send an email */
-  orSendAnEmail: string;
   /** We target to resolve */
   weTargetToResolve: string;
   /** Risk Disclaimer */

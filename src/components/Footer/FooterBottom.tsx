@@ -19,9 +19,9 @@ const FooterBottom: React.FC<{}> = () => {
 
         <Flex direction="column" mx={2}>
           <Box fontSize="sm" mb={3}>
-            {t('WenChuanGoldCompany')}
+            {t('WCGGoldCompany')}
           </Box>
-          <Box fontSize="sm">{t('WenChuanGlobalLtd')}</Box>
+          <Box fontSize="sm">{t('WCGGlobalLtd')}</Box>
         </Flex>
       </Flex>
       <Box width={{ base: '85vw', md: '92vw' }} m={3} p={3} bg="tomato">

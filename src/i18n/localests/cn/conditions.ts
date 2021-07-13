@@ -10,9 +10,9 @@ export const conditions: Conditions = {
     '将该等个人资料转移予第三者服务供应商作信贷查证及／或核证数据用途',
   toProvideAny:
     '关于或有关遵守任何法律、规例、法令或监管机构的命令的任何用途而提供任何该等数据',
-  WenChuanWillKeep:
+  WCGWillKeep:
     '文传会把客户的个人资料保密，但按实际情况和需要可能提供给下列机构／人士：',
-  WenChuanOtherCompanies:
+  WCGOtherCompanies:
     '文传其他公司包括全资拥有的附属公司或附属公司的联营公司或集团属下的董事、职员等名义的全资或部份拥有的公司',
   agentsAndThirdPartyService:
     '为客户处理相关业务的代理人及第三方服务供应商包括：结算所、专业服务公司、金融机构、电脑系统服务商、电讯系统支持服务，作为完成客户服务的必要手续',
@@ -39,7 +39,7 @@ export const conditions: Conditions = {
   thirdPartyInformation: '协力厂商资料和网站',
   thisWebsiteMayContain:
     '本网站可能含有协力厂商製作的资料或与其他网站的连结。上述资料和网站係由协力厂商提供，不在文传国际的直接控制之下，文传国际对上述任何协力厂商资料或其他网站（不论是否与本网站连结）的运作或内容均不承担任何责任或义务。您确认，您未经文传国际事先书面同意设置任何其他网站与本网站的连结，文传国际有权要求您予以删除。',
-  responsibilitiesOfWenChuanInternational: '文传国际的责任',
+  responsibilitiesOfWCGInternational: '文传国际的责任',
   whenYouRegisterAs:
     '您登记成为文传国际客户并接受文传国际的服务，必须接受文传国际业务条款。您与文传国际的关係及文传国际就其所提供的服务对您的责任，适用业务条款。虽然文传国际定期更新网站，但不保证网站中所含的资讯或资料反映最新情况或准确无误，或网站上所列产品或服务现行有效。文传国际可能随时不经通知更改本网站上登载的资料。',
   inAdditionToTheAboveMentionedServiceDescriptions:
@@ -50,11 +50,11 @@ export const conditions: Conditions = {
   inAdditionToYourObligation:
     '在您登记成为文传国际客户所须承担的义务之外，您同意确保您向文传国际提供的一切资讯在您所知所信的范围内均完整、准确。您同意，您所提供的资讯發生任何变更，立即通知文传国际，以便文传国际及时更新记录、准确反映最新情况。',
   companyInformation: '公司资讯',
-  WenChuanInternational: '文传国际有限公司',
+  WCGInternational: 'WCG*Markets*Ltd',
   disputeSettlement: '争端处理',
   weWelcomeYourInvaluableComments:
     '我们欢迎您的宝贵意见。如果您有任何可以改善我们服务的想法，请告诉我们。无论是一个建议、称赞或投诉，您所回馈的意见，都是我们改善产品和服务的关键。',
-  ifYouNeedAnyAssistance: '如需协助，请致电',
+  ifYouNeedAnyAssistance: '如需协助，请即联络24小时线上客户服务人员',
   orEmailUs: '或直接把您的意见电邮给我们',
   makeASuggestion: '提出建议',
   weUnderstandThatEven:
@@ -74,10 +74,8 @@ export const conditions: Conditions = {
     '如果在这个阶段，问题一直没有得到解决或得不到满意的处理，请要求负责人员将此事向他们的上司彙报。我们会为您提供调查您投诉的负责人的姓名和详细联繫方式。放心，我们会授予该负责人员必要的权力来审查您的案件。',
   ifTheProblem:
     '如果问题不能得到解决，那麽您可以考虑向合规、内部审计及风险管理主管反映。该主管将进行独立检查，并直接与您联繫。',
-  youCanWriteTo: '您可以写信到：',
+  emailTo: '电邮给我们',
   headOfCompliance: '合规、内部审计及风险管理主管',
-  WCGMarketsLimited: 'WCG*Markets*Limited',
-  orSendAnEmail: '或发送电子邮件至：',
   weTargetToResolve:
     '我们的目标是大部份事情都可以在15个工作日内解决。然而，有些複杂的事情可能需要更长的时间来处理。如果是这样的话，我们会让您瞭解我们的处理进度。',
   riskDisclaimer: '免责申明',

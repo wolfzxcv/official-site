@@ -31,8 +31,8 @@ const disputeSettlement: React.FC<{}> = () => {
           <Text>{t('weWelcomeYourInvaluableComments')}</Text>
 
           <Text>
-            {`${t('ifYouNeedAnyAssistance')} 4001 203 612 ${t('orEmailUs')} `}
-            <Link href="info@wcglb.com">info@wcglb.com</Link>
+            {`${t('ifYouNeedAnyAssistance')} ${t('orEmailUs')} `}
+            <Link href="mailto:info@wcglb.com">info@wcglb.com</Link>
           </Text>
         </Box>
 
@@ -60,18 +60,15 @@ const disputeSettlement: React.FC<{}> = () => {
         </Box>
 
         <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={t('youCanWriteTo')} />
+          <InfoTitle size="22px" title={t('emailTo')} />
 
           <Box my={1}>
+            <Text>
+              {t('emailTo')}{' '}
+              <Link href="mailto:info@wcglb.com">info@wcglb.com</Link>
+            </Text>
             <Text>{t('headOfCompliance')}</Text>
-            <Text>{t('WCGMarketsLimited')}</Text>
-            <Text>
-              150-10451 Shellbridge Way， Richmond BC V6X 2W8， Canada
-            </Text>
-            <Text>
-              {t('orSendAnEmail')}{' '}
-              <Link href="info@wcglb.com">info@wcglb.com</Link>
-            </Text>
+            <Text>WCG Markets Ltd</Text>
             <Text>{t('weTargetToResolve')}</Text>
           </Box>
         </Box>

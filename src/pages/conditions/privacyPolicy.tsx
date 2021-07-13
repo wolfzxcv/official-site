@@ -30,9 +30,9 @@ const privacyPolicy: React.FC<{}> = () => {
         </Box>
 
         <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={t('WenChuanWillKeep')} />
+          <InfoTitle size="22px" title={t('WCGWillKeep')} />
           <OrderedList>
-            <ListItem>{t('WenChuanOtherCompanies')}</ListItem>
+            <ListItem>{t('WCGOtherCompanies')}</ListItem>
             <ListItem>{t('agentsAndThirdPartyService')}</ListItem>
             <ListItem>{t('anyRegulatoryOrGovernmentAgency')}</ListItem>
             <ListItem>{t('personsDeemedAppropriate')}</ListItem>

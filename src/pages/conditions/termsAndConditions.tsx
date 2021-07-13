@@ -56,7 +56,7 @@ const termsAndConditions: React.FC<{}> = () => {
         <Box width={'80vw'} my={2}>
           <InfoTitle
             size="22px"
-            title={`4.${t('responsibilitiesOfWenChuanInternational')}`}
+            title={`4.${t('responsibilitiesOfWCGInternational')}`}
           />
 
           <UnorderedList>
@@ -77,7 +77,7 @@ const termsAndConditions: React.FC<{}> = () => {
         <Box width={'80vw'} my={2}>
           <InfoTitle size="22px" title={`6.${t('companyInformation')}`} />
 
-          <Text>{t('WenChuanInternational')}</Text>
+          <Text>{t('WCGInternational')}</Text>
         </Box>
       </Flex>
     </Wrapper>

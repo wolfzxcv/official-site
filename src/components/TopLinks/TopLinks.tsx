@@ -8,9 +8,6 @@ const TopLinks: React.FC<{}> = () => {
 
   return (
     <Flex
-      position="sticky"
-      top="0"
-      zIndex={1}
       bgColor="gray.700"
       minH="70px"
       alignItems="center"
