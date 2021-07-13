@@ -15,7 +15,6 @@ const MT4Overview: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
 
   return (
     <Wrapper>
