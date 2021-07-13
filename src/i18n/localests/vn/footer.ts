@@ -12,7 +12,7 @@ export const footer: Footer = {
   allTradesInvolveRisks:
     'Chính*sách*rủi*ro:*Tất*cả*các*giao*dịch*đều*có*rủi*ro.*Khoản*lỗ*giao*dịch*của*bạn*có*thể*lớn*hơn*tổng*số*tiền*gửi*của*bạn.',
   newbiesGettingStarted: 'Người*mới*bắt*đầu',
-  getUSD: 'Nhận*100.000*USD*tiền*ảo*cho*tài*khoản*demo',
+  getUSD: 'Nhận*100,000*USD*tiền*ảo*cho*tài*khoản*demo',
   demoAccount: 'tài*khoản*demo',
   startRealFXTrading: 'Bắt*đầu*giao*dịch*ngoại*hối*thực',
   aRealAccount: 'Tài*khoản*thực',

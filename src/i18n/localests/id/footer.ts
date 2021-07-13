@@ -12,7 +12,7 @@ export const footer: Footer = {
   allTradesInvolveRisks:
     'Semua*perdagangan*melibatkan*risiko.*Kerugian*dalam*perdagangan*Anda*mungkin*lebih*besar*dari*total*deposit*Anda.Kebijakan*resiko',
   newbiesGettingStarted: 'Cara*Pemula*Memulai',
-  getUSD: 'Dapatkan*dana*virtual*USD*100.000*untuk*akun*demo',
+  getUSD: 'Dapatkan*dana*virtual*USD*100,000*untuk*akun*demo',
   demoAccount: 'Buka*akun*demo',
   startRealFXTrading: 'Mulai*perdagangan*FX*yang*riil',
   aRealAccount: 'Buka*akun*real',
