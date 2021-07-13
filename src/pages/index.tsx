@@ -23,7 +23,7 @@ const Index: React.FC<{}> = () => {
   const isArabic = currentLang === 'sa';
 
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       <Box
         minH="500px"
         backgroundImage="url('../assets/images/banner.png')"
@@ -210,6 +210,7 @@ const Index: React.FC<{}> = () => {
           icon={<FaMobileAlt fontSize="32px" />}
           title={t('home:mobileTradingSystem')}
           text={t('home:WCGMobileTradingSystem')}
+          minH={isChinese ? 'auto' : '300px'}
           isTwo
         />
 
@@ -217,6 +218,7 @@ const Index: React.FC<{}> = () => {
           icon={<GiChampions fontSize="32px" />}
           title={t('home:brandReputation')}
           text={t('home:withFormalBusinessLicense')}
+          minH={isChinese ? 'auto' : '300px'}
           isTwo
         />
       </Flex>

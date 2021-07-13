@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface corporateResponsibilityProps {}
 
 const corporateResponsibility: React.FC<corporateResponsibilityProps> = () => {
-  return <Wrapper variant="large">corporateResponsibility page!</Wrapper>;
+  return <Wrapper>corporateResponsibility page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

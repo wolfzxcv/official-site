@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface preciousMetalsProps {}
 
 const preciousMetals: React.FC<preciousMetalsProps> = () => {
-  return <Wrapper variant="large">preciousMetals page!</Wrapper>;
+  return <Wrapper>preciousMetals page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

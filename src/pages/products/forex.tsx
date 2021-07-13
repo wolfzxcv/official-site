@@ -24,10 +24,10 @@ const forex: React.FC<forexProps> = () => {
   const isArabic = currentLang === 'sa';
 
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       <Box>
         {/* forex */}
-        <Flex justify="space-around" mt={10}>
+        <Flex justify="space-around" my={20}>
           <Flex direction="column" width={{ base: '80vw', md: '40vw' }} mx={2}>
             <InfoTitle title={t('foreignExchangeTransactions')} />
             <Text my={5}>{t('theForeignExchange')}</Text>
@@ -155,18 +155,21 @@ const forex: React.FC<forexProps> = () => {
               icon={<AiOutlineFieldTime fontSize="32px" />}
               title={t('supportLeverage')}
               text={t('youCanUtilizeLeverage')}
+              withBorder
             />
 
             <InfoCard
               icon={<ImEarth fontSize="32px" />}
               title={t('fundingThreshold')}
               text={t('whenTradingForeignExchange')}
+              withBorder
             />
 
             <InfoCard
               icon={<HiServer fontSize="32px" />}
               title={t('hoursTrading')}
               text={t('fromMondayMorning')}
+              withBorder
             />
           </Flex>
         </Flex>

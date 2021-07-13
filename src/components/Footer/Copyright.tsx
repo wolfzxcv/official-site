@@ -15,7 +15,7 @@ export const Copyright: React.FC<{}> = () => {
       alignItems="center"
       justify="space-around"
     >
-      <Box width={{ base: 'auto', md: '20vw' }} px={{ base: 3, md: 0 }}>
+      <Box width={{ base: 'auto', md: 'auto' }} px={{ base: 3, md: 0 }}>
         {t('copyright')}
       </Box>
 

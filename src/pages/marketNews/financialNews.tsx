@@ -7,7 +7,7 @@ import mockNews from './mockNews';
 
 const financialNews: React.FC<{}> = () => {
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       {mockNews &&
         mockNews.map((each) => (
           <NewsCard

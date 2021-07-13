@@ -18,7 +18,7 @@ const disputeSettlement: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
 
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       {/* dispute Settlement */}
       <Flex my={10} direction="column" align="center">
         <Box>

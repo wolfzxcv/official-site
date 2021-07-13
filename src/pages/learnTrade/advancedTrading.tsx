@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface advancedTradingProps {}
 
 const advancedTrading: React.FC<advancedTradingProps> = () => {
-  return <Wrapper variant="large">advancedTrading page!</Wrapper>;
+  return <Wrapper>advancedTrading page!</Wrapper>;
 };
 export const getStaticProps: GetStaticProps = async (props) => ({
   props: {

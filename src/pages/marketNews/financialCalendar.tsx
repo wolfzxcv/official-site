@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface financialCalendarProps {}
 
 const financialCalendar: React.FC<financialCalendarProps> = () => {
-  return <Wrapper variant="large">financialCalendar page!</Wrapper>;
+  return <Wrapper>financialCalendar page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

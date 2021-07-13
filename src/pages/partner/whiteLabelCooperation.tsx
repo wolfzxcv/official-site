@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface whiteLabelCooperationProps {}
 
 const whiteLabelCooperation: React.FC<whiteLabelCooperationProps> = () => {
-  return <Wrapper variant="large">whiteLabelCooperation page!</Wrapper>;
+  return <Wrapper>whiteLabelCooperation page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

@@ -10,7 +10,7 @@ const privacyPolicy: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
 
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       {/* Privacy Policy */}
       <Flex my={10} direction="column" align="center">
         <Box>

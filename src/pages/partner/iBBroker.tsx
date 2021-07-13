@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface iBBrokerProps {}
 
 const iBBroker: React.FC<iBBrokerProps> = () => {
-  return <Wrapper variant="large">iBBroker page!</Wrapper>;
+  return <Wrapper>iBBroker page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

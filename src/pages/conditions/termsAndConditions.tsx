@@ -17,7 +17,7 @@ const termsAndConditions: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
 
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       {/* terms and conditions */}
       <Flex my={10} direction="column" align="center">
         <Box>

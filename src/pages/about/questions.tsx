@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface questionsProps {}
 
 const questions: React.FC<questionsProps> = () => {
-  return <Wrapper variant="large">questions page!</Wrapper>;
+  return <Wrapper>questions page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

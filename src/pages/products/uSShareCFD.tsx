@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface uSShareCFDProps {}
 
 const uSShareCFD: React.FC<uSShareCFDProps> = () => {
-  return <Wrapper variant="large">uSShareCFD page!</Wrapper>;
+  return <Wrapper>uSShareCFD page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

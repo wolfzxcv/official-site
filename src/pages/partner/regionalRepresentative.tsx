@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface regionalRepresentativeProps {}
 
 const regionalRepresentative: React.FC<regionalRepresentativeProps> = () => {
-  return <Wrapper variant="large">regionalRepresentative page!</Wrapper>;
+  return <Wrapper>regionalRepresentative page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

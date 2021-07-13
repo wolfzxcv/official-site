@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface cryptocurrenciesProps {}
 
 const cryptocurrencies: React.FC<cryptocurrenciesProps> = () => {
-  return <Wrapper variant="large">cryptocurrencies page!</Wrapper>;
+  return <Wrapper>cryptocurrencies page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

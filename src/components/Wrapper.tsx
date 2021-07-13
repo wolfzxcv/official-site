@@ -8,16 +8,14 @@ import Header from './Header/Header';
 import TopLinks from './TopLinks/TopLinks';
 
 interface WrapperProps {
-  variant?: 'small' | 'regular' | 'large';
+  maxW?: string;
   children?: React.ReactNode;
 }
 
 const Wrapper: React.FC<WrapperProps> = ({
   children,
-  variant = 'regular'
+  maxW = '100vw'
 }: WrapperProps) => {
-  const maxW =
-    variant === 'regular' ? '800px' : variant === 'large' ? '100vw' : '400px';
   return (
     <>
       <Head>
@@ -27,7 +25,7 @@ const Wrapper: React.FC<WrapperProps> = ({
       </Head>
       <Header />
       <TopLinks />
-      <Box minH="70vh" mx="auto" maxW={maxW} w="100%">
+      <Box minH="70vh" maxW={maxW} w="100%">
         {children}
       </Box>
       <BackToTop />

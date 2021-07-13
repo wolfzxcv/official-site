@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface marketAnalysisProps {}
 
 const marketAnalysis: React.FC<marketAnalysisProps> = () => {
-  return <Wrapper variant="large">marketAnalysis page!</Wrapper>;
+  return <Wrapper>marketAnalysis page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

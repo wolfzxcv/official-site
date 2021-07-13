@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface productsProps {}
 
 const products: React.FC<productsProps> = () => {
-  return <Wrapper variant="large">products page!</Wrapper>;
+  return <Wrapper>products page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface indexInfoProps {}
 
 const indexInfo: React.FC<indexInfoProps> = () => {
-  return <Wrapper variant="large">indexInfo page!</Wrapper>;
+  return <Wrapper>indexInfo page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

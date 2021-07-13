@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface companyNewsProps {}
 
 const companyNews: React.FC<companyNewsProps> = () => {
-  return <Wrapper variant="large">companyNews page!</Wrapper>;
+  return <Wrapper>companyNews page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

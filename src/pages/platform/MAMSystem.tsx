@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface MAMSystemProps {}
 
 const MAMSystem: React.FC<MAMSystemProps> = () => {
-  return <Wrapper variant="large">MAMSystem page!</Wrapper>;
+  return <Wrapper>MAMSystem page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface contactUsProps {}
 
 const contactUs: React.FC<contactUsProps> = () => {
-  return <Wrapper variant="large">contactUs page!</Wrapper>;
+  return <Wrapper>contactUs page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

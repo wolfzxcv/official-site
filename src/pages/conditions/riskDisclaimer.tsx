@@ -17,7 +17,7 @@ const riskDisclaimer: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
 
   return (
-    <Wrapper variant="large">
+    <Wrapper>
       {/* Risk Disclaimer */}
       <Flex my={10} direction="column" align="center">
         <Box>

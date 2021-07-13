@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface fundManagerProps {}
 
 const fundManager: React.FC<fundManagerProps> = () => {
-  return <Wrapper variant="large">fundManager page!</Wrapper>;
+  return <Wrapper>fundManager page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface aboutProps {}
 
 const about: React.FC<aboutProps> = () => {
-  return <Wrapper variant="large">about page!</Wrapper>;
+  return <Wrapper>about page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

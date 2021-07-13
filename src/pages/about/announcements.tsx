@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface announcementsProps {}
 
 const announcements: React.FC<announcementsProps> = () => {
-  return <Wrapper variant="large">announcements page!</Wrapper>;
+  return <Wrapper>announcements page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface crudeOilProps {}
 
 const crudeOil: React.FC<crudeOilProps> = () => {
-  return <Wrapper variant="large">crudeOil page!</Wrapper>;
+  return <Wrapper>crudeOil page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({

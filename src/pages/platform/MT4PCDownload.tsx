@@ -6,7 +6,7 @@ import Wrapper from '../../components/Wrapper';
 interface MT4PCDownloadProps {}
 
 const MT4PCDownload: React.FC<MT4PCDownloadProps> = () => {
-  return <Wrapper variant="large">MT4PCDownload page!</Wrapper>;
+  return <Wrapper>MT4PCDownload page!</Wrapper>;
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({
