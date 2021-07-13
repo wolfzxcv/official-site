@@ -12,7 +12,7 @@ const TopLinks: React.FC<{}> = () => {
       top="0"
       zIndex={1}
       bgColor="gray.700"
-      minH="50px"
+      minH="70px"
       alignItems="center"
       justify="center"
       color="white"

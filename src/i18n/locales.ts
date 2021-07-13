@@ -1,3 +1,8 @@
+/** Files to modify locales
+ *  next-i18next.config.js
+ *  locales.ts
+ *  */
+
 export type Locales = 'cn' | 'sa' | 'en' | 'my' | 'id' | 'vn' | 'hk';
 
 interface localesOptions {
