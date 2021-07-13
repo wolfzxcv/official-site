@@ -18,7 +18,7 @@ export const platform: Platform = {
   automaticAdaptabilityAndScalability: '自動適應性和可擴充性',
   throughTheFurtherDevelopment:
     '透過進一步開發的API程式能夠將WCG MT4與您現有的交易設備完美融合，不管您身處世界任何一個角落，您都可以隨時接入您的交易平台，定制您的指標、進行指令、執行交易，設定限價、止損訂單、以及追蹤市場動向，確保您即使在外出時，也不會錯過任何一個交易機會和重要的市場資料。',
-  downloadWCGMT4TradingPlatform: '下載WCG MT4交易平台',
+  downloadWCGMT4TradingPlatform: '下載WCG*MT4交易平台',
   leadingTradingAndNetworkTechnology:
     '領先的交易和網路技術，擁有您所需要的一切工具，帶給您最佳的交易體驗',
   forPC: '電腦版MT4',
