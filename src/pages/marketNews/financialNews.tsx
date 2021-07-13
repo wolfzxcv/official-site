@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import NewsCard from '../../components/Common/NewsCard';
 import Wrapper from '../../components/Wrapper';
-import mockNews from './mockNews';
+import mockNews from '../../mock/mockNews';
 
 const financialNews: React.FC<{}> = () => {
   return (
