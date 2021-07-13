@@ -16,8 +16,11 @@ const FooterMiddle: React.FC<{}> = () => {
         <Text fontSize="sm">{t('footer:allTradesInvolveRisks')}</Text>
 
         <Flex direction={{ base: 'column', md: 'row' }} justify="space-evenly">
-          <Flex ml={{ base: 10, md: 0 }} alignItems="center">
-            <Box textAlign="left" width={{ base: '50vw', md: '30vw' }}>
+          <Flex ml={{ base: 10, md: 0 }} alignItems="center" justify="center">
+            <Box
+              textAlign="left"
+              width={{ base: '50vw', md: '30vw', xxl: '20vw' }}
+            >
               <Text fontSize="3xl" fontWeight="700">
                 {t('footer:startRealFXTrading')}
               </Text>
@@ -33,7 +36,10 @@ const FooterMiddle: React.FC<{}> = () => {
             </StyledBox>
           </Flex>
           <Flex ml={{ base: 10, md: 0 }} alignItems="center">
-            <Box textAlign="left" width={{ base: '50vw', md: '30vw' }}>
+            <Box
+              textAlign="left"
+              width={{ base: '50vw', md: '30vw', xxl: '20vw' }}
+            >
               <Text fontSize="3xl" fontWeight="700">
                 {t('footer:newbiesGettingStarted')}
               </Text>
