@@ -446,7 +446,7 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk?utm_source=www.metatrader4.com&utm_campaign=download"
+            href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en&referrer=ref_id%3d5189084203383832573%26server%3dWenChuanGlobalLtd-Demo%252cWenChuanGlobalLtd-Live"
           >
             <Image
               src="../assets/images/home_android.png"
