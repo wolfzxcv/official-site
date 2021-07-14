@@ -90,4 +90,12 @@ export type Platform = {
   safeAndConvenient: string;
   /** Advanced trading and analysis functions  */
   advancedTradingAndAnalysisFunctions: string;
+  /** MT4 APP version  */
+  MT4APPVersion: string;
+  /** We provide the MT4 mobile application  */
+  weProvideTheMT4MobileApplication: string;
+  /** Download the iOS version  */
+  downloadTheIOSVersion: string;
+  /** Download the Android version  */
+  downloadTheAndroidVersion: string;
 };

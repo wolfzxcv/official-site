@@ -59,5 +59,10 @@ export const platform: Platform = {
     '提供了更全面的分析機會。每個交易品種都可以顯示九種時間周期，可以使交易者看到詳細的價格動態。 結合這些工具，確定行情趨勢，強大的分析能力幫您更徹底的分析市場動向，把握最佳時刻。',
   safeAndConvenient: '安全便利',
   advancedTradingAndAnalysisFunctions:
-    '先進的交易和分析功能，友好的用戶界面，有助於您輕鬆的了解全部功能和操作規則。符合最高的安全標準。客戶端和平台服務器之間的數據交換完全加密，讓您的交易賬戶得到最安全的保護。'
+    '先進的交易和分析功能，友好的用戶界面，有助於您輕鬆的了解全部功能和操作規則。符合最高的安全標準。客戶端和平台服務器之間的數據交換完全加密，讓您的交易賬戶得到最安全的保護。',
+  MT4APPVersion: 'MT4*APP*版（安卓*/*iOS）',
+  weProvideTheMT4MobileApplication:
+    '我們提供*MT4*移動應用程式，只要在您在手機或平版電腦下載及安裝MT4 APP，可以輕鬆實現隨時隨地交易。MT4*iOS及安卓*APP*提供更簡化的操作介面，能夠更方快捷的監察市場走勢，享受卓越的交易體驗。是您的每日助手，更是您不可替代的工具。',
+  downloadTheIOSVersion: '下載iOS版',
+  downloadTheAndroidVersion: '下載安卓版'
 };
