@@ -12,6 +12,7 @@ interface InfoCardProps {
   minH?: string;
   isTwo?: boolean;
   withBorder?: boolean;
+  allCenter?: boolean;
 }
 
 const InfoCard: React.FC<InfoCardProps> = ({
@@ -21,7 +22,8 @@ const InfoCard: React.FC<InfoCardProps> = ({
   text,
   minH = 'auto',
   isTwo = false,
-  withBorder = false
+  withBorder = false,
+  allCenter = false
 }: InfoCardProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
@@ -41,14 +43,20 @@ const InfoCard: React.FC<InfoCardProps> = ({
       </Box>
 
       <Stack
-        mx={withBorder ? 0 : 10}
+        mx={withBorder ? 0 : 5}
         my={10}
         px={withBorder ? 5 : 0}
         spacing={3}
         width={{ base: '80vw', xl: isTwo ? '40vw' : '30vw' }}
         textAlign={{
           base: 'center',
-          xl: withBorder ? 'center' : isArabic ? 'right' : 'left'
+          xl: withBorder
+            ? 'center'
+            : allCenter
+            ? 'center'
+            : isArabic
+            ? 'right'
+            : 'left'
         }}
       >
         <Text fontSize="24px" fontWeight="700">

@@ -10,8 +10,10 @@ import {
   useDisclosure
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
+import { Locales } from '../../i18n/locales';
 import LinkButton from '../TopLinks/LinkButton';
 import { IMenuItem, menuList } from './menuList';
 
@@ -56,6 +58,7 @@ const MobileNav = () => {
 const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
   const { t } = useTranslation(['header']);
   const router = useRouter();
+  const currentLang = router.locale as Locales;
 
   const { isOpen, onToggle } = useDisclosure();
 
@@ -99,17 +102,19 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
         >
           {children &&
             children.map((child) => (
-              <Link
-                width="100%"
-                key={child.href}
-                py={2}
-                href={child.href}
-                bgColor={router.pathname === child.href ? 'red.50' : 'inherit'}
-                fontWeight={router.pathname === child.href ? 700 : 500}
-                color={router.pathname === child.href ? 'red.800' : 'inherit'}
-              >
-                {t(`header:${child.i18n}`)}
-              </Link>
+              <NextLink key={child.href} href={child.href} locale={currentLang}>
+                <Link
+                  width="100%"
+                  py={2}
+                  bgColor={
+                    router.pathname === child.href ? 'red.50' : 'inherit'
+                  }
+                  fontWeight={router.pathname === child.href ? 700 : 500}
+                  color={router.pathname === child.href ? 'red.800' : 'inherit'}
+                >
+                  {t(`header:${child.i18n}`)}
+                </Link>
+              </NextLink>
             ))}
         </Stack>
       </Collapse>

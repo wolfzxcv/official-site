@@ -1,5 +1,7 @@
 import { Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import NextLink from 'next/link';
+import { useRouter } from 'next/router';
 import React from 'react';
 import {
   AiOutlineCloudDownload,
@@ -9,11 +11,14 @@ import {
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
+import { Locales } from '../../i18n/locales';
 import { openChatWindow, scrollToTop } from '../../utils';
 import { StyledBox, StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {
   const { t } = useTranslation(['common']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
 
   return (
     <StyledBox zIndex={1} position="fixed" bottom="30%" right="3">
@@ -71,16 +76,17 @@ const BackToTopDesktop: React.FC<{}> = () => {
           aria-hidden
           icon={<BsPencilSquare fontSize="32px" />}
         />
-        <StyledIconButton
-          as="a"
-          href="/platform/MT4Overview"
-          mb={3}
-          title={t('downloadMT4')}
-          borderRadius="50%"
-          aria-label={t('downloadMT4')}
-          aria-hidden
-          icon={<AiOutlineCloudDownload fontSize="32px" />}
-        />
+        <NextLink href="/platform/MT4Overview" locale={currentLang}>
+          <StyledIconButton
+            as="a"
+            mb={3}
+            title={t('downloadMT4')}
+            borderRadius="50%"
+            aria-label={t('downloadMT4')}
+            aria-hidden
+            icon={<AiOutlineCloudDownload fontSize="32px" />}
+          />
+        </NextLink>
         <StyledIconButton
           title={t('top')}
           borderRadius="50%"

@@ -2,6 +2,7 @@ import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { AiFillLock, AiOutlineFieldTime } from 'react-icons/ai';
@@ -60,29 +61,29 @@ const Index: React.FC<{}> = () => {
           </Stack>
 
           {/* Button under Banner */}
-          <StyledBox
-            as="a"
-            href="/products/forex"
-            m={10}
-            p={2}
-            minH="48px"
-            minW="200px"
-            border="2px"
-            borderColor="gray.100"
-            bgColor="transparent"
-            color="gray.100"
-            textAlign="center"
-            fontSize="24px"
-            _hover={{
-              bgColor: 'gray.100',
-              color: 'gray.700',
-              cursor: 'pointer',
-              transform: 'scale(1.1)',
-              fontWeight: '600'
-            }}
-          >
-            {t('home:askProductsNow')}
-          </StyledBox>
+          <NextLink href="/products/forex" locale={currentLang}>
+            <StyledBox
+              m={10}
+              p={2}
+              minH="48px"
+              minW="200px"
+              border="2px"
+              borderColor="gray.100"
+              bgColor="transparent"
+              color="gray.100"
+              textAlign="center"
+              fontSize="24px"
+              _hover={{
+                bgColor: 'gray.100',
+                color: 'gray.700',
+                cursor: 'pointer',
+                transform: 'scale(1.1)',
+                fontWeight: '600'
+              }}
+            >
+              {t('home:askProductsNow')}
+            </StyledBox>
+          </NextLink>
         </Flex>
       </Box>
 

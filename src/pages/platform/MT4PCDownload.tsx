@@ -1,23 +1,24 @@
-import { Box, Flex, Image } from '@chakra-ui/react';
+import { Box, Center, Flex, Image, List } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import InfoCard from '../../components/Common/InfoCard';
 import InfoCardSm from '../../components/Common/InfoCardSm';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import DownloadButton from '../../components/Platform/DownloadButton';
+import InfoList from '../../components/Platform/InfoList';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-interface MT4PCDownloadProps {}
-
-const MT4PCDownload: React.FC<MT4PCDownloadProps> = () => {
+const MT4PCDownload: React.FC<{}> = () => {
   const { t } = useTranslation(['platform']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'hk';
+  const isArabic = currentLang === 'sa';
 
   return (
     <Wrapper>
@@ -113,6 +114,96 @@ const MT4PCDownload: React.FC<MT4PCDownloadProps> = () => {
           />
         </Flex>
       </Flex>
+
+      <Flex
+        bgColor="gray.100"
+        w="100%"
+        my={10}
+        py={{ base: 0, xl: 20 }}
+        direction={{ base: 'column', xl: 'row' }}
+        justify="space-around"
+        align="center"
+      >
+        <Box width={{ base: '100%', xl: '40vw' }}>
+          <Center>
+            <Image src="../assets/images/mt4pcdownload_2.png" alt="device" />
+          </Center>
+        </Box>
+        <Box
+          my={{ base: 10, xl: 0 }}
+          width={{ base: '80vw', xl: '40vw' }}
+          textAlign={isArabic ? 'right' : 'left'}
+        >
+          <InfoTitle title={t('intuitiveAndEasyToUse')} />
+
+          <List spacing={3} my={10}>
+            <InfoList text={t('MT4IsTheMostPopularForeign')} />
+            <InfoList text={t('itHasWonVariousAwards')} />
+            <InfoList text={t('moreThan50Preset')} />
+            <InfoList text={t('aNumberOfTradingProducts')} />
+            <InfoList text={t('compatibleWithExpertAdvisors')} />
+            <InfoList text={t('itHasAMobileVersion')} />
+            <InfoList text={t('provideAnAdvanced')} />
+          </List>
+        </Box>
+      </Flex>
+
+      <Flex py={20} align="center" direction="column">
+        <Box my={10} width={{ base: '80vw', md: '60vw' }} textAlign="center">
+          <InfoTitle title={t('downloadTheWCGMT4')} />
+          <InfoTitleSub title={t('usingMT4AllowsYou')} />
+        </Box>
+        <Flex
+          direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
+        >
+          <InfoCard
+            image={
+              <Image
+                src="../assets/images/mt4pcdownload_3.png"
+                alt="pcdownload_3"
+              />
+            }
+            title={t('tradingSystem')}
+            text={t('includesCurrentPriceExecution')}
+            allCenter
+          />
+
+          <InfoCard
+            image={
+              <Image
+                src="../assets/images/mt4pcdownload_4.png"
+                alt="pcdownload_4"
+              />
+            }
+            title={t('technicalAnalysis')}
+            text={t('MT4ProvidesAMoreComprehensive')}
+            allCenter
+          />
+          <InfoCard
+            image={
+              <Image
+                src="../assets/images/mt4pcdownload_5.png"
+                alt="pcdownload_5"
+              />
+            }
+            title={t('safeAndConvenient')}
+            text={t('advancedTradingAndAnalysisFunctions')}
+            allCenter
+          />
+        </Flex>
+      </Flex>
+
+      <Center>
+        <Box
+          mb={20}
+          width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
+        >
+          <DownloadButton
+            href="https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe"
+            text={t('downloadImmediately')}
+          />
+        </Box>
+      </Center>
     </Wrapper>
   );
 };
