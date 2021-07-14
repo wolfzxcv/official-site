@@ -14,6 +14,7 @@ const InfoTitle: React.FC<InfoTitleProps> = ({
 }: InfoTitleProps) => {
   return (
     <Text
+      color="inherit"
       minH={minH ? minH : 'auto'}
       fontWeight={700}
       fontSize={size ? size : '30px'}

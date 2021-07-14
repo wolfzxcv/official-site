@@ -25,7 +25,7 @@ export const footer: Footer = {
   WCGGoldCompany:
     'WCG*Gold*Company*Limited*diatur*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*Ini*adalah*unit*anggota*No.12*A1.*Alamat*terdaftar*adalah:*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
-    'WCG*Global*Ltd*adalah*perseroan*terbatas*yang*didirikan*di*Inggris*dengan*nomor*perusahaan*11019948.*Alamat*terdaftar*adalah:*WC1E*6HA,*Lantai*5,*3*Gower*Street,*London,*Inggris.',
+    'Wenchuan*Global*Ltd*adalah*perseroan*terbatas*yang*didirikan*di*Inggris*dengan*nomor*perusahaan*11019948.*Alamat*terdaftar*adalah:*WC1E*6HA,*Lantai*5,*3*Gower*Street,*London,*Inggris.',
   HighRiskInvestmentWarning:
     'Peringatan*investasi*berisiko*tinggi:*Contracts*for*Difference*(CFD)*adalah*produk*keuangan*yang*kompleks, dan*penggunaan*atribut*perdagangan*dengan*leverage*kemungkinan*besar*akan*menyebabkan*hilangnya*pokok*dana*deposit*dengan*cepat,*dan*Anda*mungkin*diminta*untuk*penambahan*margin.*Harap*pahami*prinsip*produk*CFD*dan*pertimbangkan*apakah*Anda*dapat*menahan*risiko*ini*sebelum*memasuki*pasar.*Harga*dan*kinerja*masa*lalu*dari*semua*instrumen*derivatif*keuangan*tidak*menjamin*atau*mewakili*trend*masa*depan.*Produk*keuangan*semacam*itu*tidak*cocok*untuk*semua*investor.*Harap*pastikan*untuk*memahami*sepenuhnya*semua*potensi*risiko*sebelum*memasuki*pasar*dan*mencari*nasihat*independen*bila*diperlukan.',
   restrictedAreas:

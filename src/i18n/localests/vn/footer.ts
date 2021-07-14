@@ -25,7 +25,7 @@ export const footer: Footer = {
   WCGGoldCompany:
     'Công*ty*TNHH*vàng*Vấn*Xuyên*chịu*sự*điều*chỉnh*của*Sở*giao*dịch*vàng*bạc*Hồng*Kông*(CGSE).*Là*đơn*vị*thành*viên*số*12*A1.*Địa*chỉ*đăng*ký*là:*Căn*hộ*D,*22*/*F,*Tháp*B,*Tháp*Capital,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
-    'WCG*Global*Ltd*là*một*công*ty*trách*nhiệm*hữu*hạn*được*thành*lập*tại*Vương*quốc*Anh*với*số*công*ty*là*11019948.*Địa*chỉ*đăng*ký*là:*WC1E*6HA,*Tầng*5,*3*Phố*Gower,*Luân*Đôn,*Vương*quốc*Anh.',
+    'Wenchuan*Global*Ltd*là*một*công*ty*trách*nhiệm*hữu*hạn*được*thành*lập*tại*Vương*quốc*Anh*với*số*công*ty*là*11019948.*Địa*chỉ*đăng*ký*là:*WC1E*6HA,*Tầng*5,*3*Phố*Gower,*Luân*Đôn,*Vương*quốc*Anh.',
   HighRiskInvestmentWarning:
     'Cảnh*báo*đầu*tư*rủi*ro*cao:*Hợp*đồng*Chênh*lệch*(CFD)*là*các*sản*phẩm*tài*chính*phức*tạp*và*việc*sử*dụng*các*thuộc*tính*giao*dịch*đòn*bẩy*của*chúng*có*thể*gây*ra*mất*tiền*gốc*nhanh*chóng*và*bạn*có*thể*phải*gọi*ký*quỹ.*Vui*lòng*hiểu*các*nguyên*tắc*sản*phẩm*của*CFD*và*xem*xét*liệu*bạn*có*thể*chịu*được*rủi*ro*này*trước*khi*tham*gia*thị*trường*hay*không.*Giá*trong*quá*khứ*và*hiệu*suất*của*tất*cả*các*công*cụ*phái*sinh*tài*chính*không*đảm*bảo*hoặc*đại*diện*cho*các*xu*hướng*trong*tương*lai.*Các*sản*phẩm*tài*chính*như*vậy*không*phù*hợp*với*tất*cả*các*nhà*đầu*tư.*Vui*lòng*đảm*bảo*hiểu*đầy*đủ*tất*cả*các*rủi*ro*tiềm*ẩn*trước*khi*tham*gia*thị*trường*và*tìm*kiếm*lời*khuyên*độc*lập*khi*cần*thiết.',
   restrictedAreas:

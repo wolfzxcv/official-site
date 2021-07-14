@@ -7,7 +7,7 @@ import React from 'react';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import MT4DownloadOption from '../../components/MT4/MT4DownloadOption';
+import MT4DownloadOption from '../../components/Platform/MT4DownloadOption';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 

@@ -2,13 +2,10 @@ import { Box, IconButton } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { BiArrowToTop } from 'react-icons/bi';
+import { scrollToTop } from '../../utils';
 
 const BackToTopMobile: React.FC<{}> = () => {
   const { t } = useTranslation(['common']);
-
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <Box zIndex={1} position="fixed" bottom="0" left="45%">

@@ -3,33 +3,29 @@ import { useTranslation } from 'next-i18next';
 import React from 'react';
 import {
   AiOutlineCloudDownload,
-  AiOutlineMail,
+  AiOutlineMessage,
   AiOutlineWhatsApp
 } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
+import { openChatWindow, scrollToTop } from '../../utils';
 import { StyledBox, StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {
   const { t } = useTranslation(['common']);
 
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
-
   return (
     <StyledBox zIndex={1} position="fixed" bottom="30%" right="3">
       <Flex direction="column">
         <StyledIconButton
-          as="a"
-          href="/about/contactUs"
+          onClick={openChatWindow}
           mb={3}
-          title={t('contactUs')}
+          title={t('online')}
           borderRadius="50%"
-          aria-label={t('contactUs')}
+          aria-label={t('online')}
           aria-hidden
-          icon={<AiOutlineMail fontSize="32px" />}
+          icon={<AiOutlineMessage fontSize="32px" />}
         />
         <StyledIconButton
           as="a"
@@ -77,7 +73,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
         />
         <StyledIconButton
           as="a"
-          href="/platform/MT4PCDownload"
+          href="/platform/MT4Overview"
           mb={3}
           title={t('downloadMT4')}
           borderRadius="50%"

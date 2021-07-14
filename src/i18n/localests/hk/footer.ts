@@ -20,9 +20,9 @@ export const footer: Footer = {
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd獲加拿大金融情报部门(FIU)加拿大金融交易和报告分析中心(FINTRAC)監管，MSB牌照编號為M20282836。註冊地址是：*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
   WCGGoldCompany:
-    'WCG*Markets*(HK)*LimitedWCG金業有限公司獲香港金銀業貿易場(Chinese*Gold*&*Silver*Exchange,*CGSE)權並受其監管。為12號A1級別會員單位。註冊地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
+    '文傳金業有限公司獲香港金銀業貿易場(Chinese*Gold*&*Silver*Exchange,*CGSE)權並受其監管。為12號A1級別會員單位。註冊地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
-    'WCG*Global*Ltd 是於英國注冊成立的有限責任公司，公司編號為 11019948。註冊地址是：*5th*Floor,*3*Gower*Street,*London,*UK,*WC1E*6HA',
+    'Wenchuan*Global*Ltd 是於英國注冊成立的有限責任公司，公司編號為 11019948。註冊地址是：*5th*Floor,*3*Gower*Street,*London,*UK,*WC1E*6HA',
   HighRiskInvestmentWarning:
     '高風險投資警告：差價合約（CFD）屬於復雜的金融產品，其使用槓桿交易的屬性導致本金快速虧損的可能性較高，您有可能因此被要求追加保證金。請在入市前先了解差價合約的產品原理並考慮是否能夠承受此風險。所有金融衍生產品工具的過往價格與表現並不擔保或代表未來走勢。此類金融產品並不適合所有投資者，請務必在入市前完全了解所有潛在的風險，並在有需要時尋求獨立意見。',
   restrictedAreas:

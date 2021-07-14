@@ -23,7 +23,7 @@ const MT4DownloadOption: React.FC<MT4DownloadOptionProps> = ({
       w={{ base: '30vw', xl: '20vw' }}
       my={10}
       p={5}
-      display={{ base: inMobile ? 'block' : 'none', xl: 'block' }}
+      display={{ base: inMobile ? 'block' : 'none', md: 'block' }}
       _hover={{
         bgColor: 'gray.200'
       }}

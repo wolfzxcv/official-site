@@ -25,5 +25,39 @@ export const platform: Platform = {
   forMac: 'Mac版MT4',
   multiAccountManagementSystem: 'MT4多帳戶*管理系統',
   forIPhone: 'iPhone版MT4',
-  forAndroid: 'Android版MT4'
+  forAndroid: 'Android版MT4',
+  MT4PcVersion: 'MT4電腦版',
+  MetaTrader4IsTheMostPopular:
+    'MetaTrader*4*是全球最受歡迎的線上交易平台， 多年來已在行業內建立了龍頭的地位。MetaTrader*4（MT4）是專門為外匯及期貨等交易而設，交易者可通過其直觀的使用者介面和完善的功能，分析市場走勢、繪製交易圖表、管理他們的倉位與訂單。',
+  downloadImmediately: '立即下載',
+  comprehensiveTechnicalAnalysisFunction: '全面的技術分析功能',
+  professionalIconFunctions:
+    '專業圖示功能、交易指標、智慧交易（EAs）等，可適用於所有不同經驗程度的交易者。讓您隨時掌握全球外匯保證金和差價合約（CFD）的最新動態，並通過WCG*MT4隨時隨地進行專業的交易。',
+  automaticChartingRecords: '自動圖表記錄',
+  selfDefinedTechnicalIndicators: '自定技術指標',
+  supportMultipleWindows: '支援多重視窗',
+  simpleChartingOperation: '圖表操作簡易',
+  nineChartingTimePeriods: '九個價格時段',
+  whyChoose: '為何選用MetaTrader*4平台？',
+  MT4IsTheMostPopularForeign: 'MT4是全球最受歡迎的外匯交易平台，屢獲各式獎項',
+  itHasWonVariousAwards: '平台有3種不同的圖表類型、9種時段範圍、39種語言',
+  moreThan50Preset: '50多項預設的技術指標及可完全定製化的介面',
+  aNumberOfTradingProducts: '一個平台可交易多項交易產品',
+  compatibleWithExpertAdvisors:
+    '兼容EA交易 (智慧自動交易程式)、自定指標及其他應用工具',
+  itHasAMobileVersion:
+    '擁有手機版交易平台，可用手機APP隨時隨地進行交易、管理訂單',
+  provideAnAdvanced: '提供先進的通知信號系統',
+  downloadTheWCGMT4: '立即下載WCG*MT4交易平台，',
+  usingMT4AllowsYou:
+    '使用*MT4*讓您能更精準地監控市場，快速又高效地管您的倉位，優化交易策略，提升您你的交易優勢，享受完美的交易體驗。',
+  tradingSystem: '交易系統',
+  includesCurrentPriceExecution:
+    '包括現價成交，以及買賣雙向交易，四種掛單和二種止損單和追蹤止損功能。一鍵交易功能可以使您從圖表上一次點擊即可直接發送交易命令。內置的報價圖表提供了準確的判斷交易時機的方法。',
+  technicalAnalysis: '技術分析',
+  MT4ProvidesAMoreComprehensive:
+    '提供了更全面的分析機會。每個交易品種都可以顯示九種時間周期，可以使交易者看到詳細的價格動態。 結合這些工具，確定行情趨勢，強大的分析能力幫您更徹底的分析市場動向，把握最佳時刻。',
+  safeAndConvenient: '安全便利',
+  advancedTradingAndAnalysisFunctions:
+    '先進的交易和分析功能，友好的用戶界面，有助於您輕鬆的了解全部功能和操作規則。符合最高的安全標準。客戶端和平台服務器之間的數據交換完全加密，讓您的交易賬戶得到最安全的保護。'
 };
