@@ -21,6 +21,8 @@ import { ILinkSource, menuList } from './menuList';
 
 const DesktopNav = () => {
   const { t } = useTranslation(['header']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
 
   const linkColor = useColorModeValue('gray.600', 'gray.200');
   const linkHoverColor = useColorModeValue('gray.800', 'white');
@@ -34,20 +36,21 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Center>
                 {each.href ? (
-                  <Link
-                    p={1}
-                    href={each.href ?? '#'}
-                    fontSize={'md'}
-                    fontWeight={600}
-                    color={linkColor}
-                    _hover={{
-                      textDecoration: 'underline',
-                      color: linkHoverColor,
-                      bgColor: 'gray.100'
-                    }}
-                  >
-                    {t(each.i18n)}
-                  </Link>
+                  <NextLink href={each.href ?? '#'} locale={currentLang}>
+                    <Link
+                      p={1}
+                      fontSize={'md'}
+                      fontWeight={600}
+                      color={linkColor}
+                      _hover={{
+                        textDecoration: 'underline',
+                        color: linkHoverColor,
+                        bgColor: 'gray.100'
+                      }}
+                    >
+                      {t(each.i18n)}
+                    </Link>
+                  </NextLink>
                 ) : (
                   <Text
                     p={1}
