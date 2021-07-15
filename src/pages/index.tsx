@@ -268,17 +268,6 @@ const Index: React.FC<{}> = () => {
         </Link>
       </Flex>
 
-      {/* embed from  */}
-      {/* <Box my={10} display={{ base: 'none', md: 'block' }}>
-        <iframe
-          frameBorder="0"
-          height="580"
-          style={{ margin: '0 auto', width: '80vw', minWidth: '600px' }}
-          scrolling="yes"
-          src={`https://rili-d.jin10.com/open.php?fontSize=14px&theme=primary`}
-        ></iframe>
-      </Box> */}
-
       {/* TradingView Widget BEGIN */}
       <Box my={10} display={{ base: 'none', md: 'block' }}>
         <div className="tradingview-widget-container">
