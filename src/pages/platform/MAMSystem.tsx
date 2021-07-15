@@ -1,14 +1,16 @@
-import { Box, Center, Flex, Image, List } from '@chakra-ui/react';
+import { Box, Center, Flex, Image, List, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import { GiReceiveMoney } from 'react-icons/gi';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import DownloadButton from '../../components/Platform/DownloadButton';
 import InfoList from '../../components/Platform/InfoList';
+import MAMProfitList from '../../components/Platform/MAMProfitList';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
@@ -71,14 +73,80 @@ const MAMSystem: React.FC<MAMSystemProps> = () => {
             title={t('theMAMSystemProvidesMultipleRatioSettings')}
           />
         </Box>
-        <Flex wrap="wrap" justify="center">
-          {/* <Box>
-            <Image src="../assets/images/mt4mamsystem_2.png" alt="circle" />
-            <Center>
-              <Box> </Box>
-            </Center>
-          </Box>
-          <Box></Box> */}
+        <Flex
+          direction={{ base: 'column', md: 'row' }}
+          justify="center"
+          align="center"
+        >
+          <Flex
+            backgroundImage="url('../assets/images/mt4mamsystem_2.png')"
+            bgSize="100% 100%"
+            width={{ base: '80vw', sm: '60vw', md: '500px' }}
+            height={{ base: '80vw', sm: '60vw', md: '500px' }}
+            direction="column"
+            justify="center"
+            align="center"
+          >
+            <Text color="red.600" fontSize={{ base: '2rem', md: '4rem' }}>
+              <GiReceiveMoney />
+            </Text>
+
+            <Text my={2}>{t('totalInvestment')}</Text>
+            <Text>{t('totalProfit')}</Text>
+          </Flex>
+
+          <Stack spacing={3} mt={{ base: 20, md: 0 }} ml={{ base: 0, md: 20 }}>
+            <Text>
+              {`${!isArabic ? '1.' : ''}${t(
+                'accountNetValueIsAllocatedAccordingToProportion'
+              )}${isArabic ? '.1' : ''}`}
+            </Text>
+            <Text>
+              {`${!isArabic ? '2.' : ''}${t('percentageAllocation')}${
+                isArabic ? '.2' : ''
+              }`}
+            </Text>
+            <Text>
+              {`${!isArabic ? '3.' : ''}${t(
+                'balanceIsAllocatedAccordingToProportion'
+              )}${isArabic ? '.3' : ''}`}
+            </Text>
+            <Text fontWeight="700" fontSize="22px">
+              {t('allocationByProfitAndLoss')}
+            </Text>
+            <Text>
+              {`${!isArabic ? '4.' : ''}${t('profitAndLoss')}${
+                isArabic ? '.4' : ''
+              }`}
+            </Text>
+            <Text>
+              {`${!isArabic ? '5.' : ''}${t('盈虧按結餘百分比分配')}${
+                isArabic ? '.5' : ''
+              }`}
+            </Text>
+            <Box>
+              <MAMProfitList
+                left={t('investment200')}
+                right={t('profit120')}
+                bg="#c64f51"
+                percentage="20%"
+              />
+
+              <MAMProfitList
+                left={t('investment300')}
+                right={t('profit180')}
+                bg="#d06b72"
+                percentage="30%"
+              />
+
+              <MAMProfitList
+                left={t('investment500')}
+                right={t('profit300')}
+                bg="#d89292"
+                percentage="50%"
+              />
+            </Box>
+          </Stack>
         </Flex>
       </Flex>
 
