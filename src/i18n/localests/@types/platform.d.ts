@@ -58,44 +58,112 @@ export type Platform = {
   simpleChartingOperation: string;
   /** Nine charting time periods */
   nineChartingTimePeriods: string;
-  /** Why choose  */
+  /** Why choose */
   whyChoose: string;
   /** MT4 is the most popular foreign */
   MT4IsTheMostPopularForeign: string;
-  /** It has won various awards  */
+  /** It has won various awards */
   itHasWonVariousAwards: string;
-  /** more than 50 preset  */
+  /** more than 50 preset */
   moreThan50Preset: string;
-  /** A number of trading products  */
+  /** A number of trading products */
   aNumberOfTradingProducts: string;
-  /** Compatible with Expert Advisors  */
+  /** Compatible with Expert Advisors */
   compatibleWithExpertAdvisors: string;
   /** It has a mobile version  */
   itHasAMobileVersion: string;
-  /** Provide an advanced  */
+  /** Provide an advanced */
   provideAnAdvanced: string;
-  /** Download the WCG MT4  */
+  /** Download the WCG MT4 */
   downloadTheWCGMT4: string;
-  /** Using MT4 allows you  */
+  /** Using MT4 allows you */
   usingMT4AllowsYou: string;
-  /** Trading system  */
+  /** Trading system */
   tradingSystem: string;
-  /** Includes current price execution  */
+  /** Includes current price execution */
   includesCurrentPriceExecution: string;
-  /** Technical analysis  */
+  /** Technical analysis */
   technicalAnalysis: string;
-  /** MT4 provides a more comprehensive  */
+  /** MT4 provides a more comprehensive */
   MT4ProvidesAMoreComprehensive: string;
-  /** Safe and convenient  */
+  /** Safe and convenient */
   safeAndConvenient: string;
-  /** Advanced trading and analysis functions  */
+  /** Advanced trading and analysis functions */
   advancedTradingAndAnalysisFunctions: string;
-  /** MT4 APP version  */
+  /** MT4 APP version */
   MT4APPVersion: string;
-  /** We provide the MT4 mobile application  */
+  /** We provide the MT4 mobile application */
   weProvideTheMT4MobileApplication: string;
-  /** Download the iOS version  */
+  /** Download the iOS version */
   downloadTheIOSVersion: string;
-  /** Download the Android version  */
+  /** Download the Android version */
   downloadTheAndroidVersion: string;
+  /** MAM multi-account management system */
+  MAMMultiAccountManagementSystem: string;
+  /** The Multi-Account Management System */
+  theMultiAccountManagementSystem: string;
+  /** Consult customer service immediately */
+  consultCustomerServiceImmediately: string;
+  /** MAM account supports five distribution logics */
+  MAMAccountSupportsFiveDistributionLogics: string;
+  /** The MAM system provides multiple ratio settings */
+  theMAMSystemProvidesMultipleRatioSettings: string;
+  /** Account net value is allocated according to proportion */
+  accountNetValueIsAllocatedAccordingToProportion: string;
+  /** Percentage allocation */
+  percentageAllocation: string;
+  /** Balance is allocated according to proportion */
+  balanceIsAllocatedAccordingToProportion: string;
+  /** Allocation by profit and loss */
+  allocationByProfitAndLoss: string;
+  /** Profit and loss */
+  profitAndLoss: string;
+  /** Profit and loss are */
+  profitAndLossAre: string;
+  /** Investment 200 */
+  investment200: string;
+  /** Profit 120  */
+  profit120: string;
+  /** Investment 300 */
+  investment300: string;
+  /** Profit 180  */
+  profit180: string;
+  /** Investment 500 */
+  investment500: string;
+  /** Profit 300  */
+  profit300: string;
+  /** Total investment */
+  totalInvestment: string;
+  /** Total profit */
+  totalProfit: string;
+  /** MAM features and advantages */
+  MAMFeaturesAndAdvantages: string;
+  /** Compatible with EA */
+  compatibleWithEA: string;
+  /** Establish multiple trading */
+  establishMultipleTrading: string;
+  /** According to account level */
+  accordingToAccountLevel: string;
+  /** Customers can start */
+  customersCanStart: string;
+  /** compatible with all  */
+  compatibleWithAll: string;
+  /** There is no limit */
+  thereIsNoLimit: string;
+  /** Your partner to the road of success */
+  yourPartnerToTheRoadOfSuccess: string;
+  /** To provide you with flexible and competitive rates */
+  toProvideYouWithFlexibleAndCompetitiveRates: string;
+  /** Transparent commission details */
+  transparentCommissionDetails: string;
+  /** Real-time display */
+  realTimeDisplay: string;
+  /** Convenient and fast execution */
+  convenientAndFastExecution: string;
+  /** All transaction orders */
+  allTransactionOrders: string;
+  /** A must-have system */
+  AMustHaveSystem: string;
+  /** Multilingual trading platform */
+  multilingualTradingPlatform: string;
 };
