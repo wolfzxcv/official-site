@@ -10,15 +10,16 @@ interface localesOptions {
   value: string;
 }
 
-export const locales: Locales[] = ['cn', 'sa', 'en', 'my', 'id', 'vn', 'hk'];
+// export const locales: Locales[] = ['cn', 'sa', 'en', 'my', 'id', 'vn', 'hk'];
+export const locales: Locales[] = ['cn', 'en', 'hk'];
 
 export const localesOptions: localesOptions[] = [
   { code: 'cn', value: '简体' },
-  { code: 'sa', value: 'بالعربية' },
+  // { code: 'sa', value: 'بالعربية' },
   { code: 'en', value: 'English' },
-  { code: 'my', value: 'Malay' },
-  { code: 'id', value: 'Indonesia' },
-  { code: 'vn', value: 'Việt Nam' },
+  // { code: 'my', value: 'Malay' },
+  // { code: 'id', value: 'Indonesia' },
+  // { code: 'vn', value: 'Việt Nam' },
   { code: 'hk', value: '繁體' }
 ];
 
