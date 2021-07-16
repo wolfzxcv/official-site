@@ -32,7 +32,7 @@ export const notice: Notice = {
   tradeDetails: 'Trade*Details',
   sourceOfTradeExecution: 'Source*Of*Trade*Execution',
   theQuotesOfOur:
-    "The*quotes*of*our*gold*and*silver*products*generally*come*from*a*number*of*the*world's*top*Banks*that*offer*us*substantial*and*most*timely*prices*for*the*precious*metals*market.*We*firmly*believe*that*this*approach*will*always*provide*you*with*the*best*available*price.",
+    "The*quotes*of*our*products*generally*come*from*a*number*of*the*world's*top*Banks*that*offer*us*substantial*and*most*timely*prices*for*the*market.*We*firmly*believe*that*this*approach*will*always*provide*you*with*the*best*available*price.",
   slippage: 'Slippage',
   ourCompanyWill:
     'Our*company*will*try*our*best*to*reduce*the*occurrence*of*slippage*and*strives*to*provide*a*better*trading*model*in*the*industry.*However,*sometimes*the*investment*market*is*very*volatile,*and*the*prices*sometimes*change*instantaneously*which*is*really*beyond*human*control.',

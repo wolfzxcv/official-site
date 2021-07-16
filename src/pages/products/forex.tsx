@@ -90,7 +90,7 @@ const forex: React.FC<forexProps> = () => {
           <Box m={10}>
             {showLong ? t('judgeTheMarket') : t('anticipatingThat')}{' '}
           </Box>
-          <InfoButton href="/learnTrade/basicTrading" text={t('learnMore')} />
+          {/* <InfoButton href="/learnTrade/basicTrading" text={t('learnMore')} /> */}
         </Flex>
 
         {/* Start forex trading in five easy steps */}
