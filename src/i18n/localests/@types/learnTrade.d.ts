@@ -90,7 +90,7 @@ export type LearnTrade = {
   decentralizedMarket: string;
   /** Decentralized market means */
   decentralizedMarketMeans: string;
-  /** Instead， financial centers */
+  /** Instead, financial centers */
   insteadFinancialCenters: string;
   /** Over-the-counter transactions */
   overTheCounterTransactions: string;
@@ -140,7 +140,7 @@ export type LearnTrade = {
   theMostInfluentialMarketData: string;
   /** Economic Calendar */
   economicCalendar: string;
-  /** So， how can we keep an eye on */
+  /** So, how can we keep an eye on */
   soHowCanWeKeepAnEyeOn: string;
   /** The economic calendar lists the news */
   theEconomicCalendarListsTheNews: string;
@@ -156,7 +156,7 @@ export type LearnTrade = {
   avoidNewsTrading: string;
   /** After the download process */
   afterTheDownloadProcess: string;
-  /** Check "Yes， I agree with */
+  /** Check "Yes, I agree with */
   checkYesIAgreeWith: string;
   /** The installation wizard */
   theInstallationWizard: string;

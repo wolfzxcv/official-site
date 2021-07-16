@@ -120,7 +120,7 @@ const MAMSystem: React.FC<MAMSystemProps> = () => {
               }`}
             </Text>
             <Text>
-              {`${!isArabic ? '5.' : ''}${t('盈虧按結餘百分比分配')}${
+              {`${!isArabic ? '5.' : ''}${t('profitAndLossAre')}${
                 isArabic ? '.5' : ''
               }`}
             </Text>
