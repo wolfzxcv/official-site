@@ -21,18 +21,12 @@ const BackToTopDesktop: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   return (
-    <StyledBox
-      zIndex={1}
-      position="fixed"
-      bottom={{ base: '10%', md: '30%' }}
-      right="3"
-    >
-      <Flex direction="column" color="white">
+    <StyledBox zIndex={1} position="fixed" bottom={'30%'} right="3">
+      <Flex direction={'column'} color="white">
         <Tooltip label={t('online')} aria-label={t('online')} placement="left">
           <StyledIconButton
             onClick={openChatWindow}
             mb={3}
-            // title={t('online')}
             borderRadius="50%"
             aria-label={t('online')}
             aria-hidden
@@ -53,7 +47,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
             href="https://api.whatsapp.com/message/2CCAPQTYUPV6P1"
             target="_blank"
             mb={3}
-            // title={t('whatsApp')}
             borderRadius="50%"
             aria-label={t('whatsApp')}
             aria-hidden
@@ -70,7 +63,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
             href="https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage"
             target="_blank"
             mb={3}
-            // title={t('line')}
             borderRadius="50%"
             aria-label={t('line')}
             aria-hidden
@@ -91,7 +83,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
             href="https://t.me/WCGMarketsLtd"
             target="_blank"
             mb={3}
-            // title={t('telegram')}
             borderRadius="50%"
             aria-label={t('telegram')}
             aria-hidden
@@ -112,7 +103,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
             href="https://trader.wc012.com/register"
             target="_blank"
             mb={3}
-            // title={t('clientPortal')}
             borderRadius="50%"
             aria-label={t('clientPortal')}
             aria-hidden
@@ -133,7 +123,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
             <StyledIconButton
               as="a"
               mb={3}
-              // title={t('downloadMT4')}
               borderRadius="50%"
               aria-label={t('downloadMT4')}
               aria-hidden
@@ -148,7 +137,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
         <Tooltip label={t('top')} aria-label={t('top')} placement="left">
           <StyledIconButton
-            // title={t('top')}
             borderRadius="50%"
             onClick={scrollToTop}
             aria-label={t('top')}
