@@ -16,7 +16,7 @@ const FooterMiddle: React.FC<{}> = () => {
         <Text fontSize="sm">{t('footer:allTradesInvolveRisks')}</Text>
 
         <Flex direction={{ base: 'column', md: 'row' }} justify="space-evenly">
-          <Flex ml={{ base: 10, md: 0 }} alignItems="center" justify="center">
+          <Flex ml={{ base: 10, md: 0 }} align="center" justify="space-around">
             <Box
               textAlign="left"
               width={{ base: '50vw', md: '30vw', xxl: '20vw' }}
@@ -35,7 +35,7 @@ const FooterMiddle: React.FC<{}> = () => {
               ></LinkButton>
             </StyledBox>
           </Flex>
-          <Flex ml={{ base: 10, md: 0 }} alignItems="center">
+          <Flex ml={{ base: 10, md: 0 }} align="center" justify="space-around">
             <Box
               textAlign="left"
               width={{ base: '50vw', md: '30vw', xxl: '20vw' }}

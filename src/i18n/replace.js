@@ -1,5 +1,5 @@
 const regex = / /gi;
 
-const str = '';
+var str = '';
 
 str.replace(regex, '*');
