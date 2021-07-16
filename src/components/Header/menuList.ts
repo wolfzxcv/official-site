@@ -48,13 +48,13 @@ export const menuList: IMenuItem[] = [
       { i18n: 'MAMSystem', href: '/platform/MAMSystem' }
     ]
   },
-  // {
-  //   i18n: 'notice',
-  //   children: [
-  //     { i18n: 'abnormalTrade', href: '/notice/abnormalTrade' },
-  //     { i18n: 'tradeDetails', href: '/notice/tradeDetails' }
-  //   ]
-  // },
+  {
+    i18n: 'notice',
+    children: [
+      { i18n: 'abnormalTrade', href: '/notice/abnormalTrade' },
+      { i18n: 'tradeDetails', href: '/notice/tradeDetails' }
+    ]
+  },
   // {
   //   i18n: 'learnTrade',
   //   children: [
