@@ -52,5 +52,5 @@ export const preciousMetals: PreciousMetals = {
     'During*this*period,*the*lowest*return*on*investment*in*gold*occurred*between*1970*and*1979.',
   onTheOtherHand:
     'On*the*other*hand,*the*largest*increase*occurred*between*2000*and*2009.',
-  viewTradingProducts: 'View*Trading*Products'
+  goldTradingExample: 'Gold*trading*example'
 };
