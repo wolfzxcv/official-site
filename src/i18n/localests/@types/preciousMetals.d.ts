@@ -66,6 +66,6 @@ export type PreciousMetals = {
   duringThisPeriod: string;
   /** On the other hand */
   onTheOtherHand: string;
-  /** View trading products */
-  viewTradingProducts: string;
+  /** Gold trading example */
+  goldTradingExample: string;
 };

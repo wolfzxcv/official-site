@@ -49,5 +49,5 @@ export const preciousMetals: PreciousMetals = {
   duringThisPeriod:
     '在此期间，投资黄金回报率最低的年份 發生在1970年至1979年间。',
   onTheOtherHand: '另一方面，最大幅度的上涨發生在2000年至2009年之间。',
-  viewTradingProducts: '查看交易产品'
+  goldTradingExample: '黄金交易示例'
 };

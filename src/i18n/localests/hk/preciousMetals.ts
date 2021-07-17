@@ -49,5 +49,5 @@ export const preciousMetals: PreciousMetals = {
   duringThisPeriod:
     '在此期間，投資黃金回報率最低的年份 發生在1970年至1979年間。',
   onTheOtherHand: '另一方面，最大幅度的上漲發生在2000年至2009年之間。',
-  viewTradingProducts: '查看交易產品'
+  goldTradingExample: '黃金交易範例'
 };

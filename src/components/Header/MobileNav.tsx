@@ -106,6 +106,11 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
               <NextLink key={child.href} href={child.href} locale={currentLang}>
                 <Link
                   width="100%"
+                  display={
+                    currentLang === 'cn' && child.i18n === 'cryptocurrencies'
+                      ? 'none'
+                      : 'block'
+                  }
                   py={2}
                   bgColor={
                     router.pathname === child.href ? 'red.50' : 'inherit'
