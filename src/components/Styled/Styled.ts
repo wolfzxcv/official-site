@@ -40,7 +40,7 @@ export const StyledTable = styled.table`
 
   thead,
   tfoot {
-    th:not(:nth-child(2)) {
+    th:not(:nth-of-type(2)) {
       width: 10%;
       padding: 3px;
     }
@@ -57,7 +57,7 @@ export const StyledTable = styled.table`
   }
 
   tbody {
-    tr:nth-child(odd) {
+    tr:nth-of-type(odd) {
       background: ${gray100};
     }
   }
