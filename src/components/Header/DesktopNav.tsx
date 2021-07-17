@@ -101,7 +101,9 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
     <NextLink href={href} locale={currentLang}>
       <Link
         role={'group'}
-        display={'block'}
+        display={
+          currentLang === 'cn' && i18n === 'cryptocurrencies' ? 'none' : 'block'
+        }
         p={2}
         rounded={'md'}
         bgColor={router.pathname === href ? 'red.50' : 'inherit'}
