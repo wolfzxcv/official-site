@@ -9,6 +9,7 @@ export const header: Header = {
   announcements: 'Thông*báo*của',
   contactUs: 'Liên*hệ*chúng',
   products: 'Sản*phẩm',
+  viewTradingProducts: 'Xem*các*sản*phẩm*giao*dịch',
   forex: 'Ký*quỹ*ngoại',
   preciousMetals: 'Kim*loại*quý',
   crudeOil: 'Dầu*thô',

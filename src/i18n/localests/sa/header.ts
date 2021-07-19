@@ -9,6 +9,7 @@ export const header: Header = {
   announcements: 'تصريحات',
   contactUs: 'اتصل*بنا',
   products: 'منتجات*التداول',
+  viewTradingProducts: 'عرض*منتجات*التداول',
   forex: 'هامش*الفوركس',
   preciousMetals: 'المعادن*الثمينة',
   crudeOil: 'النفط*الخام',

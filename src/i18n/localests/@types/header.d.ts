@@ -20,6 +20,8 @@ export type Header = {
   /****************************************/
   /** products */
   products: string;
+  /** View trading products */
+  viewTradingProducts: string;
   /** forex */
   forex: string;
   /** precious metals */
