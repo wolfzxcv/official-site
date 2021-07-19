@@ -31,5 +31,15 @@
   "theFollowingTable": "下表顯示了在過去的50年間黃金的價格波動。總而言之，自1970年以來，黃金價格一直在大幅上漲。",
   "duringThisPeriod": "在此期間，投資黃金回報率最低的年份發生在1970年至1979年間。",
   "onTheOtherHand": "另一方面，最大幅度的上漲發生在2000年至2009年之間。",
-  "goldTradingExample": "黃金交易範例"
+  "goldTradingExample": "黃金交易範例",
+  "practicalGoldTrading": "實際操作黃金交易",
+  "supposeYouStudyTheGoldMarket": "假設您研究了黃金市場後，認為金價會上漲。因此，您於價格1,184.60買進了1手黃金（也即100盎司）。",
+  "thisMeans": "這意味著，當黃金價格每變動1美元，帶給您的資金盈虧是100美元。",
+  "profitScenario": "盈利場景",
+  "peoplesInterestInGoldSurged": "人們對黃金的興趣激增，幾天後，金價達到了1,189.70美元。您決定關閉倉位並鎖定盈利。",
+  "yourTotalProfitIsCalculated": "您的總盈利計算如下：（1,189.70–1,184.60）x100美元=510美元。",
+  "lossScenario": "虧損場景",
+  "thePriceOfGold": "黃金價格並沒有出現預期中的上漲，反而下跌至1,180.30美元。您決定關閉倉位並結算虧損。",
+  "theLossInThisCase": "這種情況下的損失是：（1,184.60-1,180.30）x100美元=430美元。",
+  "althoughGoldTrading": "儘管黃金交易是最常見的貴金屬交易，意識到黃金多樣化交易價值的交易者們，也經常探索其他的金屬市場，比如白銀。"
 }

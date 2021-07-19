@@ -25,6 +25,7 @@ export interface IDetail {
   closingTime: string;
 }
 
+// product table data
 export const productsData: IProduct[] = [
   {
     category: 'mainForex',
@@ -404,7 +405,7 @@ export const productsData: IProduct[] = [
       {
         product: 'A50',
         name: '*A50',
-        lotRange: '1/20',
+        lotRange: '0.01/10',
         contractUnit: '10',
         standardPoint: '10*USD',
         leverage: '1:100',
@@ -415,7 +416,7 @@ export const productsData: IProduct[] = [
       {
         product: 'HKG33',
         name: '*HKG33',
-        lotRange: '1/20',
+        lotRange: '0.01/10',
         contractUnit: '50',
         standardPoint: '50*HKD',
         leverage: '1:100',
@@ -426,7 +427,7 @@ export const productsData: IProduct[] = [
       {
         product: 'SPX500',
         name: '*SPX500',
-        lotRange: '1/20',
+        lotRange: '0.01/10',
         contractUnit: '50',
         standardPoint: '50*USD',
         leverage: '1:100',
@@ -437,7 +438,7 @@ export const productsData: IProduct[] = [
       {
         product: 'US30',
         name: '*US30',
-        lotRange: '1/20',
+        lotRange: '0.01/10',
         contractUnit: '10',
         standardPoint: '10*USD',
         leverage: '1:100',
@@ -448,7 +449,7 @@ export const productsData: IProduct[] = [
       {
         product: 'NAS100',
         name: '*NAS100',
-        lotRange: '1/20',
+        lotRange: '0.01/10',
         contractUnit: '20',
         standardPoint: '20*USD',
         leverage: '1:100',
