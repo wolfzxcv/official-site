@@ -10,18 +10,19 @@ interface InfoCardProps {
   title: string;
   text: string;
   minH?: string;
-  isTwo?: boolean;
+  bigW?: string;
   withBorder?: boolean;
   allCenter?: boolean;
 }
 
+// a row with 2 or 3 cards
 const InfoCard: React.FC<InfoCardProps> = ({
   icon,
   image,
   title,
   text,
   minH = 'auto',
-  isTwo = false,
+  bigW,
   withBorder = false,
   allCenter = false
 }: InfoCardProps) => {
@@ -47,7 +48,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
         my={10}
         px={withBorder ? 5 : 0}
         spacing={3}
-        width={{ base: '80vw', xl: isTwo ? '40vw' : '30vw' }}
+        width={{ base: '80vw', xl: bigW ? bigW : '30vw' }}
         textAlign={{
           base: 'center',
           xl: withBorder

@@ -1,4 +1,5 @@
 {
+  "tradingTime": "交易時間是GMT+3平台時間（夏令時間），大部份產品進入冬令時間將順延1小時。具體交易時間，建議客戶以平台實際公布為準。",
   "mainForex": "主要外匯",
   "secondaryForex": "次要外匯",
   "preciousMetals": "貴金屬",

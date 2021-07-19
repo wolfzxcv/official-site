@@ -212,7 +212,7 @@ const Index: React.FC<{}> = () => {
           title={t('home:mobileTradingSystem')}
           text={t('home:WCGMobileTradingSystem')}
           minH={isChinese ? 'auto' : '300px'}
-          isTwo
+          bigW="40vw"
         />
 
         <InfoCard
@@ -220,7 +220,7 @@ const Index: React.FC<{}> = () => {
           title={t('home:brandReputation')}
           text={t('home:withFormalBusinessLicense')}
           minH={isChinese ? 'auto' : '300px'}
-          isTwo
+          bigW="40vw"
         />
       </Flex>
 

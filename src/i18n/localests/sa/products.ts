@@ -1,6 +1,8 @@
 import { Products } from '../@types/products';
 
 export const products: Products = {
+  tradingTime:
+    'Trading*time*is*GMT+3*platform*time*(summer*time),*most*products*will*be*postponed*for*1*hour*after*entering*winter*time.*For*specific*trading*hours,*it*is*recommended*that*customers*follow*the*actual*announcement*on*the*platform.',
   mainForex: 'Main*Foreign*Exchange',
   secondaryForex: 'Secondary*Foreign*Exchange',
   preciousMetals: 'Precious*Metals',

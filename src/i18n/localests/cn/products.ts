@@ -1,6 +1,8 @@
 import { Products } from '../@types/products';
 
 export const products: Products = {
+  tradingTime:
+    '交易时间是GMT+3平台时间（夏令时间），大部份产品进入冬令时间将顺延1小时。具体交易时间，建议客户以平台实际公布为准。',
   mainForex: '主要外汇',
   secondaryForex: '次要外汇',
   preciousMetals: '贵金属',

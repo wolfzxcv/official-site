@@ -52,5 +52,22 @@ export const preciousMetals: PreciousMetals = {
     'During*this*period,*the*lowest*return*on*investment*in*gold*occurred*between*1970*and*1979.',
   onTheOtherHand:
     'On*the*other*hand,*the*largest*increase*occurred*between*2000*and*2009.',
-  goldTradingExample: 'Gold*trading*example'
+  goldTradingExample: 'Gold*trading*example',
+  practicalGoldTrading: 'Practical*gold*trading',
+  supposeYouStudyTheGoldMarket:
+    'Suppose*you*study*the*gold*market*and*believe*that*the*price*of*gold*will*rise.*Therefore,*you*bought*1*lot*of*gold*(that*is,*100*ounces)*at*a*price*of*1,184.60.',
+  thisMeans:
+    'This*means*that*when*the*price*of*gold*changes*by*1*US*dollar,*the*profit*and*loss*brought*to*you*is*100*US*dollars.',
+  profitScenario: 'Profit*scenario',
+  peoplesInterestInGoldSurged:
+    "People's*interest*in*gold*surged,*and*a*few*days*later,*the*price*of*gold*reached*$1,189.70.*You*decide*to*close*the*position*and*lock*in*profit.",
+  yourTotalProfitIsCalculated:
+    'Your*total*profit*is*calculated*as*follows:*(1,189.70*–*1,184.60)*x*100*USD*=*510*USD.',
+  lossScenario: 'Loss*scenario',
+  thePriceOfGold:
+    'The*price*of*gold*did*not*rise*as*expected,*but*fell*to*1,180.30*US*dollars.*You*decide*to*close*the*position*and*settle*the*loss.',
+  theLossInThisCase:
+    'The*loss*in*this*case*is:*(1,184.60-1,180.30)*x*100*USD*=*430*USD.',
+  althoughGoldTrading:
+    'Although*gold*trading*is*the*most*common*precious*metal*trading,*traders*who*are*aware*of*the*diversified*trading*value*of*gold*often*explore*other*metal*markets,*such*as*silver.'
 };

@@ -68,4 +68,24 @@ export type PreciousMetals = {
   onTheOtherHand: string;
   /** Gold trading example */
   goldTradingExample: string;
+  /** Practical gold trading */
+  practicalGoldTrading: string;
+  /** Suppose you study the gold market */
+  supposeYouStudyTheGoldMarket: string;
+  /** This means */
+  thisMeans: string;
+  /** Profit scenario */
+  profitScenario: string;
+  /** People's interest in gold surged */
+  peoplesInterestInGoldSurged: string;
+  /** Your total profit is calculated */
+  yourTotalProfitIsCalculated: string;
+  /** Loss scenario */
+  lossScenario: string;
+  /** The price of gold  */
+  thePriceOfGold: string;
+  /** The loss in this case */
+  theLossInThisCase: string;
+  /** Although gold trading */
+  althoughGoldTrading: string;
 };

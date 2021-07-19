@@ -49,5 +49,21 @@ export const preciousMetals: PreciousMetals = {
   duringThisPeriod:
     '在此期间，投资黄金回报率最低的年份 發生在1970年至1979年间。',
   onTheOtherHand: '另一方面，最大幅度的上涨發生在2000年至2009年之间。',
-  goldTradingExample: '黄金交易示例'
+  goldTradingExample: '黄金交易示例',
+  practicalGoldTrading: '实际操作黄金交易',
+  supposeYouStudyTheGoldMarket:
+    '假设您研究了黄金市场后，认为金价会上涨。因此，您于价格1,184.60买进了1手黄金（也即100盎司）。',
+  thisMeans: '这意味着，当黄金价格每变动1美元，带给您的资金盈亏是100美元。',
+  profitScenario: '盈利场景',
+  peoplesInterestInGoldSurged:
+    '人们对黄金的兴趣激增，几天后，金价达到了1,189.70美元。您决定关闭仓位并锁定盈利。',
+  yourTotalProfitIsCalculated:
+    '您的总盈利计算如下：（1,189.70 – 1,184.60）x 100美元 = 510美元。',
+  lossScenario: '亏损场景',
+  thePriceOfGold:
+    '黄金价格并没有出现预期中的上涨，反而下跌至1,180.30美元。您决定关闭仓位并结算亏损。',
+  theLossInThisCase:
+    '这种情况下的损失是：（1,184.60-1,180.30）x 100美元 = 430美元。',
+  althoughGoldTrading:
+    '盡管黄金交易是最常见的贵金属交易，意识到黄金多样化交易价值的交易者们，也经常探索其他的金属市场，比如白银。'
 };

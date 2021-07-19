@@ -58,6 +58,15 @@ const products: React.FC<productsProps> = () => {
   return (
     <Wrapper>
       <Flex direction="column" align="center">
+        <Box
+          width={{ base: '85vw', md: '92vw' }}
+          m={3}
+          p={3}
+          bg="tomato"
+          color="white"
+        >
+          {`*${t('tradingTime')}`}
+        </Box>
         {/* select */}
         <Flex my={10} width={{ base: '80vw', md: '30vw' }} align="center">
           <Text fontWeight="600" pr={2} whiteSpace="nowrap">

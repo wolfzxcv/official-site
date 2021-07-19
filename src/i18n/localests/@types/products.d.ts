@@ -2,6 +2,8 @@ export type Products = {
   /********
    * products
    ********/
+  /** trading time */
+  tradingTime: string;
   /** main forex */
   mainForex: string;
   /** secondary forex */
