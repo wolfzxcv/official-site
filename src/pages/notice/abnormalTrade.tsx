@@ -8,9 +8,7 @@ import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-interface abnormalTradeProps {}
-
-const abnormalTrade: React.FC<abnormalTradeProps> = () => {
+const abnormalTrade: React.FC<{}> = () => {
   const { t } = useTranslation(['notice']);
 
   const router = useRouter();

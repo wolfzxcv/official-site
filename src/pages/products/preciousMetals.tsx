@@ -10,9 +10,7 @@ import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-interface preciousMetalsProps {}
-
-const preciousMetals: React.FC<preciousMetalsProps> = () => {
+const preciousMetals: React.FC<{}> = () => {
   const { t } = useTranslation(['preciousMetals']);
   const router = useRouter();
   const currentLang = router.locale as Locales;

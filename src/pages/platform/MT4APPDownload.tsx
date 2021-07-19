@@ -13,9 +13,7 @@ import InfoList from '../../components/Platform/InfoList';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-interface MT4APPDownloadProps {}
-
-const MT4APPDownload: React.FC<MT4APPDownloadProps> = () => {
+const MT4APPDownload: React.FC<{}> = () => {
   const { t } = useTranslation(['platform']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
