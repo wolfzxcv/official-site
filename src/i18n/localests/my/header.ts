@@ -9,6 +9,7 @@ export const header: Header = {
   announcements: 'Pengumuman',
   contactUs: 'Hubungi*kami',
   products: 'Produk',
+  viewTradingProducts: 'Lihat*produk*perdagangan',
   forex: 'Forex',
   preciousMetals: 'Logam*berharga',
   crudeOil: 'Crude*Oil',

@@ -9,6 +9,7 @@ export const header: Header = {
   announcements: '平台公告',
   contactUs: '聯系我們',
   products: '交易產品',
+  viewTradingProducts: '查看交易產品',
   forex: '外匯',
   preciousMetals: '貴金屬',
   crudeOil: '原油',

@@ -9,6 +9,7 @@ export const header: Header = {
   announcements: 'Announcements',
   contactUs: 'Contact*Us',
   products: 'Products',
+  viewTradingProducts: 'View*Trading*Products',
   forex: 'Forex',
   preciousMetals: 'Precious*Metals',
   crudeOil: 'Crude*Oil',

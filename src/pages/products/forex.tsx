@@ -66,7 +66,7 @@ const forex: React.FC<forexProps> = () => {
           <Box display="flex">
             <Button
               variant="outline"
-              bgColor={showLong ? 'gray.200' : 'inherit'}
+              bgColor={showLong ? 'gray.300' : 'inherit'}
               mx={2}
               size="lg"
               onClick={() => {
@@ -77,7 +77,7 @@ const forex: React.FC<forexProps> = () => {
             </Button>
             <Button
               variant="outline"
-              bgColor={showLong ? 'inherit' : 'gray.200'}
+              bgColor={showLong ? 'inherit' : 'gray.300'}
               mx={2}
               size="lg"
               onClick={() => {
