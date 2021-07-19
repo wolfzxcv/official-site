@@ -15,9 +15,7 @@ import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
-interface MAMSystemProps {}
-
-const MAMSystem: React.FC<MAMSystemProps> = () => {
+const MAMSystem: React.FC<{}> = () => {
   const { t } = useTranslation(['platform']);
   const router = useRouter();
   const currentLang = router.locale as Locales;

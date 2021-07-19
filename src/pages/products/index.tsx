@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import InfoTitle from '../../components/Common/InfoTitle';
 import {
   IDetail,
@@ -15,9 +15,7 @@ import { StyledTable } from '../../components/Styled/Styled';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-interface productsProps {}
-
-const products: React.FC<productsProps> = () => {
+const products: React.FC<{}> = () => {
   const { t } = useTranslation(['products']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
@@ -29,6 +27,17 @@ const products: React.FC<productsProps> = () => {
       : productsData;
   const productsOptions = allProducts.map((x) => x.category);
   const [category, setCategory] = useState(productsOptions[0]);
+
+  useEffect(() => {
+    if (router.query?.option) {
+      const option = router.query?.option as IProduct['category'];
+
+      const hasOption = productsOptions.includes(option);
+      if (hasOption) {
+        setCategory(option);
+      }
+    }
+  }, []);
 
   const handleCategoryChange = (
     event: React.ChangeEvent<HTMLSelectElement>

@@ -3,22 +3,35 @@ import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { Locales } from '../../i18n/locales';
+import { IProduct } from '../Product/productsData';
 import { StyledFlex } from '../Styled/Styled';
 
 interface InfoButtonProps {
   text: string;
   href: string;
+  option?: IProduct['category'];
 }
 
 const InfoButton: React.FC<InfoButtonProps> = ({
   text,
-  href
+  href,
+  option
 }: InfoButtonProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
   return (
-    <NextLink href={href} locale={currentLang}>
+    <NextLink
+      href={
+        option
+          ? {
+              pathname: href,
+              query: { option }
+            }
+          : href
+      }
+      locale={currentLang}
+    >
       <StyledFlex
         minH="40px"
         width="200px"

@@ -7,7 +7,7 @@ import { StyledBoxTag } from '../Styled/Styled';
 interface InfoCardProps {
   icon?: JSX.Element;
   image?: JSX.Element;
-  title: string;
+  title?: string;
   text: string;
   minH?: string;
   bigW?: string;

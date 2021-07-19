@@ -6,9 +6,7 @@ import React from 'react';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 
-interface tradeDetailsProps {}
-
-const tradeDetails: React.FC<tradeDetailsProps> = () => {
+const tradeDetails: React.FC<{}> = () => {
   const { t } = useTranslation(['notice']);
 
   return (
