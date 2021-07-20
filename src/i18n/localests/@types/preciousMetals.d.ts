@@ -10,6 +10,8 @@ export type PreciousMetals = {
   thisMeansThatWhenTradingGold: string;
   /** When the price rises to */
   whenThePriceRisesTo: string;
+  /** View trading products */
+  viewTradingProducts: string;
   /** Diversified investment */
   diversifiedInvestment: string;
   /** Just as experienced investors */

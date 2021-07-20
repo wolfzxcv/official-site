@@ -35,7 +35,7 @@ export const menuList: IMenuItem[] = [
       { i18n: 'forex', href: '/products/forex' },
       { i18n: 'preciousMetals', href: '/products/preciousMetals' },
       { i18n: 'crudeOil', href: '/products/crudeOil' },
-      { i18n: 'index', href: '/products/indexInfo' },
+      { i18n: 'index', href: '/products/indexTrading' },
       { i18n: 'uSShareCFD', href: '/products/uSShareCFD' },
       { i18n: 'cryptocurrencies', href: '/products/cryptocurrencies' }
     ]
