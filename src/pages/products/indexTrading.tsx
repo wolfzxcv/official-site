@@ -116,8 +116,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('SPX500')}
             text={t('theWorldsMostWellKnown')}
-            bigW="30vw"
-            allCenter
           />
 
           <InfoCard
@@ -126,8 +124,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('US30')}
             text={t('stocksFrom30Companies')}
-            bigW="30vw"
-            allCenter
           />
 
           <InfoCard
@@ -139,8 +135,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('NASDAQ')}
             text={t('americasMostFamous')}
-            bigW="30vw"
-            allCenter
           />
         </Flex>
 
@@ -160,8 +154,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('UK100')}
             text={t('itContainsSomeLargeCompanies')}
-            bigW="30vw"
-            allCenter
           />
 
           <InfoCard
@@ -173,8 +165,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('GER30')}
             text={t('thisIndexConsistsOf')}
-            bigW="30vw"
-            allCenter
           />
 
           <InfoCard
@@ -186,8 +176,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('JPN225')}
             text={t('theMostPopularIndex')}
-            bigW="30vw"
-            allCenter
           />
         </Flex>
 
@@ -207,8 +195,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('AUS200')}
             text={t('theIndexConsistsOfThe200')}
-            bigW="30vw"
-            allCenter
           />
 
           <InfoCard
@@ -220,8 +206,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('FRA40')}
             text={t('theBenchmarkIndex')}
-            bigW="30vw"
-            allCenter
           />
 
           <InfoCard
@@ -233,8 +217,6 @@ const indexTrading: React.FC<{}> = () => {
             }
             title={t('ESTX50')}
             text={t('itIsComposedOf50')}
-            bigW="30vw"
-            allCenter
           />
         </Flex>
       </Flex>

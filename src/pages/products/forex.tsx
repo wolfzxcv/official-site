@@ -1,11 +1,11 @@
-import { Accordion, Box, Button, Flex, Image, Text } from '@chakra-ui/react';
+import { Accordion, Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineFieldTime } from 'react-icons/ai';
-import { HiServer } from 'react-icons/hi';
+import { HiServer, HiTrendingDown, HiTrendingUp } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
 import InfoAccordionItem from '../../components/Common/InfoAccordionItem';
 import InfoButton from '../../components/Common/InfoButton';
@@ -18,7 +18,6 @@ interface forexProps {}
 
 const forex: React.FC<forexProps> = () => {
   const { t } = useTranslation(['forex']);
-  const [showLong, setShowLong] = useState(true);
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'hk';
@@ -27,34 +26,43 @@ const forex: React.FC<forexProps> = () => {
   return (
     <Wrapper>
       {/* forex */}
-      <Flex justify="space-around" my={20}>
-        <Flex direction="column" width={{ base: '80vw', md: '40vw' }} mx={2}>
-          <InfoTitle title={t('foreignExchangeTransactions')} />
-          <Text my={5}>{t('theForeignExchange')}</Text>
+      <Flex
+        minH="500px"
+        justify="center"
+        align="center"
+        py={20}
+        px={{ base: 0, xl: 20 }}
+        background={{
+          base: 'gray.600',
+          xl: 'linear-gradient(to bottom right, #4A5568, #4A5568 75%, transparent 30% , transparent);'
+        }}
+      >
+        <Box
+          width={{ base: '80vw', md: '60vw' }}
+          px={{ base: 0, xl: 20 }}
+          color="white"
+        >
+          <Flex my={10}>
+            <InfoTitle title={t('foreignExchangeTransactions')} />
+          </Flex>
+
+          <Text my={10}>{t('theForeignExchange')}</Text>
           <InfoButton text={t('viewTradingProducts')} href="/products" />
-        </Flex>
-        <Box display={{ base: 'none', md: 'flex' }}>
-          <Image src={`../assets/images/forex_forex.png`} alt="forex"></Image>
         </Box>
+        <Flex width={{ base: '0', xl: '40vw' }} justify="center">
+          <Image src="../assets/images/forex_forex.png" alt="forex" />
+        </Flex>
       </Flex>
 
       {/* How to perform foreign exchange transactions */}
-      <Flex
-        direction="column"
-        align="center"
-        mt={10}
-        py={5}
-        px={10}
-        bgColor={'red.600'}
-        color="white"
-      >
+      <Flex direction="column" align="center" py={20}>
         <InfoTitle title={t('howToPerform')} />
 
-        <Text textAlign={isArabic ? 'right' : 'left'} my={5} color="gray.400">
+        <Text width="80vw" align="center" my={5} color="gray.400">
           {t('foreignExchangeCurrencies')}
         </Text>
 
-        <Box>
+        <Box width="80vw">
           <Text>{t('inForeignExchangeTrading')}</Text>
           <Text my={5}>{t('throughWCG')}</Text>
           <Text>{t('unlikeOther')}</Text>
@@ -62,35 +70,26 @@ const forex: React.FC<forexProps> = () => {
       </Flex>
 
       {/* Buy-long Sell-short */}
-      <Flex direction="column" bgColor="gray.100" py="100px" align="center">
-        <Box display="flex">
-          <Button
-            variant="outline"
-            bgColor={showLong ? 'gray.300' : 'inherit'}
-            mx={2}
-            size="lg"
-            onClick={() => {
-              setShowLong(true);
-            }}
-          >
-            {t('buyLong')}
-          </Button>
-          <Button
-            variant="outline"
-            bgColor={showLong ? 'inherit' : 'gray.300'}
-            mx={2}
-            size="lg"
-            onClick={() => {
-              setShowLong(false);
-            }}
-          >
-            {t('sellShort')}
-          </Button>
-        </Box>
-        <Box m={10}>
-          {showLong ? t('judgeTheMarket') : t('anticipatingThat')}{' '}
-        </Box>
-        {/* <InfoButton href="/learnTrade/basicTrading" text={t('learnMore')} /> */}
+      <Flex
+        py={20}
+        direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
+        justify="center"
+        align="center"
+        bgColor="gray.100"
+      >
+        <InfoCard
+          icon={<HiTrendingUp fontSize="32px" />}
+          title={t('buyLong')}
+          text={t('judgeTheMarket')}
+          bigW="40vw"
+        />
+
+        <InfoCard
+          icon={<HiTrendingDown fontSize="32px" />}
+          title={t('sellShort')}
+          text={t('anticipatingThat')}
+          bigW="40vw"
+        />
       </Flex>
 
       {/* Start forex trading in five easy steps */}
@@ -139,9 +138,11 @@ const forex: React.FC<forexProps> = () => {
 
       {/* Foreign exchange quotes */}
       <Flex direction="column">
-        <Text mt={10} p={10} fontWeight={'600'} bg="red.600" color="white">
-          {t('foreignExchangeQuotes')}
-        </Text>
+        <Flex bg="red.600" color="white" mt={10} p={10} justify="center">
+          <Text width="80vw" fontWeight={'600'}>
+            {t('foreignExchangeQuotes')}
+          </Text>
+        </Flex>
 
         <Flex
           px={10}

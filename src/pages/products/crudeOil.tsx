@@ -140,7 +140,6 @@ const crudeOil: React.FC<{}> = () => {
           text={t('thisIsACrudeOilProduced')}
           minH={isChinese ? '400px' : '300px'}
           bigW="40vw"
-          allCenter
         />
 
         <InfoCard
@@ -151,7 +150,6 @@ const crudeOil: React.FC<{}> = () => {
           text={t('brentCrudeOil')}
           minH={isChinese ? '400px' : '300px'}
           bigW="40vw"
-          allCenter
         />
       </Flex>
 
@@ -178,7 +176,6 @@ const crudeOil: React.FC<{}> = () => {
               'anyTechnologicalProgress'
             )}`}
             bigW="20vw"
-            allCenter
             minH="340px"
           />
 
@@ -194,7 +191,6 @@ const crudeOil: React.FC<{}> = () => {
               'theIndustrialAndEconomicSectors'
             )}`}
             bigW="20vw"
-            allCenter
             minH="340px"
           />
 
@@ -208,7 +204,6 @@ const crudeOil: React.FC<{}> = () => {
             title={t('availabilityAndSupply')}
             text={t('noMatterHowTheSupplyChanges')}
             bigW="20vw"
-            allCenter
             minH="340px"
           />
 
@@ -224,7 +219,6 @@ const crudeOil: React.FC<{}> = () => {
               'firesAndMechanicalFailures'
             )}`}
             bigW="20vw"
-            allCenter
             minH="340px"
           />
         </Flex>
@@ -251,7 +245,6 @@ const crudeOil: React.FC<{}> = () => {
           text={t('theUSDepartmentOfEnergy')}
           minH={isChinese ? '408px' : '300px'}
           bigW="40vw"
-          allCenter
         />
 
         <InfoCard
@@ -262,7 +255,6 @@ const crudeOil: React.FC<{}> = () => {
           text={t('theCrudeOilReportYouShouldStudy')}
           minH={isChinese ? '408px' : '300px'}
           bigW="40vw"
-          allCenter
         />
       </Flex>
     </Wrapper>
