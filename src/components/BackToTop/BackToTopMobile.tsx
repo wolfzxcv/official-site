@@ -28,6 +28,8 @@ const BackToTopMobile: React.FC<{}> = () => {
           aria-hidden
           icon={<AiOutlineWhatsApp fontSize="32px" />}
           bgColor="gray.600"
+          borderColor="white"
+          border="1px"
           _hover={{
             bgColor: 'gray.600'
           }}
@@ -43,6 +45,8 @@ const BackToTopMobile: React.FC<{}> = () => {
           aria-hidden
           icon={<FaLine fontSize="32px" />}
           bgColor="gray.600"
+          borderColor="white"
+          border="1px"
           _hover={{
             bgColor: 'gray.600'
           }}
@@ -58,6 +62,8 @@ const BackToTopMobile: React.FC<{}> = () => {
           aria-hidden
           icon={<FaTelegramPlane fontSize="32px" />}
           bgColor="gray.600"
+          borderColor="white"
+          border="1px"
           _hover={{
             bgColor: 'gray.600'
           }}
@@ -73,6 +79,8 @@ const BackToTopMobile: React.FC<{}> = () => {
           aria-hidden
           icon={<BsPencilSquare fontSize="32px" />}
           bgColor="gray.600"
+          borderColor="white"
+          border="1px"
           _hover={{
             bgColor: 'gray.600'
           }}
@@ -87,6 +95,8 @@ const BackToTopMobile: React.FC<{}> = () => {
             aria-hidden
             icon={<AiOutlineCloudDownload fontSize="32px" />}
             bgColor="gray.600"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'gray.600',
               cursor: 'pointer'
@@ -101,6 +111,8 @@ const BackToTopMobile: React.FC<{}> = () => {
           aria-label={t('top')}
           icon={<BiArrowToTop fontSize="32px" />}
           bgColor="gray.600"
+          borderColor="white"
+          border="1px"
           _hover={{
             bgColor: 'gray.600'
           }}
