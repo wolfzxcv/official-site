@@ -8,6 +8,7 @@ export const preciousMetals: PreciousMetals = {
     '这意味着当交易黄金时，您在推测1盎司黄金对美元的价格是涨还是跌。我们假设黄金当前价格是1300.60美元。您认为未来价格可能上涨，于是买进了100盎司（1手）黄金（代码XAU/USD）。',
   whenThePriceRisesTo:
     '当价格上涨至1305.80时，您决定平仓这笔交易。您的盈利是开仓价和平仓价之间的价差乘以您交易的盎司数量。这笔交易中，您获得的盈利是520美元。',
+  viewTradingProducts: '查看交易产品',
   diversifiedInvestment: '多样化的投资',
   justAsExperiencedInvestors:
     '正如经验丰富的投资者像大型机构一样，倾向于让他们的投资组合更加多样化，以降低风险并提高收益。黄金交易被认为是多样化交易投资组合的一种极好方式，因为黄金价格往往与股票市场呈负相关。',

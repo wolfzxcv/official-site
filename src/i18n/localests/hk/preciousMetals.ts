@@ -8,6 +8,7 @@ export const preciousMetals: PreciousMetals = {
     '這意味著當交易黃金時，您在推測1盎司黃金對美元的價格是漲還是跌。我們假設黃金當前價格是1300.60美元。您認為未來價格可能上漲，於是買進了100盎司（1手）黃金（代碼XAU/USD）。',
   whenThePriceRisesTo:
     '當價格上漲至1305.80時，您決定平倉這筆交易。您的盈利是開倉價和平倉價之間的價差乘以您交易的盎司數量。這筆交易中，您獲得的盈利是520美元。',
+  viewTradingProducts: '查看交易產品',
   diversifiedInvestment: '多樣化的投資',
   justAsExperiencedInvestors:
     '正如經驗豐富的投資者像大型機構一樣，傾向於讓他們的投資組合更加多樣化，以降低風險並提高收益。黃金交易被認為是多樣化交易投資組合的一種極好方式，因為黃金價格往往與股票市場呈負相關。',

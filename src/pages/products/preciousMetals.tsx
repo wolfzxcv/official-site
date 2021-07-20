@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
@@ -45,6 +46,12 @@ const preciousMetals: React.FC<{}> = () => {
             <Text>{t('thisMeansThatWhenTradingGold')}</Text>
             <Text>{t('whenThePriceRisesTo')}</Text>
           </Stack>
+
+          <InfoButton
+            text={t('viewTradingProducts')}
+            href="/products"
+            option="preciousMetals"
+          />
         </Box>
         <Flex width={{ base: '0', xl: '40vw' }} justify="center">
           <Image src="../assets/images/preciousMetals_1.png" alt="gold" />
