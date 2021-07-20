@@ -32,6 +32,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-hidden
             icon={<AiOutlineMessage fontSize="32px" />}
             bgColor="gray.700"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -52,6 +54,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-hidden
             icon={<AiOutlineWhatsApp fontSize="32px" />}
             bgColor="gray.700"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -68,6 +72,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-hidden
             icon={<FaLine fontSize="32px" />}
             bgColor="gray.700"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -88,6 +94,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-hidden
             icon={<FaTelegramPlane fontSize="32px" />}
             bgColor="gray.700"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -108,6 +116,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-hidden
             icon={<BsPencilSquare fontSize="32px" />}
             bgColor="gray.700"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -128,6 +138,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
               aria-hidden
               icon={<AiOutlineCloudDownload fontSize="32px" />}
               bgColor="gray.700"
+              borderColor="white"
+              border="1px"
               _hover={{
                 bgColor: 'red.600'
               }}
@@ -142,6 +154,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-label={t('top')}
             icon={<BiArrowToTop fontSize="32px" />}
             bgColor="gray.700"
+            borderColor="white"
+            border="1px"
             _hover={{
               bgColor: 'red.600'
             }}
