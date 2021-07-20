@@ -41,7 +41,7 @@ const preciousMetals: React.FC<{}> = () => {
             <InfoTitle title={t('howToTradePreciousMetals')} />
           </Flex>
 
-          <Stack spacing={3}>
+          <Stack mb={10} spacing={3}>
             <Text>{t('forThoseTraders')}</Text>
             <Text>{t('thisMeansThatWhenTradingGold')}</Text>
             <Text>{t('whenThePriceRisesTo')}</Text>
