@@ -64,7 +64,7 @@ export const conditions: Conditions = {
   weUnderstandThatEven:
     'We*understand*that*even*well-established*institutions*would*make*mistakes.*If*you*have*a*complaint,*please*let*us*know*and*let*us*have*a*chance*to*solve*these*problems.*We*will*investigate*the*issue,*answer*your*questions,*and*do*our*best*to*restore*your*confidence*in*us.',
   toAssistUsInHelpingYou:
-    'To*assist*us*in*helping*you,*we*recommend*that*you*follow*a*simple*five*steps*process：',
+    'To*assist*us*in*helping*you,*we*recommend*that*you*follow*a*simple*five*steps*process:',
   collectMaterials: 'Collect*materials',
   forCurrentTrades:
     'For*current*trades,*please*contact*our*dealing*room;*for*previous*trades*or*other*matters,*please*contact*our*customer*service*staff.',
@@ -79,7 +79,7 @@ export const conditions: Conditions = {
     'If*at*this*stage,*the*problem*has*not*been*resolved*or*cannot*be*handled*satisfactorily,*please*ask*the*person*in*charge*to*report*the*matter*to*their*upper*management.*We*will*provide*you*with*the*name*and*contact*details*of*the*person*who*is*responsible*for*investigating*your*complaint.*We*will*grant*the*person*in*charge*the*necessary*authority*to*review*your*case.',
   ifTheProblem:
     'If*the*problem*cannot*be*resolved,*you*can*consider*reporting*it*to*the*compliance,*internal*audit*and*risk*management*supervisor.*The*supervisor*will*conduct*an*independent*inspection*and*contact*you*directly.',
-  emailTo: 'Email*to：*',
+  emailTo: 'Email*to:*',
   headOfCompliance: 'Head*of*compliance,*internal*audit*and*risk*management',
   weTargetToResolve:
     'We*target*to*resolve*all*disputes*within*15*working*days.*However,*some*complicated*issues*may*take*longer*to*process.*If*this*is*the*case,*we*will*keep*you*updated*with*our*progress.',

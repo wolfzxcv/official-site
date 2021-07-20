@@ -178,7 +178,6 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('centralBank')}
             text={t('theseInstitutions')}
             bigW="20vw"
-            allCenter
             minH="537px"
           />
 
@@ -192,7 +191,6 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('crudeOil')}
             text={t('crudeOilAndGold')}
             bigW="20vw"
-            allCenter
             minH="537px"
           />
 
@@ -206,7 +204,6 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('USDollars')}
             text={t('sinceGoldIsPriced')}
             bigW="20vw"
-            allCenter
             minH="537px"
           />
 
@@ -220,7 +217,6 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('stockMarket')}
             text={t('whenTheStockMarket')}
             bigW="20vw"
-            allCenter
             minH="537px"
           />
         </Flex>

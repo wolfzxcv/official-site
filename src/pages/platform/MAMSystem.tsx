@@ -200,7 +200,6 @@ const MAMSystem: React.FC<{}> = () => {
             }
             title={t('transparentCommissionDetails')}
             text={t('realTimeDisplay')}
-            allCenter
           />
 
           <InfoCard
@@ -212,7 +211,6 @@ const MAMSystem: React.FC<{}> = () => {
             }
             title={t('convenientAndFastExecution')}
             text={t('allTransactionOrders')}
-            allCenter
           />
           <InfoCard
             image={
@@ -223,7 +221,6 @@ const MAMSystem: React.FC<{}> = () => {
             }
             title={t('AMustHaveSystem')}
             text={t('multilingualTradingPlatform')}
-            allCenter
           />
         </Flex>
       </Flex>

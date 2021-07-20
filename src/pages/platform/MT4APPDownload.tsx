@@ -184,7 +184,6 @@ const MT4APPDownload: React.FC<{}> = () => {
             }
             title={t('tradingSystem')}
             text={t('includesCurrentPriceExecution')}
-            allCenter
           />
 
           <InfoCard
@@ -196,7 +195,6 @@ const MT4APPDownload: React.FC<{}> = () => {
             }
             title={t('technicalAnalysis')}
             text={t('MT4ProvidesAMoreComprehensive')}
-            allCenter
           />
           <InfoCard
             image={
@@ -207,7 +205,6 @@ const MT4APPDownload: React.FC<{}> = () => {
             }
             title={t('safeAndConvenient')}
             text={t('advancedTradingAndAnalysisFunctions')}
-            allCenter
           />
         </Flex>
       </Flex>

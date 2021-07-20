@@ -1,7 +1,5 @@
 import { Box, Center, Stack, Text } from '@chakra-ui/react';
-import { useRouter } from 'next/router';
 import React from 'react';
-import { Locales } from '../../i18n/locales';
 import { StyledBoxTag } from '../Styled/Styled';
 
 interface InfoCardProps {
@@ -12,7 +10,6 @@ interface InfoCardProps {
   minH?: string;
   bigW?: string;
   withBorder?: boolean;
-  allCenter?: boolean;
 }
 
 // a row with 2 or 3 cards
@@ -23,13 +20,8 @@ const InfoCard: React.FC<InfoCardProps> = ({
   text,
   minH = 'auto',
   bigW,
-  withBorder = false,
-  allCenter = false
+  withBorder = false
 }: InfoCardProps) => {
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'sa';
-
   return (
     <Box
       border={withBorder ? '1px' : '0px'}
@@ -49,16 +41,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
         px={withBorder ? 5 : 0}
         spacing={3}
         width={{ base: '80vw', xl: bigW ? bigW : '30vw' }}
-        textAlign={{
-          base: 'center',
-          xl: withBorder
-            ? 'center'
-            : allCenter
-            ? 'center'
-            : isArabic
-            ? 'right'
-            : 'left'
-        }}
+        textAlign={'center'}
       >
         <Text fontSize="24px" fontWeight="700">
           {title}

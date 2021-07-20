@@ -31,7 +31,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-label={t('online')}
             aria-hidden
             icon={<AiOutlineMessage fontSize="32px" />}
-            bgColor="gray.600"
+            bgColor="gray.700"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -51,7 +51,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-label={t('whatsApp')}
             aria-hidden
             icon={<AiOutlineWhatsApp fontSize="32px" />}
-            bgColor="gray.600"
+            bgColor="gray.700"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -67,7 +67,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-label={t('line')}
             aria-hidden
             icon={<FaLine fontSize="32px" />}
-            bgColor="gray.600"
+            bgColor="gray.700"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -87,7 +87,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-label={t('telegram')}
             aria-hidden
             icon={<FaTelegramPlane fontSize="32px" />}
-            bgColor="gray.600"
+            bgColor="gray.700"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -107,7 +107,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
             aria-label={t('clientPortal')}
             aria-hidden
             icon={<BsPencilSquare fontSize="32px" />}
-            bgColor="gray.600"
+            bgColor="gray.700"
             _hover={{
               bgColor: 'red.600'
             }}
@@ -127,7 +127,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
               aria-label={t('downloadMT4')}
               aria-hidden
               icon={<AiOutlineCloudDownload fontSize="32px" />}
-              bgColor="gray.600"
+              bgColor="gray.700"
               _hover={{
                 bgColor: 'red.600'
               }}
@@ -141,7 +141,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
             onClick={scrollToTop}
             aria-label={t('top')}
             icon={<BiArrowToTop fontSize="32px" />}
-            bgColor="gray.600"
+            bgColor="gray.700"
             _hover={{
               bgColor: 'red.600'
             }}

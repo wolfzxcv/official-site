@@ -31,7 +31,7 @@ export const forex: Forex = {
     'Di*WCG,*kami*menyediakan*berbagai*macam*produk*termasuk*pasangan*mata*uang*langsung*dan*lintas*mata*uang.*Traders*baru*sering*kali*memulai*perdagangan*dengan*pasangan*mata*uang*yang*paling*mereka*kenal,*dan*kemudian*mencari*peluang*perdagangan*pada*pasangan*mata*uang*lain*yang*tidak*begitu*dikenal.',
   determineTheDirection: 'Tentukan*arah*jual*beli',
   afterChoosing:
-    'Setelah*memilih*produk*perdagangan,*Anda*harus*memutuskan*apakah*akan*membeli*atau*menjual*dengan*berspekulasi*tentang*arah*pasar*di*masa*depan.*Pasangan*mata*uang*asing*terdiri*dari*dua*mata*uang.*Mata*uang*di*sisi*kiri*disebut*"mata*uang*dasar"*dan*mata*uang*di*sisi*kanan*disebut*"mata*uang*kutipan".*Oleh*itu*：',
+    'Setelah*memilih*produk*perdagangan,*Anda*harus*memutuskan*apakah*akan*membeli*atau*menjual*dengan*berspekulasi*tentang*arah*pasar*di*masa*depan.*Pasangan*mata*uang*asing*terdiri*dari*dua*mata*uang.*Mata*uang*di*sisi*kiri*disebut*"mata*uang*dasar"*dan*mata*uang*di*sisi*kanan*disebut*"mata*uang*kutipan".*Oleh*itu*:',
   ifYouThinkThatTheBaseCurrencyIsStronger:
     'Jika*Anda*berpikir*bahwa*mata*uang*dasar*lebih*kuat*dari*mata*uang*kutipan,*atau*meta*uang*kutipan*relatif*lebih*lemah*daripada*mata*uang*dasar,*maka*belilah*pasangan*mata*uang*ini.',
   ifYouThinkThatTheBaseCurrencyIsWeaker:
