@@ -28,7 +28,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
       </h2>
       <AccordionPanel pb={4}>
         {content.map((each) => (
-          <Box my={1} key={each}>
+          <Box py={3} key={each}>
             {each}
           </Box>
         ))}
