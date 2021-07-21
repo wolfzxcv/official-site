@@ -56,4 +56,10 @@ export type Notice = {
   setTheValidityPeriodOfTheOrder: string;
   /** All pending orders */
   allPendingOrders: string;
+  /** Forced liquidation policy */
+  forcedLiquidationPolicy: string;
+  /** Please note that unless we have other notice */
+  pleaseNoteThatUnlessWeHaveOtherNotice: string;
+  /** The calculation method */
+  theCalculationMethod: string;
 };

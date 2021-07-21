@@ -1,8 +1,9 @@
-import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Accordion, Box, Flex, Image } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
+import InfoAccordionItem from '../../components/Common/InfoAccordionItem';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 
@@ -20,38 +21,40 @@ const tradeDetails: React.FC<{}> = () => {
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
         <Box width={'80vw'} my={10}>
-          <InfoTitle size="22px" title={t('sourceOfTradeExecution')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('theQuotesOfOur')}</Text>
-          </Stack>
-        </Box>
+          <Accordion width={'80vw'} allowToggle>
+            <InfoAccordionItem
+              title={t('sourceOfTradeExecution')}
+              content={[t('theQuotesOfOur')]}
+            />
 
-        <Box width={'80vw'} my={10}>
-          <InfoTitle size="22px" title={t('slippage')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('ourCompanyWill')}</Text>
-          </Stack>
-        </Box>
+            <InfoAccordionItem
+              title={t('slippage')}
+              content={[t('ourCompanyWill')]}
+            />
 
-        <Box width={'80vw'} my={10}>
-          <InfoTitle size="22px" title={t('marketGapAndFluctuations')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('whenEconomicData')}</Text>
-          </Stack>
-        </Box>
+            <InfoAccordionItem
+              title={t('marketGapAndFluctuations')}
+              content={[t('whenEconomicData')]}
+            />
 
-        <Box width={'80vw'} my={10}>
-          <InfoTitle size="22px" title={t('leverageAndMarginPolicy')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('inAnyCase')}</Text>
-          </Stack>
-        </Box>
+            <InfoAccordionItem
+              title={t('leverageAndMarginPolicy')}
+              content={[t('inAnyCase')]}
+            />
 
-        <Box width={'80vw'} my={10}>
-          <InfoTitle size="22px" title={t('setTheValidityPeriodOfTheOrder')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('allPendingOrders')}</Text>
-          </Stack>
+            <InfoAccordionItem
+              title={t('setTheValidityPeriodOfTheOrder')}
+              content={[t('allPendingOrders')]}
+            />
+
+            <InfoAccordionItem
+              title={t('forcedLiquidationPolicy')}
+              content={[
+                t('pleaseNoteThatUnlessWeHaveOtherNotice'),
+                t('theCalculationMethod')
+              ]}
+            />
+          </Accordion>
         </Box>
       </Flex>
     </Wrapper>

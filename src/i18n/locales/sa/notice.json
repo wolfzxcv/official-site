@@ -25,5 +25,8 @@
   "leverageAndMarginPolicy": "Leverage and margin policy",
   "inAnyCase": "In any case, traders need to have sufficient margin to maintain open positions. WCG does not provide notice of margin call. For example, before weekends and holidays, when the margin level is less than 100% of the required margin, WCG has the right to respond to market fluctuations or according to the current situation. According to the needs of individual circumstances, all positions of the customer will be locked (hedged).",
   "setTheValidityPeriodOfTheOrder": "Set the validity period of the order",
-  "allPendingOrders": "All pending orders and stop loss and profit settings are valid for one week. Before the weekend is closed, all pending orders and unexecuted stop loss or profit settings will be cancelled. If necessary, customers can reset the settings after the market opens on Monday."
+  "allPendingOrders": "All pending orders and stop loss and profit settings are valid for one week. Before the weekend is closed, all pending orders and unexecuted stop loss or profit settings will be cancelled. If necessary, customers can reset the settings after the market opens on Monday.",
+  "forcedLiquidationPolicy": "Forced liquidation policy",
+  "pleaseNoteThatUnlessWeHaveOtherNotice": "Please note that unless we have other notice, the WCG liquidation margin level is 30%. When your margin ratio is less than 30%, the system will automatically close your order. Please always pay attention to the level of funds in the account to avoid unnecessary losses.",
+  "theCalculationMethod": "The calculation method of the margin ratio is: net value ÷ used advance payment = margin ratio"
 }
