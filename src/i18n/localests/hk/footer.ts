@@ -16,9 +16,9 @@ export const footer: Footer = {
   aRealAccount: '開立真實帳戶',
   WCGIsABusinessBrand: 'WCG是由多家公司共同使用的業務品牌，包括：',
   WCGMarketsLtdIsALimitedLiabilityCompany:
-    'WCG*Markets*Ltd是位於聖文森特和格林納丁斯依據國際商業公司法注册的有限責任公司，公司編號為 26087 BC 2020。註冊地址是：The*Financial*Services*Centre*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
+    'WCG*Markets*Ltd是位於聖文森特和格林納丁斯依據國際商業公司法注冊的有限責任公司，公司編號為 26087 BC 2020。註冊地址是：The*Financial*Services*Centre*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
-    'WCG*Markets*Ltd獲加拿大金融情报部门(FIU)加拿大金融交易和报告分析中心(FINTRAC)監管，MSB牌照编號為M20282836。註冊地址是：*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
+    'WCG*Markets*Ltd獲加拿大金融情報部門(FIU)加拿大金融交易和報告分析中心(FINTRAC)監管，MSB牌照編號為M20282836。註冊地址是：*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
   WCGGoldCompany:
     '文傳金業有限公司獲香港金銀業貿易場(Chinese*Gold*&*Silver*Exchange,*CGSE)權並受其監管。為12號A1級別會員單位。註冊地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:

@@ -23,10 +23,9 @@ export const home: Home = {
   mobileTradingSystem: 'Hệ*thống*giao*dịch*di*động',
   WCGMobileTradingSystem:
     'Hệ*thống*Giao*dịch*Di*động*WCG*cung*cấp*một*phương*thức*đơn*giản*và*thuận*tiện*để*khách*hàng*có*thể*giao*dịch*khi*đang*di*chuyển*và*phản*ứng*ngay*lập*tức*với*các*tin*tức*và*dữ*liệu*thị*trường*tức*thì,*từ*đó*tối*đa*hóa*cơ*hội*giao*dịch.',
-  brandReputation:
-    'Uy*tín*thương*hiệu*và*đội*ngũ*dịch*vụ*khách*hàng*do*các*chuyên*gia*nổi*tiếng*trên*thị*trường*dẫn*đầu',
-  withFormalBusinessLicense:
-    'Với*giấy*phép*kinh*doanh*chính*thức*trên*thị*trường*tài*chính*quốc*tế,*được*bảo*vệ*bởi*luật*pháp*Hồng*Kông,*Trung*Quốc*và*các*quy*định*quốc*tế*của*St.Vincent.*Đó*là*mạng*lưới*"nhà*môi*giới*kim*loại*quý*đáng*tin*cậy*nhất*cho*các*nhà*đầu*tư".',
+  brandReputation: 'Danh*tiếng*thương*hiệu*và*mối*quan*hệ*đôi*bên*cùng*có*lợi',
+  WCGValuesTheCustomersTradingExperience:
+    'WCG*coi*trọng*trải*nghiệm*giao*dịch*của*khách*hàng*và*tin*tưởng*chắc*chắn*rằng*sự*phát*triển*trong*tương*lai*của*thương*hiệu*phụ*thuộc*vào*sự*phát*triển*chung*của*các*đối*tác.',
   preciousMetalsContract: 'Hợp*đồng*kim*loại*quý',
   timesLeverage:
     'Đòn*bẩy*100-200*lần,*chi*phí*thấp*và*lợi*nhuận*cao,*giao*dịch*toàn*cầu*trong*24*giờ,*có*thể*kiếm*lợi*nhuận*bằng*cách*mua*và*bán.*London*Gold*&*London*Silver*là*sản*phẩm*giao*dịch*được*cung*cấp*bởi*International*Financial*Futures*Exchange,*với*các*quy*tắc*giao*dịch*đơn*giản,*hoạt*động*T*+*0,*thời*gian*giải*quyết*quỹ*ngắn*và*giao*dịch*điện*tử*trực*tuyến*nhanh*chóng*và*an*toàn.',

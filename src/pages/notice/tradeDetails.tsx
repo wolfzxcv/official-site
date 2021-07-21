@@ -39,6 +39,20 @@ const tradeDetails: React.FC<{}> = () => {
             <Text>{t('whenEconomicData')}</Text>
           </Stack>
         </Box>
+
+        <Box width={'80vw'} my={10}>
+          <InfoTitle size="22px" title={t('leverageAndMarginPolicy')} />
+          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
+            <Text>{t('inAnyCase')}</Text>
+          </Stack>
+        </Box>
+
+        <Box width={'80vw'} my={10}>
+          <InfoTitle size="22px" title={t('setTheValidityPeriodOfTheOrder')} />
+          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
+            <Text>{t('allPendingOrders')}</Text>
+          </Stack>
+        </Box>
       </Flex>
     </Wrapper>
   );

@@ -48,4 +48,12 @@ export type Notice = {
   marketGapAndFluctuations: string;
   /** When economic data */
   whenEconomicData: string;
+  /** Leverage and margin policy */
+  leverageAndMarginPolicy: string;
+  /** In any case */
+  inAnyCase: string;
+  /** Set the validity period of the order */
+  setTheValidityPeriodOfTheOrder: string;
+  /** All pending orders */
+  allPendingOrders: string;
 };

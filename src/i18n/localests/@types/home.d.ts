@@ -36,8 +36,8 @@ export type Home = {
   WCGMobileTradingSystem: string;
   /** Brand reputation */
   brandReputation: string;
-  /** With formal business license */
-  withFormalBusinessLicense: string;
+  /** WCG values the customer's trading experience */
+  WCGValuesTheCustomersTradingExperience: string;
   /** Precious Metals Contract */
   preciousMetalsContract: string;
   /** times leverage */
