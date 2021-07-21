@@ -1,9 +1,10 @@
-import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Accordion, Box, Flex, Image } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import InfoAccordionItem from '../../components/Common/InfoAccordionItem';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
@@ -25,66 +26,49 @@ const abnormalTrade: React.FC<{}> = () => {
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
         <Box width={'80vw'} my={10}>
-          <InfoTitle size="22px" title={t('whatIsAbnormalTrade')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('abnormalTradeMeans')}</Text>
-            <Text>{t('abnormalTradeTakesUp')}</Text>
-          </Stack>
-        </Box>
+          <Accordion width={'80vw'} allowToggle>
+            <InfoAccordionItem
+              title={t('whatIsAbnormalTrade')}
+              content={[t('abnormalTradeMeans'), t('abnormalTradeTakesUp')]}
+            />
 
-        <Box width={'80vw'} my={10} textAlign={isArabic ? 'right' : 'left'}>
-          <InfoTitle size="22px" title={t('theDefinitionOfAbnormalTrades')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>{t('whenTheCustomerWithdrawsMoney')}</Text>
-            <Text>
-              {`${!isArabic ? '1.' : ''}${t('whenThereIs')}${
-                isArabic ? '.1' : ''
-              }`}
-            </Text>
-            <Text>
-              {`${!isArabic ? '2.' : ''}${t('when30OfThe')}${
-                isArabic ? '.2' : ''
-              }`}
-            </Text>
-            <Text>
-              {`${!isArabic ? '3.' : ''}${t('whenClientIsUsing')}${
-                isArabic ? '.3' : ''
-              }`}
-            </Text>
+            <InfoAccordionItem
+              title={t('theDefinitionOfAbnormalTrades')}
+              content={[
+                t('whenTheCustomerWithdrawsMoney'),
+                `${!isArabic ? '1.' : ''}${t('whenThereIs')}${
+                  isArabic ? '.1' : ''
+                }`,
+                `${!isArabic ? '2.' : ''}${t('when30OfThe')}${
+                  isArabic ? '.2' : ''
+                }`,
+                `${!isArabic ? '3.' : ''}${t('whenClientIsUsing')}${
+                  isArabic ? '.3' : ''
+                }`,
+                `${!isArabic ? '4.' : ''}${t('whenCustomersAreTackling')}${
+                  isArabic ? '.4' : ''
+                }`,
+                `${!isArabic ? '5.' : ''}${t('aTradeOfUtilizing')}${
+                  isArabic ? '.5' : ''
+                }`,
+                `${!isArabic ? '6.' : ''}${t('whenTheNumber')}${
+                  isArabic ? '.6' : ''
+                }`
+              ]}
+            />
 
-            <Text>
-              {`${!isArabic ? '4.' : ''}${t('whenCustomersAreTackling')}${
-                isArabic ? '.4' : ''
-              }`}
-            </Text>
-            <Text>
-              {`${!isArabic ? '5.' : ''}${t('aTradeOfUtilizing')}${
-                isArabic ? '.5' : ''
-              }`}
-            </Text>
-            <Text>
-              {`${!isArabic ? '6.' : ''}${t('whenTheNumber')}${
-                isArabic ? '.6' : ''
-              }`}
-            </Text>
-          </Stack>
-        </Box>
-
-        <Box width={'80vw'} my={10} textAlign={isArabic ? 'right' : 'left'}>
-          <InfoTitle size="22px" title={t('handlingMethod')} />
-          <Stack spacing={3} mt={{ base: 5, md: 0 }}>
-            <Text>
-              {`${!isArabic ? '1.' : ''}${t('whenThereIs')}${
-                isArabic ? '.1' : ''
-              }`}
-            </Text>
-            <Text>
-              {`${!isArabic ? '2.' : ''}${t('when30OfThe')}${
-                isArabic ? '.2' : ''
-              }`}
-            </Text>
-            <Text>{t('whenTheCustomerWithdrawsMoney')}</Text>
-          </Stack>
+            <InfoAccordionItem
+              title={t('handlingMethod')}
+              content={[
+                `${!isArabic ? '1.' : ''}${t('whenThereIs')}${
+                  isArabic ? '.1' : ''
+                }`,
+                `${!isArabic ? '2.' : ''}${t('when30OfThe')}${
+                  isArabic ? '.2' : ''
+                }`
+              ]}
+            />
+          </Accordion>
         </Box>
       </Flex>
     </Wrapper>
