@@ -46,22 +46,30 @@ const Index: React.FC<{}> = () => {
             p={3}
             width={{ base: '80vw', xl: '60vw' }}
           >
-            <Text fontWeight="700" fontSize="42px" color="white">
+            <Text
+              fontWeight="700"
+              fontSize={{ base: '28px', md: '42px' }}
+              color="white"
+            >
               {t('home:diversifiedProducts')}
             </Text>
-            <Text fontWeight="700" fontSize="42px" color="white">
+            <Text
+              fontWeight="700"
+              fontSize={{ base: '28px', md: '42px' }}
+              color="white"
+            >
               {t('home:strongAdvantages')}
             </Text>
-            <Text fontSize="24px" color="white">
+            <Text fontSize={{ base: '20px', md: '24px' }} color="white">
               {t('home:highLiquidity')}
             </Text>
-            <Text fontSize="24px" color="white">
+            <Text fontSize={{ base: '20px', md: '24px' }} color="white">
               {t('home:safetyOfFunds')}
             </Text>
           </Stack>
 
           {/* Button under Banner */}
-          <NextLink href="/products/forex" locale={currentLang}>
+          <NextLink href="/products" locale={currentLang}>
             <StyledBox
               m={10}
               p={2}
@@ -72,7 +80,7 @@ const Index: React.FC<{}> = () => {
               bgColor="transparent"
               color="gray.100"
               textAlign="center"
-              fontSize="24px"
+              fontSize={{ base: '20px', md: '24px' }}
               _hover={{
                 bgColor: 'gray.100',
                 color: 'gray.700',
@@ -188,13 +196,13 @@ const Index: React.FC<{}> = () => {
         bgColor={{ base: 'black', xl: 'white' }}
         color={{ base: 'white', xl: 'black' }}
       >
-        <Flex fontSize="36px" fontWeight="700">
+        <Flex fontSize={{ base: '28px', md: '36px' }} fontWeight="700">
           <Text color="red.500" mr={isChinese ? 0 : 3}>
             {t('home:invest')}
           </Text>
           <Text>{t('home:inNewChannels')}</Text>
         </Flex>
-        <Box fontSize="24px" my={3}>
+        <Box fontSize={{ base: '20px', md: '24px' }} my={3}>
           {t('home:professionalEquals')}
         </Box>
         <Image src="../assets/images/home_divider.png" alt="divider" />
