@@ -1,8 +1,8 @@
 import { MarketNews } from '../@types/marketNews';
 
 export const marketNews: MarketNews = {
-  economicCalendar: '關於外匯和世界新聞的經濟日曆，每日和每周發布',
-  weeklyForeignExchangeNews: '來自WCG的每周外匯要聞以及精確的世界經濟指向標',
+  economicCalendar: '關於外匯和世界新聞的經濟日曆，每日和每週發布',
+  weeklyForeignExchangeNews: '來自WCG的每週外匯要聞以及精確的世界經濟指向標',
   financialCalendar: '財經日暦',
   financialNews: '財經新聞',
   marketAnalysis: '市場分析',
