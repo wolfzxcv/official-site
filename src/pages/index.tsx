@@ -12,6 +12,7 @@ import { GiChampions, GiServerRack } from 'react-icons/gi';
 import { HiServer } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
 import InfoCard from '../components/Common/InfoCard';
+import InfoTitle from '../components/Common/InfoTitle';
 import { StyledBox } from '../components/Styled/Styled';
 import Wrapper from '../components/Wrapper';
 import { Locales } from '../i18n/locales';
@@ -189,8 +190,8 @@ const Index: React.FC<{}> = () => {
 
       {/* Invest */}
       <Flex
-        my="80px"
-        py={5}
+        my={10}
+        p={5}
         direction="column"
         align="center"
         bgColor={{ base: 'black', xl: 'white' }}
@@ -246,10 +247,10 @@ const Index: React.FC<{}> = () => {
         color="white"
       >
         <Box textAlign={isArabic ? 'right' : 'left'} maxW="70vw">
-          <Text fontSize="36px" fontWeight="700">
-            {t('home:preciousMetalsContract')}
-          </Text>
-          <Text fontSize="22px">{t('home:timesLeverage')}</Text>
+          <InfoTitle title={t('home:preciousMetalsContract')} />
+          <Box pt={5}>
+            <Text>{t('home:timesLeverage')}</Text>
+          </Box>
         </Box>
 
         <Link
@@ -412,7 +413,7 @@ const Index: React.FC<{}> = () => {
           direction={{ base: 'column', md: 'row' }}
         >
           <Box
-            fontSize="48px"
+            fontSize={{ base: '32px', md: '48px' }}
             fontWeight="700"
             color="black"
             textAlign="center"

@@ -10,7 +10,7 @@ const FooterMiddle: React.FC<{}> = () => {
   return (
     <Box m={4} textAlign="center">
       <Stack spacing={10}>
-        <Text fontSize="3xl" fontWeight="700">
+        <Text fontSize={{ base: 'xl', md: '3xl' }} fontWeight="700">
           {t('footer:provideYouWith')}
         </Text>
         <Text fontSize="sm">{t('footer:allTradesInvolveRisks')}</Text>
@@ -21,7 +21,7 @@ const FooterMiddle: React.FC<{}> = () => {
               textAlign="left"
               width={{ base: '50vw', md: '30vw', xxl: '20vw' }}
             >
-              <Text fontSize="3xl" fontWeight="700">
+              <Text fontSize={{ base: '2xl', md: '3xl' }} fontWeight="700">
                 {t('footer:startRealFXTrading')}
               </Text>
             </Box>
@@ -40,7 +40,7 @@ const FooterMiddle: React.FC<{}> = () => {
               textAlign="left"
               width={{ base: '50vw', md: '30vw', xxl: '20vw' }}
             >
-              <Text fontSize="3xl" fontWeight="700">
+              <Text fontSize={{ base: '2xl', md: '3xl' }} fontWeight="700">
                 {t('footer:newbiesGettingStarted')}
               </Text>
               <Text fontSize="sm">{t('footer:getUSD')}</Text>
