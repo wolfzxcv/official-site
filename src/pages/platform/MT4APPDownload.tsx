@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Image, List, Tooltip } from '@chakra-ui/react';
+import { Box, Center, Flex, Image, List } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -220,24 +220,11 @@ const MT4APPDownload: React.FC<{}> = () => {
           mx={5}
           width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
         >
-          <Tooltip
-            label={
-              <Image
-                minW="100px"
-                height="100x"
-                src="../assets/images/ios-qr.png"
-                alt="ios-qr"
-              />
-            }
-            hasArrow
-            arrowSize={15}
-          >
-            <DownloadButton
-              href="https://apps.apple.com/us/app/metatrader-4/id496212596"
-              text={t('downloadTheIOSVersion')}
-              type="ios"
-            />
-          </Tooltip>
+          <DownloadButton
+            href="https://apps.apple.com/us/app/metatrader-4/id496212596"
+            text={t('downloadTheIOSVersion')}
+            type="ios"
+          />
         </Box>
 
         <Box

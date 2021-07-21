@@ -62,7 +62,11 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
   );
 };
 
-const CommonContent = ({ text, type, onClick }: DownloadButtonProps) => {
+const CommonContent: React.FC<DownloadButtonProps> = ({
+  text,
+  type,
+  onClick
+}: DownloadButtonProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'hk';
