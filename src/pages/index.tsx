@@ -227,7 +227,7 @@ const Index: React.FC<{}> = () => {
         <InfoCard
           icon={<GiChampions fontSize="32px" />}
           title={t('home:brandReputation')}
-          text={t('home:withFormalBusinessLicense')}
+          text={t('home:WCGValuesTheCustomersTradingExperience')}
           minH={isChinese ? 'auto' : '300px'}
           bigW="40vw"
         />
