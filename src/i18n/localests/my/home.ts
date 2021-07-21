@@ -27,7 +27,7 @@ export const home: Home = {
     'Sistem*Perdagangan*Mudah*Alih*WCG*menyediakan*kaedah*yang*mudah*sehingga*pelanggan*dapat*melakukan*perdagangan*semasa*dalam*perjalanan*dan*segera*bertindak*balas*terhadap*berita*dan*data*pasaran*segera,*sehingga*memaksimumkan*peluang*perdagangan.',
   brandReputation:
     'Reputasi*jenama*dan*pasukan*perkhidmatan*pelanggan*yang*diketuai*oleh*tutor*pasaran*terkenal',
-  withFormalBusinessLicense:
+  WCGValuesTheCustomersTradingExperience:
     'Dengan*lesen*perniagaan*formal*di*pasaran*kewangan*antarabangsa,*yang*dilindungi*oleh*undang-undang*Hong*Kong,*China*dan*peraturan*antarabangsa*St.Vincent.*Ini*adalah*Internet*"broker*logam*berharga*yang*paling*dipercayai*untuk*pelabur".',
   preciousMetalsContract: 'Kontrak*Logam*Berharga',
   timesLeverage:

@@ -19,6 +19,10 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
   type,
   onClick
 }: DownloadButtonProps) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isChinese = currentLang === 'cn' || currentLang === 'hk';
+  const isArabic = currentLang === 'sa';
   return (
     <>
       {href ? (
@@ -52,7 +56,44 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
             hasArrow
             arrowSize={15}
           >
-            <CommonContent text={text} type={type} />
+            <StyledFlex
+              onClick={onClick ? onClick : () => false}
+              direction={isArabic ? 'row-reverse' : 'row'}
+              justify="center"
+              p={3}
+              fontSize={isChinese ? '28px' : '22px'}
+              bg="#4da506"
+              color="white"
+              _hover={{
+                bgColor: 'green.600',
+                transform: 'scale(1.1)',
+                cursor: 'pointer'
+              }}
+            >
+              <Center>
+                {type === 'android' ? (
+                  <Image
+                    minW="28px"
+                    height="28px"
+                    src="../assets/images/android.png"
+                    alt="android"
+                  />
+                ) : type === 'ios' ? (
+                  <Image
+                    minW="28px"
+                    height="28px"
+                    src="../assets/images/ios.png"
+                    alt="ios"
+                  />
+                ) : type === 'user' ? (
+                  <BiUser fontSize="36px" />
+                ) : (
+                  <AiOutlineDownload fontSize="40px" />
+                )}
+              </Center>
+
+              <Box mx={2}>{text}</Box>
+            </StyledFlex>
           </Tooltip>
         </Link>
       ) : (

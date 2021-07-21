@@ -1,6 +1,5 @@
 import { Flex, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
-import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 import {
@@ -124,28 +123,27 @@ const BackToTopDesktop: React.FC<{}> = () => {
           />
         </Tooltip>
 
-        <NextLink href="/platform/MT4Overview" locale={currentLang}>
-          <Tooltip
-            label={t('downloadMT4')}
+        <Tooltip
+          label={t('downloadMT4')}
+          aria-label={t('downloadMT4')}
+          placement="left"
+        >
+          <StyledIconButton
+            as="a"
+            href={`/${currentLang}/platform/MT4Overview`}
+            mb={3}
+            borderRadius="50%"
             aria-label={t('downloadMT4')}
-            placement="left"
-          >
-            <StyledIconButton
-              as="a"
-              mb={3}
-              borderRadius="50%"
-              aria-label={t('downloadMT4')}
-              aria-hidden
-              icon={<AiOutlineCloudDownload fontSize="32px" />}
-              bgColor="gray.700"
-              borderColor="white"
-              border="1px"
-              _hover={{
-                bgColor: 'red.600'
-              }}
-            />
-          </Tooltip>
-        </NextLink>
+            aria-hidden
+            icon={<AiOutlineCloudDownload fontSize="32px" />}
+            bgColor="gray.700"
+            borderColor="white"
+            border="1px"
+            _hover={{
+              bgColor: 'red.600'
+            }}
+          />
+        </Tooltip>
 
         <Tooltip label={t('top')} aria-label={t('top')} placement="left">
           <StyledIconButton

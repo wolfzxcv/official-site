@@ -24,13 +24,12 @@ export const home: Home = {
   mobileTradingSystem: 'Mobile*Trading*System',
   WCGMobileTradingSystem:
     'WCG*Mobile*Trading*System*provides*a*simple*and*convenient*method*so*that*customers*can*trade*while*traveling*and*immediately*react*to*instant*market*news*and*data,*thereby*maximizing*trading*opportunities.',
-  brandReputation:
-    'Brand*reputation*and*customer*service*team*led*by*famous*market*tutors',
-  withFormalBusinessLicense:
-    'With*formal*business*license*in*the*international*financial*market,*which*is*protected*by*the*laws*of*Hong*Kong,*China*and*the*international*regulations*of*St.*Vincent.*It*is*the*Internet*"the*most*trusted*precious*metal*broker*for*investors".',
+  brandReputation: 'Brand*reputation*and*win-win*relationship',
+  WCGValuesTheCustomersTradingExperience:
+    "WCG*values*the*customer's*trading*experience*and*firmly*believes*that*the*future*development*of*the*brand*depends*on*the*common*growth*of*its*partners.",
   preciousMetalsContract: 'Precious*Metals*Contract',
   timesLeverage:
-    '100-200*times*leverage,low-cost*and*high-return,global*24-hours*trading,can*make*profit*by*both*buy*and*sell.London*Gold*&*London*Silver*is*a*trading*product*provided*by*the*International*Financial*Futures*Exchange,*with*simple*trading*rules,*T+0 operation,*short*fund*settlement*time,*and*fast*and*safe*online*electronic*transactions.',
+    '100-200*times*leverage,low-cost*and*high-return,global*24-hours*trading,can*make*profit*by*both*buy*and*sell.London*Gold*&*London*Silver*is*a*trading*product*provided*by*the*International*Financial*Futures*Exchange,*with*simple*trading*rules,*T+0*operation,*short*fund*settlement*time,*and*fast*and*safe*online*electronic*transactions.',
   accountOpening: 'Account*Opening',
   realTimeQuotation: 'Real-time*quotation*of*our*trading*products',
   aVarietyOfProfessional:

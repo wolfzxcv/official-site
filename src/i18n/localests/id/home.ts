@@ -25,10 +25,9 @@ export const home: Home = {
   mobileTradingSystem: 'Sistem*Perdagangan*Seluler',
   WCGMobileTradingSystem:
     'Sistem*Perdagangan*Seluler*WCG*menyediakan*metode*sederhana*dan*nyaman*sehingga*nasabah dapat*berdagang*sambil*bepergian*dan*segera*bereaksi*terhadap*berita*dan*data*pasar*instan, sehingga*memaksimalkan*peluang*perdagangan.',
-  brandReputation:
-    'Reputasi*merek*dan*tim*layanan*pelanggan*yang*dipimpin*oleh*tutor*pasar*terkenal',
-  withFormalBusinessLicense:
-    'Dengan*izin*usaha*formal*di*pasar*keuangan*internasional*yang*dilindungi*oleh*hukum*Hong*Kong,*Cina*dan*peraturan*internasional*St.Vincent.*kami*adalah*virtual*"broker*logam*mulia*paling*tepercaya*bagi*investor".',
+  brandReputation: 'Reputasi*jenama*dan*hubungan*win-win',
+  WCGValuesTheCustomersTradingExperience:
+    'WCG*menghargai*pengalaman*perdagangan*pelanggan*dan*yakin*bahawa*pengembangan*jenama*masa*depan*bergantung*pada*pertumbuhan*bersama*rakan*kongsi.',
   preciousMetalsContract: 'Kontrak*Logam*Mulia',
   timesLeverage:
     'Daya*ungkit*100-200*kali,*berbiaya*rendah*dan*tingkat*pengembalian*tinggi,*perdagangan*24*jam*global,*dapat*menghasilkan*profit*dengan*membeli*dan*menjual.*London*Gold*&*London*Silver*adalah*produk*perdagangan*yang*disediakan*oleh*International*Financial*Futures*Exchange,*dengan*aturan*perdagangan*sederhana,*pengoperasian*T*+*0,*waktu*penyelesaian*dana*yang*singkat,*dan*transaksi*elektronik*online*yang*cepat*dan*aman.',
