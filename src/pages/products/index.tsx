@@ -19,7 +19,7 @@ const products: React.FC<{}> = () => {
   const { t } = useTranslation(['products']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'sa';
+  const isArabic = currentLang === 'ar';
 
   const allProducts =
     currentLang === 'cn'

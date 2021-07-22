@@ -15,8 +15,8 @@ const crudeOil: React.FC<{}> = () => {
   const { t } = useTranslation(['crudeOil']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
 
   return (
     <Wrapper>

@@ -17,8 +17,8 @@ const MT4PCDownload: React.FC<{}> = () => {
   const { t } = useTranslation(['platform']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
 
   return (
     <Wrapper>

@@ -18,7 +18,7 @@ const cryptocurrencies: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isCN = currentLang === 'cn';
-  const isArabic = currentLang === 'sa';
+  const isArabic = currentLang === 'ar';
 
   useEffect(() => {
     if (isCN) {

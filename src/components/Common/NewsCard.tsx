@@ -20,7 +20,7 @@ const NewsCard: React.FC<NewsCardProps> = ({
 }: NewsCardProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'sa';
+  const isArabic = currentLang === 'ar';
 
   return (
     <Flex>
