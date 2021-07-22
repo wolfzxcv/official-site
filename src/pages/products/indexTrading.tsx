@@ -16,7 +16,8 @@ const indexTrading: React.FC<{}> = () => {
   const { t } = useTranslation(['indexTrading']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
 
   return (
     <Wrapper>
@@ -36,6 +37,7 @@ const indexTrading: React.FC<{}> = () => {
           width={{ base: '80vw', md: '60vw' }}
           px={{ base: 0, xl: 20 }}
           color="white"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           <Flex my={10}>
             <InfoTitle title={t('indexTrading')} />
@@ -76,6 +78,7 @@ const indexTrading: React.FC<{}> = () => {
             text={t('TheMarketValueWeightedIndex')}
             bigW="40vw"
             withBorder
+            minH={isChinese ? 'auto' : '361px'}
           />
 
           <InfoCard
@@ -102,7 +105,6 @@ const indexTrading: React.FC<{}> = () => {
 
         {/* SPX500 column */}
         <Flex
-          px={{ base: 0, md: 10 }}
           direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
           justify="space-evenly"
           align="center"
@@ -140,7 +142,6 @@ const indexTrading: React.FC<{}> = () => {
 
         {/* UK100 column */}
         <Flex
-          px={{ base: 0, md: 10 }}
           direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
           justify="space-evenly"
           align="center"
@@ -181,7 +182,6 @@ const indexTrading: React.FC<{}> = () => {
 
         {/* AUS200 column */}
         <Flex
-          px={{ base: 0, md: 10 }}
           direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
           justify="space-evenly"
           align="center"
@@ -309,6 +309,7 @@ const indexTrading: React.FC<{}> = () => {
             text={t('executingABuyOrder')}
             bigW="40vw"
             withBorder
+            minH={isChinese ? 'auto' : '378px'}
           />
 
           <InfoCard
@@ -317,6 +318,7 @@ const indexTrading: React.FC<{}> = () => {
             text={t('executingASellOrder')}
             bigW="40vw"
             withBorder
+            minH={isChinese ? 'auto' : '378px'}
           />
         </Flex>
       </Flex>

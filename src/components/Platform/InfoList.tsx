@@ -11,7 +11,7 @@ interface InfoListProps {
 const InfoList: React.FC<InfoListProps> = ({ text }: InfoListProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'sa';
+  const isArabic = currentLang === 'ar';
 
   return (
     <ListItem>

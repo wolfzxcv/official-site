@@ -21,8 +21,8 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
 }: DownloadButtonProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
   return (
     <>
       {href ? (
@@ -110,8 +110,8 @@ const CommonContent: React.FC<DownloadButtonProps> = ({
 }: DownloadButtonProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
   return (
     <StyledFlex
       onClick={onClick ? onClick : () => false}

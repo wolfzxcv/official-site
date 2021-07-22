@@ -1,21 +1,18 @@
-import {
-  Box,
-  Flex,
-  Image,
-  Link,
-  ListItem,
-  OrderedList,
-  Text
-} from '@chakra-ui/react';
+import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
 import React from 'react';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
+import { Locales } from '../../i18n/locales';
 
 const disputeSettlement: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isArabic = currentLang === 'ar';
 
   return (
     <Wrapper>
@@ -27,7 +24,7 @@ const disputeSettlement: React.FC<{}> = () => {
 
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
-        <Box width={'80vw'}>
+        <Box width={'80vw'} textAlign={isArabic ? 'right' : 'left'}>
           <Text>{t('weWelcomeYourInvaluableComments')}</Text>
 
           <Text>
@@ -36,7 +33,7 @@ const disputeSettlement: React.FC<{}> = () => {
           </Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle size="22px" title={t('makeASuggestion')} />
 
           <Box my={3}>
@@ -44,22 +41,26 @@ const disputeSettlement: React.FC<{}> = () => {
             <Text>{t('toAssistUsInHelpingYou')}</Text>
           </Box>
 
-          <OrderedList>
-            <ListItem>{t('collectMaterials')}</ListItem>
-            <ListItem>{t('forCurrentTrades')}</ListItem>
-            <ListItem>{t('transferTo')}</ListItem>
-            <ListItem>{t('contactOurComplianceDepartment')}</ListItem>
-            <ListItem>{t('collectAllTheSupportingMaterials')}</ListItem>
-          </OrderedList>
+          <Stack spacing={5}>
+            <Text>{`${!isArabic ? '1. ' : ''}${t('collectMaterials')}`}</Text>
+            <Text>{`${!isArabic ? '2. ' : ''}${t('forCurrentTrades')}`}</Text>
+            <Text>{`${!isArabic ? '3. ' : ''}${t('transferTo')}`}</Text>
+            <Text>{`${!isArabic ? '4. ' : ''}${t(
+              'contactOurComplianceDepartment'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '5. ' : ''}${t(
+              'collectAllTheSupportingMaterials'
+            )}`}</Text>
+          </Stack>
 
-          <Box my={3}>
+          <Stack spacing={5} my={3}>
             <Text>{t('thenIfTheQuestionRelates')}</Text>
             <Text>{t('ifAtThisStage')}</Text>
             <Text>{t('ifTheProblem')}</Text>
-          </Box>
+          </Stack>
         </Box>
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle size="22px" title={t('emailTo')} />
 
           <Box my={1}>

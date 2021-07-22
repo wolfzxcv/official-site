@@ -1,9 +1,14 @@
 import { Box, Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import React from 'react';
+import { Locales } from '../../i18n/locales';
 
 const FooterBottom: React.FC<{}> = () => {
   const { t } = useTranslation(['footer']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isArabic = currentLang === 'ar';
   return (
     <Flex direction="column" align="center" p={10}>
       <Box fontSize="sm">{t('WCGIsABusinessBrand')}</Box>
@@ -24,10 +29,16 @@ const FooterBottom: React.FC<{}> = () => {
           <Box fontSize="sm">{t('WCGGlobalLtd')}</Box>
         </Flex>
       </Flex>
-      <Box width={{ base: '85vw', md: '92vw' }} m={3} p={3} bg="tomato">
+      <Box
+        width={{ base: '85vw', md: '92vw' }}
+        m={3}
+        p={3}
+        bg="tomato"
+        textAlign={isArabic ? 'right' : 'left'}
+      >
         {t('HighRiskInvestmentWarning')}
       </Box>
-      <Box fontSize="sm" p={3}>
+      <Box fontSize="sm" p={3} textAlign={isArabic ? 'right' : 'left'}>
         {t('restrictedAreas')}
       </Box>
     </Flex>

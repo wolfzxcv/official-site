@@ -46,6 +46,7 @@ const BackToTopMobile: React.FC<{}> = () => {
 
   return (
     <>
+      {/* right bottom */}
       <Box position="fixed" zIndex={1} bottom="0" right="0">
         <IconButton
           size="lg"
@@ -61,6 +62,7 @@ const BackToTopMobile: React.FC<{}> = () => {
         />
       </Box>
 
+      {/* left bottom */}
       <Box position="fixed" zIndex={1} bottom="0" left="0">
         <IconButton
           size="lg"
@@ -76,6 +78,7 @@ const BackToTopMobile: React.FC<{}> = () => {
         />
       </Box>
 
+      {/* Modal */}
       <Modal
         closeOnOverlayClick={true}
         isOpen={isOpen}

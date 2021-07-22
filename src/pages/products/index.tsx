@@ -19,7 +19,7 @@ const products: React.FC<{}> = () => {
   const { t } = useTranslation(['products']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'sa';
+  const isArabic = currentLang === 'ar';
 
   const allProducts =
     currentLang === 'cn'
@@ -73,6 +73,7 @@ const products: React.FC<{}> = () => {
           p={3}
           bg="tomato"
           color="white"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           {`*${t('tradingTime')}`}
         </Box>

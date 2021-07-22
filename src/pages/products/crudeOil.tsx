@@ -15,12 +15,12 @@ const crudeOil: React.FC<{}> = () => {
   const { t } = useTranslation(['crudeOil']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
 
   return (
     <Wrapper>
-      {/* How to trade precious metals */}
+      {/* Crude Oil */}
       <Flex
         minH="500px"
         justify="center"
@@ -36,6 +36,7 @@ const crudeOil: React.FC<{}> = () => {
           width={{ base: '80vw', md: '60vw' }}
           px={{ base: 0, xl: 20 }}
           color="white"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           <Flex my={10}>
             <InfoTitle title={t('crudeOil')} />
@@ -72,7 +73,7 @@ const crudeOil: React.FC<{}> = () => {
             }
             text={t('crudeOilAndNaturalGas')}
             withBorder
-            minH={isChinese ? '301px' : 'auto'}
+            minH={isChinese ? '301px' : '349px'}
           />
 
           <InfoCard
@@ -81,7 +82,7 @@ const crudeOil: React.FC<{}> = () => {
             }
             text={t('whenYouAreTradingEnergy')}
             withBorder
-            minH={isChinese ? '301px' : 'auto'}
+            minH={isChinese ? '301px' : '349px'}
           />
 
           <InfoCard
@@ -90,7 +91,7 @@ const crudeOil: React.FC<{}> = () => {
             }
             text={t('supposeYouThinkThat')}
             withBorder
-            minH={isChinese ? '301px' : 'auto'}
+            minH={isChinese ? '301px' : '349px'}
           />
         </Flex>
       </Box>
@@ -138,7 +139,7 @@ const crudeOil: React.FC<{}> = () => {
           }
           title={t('WTI')}
           text={t('thisIsACrudeOilProduced')}
-          minH={isChinese ? '400px' : '300px'}
+          minH={isChinese ? '400px' : '425px'}
           bigW="40vw"
         />
 
@@ -148,7 +149,7 @@ const crudeOil: React.FC<{}> = () => {
           }
           title={t('BRENT')}
           text={t('brentCrudeOil')}
-          minH={isChinese ? '400px' : '300px'}
+          minH={isChinese ? '400px' : '425px'}
           bigW="40vw"
         />
       </Flex>
@@ -176,7 +177,7 @@ const crudeOil: React.FC<{}> = () => {
               'anyTechnologicalProgress'
             )}`}
             bigW="20vw"
-            minH="340px"
+            minH={isChinese ? '364px' : '520px'}
           />
 
           <InfoCard
@@ -191,7 +192,7 @@ const crudeOil: React.FC<{}> = () => {
               'theIndustrialAndEconomicSectors'
             )}`}
             bigW="20vw"
-            minH="340px"
+            minH={isChinese ? '364px' : '520px'}
           />
 
           <InfoCard
@@ -204,7 +205,7 @@ const crudeOil: React.FC<{}> = () => {
             title={t('availabilityAndSupply')}
             text={t('noMatterHowTheSupplyChanges')}
             bigW="20vw"
-            minH="340px"
+            minH={isChinese ? '364px' : '520px'}
           />
 
           <InfoCard
@@ -219,7 +220,7 @@ const crudeOil: React.FC<{}> = () => {
               'firesAndMechanicalFailures'
             )}`}
             bigW="20vw"
-            minH="340px"
+            minH={isChinese ? '364px' : '520px'}
           />
         </Flex>
       </Flex>
@@ -243,7 +244,7 @@ const crudeOil: React.FC<{}> = () => {
           }
           title={t('USDepartmentOfEnergy')}
           text={t('theUSDepartmentOfEnergy')}
-          minH={isChinese ? '408px' : '300px'}
+          minH={isChinese ? '408px' : '492px'}
           bigW="40vw"
         />
 
@@ -253,7 +254,7 @@ const crudeOil: React.FC<{}> = () => {
           }
           title={t('OPEC')}
           text={t('theCrudeOilReportYouShouldStudy')}
-          minH={isChinese ? '408px' : '300px'}
+          minH={isChinese ? '408px' : '492px'}
           bigW="40vw"
         />
       </Flex>

@@ -27,8 +27,17 @@ const LangSelector: React.FC<{}> = () => {
     if (langInLocalStorage) {
       handleSetLanguage(langInLocalStorage as Locales);
     } else {
+      let lang = i18n?.languages[0] as Locales;
+      // Check browser language manually
+      const isCN =
+        (window as any)?.navigator.languages.includes('zh-CN') || null;
+
+      if (isCN) {
+        lang = 'cn';
+      }
+
       // to save locale in localStorage
-      localStorage.setItem('language', i18n?.languages[0] as Locales);
+      localStorage.setItem('language', lang);
     }
   };
 

@@ -17,11 +17,12 @@ const MT4PCDownload: React.FC<{}> = () => {
   const { t } = useTranslation(['platform']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'hk';
-  const isArabic = currentLang === 'sa';
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+  const isArabic = currentLang === 'ar';
 
   return (
     <Wrapper>
+      {/* MT4 PC version */}
       <Flex
         minH="500px"
         justify="center"
@@ -33,7 +34,11 @@ const MT4PCDownload: React.FC<{}> = () => {
           xl: 'linear-gradient(to bottom right, #4A5568, #4A5568 75%, transparent 30% , transparent);'
         }}
       >
-        <Box width={{ base: '80vw', md: '60vw' }} px={{ base: 0, xl: 20 }}>
+        <Box
+          width={{ base: '80vw', md: '60vw' }}
+          px={{ base: 0, xl: 20 }}
+          textAlign={isArabic ? 'right' : 'left'}
+        >
           <Flex color="white" align="center" mb={5}>
             <Image
               boxSize="40px"
@@ -61,6 +66,7 @@ const MT4PCDownload: React.FC<{}> = () => {
         </Box>
       </Flex>
 
+      {/* Comprehensive technical analysis function */}
       <Flex py={20} align="center" direction="column">
         <Box my={10} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title={t('comprehensiveTechnicalAnalysisFunction')} />
@@ -115,6 +121,7 @@ const MT4PCDownload: React.FC<{}> = () => {
         </Flex>
       </Flex>
 
+      {/* Intuitive and easy to use */}
       <Flex
         bgColor="gray.100"
         w="100%"
@@ -148,6 +155,7 @@ const MT4PCDownload: React.FC<{}> = () => {
         </Box>
       </Flex>
 
+      {/* Download the WCG MT4 trading platform now */}
       <Flex py={20} align="center" direction="column">
         <Box my={10} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title={t('downloadTheWCGMT4')} />
