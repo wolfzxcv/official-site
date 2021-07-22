@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "locales": "npx prettier --write ./src/i18n/**/*.json"
   },
   "dependencies": {
