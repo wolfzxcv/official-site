@@ -5,7 +5,9 @@ import {
   AccordionPanel,
   Box
 } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 import React from 'react';
+import { Locales } from '../../i18n/locales';
 
 interface InfoAccordionItemProps {
   title: string;
@@ -16,6 +18,10 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
   title,
   content
 }: InfoAccordionItemProps) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isArabic = currentLang === 'sa';
+
   return (
     <AccordionItem>
       <h2>
@@ -28,7 +34,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
       </h2>
       <AccordionPanel pb={4}>
         {content.map((each) => (
-          <Box py={3} key={each}>
+          <Box py={3} key={each} textAlign={isArabic ? 'right' : 'left'}>
             {each}
           </Box>
         ))}

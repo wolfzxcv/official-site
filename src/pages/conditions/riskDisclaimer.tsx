@@ -1,20 +1,18 @@
-import {
-  Box,
-  Flex,
-  Image,
-  ListItem,
-  OrderedList,
-  Text
-} from '@chakra-ui/react';
+import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
 import React from 'react';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
+import { Locales } from '../../i18n/locales';
 
 const riskDisclaimer: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isArabic = currentLang === 'sa';
 
   return (
     <Wrapper>
@@ -26,68 +24,93 @@ const riskDisclaimer: React.FC<{}> = () => {
 
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle
             size="22px"
-            title={`1.${t('internetConnectivityFailure')}`}
+            title={`${!isArabic ? '1. ' : ''}${t(
+              'internetConnectivityFailure'
+            )}`}
           />
 
           <Text>{t('sinceWCGCannotControl')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle
             size="22px"
-            title={`2.${t('marketRiskAndOnlineTrading')}`}
+            title={`${!isArabic ? '2. ' : ''}${t(
+              'marketRiskAndOnlineTrading'
+            )}`}
           />
 
           <Text>{t('customersMustKeepThePassword')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={`3.${t('passwordProtection')}`} />
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
+          <InfoTitle
+            size="22px"
+            title={`${!isArabic ? '3. ' : ''}${t('passwordProtection')}`}
+          />
 
           <Text>{t('customersMustKeepThePassword')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={`4.${t('incorrectPriceQuotation')}`} />
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
+          <InfoTitle
+            size="22px"
+            title={`${!isArabic ? '4. ' : ''}${t('incorrectPriceQuotation')}`}
+          />
 
           <Text>{t('whenQuotationOrTransaction')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={`5.${t('arbitrage')}`} />
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
+          <InfoTitle
+            size="22px"
+            title={`${!isArabic ? '5. ' : ''}${t('arbitrage')}`}
+          />
 
           <Text>{t('internetIssues')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={`6.${t('price')}`} />
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
+          <InfoTitle
+            size="22px"
+            title={`${!isArabic ? '6. ' : ''}${t('price')}`}
+          />
 
           <Text>{t('WCGStrictlyProhibits')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
-          <InfoTitle size="22px" title={`7.${t('bankruptcyDisclosure')}`} />
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
+          <InfoTitle
+            size="22px"
+            title={`${!isArabic ? '7. ' : ''}${t('bankruptcyDisclosure')}`}
+          />
 
           <Text>{t('theTransactionsBetween')}</Text>
         </Box>
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle
             size="22px"
-            title={`8.${t('introducingBrokerDisclosure')}`}
+            title={`${!isArabic ? '8. ' : ''}${t(
+              'introducingBrokerDisclosure'
+            )}`}
           />
 
-          <Text>{t('WCGDoesNotSupervise')}</Text>
+          <Stack spacing={5}>
+            <Text>{t('WCGDoesNotSupervise')}</Text>
 
-          <OrderedList>
-            <ListItem>{t('theClientUnderstandsAndAgrees')}</ListItem>
-            <ListItem>{t('becauseTheRisk')}</ListItem>
-            <ListItem>{t('theClientUnderstands')}</ListItem>
-            <ListItem>{t('ifTheCustomer')}</ListItem>
-          </OrderedList>
+            <Text>{`${!isArabic ? '1. ' : ''}${t(
+              'theClientUnderstandsAndAgrees'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '2. ' : ''}${t('becauseTheRisk')}`}</Text>
+            <Text>{`${!isArabic ? '3. ' : ''}${t(
+              'theClientUnderstands'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '4. ' : ''}${t('ifTheCustomer')}`}</Text>
+          </Stack>
         </Box>
       </Flex>
     </Wrapper>

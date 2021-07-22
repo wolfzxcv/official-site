@@ -94,6 +94,10 @@ export type Platform = {
   MT4APPVersion: string;
   /** We provide the MT4 mobile application */
   weProvideTheMT4MobileApplication: string;
+  /** MetaTrader4 mobile app */
+  MetaTrader4MobileApp: string;
+  /** Download our MT4 mobile app now */
+  downloadOurMT4MobileAppNow: string;
   /** Download the iOS version */
   downloadTheIOSVersion: string;
   /** Download the Android version */

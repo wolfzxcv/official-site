@@ -63,6 +63,9 @@ export const platform: Platform = {
   MT4APPVersion: 'MT4*APP*版（安卓*/*iOS）',
   weProvideTheMT4MobileApplication:
     '我们提供*MT4*移动应用程式，只要在您在手机或平版电脑下载及安装MT4 APP，可以轻鬆实现随时随地交易。MT4*iOS及安卓*APP*提供更简化的操作介面，能够更方快捷的监察市场走势，享受卓越的交易体验。是您的每日助手，更是您不可替代的工具。',
+  MetaTrader4MobileApp: 'MetaTrader4*手机APP',
+  downloadOurMT4MobileAppNow:
+    '立即下载我们的MT4移动版应用程式，让它成为您的交易伙伴，助您随时随地进入金融市场，24小时全天候把握每个交易机会。',
   downloadTheIOSVersion: '下载iOS版',
   downloadTheAndroidVersion: '下载安卓版',
   MAMMultiAccountManagementSystem: 'MAM多帐户管理系统',

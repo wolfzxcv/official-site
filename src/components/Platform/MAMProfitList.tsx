@@ -1,6 +1,8 @@
 import { Box, Center, Flex } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 import React from 'react';
 import { CgArrowsExchangeAlt } from 'react-icons/cg';
+import { Locales } from '../../i18n/locales';
 
 interface MAMProfitListProps {
   left: string;
@@ -15,9 +17,16 @@ const MAMProfitList: React.FC<MAMProfitListProps> = ({
   bg,
   percentage
 }: MAMProfitListProps) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isArabic = currentLang === 'sa';
+
   return (
-    <Flex direction={{ base: 'column', md: 'row' }} my={5}>
-      <Flex>
+    <Flex
+      direction={{ base: 'column', md: isArabic ? 'row-reverse' : 'row' }}
+      my={5}
+    >
+      <Flex px={5}>
         {left} <CgArrowsExchangeAlt fontSize="26px" />
         {right}
       </Flex>

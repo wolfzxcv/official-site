@@ -36,6 +36,7 @@ const preciousMetals: React.FC<{}> = () => {
           width={{ base: '80vw', md: '60vw' }}
           px={{ base: 0, xl: 20 }}
           color="white"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           <Flex my={10}>
             <InfoTitle title={t('howToTradePreciousMetals')} />
@@ -76,7 +77,7 @@ const preciousMetals: React.FC<{}> = () => {
           title={t('diversifiedInvestment')}
           text={t('justAsExperiencedInvestors')}
           withBorder
-          minH={isChinese ? '330px' : 'auto'}
+          minH={isChinese ? '330px' : '385px'}
         />
 
         <InfoCard
@@ -89,7 +90,7 @@ const preciousMetals: React.FC<{}> = () => {
           title={t('fightAgainstInflation')}
           text={t('asInflationIntensifies')}
           withBorder
-          minH={isChinese ? '330px' : 'auto'}
+          minH={isChinese ? '330px' : '385px'}
         />
 
         <InfoCard
@@ -102,7 +103,7 @@ const preciousMetals: React.FC<{}> = () => {
           title={t('highStorageValue')}
           text={t('about95OfTheWorldsGold')}
           withBorder
-          minH={isChinese ? '330px' : 'auto'}
+          minH={isChinese ? '330px' : '385px'}
         />
       </Flex>
 
@@ -178,7 +179,7 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('centralBank')}
             text={t('theseInstitutions')}
             bigW="20vw"
-            minH="537px"
+            minH={isChinese ? '537px' : '585px'}
           />
 
           <InfoCard
@@ -191,7 +192,7 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('crudeOil')}
             text={t('crudeOilAndGold')}
             bigW="20vw"
-            minH="537px"
+            minH={isChinese ? '537px' : '585px'}
           />
 
           <InfoCard
@@ -204,7 +205,7 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('USDollars')}
             text={t('sinceGoldIsPriced')}
             bigW="20vw"
-            minH="537px"
+            minH={isChinese ? '537px' : '585px'}
           />
 
           <InfoCard
@@ -217,7 +218,7 @@ const preciousMetals: React.FC<{}> = () => {
             title={t('stockMarket')}
             text={t('whenTheStockMarket')}
             bigW="20vw"
-            minH="537px"
+            minH={isChinese ? '537px' : '585px'}
           />
         </Flex>
       </Flex>
@@ -245,7 +246,10 @@ const preciousMetals: React.FC<{}> = () => {
           <InfoTitle title={t('goldTradingExample')} />
         </Box>
 
-        <Box width={{ base: '80vw', xl: '60vw' }}>
+        <Box
+          width={{ base: '80vw', xl: '60vw' }}
+          textAlign={isArabic ? 'right' : 'left'}
+        >
           <Box>
             <InfoTitle size="22px" title={t('practicalGoldTrading')} />
             <Text>{t('supposeYouStudyTheGoldMarket')}</Text>

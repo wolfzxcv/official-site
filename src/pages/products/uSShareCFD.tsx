@@ -34,6 +34,7 @@ const uSShareCFD: React.FC<{}> = () => {
           width={{ base: '80vw', md: '60vw' }}
           px={{ base: 0, xl: 20 }}
           color="white"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           <Flex my={10}>
             <InfoTitle title={t('tradeSharesCFDs')} />
@@ -78,6 +79,7 @@ const uSShareCFD: React.FC<{}> = () => {
             }
             text={t('competitivePrices')}
             bigW="20vw"
+            minH="290px"
           />
 
           <InfoCard
@@ -86,6 +88,7 @@ const uSShareCFD: React.FC<{}> = () => {
             }
             text={t('tradeShortAndLong')}
             bigW="20vw"
+            minH="290px"
           />
 
           <InfoCard
@@ -94,6 +97,7 @@ const uSShareCFD: React.FC<{}> = () => {
             }
             text={t('tradeShares')}
             bigW="20vw"
+            minH="290px"
           />
 
           <InfoCard
@@ -102,6 +106,7 @@ const uSShareCFD: React.FC<{}> = () => {
             }
             text={t('WCGOffersZeroCommission')}
             bigW="20vw"
+            minH="290px"
           />
         </Flex>
       </Flex>

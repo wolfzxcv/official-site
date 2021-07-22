@@ -20,6 +20,7 @@ const MT4Overview: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      {/* WCG MT4 */}
       <Flex my={10} direction="column" align="center">
         <Box my={20} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title="WCG MT4" />
@@ -63,6 +64,7 @@ const MT4Overview: React.FC<{}> = () => {
           />
         </Flex>
 
+        {/* Intuitive and easy to use */}
         <Flex
           bgColor="gray.100"
           w={'100%'}
@@ -84,6 +86,8 @@ const MT4Overview: React.FC<{}> = () => {
             <Text my={3}>{t('completeAndComprehensiveReports')}</Text>
           </Box>
         </Flex>
+
+        {/* Automatic adaptability and scalability */}
         <Flex
           bgColor="gray.100"
           w={'100%'}
@@ -106,6 +110,7 @@ const MT4Overview: React.FC<{}> = () => {
         </Flex>
       </Flex>
 
+      {/* Download WCG MT4 trading platform */}
       <Flex py={20} align="center" direction="column">
         <Box my={10} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title={t('downloadWCGMT4TradingPlatform')} />

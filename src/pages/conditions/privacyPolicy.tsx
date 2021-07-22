@@ -1,13 +1,18 @@
-import { Box, Flex, Image, ListItem, OrderedList } from '@chakra-ui/react';
+import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
 import React from 'react';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
+import { Locales } from '../../i18n/locales';
 
 const privacyPolicy: React.FC<{}> = () => {
   const { t } = useTranslation(['conditions']);
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+  const isArabic = currentLang === 'sa';
 
   return (
     <Wrapper>
@@ -19,24 +24,36 @@ const privacyPolicy: React.FC<{}> = () => {
 
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle size="22px" title={t('theCustomers')} />
-          <OrderedList>
-            <ListItem>{t('theVerificationProcedures')}</ListItem>
-            <ListItem>{t('dealWithCustomers')}</ListItem>
-            <ListItem>{t('transferSuchPersonalData')}</ListItem>
-            <ListItem>{t('toProvideAny')}</ListItem>
-          </OrderedList>
+
+          <Stack spacing={5}>
+            <Text>{`${!isArabic ? '1. ' : ''}${t(
+              'theVerificationProcedures'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '2. ' : ''}${t('dealWithCustomers')}`}</Text>
+            <Text>{`${!isArabic ? '3. ' : ''}${t(
+              'transferSuchPersonalData'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '4. ' : ''}${t('toProvideAny')}`}</Text>
+          </Stack>
         </Box>
 
-        <Box width={'80vw'} my={2}>
+        <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle size="22px" title={t('WCGWillKeep')} />
-          <OrderedList>
-            <ListItem>{t('WCGOtherCompanies')}</ListItem>
-            <ListItem>{t('agentsAndThirdPartyService')}</ListItem>
-            <ListItem>{t('anyRegulatoryOrGovernmentAgency')}</ListItem>
-            <ListItem>{t('personsDeemedAppropriate')}</ListItem>
-          </OrderedList>
+
+          <Stack spacing={5}>
+            <Text>{`${!isArabic ? '1. ' : ''}${t('WCGOtherCompanies')}`}</Text>
+            <Text>{`${!isArabic ? '2. ' : ''}${t(
+              'agentsAndThirdPartyService'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '3. ' : ''}${t(
+              'anyRegulatoryOrGovernmentAgency'
+            )}`}</Text>
+            <Text>{`${!isArabic ? '4. ' : ''}${t(
+              'personsDeemedAppropriate'
+            )}`}</Text>
+          </Stack>
         </Box>
       </Flex>
     </Wrapper>

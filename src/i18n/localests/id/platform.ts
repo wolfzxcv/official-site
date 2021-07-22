@@ -67,6 +67,9 @@ export const platform: Platform = {
   MT4APPVersion: 'MT4*APP*version*(Android*/*iOS)',
   weProvideTheMT4MobileApplication:
     'We*provide*the*MT4*mobile*application,*as*long*as*you*download*and*install*the*MT4*APP*on*your*mobile*phone*or*tablet*computer,*you*can*easily*trade*anytime,*anywhere.*MT4*iOS*and*Android*APP*provide*a*more*simplified*operation*interface,*which*can*monitor*market*trends*more*conveniently*and*quickly,*and*enjoy*an*excellent*trading*experience.*Not*only*It*is*your*daily*assistant,*but*also*your*irreplaceable*tool.',
+  MetaTrader4MobileApp: 'MetaTrader4*mobile*app',
+  downloadOurMT4MobileAppNow:
+    'Download*our*MT4*mobile*app*now*and*let*it*become*your*trading*partner,*helping*you*enter*the*financial*market*anytime,*anywhere*and*grasp*every*trading*opportunity*24*hours*a*day.',
   downloadTheIOSVersion: 'Download*the*iOS*version',
   downloadTheAndroidVersion: 'Download*the*Android*version',
   MAMMultiAccountManagementSystem: 'MAM*multi-account*management*system',

@@ -36,36 +36,20 @@ const abnormalTrade: React.FC<{}> = () => {
               title={t('theDefinitionOfAbnormalTrades')}
               content={[
                 t('whenTheCustomerWithdrawsMoney'),
-                `${!isArabic ? '1.' : ''}${t('whenThereIs')}${
-                  isArabic ? '.1' : ''
-                }`,
-                `${!isArabic ? '2.' : ''}${t('when30OfThe')}${
-                  isArabic ? '.2' : ''
-                }`,
-                `${!isArabic ? '3.' : ''}${t('whenClientIsUsing')}${
-                  isArabic ? '.3' : ''
-                }`,
-                `${!isArabic ? '4.' : ''}${t('whenCustomersAreTackling')}${
-                  isArabic ? '.4' : ''
-                }`,
-                `${!isArabic ? '5.' : ''}${t('aTradeOfUtilizing')}${
-                  isArabic ? '.5' : ''
-                }`,
-                `${!isArabic ? '6.' : ''}${t('whenTheNumber')}${
-                  isArabic ? '.6' : ''
-                }`
+                `${!isArabic ? '1. ' : ''}${t('whenThereIs')}`,
+                `${!isArabic ? '2. ' : ''}${t('when30OfThe')}`,
+                `${!isArabic ? '3. ' : ''}${t('whenClientIsUsing')}`,
+                `${!isArabic ? '4. ' : ''}${t('whenCustomersAreTackling')}`,
+                `${!isArabic ? '5. ' : ''}${t('aTradeOfUtilizing')}`,
+                `${!isArabic ? '6. ' : ''}${t('whenTheNumber')}`
               ]}
             />
 
             <InfoAccordionItem
               title={t('handlingMethod')}
               content={[
-                `${!isArabic ? '1.' : ''}${t('whenThereIs')}${
-                  isArabic ? '.1' : ''
-                }`,
-                `${!isArabic ? '2.' : ''}${t('when30OfThe')}${
-                  isArabic ? '.2' : ''
-                }`
+                `${!isArabic ? '1. ' : ''}${t('whenThereIs')}`,
+                `${!isArabic ? '2. ' : ''}${t('when30OfThe')}`
               ]}
             />
           </Accordion>

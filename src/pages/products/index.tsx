@@ -73,6 +73,7 @@ const products: React.FC<{}> = () => {
           p={3}
           bg="tomato"
           color="white"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           {`*${t('tradingTime')}`}
         </Box>

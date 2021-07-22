@@ -24,6 +24,7 @@ const MAMSystem: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      {/* MAM multi-account management system */}
       <Flex
         minH="500px"
         justify="center"
@@ -35,7 +36,11 @@ const MAMSystem: React.FC<{}> = () => {
           xl: 'linear-gradient(to bottom right, #4A5568, #4A5568 75%, transparent 30% , transparent);'
         }}
       >
-        <Box width={{ base: '80vw', md: '60vw' }} px={{ base: 0, xl: 20 }}>
+        <Box
+          width={{ base: '80vw', md: '60vw' }}
+          px={{ base: 0, xl: 20 }}
+          textAlign={isArabic ? 'right' : 'left'}
+        >
           <Flex color="white" align="center" mb={5}>
             <Image
               boxSize="40px"
@@ -64,6 +69,7 @@ const MAMSystem: React.FC<{}> = () => {
         </Box>
       </Flex>
 
+      {/* MAM account supports five distribution logics */}
       <Flex py={20} align="center" direction="column">
         <Box my={10} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title={t('MAMAccountSupportsFiveDistributionLogics')} />
@@ -93,35 +99,30 @@ const MAMSystem: React.FC<{}> = () => {
             <Text>{t('totalProfit')}</Text>
           </Flex>
 
-          <Stack spacing={3} mt={{ base: 20, md: 0 }} ml={{ base: 0, md: 20 }}>
+          <Stack
+            spacing={3}
+            mt={{ base: 20, md: 0 }}
+            pl={{ base: 0, md: 20 }}
+            textAlign={isArabic ? 'right' : 'left'}
+          >
             <Text>
-              {`${!isArabic ? '1.' : ''}${t(
+              {`${!isArabic ? '1. ' : ''}${t(
                 'accountNetValueIsAllocatedAccordingToProportion'
-              )}${isArabic ? '.1' : ''}`}
+              )}`}
             </Text>
             <Text>
-              {`${!isArabic ? '2.' : ''}${t('percentageAllocation')}${
-                isArabic ? '.2' : ''
-              }`}
+              {`${!isArabic ? '2. ' : ''}${t('percentageAllocation')}`}
             </Text>
             <Text>
-              {`${!isArabic ? '3.' : ''}${t(
+              {`${!isArabic ? '3. ' : ''}${t(
                 'balanceIsAllocatedAccordingToProportion'
-              )}${isArabic ? '.3' : ''}`}
+              )}`}
             </Text>
             <Text fontWeight="700" fontSize="22px">
               {t('allocationByProfitAndLoss')}
             </Text>
-            <Text>
-              {`${!isArabic ? '4.' : ''}${t('profitAndLoss')}${
-                isArabic ? '.4' : ''
-              }`}
-            </Text>
-            <Text>
-              {`${!isArabic ? '5.' : ''}${t('profitAndLossAre')}${
-                isArabic ? '.5' : ''
-              }`}
-            </Text>
+            <Text>{`${!isArabic ? '4. ' : ''}${t('profitAndLoss')}`}</Text>
+            <Text>{`${!isArabic ? '5. ' : ''}${t('profitAndLossAre')}`}</Text>
             <Box>
               <MAMProfitList
                 left={t('investment200')}
@@ -148,6 +149,7 @@ const MAMSystem: React.FC<{}> = () => {
         </Flex>
       </Flex>
 
+      {/* MAM features and advantages */}
       <Flex
         bgColor="gray.100"
         w="100%"
@@ -181,6 +183,7 @@ const MAMSystem: React.FC<{}> = () => {
         </Box>
       </Flex>
 
+      {/* Your partner to the road of success */}
       <Flex py={20} align="center" direction="column">
         <Box my={10} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title={t('yourPartnerToTheRoadOfSuccess')} />
