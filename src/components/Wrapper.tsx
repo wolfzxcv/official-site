@@ -2,6 +2,7 @@ import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
 import Script from 'next/script';
 import React from 'react';
+import packageJson from '../../package.json';
 import BackToTop from './BackToTop/BackToTop';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -20,6 +21,9 @@ const Wrapper: React.FC<WrapperProps> = ({
     <>
       <Head>
         <title>WCG</title>
+        {packageJson.version && (
+          <meta name="version" content={`${packageJson.version}`}></meta>
+        )}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" type="image/ico" href="../assets/images/favicon.ico" />
       </Head>
