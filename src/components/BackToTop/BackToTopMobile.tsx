@@ -8,7 +8,8 @@ import {
   ModalContent,
   ModalHeader,
   ModalOverlay,
-  useDisclosure
+  useDisclosure,
+  useMediaQuery
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
@@ -32,8 +33,14 @@ const BackToTopMobile: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
+  const [isNotMobile] = useMediaQuery('(min-width: 832px)');
+
+  if (isNotMobile && isOpen) {
+    onClose();
+  }
+
   const handleClose = () => {
-    onClose;
+    onClose();
     openChatWindow();
   };
 
@@ -70,7 +77,7 @@ const BackToTopMobile: React.FC<{}> = () => {
       </Box>
 
       <Modal
-        closeOnOverlayClick={false}
+        closeOnOverlayClick={true}
         isOpen={isOpen}
         onClose={onClose}
         isCentered
