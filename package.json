@@ -1,11 +1,12 @@
 {
   "name": "with-chakra-ui-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "locales": "npx prettier --write ./src/i18n/**/*.json"
+    "locales": "npx prettier --write ./src/i18n/**/*.json",
+    "release": "standard-version"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.5",
@@ -24,7 +25,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "react-query": "^3.18.1"
+    "react-query": "^3.18.1",
+    "standard-version": "^9.3.1"
   },
   "devDependencies": {
     "@types/node": "^14.6.0",
