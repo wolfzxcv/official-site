@@ -26,9 +26,3 @@ export const localesOptions: localesOptions[] = [
   // { code: 'vi', value: 'Việt Nam' },
   { code: 'zh', value: '繁體' }
 ];
-
-// const fs = require('fs');
-
-// const localesName = [...fs.readdirSync('./locales')];
-
-// console.log(localesName);

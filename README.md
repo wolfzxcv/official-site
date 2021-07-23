@@ -1,8 +1,3 @@
----
-title: WCG
-tags: WCG
----
-
 # WCG 官網
 
 - [正式環境](https://glb.012wenchuan.com/)
@@ -12,22 +7,40 @@ tags: WCG
 
 ## 運行方式
 
-1. 把專案抓下來
-2. `npm i`
-3. `npm run dev`
-4. 預設會運行在 ==[http://localhost:3000](http://localhost:3000)==
+1. 請先安裝 **[Node](https://nodejs.org/en/download/)**
+2. 把專案抓下來
+3. `npm i`
+4. `npm run dev`
+5. 預設會運行在 **[http://localhost:3000](http://localhost:3000)**
 
 ## 佈署方式
 
 1. 使用 docker: 根目錄下已有 Dockerfile
 2. 使用 node: 詳細運行方式寫在 Dockerfile 裡面
 
-## 導覽列頁面設定
+## 設定懶人包
 
-導覽列的所有連結,是在==menuList.ts==設定
+設定以下項目,各自對應的設定檔案(或檔案位置)
+
+- 交易產品
+  - src\components\Product\productsData.ts
+- 導覽列
+  - src\components\Header\menuList.ts
+- 多國語言
+  - public\assets\images (國旗的圖片放在這裡)
+  - src\i18n\locales.ts (編輯下拉選單的語言選項)
+  - next-i18next.config.js (編輯 router 網址對應的語言有哪些,預設語言是什麼)
+  - src\i18n\localests (編寫多國語檔案)
+  - src\i18n\generateLocales.js (執行這個檔案,即可將 src\i18n\localests 內編輯的所有檔案,自動產出 src\i18n\locales 內的 json 檔案)
+
+## 交易產品編輯 (交易產品 > 查看交易產品 )
+
+## 導覽列設定
+
+導覽列的所有連結,是在**menuList.ts**設定
 ![](https://i.imgur.com/dPHRK0z.jpg)
 
-每個連結包含名稱,及對應的連結, =={ i18n: '名稱', href: '對應的連結' }==
+每個連結,包含"名稱"及"對應的連結", **{ i18n: '名稱', href: '對應的連結' }**
 
 ```javascript=
   {
@@ -49,21 +62,22 @@ tags: WCG
 我們嘗試把不要的連結註解掉(如上方編輯器的截圖),存檔後,重新運行,即可看到以下結果
 ![](https://i.imgur.com/WKcIboU.jpg)
 
-:::info
-只要從==menuList.ts==更改設定,就能改變導覽列,不需要修改導覽列頁面的程式碼
-:::
+- 只要從**menuList.ts**更改設定,就能改變導覽列,不需要修改導覽列頁裡面的程式碼,不會影響樣式
 
 ## 多國語言設定
 
 ![](https://i.imgur.com/cqE1B2n.jpg)
 
-### 設定顯示語言有哪些選項
+### 設定顯示語言的選項們
 
-需要動到的檔案有兩個: ==next-i18next.config.js==以及==locales.ts==
+需要動到的檔案有兩個: **next-i18next.config.js**以及**locales.ts**
 
 ## 開發相關
 
 ### 開發工具
+
+請先安裝 **[Visual Studio Code](https://code.visualstudio.com/download)**
+請先安裝 **[Node](https://nodejs.org/en/download/)**
 
 - [Next.js](https://nextjs.org/)
 - TypeScript
@@ -71,11 +85,15 @@ tags: WCG
 - [next-i18next](https://github.com/isaachinman/next-i18next)
 - [commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly)
 
-:::info
-此專案使用[commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly)
-請做全域安裝 `npm install commitizen -g`
-每次 commit,請在 stage 之後,下指令`git cz`
-:::
+```diff
+- 此專案使用 commitizen
+- 請做全域安裝 `npm install commitizen -g`
+- 每次commit,請在stage之後,下指令 `git cz`,然後照指示輸入
+- 要佈署之前,下指令`npm run release`,即會自動計算,並更新package.json裡面的version
+```
+
+這樣佈署後,可以在 head 標籤裡面,看到版本.
+![](https://i.imgur.com/m5vho4w.jpg)
 
 ### 開發注意事項
 
