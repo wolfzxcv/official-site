@@ -17,7 +17,7 @@ const cryptocurrencies: React.FC<{}> = () => {
   const { t } = useTranslation(['cryptocurrencies']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isCN = currentLang === 'cn';
+  const isCN = currentLang === 'cn' || currentLang;
   const isArabic = currentLang === 'ar';
 
   useEffect(() => {

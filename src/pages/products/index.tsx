@@ -22,7 +22,7 @@ const products: React.FC<{}> = () => {
   const isArabic = currentLang === 'ar';
 
   const allProducts =
-    currentLang === 'cn'
+    currentLang === 'cn' || currentLang
       ? productsData.filter((x) => x.category !== 'cryptocurrencies')
       : productsData;
   const productsOptions = allProducts.map((x) => x.category);
