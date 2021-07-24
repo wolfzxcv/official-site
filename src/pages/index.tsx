@@ -34,6 +34,7 @@ const Index: React.FC<{}> = () => {
         bgSize="cover"
       >
         <Flex
+          className="animation"
           height="inherit"
           minH="500px"
           direction="column"
@@ -111,8 +112,7 @@ const Index: React.FC<{}> = () => {
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '250px' }}
-            border={{ base: 'none', xl: '1px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
@@ -139,8 +139,7 @@ const Index: React.FC<{}> = () => {
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '250px' }}
-            border={{ base: 'none', xl: '1px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
@@ -167,8 +166,7 @@ const Index: React.FC<{}> = () => {
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '250px' }}
-            border={{ base: 'none', xl: '1px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
@@ -196,6 +194,7 @@ const Index: React.FC<{}> = () => {
         align="center"
         bgColor={{ base: 'black', xl: 'white' }}
         color={{ base: 'white', xl: 'black' }}
+        className="animation"
       >
         <Flex fontSize={{ base: '28px', md: '36px' }} fontWeight="700">
           <Text color="red.500" mr={isChinese ? 0 : 3}>
@@ -215,6 +214,7 @@ const Index: React.FC<{}> = () => {
         direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
         justify="space-evenly"
         align="center"
+        className="animation"
       >
         <InfoCard
           icon={<FaMobileAlt fontSize="32px" />}
@@ -245,6 +245,7 @@ const Index: React.FC<{}> = () => {
         align="center"
         justify="space-evenly"
         color="white"
+        className="animation"
       >
         <Box textAlign={isArabic ? 'right' : 'left'} maxW="70vw">
           <InfoTitle title={t('home:preciousMetalsContract')} />

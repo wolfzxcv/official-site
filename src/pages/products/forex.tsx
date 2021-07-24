@@ -2,21 +2,24 @@ import { Accordion, Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { AiOutlineFieldTime } from 'react-icons/ai';
 import { HiServer, HiTrendingDown, HiTrendingUp } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
-import InfoAccordionItem from '../../components/Common/InfoAccordionItem';
 import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-interface forexProps {}
+const InfoAccordionItem = dynamic(
+  () => import('../../components/Common/InfoAccordionItem'),
+  { ssr: false }
+);
 
-const forex: React.FC<forexProps> = () => {
+const forex: React.FC<{}> = () => {
   const { t } = useTranslation(['forex']);
   const router = useRouter();
   const currentLang = router.locale as Locales;

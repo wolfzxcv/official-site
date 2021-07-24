@@ -2,10 +2,15 @@ import { Accordion, Box, Flex, Image } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import dynamic from 'next/dynamic';
 import React from 'react';
-import InfoAccordionItem from '../../components/Common/InfoAccordionItem';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
+
+const InfoAccordionItem = dynamic(
+  () => import('../../components/Common/InfoAccordionItem'),
+  { ssr: false }
+);
 
 const tradeDetails: React.FC<{}> = () => {
   const { t } = useTranslation(['notice']);
