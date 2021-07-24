@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1200px) {
+  .animation {
+    display: none;
+  }
+  .slide-left {
+    animation: slide-left 3s ease-in-out;
+  }
+
+  @keyframes slide-left {
+    0% {
+      position: relative;
+      left: -100%;
+    }
+
+    100% {
+      position: relative;
+      left: 0;
+    }
+  }
+
+  .slide-right {
+    animation: slide-right 3s ease-in-out;
+  }
+
+  @keyframes slide-right {
+    0% {
+      position: relative;
+      right: -100%;
+    }
+
+    100% {
+      position: relative;
+      right: 0;
+    }
+  }
+
+  .fade {
+    animation: fade 5s ease-in-out;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

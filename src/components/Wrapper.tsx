@@ -1,8 +1,9 @@
-import { Box } from '@chakra-ui/react';
+import { Box, useMediaQuery } from '@chakra-ui/react';
 import Head from 'next/head';
 import Script from 'next/script';
-import React from 'react';
+import React, { useEffect } from 'react';
 import packageJson from '../../package.json';
+import { animationsOnScroll } from '../utils/animationsOnScroll';
 import BackToTop from './BackToTop/BackToTop';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -17,6 +18,14 @@ const Wrapper: React.FC<WrapperProps> = ({
   children,
   maxW = '100vw'
 }: WrapperProps) => {
+  const [isWideScreen] = useMediaQuery('(min-width: 1200px)');
+
+  useEffect(() => {
+    if (isWideScreen) {
+      animationsOnScroll('animation', ['slide-left', 'slide-right', 'fade']);
+    }
+  }, []);
+
   return (
     <>
       <Head>
