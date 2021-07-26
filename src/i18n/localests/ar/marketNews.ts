@@ -2,17 +2,17 @@ import { MarketNews } from '../@types/marketNews';
 
 export const marketNews: MarketNews = {
   economicCalendar:
-    'Economic*calendar*about*foreign*exchange*market*and*world*news,*published*daily*and*weekly',
+    'يتم*نشر*التقويم*الاقتصادي*حول*سوق*الصرف*الأجنبي*وأخبار*العالم*يومياً*وأسبوعياً',
   weeklyForeignExchangeNews:
-    'Weekly*foreign*exchange*news*from*WCG*and*comprehensive*world*economic*indicators',
-  financialCalendar: 'Financial*Calendar',
-  financialNews: 'Financial*News',
-  marketAnalysis: 'Market*Analysis',
-  todaysEconomic: "Today's*economic*news",
+    'أخبار*العملات*الأجنبية*الأسبوعية*من*WCG*والمؤشرات*الاقتصادية*العالمية*الشاملة',
+  financialCalendar: 'التقويم*المالي',
+  financialNews: 'الأخبار*المالية',
+  marketAnalysis: 'تحليل*السوق',
+  todaysEconomic: 'أخبار*اليوم*الاقتصادية',
   theMostImportant:
-    'The*most*important*economic*and*financial*news*related*to*the*international*currency*and*stocks*market',
-  theLatestReview: 'The*latest*review*of*market*analysis*and*news',
+    'أهم*الأخبار*الاقتصادية*والمالية*المتعلقة*بسوق*العملات*والأسهم*العالمية',
+  theLatestReview: 'أحدث*مراجعة*لتحليلات*وأخبار*السوق',
   theLatestReviewsAndForecasts:
-    'The*latest*reviews*and*forecasts*of*all*market*tools*and*economic*news.*These*materials*are*provided*by*professional*analysts*and*are*not*used*for*direct*guidance.',
-  more: 'More'
+    'أحدث*المراجعات*والتوقعات*لجميع*أدوات*السوق*والأخبار*الاقتصادية.*هذه*المواد*يتم*توفيرها*بواسطة*محترفين*ولا*يتم*استخدامها*للإرشاد*المباشر..',
+  more: 'تحميل*المزيد'
 };

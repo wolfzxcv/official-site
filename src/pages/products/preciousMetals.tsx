@@ -140,19 +140,49 @@ const preciousMetals: React.FC<{}> = () => {
           <InfoTitle title={t('participantsInGoldTrading')} />
           <Text my={3}>{t('theGoldMarketAttracts')}</Text>
 
-          <Flex align="center">
-            <Box fontSize="22px" color="red.600" fontWeight="600" mr={3}>
+          <Flex align="center" justify={isArabic ? 'flex-end' : 'auto'}>
+            <Box
+              display={!isArabic ? 'flex' : 'none'}
+              fontSize="22px"
+              color="red.600"
+              fontWeight="600"
+              mr={3}
+            >
               A
             </Box>
             <InfoTitle size="22px" title={t('goldBelievers')} />
+            <Box
+              display={isArabic ? 'flex' : 'none'}
+              fontSize="22px"
+              color="red.600"
+              fontWeight="600"
+              ml={3}
+            >
+              A
+            </Box>
           </Flex>
           <Text my={3}>{t('mainlyIncludeIndividualInvestors')}</Text>
 
-          <Flex align="center">
-            <Box fontSize="22px" color="red.600" fontWeight="600" mr={3}>
+          <Flex align="center" justify={isArabic ? 'flex-end' : 'auto'}>
+            <Box
+              display={!isArabic ? 'flex' : 'none'}
+              fontSize="22px"
+              color="red.600"
+              fontWeight="600"
+              mr={3}
+            >
               B
             </Box>
             <InfoTitle size="22px" title={t('largeInstitutions')} />
+            <Box
+              display={isArabic ? 'flex' : 'none'}
+              fontSize="22px"
+              color="red.600"
+              fontWeight="600"
+              ml={3}
+            >
+              B
+            </Box>
           </Flex>
           <Text my={3}>{t('suchInstitutionsIncludeHedgeFunds')}</Text>
         </Box>

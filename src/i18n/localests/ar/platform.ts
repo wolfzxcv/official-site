@@ -2,124 +2,120 @@ import { Platform } from '../@types/platform';
 
 export const platform: Platform = {
   efficientAndFreeTrading:
-    'Efficient*and*free*trading*experience*starts*with*a*powerful*and*fair*trading*platform,*intuitive*and*easy*to*use,*supports*various*order*types,*single-click*order*placing*and*charting*tools.',
-  personalTradingIndicators: 'Personal*trading*indicators',
+    'إن*تجربة*التداول*الفعالة*والمجانية*تبدأ*بمنصة*تداول*قوية*وعادلة،*بديهية*وسهلة*الاستخدام،*وتدعم*أنواع*الطلبات*المختلفة،*ووضع*الأوامر*بنقرة*واحدة*وأدوات*الرسم*البياني.',
+  personalTradingIndicators: 'مؤشرات*التداول*الشخصية',
   MT4ProvidesSimpleAndEasyToUse:
-    'MT4*provides*simple*and*easy-to-use*tools*to*formulate*personal*trading*indicators*according*to*your*trading*style,*and*can*easily*implement*transactions*through*exclusive*indicator*libraries,*scripts*and*Expert*Advisors.',
-  advancedChartTools: 'Advanced*chart*tools',
+    'توفر*منصة*MT4*أدوات*بسيطة*وسهلة*الاستخدام*لصياغة*مؤشرات*التداول*الشخصية*وفقًا*لأسلوب*التداول*الخاص*بك،*ويمكنها*تنفيذ*المعاملات*بسهولة*من*خلال*مكتبات*المؤشرات*الحصرية*والنصوص*والمستشارين*الخبراء.',
+  advancedChartTools: 'أدوات*الرسوم*البيانية*المتقدمة',
   MT4Provides31Chart:
-    'MT4*provides*31*chart*analysis*tools*and*30*different*trading*indicators,*you*can*set*each*indicator*and*chart*category,*establish*parameters*and*display*methods*that*suit*you,*so*that*you*can*get*a*satisfactory*trading*experience.',
-  diversifiedInvestmentTransactions: 'Diversified*investment*transactions',
+    'توفر*منصة*MT4**الخاصة*بنا**31**أداة*لتحليل*الرسم*البياني*و*30*مؤشر*تداول*مختلف،*يمكنك*تعيين*كل*مؤشر*ونوع*الرسم*البياني*،*وإنشاء*الوسائط*وطرق*العرض*التي*تناسبك،*حتى*يمكنك*الحصول*على*تجربة*تداول*مرضية.',
+  diversifiedInvestmentTransactions: 'معاملات*استثمارية*متنوعة',
   theBestWayToManageRisk:
-    'The*best*way*to*manage*risk*is*to*diversify*investment.*In*WCG’s*MT4*trading*platform,*you*can*choose*from*a*series*of*trading*products*and*markets*to*strengthen*and*diversify*your*investment.',
-  intuitiveAndEasyToUse: 'Intuitive*and*easy*to*use',
+    'إن*الطريقة*الأفضل*لإدارة*المخاطر*هي*تنويع*الاستثمار.*في*منصة*التداول*MT4*التابعة*لـ*WCG،*يمكنك*الاختيار*من*بين*سلسلة*من*منتجات*وأسواق*التداول*لتقوية*وتنويع*استثماراتك.',
+  intuitiveAndEasyToUse: 'بديهي*وسهل*الاستخدام',
   completeAndComprehensiveReports:
-    'Complete*and*comprehensive*reports,*such*as*tracking*number,*opening*price,*transaction*volume,*account*status*of*all*orders*and*comprehensive*information*about*positions,*can*be*provided*in*the*terminal*window.*You*can*view*real-time*market*information*anytime,*anywhere,*to*assist*you*in*making*rational*trading*decisions.*More*supports*for*intelligent*trading*(EA)*and*strategy*back-testing*systems,*to*provide*you*with*a*high*degree*of*trading*flexibility,*supervision*and*control.',
-  automaticAdaptabilityAndScalability: 'Automatic*adaptability*and*scalability',
+    '*يمكن*توفير*تقارير*كاملة*وشاملة،*مثل*رقم*التتبع*وسعر*الفتح*وحجم*المعاملات*وحالة*الحساب*لجميع*الطلبات*ومعلومات*شاملة*حول*الصفقات،*في*النافذة*الثانوية*للمنصة.*يمكنك*عرض*معلومات*السوق*في*الوقت*الفعلي*في*أي*وقت*وفي*أي*مكان*لمساعدتك*في*اتخاذ*قرارات*عقلانية*للتداول.*بالاضافة*إلى*المزيد*من*الدعم*للتداول*الذكي*(EA)*وأنظمة*الاختبار*الرجعي*للاستراتيجية،*لتزويدك*بدرجة*عالية*من*مرونة*التداول*والإشراف*والتحكم.',
+  automaticAdaptabilityAndScalability:
+    'القدرة*على*التكيف*التلقائي*وقابلية*التوسع',
   throughTheFurtherDevelopment:
-    'Through*the*further*development*of*the*API*program,*WCG*MT4*can*be*perfectly*integrated*with*your*existing*trading*equipment.*No*matter*where*you*are*in*any*corner*of*the*world,*you*can*always*access*your*trading*platform*to*customize*your*indicators,*execute*instructions*and*execute*transactions.*,*Set*limit*prices,*stop*loss*orders,*and*track*market*trends*to*ensure*that*you*will*not*miss*any*trading*opportunities*and*important*market*information*even*when*you*are*outdoor.',
-  downloadWCGMT4TradingPlatform: 'Download*WCG*MT4*trading*platform',
+    'من*خلال*التطوير*الإضافي*لبرنامج*API،*يمكن*دمج*منصة*WCG*MT4*بشكل*مثالي*مع*معدات*التداول*الحالية*الخاصة*بك.*بغض*النظر*عن*مكان*وجودك*في*أي*مكان*في*العالم،*يمكنك*دائمًا*الوصول*إلى*منصة*التداول*الخاصة*بك*لتخصيص*مؤشراتك*وتنفيذ*التعليمات*وتنفيذ*المعاملات.*قم*بتعيين*الأسعار*المحددة،*وأوامر*وقف*الخسارة،*وتتبع*اتجاهات*السوق*للتأكد*من*أنك*لن*تفوت*أي*فرص*تداول*ومعلومات*مهمة*عن*السوق*حتى*عندما*تكون*خارج*المنزل.',
+  downloadWCGMT4TradingPlatform: 'قم*بتحميل*منصة*التداول*WCG*MT4',
   leadingTradingAndNetworkTechnology:
-    'Leading*trading*and*network*technology,*with*all*the*tools*you*need,*bringing*you*the*best*trading*experience',
-  forPC: 'MT4*for*PC',
-  forMac: 'MT4*for*Mac',
-  multiAccountManagementSystem: 'MT4*multi-account*management*system',
-  forIPhone: 'MT4*for*iPhone',
-  forAndroid: 'MT4*for*Android',
-  MT4PcVersion: 'MT4*PC*version',
+    'تكنولوجيا*تداول*وشبكات*رائدة،*مع*جميع*الأدوات*التي*تحتاجها*مما*يوفر*لك*أفضل*تجربة*تداول',
+  forPC: 'منصة*MT4*للكمبيوتر*الشخصي',
+  forMac: 'منصة*MT4*لأجهزة*Mac',
+  multiAccountManagementSystem: 'منصة*MT4*نظام*إدارة*الحسابات*المتعددة',
+  forIPhone: 'منصة*MT4*لأجهزة*آيفون',
+  forAndroid: 'منصة*MT4*لنظام*أندرويد',
+  MT4PcVersion: 'إصدار*MT4*للكمبيوتر*الشخصي',
   MetaTrader4IsTheMostPopular:
-    'MetaTrader*4*is*the*most*popular*online*trading*platform*over*the*world*and*has*established*a*leading*position*in*the*industry*for*many*years.*MetaTrader*4*(MT4)*is*specially*designed*for*foreign*exchange*and*futures*transactions.*Traders*can*analyze*market*trends,*draw*trading*charts,*and*manage*their*positions*and*orders*through*its*intuitive*user*interface*and*complete*functions.',
-  downloadImmediately: 'Download*Immediately',
-  comprehensiveTechnicalAnalysisFunction:
-    'Comprehensive*technical*analysis*function',
+    'إن*منصة*التداول*عبر*الإنترنت*MetaTrader*4*هي*الأكثر*شهرة*على*مستوى*العالم*وقد*اكتسبت*مكانة*رائدة*في*السوق*لسنوات*كثيرة.*لقد*تم*تصميم*منصة*MetaTrader*4*(MT4)*خصيصًا*لتداول*العملات*الأجنبية*والمعاملات*المستقبلية.*يمكن*للمتداولين*تحليل*اتجاهات*السوق*ورسم*مخططات*التداول*وإدارة*صفقاتهم*وأوامرهم*من*خلال*واجهة*المستخدم*البديهية*والوظائف*الكاملة.',
+  downloadImmediately: 'قم*بالتنزيل*على*الفور',
+  comprehensiveTechnicalAnalysisFunction: 'وظيفة*التحليل*الفني*الشامل',
   professionalIconFunctions:
-    'Professional*icon*functions,*trading*indicators,*intelligent*trading*(EAs),*etc.,*can*be*applied*to*all*traders*with*different*levels*of*experience.*Let*you*keep*up*to*date*with*the*latest*developments*in*global*foreign*exchange*margin*and*contract*for*difference*(CFD)*markets,*and*conduct*professional*transactions*anytime,*anywhere*through*WCG*MT4',
-  automaticChartingRecords: 'Automatic*charting*records',
-  selfDefinedTechnicalIndicators: 'Self-defined*technical*indicators',
-  supportMultipleWindows: 'Support*multiple*windows',
-  simpleChartingOperation: 'Simple*charting*operation',
-  nineChartingTimePeriods: 'Nine*charting*time*periods',
-  whyChoose: 'Why*choose*MetaTrader*4*platform?',
+    'إن*وظائف*الأيقونات*الاحترافية،*ومؤشرات*التداول،*والتداول*الذكي*(EAs)،*وغيرها*من*الوظائف*يمكن*تطبيقها*من*قبل*جميع*المتداولين*بمستوياتهم*المختلفة*من*الخبرة.*تتيح*لك*مواكبة*آخر*التطورات*في*أسواق*الهامش*والعقود*مقابل*الفروقات*العالمية،*وإجراء*المعاملات*المهنية*في*أي*وقت*وفي*أي*مكان*من*خلال*منصة*WCG*MT4.',
+  automaticChartingRecords: 'سجلات*الرسوم*البيانية*الآلية',
+  selfDefinedTechnicalIndicators: 'مؤشرات*فنية*محددة*ذاتيًا',
+  supportMultipleWindows: 'دعم*النوافذ*المتعددة',
+  simpleChartingOperation: 'عملية*رسم*بياني*بسيطة',
+  nineChartingTimePeriods: 'تسع*فترات*زمنية*للرسم*البياني',
+  whyChoose: 'لماذا*تختار*منصة*MetaTrader*4؟',
   MT4IsTheMostPopularForeign:
-    'MT4*is*the*most*popular*foreign*exchange*trading*platform*in*the*world',
+    'إن*منصة*MT4*هي*أشهر*منصة*تداول*للعملات*الأجنبية*في*العالم.*وقد*فازت*المنصة*بجوائز*مختلفة.*تحتوي',
   itHasWonVariousAwards:
-    'It*has*won*various*awards.*The*platform*has*3*different*chart*types,*9*time*periods,*39*languages',
+    'المنصة*على*3*أنواع*مختلفة*من*المخططات،*و*9*فترات*زمنية،*و*39*لغة،*وأكثر*من*50*مؤشرًا*فنيًا*محدد*مسبقًا،*وواجهة*قابلة*للتخصيص*ب',
   moreThan50Preset:
-    'more*than*50*preset*technical*indicators,*and*a*fully*customizable*interface',
-  aNumberOfTradingProducts: 'A number of trading products can be traded',
+    'أكثر*من*50*مؤشرًا*فنيًا*محددًا*مسبقًا*وواجهة*قابلة*للتخصيص*بالكامل',
+  aNumberOfTradingProducts: 'الكامل.*يمكن*تداول*العديد*من*منتجات*التداول.',
   compatibleWithExpertAdvisors:
-    'Compatible*with*Expert*Advisors*(smart*automatic*trading*programs),*custom*indicators*and*other*application*tools',
-  itHasAMobileVersion:
-    'It*has*a*mobile*version*of*the*trading*platform.*You*can*use*the*mobile*APP*to*trade*and*manage*orders*anytime,*anywhere.',
-  provideAnAdvanced: 'Provide*an*advanced*notification*signal*system',
-  downloadTheWCGMT4: 'Download*the*WCG*MT4*trading*platform*now,',
+    'المنصة*متوافقة*مع*برامج*Expert*Advisor*(برامج*التداول*الآلي*الذكية)*والمؤشرات*المخصصة*وأدوات*التطبيق*الأخرى.*متوفر*ن',
+  itHasAMobileVersion: 'نواع*الأوامر*في*أي*وقت*وفي*أي*مكان.',
+  provideAnAdvanced: 'توفير*نظام*إشارة*إخطار*متقدم',
+  downloadTheWCGMT4:
+    'قم*بتحميل*منصة*التداول*ونتشوآن*MT4*الآن*وابدأ*رحلة*التداول*الخاصة*بك*!',
   usingMT4AllowsYou:
-    'Using*MT4*allows*you*to*monitor*the*market*more*accurately,*manage*your*positions*quickly*and*efficiently,*optimize*trading*strategies,enhance*your*trading*advantages,*and*enjoy*a*perfect*trading*experience.',
-  tradingSystem: 'Trading*system',
+    'يتيح*لك*استخدام*MT4*مراقبة*السوق*بشكل*أكثر*دقة،*وإدارة*صفقاتك*بسرعة*وكفاءة،*وتحسين**استراتيجيات*التداول،*وتعزيز*مزايا*التداول*الخاصة*بك،*والاستمتاع*بتجربة*تداول*مثالية.',
+  tradingSystem: 'نظام*التداول',
   includesCurrentPriceExecution:
-    'Includes*current*price*execution,*trading*in*both*directions,*four*types*of*pending*orders*and*two*stop-loss*orders*and*trailing*stop-loss*functions.*The*one-click*trading*function*allows*you*to*send*trading*commands*directly*from*the*chart*with*one*click.*The*built-in*quotation*chart*provides*an*accurate*way*to*judge*the*timing*of*the*transaction.',
-  technicalAnalysis: 'Technical*analysis',
+    'يتضمن*تنفيذ*السعر*الحالي*والتداول*في*كلا*الاتجاهين*وأربعة*أنواع*من*الأوامر*المعلقة*وأوامر*وقف*الخسارة*ووظيفة*وقف*الخسارة*المتحرك.*تمكنك*خاصية*التداول*بنقرة*واحدة*من*إرسال*أوامر*التداول*مباشرة*من*الرسم*البياني*بنقرة*واحدة.*يوفر*الرسم*البياني*المدمج*للأسعار*طريقة*دقيقة*للحكم*على*توقيت*المعاملة.',
+  technicalAnalysis: 'التحليل*الفني',
   MT4ProvidesAMoreComprehensive:
-    'MT4*provides*a*more*comprehensive*analysis*opportunity.*Each*trading*product*can*display*nine*time*frames,*allowing*traders*to*see*detailed*price*dynamics.*Combine*these*tools*to*determine*market*trends,*and*powerful*analysis*capabilities*help*you*analyze*market*trends*more*thoroughly*and*grasp*the*best*moment.',
-  safeAndConvenient: 'Safe*and*convenient',
+    'توفر*منصة*MT4*فرصة*تحليل*أكثر*شمولاً.*يمكن*لكل*منتج*تداول*عرض*تسعة*إطارات*زمنية،*مما*يسمح*للمتداولين*برؤية*ديناميكيات*الأسعار*التفصيلية.*اجمع*بين*هذه*الأدوات*لتحديد*اتجاهات*السوق،*وسوف*تساعدك*إمكانيات*التحليل*القوية*على*تحليل*اتجاهات*السوق*بشكل*أكثر*شمولاً*وفهم*أفضل*اللحظات.',
+  safeAndConvenient: 'المنصة*آمنة*ومريحة',
   advancedTradingAndAnalysisFunctions:
-    'Advanced*trading*and*analysis*functions,*friendly*user*interface,*can*help*you*easily*understand*all*functions*and*operating*rules.*Meet*the*highest*safety*standards.*The*data*exchange*between*the*client*terminal*and*the*platform*server*is*completely*encrypted,*so*that*your*trading*account*is*protected*most*safely',
-  MT4APPVersion: 'MT4*APP*version*(Android*/*iOS)',
+    'يمكن*لوظائف*التداول*والتحليل*المتقدمة*وواجهة*المستخدم*الودية*أن*تساعدك*في*فهم*جميع*الوظائف*وقواعد*التشغيل*بسهولة.*تلتزم*المنصة*بأعلى*معايير*السلامة.*يتم*تشفير*تبادل*البيانات*بين*محطة*العميل*وخادم*المنصة*بالكامل،*بحيث*يتم*حماية*حساب*التداول*الخاص*بك*بشكل*أكثر*أماناِ.',
+  MT4APPVersion: 'تطبيق*MT4*نسخة*(Android*/*iOS)',
   weProvideTheMT4MobileApplication:
-    'We*provide*the*MT4*mobile*application,*as*long*as*you*download*and*install*the*MT4*APP*on*your*mobile*phone*or*tablet*computer,*you*can*easily*trade*anytime,*anywhere.*MT4*iOS*and*Android*APP*provide*a*more*simplified*operation*interface,*which*can*monitor*market*trends*more*conveniently*and*quickly,*and*enjoy*an*excellent*trading*experience.*Not*only*It*is*your*daily*assistant,*but*also*your*irreplaceable*tool.',
-  MetaTrader4MobileApp: 'MetaTrader4*mobile*app',
+    'نحن*نقدم*تطبيق*MT4*للهاتف*المحمول*،*بمجرد*قيامك*بتنزيل*وتثبيت*تطبيق*MT4*على*هاتفك*المحمول*أو*الكمبيوتر*اللوحي،*يمكنك*التداول*بسهولة*في*أي*وقت*وفي*أي*مكان.*يوفر*تطبيق*MT4*بنسختيه*iOS*و*Android*واجهة*تشغيل*أكثر*بساطة،*والتي*يمكنها*مراقبة*اتجاهات*السوق*بشكل*أكثر*ملائمة*وسرعة،*وتمكنك*من*الاستمتاع*بتجربة*تداول*ممتازة.*يعتبر*هذا*التطبيق*ليس*فقط*مساعدك*اليومي،*ولكنه*أيضًا*أداة*لا*يمكن*الاستغناء*عنها.',
+  MetaTrader4MobileApp: 'تطبيق*MetaTrader4*للهاتف*المحمول',
   downloadOurMT4MobileAppNow:
-    'Download*our*MT4*mobile*app*now*and*let*it*become*your*trading*partner,*helping*you*enter*the*financial*market*anytime,*anywhere*and*grasp*every*trading*opportunity*24*hours*a*day.',
-  downloadTheIOSVersion: 'Download*the*iOS*version',
-  downloadTheAndroidVersion: 'Download*the*Android*version',
-  MAMMultiAccountManagementSystem: 'MAM*multi-account*management*system',
+    'قم*بتنزيل*تطبيق*MT4*للهاتف*المحمول*الآن*واجعله*شريكك*التجاري،*حيث*انه*يساعدك*على*دخول*السوق*المالية*في*أي*وقت*من**أي*مكان،*واغتنام*كل*فرصة*تداول*على*مدار*24*ساعة*في*اليوم.',
+  downloadTheIOSVersion: 'قم*بتحميل*إصدار*iOS',
+  downloadTheAndroidVersion: 'قم*بتحميل*إصدار*Android',
+  MAMMultiAccountManagementSystem: 'نظام*إدارة*الحسابات*المتعددة*MAM',
   theMultiAccountManagementSystem:
-    'The*Multi-Account*Management*System*(MAM)*has*important*integrated*management*functions,*allowing*asset*managers*to*manage*multiple*accounts*through*only*one*interface.*A*single*interface*allows*asset*managers*to*effectively*and*accurately*configure*trading*conditions*for*multiple*personal*accounts,*and*evenly*distribute*the*same*trading*conditions*and*strategies*to*individual*accounts*according*to*a*preset*ratio,*helping*you*manage*trading*activities*and*improve*management*skills.',
-  consultCustomerServiceImmediately: 'Consult*customer*service*immediately',
-  MAMAccountSupportsFiveDistributionLogics:
-    'MAM*account*supports*five*distribution*logics',
+    'إن*نظام*إدارة*الحسابات*المتعددة*(MAM)*يحتوي*على*وظائف*إدارية*متكاملة*ومهمة،*مما*يسمح*لمديري*الأصول*بإدارة*حسابات*متعددة*من*خلال*واجهة*واحدة*فقط.*تتيح*الواجهة*الفردية*لمديري*الأصول*وضع*شروط*تداول*فعالة*ودقيقة*لحسابات*شخصية*متعددة،*وتوزيع*نفس*شروط*واستراتيجيات*التداول*بالتساوي*على*الحسابات*الفردية*وفقًا*لنسبة*محددة*مسبقًا،*مما*يساعدك*على*إدارة*أنشطة*التداول*وتحسين*مهارات*الإدارة.',
+  consultCustomerServiceImmediately: 'استشر*خدمة*العملاء*على*الفور',
+  MAMAccountSupportsFiveDistributionLogics: 'يدعم*حساب*MAM*خمسة*خطط*توزيع',
   theMAMSystemProvidesMultipleRatioSettings:
-    'The*MAM*system*provides*multiple*ratio*settings.*You*can*choose*the*most*suitable*plan*according*to*your*needs,*and*allow*customers*to*use*five*different*modules*to*allocate*trading*items*and*execute*all*common*order*types*at*the*same*time.',
+    'يوفر*نظام*MAM*إعدادات*متعددة*لوضع*النسب.*يمكنك*اختيار*أنسب*خطة*وفقًا*لاحتياجاتك،*والسماح*للعملاء*باستخدام*خمس*خطط*مختلفة*لتخصيص*عناصر*التداول*وتنفيذ*جميع*أنواع*الأوامر*الشائعة*في*نفس*الوقت.',
   accountNetValueIsAllocatedAccordingToProportion:
-    'Account*net*value*is*allocated*according*to*proportion',
-  percentageAllocation: 'Percentage*allocation',
-  balanceIsAllocatedAccordingToProportion:
-    'Balance*is*allocated*according*to*proportion',
-  profitAndLoss: 'Allocation*by*profit*and*loss:',
-  allocationByProfitAndLoss:
-    'Profit*and*loss*are*allocated*according*to*percentage',
-  profitAndLossAre:
-    'Profit*and*loss*are*allocated*according*to*balance*percentage',
-  investment200: 'Investment*$200',
-  profit120: 'Profit*$120',
-  investment300: 'Investment*$300',
-  profit180: 'Profit*$180',
-  investment500: 'Investment*$500',
-  profit300: 'Profit*$300',
-  totalInvestment: 'Total*investment*$1000',
-  totalProfit: 'Total*profit*$600',
-  MAMFeaturesAndAdvantages: 'MAM*features*and*advantages',
+    'يتم*تخصيص*صافي*قيمة*الحساب*حسب*النسبة',
+  percentageAllocation: 'تخصيص*النسبة*المئوية',
+  balanceIsAllocatedAccordingToProportion: 'يتم*تخصيص*الرصيد*حسب*النسبة',
+  profitAndLoss: 'التخصيص*حسب*الربح*والخسارة',
+  allocationByProfitAndLoss: 'يتم*توزيع*الربح*والخسارة*على*أساس*النسبة*المئوية',
+  profitAndLossAre: 'يتم*توزيع*الربح*والخسارة*على*أساس*نسبة*الرصيد',
+  investment200: 'الاستثمار*200*دولار',
+  profit120: 'الربح*120*دولارًا',
+  investment300: 'الاستثمار*300*دولار',
+  profit180: 'الربح*180*دولارًا',
+  investment500: 'الاستثمار*500*دولار',
+  profit300: 'الربح*300*دولار',
+  totalInvestment: 'إجمالي*الاستثمار*1000*دولار',
+  totalProfit: 'إجمالي*الربح*600*دولار',
+  MAMFeaturesAndAdvantages: 'خصائص*وميزات*نظام*إدارة*الحسابات*المتعددة*MAM',
   compatibleWithEA:
-    'Compatible*with*EA*(Expert*Advisor)*and*automatic*trading*strategies',
+    'متوافق*مع*EA*(التداول*الذكي)*واستراتيجيات*التداول*الآلي.*ق',
   establishMultipleTrading:
-    'Establish*multiple*trading*subgroups*for*various*policies',
+    'م*بإنشاء*مجموعات*تداول*فرعية*متعددة*لمختلف*السياسات.*وتوفي',
   accordingToAccountLevel:
-    'According*to*account*level,*provide*partial*closing*function',
-  customersCanStart:
-    'Customers*can*start*to*allocate*compatible*all*MT4*order*types*when*the*trading*volume*reaches*0.01*lot',
+    'ر*وظيفة*الإغلاق*الجزئي*وفقًا*لمستوى*الحساب.*يمكن*للعملاء*البدء*في*تخصيص*جميع*أ',
+  customersCanStart: 'نواع*أوامر*منصة*MT4*المتوافقة*عندما*يصل*حج',
   compatibleWithAll:
-    'Compatible*with*all*MT4*orders,*for*instance,*stop*loss,*limit*price,*etc.',
-  thereIsNoLimit: 'There*is*no*limit*of*account*amount*when*placing*order.',
-  yourPartnerToTheRoadOfSuccess: 'Your*partner*to*the*road*of*success',
+    'م*التداول*إلى*0.01*عقد*فقط،*لا*يوجد*حد*لعدد*حسابات*التداول*عند*وض',
+  thereIsNoLimit:
+    'ع*أوامر*مثل*الخسارة*وحد*السعر*وإيقاف*الخسارة*المتحرك*وجميع*المراكز',
+  yourPartnerToTheRoadOfSuccess: 'شريكك*على*طريق*النجاح',
   toProvideYouWithFlexibleAndCompetitiveRates:
-    'To*provide*you*with*flexible*and*competitive*rates,*fast*setting*and*high-level*continuous*support,*the*MAM*system*also*provides*a*list*of*all*the*information*you*need*including*outstanding*trades,*balances,*profit*and*loss,*customer*contact*information,*etc.',
-  transparentCommissionDetails: 'Transparent*commission*details*at*a*glance',
+    'من*أجل*تزويدك*بأسعار*مرنة*وتنافسية،*وإعداد*سريع*ودعم*مستمر*عالي*المستوى،*يوفر*نظام*MAM*أيضًا*قائمة*بجميع*المعلوما**ت*التي*تحتاجها*بما*في*ذلك*التداولات*المعلقة،*والأرصدة،*والأرباح*والخسائر،*ومعلومات*الاتصال*بالعملاء،*إلخ.',
+  transparentCommissionDetails: 'تفاصيل*شفافية*العمولة*في*لمحة',
   realTimeDisplay:
-    'Real-time*display*of*the*main*account*and*sub-account*details,*including*profit,*commission,*rollover*interest,*balance*and*margin*level.',
-  convenientAndFastExecution: 'Convenient*and*fast*execution',
+    'عرض*للحساب*الرئيسي*وتفاصيل*الحساب*الفرعي*في*الوقت*الفعلي،*بما*في*ذلك*الربح*والعمولة*وفوائد*التبييت*والرصيد*ومستوى*الهامش.',
+  convenientAndFastExecution: 'تنفيذ*مريح*وسريع',
   allTransactionOrders:
-    'All*transaction*orders*are*executed*through*the*main*account,*and*then*transferred*to*the*sub-account*according*to*the*configuration*method*you*choose.',
-  AMustHaveSystem: 'A*must-have*system*for*introducing*brokers',
+    'إن*جميع*أوامر*المعاملات*يتم*تنفيذها*من*خلال*الحساب*الرئيسي،*ثم*يتم*تحويلها*إلى*الحساب*الفرعي*وفقًا*لطريقة*الضبط*التي*تختارها.',
+  AMustHaveSystem: 'نظام*لا**غنى*عنه*للوسطاء',
   multilingualTradingPlatform:
-    'Multilingual*trading*platform*and*marketing*materials,*good*liquidity,*reliable*execution,*unlimited*accounts*can*be*opened,*allowing*you*to*become*a*professional*broker.'
+    'منصة*تداول*متعددة*اللغات*ومواد*تسويقية*وسيولة*جيدة*وتنفيذ*موثوق*وحسابات*غير*محدودة*يمكن*فتحها،*مما*يتيح*لك*أن*تصبح*وسيطاً*محترفاً.'
 };

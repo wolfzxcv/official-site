@@ -75,7 +75,7 @@ const products: React.FC<{}> = () => {
           color="white"
           textAlign={isArabic ? 'right' : 'left'}
         >
-          {`*${t('tradingTime')}`}
+          {`${isArabic ? '' : '* '}${t('tradingTime')}`}
         </Box>
         {/* select */}
         <Flex my={10} width={{ base: '80vw', md: '30vw' }} align="center">

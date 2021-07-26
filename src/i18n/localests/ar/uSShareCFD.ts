@@ -1,46 +1,46 @@
 import { USShareCFD } from '../@types/uSShareCFD';
 
 export const uSShareCFD: USShareCFD = {
-  tradeSharesCFDs: 'Trade*Shares*CFDs',
+  tradeSharesCFDs: 'تداول*العقود*مقابل*الفروقات',
   WCGOffersAWideRange:
-    'WCG*offers*a*wide*range*of*CFD*shares*across*its*online*trading*platform.*Start*trading*now*to*benefit*from*competitive*spreads,*high*quality*trade*execution,*and*no*commission.*Please*be*reminded*that*your*capital*is*at*risk',
-  viewTradingProducts: 'View*Trading*Products',
-  whyTradeSharesWithWCG: 'Why*trade*Shares*with*WCG',
+    'تقدم*WCG*مجموعة*واسعة*من*أسهم*CFD*عبر*منصتها*للتداول*عبر*الإنترنت.*إبدأ*التداول*الآن*للاستفادة*من*فروق*الأسعار*التنافسية*وتنفيذصفقات*عالية*الجودة*وبدون*عمولة.*يرجى*تذكر*أن*رأس*مالك*في*خطر',
+  viewTradingProducts: 'عرض*منتجات*التداول',
+  whyTradeSharesWithWCG: 'لماذا*تداول*الأسهم*مع*WCG*？',
   competitivePrices:
-    'Competitive*Prices*We*source*our*prices*from*multiple*venues*to*ensure*you*get*the*best*prices*for*CFD*trading.',
+    'أسعار*منافسةنحن*نحصل*على*أسعارنا*من*أماكن*متعددة*لضمان*حصولك*على*أفضل*الأسعار*لتداول*العقود*مقابل*الفروقات',
   tradeShortAndLong:
-    'Trade*Short*and*Long*Take*up*a*long*or*short*position*when*trading*with*CFDs*and*make*potential*gains*from*price*movements.',
+    'تاجر*بالبيع*أو*الشراءقم*بفتح*صفقة*شراء*أو*بيع*عند*التداول*باستخدام*العقود*مقابل*الفروقات*وحقق*مكاسب*محتملة*من*تحركات*الأسعار',
   tradeShares:
-    'Trade*Shares*on*Leverage*Gain*full*exposure*with*a*relatively*small*deposit*when*you*trade*CFD*stocks*with*WCG.',
+    'تداول*الأسهم**برافعة*ماليةاحصل*على*عرض*كامل*بإيداع**مبلغ*صغير*نسبيًا*عندما*تتداول*أسهم*عقود*الفروقات*مع*WCG',
   WCGOffersZeroCommission:
-    'WCG*offers*zero*commission*when*trading*CFD*shares.*That,*combined*with*zero*bank*fees*charged*on*transactions*results*in*more*profitable*trading.',
-  howDoITradeCFDShares: 'How*do*I*trade*CFD*Shares*with*WCG*?',
+    'لا*تخصم*شركة*WCG**أي*عمولة*عند*تداول*أسهم*العقود*مقابل*الفروقات.*بالإضافة*الى*عدم*خصم*رسوم*التحويل*البنكية*والتي*عادة*ما*يتم*فرضها*على*التحويلات*البنكية،*مما*يؤدي*إلى*تداول*أكثر*ربحية.',
+  howDoITradeCFDShares: 'كيف*أتداول*أسهم*العقود*مقابل*الفروقات*مع*WCG؟',
   whenTradingASingleCFDShare:
-    'When*trading*a*single*CFD*share*there*will*be*corporate*actions*enforced*by*the*related*company.*An*example*of*this*is*a*cash*dividend.*If*this*has*been*issued*then*WCG*will*adjust*the*client’s*account*accordingly.*WCG*will*take*two*actions:',
+    'عند*تداول*سهم*CFD*واحد*،*ستكون*هناك*إجراءات*مؤسسية*تفرضها*الشركة*ذات*الصلة.*مثال*على*ذلك*هو*توزيعات*أرباح*نقدية.*إذا*تم*إصدار*هذا*،*فسيقوم*WCG*بتعديل*حساب*العميل*وفقًا*لذلك.*سيتخذ*WCG*إجراءين:**العملاء*الذين*يحتفظون*بمركز*(مراكز)*الشراء*في*عقد*مقابل*الفروقات*على*سهم*واح',
   clientsWhoHoldBUY:
-    'Clients*who*hold*BUY*position(s)*in*a*single*share*CFD*on*the*ex-dividend*date,*will*receive*a*positive*cash*amount*which*is*equivalent*to*the*dividend*payout.*(Deposits*will*be*made*into*the*client’s*trading*account*according*to*their*lot*size*and*proportion*of*the*dividend*paying*underlying*securities).',
+    'العملاء*الذين*يحتفظون*بمركز*(مراكز)*الشراء*في*عقد*مقابل*الفروقات*على*سهم*واحد*في*تاريخ*سابق*لتوزيع*الأرباح*،*سيحصلون*على*مبلغ*نقدي*إيجابي*يعادل*توزيعات*الأرباح.*(سيتم*إجراء*الإيداعات*في*حساب*تداول*العميل*وفقًا*لحجم*اللوت*ونسبة*توزيعات*الأرباح*التي*تدفع*الأوراق*المالية*الأساسية).',
   ClientsWhoHoldSELL:
-    'Clients*who*hold*SELL*position(s)*in*a*single*share*CFD*on*the*ex-dividend*date,*will*receive*a*cash*amount*which*is*equivalent*to*the*dividend*payout.*(Withdrawal*will*be*made*from*the*client’s*trading*account*according*to*their*lot*size*and*proportion*of*the*dividend*paying*underlying*securities.)',
+    'العملاء*الذين*يحتفظون*بمركز*(مراكز)*بيع*في*عقد*فروقات*سهم*واحد*في*تاريخ*سابق*لتوزيع*الأرباح*،*سيحصلون*على*مبلغ*نقدي*يعادل*توزيعات*الأرباح*(سيتم*السحب*من*حساب*تداول*العميل*وفقًا*لحجم*اللوت*ونسبة*توزيعات*الأرباح*التي*تدفع*الأوراق*المالية*الأساسية.)',
   adjustmentFormula:
-    'Adjustment*Formula*:Number*of*shares*x*Dividend*per*share*=*Adjustment*amount',
-  cashDividend: 'Cash*Dividend',
+    'معادلة*التعديل:*عدد*الأسهم*×*توزيعات*الأرباح*لكل*سهم*=*مبلغ*التعديل',
+  cashDividend: 'المال*المقسم',
   forExample:
-    'For*example,*if*Apple*Inc.*(AAPL)*announces*a*$0.01*USD*cash*dividend*to*its*shareholders.*On*the*ex-dividend*date,*Apple*Inc.’s*share*price*would*reflect*the*corporate*action*and*would*drop*$0.01*in*price.*WCG*will*make*cash*adjustments*to*clients*who*are*holding*open*positions*of*the*Apple*Inc.*CFD*.',
+    'على*سبيل*المثال*،*إذا*أعلنت*شركة*Apple*Inc.*(AAPL)*عن*توزيع*أرباح*نقدية*بقيمة*0.01*دولار*أمريكي*لمساهميها.*في*تاريخ*الاستحقاق*السابق*للأرباح*،*سيعكس*سعر*سهم*شركة*Apple*إجراء*الشركة*وسينخفض*​​سعره*بمقدار*0.01*دولار.*ستجري*WCG*تعديلات*نقدية*للعملاء*الذين*يحتفظون*بمراكز*مفتوحة*لعقد*CFD*على*شركة*Apple*Inc.',
   ifAnIndividualClient:
-    'If*an*individual*client*of*WCG*is*holding*10,000*shares*of*BUY*positions,*the*cash*adjustment*will*be*calculated*using*the*following*equation*:10,000*share*CFDs*x*0.01USD*=*100USD*cash*dividend*(Note:*If*a*client*is*holding*10,000*shares*of*SELL*positions,*WCG*will*deduct*100USD*from*the*client’s*account.)',
-  shareSplitOrReserveShareSplit: 'Share*Split*or*Reserve*Share*Split',
+    'إذا*كان*أحد*العملاء*الفرديين*لـ*WCG*يحتفظ*بـ*10،000*سهم*من*مراكز*الشراء*،*فسيتم*حساب*التعديل*النقدي*باستخدام*المعادلة*التالية:*10،000*سهم*CFDs*x*0.01USD*=*أرباح*نقدية*بقيمة*100*دولار*أمريكي*(ملاحظة:*إذا*كان*العميل*يمتلك*10،000*سهم*من*مراكز*البيع*،*WCG*سيتم*خصم*100*دولار*أمريكي*من*حساب*العميل.)',
+  shareSplitOrReserveShareSplit: 'مشاركة*الانقسام*أو*تقسيم*الأسهم*الاحتياطية',
   ifACompanyAnnounces:
-    "If*a*company*announces*a*share*split*or*reserve*share*split,*the*company's*share*price*will*be*subject*to*significant*change.",
-  reserveShareSplit: 'Reserve*Share*Split:*CFD*price*will*increase',
-  shareSplit: 'Share*Split*:CFD*price*will*decrease',
+    'إذا*أعلنت*الشركة*عن*تجزئة*السهم*أو*تجزئة*السهم*الاحتياطي*،*فسيخضع*سعر*سهم*الشركة*لتغيير*كبير.',
+  reserveShareSplit: 'تقسيم*سهم*الاحتياطي:*سيرتفع*سعر*العقود*مقابل*الفروقات',
+  shareSplit: 'تجزئة*السهم:*سينخفض*​​سعر*العقود*مقابل*الفروقات',
   openPositions:
-    'Open*positions*of*the*Apple*Inc*CFD.*Should*this*not*just*say*clients*who*are*holding*open*positions*of*the*relevant*CFD?',
+    'فتح*مراكز*Apple*Inc*CFD.*ألا*يجب*أن*يقول*هذا*فقط*العملاء*الذين*يحتفظون*بصفقات*مفتوحة*لعقود*الفروقات*ذات*الصلة؟',
   however:
-    "However,*a*single*share*CFD*will*also*be*affected*by*corporate*action,*which*may*occur*when*the*listed*company*initiates*any*business*changes*Like*a*share*split,*reserve*share*split,*or*a*dividend*payout,*etc.,*and*as*a*result*may*affect*the*company's*financial*position,*its*share*price*performance,*and*the*interests*of*shareholders.",
-  dividends: 'Dividends',
+    'ومع*ذلك*،*سيتأثر*سهم*واحد*من*العقود*مقابل*الفروقات*أيضًا*بإجراءات*الشركة*،*والتي*قد*تحدث*عندما*تبدأ*الشركة*المدرجة*في*إجراء*أي*تغييرات*في*الأعمال*مثل*تقسيم*الأسهم*،*أو*تقسيم*الأسهم*،*أو*توزيعات*الأرباح*،*وما*إلى*ذلك*،*ونتيجة*لذلك*قد*تؤثر*على*الشركة*المركز*المالي*وأداء*سعر*سهمه*ومصالح*المساهمين.',
+  dividends: 'أرباح',
   aListedCompany:
-    "A*listed*company*will*announce*its*earnings*reports*semi-annually*(or*quarterly).*Dividends*are*subject*to*approval*by*a*company's*board*of*directors,*and*It's*a*distribution*of*a*company's*earnings*to*a*specified*class*of*its*shareholders.*Generally,*dividends*will*be*issued*in*the*form*of*cash*dividends*or*share*dividends.",
-  exDividendDate: 'Ex-dividend*Date',
+    'ستعلن*الشركة*المدرجة*عن*تقارير*أرباحها*نصف*سنوية*(أو*ربع*سنوية).*تخضع*توزيعات*الأرباح*لموافقة*مجلس*إدارة*الشركة*،*وهي*عبارة*عن*توزيع*لأرباح*الشركة*على*فئة*محددة*من*مساهميها.*بشكل*عام*،*سيتم*إصدار*توزيعات*الأرباح*في*شكل*توزيعات*أرباح*نقدية*أو*توزيعات*أرباح.',
+  exDividendDate: 'تاريخ*الاستحقاق',
   anExDividendIs:
-    'An*ex-dividend*is*a*share*trading*term*that*specifies*when*a*declared*dividend*is*owned*by*the*buyer,*as*opposed*to*the*seller.*If*an*individual*buys*a*share*before*the*ex-dividend*day,*he*or*she*is*then*entitled*to*receive*a*dividend.*If*an*individual*buys*a*share*on*or*after*the*ex-dividend*date,*the*buyer*no*longer*had*the*right*to*receive*the*dividend.'
+    'توزيعات*الأرباح*السابقة*هو*مصطلح*تداول*الأسهم*الذي*يحدد*متى*يكون*العائد*المعلن*مملوكًا*للمشتري*،*على*عكس*البائع.*إذا*اشترى*الفرد*حصة*قبل*يوم*توزيع*الأرباح*،*فيحق*له*الحصول*على*أرباح.*إذا*اشترى*الفرد*حصة*في*أو*بعد*تاريخ*توزيع*الأرباح*،*لم*يعد*للمشتري*الحق*في*استلام*الأرباح.'
 };
