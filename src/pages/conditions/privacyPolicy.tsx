@@ -53,6 +53,8 @@ const privacyPolicy: React.FC<{}> = () => {
             <Text>{`${!isArabic ? '4. ' : ''}${t(
               'personsDeemedAppropriate'
             )}`}</Text>
+
+            <Text>{t('AccordingTo')}</Text>
           </Stack>
         </Box>
       </Flex>

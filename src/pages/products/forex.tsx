@@ -161,7 +161,7 @@ const forex: React.FC<{}> = () => {
             title={t('supportLeverage')}
             text={t('youCanUtilizeLeverage')}
             withBorder
-            minH={isChinese ? '280px' : 'auto'}
+            minH={isChinese ? '280px' : '306px'}
           />
 
           <InfoCard
@@ -169,7 +169,7 @@ const forex: React.FC<{}> = () => {
             title={t('fundingThreshold')}
             text={t('whenTradingForeignExchange')}
             withBorder
-            minH={isChinese ? '280px' : 'auto'}
+            minH={isChinese ? '280px' : '306px'}
           />
 
           <InfoCard
@@ -177,7 +177,7 @@ const forex: React.FC<{}> = () => {
             title={t('hoursTrading')}
             text={t('fromMondayMorning')}
             withBorder
-            minH={isChinese ? '280px' : 'auto'}
+            minH={isChinese ? '280px' : '306px'}
           />
         </Flex>
       </Flex>

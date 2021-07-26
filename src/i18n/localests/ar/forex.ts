@@ -1,67 +1,67 @@
 import { Forex } from '../@types/forex';
 
 export const forex: Forex = {
-  foreignExchangeTransactions: 'Foreign*exchange*transactions',
+  foreignExchangeTransactions: 'معاملات*الصرف*الأجنبي',
   theForeignExchange:
-    "The*foreign*exchange*market*has*an*estimated*daily*trading*volume*of*approximately*US$*5*trillion,*making*it*the*world's*largest*and*most*liquid*financial*market.*By*investing*in*foreign*currencies*through*the*WCG*foreign*exchange*margin*trading*platform,*you*can*participate*in*this*exciting*part*of*the*financial*world,*get*immediate*institutional*market*prices,*and*24-hour*uninterrupted*transactions.*WCG*foreign*exchange*trading*account*meets*the*different*investment*needs*of*users.*New*investors*can*also*try*our*free*demo*account*to*experience*the*fast*and*easy-to-use*MT4*trading*platform.",
-  viewTradingProducts: 'View*Trading*Products',
-  howToPerform: 'How*to*perform*foreign*exchange*transactions',
+    'إن*التداول*اليومي*لسوق*الصرف*الأجنبي*يبلغ*حجمه*حوالي*5*تريليون*دولار*أمريكي*،*مما*يجعله*أكبر*الأسواق*المالية*في*العالم*وأكثرها*سيولة.*يمكنك*المشاركة*في*هذا*الجزء*المثير*من*العالم*المالي*من*خلال*الاستثمار*في*العملات*الأجنبية*عبر*منصة*ونتشوآن*لتداول*العملات*الأجنبية*بالهامش،*والحصول*على*أسعار*السوق*المؤسسية*بشكل*فوري،*والمعاملات*المستمرة*على*مدار*24*ساعة.*إن*حساب*ونتشوآن*لتداول*العملات*الأجنبية*يلبي*الاحتياجات*الاستثمارية*المختلفة*للمستخدمين.*يمكن*للمستثمرين*الجدد*أيضًا*تجربة*الحساب*التجريبي*المجاني*الخاص*بنا*لتجربة*منصة*التداول*MT4*السريعة*وسهلة*الاستخدام',
+  viewTradingProducts: 'عرض*منتجات*التداول',
+  howToPerform: 'كيفية*إجراء*معاملات*الصرف*الأجنبي',
   foreignExchangeCurrencies:
-    'Foreign*exchange*currencies*always*appear*in*pairs,*for*example:*EUR/USD,*GBP/USD,*USD/JPY.',
+    'تظهر*عملات*الصرف*الأجنبي*دائمًا*في*أزواج*،*على*سبيل*المثال*:*EUR/USD*،*GBP/USD*،*USD/JPY',
   inForeignExchangeTrading:
-    'In*foreign*exchange*trading,*you*can*either*buy*(long)*or*sell*(short).*However,*when*you*trade*foreign*exchange*currency*pairs*online,*you*are*not*buying*or*selling*real*currencies.*Your*operation*is*actually*a*bet*on*the*rise*or*fall*of*a*currency*pair.*The*rise or fall of a currency is actually a rise or fall relative to another currency.',
+    'في*تداول*العملات*الأجنبية*،*يمكنك*إما*الشراء*(*long)*أو*البيع*(*short).*ومع*ذلك،*عند*تتداول*أزواج*العملات*الأجنبية*عبر*الإنترنت،*فأنت*لا*تشتري*أو*تبيع*عملات*حقيقية.*إن*معاملتك*هي*في*الواقع*رهان*على*صعود*أو*انخفاض*زوج*العملات.*إن*صعود*أو*انخفاض*العملة*هو*في*الواقع*ارتفاع*أو*هبوط*لسعر*عملة*بالنسبة*لعملة*أخرى',
   throughWCG:
-    'Through*WCG,*you*can*trade*direct*and*cross*currencies,*the*minimum*capital*for*opening*an*account*is*only*US$*100.',
+    'يمكنك*التداول*المباشر*وتداول*العملات*المتقاطعة*من*خلال*ونتشوآن،*إن*الحد*الأدنى*لرأس*المال*لفتح*حساب*هو*100',
   unlikeOther:
-    'Unlike*other*financial*markets,*the*foreign*exchange*market*does*not*have*a*fixed*central*exchange*or*physical*location.*A*24-hour*global*network*of*foreign*exchange*transactions*is*formed*by*banks,*large*companies*and*individual*traders.*This*means*that*foreign*exchange*rates*fluctuate*24*hours*a*day,*providing*many*trading*opportunities.',
-  buyLong: 'Buy-long',
+    'دولار*أمريكي*فقط.*لا*يوجد*في*سوق*الصرف*الأجنبي*بورصة*مركزية*ثابتة*أو*موقع*مادي*على*عكس*الأسواق*المالية*الأخرى.*يتم*تشكيل*شبكة*عالمية*من*معاملات*الصرف*الأجنبي*على*مدار*24*ساعة*من*قبل*البنوك*والشركات*الكبرى*والتجار*الأفراد.*هذا*يعني*أن*أسعار*صرف*العملات*الأجنبية*تتقلب*على*مدار*24*ساعة*في*اليوم،*مما*يوفر*العديد*من*فرص*التداول',
+  buyLong: 'صفقة*شراء*(*long)',
   judgeTheMarket:
-    'Judge*the*market*as*an*upward*trend,*hold*it*after*buying*a*financial*product,*and*wait*for*it*to*rise*before*selling,*to*earn*the*intermediate*spread.',
-  sellShort: 'Sell-short',
+    'عندما*تحكم*على*السوق*بأن*له*إتجاه*تصاعدي،*إحتفظ*بالمنتج*المالي*بعد*شراءه،*وانتظر*حتى*يرتفع*قبل*البيع،*لكسب*السبريد*(فرق*السعر)*المتوسط',
+  sellShort: 'صفقة*بيع*(short)',
   anticipatingThat:
-    'Anticipating*that*the*market*will*fall,*sell*the*chips*in*hand*and*buy*after*the*price*drops;*in*short,*it*means*selling*first*and*then*buying.',
-  learnMore: 'Learn*More',
-  startForexTrading: 'Start*forex*trading*in*five*easy*steps',
+    'عندما*تتوقع*إنخفاض*السوق،*قم*ببيع*المنتجات*المالية*لديك*ثم*قم*بالشراء*بعد*انخفاض*السعر،*باختصار*ذلك*يعني*البيع*أولاً*ثم*الشراء',
+  learnMore: 'فهم*المزيد',
+  startForexTrading: 'ابدأ*تداول*العملات*الأجنبية*في*خمس*خطوات*سهلة',
   joinA24Hour:
-    'Join*a*24-hour*global*network*of*foreign*exchange*transactions*composed*of*banks,*large*companies*and*individual*traders',
-  chooseAForeign: 'Choose*a*foreign*exchange*currency*pair',
+    'انضم*إلى*شبكة*عالمية*من*تداول*العملات*الأجنبية*تتألف*من*البنوك*والشركات*الكبرى*والأفراد*المتداولين*تعمل*على*مدار*24*ساعة',
+  chooseAForeign: '.اختر*زوج*من*العملات*الأجنبية',
   theFirstDecision:
-    'The*first*decision*to*become*a*foreign*exchange*trader*is*to*choose*the*foreign*exchange*currency*pair*you*want*to*trade.',
+    'القرار*الأول*لكي*تصبح*متداولًا*في*العملات*الأجنبية*هو*اختيار*زوج*العملات*الأجنبية*الذي*تريد*تداوله.',
   inWCG:
-    'In*WCG,*we*provide*you*with*a*wide*range*of*products*including*direct*and*cross*currency*pairs.*New*traders*often*start*trading*with*the*currency*pair*they*are*most*familiar*with,*and*then*look*for*trading*opportunities*in*other*currency*pairs*that*are*not*so*familiar.',
-  determineTheDirection: 'Determine*the*direction*of*buying*and*selling',
+    'في*WCG*،*نقدم*لك*مجموعة*واسعة*من*المنتجات*بما*في*ذلك*أزواج*العملات*المباشرة*والمتقاطعة.*غالبًا*ما*يبدأ*المتداولون*الجدد*في*التداول*بزوج*العملات*الأكثر*دراية*بهم*،*ثم*يبحثون*عن*فرص*تداول*في*أزواج*العملات*الأخرى*غير*المألوفة.',
+  determineTheDirection: 'تحديد*اتجاه*البيع*والشراء',
   afterChoosing:
-    'After*choosing*your*trading*products,*you*should*decide*whether*to*buy*or*sell*by*speculating*on*the*future*direction*of*the*market.*A*foreign*exchange*currency*pair*is*composed*of*two*currencies.*The*currency*on*the*left*hand*side*is*called*the*"base*currency"*and*the*currency*on*the*right*hand*side*is*called*the*"quote*currency".*Therefore:',
+    'بعد*اختيار*منتجات*التداول*الخاصة*بك*،*يجب*أن*تقرر*ما*إذا*كنت*تريد*الشراء*أو*البيع*عن*طريق*المضاربة*على*الاتجاه*المستقبلي*للسوق.*يتكون*زوج*العملات*الأجنبية*من*عملتين.*العملة*الموجودة*على*الجانب*الأيسر*تسمى*"العملة*الأساسية"*والعملة*الموجودة*على*الجانب*الأيمن*تسمى*"عملة*التسعير".*وبالتالي:',
   ifYouThinkThatTheBaseCurrencyIsStronger:
-    'If*you*think*that*the*base*currency*is*stronger*than*the*quote*currency,*or*the*quote*currency*is*relatively*weaker*than*the*base*currency,*then*buy*this*currency*pair.',
+    'إذا*كنت*تعتقد*أن*العملة*الأساسية*أقوى*من*عملة*التسعير*،*أو*أن*عملة*التسعير*أضعف*نسبيًا*من*العملة*الأساسية*،*فقم*بشراء*زوج*العملات*هذا.',
   ifYouThinkThatTheBaseCurrencyIsWeaker:
-    'If*you*think*that*the*base*currency*is*weaker*than*the*quote*currency,*or*the*quote*currency*is*relatively*stronger*than*the*base*currency,*then*sell*the*currency*pair.',
+    'إذا*كنت*تعتقد*أن*العملة*الأساسية*أضعف*من*عملة*التسعير*،*أو*أن*عملة*التسعير*أقوى*نسبيًا*من*العملة*الأساسية*،*فقم*ببيع*زوج*العملات.',
   atTheSameTime:
-    'At*the*same*time,*every*currency*pair*has*two*prices*at*every*moment.*One*is*the*bid*price*and*the*other*is*the*ask*price.*The*difference*between*the*two*prices*is*called*the*"spread",*which*is*your*transaction*cost.',
-  setStop: 'Set*stop*loss/take*profit',
+    'في*نفس*الوقت*،*لكل*زوج*عملات*سعرين*في*كل*لحظة.*أحدهما*سعر*العرض*والآخر*سعر*الطلب.*يُطلق*على*الفرق*بين*السعرين*اسم*"السبريد"*،*وهو*تكلفة*معاملتك.',
+  setStop: 'تعيين*وقف*الخسارة*/*جني*الأرباح',
   stopLossTakeProfit:
-    'Stop*loss/take*profit*is*a*preset*price.*When*the*exchange*rate*reaches*this*preset*price,*the*corresponding*position*will*be*automatically*closed.',
+    'وقف*الخسارة*/*جني*الأرباح*هو*سعر*محدد*مسبقًا.*عندما*يصل*سعر*الصرف*إلى*هذا*السعر*المحدد*مسبقًا*،*سيتم*إغلاق*المركز*المقابل*تلقائيًا.',
   thePurposeOf:
-    'The*purpose*of*setting*stop*loss/take*profit*is*to*lock*the*profit*or*loss*of*the*position.',
-  monitorYourTrading: 'Monitor*your*trading*positions',
+    'الغرض*من*تحديد*وقف*الخسارة*/*جني*الأرباح*هو*تأمين*ربح*أو*خسارة*المركز.',
+  monitorYourTrading: 'راقب*مراكز*التداول*الخاصة*بك',
   beforeThePositionIsClosed:
-    'Before*the*position*is*closed,*your*profit*and*loss*will*change*with*price*fluctuations.',
+    'قبل*إغلاق*المركز*،*سيتغير*ربحك*وخسارتك*مع*تقلبات*الأسعار.',
   soRealTimeMonitoring:
-    'So*real-time*monitoring*your*profit*and*loss*is*very*important.*By*monitoring*the*situation,*you*can*add*or*close*positions*immediately*when*needed.',
-  closeYourPosition: 'Close*your*position',
+    'لذا*فإن*مراقبة*أرباحك*وخسائرك*في*الوقت*الفعلي*أمر*مهم*للغاية.*من*خلال*مراقبة*الموقف*،*يمكنك*إضافة*أو*إغلاق*المراكز*على*الفور*عند*الحاجة.',
+  closeYourPosition: 'أغلق*مركزك',
   itIsExtremelyImportant:
-    'It*is*extremely*important*for*FOREX*investors*to*timely*close*their*position*when*identifying*different*phases*of*market*movements.',
+    'من*المهم*للغاية*لمستثمري*الفوركس*إغلاق*مراكزهم*في*الوقت*المناسب*عند*تحديد*المراحل*المختلفة*لتحركات*السوق.',
   FailingToDoSo:
-    'Failing*to*do*so*are*sometimes*costly,*in*particular*when*the*market*moves*against*them.',
+    'يكون*الفشل*في*القيام*بذلك*مكلفًا*في*بعض*الأحيان*،*لا*سيما*عندما*يتحرك*السوق*ضدهم.',
   foreignExchangeQuotes:
-    'Foreign*exchange*quotes*generally*have*five*decimal*places.*Among*them,*the*fourth*decimal*place*is*the*one*that*requires*the*most*attention.*We*often*use*pips*to*calculate*profit*and*loss.*Foreign*exchange*trading*volume*is*generally*counted*in*"lots",*and*1*lot*is*equal*to*100,000*base*currency*units.*You*can*also*trade*units*smaller*than*1*lot,*such*as*mini*lots*or*micro*lots.*Mini*lots*correspond*to*10,000*currency*units*(0.1 lots),*and*micro*lots*correspond*to*1,000*currency*units*(0.01 lots).',
-  supportLeverage: 'Support*leverage',
+    'تحتوي*أسعار*صرف*العملات*الأجنبية*بشكل*عام*على*خمسة*منازل*عشرية.*من*بينها*،*المكان*العشري*الرابع*هو*الذي*يتطلب*أكبر*قدر*من*الاهتمام.*غالبًا*ما*نستخدم*النقاط*لحساب*الربح*والخسارة.*يتم*احتساب*حجم*تداول*العملات*الأجنبية*بشكل*عام*"باللوت"*،*و*1*لوت*يساوي*100000*وحدة*عملة*أساسية.*يمكنك*أيضًا*تداول*وحدات*أصغر*من*1*لوت*،*مثل*الميني*لوت*أو*المايكرو*لوت.*تتوافق*اللوتات*الصغيرة*مع*10000*وحدة*عملة*(0.1*لوت)*،*واللوت*الصغير*يتوافق*مع*1000*وحدة*عملة*(0.01*لوت).',
+  supportLeverage: 'دعم*الرافعة*المالية',
   youCanUtilizeLeverage:
-    'You*can*utilize*leverage*to*open*a*position*larger*than*your*capital*amount.*This*approach*may*lead*to*more*profits*or*losses.*Therefore,*it*is*very*important*to*manage*risks*when*conducting*foreign*exchange*transactions.',
-  fundingThreshold: 'Funding*threshold',
+    'يمكنك*الاستفادة*من*الرافعة*المالية*لفتح*صفقة*أكبر*من*مبلغ*رأس*المال*الخاص*بك.*قد*يؤدي*هذا*النهج*إلى*المزيد*من*الأرباح*أو*الخسائر.*لذلك*من*المهم*جدًا*إدارة*المخاطر*عند*إجراء*معاملات*تداول*العملات*الأجنبية',
+  fundingThreshold: 'حد*عتبة*التمويل',
   whenTradingForeignExchange:
-    'When*trading*foreign*exchange*online,*you*can*decide*the*size*of*your*open*positions.*Deposit*a*suitable*amount*of*funds*according*to*your*own*situation*to*participate*in*the*transaction.',
-  hoursTrading: '24*hours*trading',
+    'يمكنك*تحديد*حجم*صفقاتك*المفتوحة*عند*تداول*العملات*الأجنبية*عبر*الإنترنت.*قم*بإيداع*مبلغ*مناسب*من*الأموال*وفقًا*لحالتك*الخاصة*للمشاركة*في*التداول',
+  hoursTrading: 'تداول*على*مدار*24*ساعة',
   fromMondayMorning:
-    'From*Monday*morning*to*Saturday*morning,*the*foreign*exchange*market*is*always*open*for*trading.*This*makes*the*foreign*exchange*market*an*ideal*trading*market*for*amateur*traders.'
+    'يفتح*سوق*صرف*العملات*الأجنبية*دائمًا*للتداول*من*صباح*الاثنين*إلى*صباح*السبت.*وهذا*يجعل*سوق*الفوركس*سوق*تداول*مثالي*بالنسبة*للمتداولين*الغير*محترفين'
 };

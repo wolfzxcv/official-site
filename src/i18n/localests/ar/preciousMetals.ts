@@ -1,74 +1,73 @@
 import { PreciousMetals } from '../@types/preciousMetals';
 
 export const preciousMetals: PreciousMetals = {
-  howToTradePreciousMetals: 'How*to*trade*precious*metals',
+  howToTradePreciousMetals: 'كيفية*تداول*المعادن*الثمينة',
   forThoseTraders:
-    'For*those*traders*who*are*interested*in*balancing*their*investment*portfolios,*precious*metals*trading*is*an*important*component,*because*precious*metals*are*regarded*as*a*hedging*asset*that*can*prevent*inflation.*In*WCG,*precious*metals*are*quoted*in*US*dollars.',
+    'يعد*تداول*المعادن*الثمينة*مكونًا*مهمًا*بالنسبة*للمتداولين*المهتمين*لموازنة*محافظهم*الاستثمارية،*لأن*المعادن*الثمينة*تعتبر*من*الأصول*التحوطية*التي*يمكن*أن*تمنع*التضخم.*في*WCG*يتم*تسعير*المعادن*الثمينة*بالدولار*الأمريكي',
   thisMeansThatWhenTradingGold:
-    'This*means*that*when*trading*gold,*you*are*speculating*whether*the*price*of*an*ounce*of*gold*will*rise*or*fall*against*the*US*dollar.*We*assume*that*the*current*price*of*gold*is*$1,300.60.*You*think*the*price*may*rise*in*the*future,*so*you*buy*100*ounces*(1*lot)*of*gold*(code*XAU/USD).',
+    'إن*هذا*يعني*أنه*عند*تداول*الذهب،*فأنت*تتكهن*فيما*إذا*كان*سعر*أونصة*الذهب*سيرتفع*أم*ينخفض*​​مقابل*الدولار*الأمريكي.*نفترض*أن*السعر*الذهب*الحالي*هو*1300.60*دولار.*وأنت*تعتقد*أن*السعر*قد*يرتفع*في*المستقبل،*لذلك*تفتح*صفقة*شراء**100*أوقية*(1*لوت)*من*الذهب*(كود*XAU/USD)',
   whenThePriceRisesTo:
-    'When*the*price*rises*to*1305.80,*you*decide*to*close*the*trade.*Your*profit*is*the*difference*between*the*opening*price*and*closing*price*multiplied*by*the*number*of*ounces*you*trade.*In*this*transaction,*your*profit*is*$520.',
-  viewTradingProducts: 'View*Trading*Products',
-  diversifiedInvestment: 'Diversified*investment',
+    'عند*إرتفاع*السعر*إلى*1305.80**تقرر*إغلاق*الصفقة*.*فإن*ربحك*هو*الفرق*بين*سعر*الافتتاح*وسعر*الإغلاق*مضروبًا*في*عدد*الأوقيات*التي*إشتريتها*.*في*هذه*الصفقة*ربحك*سيكون*هو*520*دولارًا',
+  viewTradingProducts: 'عرض*منتجات*التداول',
+  diversifiedInvestment: 'استثمار*متنوع',
   justAsExperiencedInvestors:
-    'Just*as*experienced*investors*like*large*institutions,*tend*to*diversify*their*investment*portfolios*to*reduce*risks*and*increase*returns.*Gold*trading*is*considered*an*excellent*way*to*diversify*your*portfolio,*because*the*price*of*gold*is*often*inversely*correlated*with*the*stock*market.',
-  fightAgainstInflation: 'Fight*against*inflation',
+    'مثلما*يميل*المستثمرون*أصحاب*الخبرة*مثل*المؤسسات*الكبيرة*إلى*تنويع*محافظهم*الاستثمارية*لتقليل*المخاطر*وزيادة*العوائد.*يعتبر*تداول*الذهب*وسيلة*ممتازة*لتنويع*محفظتك*الاستثمارية،*لأن*سعر*الذهب*غالبًا*ما*تربطه*علاقة*عكسية*بسوق*الأسهم',
+  fightAgainstInflation: 'محاربة*التضخم',
   asInflationIntensifies:
-    'As*inflation*intensifies,*currency*will*depreciate*over*time,*and*gold*is*more*valuable*than*currency*while*facing*inflation.*Even*in*2008*when*the*global*market*fell*into*recession,*gold*prices*were*hardly*affected.*In*fact,*from*2007*to*2008,*the*price*of*gold*rose*by*about*4%.',
-  highStorageValue: 'High*storage*value',
+    'مع*اشتداد*التضخم،*فإن*قيمة*العملة*سوف*تنخفض*بمرور*الوقت،*ويكون*الذهب*أكثر*قيمة*من*العملة*أثناء*مواجهة*التضخم.*حتى*في*عام*2008*عندما*سقطت*السوق*العالمية*في*حالة*ركود،*فإن*أسعار*الذهب*بالكاد*تأثرت.*في*الواقع،*لقد*ارتفع*سعر*الذهب*بنحو*4٪*من*عام*2007*إلى*عام*2008.',
+  highStorageValue: 'قيمة*تخزين*عالية',
   about95OfTheWorldsGold:
-    "About*95%*of*the*world's*gold*is*held*as*jewelry*or*under*gold*vaults.*Compared*with*the*amount*of*gold*hoarded,*the*supply*of*gold*has*grown*at*a*very*low*rate*every*year.*Therefore,*the*price*of*gold*has*been*rising*for*the*past*50*years.",
+    'إن*حوالي*95٪*من*ذهب*العالم*يتم*الاحتفاظ*به*كمجوهرات*أو*في*خزائن*للذهب.*إن*كمية*المعروض*من*الذهب*قد*انخفضت*للغاية*مقارنة*بكمية*الذهب*المخزنة*كل*عام.*لذلك،*ظل*سعر*الذهب*يرتفع*خلال*الخمسين*عامًا*الماضية.',
   preciousMetalsAreDifficultToMine:
-    'Precious*metals*are*difficult*to*mine,*resulting*in*their*scarcity*and*high*prices.*This*is*why*people*call*these*metals*"precious"*metals.',
+    'إن*المعادن*الثمينة*يصعب*تعدينها،*مما*يؤدي*إلى*ندرتها*وارتفاع*أسعارها.*هذا*هو*السبب*في*أن*الناس*يطلقون*على*هذه*المعادن*"معادن*ثمينة".*يعتبر*الذهب*هو*الأكثر*شع',
   amongAllPreciousMetals:
-    'Among*all*precious*metals,*gold*is*the*most*popular*among*traders.*Gold*provides*a*lot*of*trading*opportunity*for*online*traders.*This*is*mainly*because*gold*is*unique*and*its*position*in*the*world*economy*is*unique.',
-  participantsInGoldTrading: 'Participants*in*gold*trading',
+    'من*بين*جميع*المعادن*الثمينة*،*يعتبر*الذهب*هو*الأكثر*شعبية*بين*المتداولين.*يوفر*الذهب*الكثير*من*فرص*التداول*للمتداولين*عبر*الإنترنت.*ويرجع*ذلك*أساسًا*إلى*أن*الذهب*فريد*من*نوعه*ومكانته*الفريدة*في*الاقتصاد*العالمي.',
+  participantsInGoldTrading: 'المشاركون*في*تداول*الذهب',
   theGoldMarketAttracts:
-    'The*gold*market*attracts*a*large*number*of*traders.*Most*of*them*are*looking*for*safe*and*profitable*investment*options*to*achieve*sustainable*wealth*growth*or*to*avoid*the*risks*brought*by*other*investments.*This*is*why*gold*is*so*attractive.*Participants*in*the*gold*market*can*be*divided*into*the*following*two*categories:',
-  goldBelievers: 'Gold*believers',
+    'إن*سوق*الذهب*يجذب*عددًا*كبيرًا*من*المتداولين.*معظم*هؤلاء*المتداولون*يبحثون*عن*خيارات*إستثمار*آمنة*ومربحة*لتحقيق*نمو*مستدام*للثروة*أو*لتجنب*المخاطر*التي*تجلبها*الاستثمارات*الأخرى.*هذا*هو*السبب*في*أن*الذهب*جذاب*للغاية.*يمكن*تقسيم*المشاركين*في*سوق*الذهب*إلى*الفئتين*التاليتين:',
+  goldBelievers: 'المؤمنون*بالذهب',
   mainlyIncludeIndividualInvestors:
-    'Mainly*include*individual*investors*and*gold*traders.*Gold*believers*account*for*a*huge*proportion*of*the*entire*gold*market.*These*people*are*fundamentally*optimistic*about*this*expensive*commodity*and*allocate*a*large*amount*of*assets*to*gold.*A*large*number*of*retail*players*in*the*market*are*of*this*type.*They*often*hold*long-term*positions*and*inject*a*large*amount*of*liquidity*into*the*gold*market*through*continued*purchase*intentions.',
-  largeInstitutions: 'Large*institutions',
+    'هذه*الفئة*تشمل*بشكل*أساسي*الأفراد*المستثمرين*والمتداولين*للذهب.*إن*المؤمنون*بالذهب*يمثلون*نسبة*كبيرة*من*سوق*الذهب*بأكمله.*هؤلاء*الناس*متفائلون*بشكل*أساسي*بشأن*هذه*السلعة*الثمينة*ويخصصون*كمية*كبيرة*من*الأصول*للذهب.*عدد*كبير*من*لاعبي*التجزئة*في*السوق*هم*من*هذا*النوع.*غالبًا*ما*يحتفظون*بصفقات*طويلة*الأجل*ويضخون*قدرًا*كبيرًا*من*السيولة*في*سوق*الذهب*من*خلال*نوايا*الشراء*المستمرة.',
+  largeInstitutions: 'المؤسسات*الكبيرة',
   suchInstitutionsIncludeHedgeFunds:
-    'Such*institutions*include*hedge*funds,*banks,*and*brokerage*companies*involved*in*buying*and*selling*gold.*Most*of*these*institutions*use*sophisticated*calculation*strategies*to*develop*a*diversified*trading*portfolio*to*provide*customers*with*safe*investment*protection*in*a*highly*unstable*market*environment.*Most*of*these*institutions*did*not*stick*to*gold*trading.*They*often*include*other*investment*options*in*their*portfolios.',
-  reasonsAffectingThePriceOfGold: 'Reasons*affecting*the*price*of*gold',
+    'هذه*الفئة*تشمل*المؤسسات*مثل*صناديق*التحوط*والبنوك*وشركات*السمسرة*العاملة*في*بيع*وشراء*الذهب.*تستخدم*معظم*هذه*المؤسسات*استراتيجيات*حسابية*متقدمة*لتطوير*محفظة*تداول*متنوعة*لتزويد*العملاء*باستثمار*محمي*وآمن*في*بيئة*سوق*غير*مستقرة*للغاية.*إن*معظم*هذه*المؤسسات*لم*تلتزم*بتداول*الذهب*فقط.*غالبًا*ما*تتضمن*هذه*المؤسسات*خيارات*استثمار*أخرى*في*محافظهم*الاستثمارية.',
+  reasonsAffectingThePriceOfGold: 'الأسباب*المؤثرة*على*سعر*الذهب',
   thereAreManyFactors:
-    'There*are*many*factors*that*affect*the*price*of*gold.*The*following*is*a*brief*overview*of*the*influencing*factors',
-  centralBank: 'Central*Bank',
+    'هناك*العديد*من*العوامل*التي*تؤثر*على*سعر*الذهب.*فيما*يلي*لمحة*موجزة*عن*العوامل*المؤثرة',
+  centralBank: 'البنوك*المركزية',
   theseInstitutions:
-    'These*institutions*participate*in*gold*trading*in*order*to*regulate*their*foreign*exchange*reserves*to*stabilize*the*value*of*their*currency.*Therefore,*the*price*of*gold*has*been*pushed*up*accordingly.',
-  crudeOil: 'Crude*oil',
+    'تشارك*هذه*المؤسسات*في*تداول*الذهب*من*أجل*تنظيم*احتياطيات*النقد*الأجنبي*لديها*لتثبيت*قيمة*عملتها.*لذلك*،*ارتفع*سعر*الذهب*وفقًا*لذلك.',
+  crudeOil: 'النفط*الخام',
   crudeOilAndGold:
-    'Crude*oil*and*gold*are*closely*linked*because*they*are*also*priced*in*US*dollars.*In*addition,*the*increase*in*crude*oil*prices*will*also*increase*inflation,*which*in*turn*will*increase*the*price*of*gold.',
-  USDollars: 'U.S.*Dollars',
+    'إن*النفط*الخام*والذهب*مرتبطان*ارتباطًا*وثيقًا*لأنه*يتم*تسعيرهما*أيضًا*بالدولار*الأمريكي.*بالإضافة*إلى*ذلك،*فإن*ارتفاع*أسعار*النفط*الخام*سيؤدي*أيضًا*إلى*زيادة*التضخم،*وهذا*سيؤدي*بدوره*إلى*ارتفاع*سعر*الذهب.',
+  USDollars: 'الدولار*الأمريكي',
   sinceGoldIsPriced:
-    'Since*gold*is*priced*in*U.S.*dollars,*when*the*value*of*U.S.*dollars*rises,*it*will*naturally*create*downward*pressure*on*gold*prices.',
-  stockMarket: 'Stock*Market',
+    'نظرًا*لتسعير*الذهب*بالدولار*الأمريكي،*فعند*ارتفاع*قيمة*الدولار*الأمريكي،*فإن*ذلك*سوف*يؤدي*بطبيعة*الحال*إلى*خلق*ضغط*بإتجاه*هبوط*أسعار*الذهب.*',
+  stockMarket: 'سوق*الأسهم',
   whenTheStockMarket:
-    'When*the*stock*market*falls,*traders*often*turn*to*buy*gold,*thereby*boosting*the*price*of*gold.',
-  historicalGoldPrice: 'Historical*gold*price',
+    'عند*إنخفاض*​​سوق*الأسهم،*غالبًا*ما*يلجأ*المتداولون*إلى*شراء*الذهب،*مما*يؤدي*الى*رفع*سعر*الذهب.*',
+  historicalGoldPrice: 'سعر*الذهب*التأريخي',
   theFollowingTable:
-    'The*following*table*shows*the*price*fluctuations*of*gold*in*the*past*50*years.*All*in*all,*since*1970,*the*price*of*gold*has*been*rising*sharply.',
+    'يوضح*الجدول*التالي*تقلبات*أسعار*الذهب*في*الخمسين*سنة*الماضية.*بشكل*عام*،*منذ*عام*1970*،*ارتفع*سعر*الذهب*بشكل*حاد.',
   duringThisPeriod:
-    'During*this*period,*the*lowest*return*on*investment*in*gold*occurred*between*1970*and*1979.',
-  onTheOtherHand:
-    'On*the*other*hand,*the*largest*increase*occurred*between*2000*and*2009.',
-  goldTradingExample: 'Gold*trading*example',
-  practicalGoldTrading: 'Practical*gold*trading',
+    'خلال*هذه*الفترة*،*حدث*أدنى*عائد*على*الاستثمار*في*الذهب*بين*عامي*1970*و*1979.',
+  onTheOtherHand: 'من*ناحية*أخرى*،*حدثت*أكبر*زيادة*بين*عامي*2000*و*2009.',
+  goldTradingExample: 'مثال*على*تداول*الذهب',
+  practicalGoldTrading: 'تداول*الذهب*العملي',
   supposeYouStudyTheGoldMarket:
-    'Suppose*you*study*the*gold*market*and*believe*that*the*price*of*gold*will*rise.*Therefore,*you*bought*1*lot*of*gold*(that*is,*100*ounces)*at*a*price*of*1,184.60.',
+    'لنفترض*أنك*تدرس*سوق*الذهب*وتعتقد*أن*سعر*الذهب*سيرتفع.*لذلك*،*اشتريت*1*لوت*من*الذهب*(أي*100*أوقية)*بسعر*1184.60.',
   thisMeans:
-    'This*means*that*when*the*price*of*gold*changes*by*1*US*dollar,*the*profit*and*loss*brought*to*you*is*100*US*dollars.',
-  profitScenario: 'Profit*scenario',
+    'هذا*يعني*أنه*عندما*يتغير*سعر*الذهب*بمقدار*1*دولار*أمريكي*،*فإن*الربح*والخسارة*التي*جلبتها*لك*هي*100*دولار*أمريكي.',
+  profitScenario: 'سيناريو*الربح',
   peoplesInterestInGoldSurged:
-    "People's*interest*in*gold*surged,*and*a*few*days*later,*the*price*of*gold*reached*$1,189.70.*You*decide*to*close*the*position*and*lock*in*profit.",
+    'ارتفع*اهتمام*الناس*بالذهب*،*وبعد*أيام*قليلة*وصل*سعر*الذهب*إلى*1189.70*دولار.*قررت*إغلاق*المركز*وجني*الأرباح.',
   yourTotalProfitIsCalculated:
-    'Your*total*profit*is*calculated*as*follows:*(1,189.70*–*1,184.60)*x*100*USD*=*510*USD.',
-  lossScenario: 'Loss*scenario',
+    'يتم*احتساب*إجمالي*أرباحك*على*النحو*التالي:****(1،189.70*-*1،184.60)*×*100*دولار*أمريكي*=*510*دولار*أمريكي.',
+  lossScenario: 'سيناريو*الخسارة',
   thePriceOfGold:
-    'The*price*of*gold*did*not*rise*as*expected,*but*fell*to*1,180.30*US*dollars.*You*decide*to*close*the*position*and*settle*the*loss.',
+    'ولم*يرتفع*سعر*الذهب*كما*كان*متوقعا*لكنه*انخفض*إلى*1180.30*دولار*أمريكي.*قررت*إغلاق*المركز*وتسوية*الخسارة.',
   theLossInThisCase:
-    'The*loss*in*this*case*is:*(1,184.60-1,180.30)*x*100*USD*=*430*USD.',
+    'الخسارة*في*هذه*الحالة*هي:*(1،184.60-1،180.30)*×*100*دولار*أمريكي*=*430*دولار*أمريكي.',
   althoughGoldTrading:
-    'Although*gold*trading*is*the*most*common*precious*metal*trading,*traders*who*are*aware*of*the*diversified*trading*value*of*gold*often*explore*other*metal*markets,*such*as*silver.'
+    'على*الرغم*من*أن*تداول*الذهب*هو*أكثر*تداول*المعادن*الثمينة*شيوعًا*،*إلا*أن*المتداولين*الذين*يدركون*القيمة*التجارية*المتنوعة*للذهب*غالبًا*ما*يستكشفون*أسواق*المعادن*الأخرى*،*مثل*الفضة.'
 };

@@ -46,7 +46,7 @@ export const platform: Platform = {
     'It*has*won*various*awards.*The*platform*has*3*different*chart*types,*9*time*periods,*39*languages',
   moreThan50Preset:
     'more*than*50*preset*technical*indicators,*and*a*fully*customizable*interface',
-  aNumberOfTradingProducts: 'A number of trading products can be traded',
+  aNumberOfTradingProducts: 'A*number*of*trading*products*can*be*traded',
   compatibleWithExpertAdvisors:
     'Compatible*with*Expert*Advisors*(smart*automatic*trading*programs),*custom*indicators*and*other*application*tools',
   itHasAMobileVersion:

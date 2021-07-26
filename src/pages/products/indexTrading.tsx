@@ -92,6 +92,7 @@ const indexTrading: React.FC<{}> = () => {
             text={t('thisTypeOfIndex')}
             bigW="40vw"
             withBorder
+            minH={isChinese ? 'auto' : '361px'}
           />
         </Flex>
       </Flex>

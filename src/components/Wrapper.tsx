@@ -22,7 +22,13 @@ const Wrapper: React.FC<WrapperProps> = ({
 
   useEffect(() => {
     if (isWideScreen) {
-      animationsOnScroll('animation', ['slide-left', 'slide-right', 'fade']);
+      animationsOnScroll('animation', [
+        'fadeIn',
+        'fadeInDown',
+        'fadeInLeft',
+        'fadeInRight',
+        'fadeInUp'
+      ]);
     }
   }, []);
 

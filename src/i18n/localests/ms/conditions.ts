@@ -23,7 +23,7 @@ export const conditions: Conditions = {
   personsDeemedAppropriate:
     "Persons*deemed*appropriate*or*appropriate*in*accordance*with*the*confidentiality*obligation,*including*group*member*companies*and*their*employees.*These*authorized*persons*must*keep*the*customer's*personal*information*confidential.",
   AccordingTo:
-    'According*to*the*terms*of*the*regulations,*customers*have*the*right*to*request*that*any*false*data*about*customers*be*corrected*by*WCG*and*to*request*in*writing*that*we*terminate*the*use*of*their*personal*data*for*direct*or*indirect*marketing*purposes.*WeiWCG*reserves*the*right*to*charge*a*reasonable*fee*for*processing*requests*for*data*or*corrections*made*in*accordance*with*the*provisions*of*the*regulations.',
+    'According*to*the*terms*of*the*regulations,*customers*have*the*right*to*request*that*any*false*data*about*customers*be*corrected*by*WCG*and*to*request*in*writing*that*we*terminate*the*use*of*their*personal*data*for*direct*or*indirect*marketing*purposes.*WCG*reserves*the*right*to*charge*a*reasonable*fee*for*processing*requests*for*data*or*corrections*made*in*accordance*with*the*provisions*of*the*regulations.',
   conditions: 'Conditions',
   whenYouUseThisWebsite:
     'When*you*use*this*website,*this*agreement*applies.*By*accessing*and*using*this*website,*you*agree*to*abide*by*the*following*terms*of*this*agreement.',
