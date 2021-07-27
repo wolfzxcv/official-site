@@ -52,7 +52,7 @@ export const platform: Platform = {
   itHasAMobileVersion:
     'It*has*a*mobile*version*of*the*trading*platform.*You*can*use*the*mobile*APP*to*trade*and*manage*orders*anytime,*anywhere.',
   provideAnAdvanced: 'Provide*an*advanced*notification*signal*system',
-  downloadTheWCGMT4: 'Download*the*WCG*MT4*trading*platform*now,',
+  downloadTheWCGMT4: 'Download*the*WCG*MT4*trading*platform*now',
   usingMT4AllowsYou:
     'Using*MT4*allows*you*to*monitor*the*market*more*accurately,*manage*your*positions*quickly*and*efficiently,*optimize*trading*strategies,enhance*your*trading*advantages,*and*enjoy*a*perfect*trading*experience.',
   tradingSystem: 'Trading*system',

@@ -48,7 +48,7 @@ export const platform: Platform = {
   itHasAMobileVersion:
     '拥有手机版交易平台，可用手机APP随时随地进行交易、管理订单',
   provideAnAdvanced: '提供先进的通知信号系统',
-  downloadTheWCGMT4: '立即下载WCG*MT4交易平台，',
+  downloadTheWCGMT4: '立即下载WCG*MT4交易平台',
   usingMT4AllowsYou:
     '使用*MT4*让您能更精准地监控市场，快速又高效地管您的仓位，优化交易策略，提升您你的交易优势，享受完美的交易体验。',
   tradingSystem: '交易系统',

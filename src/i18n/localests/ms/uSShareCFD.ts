@@ -1,46 +1,46 @@
 import { USShareCFD } from '../@types/uSShareCFD';
 
 export const uSShareCFD: USShareCFD = {
-  tradeSharesCFDs: 'Trade*Shares*CFDs',
+  tradeSharesCFDs: 'CFD*Saham*Perdagangan',
   WCGOffersAWideRange:
-    'WCG*offers*a*wide*range*of*CFD*shares*across*its*online*trading*platform.*Start*trading*now*to*benefit*from*competitive*spreads,*high*quality*trade*execution,*and*no*commission.*Please*be*reminded*that*your*capital*is*at*risk',
-  viewTradingProducts: 'View*Trading*Products',
-  whyTradeSharesWithWCG: 'Why*trade*Shares*with*WCG',
+    'WCG*menawarkan*pelbagai*saham*CFD*di*seluruh*platform*dagangan*dalam*taliannya.*Mulailah*berdagang*sekarang*untuk*mendapat*keuntungan*dari*spread*kompetitif,*pelaksanaan*perdagangan*berkualiti*tinggi,*dan*tanpa*komisen.*Harap*diingatkan*bahawa*modal*anda*berisiko',
+  viewTradingProducts: 'Lihat*produk*perdagangan',
+  whyTradeSharesWithWCG: 'Mengapa*berdagang*Saham*dengan*WCG',
   competitivePrices:
-    'Competitive*Prices*We*source*our*prices*from*multiple*venues*to*ensure*you*get*the*best*prices*for*CFD*trading.',
+    'Harga*Bersaing*Kami*memperoleh*harga*dari*pelbagai*tempat*untuk*memastikan*anda*mendapat*harga*terbaik*untuk*perdagangan*CFD.',
   tradeShortAndLong:
-    'Trade*Short*and*Long*Take*up*a*long*or*short*position*when*trading*with*CFDs*and*make*potential*gains*from*price*movements.',
+    'Berdagang*Pendek*dan*Panjang*Ambil*posisi*panjang*atau*pendek*ketika*berdagang*dengan*CFD*dan*dapatkan*potensi*keuntungan*dari*pergerakan*harga.',
   tradeShares:
-    'Trade*Shares*on*Leverage*Gain*full*exposure*with*a*relatively*small*deposit*when*you*trade*CFD*stocks*with*WCG.',
+    'Dagangan*Saham*atas*Leverage*Dapatkan*pendedahan*penuh*dengan*deposit*yang*agak*kecil*apabila*anda*berdagang*saham*CFD*dengan*WCG.',
   WCGOffersZeroCommission:
-    'WCG*offers*zero*commission*when*trading*CFD*shares.*That,*combined*with*zero*bank*fees*charged*on*transactions*results*in*more*profitable*trading.',
-  howDoITradeCFDShares: 'How*do*I*trade*CFD*Shares*with*WCG*?',
+    'WCG*menawarkan*komisen*sifar*ketika*berdagang*saham*CFD.*Itu,*digabungkan*dengan*sifar*yuran*bank*yang*dikenakan*pada*transaksi*menghasilkan*perdagangan*yang*lebih*menguntungkan.',
+  howDoITradeCFDShares: 'Bagaimana*saya*memperdagangkan*Saham*CFD*dengan*WCG?',
   whenTradingASingleCFDShare:
-    'When*trading*a*single*CFD*share*there*will*be*corporate*actions*enforced*by*the*related*company.*An*example*of*this*is*a*cash*dividend.*If*this*has*been*issued*then*WCG*will*adjust*the*client’s*account*accordingly.*WCG*will*take*two*actions:',
+    'Semasa*berdagang*satu*saham*CFD*akan*ada*tindakan*korporat*yang*dilaksanakan*oleh*syarikat*berkaitan.*Contohnya*ialah*dividen*tunai.*Sekiranya*ini*telah*dikeluarkan*maka*WCG*akan*menyesuaikan*akaun*pelanggan*dengan*sewajarnya.*WCG*akan*mengambil*dua*tindakan:',
   clientsWhoHoldBUY:
-    'Clients*who*hold*BUY*position(s)*in*a*single*share*CFD*on*the*ex-dividend*date,*will*receive*a*positive*cash*amount*which*is*equivalent*to*the*dividend*payout.*(Deposits*will*be*made*into*the*client’s*trading*account*according*to*their*lot*size*and*proportion*of*the*dividend*paying*underlying*securities).',
+    'Pelanggan*yang*memegang*posisi*BELI*dalam*CFD*satu*saham*pada*tarikh*ex-dividen,*akan*menerima*jumlah*tunai*positif*yang*setara*dengan*pembayaran*dividen.*(Deposit*akan*dimasukkan*ke*dalam*akaun*perdagangan*pelanggan*mengikut*ukuran*lot*dan*bahagian*dividen*yang*membayar*sekuriti*pendasar).',
   ClientsWhoHoldSELL:
-    'Clients*who*hold*SELL*position(s)*in*a*single*share*CFD*on*the*ex-dividend*date,*will*receive*a*cash*amount*which*is*equivalent*to*the*dividend*payout.*(Withdrawal*will*be*made*from*the*client’s*trading*account*according*to*their*lot*size*and*proportion*of*the*dividend*paying*underlying*securities.)',
+    'Pelanggan*yang*memegang*posisi*SELL*dalam*CFD*satu*saham*pada*tarikh*ex-dividen,*akan*menerima*jumlah*tunai*yang*setara*dengan*pembayaran*dividen.*(Pengeluaran*akan*dibuat*dari*akaun*perdagangan*pelanggan*mengikut*ukuran*lot*dan*bahagian*dividen*yang*membayar*sekuriti*pendasar).',
   adjustmentFormula:
-    'Adjustment*Formula*:Number*of*shares*x*Dividend*per*share*=*Adjustment*amount',
-  cashDividend: 'Cash*Dividend',
+    'Formula*Pelarasan:*Bilangan*saham*x*Dividen*sesaham*=*Jumlah*pelarasan',
+  cashDividend: 'Dividen*Tunai',
   forExample:
-    'For*example,*if*Apple*Inc.*(AAPL)*announces*a*$0.01*USD*cash*dividend*to*its*shareholders.*On*the*ex-dividend*date,*Apple*Inc.’s*share*price*would*reflect*the*corporate*action*and*would*drop*$0.01*in*price.*WCG*will*make*cash*adjustments*to*clients*who*are*holding*open*positions*of*the*Apple*Inc.*CFD*.',
+    'Sebagai*contoh,*jika*Apple*Inc.*(AAPL)*mengumumkan*dividen*tunai*$*0.01*USD*kepada*pemegang*sahamnya.*Pada*tarikh*ex-dividen,*harga*saham*Apple*Inc.*akan*mencerminkan*tindakan*korporat*dan*akan*turun*harga*$*0.01.*WCG*akan*membuat*penyesuaian*tunai*kepada*pelanggan*yang*memegang*posisi*terbuka*di*Apple*Inc.*CFD.',
   ifAnIndividualClient:
-    'If*an*individual*client*of*WCG*is*holding*10,000*shares*of*BUY*positions,*the*cash*adjustment*will*be*calculated*using*the*following*equation*:10,000*share*CFDs*x*0.01USD*=*100USD*cash*dividend*(Note:*If*a*client*is*holding*10,000*shares*of*SELL*positions,*WCG*will*deduct*100USD*from*the*client’s*account.)',
-  shareSplitOrReserveShareSplit: 'Share*Split*or*Reserve*Share*Split',
+    'Sekiranya*pelanggan*individu*WCG*memegang*10,000*saham*posisi*BELI,*pelarasan*tunai*akan*dikira*menggunakan*persamaan*berikut:*10,000*saham*CFD*x*0,01USD*=*dividen*tunai*100*USD*(Catatan:*Sekiranya*pelanggan*memegang*10,000*saham*posisi*JUAL,*WCG*akan*memotong*100*USD*dari*akaun*pelanggan).',
+  shareSplitOrReserveShareSplit: 'Share*Split*atau*Reserve*Share*Split',
   ifACompanyAnnounces:
-    "If*a*company*announces*a*share*split*or*reserve*share*split,*the*company's*share*price*will*be*subject*to*significant*change.",
-  reserveShareSplit: 'Reserve*Share*Split:*CFD*price*will*increase',
-  shareSplit: 'Share*Split*:CFD*price*will*decrease',
+    'Sekiranya*syarikat*mengumumkan*pembahagian*saham*atau*pemisahan*saham*rizab,*harga*saham*syarikat*akan*mengalami*perubahan*yang*ketara.',
+  reserveShareSplit: 'Split*Saham*Rizab:*Harga*CFD*akan*meningkat',
+  shareSplit: 'Share*Split:*Harga*CFD*akan*menurun',
   openPositions:
-    'Open*positions*of*the*Apple*Inc*CFD.*Should*this*not*just*say*clients*who*are*holding*open*positions*of*the*relevant*CFD?',
+    'Buka*kedudukan*CFD*Apple*Inc.*Bukankah*ini*hanya*mengatakan*pelanggan*yang*memegang*jawatan*terbuka*CFD*yang*berkaitan?',
   however:
-    "However,*a*single*share*CFD*will*also*be*affected*by*corporate*action,*which*may*occur*when*the*listed*company*initiates*any*business*changes*Like*a*share*split,*reserve*share*split,*or*a*dividend*payout,*etc.,*and*as*a*result*may*affect*the*company's*financial*position,*its*share*price*performance,*and*the*interests*of*shareholders.",
-  dividends: 'Dividends',
+    'Walau*bagaimanapun,*CFD*satu*saham*juga*akan*dipengaruhi*oleh*tindakan*korporat,*yang*mungkin*berlaku*apabila*syarikat*tersenarai*memulakan*perubahan*perniagaan*Seperti*pembahagian*saham,*pembahagian*saham*rizab,*atau*pembayaran*dividen,*dan*lain-lain,*dan*sebagai*akibatnya*boleh*mempengaruhi*syarikat*kedudukan*kewangan,*prestasi*harga*sahamnya,*dan*kepentingan*pemegang*saham.',
+  dividends: 'Dividen',
   aListedCompany:
-    "A*listed*company*will*announce*its*earnings*reports*semi-annually*(or*quarterly).*Dividends*are*subject*to*approval*by*a*company's*board*of*directors,*and*It's*a*distribution*of*a*company's*earnings*to*a*specified*class*of*its*shareholders.*Generally,*dividends*will*be*issued*in*the*form*of*cash*dividends*or*share*dividends.",
-  exDividendDate: 'Ex-dividend*Date',
+    'Syarikat*tersenarai*akan*mengumumkan*laporan*pendapatannya*setiap*tahun*(atau*setiap*suku*tahun).*Dividen*tertakluk*kepada*kelulusan*lembaga*pengarah*syarikat,*dan*ini*adalah*pengagihan*pendapatan*syarikat*kepada*golongan*pemegang*sahamnya*yang*ditentukan.*Secara*amnya,*dividen*akan*dikeluarkan*dalam*bentuk*dividen*tunai*atau*dividen*saham.',
+  exDividendDate: 'Tarikh*ex-dividen',
   anExDividendIs:
-    'An*ex-dividend*is*a*share*trading*term*that*specifies*when*a*declared*dividend*is*owned*by*the*buyer,*as*opposed*to*the*seller.*If*an*individual*buys*a*share*before*the*ex-dividend*day,*he*or*she*is*then*entitled*to*receive*a*dividend.*If*an*individual*buys*a*share*on*or*after*the*ex-dividend*date,*the*buyer*no*longer*had*the*right*to*receive*the*dividend.'
+    'Ex-dividen*adalah*istilah*perdagangan*saham*yang*menentukan*kapan*dividen*yang*dinyatakan*dimiliki*oleh*pembeli,*berbanding*dengan*penjual.*Sekiranya*seseorang*membeli*saham*sebelum*hari*ex-dividen,*dia*kemudian*berhak*untuk*menerima*dividen.*Sekiranya*seseorang*membeli*saham*pada*atau*selepas*tarikh*ex-dividen,*pembeli*tidak*lagi*berhak*untuk*menerima*dividen*tersebut.'
 };

@@ -29,7 +29,6 @@ const Index: React.FC<{}> = () => {
       <Box
         minH="500px"
         backgroundImage="url('../assets/images/banner.png')"
-        bgAttachment="fixed"
         bgPosition="top center"
         bgSize="cover"
       >

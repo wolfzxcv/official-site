@@ -1,117 +1,117 @@
 import { Conditions } from '../@types/conditions';
 
 export const conditions: Conditions = {
-  privacyPolicy: 'Privacy*Policy',
+  privacyPolicy: 'Dasar*Privasi',
   theCustomers:
-    "The*customer's*personal*data*will*be*used*for*the*following*purposes*according*to*actual*conditions*and*needs:",
+    'Data*peribadi*pelanggan*akan*digunakan*untuk*tujuan*berikut*mengikut*keadaan*dan*keperluan*sebenar:',
   theVerificationProcedures:
-    "The*verification*procedures*for*executing*customer*instructions*or*responding*to*customer-related*inquiries,*daily*administration*of*accounts,*or*direct*or*indirect*marketing*of*related*investment*products*or*services,*share*with*WCG's*affiliated*or*related*companies*on*related*investment*or*transaction*services,*Repeatedly*verify*and*transfer*such*personal*data",
+    'Prosedur*pengesahan*untuk*melaksanakan*arahan*pelanggan*atau*menanggapi*pertanyaan*yang*berkaitan*dengan*pelanggan,*pentadbiran*akaun*harian,*atau*pemasaran*langsung*atau*tidak*langsung*produk*atau*perkhidmatan*pelaburan*yang*berkaitan,*berkongsi*dengan*syarikat*atau*syarikat*berkaitan*WCG*mengenai*pelaburan*atau*perkhidmatan*transaksi*yang*berkaitan,*mengesahkan*berulang*kali*dan*memindahkan*data*peribadi*tersebut',
   dealWithCustomers:
-    "Deal*with*customers'*collateral,*or*collect*debts*from*customers;",
+    'Berurusan*dengan*cagaran*pelanggan,*atau*kumpulkan*hutang*dari*pelanggan',
   transferSuchPersonalData:
-    'Transfer*such*personal*data*to*third-party*service*providers*for*credit*verification*and/or*data*verification*purposes;',
+    'Pindahkan*data*peribadi*tersebut*kepada*penyedia*perkhidmatan*pihak*ketiga*untuk*tujuan*pengesahan*kredit*dan*/*atau*pengesahan*data',
   toProvideAny:
-    'To*provide*any*such*data*for*any*purpose*in*or*in*relation*to*complying*with*any*laws,*regulations,*ordinances*or*orders*of*regulatory*agencies;',
+    'Untuk*menyediakan*data*tersebut*untuk*tujuan*apa*pun*dalam*atau*terkait*dengan*mematuhi*undang-undang,*peraturan,*ketetapan*atau*perintah*badan*pengawas',
   WCGWillKeep:
-    'WCG*will*keep*the*client’s*personal*information*confidential,*but*may*provide*it*to*the*following*organizations/persons*based*on*actual*conditions*and*needs:',
+    'WCG*akan*merahsiakan*maklumat*peribadi*pelanggan,*tetapi*boleh*memberikannya*kepada*organisasi*/*orang*berikut*berdasarkan*keadaan*dan*keperluan*sebenar:',
   WCGOtherCompanies:
-    'WCG*other*companies*include*wholly-owned*or*partially-owned*companies*in*the*name*of*wholly-owned*subsidiaries*or*affiliated*companies*of*subsidiaries*or*directors*and*employees*of*the*group;',
+    'WCG*syarikat*lain*merangkumi*syarikat*milik*penuh*atau*sebahagiannya*atas*nama*anak*syarikat*milik*penuh*atau*syarikat*gabungan*anak*syarikat*atau*pengarah*dan*pekerja*kumpulan',
   agentsAndThirdPartyService:
-    'Agents*and*third-party*service*providers*who*handle*related*business*for*customers*include:*clearing*houses,*professional*service*companies,*financial*institutions,*computer*system*service*providers,*and*telecommunication*system*support*services*as*necessary*procedures*for*completing*customer*services;',
+    'Ejen*dan*penyedia*perkhidmatan*pihak*ketiga*yang*mengendalikan*perniagaan*berkaitan*untuk*pelanggan*termasuk:*rumah*penjelasan,*syarikat*perkhidmatan*profesional,*institusi*kewangan,*penyedia*perkhidmatan*sistem*komputer,*dan*perkhidmatan*sokongan*sistem*telekomunikasi*sebagai*prosedur*yang*diperlukan*untuk*menyelesaikan*perkhidmatan*pelanggan',
   anyRegulatoryOrGovernmentAgency:
-    'Any*regulatory*or*government*agency*that*is*related*to*or*supervises*any*business*of*WCG;',
+    'Mana-mana*agensi*pengawalseliaan*atau*kerajaan*yang*berkaitan*dengan*atau*mengawasi*perniagaan*WCG',
   personsDeemedAppropriate:
-    "Persons*deemed*appropriate*or*appropriate*in*accordance*with*the*confidentiality*obligation,*including*group*member*companies*and*their*employees.*These*authorized*persons*must*keep*the*customer's*personal*information*confidential.",
+    'Orang*yang*dianggap*sesuai*atau*sesuai*dengan*kewajipan*kerahsiaan,*termasuk*syarikat*anggota*kumpulan*dan*pekerjanya.*Orang*yang*diberi*kuasa*ini*mesti*merahsiakan*maklumat*peribadi*pelanggan.',
   AccordingTo:
-    'According*to*the*terms*of*the*regulations,*customers*have*the*right*to*request*that*any*false*data*about*customers*be*corrected*by*WCG*and*to*request*in*writing*that*we*terminate*the*use*of*their*personal*data*for*direct*or*indirect*marketing*purposes.*WCG*reserves*the*right*to*charge*a*reasonable*fee*for*processing*requests*for*data*or*corrections*made*in*accordance*with*the*provisions*of*the*regulations.',
-  conditions: 'Conditions',
+    'Menurut*ketentuan*peraturan,*pelanggan*berhak*untuk*meminta*agar*setiap*data*palsu*tentang*pelanggan*diperbaiki*oleh*WCG*dan*meminta*secara*tertulis*agar*kami*menghentikan*penggunaan*data*peribadi*mereka*untuk*tujuan*pemasaran*langsung*atau*tidak*langsung.*WCG*berhak*untuk*mengenakan*biaya*yang*wajar*untuk*memproses*permintaan*data*atau*pembetulan*yang*dibuat*sesuai*dengan*ketentuan*peraturan.',
+  conditions: 'Syarat',
   whenYouUseThisWebsite:
-    'When*you*use*this*website,*this*agreement*applies.*By*accessing*and*using*this*website,*you*agree*to*abide*by*the*following*terms*of*this*agreement.',
-  visitWebsite: 'Visit*website',
+    'Apabila*anda*menggunakan*laman*web*ini,*perjanjian*ini*akan*berlaku.*Dengan*mengakses*dan*menggunakan*laman*web*ini,*anda*bersetuju*untuk*mematuhi*syarat-syarat*perjanjian*ini*berikut.',
+  visitWebsite: 'Lawati*laman*web',
   theCopyrightsOfThisWebsiteAndAllText:
-    'The*copyrights*of*this*website*and*all*text,*graphics,*images,*software*and*other*materials*on*this*website*belong*to*WCG*or*its*licensors.',
+    'Hak*cipta*laman*web*ini*dan*semua*teks,*grafik,*gambar,*perisian*dan*bahan*lain*di*laman*web*ini*adalah*milik*WCG*atau*pemberi*lesennya.',
   theInformationOnThisWebsite:
-    'The*information*on*this*website*is*for*your*personal*use*only*and*for*non-commercial*purposes*only.*You*can*only*display*or*print*the*information*on*this*website*as*it*is*on*the*computer*screen*for*the*above-mentioned*purposes.',
+    'Maklumat*di*laman*web*ini*hanya*untuk*kegunaan*peribadi*anda*dan*untuk*tujuan*bukan*komersial*sahaja.*Anda*hanya*dapat*memaparkan*atau*mencetak*maklumat*di*laman*web*ini*seperti*yang*terdapat*di*skrin*komputer*untuk*tujuan*yang*disebutkan*di*atas.',
   exceptAsExpresslyStipulatedInThisAgreement:
-    'Except*as*expressly*stipulated*in*this*agreement,*without*the*prior*written*permission*of*WCG,*you*may*not*change,*modify,*copy,*distribute*or*commercially*use*any*information*on*this*website.',
+    'Kecuali*sebagaimana*dinyatakan*secara*tegas*dalam*perjanjian*ini,*tanpa*izin*bertulis*WCG*sebelumnya,*anda*tidak*boleh*mengubah,*mengubah,*menyalin,*menyebarkan*atau*menggunakan*maklumat*secara*komersial*di*laman*web*ini.',
   forTheAboveMentionedPurposes:
-    'For*the*above-mentioned*purposes,*you*can*copy*the*above-mentioned*trademarks*as*they*are*from*the*materials*downloaded*from*this*website.*WCG*may*at*any*time*notify*you*of*changes*to*this*agreement*by*posting*the*latest*version*of*this*agreement*on*this*website.*You*are*responsible*for*reviewing*this*agreement*frequently.*By*using*this*website*after*the*above-mentioned*changes*are*posted,*you*agree*to*the*above-mentioned*changes.',
-  entireAgreement: 'Entire*Agreement',
+    'Untuk*tujuan*yang*disebutkan*di*atas,*anda*boleh*menyalin*tanda*dagangan*yang*disebutkan*di*atas*kerana*ia*adalah*dari*bahan*yang*dimuat*turun*dari*laman*web*ini.*WCG*pada*bila-bila*masa*dapat*memberitahu*anda*mengenai*perubahan*perjanjian*ini*dengan*menyiarkan*versi*terbaru*perjanjian*ini*di*laman*web*ini.*Anda*bertanggungjawab*untuk*kerap*menyemak*perjanjian*ini.*Dengan*menggunakan*laman*web*ini*setelah*perubahan*yang*disebutkan*di*atas*disiarkan,*anda*bersetuju*dengan*perubahan*yang*disebutkan*di*atas.',
+  entireAgreement: 'Keseluruhan*Perjanjian',
   thisAgreementContains:
-    'This*agreement*contains*the*entire*agreement*between*you*and*WCG*regarding*your*access*to*and*use*of*this*website.*WCG*may*at*any*time*notify*you*of*changes*to*this*agreement*by*posting*the*latest*version*of*this*agreement*on*this*website.*You*are*responsible*for*reviewing*this*agreement*frequently.*By*using*this*website*after*the*above-mentioned*changes*are*posted,*you*agree*to*the*above-mentioned*changes.',
-  thirdPartyInformation: 'Third-party*information*and*website',
+    'Perjanjian*ini*mengandungi*keseluruhan*perjanjian*antara*anda*dan*WCG*mengenai*akses*dan*penggunaan*laman*web*ini*kepada*anda.*WCG*pada*bila-bila*masa*dapat*memberitahu*anda*mengenai*perubahan*perjanjian*ini*dengan*menyiarkan*versi*terbaru*perjanjian*ini*di*laman*web*ini.*Anda*bertanggungjawab*untuk*kerap*menyemak*perjanjian*ini.*Dengan*menggunakan*laman*web*ini*setelah*perubahan*yang*disebutkan*di*atas*disiarkan,*anda*bersetuju*dengan*perubahan*yang*disebutkan*di*atas.',
+  thirdPartyInformation: 'Maklumat*dan*laman*web*pihak*ketiga',
   thisWebsiteMayContain:
-    "This*website*may*contain*materials*produced*by*third*parties*or*links*to*other*websites.*The*above-mentioned*materials*and*websites*are*provided*by*third-party*vendors*and*are*not*under*the*direct*control*of*WCG.*WCG*assumes*no*responsibility*or*responsibility*for*the*operation*or*content*of*any*of*the*above-mentioned*third-party*materials*or*other*websites*(whether*or*not*linked*to*this*website).*obligation.*You*confirm*that*if*you*set*up*any*links*between*other*websites*and*this*website*without*WCG's*prior*written*consent,*WCG*reserves*the*right*to*request*you*to*delete*it.",
-  responsibilitiesOfWCGInternational: 'Responsibilities*of*WCG',
+    'Laman*web*ini*mungkin*mengandungi*bahan*yang*dihasilkan*oleh*pihak*ketiga*atau*pautan*ke*laman*web*lain.*Bahan*dan*laman*web*yang*disebutkan*di*atas*disediakan*oleh*vendor*pihak*ketiga*dan*tidak*berada*di*bawah*kawalan*langsung*WCG.*WCG*tidak*bertanggungjawab*atau*bertanggungjawab*terhadap*operasi*atau*kandungan*mana-mana*bahan*pihak*ketiga*yang*disebutkan*di*atas*atau*laman*web*lain*(sama*ada*dihubungkan*atau*tidak*ke*laman*web*ini).*kewajipan.*Anda*mengesahkan*bahawa*jika*anda*membuat*pautan*antara*laman*web*lain*dan*laman*web*ini*tanpa*persetujuan*bertulis*WCG*sebelumnya,*WCG*berhak*meminta*anda*menghapusnya.',
+  responsibilitiesOfWCGInternational: 'Tanggungjawab*WCG',
   whenYouRegisterAs:
-    "When*you*register*as*a*WCG*customer*and*accept*WCG's*services,*you*must*accept*the*WCG*business*terms.*Business*terms*apply*to*your*relationship*with*WCG*and*WCG's*responsibilities*to*you*for*the*services*it*provides.*Although*WCG*regularly*updates*the*website,*it*does*not*guarantee*that*the*information*or*data*contained*in*the*website*reflects*the*latest*situation*or*is*accurate,*or*that*the*products*or*services*listed*on*the*website*are*currently*valid.*WCG*may*change*the*information*posted*on*this*website*at*any*time*without*notice.",
+    'Apabila*anda*mendaftar*sebagai*pelanggan*WCG*dan*menerima*perkhidmatan*WCG,*anda*mesti*menerima*syarat*perniagaan*WCG.*Syarat*perniagaan*berlaku*untuk*hubungan*anda*dengan*WCG*dan*tanggungjawab*WCG*kepada*anda*untuk*perkhidmatan*yang*diberikannya.*Walaupun*WCG*mengemas*kini*laman*web*secara*berkala,*ia*tidak*menjamin*bahawa*maklumat*atau*data*yang*terdapat*di*dalam*laman*web*mencerminkan*keadaan*terkini*atau*tepat,*atau*bahawa*produk*atau*perkhidmatan*yang*disenaraikan*di*laman*web*pada*masa*ini*sah.*WCG*boleh*mengubah*maklumat*yang*disiarkan*di*laman*web*ini*pada*bila-bila*masa*tanpa*notis.',
   inAdditionToTheAboveMentionedServiceDescriptions:
     'In*addition*to*the*above-mentioned*service*descriptions,*this*website*and*all*software*and*other*materials*on*this*website*are*provided*to*you*on*"as*is"*and*"as*is"*conditions,*and*their*accuracy,*timeliness*or*completeness*cannot*be*guaranteed.*To*the*extent*permitted*by*law,*all*statements*and*guarantees,*whether*express,*implied,*statutory*or*other,*including*but*not*limited*to*any*guarantees*regarding*accuracy,*timeliness,*saleability,*quality*satisfaction*or*suitable*for*a*specific*or*any*purpose*Or*conditions*are*excluded*here.',
   youSufferAnyIndirect:
-    'You*suffer*any*indirect,*special,*incidental*or*consequential*damages*due*to*use,*delay*in*use*or*inability*to*access*this*website,*or*for*any*other*reasons*related*to*this*website,*including*but*not*limited*to*downloading*any*software*from*this*website,*including*but*not*Limited*to*damage*to*your*computer*or*computer*system*or*settings,*loss*of*data,*loss*of*income*or*profit,*WCG*does*not*assume*any*responsibility*for*you.*WCG*does*not*represent*or*guarantee*that*the*website*or*information*meets*your*requirements*or*that*the*website*or*any*software*will*be*uninterrupted,*safe*or*free*of*any*errors*or*viruses.',
-  yourInformation: 'Your*information',
+    'Anda*mengalami*kerosakan*tidak*langsung,*khas,*sampingan*atau*akibat*akibat*penggunaan,*kelewatan*penggunaan*atau*ketidakupayaan*untuk*mengakses*laman*web*ini,*atau*atas*sebab*lain*yang*berkaitan*dengan*laman*web*ini,*termasuk*tetapi*tidak*terhad*kepada*memuat*turun*perisian*dari*laman*web*ini,*termasuk*tetapi*tidak*terhad*kepada*kerosakan*pada*komputer*atau*sistem*komputer*atau*tetapan*anda,*kehilangan*data,*kehilangan*pendapatan*atau*keuntungan,*WCG*tidak*bertanggungjawab*terhadap*anda.*WCG*tidak*mewakili*atau*menjamin*bahawa*laman*web*atau*maklumat*memenuhi*keperluan*anda*atau*bahawa*laman*web*atau*perisian*apa*pun*tidak*terganggu,*selamat*atau*bebas*daripada*sebarang*kesilapan*atau*virus.',
+  yourInformation: 'Maklumat*anda',
   inAdditionToYourObligation:
-    'In*addition*to*your*obligation*to*register*as*a*customer*of*WCG,*you*agree*to*ensure*that*all*information*you*provide*to*WCG*is*complete*and*accurate*to*the*extent*you*know*and*believe.*You*agree*to*notify*WCG*immediately*of*any*changes*in*the*information*you*provide,*so*that*WCG*can*update*records*in*a*timely*manner*and*accurately*reflect*the*latest*situation.',
-  companyInformation: 'Company*Information',
+    'Sebagai*tambahan*kepada*kewajiban*anda*untuk*mendaftar*sebagai*pelanggan*WCG,*anda*bersetuju*untuk*memastikan*bahawa*semua*maklumat*yang*anda*berikan*kepada*WCG*adalah*lengkap*dan*tepat*sejauh*yang*anda*tahu*dan*percaya.*Anda*bersetuju*untuk*segera*memberitahu*WCG*mengenai*perubahan*dalam*maklumat*yang*anda*berikan,*agar*WCG*dapat*mengemas*kini*rekod*tepat*pada*masanya*dan*mencerminkan*situasi*terkini*dengan*tepat.',
+  companyInformation: 'Maklumat*Syarikat',
   WCGInternational: 'WCG*Markets*Ltd',
-  disputeSettlement: 'Dispute*Settlement',
+  disputeSettlement: 'Penyelesaian*Pertikaian',
   weWelcomeYourInvaluableComments:
-    'We*welcome*your*invaluable*comments.*If*anything*could*improve*our*service*comes*to*your*mind,*please*let*us*know.*Whether*it*is*a*suggestion,*compliment*or*complaint,*your*feedback*is*the*key*to*improving*our*products*and*services.',
+    'Kami*mengalu-alukan*komen*anda*yang*tidak*ternilai.*Sekiranya*ada*yang*dapat*meningkatkan*perkhidmatan*kami,*sila*beritahu*kami.*Sama*ada*cadangan,*pujian*atau*keluhan,*maklum*balas*anda*adalah*kunci*untuk*meningkatkan*produk*dan*perkhidmatan*kami.',
   ifYouNeedAnyAssistance:
-    'For*assistance,*please*contact*the*24-hours*online*customer*service*staff*',
-  orEmailUs: 'or*kindly*send*us*your*comments*to*',
-  makeASuggestion: 'Make*a*suggestion',
+    'Untuk*mendapatkan*bantuan,*sila*hubungi*kakitangan*perkhidmatan*pelanggan*dalam*talian*24*jam*',
+  orEmailUs: 'atau*sila*hantarkan*komen*anda*kepada*kami*',
+  makeASuggestion: 'Buat*cadangan',
   weUnderstandThatEven:
-    'We*understand*that*even*well-established*institutions*would*make*mistakes.*If*you*have*a*complaint,*please*let*us*know*and*let*us*have*a*chance*to*solve*these*problems.*We*will*investigate*the*issue,*answer*your*questions,*and*do*our*best*to*restore*your*confidence*in*us.',
+    'Kami*faham*bahawa*institusi*yang*mapan*sekalipun*akan*melakukan*kesalahan.*Sekiranya*anda*mempunyai*aduan,*beri*tahu*kami*dan*beri*peluang*untuk*menyelesaikan*masalah*ini.*Kami*akan*menyiasat*masalah*ini,*menjawab*soalan*anda,*dan*melakukan*yang*terbaik*untuk*mengembalikan*keyakinan*anda*kepada*kami.',
   toAssistUsInHelpingYou:
-    'To*assist*us*in*helping*you,*we*recommend*that*you*follow*a*simple*five*steps*process:',
-  collectMaterials: 'Collect*materials',
+    'Untuk*membantu*kami*dalam*membantu*anda,*kami*mengesyorkan*agar*anda*mengikuti*proses*lima*langkah*mudah:',
+  collectMaterials: 'Kumpulkan*bahan',
   forCurrentTrades:
-    'For*current*trades,*please*contact*our*dealing*room;*for*previous*trades*or*other*matters,*please*contact*our*customer*service*staff.',
-  transferTo: 'Transfer*to*senior*management',
+    'Untuk*perdagangan*semasa,*sila*hubungi*bilik*urus*niaga*kami;*untuk*perdagangan*sebelumnya*atau*perkara*lain,*sila*hubungi*kakitangan*perkhidmatan*pelanggan*kami.',
+  transferTo: 'Pindah*ke*pengurusan*kanan',
   contactOurComplianceDepartment:
-    'Contact*our*compliance*department,*internal*audit*and*risk*management*supervisor',
+    'Hubungi*jabatan*pematuhan*kami,*audit*dalaman*dan*penyelia*pengurusan*risiko',
   collectAllTheSupportingMaterials:
-    'Collect*all*the*supporting*materials*related*to*the*complaint,*think*about*the*questions*you*require*us*to*answer*and*how*we*think*we*should*decide.',
+    'Kumpulkan*semua*bahan*sokongan*yang*berkaitan*dengan*aduan,*fikirkan*soalan*yang*anda*perlukan*untuk*kami*jawab*dan*bagaimana*kami*fikir*kami*harus*memutuskannya.',
   thenIfTheQuestionRelates:
-    'Then,*if*the*question*relates*to*current*or*recent*trades,*please*contact*our*dealing*room*directly.*Please*remember*that*you*should*contact*us*in*the*most*possible*instant*time,*it*will*give*us*the*opportunity*to*help*you*to*solve*the*problem*in*the*simplest*and*quickest*way.*If*the*problem*involves*a*transaction*that*occurred*in*the*past,*then*contacting*our*customer*service*officer*may*be*the*best*way.*Our*staff*will*comprehensively*review*the*situation*and*resolve*these*issues*as*soon*as*possible.',
+    'Kemudian,*jika*pertanyaan*itu*berkaitan*dengan*perdagangan*semasa*atau*baru-baru*ini,*sila*hubungi*terus*bilik*urus*niaga*kami.*Harap*diingat*bahawa*anda*harus*menghubungi*kami*secepat*mungkin,*ini*akan*memberi*kami*peluang*untuk*membantu*anda*menyelesaikan*masalah*dengan*cara*yang*paling*mudah*dan*cepat.*Sekiranya*masalah*itu*melibatkan*transaksi*yang*berlaku*pada*masa*lalu,*maka*menghubungi*pegawai*perkhidmatan*pelanggan*kami*mungkin*merupakan*kaedah*terbaik.*Kakitangan*kami*akan*mengkaji*keadaan*secara*komprehensif*dan*menyelesaikan*masalah*ini*secepat*mungkin.',
   ifAtThisStage:
-    'If*at*this*stage,*the*problem*has*not*been*resolved*or*cannot*be*handled*satisfactorily,*please*ask*the*person*in*charge*to*report*the*matter*to*their*upper*management.*We*will*provide*you*with*the*name*and*contact*details*of*the*person*who*is*responsible*for*investigating*your*complaint.*We*will*grant*the*person*in*charge*the*necessary*authority*to*review*your*case.',
+    'Sekiranya*pada*tahap*ini,*masalah*tersebut*belum*dapat*diselesaikan*atau*tidak*dapat*ditangani*dengan*memuaskan,*minta*pihak*yang*bertanggung*jawab*melaporkan*masalah*tersebut*kepada*pihak*atasan*mereka.*Kami*akan*memberikan*anda*nama*dan*maklumat*hubungan*orang*yang*bertanggungjawab*untuk*menyiasat*aduan*anda.*Kami*akan*memberikan*kuasa*yang*diperlukan*kepada*pihak*yang*bertanggungjawab*untuk*menyemak*kes*anda.',
   ifTheProblem:
-    'If*the*problem*cannot*be*resolved,*you*can*consider*reporting*it*to*the*compliance,*internal*audit*and*risk*management*supervisor.*The*supervisor*will*conduct*an*independent*inspection*and*contact*you*directly.',
-  emailTo: 'Email*to:*',
-  headOfCompliance: 'Head*of*compliance,*internal*audit*and*risk*management',
+    'Sekiranya*masalah*tidak*dapat*diselesaikan,*anda*boleh*mempertimbangkan*untuk*melaporkannya*kepada*pematuhan,*audit*dalaman*dan*penyelia*pengurusan*risiko.*Penyelia*akan*melakukan*pemeriksaan*bebas*dan*menghubungi*anda*secara*langsung.',
+  emailTo: 'Emel*kepada:*',
+  headOfCompliance: 'Ketua*pematuhan,*audit*dalaman*dan*pengurusan*risiko',
   weTargetToResolve:
-    'We*target*to*resolve*all*disputes*within*15*working*days.*However,*some*complicated*issues*may*take*longer*to*process.*If*this*is*the*case,*we*will*keep*you*updated*with*our*progress.',
-  riskDisclaimer: 'Risk*Disclaimer',
-  internetConnectivityFailure: 'Internet*connectivity*failure',
+    'Kami*menyasarkan*untuk*menyelesaikan*semua*pertikaian*dalam*15*hari*bekerja.*Walau*bagaimanapun,*beberapa*masalah*rumit*mungkin*memerlukan*masa*lebih*lama*untuk*diproses.*Sekiranya*ini*berlaku,*kami*akan*terus*memberitahu*anda*mengenai*perkembangan*kami.',
+  riskDisclaimer: 'Penafian*Risiko',
+  internetConnectivityFailure: 'Kegagalan*penyambungan*internet',
   sinceWCGCannotControl:
-    "Since*WCG*cannot*control*the*signal*capacity,*the*reception*of*signals*through*the*Internet*and*routing*depends*on*the*structure*of*the*client's*equipment*or*the*reliability*of*the*connection.*WCG*does*not*responsible*for*communication*failures,*distortions*or*delays*in*transactions*on*the*Internet.",
-  marketRiskAndOnlineTrading: 'Market*risk*and*online*trading',
+    'Oleh*kerana*WCG*tidak*dapat*mengawal*kapasiti*isyarat,*penerimaan*isyarat*melalui*Internet*dan*penghalaan*bergantung*pada*struktur*peralatan*pelanggan*atau*kebolehpercayaan*sambungan.*WCG*tidak*bertanggungjawab*atas*kegagalan*komunikasi,*gangguan*atau*kelewatan*urus*niaga*di*Internet.',
+  marketRiskAndOnlineTrading: 'Risiko*pasaran*dan*perdagangan*dalam*talian',
   customersMustKeepThePassword:
-    'Customers*must*keep*the*password*confidential*to*ensure*that*third*parties*cannot*access*the*trading*facilities.*The*client*agrees*to*be*responsible*for*all*instructions*sent*via*email*and*all*instructions*sent*to*WCG*via*email,*verbal*or*by*written,*even*if*issued*by*a*third*party,*these*instructions*have*been*authenticated*with*the*client’s*password*and*account*number.*According*to*WCG’s*judgment,*it*is*believed*to*be*basic*authorization*of*clients.*WCG*does*not*responsible*for*making*further*inquiries*about*this*apparent*permission,*nor*it*is*responsible*for*the*consequences*of*actions*or*non-actions*based*on*these*instructions*or*apparent*permission.',
-  passwordProtection: 'Password*protection',
-  incorrectPriceQuotation: 'Incorrect*Price*Quotation',
+    'Pelanggan*mesti*merahsiakan*kata*laluan*untuk*memastikan*bahawa*pihak*ketiga*tidak*dapat*mengakses*kemudahan*perdagangan.*Pelanggan*bersetuju*untuk*bertanggungjawab*atas*semua*arahan*yang*dihantar*melalui*e-mel*dan*semua*arahan*yang*dihantar*ke*WCG*melalui*e-mel,*lisan*atau*bertulis,*walaupun*dikeluarkan*oleh*pihak*ketiga,*arahan*ini*telah*disahkan*dengan*kata*laluan*dan*nombor*akaun*pelanggan.*Menurut*penilaian*WCG,*ia*dipercayai*sebagai*kebenaran*asas*pelanggan.*WCG*tidak*bertanggungjawab*untuk*membuat*pertanyaan*lebih*lanjut*mengenai*kebenaran*nyata*ini,*dan*juga*tidak*bertanggung*jawab*atas*akibat*tindakan*atau*bukan*tindakan*berdasarkan*petunjuk*ini*atau*kebenaran*jelas.',
+  passwordProtection: 'Perlindungan*kata*laluan',
+  incorrectPriceQuotation: 'Sebut*Harga*Yang*Tidak*Betul',
   whenQuotationOrTransaction:
-    "When*quotation*or*transaction*price*error*occurs,*WCG*will*not*be*responsible*for*the*account*balance*error*caused*by*this.*These*errors*include,*but*are*not*limited*to:*dealer's*wrong*quotation,*non-international*market*price*quotation,*or*any*quotation*error*(for*example:*hardware,*software,*network*problems,*or*incorrect*data*provided*by*a*third*party).*WCG*does*not*responsible*for*the*affected*account*balance*caused*by*the*error.*When*placing*an*order,*you*need*to*reserve*enough*time*to*execute*the*order*and*the*time*for*system*to*calculate*the*required*margin*level.*If*the*execution*price*of*the*order*or*the*order*setting*is*too*close*to*the*market*price,*it*may*trigger*other*orders*(regardless*of*the*order*type)*or*results*in*a*margin*alert.*WCG*will*not*be*responsible*for*margin*reminders*or*incorrect*account*balances*/*positions*due*to*the*system's*insufficient*time*to*execute*orders*or*perform*calculations.The*above*shall*not*be*regarded*as*an*exhaustive*list.*In*the*event*of*a*quotation*or*execution*error,*WCG*reserves*the*right*to*make*any*corrections*or*adjustments.*Any*disputes*related*to*quotation*and*transaction*errors*can*only*be*resolved*by*WCG*at*its*sole*discretion.*If*this*causes*WCG*to*have*any*loss,*damage*or*liability,*the*customer*agrees*to*make*compensation*so*that*WCG*will*not*suffer*the*loss.",
-  arbitrage: 'Arbitrage',
+    'Apabila*ralat*sebut*harga*atau*transaksi*berlaku,*WCG*tidak*akan*bertanggungjawab*atas*kesalahan*baki*akaun*yang*disebabkan*oleh*perkara*ini.*Kesalahan*ini*merangkumi,*tetapi*tidak*terhad*kepada:*sebut*harga*salah*peniaga,*sebut*harga*pasaran*bukan*antarabangsa,*atau*sebarang*kesalahan*sebut*harga*(contohnya:*perkakasan,*perisian,*masalah*rangkaian,*atau*data*yang*salah*yang*diberikan*oleh*pihak*ketiga)*WCG*tidak*bertanggungjawab*terhadap*baki*akaun*yang*terjejas*disebabkan*oleh*kesalahan.*Semasa*membuat*pesanan,*anda*perlu*menempah*cukup*masa*untuk*melaksanakan*pesanan*dan*masa*untuk*sistem*mengira*tahap*margin*yang*diperlukan.*Sekiranya*harga*pelaksanaan*pesanan*atau*penetapan*pesanan*terlalu*dekat*dengan*harga*pasar,*ia*dapat*memicu*pesanan*lain*(tanpa*mengira*jenis*pesanan)*atau*menghasilkan*tanda*margin.WCG*tidak*akan*bertanggungjawab*untuk*peringatan*margin*atau*baki*/*kedudukan*akaun*yang*salah*kerana*sistem*tidak*cukup*masa*untuk*melaksanakan*pesanan*atau*melakukan*pengiraan.*Perkara*di*atas*tidak*akan*dianggap*sebagai*senarai*lengkap.*Sekiranya*terdapat*kesalahan*sebut*harga*atau*pelaksanaan,*WCG*berhak*membuat*pembetulan*atau*penyesuaian.*Sebarang*pertikaian*yang*berkaitan*dengan*sebut*harga*dan*kesalahan*transaksi*hanya*dapat*diselesaikan*oleh*WCG*mengikut*budi*bicara*mutlaknya.*Sekiranya*ini*menyebabkan*WCG*mengalami*kerugian,*kerosakan*atau*tanggungjawab,*pelanggan*bersetuju*untuk*membuat*pampasan*agar*WCG*tidak*menanggung*kerugian*tersebut.Sebarang*pertikaian*yang*berkaitan*dengan*sebut*harga*dan*kesalahan*transaksi*hanya*dapat*diselesaikan*oleh*WCG*mengikut*budi*bicara*mutlaknya.*Sekiranya*ini*menyebabkan*WCG*mengalami*kerugian,*kerosakan*atau*tanggungjawab,*pelanggan*bersetuju*untuk*membuat*pampasan*agar*WCG*tidak*menanggung*kerugian*tersebut.Sebarang*pertikaian*yang*berkaitan*dengan*sebut*harga*dan*kesalahan*transaksi*hanya*dapat*diselesaikan*oleh*WCG*mengikut*budi*bicara*mutlaknya.*Sekiranya*ini*menyebabkan*WCG*mengalami*kerugian,*kerosakan*atau*tanggungjawab,*pelanggan*bersetuju*untuk*membuat*pampasan*agar*WCG*tidak*menanggung*kerugian*tersebut.',
+  arbitrage: 'Arbitraj',
   internetIssues:
-    'Internet*issues,*connection*delays*and*errors*in*quotation*sometimes*cause*the*quotation*displayed*on*the*WCG*Trading*Platform*does*not*accurately*reflect*the*real-time*market*price.*"Arbitrage"*and*"scalping",*or*the*behavior*of*profiting*from*the*price*difference*due*to*the*delay*of*network*connection,*is*prohibited*in*the*over-the-counter*market*where*customers*directly*trade*with*the*dealer.*WCG*does*not*allow*customers*to*conduct*such*arbitrage*on*the*company\'s*trading*platform.*Transactions*that*rely*on*arbitrage*opportunities*due*to*price*lag*may*be*cancelled.*WCG*reserves*the*right*to*make*necessary*changes*and*adjustments*to*the*accounts*involved*in*the*aforementioned*transactions.*WCG*may,*at*its*sole*discretion,*require*dealers*to*intervene*or*manually*approve*all*orders*or*even*terminate*the*accounts*of*relevant*customers*if*necessary.*WCG*can*completely*resolve*disputes*arising*from*arbitrage*or*price*manipulation*on*its*own.*WCG*reserves*the*right*to*deduct*the*specific*client’s*withdrawal*until*the*above*problems*can*be*solved.*Any*actions*or*resolutions*stated*here*will*not*damage*or*cause*WCG*to*waive*any*rights*or*compensations*held*by*customers*and*their*employees.',
-  price: 'Price,*order*execution*and*platform*manipulation',
+    'Masalah*internet,*kelewatan*sambungan*dan*kesalahan*dalam*sebut*harga*kadang-kadang*menyebabkan*sebut*harga*yang*dipaparkan*di*Platform*Perdagangan*WCG*tidak*menggambarkan*harga*pasaran*masa*nyata*dengan*tepat.*"Arbitrage"*dan*"scalping",*atau*tingkah*laku*mengaut*keuntungan*dari*perbezaan*harga*kerana*kelewatan*sambungan*rangkaian,*dilarang*di*pasar*bebas*di*mana*pelanggan*berdagang*secara*langsung*dengan*peniaga.*WCG*tidak*membenarkan*pelanggan*melakukan*arbitraj*seperti*itu*di*platform*perdagangan*syarikat.*Transaksi*yang*bergantung*pada*peluang*arbitraj*kerana*ketinggian*harga*mungkin*dibatalkan.*WCG*berhak*untuk*membuat*perubahan*dan*penyesuaian*yang*diperlukan*pada*akaun*yang*terlibat*dalam*urus*niaga*tersebut.*WCG*boleh,*mengikut*budi*bicara*mutlaknya,menghendaki*peniaga*untuk*campur*tangan*atau*secara*manual*menyetujui*semua*pesanan*atau*bahkan*menamatkan*akaun*pelanggan*yang*relevan*jika*perlu.*WCG*dapat*menyelesaikan*sepenuhnya*pertikaian*yang*timbul*dari*arbitraj*atau*manipulasi*harga*dengan*sendirinya.*WCG*berhak*menolak*pengeluaran*pelanggan*tertentu*sehingga*masalah*di*atas*dapat*diselesaikan.*Segala*tindakan*atau*ketetapan*yang*dinyatakan*di*sini*tidak*akan*merosakkan*atau*menyebabkan*WCG*mengetepikan*hak*atau*pampasan*yang*dipegang*oleh*pelanggan*dan*pekerjanya.',
+  price: 'Harga,*pelaksanaan*pesanan*dan*manipulasi*platform',
   WCGStrictlyProhibits:
-    'WCG*strictly*prohibits*any*account*from*controlling*its*price,*execution*and*platform*in*any*form.*If*WCG*suspects*that*any*account*is*engaged*in*manipulation,*WCG*reserves*the*right*to*investigate*and*review*the*account,*and*deduct*the*profits*earned*from*related*activities*from*the*suspected*account.*WCG*reserves*the*right*to*make*necessary*corrections*or*adjustments*to*the*relevant*accounts.*For*accounts*that*are*suspected*of*engaging*in*manipulation,*WCG*may,*at*its*sole*discretion,*require*dealers*to*intervene,*approve*orders,*and*terminate*the*accounts*of*relevant*customers.*Any*disputes*arising*from*arbitrage*or*manipulation*shall*be*determined*by*WCG*on*its*own.*WCG*may,*at*its*discretion,*report*the*incident*to*any*relevant*regulatory*or*law*enforcement*agency.*Any*actions*or*resolutions*stated*here*do*not*exempt*or*impair*WCG’s*rights*or*compensations*to*customers*and*their*employees,*and*all*are*expressly*reserved*rights*or*compensations.',
-  bankruptcyDisclosure: 'Bankruptcy*Disclosure',
+    'WCG*melarang*sebarang*akaun*mengawal*harga,*pelaksanaan*dan*platformnya*dalam*bentuk*apa*pun.*Sekiranya*WCG*mengesyaki*bahawa*mana-mana*akaun*terlibat*dalam*manipulasi,*WCG*berhak*untuk*menyiasat*dan*menyemak*akaun*tersebut,*dan*memotong*keuntungan*yang*diperoleh*dari*aktiviti*berkaitan*dari*akaun*yang*disyaki.*WCG*berhak*untuk*membuat*pembetulan*atau*penyesuaian*yang*diperlukan*pada*akaun*yang*berkaitan.*Untuk*akaun*yang*disyaki*terlibat*dalam*manipulasi,*WCG*boleh,*mengikut*budi*bicara*mutlaknya,*menghendaki*peniaga*untuk*campur*tangan,*menyetujui*pesanan,*dan*menghentikan*akaun*pelanggan*yang*berkaitan.*Sebarang*pertikaian*yang*timbul*daripada*arbitraj*atau*manipulasi*akan*ditentukan*oleh*WCG*sendiri.*WCG*boleh,*mengikut*budi*bicaranya,*melaporkan*kejadian*itu*kepada*mana-mana*agensi*penguatkuasaan*atau*penguatkuasaan*undang-undang*yang*berkaitan.Segala*tindakan*atau*ketetapan*yang*dinyatakan*di*sini*tidak*mengecualikan*atau*merosakkan*hak*atau*pampasan*WCG*kepada*pelanggan*dan*pekerjanya,*dan*semuanya*adalah*hak*atau*pampasan*yang*terpelihara.',
+  bankruptcyDisclosure: 'Pendedahan*Kebankrapan',
   theTransactionsBetween:
-    'The*transactions*between*clients*and*WCG*are*not*conducted*on*Exchanges.*Once*WCG*goes*bankrupt,*the*client*may*not*get*the*priority*of*repayment*from*WCG.*Without*priority*repayment,*the*client*is*an*unsecured*creditor,*and*will*receive*compensation*from*other*creditors*only*after*paying*those*priority*claims.',
-  introducingBrokerDisclosure: 'Introducing*Broker*disclosure',
+    'Urus*niaga*antara*pelanggan*dan*WCG*tidak*dilakukan*di*Bursa.*Setelah*WCG*muflis,*pelanggan*mungkin*tidak*mendapat*keutamaan*pembayaran*balik*dari*WCG.*Tanpa*pembayaran*balik*yang*diutamakan,*pelanggan*adalah*pemiutang*tidak*bercagar,*dan*akan*menerima*pampasan*daripada*pemiutang*lain*hanya*setelah*membayar*tuntutan*keutamaan*tersebut.',
+  introducingBrokerDisclosure: 'Memperkenalkan*pendedahan*Broker',
   WCGDoesNotSupervise:
-    'WCG*does*not*supervise*the*activities*of*the*introducing*broker,*and*is*not*responsible*for*any*statements*made*by*the*introducing*broker.*WCG*and*the*introducing*broker*are*completely*independent*of*each*other.*The*direct*agreement*between*WCG*and*the*introducing*broker*does*not*establish*a*joint*venture*or*partnership.*The*introducing*broker*is*not*an*official*agent*or*staff*of*WCG.',
+    'WCG*tidak*mengawasi*aktiviti*broker*pengenalan,*dan*tidak*bertanggungjawab*terhadap*pernyataan*yang*dibuat*oleh*broker*pengenalan.*WCG*dan*broker*memperkenalkan*sepenuhnya*bebas*antara*satu*sama*lain.*Perjanjian*langsung*antara*WCG*dan*broker*memperkenalkan*tidak*menjalin*usaha*sama*atau*perkongsian.*Broker*pengenalan*bukan*ejen*rasmi*atau*kakitangan*WCG.',
   theClientUnderstandsAndAgrees:
-    "The*client*understands*and*agrees*that*if*the*client's*account*in*WCG*is*introduced*by*an*introducing*broker,*the*introducing*broker*may*obtain*the*customer's*personal*information*and*other*data*about*the*customer's*transaction*activities*in*the*WCG*account.*The*customer*understands*and*agrees*that*if*the*customer's*account*in*WCG*is*introduced*by*an*introducing*broker,*the*introducing*broker*shall*not*engage*in*transactions*with*the*customer's*WCG*account*unless*the*client*authorizes*the*introducing*broker*to*trade*on*behalf*of*the*client*through*an*authorization*agreement.",
+    'Pelanggan*memahami*dan*bersetuju*bahawa*jika*akaun*klien*di*WCG*diperkenalkan*oleh*broker*pengenalan,*broker*pengenalan*dapat*memperoleh*maklumat*peribadi*pelanggan*dan*data*lain*mengenai*aktiviti*transaksi*pelanggan*di*akaun*WCG.*Pelanggan*memahami*dan*bersetuju*bahawa*jika*akaun*pelanggan*di*WCG*diperkenalkan*oleh*broker*pengenalan,*broker*pengenalan*tidak*akan*melakukan*transaksi*dengan*akaun*WCG*pelanggan*melainkan*pelanggan*memberi*kebenaran*kepada*broker*pengenalan*untuk*berdagang*bagi*pihak*pelanggan*melalui*perjanjian*kebenaran.',
   becauseTheRisk:
-    'Because*the*risk*factor*of*CFD*trading*is*very*high,*only*real*"high-risk"*funds*can*be*used*for*such*transactions.*If*client*has*no*surplus*funds*to*lose,*one*should*not*trade*in*the*CFD*market.',
+    'Kerana*faktor*risiko*perdagangan*CFD*sangat*tinggi,*hanya*dana*"berisiko*tinggi"*sebenar*yang*dapat*digunakan*untuk*transaksi*tersebut.*Sekiranya*pelanggan*tidak*mempunyai*lebihan*dana*untuk*kehilangan,*seseorang*tidak*boleh*berdagang*di*pasaran*CFD.',
   theClientUnderstands:
-    'The*client*understands*that*the*introducing*broker*or*many*third*parties*who*sell*trading*systems,*courses,*programs,*research*report*or*trading*recommendations*may*not*be*regulated*by*government*agencies.',
+    'Pelanggan*memahami*bahawa*broker*pengenalan*atau*banyak*pihak*ketiga*yang*menjual*sistem*perdagangan,*kursus,*program,*laporan*penyelidikan*atau*cadangan*perdagangan*mungkin*tidak*diatur*oleh*agensi*kerajaan.',
   ifTheCustomer:
-    'If*the*customer*has*previously*been*told*or*believed*that*the*use*of*any*third*party*trading*system,*course,*program,*or*research*report*or*advices*provided*by*the*introducing*broker*or*other*third*party*will*bring*trading*profits,*the*customer*hereby*confirms,*agrees*and*understands*on*trading*CFD*transactions*through*any*third*party*trading*system.'
+    'Sekiranya*pelanggan*sebelumnya*diberitahu*atau*percaya*bahawa*penggunaan*sistem*perdagangan*pihak*ketiga,*kursus,*program,*atau*laporan*penyelidikan*atau*nasihat*yang*diberikan*oleh*broker*pengenalan*atau*pihak*ketiga*yang*lain*akan*membawa*keuntungan*perdagangan,*pelanggan*dengan*ini*mengesahkan,*setuju*dan*memahami*perdagangan*CFD*melalui*mana-mana*sistem*perdagangan*pihak*ketiga.'
 };
