@@ -121,7 +121,7 @@ const MT4PCDownload: React.FC<{}> = () => {
         </Flex>
       </Flex>
 
-      {/* Intuitive and easy to use */}
+      {/* Why choose MetaTrader 4 platform? */}
       <Flex
         bgColor="gray.100"
         w="100%"
@@ -141,7 +141,7 @@ const MT4PCDownload: React.FC<{}> = () => {
           width={{ base: '80vw', xl: '40vw' }}
           textAlign={isArabic ? 'right' : 'left'}
         >
-          <InfoTitle title={t('intuitiveAndEasyToUse')} />
+          <InfoTitle title={t('whyChoose')} />
 
           <List spacing={3} my={10}>
             <InfoList text={t('MT4IsTheMostPopularForeign')} />

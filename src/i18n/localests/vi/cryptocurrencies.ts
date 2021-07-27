@@ -1,51 +1,51 @@
 import { Cryptocurrencies } from '../@types/cryptocurrencies';
 
 export const cryptocurrencies: Cryptocurrencies = {
-  cryptoCurrency: 'Crypto*currency',
+  cryptoCurrency: 'Tiền*điện*tử',
   bitcoinIsAGameChanging:
-    'Bitcoin*is*a*game-changing*digital*asset*that*has*been*a*hot*topic*around*the*world.It*is*by*far*the*most*popular*virtual*currency,*and*its*market*share*accounts*for*more*than*one-third*of*the*total*virtual*currency*market.Since*its*launch*in*2009,*Bitcoin*has*recorded*dramatic*growth.Not*only*has*its*price*surged*within*a*few*weeks*or*months,*there*are*more*than*16*million*coins*in*circulation,*greatly*increasing*its*liquidity.',
-  viewTradingProducts: 'View*Trading*Products',
+    'Bitcoin*là*một*tài*sản*kỹ*thuật*số*thay*đổi*cuộc*chơi*đã*trở*thành*một*chủ*đề*nóng*trên*toàn*thế*giới*。Cho*đến*nay，*nó*là*loại*tiền*ảo*phổ*biến*nhất*và*thị*phần*của*nó*chiếm*hơn*một*phần*ba*tổng*thị*trường*tiền*ảo*。Kể*từ*khi*ra*mắt*vào*năm*2009，*Bitcoin*đã*ghi*nhận*sự*tăng*trưởng*mạnh*mẽ*。chỉ*tăng*giá*trong*vòng*vài*tuần*hoặc*vài*tháng，*có*hơn*16*triệu*đồng*tiền*đang*được*lưu*hành，*làm*tăng*tính*thanh*khoản*của*nó*。',
+  viewTradingProducts: 'Xem*Sản*phẩm*Giao*dịch',
   bitcoinCanBe:
-    'Bitcoin*can*be*regarded*as*the*most*successful*cryptocurrency,*because*it*has*a*huge*popularity*among*traders*and*investors,and*its*huge*price*volatility*provides*attractive*entry*and*exit*points.',
-  advantagesOfCryptoCurrency: 'Advantages*of*crypto*currency',
+    'Bitcoin*có*thể*được*coi*là*tiền*điện*tử*thành*công*nhất，*vì*nó*có*sự*phổ*biến*rộng*rãi*giữa*các*nhà*giao*dịch*và*nhà*đầu*tư，*và*sự*biến*động*giá*lớn*của*nó*cung*cấp*các*điểm*vào*và*ra*hấp*dẫn.',
+  advantagesOfCryptoCurrency: 'Ưu*điểm*của*tiền*điện*tử',
   inViewOfBitcoinsRole:
-    "In*view*of*Bitcoin's*role*in*hedging*risks,*this*crypto*currency*is*likely*to*be*called*the*“new*gold”.*In*addition*to*the*development*of*blockchain*technology,*the*investment*and*trading*of*crypto*currencies*such*as*Bitcoin,*Ethereum,*and*Litecoin*have*gradually*become*popular*in*the*financial*market.*The*substantial*price*fluctuations*of*crypto*currencies*give*investors*the*opportunity*to*quickly*capture*potential*profits.",
-  theCFDSystem: 'The*CFD*system',
+    'Theo*quan*điểm*về*vai*trò*của*Bitcoin*trong*việc*phòng*ngừa*rủi*ro，*loại*tiền*điện*tử*này*có*khả*năng*được*gọi*là*“vàng*mới”。*Bên*cạnh*sự*phát*triển*của*công*nghệ*blockchain，*việc*đầu*tư*và*kinh*doanh*các*loại*tiền*mã*hóa*như*Bitcoin，*Ethereum，*Litecoin*dần*trở*nên*phổ*biến*trên*thị*trường*tài*chính。*Sự*biến*động*giá*đáng*kể*của*tiền*điện*tử*mang*đến*cho*các*nhà*đầu*tư*cơ*hội*nhanh*chóng*thu*được*lợi*nhuận*tiềm*năng.',
+  theCFDSystem: 'Hệ*thống*CFD',
   asAGlobalCurrency:
-    "As*a*global*currency,*Bitcoin*does*not*affected*by*changes*in*any*country's*monetary*policy,*economic*indicators*or*geopolitical*difficulties.*Through*WCG's*trading*platform,*you*can*use*CFD*(Contracts*For*Difference)*to*participate*in*crypto*currency*investment*with*margin*without*investing*all*your*funds.*Opening*a*real*or*demo*account*now*and*try*out*our*most*advanced*and*efficient*trading*system.",
-  howToTradeCryptoCurrency: 'How*to*trade*crypto*currency',
+    'Là*một*loại*tiền*tệ*toàn*cầu，*Bitcoin*không*bị*ảnh*hưởng*bởi*những*thay*đổi*trong*chính*sách*tiền*tệ，*chỉ*số*kinh*tế*hoặc*khó*khăn*địa*chính*trị*của*bất*kỳ*quốc*gia*nào。*Thông*qua*nền*tảng*giao*dịch*của*WCG，*bạn*có*thể*sử*dụng*CFD*(Contracts*For*Difference)*để*tham*gia*đầu*tư*tiền*điện*tử*có*ký*quỹ*mà*không*cần*đầu*tư*tất*cả*số*tiền*của*mình。*Mở*tài*khoản*thật*hoặc*tài*khoản*demo*ngay*bây*giờ*và*thử*hệ*thống*giao*dịch*tiên*tiến*và*hiệu*quả*nhất*của*chúng*tôi.',
+  howToTradeCryptoCurrency: 'Cách*giao*dịch*tiền*điện*tử',
   cryptoCurrencyTransactions:
-    'Crypto*currency*transactions*are*very*similar*to*foreign*exchange*transactions*in*many*aspects.*Our*crypto*currencies*are*quoted*in*US*dollars*or*Euros,*and*you*can*change*their*prices*against*the*quote*currency*of*your*choice*at*anytime.',
+    'Các*giao*dịch*tiền*điện*tử*rất*giống*với*các*giao*dịch*ngoại*hối*ở*nhiều*khía*cạnh。*Các*loại*tiền*điện*tử*của*chúng*tôi*được*định*giá*bằng*đô*la*Mỹ*hoặc*Euro*và*bạn*có*thể*thay*đổi*giá*của*chúng*so*với*loại*tiền*định*giá*mà*bạn*chọn*bất*cứ*lúc*nào.',
   ifYouSpeculate:
-    'If*you*speculate*that*Bitcoin*will*appreciate*against*the*u.s*dollar,*you*can*buy*the*BTC/USD*product.*After*buying,*if*the*price*moves*in*a*direction*that*is*beneficial*to*you,*you*can*make*a*profit;*if*the*price*moves*in*a*direction*that*is*not*favor*for*you,*you*will*lose*money.',
-  basicConceptsOfCryptoCurrency: 'Basic*concepts*of*crypto*currency',
+    'Nếu*bạn*suy*đoán*rằng*Bitcoin*sẽ*tăng*giá*so*với*đô*la*Mỹ，*bạn*có*thể*mua*sản*phẩm*BTC*/*USD。*Sau*khi*mua，*nếu*giá*di*chuyển*theo*hướng*có*lợi*cho*bạn，*bạn*có*thể*kiếm*lời;*nếu*giá*di*chuyển*theo*hướng*không*có*lợi*cho*bạn，*bạn*sẽ*mất*tiền.',
+  basicConceptsOfCryptoCurrency: 'Các*khái*niệm*cơ*bản*về*tiền*điện*tử',
   cryptoCurrencyIsACurrency:
-    'Crypto*currency*is*a*currency*that*only*exists*on*the*Internet.*Unlike*ordinary*fiat*currencies,*it*is*not*issued*by*the*government*or*central*bank.*Since*the*price*of*Bitcoin*exceeded*$7,000,*it*has*become*one*of*the*focuses*of*the*financial*market.*Bitcoin*is*the*first*crypto*currency,*and*there*are*more*than*1,000*other*crypto*currencies*worldwide.',
+    'Tiền*điện*tử*là*một*loại*tiền*tệ*chỉ*tồn*tại*trên*Internet。*Không*giống*như*các*loại*tiền*tệ*fiat*thông*thường，*nó*không*được*phát*hành*bởi*chính*phủ*hoặc*ngân*hàng*trung*ương。*Kể*từ*khi*giá*Bitcoin*vượt*quá*7,000*đô*la，*nó*đã*trở*thành*một*trong*những*tâm*điểm*của*thị*trường*tài*chính。*Bitcoin*là*loại*tiền*mã*hóa*đầu*tiên*và*có*hơn*1.000*loại*tiền*mã*hóa*khác*trên*toàn*thế*giới.',
   bitcoinAndManyOther:
-    'Bitcoin*and*many*other*digital*currencies,*including*Litecoin*and*Ethereum,*are*produced*through*"mining";*and*other*digital*currencies,*including*Ripple*and*NEO,*is*directly*supplied*by*the*market.',
-  understandBitcoin: 'Understand*Bitcoin',
+    'Bitcoin*và*nhiều*loại*tiền*kỹ*thuật*số*khác，*bao*gồm*Litecoin*và*Ethereum，*được*sản*xuất*thông*qua*"khai*thác";*và*các*loại*tiền*kỹ*thuật*số*khác，*bao*gồm*Ripple*và*NEO，*được*cung*cấp*trực*tiếp*bởi*thị*trường.',
+  understandBitcoin: 'Hiểu*biết*về*Bitcoin',
   bitcoinWasFounded:
-    'Bitcoin*was*founded*in*2009*by*a*person*or*a*group*of*people*with*the*pseudonym*Satoshi*Nakamoto,*and*its*goal*is*to*establish*a*decentralized*payment*system.*This*innovative*idea*is*based*on*a*technology*called*blockchain,*which*can*be*understood*as*a*public*database*for*storing*and*recording*all*bitcoin*transactions.*The*reason*why*Bitcoin*can*complete*transactions*without*a*bank*is*because*blockchain*technology*allows*everyone*to*see*and*verify*digital*currency*transactions.',
-  limitedSupply: 'Limited*supply',
+    'Bitcoin*được*thành*lập*vào*năm*2009*bởi*một*người*hoặc*một*nhóm*người*với*bút*danh*Satoshi*Nakamoto*và*mục*tiêu*của*nó*là*thiết*lập*một*hệ*thống*thanh*toán*phi*tập*trung。*Ý*tưởng*sáng*tạo*này*dựa*trên*một*công*nghệ*gọi*là*blockchain，*có*thể*hiểu*là*cơ*sở*dữ*liệu*công*cộng*để*lưu*trữ*và*ghi*lại*tất*cả*các*giao*dịch*bitcoin。*Lý*do*tại*sao*Bitcoin*có*thể*hoàn*thành*giao*dịch*mà*không*cần*ngân*hàng*là*vì*công*nghệ*blockchain*cho*phép*mọi*người*xem*và*xác*minh*các*giao*dịch*tiền*kỹ*thuật*số.',
+  limitedSupply: 'Hàng*hiếm',
   SatoshiNakamoto:
-    'Satoshi*Nakamoto*limited*its*supply*to*21*million*when*designing*Bitcoin.*This*is*very*important*for*measuring*the*value*of*an*asset,*because*it*means*that*no*bank*can*put*more*bitcoin*into*the*market.*Therefore,*bitcoin*is*often*seen*as*an*anti-inflation*product*comparable*to*gold.',
-  itCanBeObtainedThroughMining: 'It*can*be*obtained*through*mining',
+    'Satoshi*Nakamoto*đã*giới*hạn*nguồn*cung*của*mình*ở*mức*21*triệu*khi*thiết*kế*Bitcoin。*Điều*này*rất*quan*trọng*để*đo*lường*giá*trị*của*một*tài*sản，*bởi*vì*nó*có*nghĩa*là*không*ngân*hàng*nào*có*thể*đưa*thêm*bitcoin*vào*thị*trường。*Do*đó，*bitcoin*thường*được*xem*như*một*sản*phẩm*chống*lạm*phát*có*thể*so*sánh*với*vàng.',
+  itCanBeObtainedThroughMining: 'Có*thể*thu*được*thông*qua*khai*thác',
   theSoCalledMining:
-    "The*so-called*mining*is*the*use*of*computer*algorithms*to*solve*complex*mathematical*problems*to*ensure*the*consistency*of*the*Bitcoin*network's*decentralized*accounting*system.*The*network*is*set*to*get*a*qualified*answer*about*every*ten*minutes,*and*then*the*bitcoin*network*will*generate*a*certain*amount*of*bitcoin*as*a*block*reward,*and*reward*those*who*get*the*answer,*that*is,*receive*bitcoin.",
-  fastTransactions: 'Fast*transactions',
+    'Cái*gọi*là*khai*thác*là*việc*sử*dụng*các*thuật*toán*máy*tính*để*giải*quyết*các*vấn*đề*toán*học*phức*tạp*nhằm*đảm*bảo*tính*nhất*quán*của*hệ*thống*kế*toán*phi*tập*trung*của*mạng*Bitcoin。*Mạng*được*thiết*lập*để*nhận*được*một*câu*trả*lời*đủ*điều*kiện*khoảng*mười*phút*một*lần*và*sau*đó*mạng*bitcoin*sẽ*tạo*ra*một*lượng*bitcoin*nhất*định*dưới*dạng*phần*thưởng*khối*và*thưởng*cho*những*người*nhận*được*câu*trả*lời，*tức*là*nhận*được*bitcoin.',
+  fastTransactions: 'Giao*dịch*nhanh*chóng',
   theAverageVerificationTime:
-    'The*average*verification*time*for*bitcoin*transactions*is*ten*minutes,*which*means*you*can*send*bitcoin*to*any*place*in*the*world*within*ten*minutes,*even*on*weekends.*Although*it*may*sound*incredible,*with*the*emergence*of*more*new*digital*currencies*that*focus*on*transaction*speed,*Bitcoin*is*no*longer*the*fastest*payment*method.',
-  BitcoinsHistoricalPrice: "Bitcoin's*historical*price",
+    'Thời*gian*xác*minh*trung*bình*cho*các*giao*dịch*bitcoin*là*mười*phút，*có*nghĩa*là*bạn*có*thể*gửi*bitcoin*đến*bất*kỳ*nơi*nào*trên*thế*giới*trong*vòng*mười*phút，*ngay*cả*vào*cuối*tuần。*Mặc*dù*nghe*có*vẻ*khó*tin*nhưng*với*sự*xuất*hiện*của*nhiều*loại*tiền*kỹ*thuật*số*mới*tập*trung*vào*tốc*độ*giao*dịch，*Bitcoin*không*còn*là*phương*thức*thanh*toán*nhanh*nhất.',
+  BitcoinsHistoricalPrice: 'Giá*lịch*sử*của*bitcoin',
   comparedWithTraditionalCurrencies:
-    'Compared*with*traditional*currencies,*crypto*currencies*are*very*volatile.*The*weekly*volatility*of*traditional*currencies*is*usually*less*than*1%,*while*Bitcoin*was*60%*in*2017.*Some*other*crypto*currencies*have*even*greater*volatility.*Although*some*people*think*that*the*price*of*crypto*currencies*is*full*of*bubbles,*their*volatility*level*undoubtedly*provides*many*trading*opportunities*for*day*traders.',
+    'So*với*các*loại*tiền*truyền*thống，*tiền*điện*tử*rất*dễ*biến*động。*Mức*biến*động*hàng*tuần*của*các*loại*tiền*truyền*thống*thường*ít*hơn*1%，*trong*khi*Bitcoin*là*60%*vào*năm*2017。*Một*số*loại*tiền*mã*hóa*khác*còn*có*mức*biến*động*lớn*hơn。*Mặc*dù*một*số*người*nghĩ*rằng*giá*của*các*loại*tiền*mã*hóa*đầy*bong*bóng*nổ，*nhưng*mức*độ*biến*động*của*chúng*chắc*chắn*mang*lại*nhiều*cơ*hội*giao*dịch*cho*các*nhà*giao*dịch*trong*ngày.',
   fromThePerspectiveOfVolatility:
-    'From*the*perspective*of*volatility,*there*have*been*several*significant*price*changes*of*Bitcoin*since*2013.',
+    'Từ*góc*độ*biến*động,*đã*có*một*số*thay*đổi*đáng*kể*về*giá*của*Bitcoin*kể*từ*năm*2013.',
   HighPointInTheSpring:
-    'High*point*in*the*spring*of*2013:*The*first*burst*of*Bitcoin*price*occurred*from*March*to*April*2013,*when*its*price*soared*from*$30*to*$230.*One*possible*reason*for*this*rise*is*that*the*banking*industry*in*Cyprus*is*dangerous.*At*that*time,*large*deposits*exceeding*a*certain*amount*may*be*directly*confiscated*by*the*bank,*and*Bitcoin*is*completely*immune*to*such*incidents.',
+    'Đỉnh*điểm*vào*mùa*xuân*năm*2013:*Đợt*bùng*nổ*giá*Bitcoin*đầu*tiên*xảy*ra*từ*tháng*3*đến*tháng*4*năm*2013,*khi*giá*của*nó*tăng*vọt*từ*30*đô*la*lên*230*đô*la.*Một*lý*do*có*thể*cho*sự*gia*tăng*này*là*ngành*ngân*hàng*ở*Síp*rất*nguy*hiểm.*Khi*đó,*những*khoản*tiền*gửi*lớn*vượt*quá*một*số*lượng*nhất*định*có*thể*bị*ngân*hàng*tịch*thu*trực*tiếp*và*Bitcoin*hoàn*toàn*miễn*nhiễm*với*những*sự*cố*như*vậy.',
   riseInNovember:
-    'Rise*in*November*2013:*Due*to*increased*demand*from*China*and*the*US*Senate’s*interest*in*Bitcoin,*the*price*of*Bitcoin*rose*to*$1,000.',
+    'Tăng*vào*tháng*11*năm*2013:*Do*nhu*cầu*gia*tăng*từ*Trung*Quốc*và*sự*quan*tâm*của*Thượng*viện*Hoa*Kỳ*đối*với*Bitcoin,*giá*Bitcoin*đã*tăng*lên*1.000*đô*la.',
   lowPointInJanuary:
-    'Low*point*in*January*2015:*Due*to*the*restrictions*of*the*Chinese*government*and*the*arrest*of*the*founder*of*Silk*Road,*an*online*drug*trading*platform,*the*price*of*Bitcoin*dropped*sharply.',
-  highPoint: '2017*high*point:*The*price*of*Bitcoin*broke*above*$10,000.',
-  highestPointSoFar: 'Highest*point*so*far:*$63,000'
+    'Thời*điểm*thấp*điểm*vào*tháng*1/2015:*Do*những*hạn*chế*của*chính*phủ*Trung*Quốc*và*việc*bắt*giữ*người*sáng*lập*Silk*Road,*một*sàn*giao*dịch*ma*túy*trực*tuyến,*giá*Bitcoin*đã*giảm*mạnh.',
+  highPoint: 'Đỉnh*cao*năm*2017:*Giá*Bitcoin*đã*vượt*qua*mức*10.000*đô*la.',
+  highestPointSoFar: 'Điểm*cao*nhất*cho*đến*nay:*63.000*đô*la.'
 };

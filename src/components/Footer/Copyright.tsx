@@ -19,7 +19,7 @@ export const Copyright: React.FC<{}> = () => {
         {t('copyright')}
       </Box>
 
-      <Flex direction={{ base: 'column', md: 'row' }}>
+      <Flex direction={{ base: 'column', xl: 'row' }}>
         <Flex wrap="wrap">
           <CopyrightLinks
             text={t('privacyPolicy')}
@@ -32,7 +32,7 @@ export const Copyright: React.FC<{}> = () => {
           />
         </Flex>
 
-        <Box mx={1} display={{ base: 'none', lg: 'flex' }}>
+        <Box mx={1} display={{ base: 'none', xl: 'flex' }}>
           |
         </Box>
 

@@ -17,9 +17,9 @@ export const conditions: Conditions = {
   WCGOtherCompanies:
     'WCG*other*companies*include*wholly-owned*or*partially-owned*companies*in*the*name*of*wholly-owned*subsidiaries*or*affiliated*companies*of*subsidiaries*or*directors*and*employees*of*the*group;',
   agentsAndThirdPartyService:
-    'Agents*and*third-party*service*providers*who*handle*related*business*for*customers*include:*clearing*houses,*professional*service*companies,*financial*institutions,*computer*system*service*providers,*and*telecommunication*system*support*services*as*necessary*procedures*for*completing*customer*services;',
+    'Agents*and*third-party*service*providers*who*handle*related*business*for*customers*include:*clearing*houses,*professional*service*companies,*financial*institutions,*computer*system*service*providers,*and*telecommunication*system*support*services*as*necessary*procedures*for*completing*customer*services',
   anyRegulatoryOrGovernmentAgency:
-    'Any*regulatory*or*government*agency*that*is*related*to*or*supervises*any*business*of*WCG;',
+    'Any*regulatory*or*government*agency*that*is*related*to*or*supervises*any*business*of*WCG',
   personsDeemedAppropriate:
     "Persons*deemed*appropriate*or*appropriate*in*accordance*with*the*confidentiality*obligation,*including*group*member*companies*and*their*employees.*These*authorized*persons*must*keep*the*customer's*personal*information*confidential.",
   AccordingTo:

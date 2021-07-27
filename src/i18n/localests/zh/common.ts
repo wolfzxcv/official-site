@@ -1,8 +1,8 @@
 import { Common } from '../@types/common';
 
 export const common: Common = {
-  openRealAccount: '開立真實賬戶',
-  openDemoAccount: '開立模擬賬戶',
+  openRealAccount: '開立真實帳戶',
+  openDemoAccount: '開立模擬帳戶',
   usersCenter: '客戶中心',
   iBCenter: '代理中心',
   contactUs: '聯繫我們',

@@ -175,7 +175,6 @@ const MAMSystem: React.FC<{}> = () => {
             <InfoList text={t('compatibleWithEA')} />
             <InfoList text={t('establishMultipleTrading')} />
             <InfoList text={t('accordingToAccountLevel')} />
-            <InfoList text={t('aNumberOfTradingProducts')} />
             <InfoList text={t('customersCanStart')} />
             <InfoList text={t('compatibleWithAll')} />
             <InfoList text={t('thereIsNoLimit')} />

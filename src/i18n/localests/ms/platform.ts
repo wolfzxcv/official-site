@@ -2,124 +2,124 @@ import { Platform } from '../@types/platform';
 
 export const platform: Platform = {
   efficientAndFreeTrading:
-    'Efficient*and*free*trading*experience*starts*with*a*powerful*and*fair*trading*platform,*intuitive*and*easy*to*use,*supports*various*order*types,*single-click*order*placing*and*charting*tools.',
-  personalTradingIndicators: 'Personal*trading*indicators',
+    'Pengalaman*perdagangan*yang*cekap*dan*percuma*bermula*dengan*platform*perdagangan*yang*kuat*dan*adil，*intuitif*dan*mudah*digunakan，*menyokong*pelbagai*jenis*pesanan，*alat*membuat*pesanan*dan*membuat*grafik*satu*klik',
+  personalTradingIndicators: 'Petunjuk*perdagangan*peribadi',
   MT4ProvidesSimpleAndEasyToUse:
-    'MT4*provides*simple*and*easy-to-use*tools*to*formulate*personal*trading*indicators*according*to*your*trading*style,*and*can*easily*implement*transactions*through*exclusive*indicator*libraries,*scripts*and*Expert*Advisors.',
-  advancedChartTools: 'Advanced*chart*tools',
+    'MT4*menyediakan*alat*yang*mudah*dan*senang*digunakan*untuk*merumuskan*petunjuk*perdagangan*peribadi*mengikut*gaya*perdagangan*anda*dan*dapat*dengan*mudah*melaksanakan*transaksi*melalui*perpustakaan，*skrip*dan*Penasihat*Pakar*petunjuk*eksklusif.',
+  advancedChartTools: 'Alat*carta*lanjutan',
   MT4Provides31Chart:
-    'MT4*provides*31*chart*analysis*tools*and*30*different*trading*indicators,*you*can*set*each*indicator*and*chart*category,*establish*parameters*and*display*methods*that*suit*you,*so*that*you*can*get*a*satisfactory*trading*experience.',
-  diversifiedInvestmentTransactions: 'Diversified*investment*transactions',
+    'MT4*menyediakan*31*alat*analisa*carta*dan*30*petunjuk*perdagangan*yang*berbeza，*anda*boleh*menetapkan*setiap*kategori*petunjuk*dan*carta，*menetapkan*parameter*dan*kaedah*paparan*yang*sesuai*dengan*anda，*sehingga*anda*dapat*memperoleh*pengalaman*perdagangan*yang*memuaskan.',
+  diversifiedInvestmentTransactions: 'Urus*niaga*pelaburan*yang*pelbagai',
   theBestWayToManageRisk:
-    'The*best*way*to*manage*risk*is*to*diversify*investment.*In*WCG’s*MT4*trading*platform,*you*can*choose*from*a*series*of*trading*products*and*markets*to*strengthen*and*diversify*your*investment.',
-  intuitiveAndEasyToUse: 'Intuitive*and*easy*to*use',
+    'Cara*terbaik*untuk*menguruskan*risiko*adalah*dengan*mempelbagaikan*pelaburan.*Dalam*platform*perdagangan*MT4*WCG，*anda*boleh*memilih*dari*rangkaian*produk*dan*pasaran*perdagangan*untuk*mengukuhkan*dan*mempelbagaikan*pelaburan*anda.',
+  intuitiveAndEasyToUse: 'Intuitif*dan*senang*digunakan',
   completeAndComprehensiveReports:
-    'Complete*and*comprehensive*reports,*such*as*tracking*number,*opening*price,*transaction*volume,*account*status*of*all*orders*and*comprehensive*information*about*positions,*can*be*provided*in*the*terminal*window.*You*can*view*real-time*market*information*anytime,*anywhere,*to*assist*you*in*making*rational*trading*decisions.*More*supports*for*intelligent*trading*(EA)*and*strategy*back-testing*systems,*to*provide*you*with*a*high*degree*of*trading*flexibility,*supervision*and*control.',
-  automaticAdaptabilityAndScalability: 'Automatic*adaptability*and*scalability',
+    'Laporan*lengkap*dan*komprehensif，*seperti*nombor*penjejakan，*harga*pembukaan，*jumlah*transaksi，*status*akaun*semua*pesanan*dan*maklumat*komprehensif*mengenai*kedudukan，*dapat*diberikan*di*jendela*terminal.*Anda*dapat*melihat*maklumat*pasaran*masa*nyata*bila-bila，*di*mana*sahaja，*untuk*membantu*anda*membuat*keputusan*perdagangan*yang*rasional.*Lebih*banyak*sokongan*untuk*perdagangan*pintar*(EA)*dan*sistem*ujian*balik*strategi，*untuk*memberi*anda*tahap*fleksibiliti，*pengawasan*dan*kawalan*perdagangan*yang*tinggi.',
+  automaticAdaptabilityAndScalability:
+    'Kebolehsuaian*dan*skalabiliti*automatik',
   throughTheFurtherDevelopment:
-    'Through*the*further*development*of*the*API*program,*WCG*MT4*can*be*perfectly*integrated*with*your*existing*trading*equipment.*No*matter*where*you*are*in*any*corner*of*the*world,*you*can*always*access*your*trading*platform*to*customize*your*indicators,*execute*instructions*and*execute*transactions.*,*Set*limit*prices,*stop*loss*orders,*and*track*market*trends*to*ensure*that*you*will*not*miss*any*trading*opportunities*and*important*market*information*even*when*you*are*outdoor.',
-  downloadWCGMT4TradingPlatform: 'Download*WCG*MT4*trading*platform',
+    'Melalui*pengembangan*lebih*lanjut*program*API，*WCG*MT4*dapat*disatukan*dengan*sempurna*dengan*peralatan*perdagangan*anda*yang*ada.*Tidak*kira*di*mana*sahaja*anda*berada*di*sudut*mana*pun*di*dunia，*anda*sentiasa*dapat*mengakses*platform*perdagangan*anda*untuk*menyesuaikan*petunjuk*anda，*melaksanakan*arahan*dan*melaksanakan*transaksi.*，*Tetapkan*had*harga，*stop*loss*order，*dan*penjejakan*trend*pasaran*untuk*memastikan*bahawa*anda*tidak*akan*melepaskan*peluang*perdagangan*dan*maklumat*pasaran*penting*walaupun*anda*berada*di*luar.',
+  downloadWCGMT4TradingPlatform: 'Muat*turun*platform*perdagangan*WCG*MT4',
   leadingTradingAndNetworkTechnology:
-    'Leading*trading*and*network*technology,*with*all*the*tools*you*need,*bringing*you*the*best*trading*experience',
-  forPC: 'MT4*for*PC',
-  forMac: 'MT4*for*Mac',
-  multiAccountManagementSystem: 'MT4*multi-account*management*system',
-  forIPhone: 'MT4*for*iPhone',
-  forAndroid: 'MT4*for*Android',
-  MT4PcVersion: 'MT4*PC*version',
+    'Teknologi*perdagangan*dan*rangkaian*terkemuka，*dengan*semua*alat*yang*anda*perlukan，*memberikan*anda*pengalaman*perdagangan*terbaik',
+  forPC: 'MT4*untuk*PC',
+  forMac: 'MT4*untuk*Mac',
+  multiAccountManagementSystem: 'Sistem*pengurusan*pelbagai*akaun*MT4',
+  forIPhone: 'MT4*untuk*iPhone',
+  forAndroid: 'MT4*untuk*Android',
+  MT4PcVersion: 'MT4*versi*PC',
   MetaTrader4IsTheMostPopular:
-    'MetaTrader*4*is*the*most*popular*online*trading*platform*over*the*world*and*has*established*a*leading*position*in*the*industry*for*many*years.*MetaTrader*4*(MT4)*is*specially*designed*for*foreign*exchange*and*futures*transactions.*Traders*can*analyze*market*trends,*draw*trading*charts,*and*manage*their*positions*and*orders*through*its*intuitive*user*interface*and*complete*functions.',
-  downloadImmediately: 'Download*Immediately',
+    'MetaTrader*4*adalah*platform*perdagangan*dalam*talian*yang*paling*popular*di*dunia*dan*telah*mendirikan*posisi*terkemuka*dalam*industri*selama*bertahun-tahun.*MetaTrader*4*(MT4)*direka*khas*untuk*pertukaran*asing*dan*urus*niaga*hadapan.*Pedagang*dapat*menganalisa*trend*pasaran，*melukis*carta*perdagangan，*dan*menguruskan*posisi*dan*pesanan*mereka*melalui*antara*muka*pengguna*yang*intuitif*dan*fungsinya*yang*lengkap.',
+  downloadImmediately: 'Muat*turun*dengan*segera',
   comprehensiveTechnicalAnalysisFunction:
-    'Comprehensive*technical*analysis*function',
+    'Fungsi*teknikal*analisis*yang*komprehensif',
   professionalIconFunctions:
-    'Professional*icon*functions,*trading*indicators,*intelligent*trading*(EAs),*etc.,*can*be*applied*to*all*traders*with*different*levels*of*experience.*Let*you*keep*up*to*date*with*the*latest*developments*in*global*foreign*exchange*margin*and*contract*for*difference*(CFD)*markets,*and*conduct*professional*transactions*anytime,*anywhere*through*WCG*MT4',
-  automaticChartingRecords: 'Automatic*charting*records',
-  selfDefinedTechnicalIndicators: 'Self-defined*technical*indicators',
-  supportMultipleWindows: 'Support*multiple*windows',
-  simpleChartingOperation: 'Simple*charting*operation',
-  nineChartingTimePeriods: 'Nine*charting*time*periods',
-  whyChoose: 'Why*choose*MetaTrader*4*platform?',
+    'Fungsi*ikon*profesional，*petunjuk*perdagangan，*perdagangan*pintar*(EA)，*dan*lain-lain，*dapat*digunakan*untuk*semua*pedagang*dengan*tahap*pengalaman*yang*berbeza.*Biarkan*anda*mengikuti*perkembangan*terkini*dalam*pasaran*margin*pertukaran*asing*dan*kontrak*untuk*perbezaan*(CFD)*global，*dan*melakukan*transaksi*profesional*bila-bila*dan*di*mana*sahaja*melalui*WCG*MT4.',
+  automaticChartingRecords: 'Rekod*carta*automatik',
+  selfDefinedTechnicalIndicators: 'Petunjuk*teknikal*yang*ditentukan*sendiri',
+  supportMultipleWindows: 'Menyokong*pelbagai*tetingkap',
+  simpleChartingOperation: 'Operasi*membuat*peta*sederhana',
+  nineChartingTimePeriods: 'Sembilan*tempoh*masa*carta',
+  whyChoose: 'Mengapa*memilih*platform*MetaTrader4？',
   MT4IsTheMostPopularForeign:
-    'MT4*is*the*most*popular*foreign*exchange*trading*platform*in*the*world',
+    'MT4*adalah*platform*perdagangan*pertukaran*wang*asing*yang*paling*popular*di*dunia。*Ia*telah*memenangi*pelbagai*anugerah',
   itHasWonVariousAwards:
-    'It*has*won*various*awards.*The*platform*has*3*different*chart*types,*9*time*periods,*39*languages',
+    'Platform*ini*mempunyai*3*jenis*carta*yang*berbeza，*9*jangka*masa，*39*bahasa',
   moreThan50Preset:
-    'more*than*50*preset*technical*indicators,*and*a*fully*customizable*interface',
-  aNumberOfTradingProducts: 'A number of trading products can be traded',
+    'lebih*daripada*50*petunjuk*teknikal*yang*telah*ditetapkan*dan*interface*yang*dapat*disesuaikan*sepenuhnya',
+  aNumberOfTradingProducts: 'Sejumlah*produk*perdagangan*boleh*diperdagangkan',
   compatibleWithExpertAdvisors:
-    'Compatible*with*Expert*Advisors*(smart*automatic*trading*programs),*custom*indicators*and*other*application*tools',
+    'Sesuai*dengan*Expert*Advisors*(program*perdagangan*automatik*pintar)，*petunjuk*khas*dan*alat*aplikasi*lain',
   itHasAMobileVersion:
-    'It*has*a*mobile*version*of*the*trading*platform.*You*can*use*the*mobile*APP*to*trade*and*manage*orders*anytime,*anywhere.',
-  provideAnAdvanced: 'Provide*an*advanced*notification*signal*system',
-  downloadTheWCGMT4: 'Download*the*WCG*MT4*trading*platform*now,',
+    'Ia*mempunyai*versi*mudah*alih*platform*perdagangan。*Anda*boleh*menggunakan*APP*mudah*alih*untuk*berdagang*dan*menguruskan*pesanan*bila-bila*dan*di*mana*sahaja',
+  provideAnAdvanced: 'Menyediakan*sistem*isyarat*pemberitahuan*lanjutan',
+  downloadTheWCGMT4:
+    'Muat*turun*platform*perdagangan*Wenchuan*MT4*sekarang*dan*mulakan',
   usingMT4AllowsYou:
-    'Using*MT4*allows*you*to*monitor*the*market*more*accurately,*manage*your*positions*quickly*and*efficiently,*optimize*trading*strategies,enhance*your*trading*advantages,*and*enjoy*a*perfect*trading*experience.',
-  tradingSystem: 'Trading*system',
+    'Menggunakan*MT4*membolehkan*anda*memantau*pasaran*dengan*lebih*tepat，*menguruskan*posisi*anda*dengan*cepat*dan*cekap，*mengoptimumkan*strategi*perdagangan，*meningkatkan*kelebihan*perdagangan*anda，*dan*menikmati*pengalaman*perdagangan*yang*sempurna.',
+  tradingSystem: 'Sistem*perdagangan',
   includesCurrentPriceExecution:
-    'Includes*current*price*execution,*trading*in*both*directions,*four*types*of*pending*orders*and*two*stop-loss*orders*and*trailing*stop-loss*functions.*The*one-click*trading*function*allows*you*to*send*trading*commands*directly*from*the*chart*with*one*click.*The*built-in*quotation*chart*provides*an*accurate*way*to*judge*the*timing*of*the*transaction.',
-  technicalAnalysis: 'Technical*analysis',
+    'Termasuk*pelaksanaan*harga*semasa，*perdagangan*ke*dua*arah，*empat*jenis*pesanan*tertunda*dan*dua*pesanan*stop-loss*dan*fungsi*trailing*stop-loss.*Fungsi*perdagangan*satu*klik*membolehkan*anda*menghantar*arahan*perdagangan*terus*dari*carta*dengan*satu*klik.*Carta*sebut*harga*terbina*dalam*menyediakan*kaedah*tepat*untuk*menilai*masa*transaksi.',
+  technicalAnalysis: 'Teknikal*Analisis',
   MT4ProvidesAMoreComprehensive:
-    'MT4*provides*a*more*comprehensive*analysis*opportunity.*Each*trading*product*can*display*nine*time*frames,*allowing*traders*to*see*detailed*price*dynamics.*Combine*these*tools*to*determine*market*trends,*and*powerful*analysis*capabilities*help*you*analyze*market*trends*more*thoroughly*and*grasp*the*best*moment.',
-  safeAndConvenient: 'Safe*and*convenient',
+    'MT4*memberikan*peluang*analisa*yang*lebih*komprehensif.*Setiap*produk*perdagangan*dapat*menampilkan*sembilan*jangka*masa，*yang*membolehkan*pedagang*melihat*dinamik*harga*secara*terperinci.*Gabungkan*alat*ini*untuk*menentukan*arah*aliran*pasaran*dan*kemampuan*analisa*yang*kuat*untuk*membantu*anda*menganalisa*trend*pasaran*dengan*lebih*mendalam*dan*memahami*saat*terbaik.',
+  safeAndConvenient: 'Selamat*dan*mudah',
   advancedTradingAndAnalysisFunctions:
-    'Advanced*trading*and*analysis*functions,*friendly*user*interface,*can*help*you*easily*understand*all*functions*and*operating*rules.*Meet*the*highest*safety*standards.*The*data*exchange*between*the*client*terminal*and*the*platform*server*is*completely*encrypted,*so*that*your*trading*account*is*protected*most*safely',
-  MT4APPVersion: 'MT4*APP*version*(Android*/*iOS)',
+    'Fungsi*perdagangan*dan*analisa*lanjutan，*interface*pengguna*yang*mesra，*dapat*membantu*anda*memahami*semua*fungsi*dan*peraturan*operasi*dengan*mudah.*Memenuhi*standard*keselamatan*tertinggi.*Pertukaran*data*antara*terminal*pelanggan*dan*platform*server*disulitkan*sepenuhnya，*sehingga*akaun*perdagangan*anda*dilindungi*dengan*paling*selamat',
+  MT4APPVersion: 'MT4*APP*versi*(Android*/*iOS)',
   weProvideTheMT4MobileApplication:
-    'We*provide*the*MT4*mobile*application,*as*long*as*you*download*and*install*the*MT4*APP*on*your*mobile*phone*or*tablet*computer,*you*can*easily*trade*anytime,*anywhere.*MT4*iOS*and*Android*APP*provide*a*more*simplified*operation*interface,*which*can*monitor*market*trends*more*conveniently*and*quickly,*and*enjoy*an*excellent*trading*experience.*Not*only*It*is*your*daily*assistant,*but*also*your*irreplaceable*tool.',
-  MetaTrader4MobileApp: 'MetaTrader4*mobile*app',
+    'Kami*menyediakan*aplikasi*mudah*alih*MT4，*selagi*anda*memuat*turun*dan*memasang*APP*MT4*di*telefon*bimbit*atau*komputer*tablet*anda，*anda*boleh*melakukan*perdagangan*dengan*mudah*pada*bila-bila*dan*di*mana*sahaja.*MT4*iOS*dan*Android*APP*menyediakan*operasi*interface*yang*lebih*mudah，*yang*dapat*memantau*trend*pasaran*dengan*lebih*mudah*dan*cepat，*dan*menikmati*pengalaman*perdagangan*yang*sangat*baik.*Bukan*hanya*itu*pembantu*harian*anda，*tetapi*juga*alat*anda*yang*tidak*dapat*diganti.',
+  MetaTrader4MobileApp: 'Aplikasi*mudah*alih*MetaTrader4',
   downloadOurMT4MobileAppNow:
-    'Download*our*MT4*mobile*app*now*and*let*it*become*your*trading*partner,*helping*you*enter*the*financial*market*anytime,*anywhere*and*grasp*every*trading*opportunity*24*hours*a*day.',
-  downloadTheIOSVersion: 'Download*the*iOS*version',
-  downloadTheAndroidVersion: 'Download*the*Android*version',
-  MAMMultiAccountManagementSystem: 'MAM*multi-account*management*system',
+    'Muat*turun*aplikasi*mudah*alih*MT4*kami*sekarang*dan*biarkan*menjadi*rakan*dagangan*anda，*membantu*anda*memasuki*pasaran*kewangan*bila-bila*masa，*di*mana*sahaja，*dan*gunakan*setiap*peluang*perdagangan*24*jam*sehari.',
+  downloadTheIOSVersion: 'Muat*turun*versi*iOS',
+  downloadTheAndroidVersion: 'Muat*turun*versi*Android',
+  MAMMultiAccountManagementSystem: 'Sistem*pengurusan*pelbagai*akaun*MAM',
   theMultiAccountManagementSystem:
-    'The*Multi-Account*Management*System*(MAM)*has*important*integrated*management*functions,*allowing*asset*managers*to*manage*multiple*accounts*through*only*one*interface.*A*single*interface*allows*asset*managers*to*effectively*and*accurately*configure*trading*conditions*for*multiple*personal*accounts,*and*evenly*distribute*the*same*trading*conditions*and*strategies*to*individual*accounts*according*to*a*preset*ratio,*helping*you*manage*trading*activities*and*improve*management*skills.',
-  consultCustomerServiceImmediately: 'Consult*customer*service*immediately',
+    'Sistem*Pengurusan*Multi-Akaun*(MAM)*mempunyai*fungsi*pengurusan*bersepadu*yang*penting，*yang*membolehkan*pengurus*aset*mengurus*banyak*akaun*melalui*satu*interface*sahaja.*Satu*interface*membolehkan*pengurus*aset*mengkonfigurasi*keadaan*perdagangan*dengan*berkesan*dan*tepat*untuk*beberapa*akaun*peribadi，*dan*mengedarkan*syarat*dan*strategi*perdagangan*yang*sama*ke*akaun*individu*mengikut*nisbah*yang*telah*ditetapkan，*membantu*anda*menguruskan*aktiviti*perdagangan*dan*meningkatkan*kemahiran*pengurusan.',
+  consultCustomerServiceImmediately: 'Rujuk*khidmat*pelanggan*dengan*segera',
   MAMAccountSupportsFiveDistributionLogics:
-    'MAM*account*supports*five*distribution*logics',
+    'Akaun*MAM*menyokong*lima*logik*pengedaran',
   theMAMSystemProvidesMultipleRatioSettings:
-    'The*MAM*system*provides*multiple*ratio*settings.*You*can*choose*the*most*suitable*plan*according*to*your*needs,*and*allow*customers*to*use*five*different*modules*to*allocate*trading*items*and*execute*all*common*order*types*at*the*same*time.',
+    'Sistem*MAM*menyediakan*beberapa*tetapan*nisbah.*Anda*boleh*memilih*rancangan*yang*paling*sesuai*dengan*keperluan*anda,*dan*membolehkan*pelanggan*menggunakan*lima*modul*yang*berbeza*untuk*memperuntukkan*item*perdagangan*dan*melaksanakan*semua*jenis*pesanan*biasa*pada*masa*yang*sama.',
   accountNetValueIsAllocatedAccordingToProportion:
-    'Account*net*value*is*allocated*according*to*proportion',
-  percentageAllocation: 'Percentage*allocation',
+    'Nilai*bersih*akaun*diperuntukkan*mengikut*perkadaran',
+  percentageAllocation: 'Peruntukan*peratusan',
   balanceIsAllocatedAccordingToProportion:
-    'Balance*is*allocated*according*to*proportion',
-  profitAndLoss: 'Allocation*by*profit*and*loss:',
-  allocationByProfitAndLoss:
-    'Profit*and*loss*are*allocated*according*to*percentage',
-  profitAndLossAre:
-    'Profit*and*loss*are*allocated*according*to*balance*percentage',
-  investment200: 'Investment*$200',
-  profit120: 'Profit*$120',
-  investment300: 'Investment*$300',
-  profit180: 'Profit*$180',
-  investment500: 'Investment*$500',
-  profit300: 'Profit*$300',
-  totalInvestment: 'Total*investment*$1000',
-  totalProfit: 'Total*profit*$600',
-  MAMFeaturesAndAdvantages: 'MAM*features*and*advantages',
+    'Baki*diperuntukkan*mengikut*bahagian',
+  profitAndLoss: 'Peruntukan*untung*rugi:',
+  allocationByProfitAndLoss: 'Untung*dan*rugi*diperuntukkan*mengikut*peratusan',
+  profitAndLossAre: 'Untung*dan*rugi*diperuntukkan*mengikut*peratusan*baki',
+  investment200: 'Pelaburan*$*200',
+  profit120: 'Keuntungan*$*120',
+  investment300: 'Pelaburan*$*300',
+  profit180: 'Keuntungan*$*180',
+  investment500: 'Pelaburan*$*500',
+  profit300: 'Keuntungan*$*300',
+  totalInvestment: 'Jumlah*pelaburan*$*1000',
+  totalProfit: 'Jumlah*keuntungan*$*600',
+  MAMFeaturesAndAdvantages: 'Ciri*dan*kelebihan*MAM',
   compatibleWithEA:
-    'Compatible*with*EA*(Expert*Advisor)*and*automatic*trading*strategies',
+    'Sesuai*dengan*EA*(Expert*Advisor)*dan*strategi*perdagangan*automatik',
   establishMultipleTrading:
-    'Establish*multiple*trading*subgroups*for*various*policies',
+    'Menetapkan*beberapa*subkumpulan*perdagangan*untuk*pelbagai*dasar',
   accordingToAccountLevel:
-    'According*to*account*level,*provide*partial*closing*function',
+    'Mengikut*tahap*akaun,*sediakan*fungsi*penutupan*separa',
   customersCanStart:
-    'Customers*can*start*to*allocate*compatible*all*MT4*order*types*when*the*trading*volume*reaches*0.01*lot',
+    'Pelanggan*boleh*mula*memperuntukkan*semua*jenis*pesanan*MT4*yang*serasi*apabila*jumlah*dagangan*mencapai*0.01*lot',
   compatibleWithAll:
-    'Compatible*with*all*MT4*orders,*for*instance,*stop*loss,*limit*price,*etc.',
-  thereIsNoLimit: 'There*is*no*limit*of*account*amount*when*placing*order.',
-  yourPartnerToTheRoadOfSuccess: 'Your*partner*to*the*road*of*success',
+    'Sesuai*dengan*semua*pesanan*MT4,*misalnya,*stop*loss,*had*harga,*dll.',
+  thereIsNoLimit: 'Tidak*ada*had*jumlah*akaun*semasa*membuat*pesanan.',
+  yourPartnerToTheRoadOfSuccess: 'Rakan*kongsi*anda*ke*jalan*kejayaan',
   toProvideYouWithFlexibleAndCompetitiveRates:
-    'To*provide*you*with*flexible*and*competitive*rates,*fast*setting*and*high-level*continuous*support,*the*MAM*system*also*provides*a*list*of*all*the*information*you*need*including*outstanding*trades,*balances,*profit*and*loss,*customer*contact*information,*etc.',
-  transparentCommissionDetails: 'Transparent*commission*details*at*a*glance',
+    'Untuk*memberi*anda*kadar*fleksibel*dan*kompetitif，*pengaturan*cepat*dan*sokongan*berterusan*tahap*tinggi，*sistem*MAM*juga*menyediakan*senarai*semua*maklumat*yang*anda*perlukan*termasuk*perdagangan，*baki，*untung*dan*rugi，*maklumat*hubungan*pelanggan，*dll.',
+  transparentCommissionDetails: 'Maklumat*komisen*telus*dengan*sekilas',
   realTimeDisplay:
-    'Real-time*display*of*the*main*account*and*sub-account*details,*including*profit,*commission,*rollover*interest,*balance*and*margin*level.',
-  convenientAndFastExecution: 'Convenient*and*fast*execution',
+    'Paparan*masa*nyata*bagi*butiran*akaun*utama*dan*sub-akaun，*termasuk*keuntungan，*komisen，*faedah*rollover，*baki*dan*tahap*margin.',
+  convenientAndFastExecution: 'Pelaksanaan*yang*mudah*dan*pantas',
   allTransactionOrders:
-    'All*transaction*orders*are*executed*through*the*main*account,*and*then*transferred*to*the*sub-account*according*to*the*configuration*method*you*choose.',
-  AMustHaveSystem: 'A*must-have*system*for*introducing*brokers',
+    'Semua*pesanan*transaksi*dilaksanakan*melalui*akaun*utama，*dan*kemudian*dipindahkan*ke*sub-akaun*mengikut*kaedah*konfigurasi*yang*anda*pilih.',
+  AMustHaveSystem: 'Sistem*yang*harus*ada*untuk*introducing*broker',
   multilingualTradingPlatform:
-    'Multilingual*trading*platform*and*marketing*materials,*good*liquidity,*reliable*execution,*unlimited*accounts*can*be*opened,*allowing*you*to*become*a*professional*broker.'
+    'Platform*perdagangan*dan*bahan*pemasaran*pelbagai*bahasa，*kecairan*yang*baik，*pelaksanaan*yang*boleh*dipercayai，*akaun*tanpa*had*dapat*dibuka，*yang*membolehkan*anda*untuk*menjadi*broker*profesional.'
 };

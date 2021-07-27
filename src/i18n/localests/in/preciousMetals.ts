@@ -1,74 +1,74 @@
 import { PreciousMetals } from '../@types/preciousMetals';
 
 export const preciousMetals: PreciousMetals = {
-  howToTradePreciousMetals: 'How*to*trade*precious*metals',
+  howToTradePreciousMetals: 'Bagaimana*cara*berdagang*logam*mulia',
   forThoseTraders:
-    'For*those*traders*who*are*interested*in*balancing*their*investment*portfolios,*precious*metals*trading*is*an*important*component,*because*precious*metals*are*regarded*as*a*hedging*asset*that*can*prevent*inflation.*In*WCG,*precious*metals*are*quoted*in*US*dollars.',
+    'Bagi*para*trader*yang*tertarik*untuk*menyeimbangkan*portofolio*investasinya，*perdagangan*logam*mulia*merupakan*komponen*penting，*karena*logam*mulia*dianggap*sebagai*aset*lindung*nilai*yang*dapat*mencegah*terjadinya*inflasi。*Di*WCG，*logam*mulia*ditulis*dalam*dolar*AS.',
   thisMeansThatWhenTradingGold:
-    'This*means*that*when*trading*gold,*you*are*speculating*whether*the*price*of*an*ounce*of*gold*will*rise*or*fall*against*the*US*dollar.*We*assume*that*the*current*price*of*gold*is*$1,300.60.*You*think*the*price*may*rise*in*the*future,*so*you*buy*100*ounces*(1*lot)*of*gold*(code*XAU/USD).',
+    'Ini*berarti*bahwa*ketika*memperdagangkan*emas，*Anda*berspekulasi*apakah*harga*satu*ons*emas*akan*naik*atau*turun*terhadap*dolar*AS。*Kami*berasumsi*bahwa*harga*emas*saat*ini*adalah*$*1。300，60。*Anda*pikir*harga*akan*naik*di*masa*depan，*jadi*Anda*membeli*100*ons*(1*lot)*emas*(kode*XAU*/*USD).',
   whenThePriceRisesTo:
-    'When*the*price*rises*to*1305.80,*you*decide*to*close*the*trade.*Your*profit*is*the*difference*between*the*opening*price*and*closing*price*multiplied*by*the*number*of*ounces*you*trade.*In*this*transaction,*your*profit*is*$520.',
-  viewTradingProducts: 'View*Trading*Products',
-  diversifiedInvestment: 'Diversified*investment',
+    'Ketika*harga*naik*ke*1305。80，*Anda*memutuskan*untuk*menutup*perdagangan。*Keuntungan*Anda*adalah*selisih*antara*harga*pembukaan*dan*harga*penutupan*dikalikan*dengan*jumlah*ons*yang*Anda*perdagangkan。*Dalam*transaksi*ini，*keuntungan*Anda*$*520.',
+  viewTradingProducts: 'Lihat*Produk*Perdagangan',
+  diversifiedInvestment: 'Investasi*yang*beragam',
   justAsExperiencedInvestors:
-    'Just*as*experienced*investors*like*large*institutions,*tend*to*diversify*their*investment*portfolios*to*reduce*risks*and*increase*returns.*Gold*trading*is*considered*an*excellent*way*to*diversify*your*portfolio,*because*the*price*of*gold*is*often*inversely*correlated*with*the*stock*market.',
-  fightAgainstInflation: 'Fight*against*inflation',
+    'Seperti*halnya*investor*berpengalaman*seperti*institusi*besar，*cenderung*mendiversifikasi*portofolio*investasinya*untuk*mengurangi*risiko*dan*meningkatkan*keuntungan。*Perdagangan*emas*dianggap*sebagai*cara*terbaik*untuk*mendiversifikasi*portofolio*Anda，*karena*harga*emas*seringkali*berkorelasi*terbalik*dengan*pasar*saham.',
+  fightAgainstInflation: 'Lawan*inflasi',
   asInflationIntensifies:
-    'As*inflation*intensifies,*currency*will*depreciate*over*time,*and*gold*is*more*valuable*than*currency*while*facing*inflation.*Even*in*2008*when*the*global*market*fell*into*recession,*gold*prices*were*hardly*affected.*In*fact,*from*2007*to*2008,*the*price*of*gold*rose*by*about*4%.',
-  highStorageValue: 'High*storage*value',
+    'Ketika*inflasi*meningkat，*mata*uang*akan*terdepresiasi*seiring*waktu，*dan*emas*lebih*berharga*daripada*mata*uang*saat*menghadapi*inflasi。*Bahkan*pada*tahun*2008*ketika*pasar*global*mengalami*resesi，*harga*emas*hampir*tidak*terpengaruh。*Padahal，*dari*2007*hingga*2008，*harga*emas*naik*sekitar*4%.',
+  highStorageValue: 'Nilai*penyimpanan*tinggi',
   about95OfTheWorldsGold:
-    "About*95%*of*the*world's*gold*is*held*as*jewelry*or*under*gold*vaults.*Compared*with*the*amount*of*gold*hoarded,*the*supply*of*gold*has*grown*at*a*very*low*rate*every*year.*Therefore,*the*price*of*gold*has*been*rising*for*the*past*50*years.",
+    'Sekitar*95%*emas*dunia*disimpan*sebagai*perhiasan*atau*di*bawah*brankas*emas。*Dibandingkan*dengan*jumlah*emas*yang*ditimbun，*pasokan*emas*tumbuh*dengan*laju*yang*sangat*rendah*setiap*tahun。*Karenanya，*harga*emas*telah*meningkat*selama*50*tahun*terakhir.',
   preciousMetalsAreDifficultToMine:
-    'Precious*metals*are*difficult*to*mine,*resulting*in*their*scarcity*and*high*prices.*This*is*why*people*call*these*metals*"precious"*metals.',
+    'Logam*mulia*sulit*untuk*ditambang，*mengakibatkan*kelangkaan*dan*harga*yang*tinggi。*Inilah*sebabnya*mengapa*orang*menyebut*logam*ini*logam*"mulia".',
   amongAllPreciousMetals:
-    'Among*all*precious*metals,*gold*is*the*most*popular*among*traders.*Gold*provides*a*lot*of*trading*opportunity*for*online*traders.*This*is*mainly*because*gold*is*unique*and*its*position*in*the*world*economy*is*unique.',
-  participantsInGoldTrading: 'Participants*in*gold*trading',
+    'Di*antara*semua*logam*mulia，*emas*adalah*yang*paling*populer*di*kalangan*pedagang。*Emas*memberikan*banyak*peluang*perdagangan*bagi*pedagang*online。*Ini*terutama*karena*emas*unik*dan*posisinya*dalam*ekonomi*dunia*juga*unik.',
+  participantsInGoldTrading: 'Peserta*dalam*perdagangan*emas',
   theGoldMarketAttracts:
-    'The*gold*market*attracts*a*large*number*of*traders.*Most*of*them*are*looking*for*safe*and*profitable*investment*options*to*achieve*sustainable*wealth*growth*or*to*avoid*the*risks*brought*by*other*investments.*This*is*why*gold*is*so*attractive.*Participants*in*the*gold*market*can*be*divided*into*the*following*two*categories:',
-  goldBelievers: 'Gold*believers',
+    'Pasar*emas*menarik*banyak*pedagang。*Sebagian*besar*dari*mereka*mencari*opsi*investasi*yang*aman*dan*menguntungkan*untuk*mencapai*pertumbuhan*kekayaan*yang*berkelanjutan*atau*untuk*menghindari*risiko*yang*ditimbulkan*oleh*investasi*lain。*Inilah*mengapa*emas*sangat*menarik。*Partisipan*di*pasar*emas*dapat*dibagi*menjadi*dua*kategori*berikut:',
+  goldBelievers: 'Percaya*emas',
   mainlyIncludeIndividualInvestors:
-    'Mainly*include*individual*investors*and*gold*traders.*Gold*believers*account*for*a*huge*proportion*of*the*entire*gold*market.*These*people*are*fundamentally*optimistic*about*this*expensive*commodity*and*allocate*a*large*amount*of*assets*to*gold.*A*large*number*of*retail*players*in*the*market*are*of*this*type.*They*often*hold*long-term*positions*and*inject*a*large*amount*of*liquidity*into*the*gold*market*through*continued*purchase*intentions.',
-  largeInstitutions: 'Large*institutions',
+    'Terutama*termasuk*investor*individu*dan*pedagang*emas。*Orang*percaya*emas*menyumbang*sebagian*besar*dari*seluruh*pasar*emas。*Orang-orang*ini*pada*dasarnya*optimis*tentang*komoditas*mahal*ini*dan*mengalokasikan*sejumlah*besar*aset*untuk*emas。*Sejumlah*besar*pemain*ritel*di*pasar*adalah*tipe*ini。*Mereka*sering*memegang*posisi*jangka*panjang*dan*menyuntikkan*sejumlah*besar*likuiditas*ke*pasar*emas*melalui*niat*membeli*yang*berkelanjutan.',
+  largeInstitutions: 'Institusi*besar',
   suchInstitutionsIncludeHedgeFunds:
-    'Such*institutions*include*hedge*funds,*banks,*and*brokerage*companies*involved*in*buying*and*selling*gold.*Most*of*these*institutions*use*sophisticated*calculation*strategies*to*develop*a*diversified*trading*portfolio*to*provide*customers*with*safe*investment*protection*in*a*highly*unstable*market*environment.*Most*of*these*institutions*did*not*stick*to*gold*trading.*They*often*include*other*investment*options*in*their*portfolios.',
-  reasonsAffectingThePriceOfGold: 'Reasons*affecting*the*price*of*gold',
+    'Lembaga*semacam*itu*termasuk*dana*lindung*nilai，*bank，*dan*perusahaan*pialang*yang*terlibat*dalam*pembelian*dan*penjualan*emas。*Sebagian*besar*lembaga*ini*menggunakan*strategi*kalkulasi*canggih*untuk*mengembangkan*portofolio*perdagangan*yang*terdiversifikasi*guna*memberikan*perlindungan*investasi*yang*aman*kepada*nasabah*dalam*lingkungan*pasar*yang*sangat*tidak*stabil。*Sebagian*besar*lembaga*ini*tidak*berpegang*pada*perdagangan*emas。*Mereka*sering*memasukkan*opsi*investasi*lain*ke*dalam*portofolionya.',
+  reasonsAffectingThePriceOfGold: 'Alasan*yang*mempengaruhi*harga*emas',
   thereAreManyFactors:
-    'There*are*many*factors*that*affect*the*price*of*gold.*The*following*is*a*brief*overview*of*the*influencing*factors',
-  centralBank: 'Central*Bank',
+    'Ada*banyak*faktor*yang*mempengaruhi*harga*emas。*Berikut*adalah*gambaran*singkat*tentang*faktor-faktor*yang*mempengaruhi',
+  centralBank: 'Bank*Sentral',
   theseInstitutions:
-    'These*institutions*participate*in*gold*trading*in*order*to*regulate*their*foreign*exchange*reserves*to*stabilize*the*value*of*their*currency.*Therefore,*the*price*of*gold*has*been*pushed*up*accordingly.',
-  crudeOil: 'Crude*oil',
+    'Lembaga-lembaga*ini*berpartisipasi*dalam*perdagangan*emas*untuk*mengatur*cadangan*devisa*mereka*untuk*menstabilkan*nilai*mata*uang*mereka。*Karenanya，*harga*emas*pun*ikut*terdongkrak.',
+  crudeOil: 'Minyak*mentah',
   crudeOilAndGold:
-    'Crude*oil*and*gold*are*closely*linked*because*they*are*also*priced*in*US*dollars.*In*addition,*the*increase*in*crude*oil*prices*will*also*increase*inflation,*which*in*turn*will*increase*the*price*of*gold.',
-  USDollars: 'U.S.*Dollars',
+    'Minyak*mentah*dan*emas*terkait*erat*karena*harganya*juga*dalam*Dollar*AS。*Selain*itu，*kenaikan*harga*minyak*mentah*juga*akan*meningkatkan*inflasi*yang*pada*akhirnya*akan*meningkatkan*harga*emas.',
+  USDollars: 'Dollar*Amerika',
   sinceGoldIsPriced:
-    'Since*gold*is*priced*in*U.S.*dollars,*when*the*value*of*U.S.*dollars*rises,*it*will*naturally*create*downward*pressure*on*gold*prices.',
-  stockMarket: 'Stock*Market',
+    'Karena*emas*dihargai*dalam*Dollar*AS，*ketika*nilai*dolar*AS*naik，*secara*alamiah*akan*menciptakan*tekanan*ke*bawah*pada*harga*emas.',
+  stockMarket: 'Pasar*saham',
   whenTheStockMarket:
-    'When*the*stock*market*falls,*traders*often*turn*to*buy*gold,*thereby*boosting*the*price*of*gold.',
-  historicalGoldPrice: 'Historical*gold*price',
+    'Ketika*pasar*saham*jatuh，*pedagang*sering*beralih*membeli*emas，*sehingga*mendongkrak*harga*emas.',
+  historicalGoldPrice: 'Harga*emas*historis',
   theFollowingTable:
-    'The*following*table*shows*the*price*fluctuations*of*gold*in*the*past*50*years.*All*in*all,*since*1970,*the*price*of*gold*has*been*rising*sharply.',
+    'Tabel*berikut*menunjukkan*fluktuasi*harga*emas*dalam*50*tahun*terakhir.*Secara*keseluruhan,*sejak*tahun*1970,*harga*emas*telah*meningkat*tajam.',
   duringThisPeriod:
-    'During*this*period,*the*lowest*return*on*investment*in*gold*occurred*between*1970*and*1979.',
+    'Selama*periode*ini,*pengembalian*investasi*emas*terendah*terjadi*antara*tahun*1970*dan*1979.',
   onTheOtherHand:
-    'On*the*other*hand,*the*largest*increase*occurred*between*2000*and*2009.',
-  goldTradingExample: 'Gold*trading*example',
-  practicalGoldTrading: 'Practical*gold*trading',
+    'Di*sisi*lain,*peningkatan*terbesar*terjadi*antara*tahun*2000*dan*2009.',
+  goldTradingExample: 'Contoh*perdagangan*emas',
+  practicalGoldTrading: 'Perdagangan*emas*praktis',
   supposeYouStudyTheGoldMarket:
-    'Suppose*you*study*the*gold*market*and*believe*that*the*price*of*gold*will*rise.*Therefore,*you*bought*1*lot*of*gold*(that*is,*100*ounces)*at*a*price*of*1,184.60.',
+    'Misalkan*Anda*mempelajari*pasar*emas*dan*percaya*bahwa*harga*emas*akan*naik.*Oleh*karena*itu,*Anda*membeli*1*lot*emas*(yaitu,*100*ons)*dengan*harga*1.184,60.',
   thisMeans:
-    'This*means*that*when*the*price*of*gold*changes*by*1*US*dollar,*the*profit*and*loss*brought*to*you*is*100*US*dollars.',
-  profitScenario: 'Profit*scenario',
+    'Ini*berarti*bahwa*ketika*harga*emas*berubah*sebesar*1*dolar*AS,*keuntungan*dan*kerugian*yang*Anda*peroleh*adalah*100*dolar*AS.',
+  profitScenario: 'Skenario*untung',
   peoplesInterestInGoldSurged:
-    "People's*interest*in*gold*surged,*and*a*few*days*later,*the*price*of*gold*reached*$1,189.70.*You*decide*to*close*the*position*and*lock*in*profit.",
+    'Minat*masyarakat*terhadap*emas*melonjak,*dan*beberapa*hari*kemudian,*harga*emas*mencapai*$1,189,70.*Anda*memutuskan*untuk*menutup*posisi*dan*mengunci*keuntungan.',
   yourTotalProfitIsCalculated:
-    'Your*total*profit*is*calculated*as*follows:*(1,189.70*–*1,184.60)*x*100*USD*=*510*USD.',
-  lossScenario: 'Loss*scenario',
+    'Total*keuntungan*Anda*dihitung*sebagai*berikut:*(1.189.70*–*1.184.60)*x*100*USD*=*510*USD.',
+  lossScenario: 'Skenario*kerugian',
   thePriceOfGold:
-    'The*price*of*gold*did*not*rise*as*expected,*but*fell*to*1,180.30*US*dollars.*You*decide*to*close*the*position*and*settle*the*loss.',
+    'Harga*emas*tidak*naik*seperti*yang*diharapkan,*tetapi*turun*menjadi*1.180,30*dolar*AS.*Anda*memutuskan*untuk*menutup*posisi*dan*menyelesaikan*kerugian.',
   theLossInThisCase:
-    'The*loss*in*this*case*is:*(1,184.60-1,180.30)*x*100*USD*=*430*USD.',
+    'Kerugian*dalam*hal*ini*adalah:*(1.184.60-1.180.30)*x*100*USD*=*430*USD.',
   althoughGoldTrading:
-    'Although*gold*trading*is*the*most*common*precious*metal*trading,*traders*who*are*aware*of*the*diversified*trading*value*of*gold*often*explore*other*metal*markets,*such*as*silver.'
+    'Meskipun*perdagangan*emas*adalah*perdagangan*logam*mulia*yang*paling*umum,*para*pedagang*yang*sadar*akan*nilai*perdagangan*emas*yang*beragam*sering*menjelajahi*pasar*logam*lain,*seperti*perak.'
 };

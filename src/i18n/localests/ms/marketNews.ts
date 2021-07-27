@@ -2,17 +2,17 @@ import { MarketNews } from '../@types/marketNews';
 
 export const marketNews: MarketNews = {
   economicCalendar:
-    'Economic*calendar*about*foreign*exchange*market*and*world*news,*published*daily*and*weekly',
+    'Kalendar*ekonomi*mengenai*pasaran*pertukaran*asing*dan*berita*dunia，*diterbitkan*pada*setiap*hari*dan*mingguan',
   weeklyForeignExchangeNews:
-    'Weekly*foreign*exchange*news*from*WCG*and*comprehensive*world*economic*indicators',
-  financialCalendar: 'Financial*Calendar',
-  financialNews: 'Financial*News',
-  marketAnalysis: 'Market*Analysis',
-  todaysEconomic: "Today's*economic*news",
+    'Berita*pertukaran*asing*mingguan*dari*WCG*dan*petunjuk*ekonomi*dunia*yang*komprehensif',
+  financialCalendar: 'Kalendar*Kewangan',
+  financialNews: 'Berita*kewangan',
+  marketAnalysis: 'Analisa*pasaran',
+  todaysEconomic: 'Berita*ekonomi*hari*ini',
   theMostImportant:
-    'The*most*important*economic*and*financial*news*related*to*the*international*currency*and*stocks*market',
-  theLatestReview: 'The*latest*review*of*market*analysis*and*news',
+    'Berita*ekonomi*dan*kewangan*yang*paling*penting*berkaitan*dengan*pasaran*mata*wang*dan*saham*antarabangsa',
+  theLatestReview: 'Tinjauan*terkini*tentang*analisa*pasaran*dan*berita',
   theLatestReviewsAndForecasts:
-    'The*latest*reviews*and*forecasts*of*all*market*tools*and*economic*news.*These*materials*are*provided*by*professional*analysts*and*are*not*used*for*direct*guidance.',
-  more: 'More'
+    'Ulasan*dan*ramalan*terkini*mengenai*semua*alat*pasaran*dan*berita*ekonomi.*Bahan-bahan*ini*disediakan*oleh*penganalisa*profesional*dan*tidak*digunakan*untuk*panduan*secara*langsung.',
+  more: 'Memuatkan*dengan*lebih*lanjut'
 };
