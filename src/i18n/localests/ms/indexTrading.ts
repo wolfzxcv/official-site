@@ -3,50 +3,50 @@ import { IndexTrading } from '../@types/indexTrading';
 export const indexTrading: IndexTrading = {
   indexTrading: 'Perdagangan*indeks',
   indexAlsoKnownAs:
-    'Indeks，*juga*dikenali*sebagai*"indeks*saham"，*adalah*ukuran*nilai*sekumpulan*syarikat*tertentu*dan*biasanya*digunakan*untuk*menilai*prestasi*ekonomi*industri，*wilayah*atau*negara*tertentu.*CFD*adalah*contracts*for*difference，*jadi*anda*tidak*perlu*memiliki*produk*fizikal，*tetapi*anda*juga*boleh*menukar*perbezaan*harga*produk.*Secara*amnya，*CFD*indeks*adalah*cara*bagi*pelabur*untuk*membenarkan*mereka*memperdagangkan*indeks*tanpa*harus*memiliki*saham*yang*relevan*atau*indeks*itu*sendiri.',
+    'Indeks,*juga*dikenali*sebagai*"indeks*saham",*adalah*ukuran*nilai*sekumpulan*syarikat*tertentu*dan*biasanya*digunakan*untuk*menilai*prestasi*ekonomi*industri,*wilayah*atau*negara*tertentu.*CFD*adalah*contracts*for*difference,*jadi*anda*tidak*perlu*memiliki*produk*fizikal,*tetapi*anda*juga*boleh*menukar*perbezaan*harga*produk.*Secara*amnya,*CFD*indeks*adalah*cara*bagi*pelabur*untuk*membenarkan*mereka*memperdagangkan*indeks*tanpa*harus*memiliki*saham*yang*relevan*atau*indeks*itu*sendiri.',
   viewTradingProducts: 'Lihat*produk*perdagangan',
   theBasisOfTradingIndexes: 'Asas*indeks*perdagangan',
   indexesAllowUs:
-    'Indeks*membolehkan*kita*mengkaji*prestasi*sektor*pasaran*untuk*mengenal*pasti*peluang*pelaburan*dan*turun*naik*pasaran*dengan*lebih*baik.*Oleh*kerana*indeks*mengesan*banyak*saham*yang*diperdagangkan*secara*terbuka，*pedagang*dapat*mengesan*indeks*untuk*memahami*perubahan*umum*di*pasaran*dan*merumuskan*strategi*pelaburan*yang*sesuai.*Kaedah*pengiraan*harga*yang*digunakannya*dapat*dibahagikan*kepada*dua*kategori.',
+    'Indeks*membolehkan*kita*mengkaji*prestasi*sektor*pasaran*untuk*mengenal*pasti*peluang*pelaburan*dan*turun*naik*pasaran*dengan*lebih*baik.*Oleh*kerana*indeks*mengesan*banyak*saham*yang*diperdagangkan*secara*terbuka,*pedagang*dapat*mengesan*indeks*untuk*memahami*perubahan*umum*di*pasaran*dan*merumuskan*strategi*pelaburan*yang*sesuai.*Kaedah*pengiraan*harga*yang*digunakannya*dapat*dibahagikan*kepada*dua*kategori.',
   marketValueWeightedIndex: 'Indeks*berwajaran*nilai*pasaran',
   TheMarketValueWeightedIndex:
-    'Indeks*wajaran*pasaran*dikira*berdasarkan*nilai*pasaran*keseluruhan*syarikat*penyusunnya.*Ini*bermakna*bahawa*semakin*besar*nilai*pasaran*syarikat，*semakin*besar*kesannya*terhadap*harga*indeks.*Ini*adalah*kaedah*penyusunan*indeks*yang*paling*biasa*digunakan.*Indeks*FTSE*UK*dan*Indeks*DAX*German*adalah*wakil*khas.',
+    'Indeks*wajaran*pasaran*dikira*berdasarkan*nilai*pasaran*keseluruhan*syarikat*penyusunnya.*Ini*bermakna*bahawa*semakin*besar*nilai*pasaran*syarikat,*semakin*besar*kesannya*terhadap*harga*indeks.*Ini*adalah*kaedah*penyusunan*indeks*yang*paling*biasa*digunakan.*Indeks*FTSE*UK*dan*Indeks*DAX*German*adalah*wakil*khas.',
   priceWeightedIndex: 'Indeks*berwajaran*harga',
   thisTypeOfIndex:
-    'Jenis*indeks*ini*berdasarkan*pada*purata*aritmetik*harga*saham*semua*komponen*syarikat*yang*bermaksud*bahawa*pengiraan*indeks*berkaitan*dengan*tempoh*asas*dan*harga*saham*semasa*dan*tidak*ada*kaitan*dengan*nilai*pasaran.*Dalam*kes*ini，*semakin*tinggi*harga*saham*konstituen，*semakin*besar*pengaruh*terhadap*harga*keseluruhan*indeks.',
+    'Jenis*indeks*ini*berdasarkan*pada*purata*aritmetik*harga*saham*semua*komponen*syarikat*yang*bermaksud*bahawa*pengiraan*indeks*berkaitan*dengan*tempoh*asas*dan*harga*saham*semasa*dan*tidak*ada*kaitan*dengan*nilai*pasaran.*Dalam*kes*ini,*semakin*tinggi*harga*saham*konstituen,*semakin*besar*pengaruh*terhadap*harga*keseluruhan*indeks.',
   theWorldsNineMajorIndexes: 'Sembilan*indeks*utama*di*dunia',
   takeALookAtThePerformance:
-    'Lihatlah*prestasi*pasaran*antarabangsa*atau*salah*satu*sektornya，*dan*bandingkan*pulangan*pelaburan.*Indeks*saham*adalah*purata*wajaran*harga*saham.*US*S&P*500，*Dow*Jones*Index，*dan*Nasdaq*Index*adalah*indeks*saham.',
+    'Lihatlah*prestasi*pasaran*antarabangsa*atau*salah*satu*sektornya,*dan*bandingkan*pulangan*pelaburan.*Indeks*saham*adalah*purata*wajaran*harga*saham.*US*S&P*500,*Dow*Jones*Index,*dan*Nasdaq*Index*adalah*indeks*saham.',
   SPX500: 'US*S&P*500*Indeks*(SPX500)',
   theWorldsMostWellKnown:
     "Indeks*saham*paling*terkenal*di*dunia*sangat*berkorelasi*dengan*prestasi*pasaran*lain.*Indeks*ini*diasaskan*oleh*syarikat*penerbitan*bernama*Standard*&*Poor's*dan*merangkumi*500*syarikat*teratas*di*Amerika*Syarikat.",
   US30: 'Indeks*US*Dow*Jones*(US30)',
   stocksFrom30Companies:
-    'Saham*dari*30*syarikat*di*sembilan*industri*teras.*Ciri*unik*indeks*adalah*bahawa*ia*adalah*rata-rata*berwajaran*harga，*sehingga*kenaikan*dan*kejatuhannya*sering*digunakan*sebagai*petunjuk*sentimen*risiko*global.',
+    'Saham*dari*30*syarikat*di*sembilan*industri*teras.*Ciri*unik*indeks*adalah*bahawa*ia*adalah*rata-rata*berwajaran*harga,*sehingga*kenaikan*dan*kejatuhannya*sering*digunakan*sebagai*petunjuk*sentimen*risiko*global.',
   NASDAQ: 'Indeks*Nasdaq*(NASDAQ)',
   americasMostFamous:
-    'Indeks*perwakilan*industri*teknologi*yang*paling*terkenal*di*Amerika.*Walaupun*merangkumi*beberapa*industri*lain，*ia*tetap*menarik*perhatian*pelabur*dengan*syarikat*teknologi*seperti*Apple，*Facebook，*dan*Google',
+    'Indeks*perwakilan*industri*teknologi*yang*paling*terkenal*di*Amerika.*Walaupun*merangkumi*beberapa*industri*lain,*ia*tetap*menarik*perhatian*pelabur*dengan*syarikat*teknologi*seperti*Apple,*Facebook,*dan*Google',
   UK100: 'Indeks*UK*FTSE*100*(UK100)',
   itContainsSomeLargeCompanies:
-    'Ini*mengandungi*beberapa*syarikat*besar*yang*diatur*oleh*undang-undang*syarikat*UK，*tetapi*tidak*semua*saham*konstituen*didirikan*di*UK.*Harga*indeks*dikira*dalam*masa*nyata.*Apabila*pasaran*dibuka，*harganya*dikira*dan*dikemas*kini*dalam*beberapa*saat.',
+    'Ini*mengandungi*beberapa*syarikat*besar*yang*diatur*oleh*undang-undang*syarikat*UK,*tetapi*tidak*semua*saham*konstituen*didirikan*di*UK.*Harga*indeks*dikira*dalam*masa*nyata.*Apabila*pasaran*dibuka,*harganya*dikira*dan*dikemas*kini*dalam*beberapa*saat.',
   GER30: 'Indeks*DAX*German*(GER30)',
   thisIndexConsistsOf:
-    'Indeks*ini*terdiri*daripada*30*syarikat*German*dengan*permodalan*pasaran*terbesar.*Indeks*DAX*adalah*salah*satu*indeks*yang*paling*banyak*diperdagangkan*di*dunia，*dan*turun*naik*hariannya*lebih*tinggi*daripada*indeks*lain.',
+    'Indeks*ini*terdiri*daripada*30*syarikat*German*dengan*permodalan*pasaran*terbesar.*Indeks*DAX*adalah*salah*satu*indeks*yang*paling*banyak*diperdagangkan*di*dunia,*dan*turun*naik*hariannya*lebih*tinggi*daripada*indeks*lain.',
   JPN225: 'Indeks*Nikkei*(JPN225)',
   theMostPopularIndex:
     'Indeks*paling*popular*di*Bursa*Saham*Tokyo*adalah*petunjuk*utama*prestasi*ekonomi*Jepun.*Prestasi*Nikkei*225*jelas*berkorelasi*positif*dengan*pasaran*saham*US.',
   AUS200: 'Indeks*ASX*200*Australia*(AUS200)',
   theIndexConsistsOfThe200:
-    'Indeks*terdiri*daripada*200*syarikat*terbesar*di*Australia.*Ini*adalah*indeks*berwajaran*permodalan*pasaran，*yang*bermaksud*bahawa*semakin*tinggi*jumlah*kapitalisasi*pasaran*syarikat，*semakin*besar*impaknya*terhadap*harga*indeks',
+    'Indeks*terdiri*daripada*200*syarikat*terbesar*di*Australia.*Ini*adalah*indeks*berwajaran*permodalan*pasaran,*yang*bermaksud*bahawa*semakin*tinggi*jumlah*kapitalisasi*pasaran*syarikat,*semakin*besar*impaknya*terhadap*harga*indeks',
   FRA40: 'Indeks*CAC*40*Perancis*(FRA40)',
   theBenchmarkIndex:
-    'Indeks*penanda*aras*pasaran*saham*Perancis.*Ia*digunakan*secara*meluas*untuk*menilai*status*kesihatan*seluruh*Eropah.*Indeks*tersebut*merangkumi*beberapa*syarikat*komponen*terkenal，*seperti*Loreal*Group，*AXA*Group*dan*Michelin.',
+    'Indeks*penanda*aras*pasaran*saham*Perancis.*Ia*digunakan*secara*meluas*untuk*menilai*status*kesihatan*seluruh*Eropah.*Indeks*tersebut*merangkumi*beberapa*syarikat*komponen*terkenal,*seperti*Loreal*Group,*AXA*Group*dan*Michelin.',
   ESTX50: 'Indeks*Stoxx*50*Eropah*(ESTX50)',
   itIsComposedOf50:
-    'Syarikat*ini*terdiri*daripada*50*syarikat*terkemuka*di*Eropah*dan*sering*disebut*sebagai*"Indeks*Dow*Jones"*di*Eropah.*Ini*juga*merupakan*indeks*berwajaran*permodalan*pasaran，*dan*komposisi*sahamnya*dikaji*setiap*September.',
+    'Syarikat*ini*terdiri*daripada*50*syarikat*terkemuka*di*Eropah*dan*sering*disebut*sebagai*"Indeks*Dow*Jones"*di*Eropah.*Ini*juga*merupakan*indeks*berwajaran*permodalan*pasaran,*dan*komposisi*sahamnya*dikaji*setiap*September.',
   howToTradeIndex: 'Bagaimana*cara*berdagang*indeks',
   indexTradingProvidesTraders:
-    'Perdagangan*indeks*memberi*peluang*kepada*pedagang*untuk*melabur*di*pasaran*global，*serantau*atau*industri.*Indeks*saham*yang*paling*banyak*diperdagangkan*di*dunia*merangkumi*Dow*Jones*Industrial*Average，*S&P*500，*FTSE*UK，*DAX*Germany，*ASX200*Australia，*Nasdaq，*France*CAC40*dan*Nikkei*225*index.*Oleh*kerana*indeks*hanya*nombor*dan*tidak*dapat*diperdagangkan*secara*langsung，*anda*perlu*memperdagangkannya*dalam*bentuk*contracts*for*difference*(CFD).*Untung*atau*rugi*perdagangan*bergantung*pada*turun*naik*pasaran*dan*ukuran*kontrak*perdagangan*anda.*Melalui*Wenchuan，*anda*hanya*perlu*deposit*minimum*$100*untuk*memulakan*perdagangan*indeks.',
+    'Perdagangan*indeks*memberi*peluang*kepada*pedagang*untuk*melabur*di*pasaran*global,*serantau*atau*industri.*Indeks*saham*yang*paling*banyak*diperdagangkan*di*dunia*merangkumi*Dow*Jones*Industrial*Average,*S&P*500,*FTSE*UK,*DAX*Germany,*ASX200*Australia,*Nasdaq,*France*CAC40*dan*Nikkei*225*index.*Oleh*kerana*indeks*hanya*nombor*dan*tidak*dapat*diperdagangkan*secara*langsung,*anda*perlu*memperdagangkannya*dalam*bentuk*contracts*for*difference*(CFD).*Untung*atau*rugi*perdagangan*bergantung*pada*turun*naik*pasaran*dan*ukuran*kontrak*perdagangan*anda.*Melalui*Wenchuan,*anda*hanya*perlu*deposit*minimum*$100*untuk*memulakan*perdagangan*indeks.',
   identifyTradingOpportunities: 'Kenal*pasti*peluang*perdagangan',
   theMostImportantInformation:
     'Maklumat*yang*paling*penting*mengenai*indeks*adalah*perubahan*hariannya*(dinyatakan*dalam*bentuk*peratusan)*dan*jumlah*titik*yang*bergerak*sejak*pasaran*dibuka,*dan*maklumat*ini*biasanya*diberikan*bersama*dengan*harga*semasa.',
@@ -80,8 +80,8 @@ export const indexTrading: IndexTrading = {
     'CFD*membolehkan*individu*membuat*pesanan*beli*dan*perdagangan*pendek*berdasarkan*ramalan*mereka*mengenai*kenaikan*atau*kejatuhan*nilai*indeks.',
   buy: 'Beli',
   executingABuyOrder:
-    'Melaksanakan*pesanan*"beli"*bermaksud*anda*percaya*bahawa*nilai*instrumen*akan*meningkat.*Sekiranya*instrumen*meningkat*seperti*yang*diharapkan，*anda*boleh*menutup*posisi*untuk*memperoleh*keuntungan*dan*pendapatan*pelaburan*adalah*perbezaan*antara*harga*pembelian*dan*harga*tertutup.*Sebaliknya，*jika*anda*menutup*kedudukan*pada*harga*yang*lebih*rendah*daripada*"harga*beli"，*maka*kerugian*anda*adalah*perbezaan*antara*"beli"*dan*harga*penutup.',
+    'Melaksanakan*pesanan*"beli"*bermaksud*anda*percaya*bahawa*nilai*instrumen*akan*meningkat.*Sekiranya*instrumen*meningkat*seperti*yang*diharapkan,*anda*boleh*menutup*posisi*untuk*memperoleh*keuntungan*dan*pendapatan*pelaburan*adalah*perbezaan*antara*harga*pembelian*dan*harga*tertutup.*Sebaliknya,*jika*anda*menutup*kedudukan*pada*harga*yang*lebih*rendah*daripada*"harga*beli",*maka*kerugian*anda*adalah*perbezaan*antara*"beli"*dan*harga*penutup.',
   sell: 'Jual',
   executingASellOrder:
-    'Melaksanakan*pesanan*"jual"*bermaksud*anda*percaya*bahawa*nilai*instrumen*akan*jatuh.*Sekiranya*instrumen*jatuh*seperti*yang*diharapkan，*anda*boleh*menutup*kedudukan*untuk*memperoleh*keuntungan，*dan*pendapatan*pelaburan*adalah*perbezaan*antara*harga*jual*dan*harga*tutup.*Sebaliknya，*jika*anda*menutup*kedudukan*pada*harga*yang*lebih*tinggi*daripada*"harga*jual"，*maka*kerugian*anda*adalah*perbezaan*antara*"jual"*dan*harga*penutup.'
+    'Melaksanakan*pesanan*"jual"*bermaksud*anda*percaya*bahawa*nilai*instrumen*akan*jatuh.*Sekiranya*instrumen*jatuh*seperti*yang*diharapkan,*anda*boleh*menutup*kedudukan*untuk*memperoleh*keuntungan,*dan*pendapatan*pelaburan*adalah*perbezaan*antara*harga*jual*dan*harga*tutup.*Sebaliknya,*jika*anda*menutup*kedudukan*pada*harga*yang*lebih*tinggi*daripada*"harga*jual",*maka*kerugian*anda*adalah*perbezaan*antara*"jual"*dan*harga*penutup.'
 };
