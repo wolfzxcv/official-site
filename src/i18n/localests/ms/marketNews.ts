@@ -2,7 +2,7 @@ import { MarketNews } from '../@types/marketNews';
 
 export const marketNews: MarketNews = {
   economicCalendar:
-    'Kalendar*ekonomi*mengenai*pasaran*pertukaran*asing*dan*berita*dunia，*diterbitkan*pada*setiap*hari*dan*mingguan',
+    'Kalendar*ekonomi*mengenai*pasaran*pertukaran*asing*dan*berita*dunia,*diterbitkan*pada*setiap*hari*dan*mingguan',
   weeklyForeignExchangeNews:
     'Berita*pertukaran*asing*mingguan*dari*WCG*dan*petunjuk*ekonomi*dunia*yang*komprehensif',
   financialCalendar: 'Kalendar*Kewangan',
