@@ -31,7 +31,7 @@ Object.entries(nextLogger).forEach(([key, value]) => {
 const winston = require('winston');
 const customLevels = { ...winston.config.syslog.levels, wait: 8, event: 9 };
 const customFormat = winston.format.combine(
-  winston.format.timestamp({ format: 'MMM-DD-YYYY HH:mm:ss' }),
+  winston.format.timestamp({ format: 'MM-DD-YYYY HH:mm:ss' }),
   winston.format.align(),
   winston.format.printf(
     (msg) => `${msg.level}: ${[msg.timestamp]}: ${msg.message}`
@@ -50,8 +50,7 @@ const logger = winston.createLogger({
   ]
 });
 
-const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev, quiet: false });
+const app = next({ dev: true });
 const handle = app.getRequestHandler();
 
 app.prepare().then(() => {

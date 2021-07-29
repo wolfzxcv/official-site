@@ -21,6 +21,7 @@ const MAMSystem: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
+  const isMalay = currentLang === 'ms';
 
   return (
     <Wrapper>
@@ -55,7 +56,10 @@ const MAMSystem: React.FC<{}> = () => {
 
           <Box
             mt={20}
-            width={{ base: 'auto', xl: isChinese ? '250px' : '450px' }}
+            width={{
+              base: 'auto',
+              xl: isChinese ? '250px' : isMalay ? '500px' : '450px'
+            }}
           >
             <DownloadButton
               onClick={openChatWindow}
@@ -229,8 +233,12 @@ const MAMSystem: React.FC<{}> = () => {
 
       <Center>
         <Box
+          mx={1}
           mb={20}
-          width={{ base: 'auto', xl: isChinese ? '250px' : '450px' }}
+          width={{
+            base: 'auto',
+            xl: isChinese ? '250px' : isMalay ? '500px' : '450px'
+          }}
         >
           <DownloadButton
             onClick={openChatWindow}
