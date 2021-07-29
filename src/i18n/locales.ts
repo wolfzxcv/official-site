@@ -15,11 +15,11 @@ interface localesOptions {
 }
 
 // export const locales: Locales[] = ['cn', 'ar', 'en', 'ms', 'in', 'vi', 'zh'];
-export const locales: Locales[] = ['cn', 'en', 'zh'];
+export const locales: Locales[] = ['ar', 'cn', 'en', 'zh'];
 
 export const localesOptions: localesOptions[] = [
   { code: 'cn', value: '简体' },
-  // { code: 'ar', value: 'بالعربية' },
+  { code: 'ar', value: 'بالعربية' },
   { code: 'en', value: 'English' },
   // { code: 'ms', value: 'Malay' },
   // { code: 'in', value: 'Indonesia' },
