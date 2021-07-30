@@ -37,7 +37,6 @@ const MobileNav = () => {
         minH="40px"
         justify="center"
         color="white"
-        pt={3}
       >
         <LinkButton
           text={t('usersCenter')}
