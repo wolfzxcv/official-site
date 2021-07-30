@@ -19,33 +19,32 @@ const LinkButton: React.FC<LinkButtonProps> = ({
   isFooter = false
 }: LinkButtonProps) => {
   return (
-    <Box
-      border={withBorder ? '1px' : '0px'}
-      borderColor={withBorder && borderColor ? borderColor : 'inherit'}
-      as="button"
-      display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
-      width={{ base: isFooter ? 'inherit' : '45vw', md: '15vw' }}
-      height="70px"
-      minW="100px"
-      mx={2}
-      px={2}
+    <Link
       _hover={{
-        bgColor: 'gray.600',
-        transform: 'scale(1.1)',
-        fontWeight: '600'
+        textDecoration: 'none'
       }}
+      href={href}
+      isExternal
     >
-      <Link
-        width="100%"
+      <Box
+        border={withBorder ? '1px' : '0px'}
+        borderColor={withBorder && borderColor ? borderColor : 'inherit'}
+        as="button"
+        display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
+        width={{ base: isFooter ? 'inherit' : '45vw', md: '15vw' }}
+        minH="40px"
+        minW="100px"
+        mx={2}
+        px={2}
         _hover={{
-          textDecoration: 'none'
+          bgColor: 'gray.600',
+          transform: 'scale(1.1)',
+          fontWeight: '600'
         }}
-        href={href}
-        isExternal
       >
         {text}
-      </Link>
-    </Box>
+      </Box>
+    </Link>
   );
 };
 
