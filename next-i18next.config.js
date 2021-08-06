@@ -6,7 +6,7 @@
 module.exports = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['ar', 'cn', 'en', 'zh'],
+    locales: ['ar', 'cn', 'en', 'vi', 'zh'],
     localePath: './src/i18n/locales'
   },
   react: {
