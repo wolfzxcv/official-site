@@ -311,7 +311,11 @@ const Index: React.FC<{}> = () => {
       {/* Mobile Real-time quotation of our trading products */}
       <Box display={{ base: 'block', xxl: 'none' }} width="100%">
         <Box width="100%" height="auto">
-          <Image src="../assets/images/home_mobileBg.png" alt="mobile" />
+          <Image
+            minW="100%"
+            src="../assets/images/home_mobileBg.png"
+            alt="mobile"
+          />
         </Box>
 
         <Flex m={10} direction="column" justify="center" align="center">
