@@ -1,4 +1,11 @@
-import { Box, Center, Image, Link, Tooltip } from '@chakra-ui/react';
+import {
+  Box,
+  Center,
+  Image,
+  Link,
+  Tooltip,
+  useMediaQuery
+} from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { forwardRef } from 'react';
 import { AiOutlineDownload } from 'react-icons/ai';
@@ -19,6 +26,10 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
   type,
   onClick
 }: DownloadButtonProps) => {
+  const [isNotMobile] = useMediaQuery('(min-width: 1000px)');
+
+  const placement = isNotMobile ? 'right' : 'bottom';
+
   return (
     <>
       {href ? (
@@ -30,6 +41,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
           }}
         >
           <Tooltip
+            placement={placement}
             label={
               type === 'android' ? (
                 <Image
