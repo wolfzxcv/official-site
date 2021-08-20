@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.10](https://github.com/alice1qaz/WCG/compare/v1.2.9...v1.2.10) (2021-08-20)
+
+
+### Bug Fixes
+
+* **infobutton:** dynamic width by language ([342e9f7](https://github.com/alice1qaz/WCG/commit/342e9f7b1af9580953b4be848f8b307ae677ce91))
+
 ### [1.2.9](https://github.com/alice1qaz/WCG/compare/v1.2.8...v1.2.9) (2021-08-20)
 
 ### [1.2.8](https://github.com/alice1qaz/WCG/compare/v1.2.7...v1.2.8) (2021-08-13)
