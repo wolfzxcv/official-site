@@ -50,8 +50,9 @@ const LangSelector: React.FC<{}> = () => {
         const matchLang = navigator.languages
           .find((x) => x.substr(0, 2) === navigator.language.substr(0, 2))
           .substr(0, 2) as Locales;
-
-        lang = matchLang;
+        if (i18n?.languages.includes(matchLang)) {
+          lang = matchLang;
+        }
       }
 
       // to save locale in localStorage
