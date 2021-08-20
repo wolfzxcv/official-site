@@ -19,6 +19,8 @@ const InfoButton: React.FC<InfoButtonProps> = ({
 }: InfoButtonProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
+  const widerButton =
+    currentLang === 'in' || currentLang === 'ms' || currentLang === 'vi';
 
   return (
     <NextLink
@@ -34,7 +36,7 @@ const InfoButton: React.FC<InfoButtonProps> = ({
     >
       <StyledFlex
         minH="40px"
-        width="200px"
+        width={widerButton ? '250px' : '200px'}
         bgColor="red.600"
         justify="space-around"
         align="center"
