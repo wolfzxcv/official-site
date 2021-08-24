@@ -81,13 +81,12 @@ const Index: React.FC<{}> = () => {
               bgColor="transparent"
               color="gray.100"
               textAlign="center"
-              fontSize={{ base: '20px', md: '24px' }}
+              fontSize={{ base: '20px', md: '22px' }}
               _hover={{
                 bgColor: 'gray.100',
                 color: 'gray.700',
                 cursor: 'pointer',
-                transform: 'scale(1.1)',
-                fontWeight: '600'
+                transition: '1s'
               }}
             >
               {t('home:askProductsNow')}
@@ -279,14 +278,13 @@ const Index: React.FC<{}> = () => {
                 mt={{ base: 10, xl: 0 }}
                 p={2}
                 bg="red.600"
-                fontSize="28px"
+                fontSize="22px"
                 textAlign="center"
-                maxW="300px"
+                width="250px"
                 _hover={{
                   bgColor: 'red.500',
                   cursor: 'pointer',
-                  transform: 'scale(1.1)',
-                  fontWeight: '600'
+                  transition: '1s'
                 }}
               >
                 {t('home:accountOpening')}
@@ -315,14 +313,13 @@ const Index: React.FC<{}> = () => {
               mt={{ base: 10, xl: 0 }}
               p={2}
               bg="red.600"
-              fontSize="28px"
+              fontSize="22px"
               minW="250px"
               textAlign="center"
               _hover={{
                 bgColor: 'red.500',
                 cursor: 'pointer',
-                transform: 'scale(1.1)',
-                fontWeight: '600'
+                transition: '1s'
               }}
             >
               {t('home:accountOpening')}

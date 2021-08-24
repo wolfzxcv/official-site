@@ -44,7 +44,7 @@ const InfoButton: React.FC<InfoButtonProps> = ({
         color={'white'}
         _hover={{
           bgColor: 'red.700',
-          transform: 'scale(1.1)',
+          transition: '1s',
           cursor: 'pointer'
         }}
       >
