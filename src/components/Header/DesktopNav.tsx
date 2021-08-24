@@ -107,13 +107,13 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
         p={2}
         rounded={'md'}
         bgColor={router.pathname === href ? 'red.50' : 'inherit'}
-        _hover={{ bg: useColorModeValue('gray.100', 'gray.900') }}
+        _hover={{ bg: useColorModeValue('#b81c22', 'gray.900') }}
       >
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
               transition={'all .5s ease'}
-              _groupHover={{ color: 'gray.600' }}
+              _groupHover={{ color: 'white' }}
               fontWeight={router.pathname === href ? 700 : 500}
               color={router.pathname === href ? 'red.800' : 'inherit'}
             >
@@ -129,7 +129,7 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
             align={'center'}
             flex={1}
           >
-            <Icon color={'gray.600'} w={5} h={5} as={ChevronRightIcon} />
+            <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} />
           </Flex>
         </Stack>
       </Link>
