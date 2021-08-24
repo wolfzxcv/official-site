@@ -96,7 +96,7 @@ const Index: React.FC<{}> = () => {
         </Flex>
       </Box>
 
-      {/* 3 red/white blocks */}
+      {/* 3 red/white blocks: Safe and secure depository */}
       <Flex
         direction={{ base: 'column', xl: 'row' }}
         justify="space-around"
@@ -111,7 +111,7 @@ const Index: React.FC<{}> = () => {
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
@@ -122,10 +122,16 @@ const Index: React.FC<{}> = () => {
               spacing={3}
               textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
             >
-              <Text fontSize="24px" fontWeight="700">
+              <Box
+                fontSize="24px"
+                fontWeight="700"
+                height={isChinese ? 'auto' : '72px'}
+              >
                 {t('home:safeAndSecureDepository')}
-              </Text>
-              <Text>{t('home:customerFunds')}</Text>
+              </Box>
+              <Box minH={isChinese ? 'auto' : '144px'}>
+                {t('home:customerFunds')}
+              </Box>
             </Stack>
           </Flex>
         </Box>
@@ -138,7 +144,7 @@ const Index: React.FC<{}> = () => {
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
@@ -149,10 +155,16 @@ const Index: React.FC<{}> = () => {
               spacing={3}
               textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
             >
-              <Text fontSize="24px" fontWeight="700">
+              <Box
+                fontSize="24px"
+                fontWeight="700"
+                height={isChinese ? 'auto' : '72px'}
+              >
                 {t('home:efficientDeposit')}
-              </Text>
-              <Text>{t('home:theDepositAndWithdrawal')}</Text>
+              </Box>
+              <Box minH={isChinese ? 'auto' : '144px'}>
+                {t('home:theDepositAndWithdrawal')}
+              </Box>
             </Stack>
           </Flex>
         </Box>
@@ -165,7 +177,7 @@ const Index: React.FC<{}> = () => {
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
             <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
@@ -176,10 +188,16 @@ const Index: React.FC<{}> = () => {
               spacing={3}
               textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
             >
-              <Text fontSize="24px" fontWeight="700">
+              <Box
+                fontSize="24px"
+                fontWeight="700"
+                height={isChinese ? 'auto' : '72px'}
+              >
                 {t('home:fastPayment')}
-              </Text>
-              <Text>{t('home:theLatestTechnology')}</Text>
+              </Box>
+              <Box minH={isChinese ? 'auto' : '144px'}>
+                {t('home:theLatestTechnology')}
+              </Box>
             </Stack>
           </Flex>
         </Box>
