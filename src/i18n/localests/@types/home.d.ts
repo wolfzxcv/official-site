@@ -42,6 +42,10 @@ export type Home = {
   preciousMetalsContract: string;
   /** times leverage */
   timesLeverage: string;
+  /** London Gold & London Silver */
+  LondonGoldLondonSilver: string;
+  /** short fund settlement time */
+  shortFundSettlementTime: string;
   /** Account opening */
   accountOpening: string;
   /** Real-time quotation */

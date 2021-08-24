@@ -30,7 +30,11 @@ export const home: Home = {
     'WCG*menghargai*pengalaman*perdagangan*pelanggan*dan*yakin*bahawa*pengembangan*jenama*masa*depan*bergantung*pada*pertumbuhan*bersama*rakan*kongsi.',
   preciousMetalsContract: 'Kontrak*Logam*Mulia',
   timesLeverage:
-    'Daya*ungkit*100-200*kali,*berbiaya*rendah*dan*tingkat*pengembalian*tinggi,*perdagangan*24*jam*global,*dapat*menghasilkan*profit*dengan*membeli*dan*menjual.*London*Gold*&*London*Silver*adalah*produk*perdagangan*yang*disediakan*oleh*International*Financial*Futures*Exchange,*dengan*aturan*perdagangan*sederhana,*pengoperasian*T*+*0,*waktu*penyelesaian*dana*yang*singkat,*dan*transaksi*elektronik*online*yang*cepat*dan*aman.',
+    'Daya*ungkit*100-200*kali,*berbiaya*rendah*dan*tingkat*pengembalian*tinggi,*perdagangan*24*jam*global,*dapat*menghasilkan*profit*dengan*membeli*dan*menjual.',
+  LondonGoldLondonSilver:
+    'London*Gold*&*London*Silver*adalah*produk*perdagangan*yang*disediakan*oleh*International*Financial*Futures*Exchange,*dengan*aturan*perdagangan*sederhana,*pengoperasian*T*+*0.',
+  shortFundSettlementTime:
+    'Waktu*penyelesaian*dana*yang*singkat,*dan*transaksi*elektronik*online*yang*cepat*dan*aman.',
   accountOpening: 'Pembukaan*Akun',
   realTimeQuotation:
     'Penyedia*harga*yang*real*time*dari*produk*perdagangan*kami',

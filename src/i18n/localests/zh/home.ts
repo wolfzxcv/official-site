@@ -26,7 +26,10 @@ export const home: Home = {
     'WCG重視客戶的交易體驗，深信品牌的未來发展有賴與各合作夥伴的共同成長。',
   preciousMetalsContract: '貴金屬合約',
   timesLeverage:
-    '100-200倍槓桿加持，低成本高收益，全球24小時交易，買漲買跌皆可獲利。現貨黃金及白銀T+0操作，資金結算時間短，網上電子交易快捷安全。',
+    '100-200倍槓桿加持，低成本高收益，全球24小時交易，買漲買跌皆可獲利。',
+  LondonGoldLondonSilver:
+    '倫敦金&倫敦銀是國際金融期貨交易所提供的一種交易產品，交易規則簡單，T+0操作。',
+  shortFundSettlementTime: '資金結算時間短，網上電子交易快捷安全。',
   accountOpening: '開戶交易',
   realTimeQuotation: '實時的交易品種報價',
   aVarietyOfProfessional:

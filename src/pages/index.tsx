@@ -104,17 +104,16 @@ const Index: React.FC<{}> = () => {
         my={10}
       >
         <Box
-          bg={{ base: 'none', xl: 'red.600' }}
-          color={{ base: 'black', xl: 'white' }}
           width={{ base: '80vw', xl: '28vw' }}
           my={3}
+          border={{ base: 'none', xl: '1px' }}
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
             minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
-            <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
+            <Box m={5} color="red.600">
               <AiFillLock fontSize="32px" />
             </Box>
             <Stack
@@ -137,17 +136,16 @@ const Index: React.FC<{}> = () => {
         </Box>
 
         <Box
-          bg={{ base: 'none', xl: 'red.600' }}
-          color={{ base: 'black', xl: 'white' }}
           width={{ base: '80vw', xl: '28vw' }}
           my={3}
+          border={{ base: 'none', xl: '1px' }}
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
             minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
-            <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
+            <Box m={5} color="red.600">
               <BsLightningFill fontSize="32px" />
             </Box>
             <Stack
@@ -170,17 +168,16 @@ const Index: React.FC<{}> = () => {
         </Box>
 
         <Box
-          bg={{ base: 'none', xl: 'red.600' }}
-          color={{ base: 'black', xl: 'white' }}
           width={{ base: '80vw', xl: '28vw' }}
           my={3}
+          border={{ base: 'none', xl: '1px' }}
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
             minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
-            <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
+            <Box m={5} color="red.600">
               <GiServerRack fontSize="32px" />
             </Box>
             <Stack
@@ -209,8 +206,8 @@ const Index: React.FC<{}> = () => {
         p={5}
         direction="column"
         align="center"
-        bgColor={{ base: 'black', xl: 'white' }}
-        color={{ base: 'white', xl: 'black' }}
+        bgColor="gray.800"
+        color="white"
         className="animation"
       >
         <Flex fontSize={{ base: '28px', md: '36px' }} fontWeight="700">
@@ -260,9 +257,11 @@ const Index: React.FC<{}> = () => {
           padding="10"
         >
           <InfoTitle title={t('home:preciousMetalsContract')} />
-          <Box pt={5}>
+          <Stack pt={5} spacing={2}>
             <Text>{t('home:timesLeverage')}</Text>
-          </Box>
+            <Text>{t('home:LondonGoldLondonSilver')}</Text>
+            <Text>{t('home:shortFundSettlementTime')}</Text>
+          </Stack>
 
           <Flex
             justify="center"
@@ -364,7 +363,7 @@ const Index: React.FC<{}> = () => {
       {/* TradingView Widget END */}
 
       {/* Mobile Real-time quotation of our trading products */}
-      <Box display={{ base: 'block', xxl: 'none' }} width="100%">
+      <Box display={{ base: 'block', xl: 'none' }} width="100%">
         <Box width="100%" height="auto">
           <Image
             minW="100%"
@@ -395,7 +394,7 @@ const Index: React.FC<{}> = () => {
       </Box>
 
       {/* Desktop Real-time quotation of our trading products */}
-      <Box display={{ base: 'none', xxl: 'block' }}>
+      <Box display={{ base: 'none', xl: 'block' }}>
         <Flex justify="center" mt="250px">
           <Box maxW="432px" mx={2}>
             <Image src="../assets/images/home_phone.jpg" alt="left" />
