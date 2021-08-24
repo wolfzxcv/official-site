@@ -233,48 +233,85 @@ const Index: React.FC<{}> = () => {
       </Flex>
 
       {/* Precious Metals Contract */}
-      <Flex
-        backgroundImage="url('../assets/images/home_gold.png')"
-        bgSize="cover"
-        minH="250px"
-        px={5}
-        py={10}
-        my={10}
-        direction={{ base: 'column', xl: 'row' }}
-        align="center"
-        justify="space-evenly"
-        color="white"
-        className="animation"
-      >
-        <Box textAlign={isArabic ? 'right' : 'left'} maxW="70vw">
+      <Flex py={10} my={10} align="center" color="white" className="animation">
+        <Box
+          textAlign={isArabic ? 'right' : 'left'}
+          width={{ base: '98vw', xl: '75vw' }}
+          minH="295px"
+          bgColor="gray.800"
+          padding="10"
+        >
           <InfoTitle title={t('home:preciousMetalsContract')} />
           <Box pt={5}>
             <Text>{t('home:timesLeverage')}</Text>
           </Box>
+
+          <Flex
+            justify="center"
+            alignItems="center"
+            display={{ base: 'flex', xl: 'none' }}
+          >
+            <Link
+              _hover={{
+                textDecoration: 'none'
+              }}
+              href="https://trader.wc012.com/register"
+              isExternal
+            >
+              <StyledBox
+                mt={{ base: 10, xl: 0 }}
+                p={2}
+                bg="red.600"
+                fontSize="28px"
+                textAlign="center"
+                maxW="300px"
+                _hover={{
+                  bgColor: 'red.500',
+                  cursor: 'pointer',
+                  transform: 'scale(1.1)',
+                  fontWeight: '600'
+                }}
+              >
+                {t('home:accountOpening')}
+              </StyledBox>
+            </Link>
+          </Flex>
         </Box>
 
-        <Link
-          _hover={{
-            textDecoration: 'none'
-          }}
-          href="https://trader.wc012.com/register"
-          isExternal
+        <Flex
+          backgroundImage="url('../assets/images/home_gold.jpg')"
+          bgSize="cover"
+          height="295px"
+          width="600px"
+          justify="center"
+          alignItems="center"
+          display={{ base: 'none', xl: 'flex' }}
         >
-          <StyledBox
-            mt={{ base: 10, xl: 0 }}
-            p={2}
-            bg="red.600"
-            fontSize="28px"
+          <Link
             _hover={{
-              bgColor: 'red.500',
-              cursor: 'pointer',
-              transform: 'scale(1.1)',
-              fontWeight: '600'
+              textDecoration: 'none'
             }}
+            href="https://trader.wc012.com/register"
+            isExternal
           >
-            {t('home:accountOpening')}
-          </StyledBox>
-        </Link>
+            <StyledBox
+              mt={{ base: 10, xl: 0 }}
+              p={2}
+              bg="red.600"
+              fontSize="28px"
+              minW="250px"
+              textAlign="center"
+              _hover={{
+                bgColor: 'red.500',
+                cursor: 'pointer',
+                transform: 'scale(1.1)',
+                fontWeight: '600'
+              }}
+            >
+              {t('home:accountOpening')}
+            </StyledBox>
+          </Link>
+        </Flex>
       </Flex>
 
       {/* TradingView Widget BEGIN */}
@@ -313,7 +350,7 @@ const Index: React.FC<{}> = () => {
         <Box width="100%" height="auto">
           <Image
             minW="100%"
-            src="../assets/images/home_mobileBg.png"
+            src="../assets/images/home_mobileBg.jpg"
             alt="mobile"
           />
         </Box>
@@ -343,7 +380,7 @@ const Index: React.FC<{}> = () => {
       <Box display={{ base: 'none', xxl: 'block' }}>
         <Flex justify="center" mt="250px">
           <Box maxW="432px" mx={2}>
-            <Image src="../assets/images/home_phone.png" alt="left" />
+            <Image src="../assets/images/home_phone.jpg" alt="left" />
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
@@ -388,7 +425,7 @@ const Index: React.FC<{}> = () => {
           </Box>
 
           <Box maxW="432px" mx={2}>
-            <Image src="../assets/images/home_connectServer.png" alt="right" />
+            <Image src="../assets/images/home_connectServer.jpg" alt="right" />
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"

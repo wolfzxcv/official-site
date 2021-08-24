@@ -12,9 +12,9 @@ const Logo: React.FC<{}> = () => {
     <NextLink href="/" locale={currentLang}>
       <Link>
         <Image
-          maxW={'80%'}
-          h="auto"
-          src="../assets/images/logo.png"
+          width={109}
+          height={46}
+          src="../assets/images/logo.svg"
           alt="logo"
         />
       </Link>

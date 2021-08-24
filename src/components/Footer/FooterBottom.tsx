@@ -33,7 +33,7 @@ const FooterBottom: React.FC<{}> = () => {
         width={{ base: '85vw', md: '92vw' }}
         m={3}
         p={3}
-        bg="tomato"
+        bg="gray.900"
         textAlign={isArabic ? 'right' : 'left'}
       >
         {t('HighRiskInvestmentWarning')}

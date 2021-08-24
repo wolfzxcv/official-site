@@ -165,7 +165,7 @@ const MAMSystem: React.FC<{}> = () => {
       >
         <Box width={{ base: '100%', xl: '40vw' }}>
           <Center>
-            <Image src="../assets/images/mt4pcdownload_2.png" alt="device" />
+            <Image src="../assets/images/mt4pcdownload_2.jpg" alt="device" />
           </Center>
         </Box>
         <Box
@@ -200,7 +200,7 @@ const MAMSystem: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4mamsystem_3.png"
+                src="../assets/images/mt4mamsystem_3.jpg"
                 alt="pcdownload_3"
               />
             }
@@ -211,7 +211,7 @@ const MAMSystem: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4mamsystem_4.png"
+                src="../assets/images/mt4mamsystem_4.jpg"
                 alt="pcdownload_4"
               />
             }
@@ -221,7 +221,7 @@ const MAMSystem: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4mamsystem_5.png"
+                src="../assets/images/mt4mamsystem_5.jpg"
                 alt="pcdownload_5"
               />
             }

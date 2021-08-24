@@ -113,7 +113,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_SPX500.png"
+                src="../assets/images/indexTrading_SPX500.jpg"
                 alt="SPX500"
               />
             }
@@ -123,7 +123,7 @@ const indexTrading: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/indexTrading_US30.png" alt="US30" />
+              <Image src="../assets/images/indexTrading_US30.jpg" alt="US30" />
             }
             title={t('US30')}
             text={t('stocksFrom30Companies')}
@@ -132,7 +132,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_NASDAQ.png"
+                src="../assets/images/indexTrading_NASDAQ.jpg"
                 alt="NASDAQ"
               />
             }
@@ -150,7 +150,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_UK100.png"
+                src="../assets/images/indexTrading_UK100.jpg"
                 alt="UK100"
               />
             }
@@ -161,7 +161,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_GER30.png"
+                src="../assets/images/indexTrading_GER30.jpg"
                 alt="GER30"
               />
             }
@@ -172,7 +172,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_JPN225.png"
+                src="../assets/images/indexTrading_JPN225.jpg"
                 alt="JPN225"
               />
             }
@@ -190,7 +190,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_AUS200.png"
+                src="../assets/images/indexTrading_AUS200.jpg"
                 alt="AUS200"
               />
             }
@@ -201,7 +201,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_FRA40.png"
+                src="../assets/images/indexTrading_FRA40.jpg"
                 alt="FRA40"
               />
             }
@@ -212,7 +212,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_ESTX50.png"
+                src="../assets/images/indexTrading_ESTX50.jpg"
                 alt="ESTX50"
               />
             }
