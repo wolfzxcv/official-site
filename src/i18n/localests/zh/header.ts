@@ -7,6 +7,7 @@ export const header: Header = {
   corporateResponsibility: '企業責任',
   questions: '常見問題',
   announcements: '平台公告',
+  aboutUs: '關於我們',
   contactUs: '聯系我們',
   products: '交易產品',
   viewTradingProducts: '查看交易產品',

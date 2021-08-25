@@ -7,6 +7,7 @@ export const header: Header = {
   corporateResponsibility: 'Tanggungjawab*korporat',
   questions: 'Soalan*lazim',
   announcements: 'Pengumuman',
+  aboutUs: 'Tentang*Kita',
   contactUs: 'Hubungi*kami',
   products: 'Produk',
   viewTradingProducts: 'Lihat*produk*perdagangan',

@@ -7,6 +7,7 @@ export const header: Header = {
   corporateResponsibility: 'Cùng*chịu*trách*nhiệm',
   questions: 'Vấn*đề*thường',
   announcements: 'Thông*báo*của',
+  aboutUs: 'về*chúng*tôi',
   contactUs: 'Liên*hệ*chúng',
   products: 'Sản*phẩm',
   viewTradingProducts: 'Xem*các*sản*phẩm*giao*dịch',

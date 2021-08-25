@@ -7,12 +7,14 @@ interface InfoCardProps {
   image?: JSX.Element;
   title?: string;
   text: string;
-  minH?: string;
+  minH?: string | object;
   bigW?: string;
+  pt?: string;
   withBorder?: boolean;
+  withTag?: boolean;
 }
 
-// a row with 2 or 3 cards
+// a row with 2-4 cards
 const InfoCard: React.FC<InfoCardProps> = ({
   icon,
   image,
@@ -20,7 +22,9 @@ const InfoCard: React.FC<InfoCardProps> = ({
   text,
   minH = 'auto',
   bigW,
-  withBorder = false
+  pt,
+  withBorder = false,
+  withTag = true
 }: InfoCardProps) => {
   return (
     <Box
@@ -28,9 +32,14 @@ const InfoCard: React.FC<InfoCardProps> = ({
       m={withBorder ? 3 : 0}
       minH={minH ? minH : withBorder ? '280px' : 'auto'}
     >
-      <StyledBoxTag display={withBorder ? 'inherit' : 'none'} />
+      <StyledBoxTag display={withTag && withBorder ? 'inherit' : 'none'} />
 
-      <Box my={withBorder ? 2 : 7} mx={{ base: 10, xl: 0 }} color="red.600">
+      <Box
+        my={withBorder ? 2 : 7}
+        mx={{ base: 10, xl: 0 }}
+        color="red.600"
+        pt={pt ? pt : 0}
+      >
         {icon && <Center>{icon}</Center>}
         {image && <Center>{image && image}</Center>}
       </Box>

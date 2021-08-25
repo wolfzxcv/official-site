@@ -10,12 +10,18 @@ interface InfoButtonProps {
   text: string;
   href: string;
   option?: IProduct['category'];
+  bgColor?: string;
+  hoverBg?: string;
+  withBorder?: boolean;
 }
 
 const InfoButton: React.FC<InfoButtonProps> = ({
   text,
   href,
-  option
+  option,
+  withBorder = false,
+  bgColor,
+  hoverBg
 }: InfoButtonProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
@@ -37,13 +43,15 @@ const InfoButton: React.FC<InfoButtonProps> = ({
       <StyledFlex
         minH="40px"
         width={widerButton ? '250px' : '200px'}
-        bgColor="red.600"
+        bgColor={bgColor ? bgColor : 'red.600'}
         justify="space-around"
         align="center"
         fontWeight={'600'}
         color={'white'}
+        border={withBorder ? '1px' : 'none'}
+        borderColor="inherit"
         _hover={{
-          bgColor: 'red.700',
+          bgColor: hoverBg ? hoverBg : 'red.700',
           transition: '1s',
           cursor: 'pointer'
         }}

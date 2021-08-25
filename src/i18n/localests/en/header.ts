@@ -7,6 +7,7 @@ export const header: Header = {
   corporateResponsibility: 'Corporate*Responsibility',
   questions: 'Questions',
   announcements: 'Announcements',
+  aboutUs: 'About*Us',
   contactUs: 'Contact*Us',
   products: 'Products',
   viewTradingProducts: 'View*Trading*Products',
