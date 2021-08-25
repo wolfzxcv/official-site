@@ -209,114 +209,184 @@ const about: React.FC<{}> = () => {
       </Flex>
 
       {/* 3 red/white blocks: Years of credibility */}
-      <Flex
-        direction={{ base: 'column', xl: 'row' }}
-        justify="space-around"
-        align="center"
-        m={10}
-      >
-        <Box width={{ base: '80vw', xl: '28vw' }} my={3}>
-          <Flex
-            direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: 'auto', xl: isChinese ? '200px' : '280px' }}
-            align="center"
-          >
-            <Box m={5} color="red.600">
-              <Image
-                minW="28px"
-                height="28px"
-                src="../assets/images/about_icon5.png"
-                alt="icon5"
-              />
-            </Box>
-            <Stack
-              p={2}
-              spacing={3}
-              textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
-            >
-              <Box fontSize="24px" fontWeight="700">
-                {t('yearsOfCredibility')}
-              </Box>
-              <Box
-                minH={{
-                  base: 'auto',
-                  xl: tallerInfoCard || isArabic ? '168px' : 'auto'
-                }}
-              >
-                {t('adheringToTheOriginalIntention')}
-              </Box>
-            </Stack>
-          </Flex>
-        </Box>
+      <Flex p={20} align="center" direction="column">
+        <Flex
+          direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
+        >
+          <InfoCard
+            image={
+              <Image src="../assets/images/about_icon5.png" alt="about_icon5" />
+            }
+            title={t('yearsOfCredibility')}
+            text={t('adheringToTheOriginalIntention')}
+            withBorder
+          />
 
-        <Box width={{ base: '80vw', xl: '28vw' }} my={3}>
-          <Flex
-            direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: 'auto', xl: isChinese ? '200px' : '280px' }}
-            align="center"
-          >
-            <Box m={5} color="red.600">
-              <Image
-                minW="28px"
-                height="28px"
-                src="../assets/images/about_icon6.png"
-                alt="icon6"
-              />
-            </Box>
-            <Stack
-              p={2}
-              spacing={3}
-              textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
-            >
-              <Box fontSize="24px" fontWeight="700">
-                {t('abundantResources')}
-              </Box>
-              <Box
-                minH={{
-                  base: 'auto',
-                  xl: tallerInfoCard || isArabic ? '168px' : 'auto'
-                }}
-              >
-                {t('fullyProvideCustomers')}
-              </Box>
-            </Stack>
-          </Flex>
-        </Box>
-
-        <Box width={{ base: '80vw', xl: '28vw' }} my={3}>
-          <Flex
-            direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: 'auto', xl: isChinese ? '200px' : '280px' }}
-            align="center"
-          >
-            <Box m={5} color="red.600">
-              <Image
-                minW="28px"
-                height="28px"
-                src="../assets/images/about_icon7.png"
-                alt="icon7"
-              />
-            </Box>
-            <Stack
-              p={2}
-              spacing={3}
-              textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
-            >
-              <Box fontSize="24px" fontWeight="700">
-                {t('qualityService')}
-              </Box>
-              <Box
-                minH={{
-                  base: 'auto',
-                  xl: tallerInfoCard || isArabic ? '168px' : 'auto'
-                }}
-              >
-                {t('ourSalesTeam')}
-              </Box>
-            </Stack>
-          </Flex>
-        </Box>
+          <InfoCard
+            image={
+              <Image src="../assets/images/about_icon6.png" alt="about_icon6" />
+            }
+            title={t('abundantResources')}
+            text={t('fullyProvideCustomers')}
+            withBorder
+          />
+          <InfoCard
+            image={
+              <Image src="../assets/images/about_icon7.png" alt="about_icon7" />
+            }
+            title={t('qualityService')}
+            text={t('ourSalesTeam')}
+            withBorder
+          />
+        </Flex>
       </Flex>
+
+      {/* Diversified products, create the future */}
+      <Flex
+        bg="gray.800"
+        p={{ base: 10, md: 20 }}
+        flexDirection="column"
+        color="white"
+        align="center"
+      >
+        <InfoTitle title={t('diversifiedProducts')} />
+        <InfoTitleSub title={t('WCGProvides24Hours')} />
+        {/* <Box m={5}>
+          <InfoButton text={t('joinNow')} href="#" withBorder />
+        </Box> */}
+      </Flex>
+
+      <Box bg="gray.200">
+        {/* 4 people: Mr. Xiao */}
+        <Flex
+          direction={{ base: 'column', xl: 'row' }}
+          wrap="wrap"
+          justify="space-around"
+          align="center"
+          padding={10}
+        >
+          <Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
+            <Flex
+              direction={isArabic ? 'row-reverse' : 'row'}
+              minH={{ base: 'auto', xl: '200px' }}
+              align="center"
+            >
+              <Box m={5} color="red.600">
+                <Image
+                  minW="91px"
+                  height="91px"
+                  src="../assets/images/about_person_1.png"
+                  alt="person_1"
+                />
+              </Box>
+              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+                <Box fontSize="24px" fontWeight="700">
+                  {t('mrXiao')}
+                </Box>
+                <Box
+                  minH={{
+                    base: 'auto',
+                    xl: tallerInfoCard ? '145px' : 'auto'
+                  }}
+                >
+                  {t('inTheBeginning')}
+                </Box>
+              </Stack>
+            </Flex>
+          </Box>
+
+          <Box Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
+            <Flex
+              direction={isArabic ? 'row-reverse' : 'row'}
+              minH={{ base: 'auto', xl: '200px' }}
+              align="center"
+            >
+              <Box m={5} color="red.600">
+                <Image
+                  minW="91px"
+                  height="91px"
+                  src="../assets/images/about_person_2.png"
+                  alt="person_2"
+                />
+              </Box>
+              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+                <Box fontSize="24px" fontWeight="700">
+                  {t('msHuang')}
+                </Box>
+                <Box
+                  minH={{
+                    base: 'auto',
+                    xl: tallerInfoCard ? '145px' : 'auto'
+                  }}
+                >
+                  {t('becauseIAmGood')}
+                </Box>
+              </Stack>
+            </Flex>
+          </Box>
+
+          {/* 4 people: Ms. Zheng */}
+          <Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
+            <Flex
+              direction={isArabic ? 'row-reverse' : 'row'}
+              minH={{ base: 'auto', xl: '200px' }}
+              align="center"
+            >
+              <Box m={5} color="red.600">
+                <Image
+                  minW="91px"
+                  height="91px"
+                  src="../assets/images/about_person_3.png"
+                  alt="person_3"
+                />
+              </Box>
+              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+                <Box fontSize="24px" fontWeight="700">
+                  {t('msZheng')}
+                </Box>
+                <Box
+                  minH={{
+                    base: 'auto',
+                    xl: tallerInfoCard ? '145px' : 'auto'
+                  }}
+                >
+                  {t('whenIFirstCameInto')}
+                </Box>
+              </Stack>
+            </Flex>
+          </Box>
+
+          <Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
+            <Flex
+              direction={isArabic ? 'row-reverse' : 'row'}
+              minH={{ base: 'auto', xl: '200px' }}
+              align="center"
+            >
+              <Box m={5} color="red.600">
+                <Image
+                  minW="91px"
+                  height="91px"
+                  src="../assets/images/about_person_4.png"
+                  alt="person_4"
+                />
+              </Box>
+              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+                <Box fontSize="24px" fontWeight="700">
+                  {t('msLai')}
+                </Box>
+                <Box
+                  minH={{
+                    base: 'auto',
+                    xl: tallerInfoCard ? '145px' : 'auto'
+                  }}
+                >
+                  {t('whileWorkingWithWCG')}
+                </Box>
+              </Stack>
+            </Flex>
+          </Box>
+        </Flex>
+      </Box>
     </Wrapper>
   );
 };
