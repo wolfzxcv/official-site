@@ -30,7 +30,7 @@ const SocialMediaLinks: React.FC<{}> = () => {
           bgColor: 'gray.500',
           color: 'gray.700'
         }}
-        href="https://www.facebook.com/WCG-109473260957040"
+        href="https://www.instagram.com/wcg_markets/"
         isExternal
       >
         <Image
