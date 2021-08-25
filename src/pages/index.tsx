@@ -81,13 +81,12 @@ const Index: React.FC<{}> = () => {
               bgColor="transparent"
               color="gray.100"
               textAlign="center"
-              fontSize={{ base: '20px', md: '24px' }}
+              fontSize={{ base: '20px', md: '22px' }}
               _hover={{
                 bgColor: 'gray.100',
                 color: 'gray.700',
                 cursor: 'pointer',
-                transform: 'scale(1.1)',
-                fontWeight: '600'
+                transition: '1s'
               }}
             >
               {t('home:askProductsNow')}
@@ -96,7 +95,7 @@ const Index: React.FC<{}> = () => {
         </Flex>
       </Box>
 
-      {/* 3 red/white blocks */}
+      {/* 3 red/white blocks: Safe and secure depository */}
       <Flex
         direction={{ base: 'column', xl: 'row' }}
         justify="space-around"
@@ -104,17 +103,16 @@ const Index: React.FC<{}> = () => {
         my={10}
       >
         <Box
-          bg={{ base: 'none', xl: 'red.600' }}
-          color={{ base: 'black', xl: 'white' }}
           width={{ base: '80vw', xl: '28vw' }}
           my={3}
+          border={{ base: 'none', xl: '1px' }}
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
-            <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
+            <Box m={5} color="red.600">
               <AiFillLock fontSize="32px" />
             </Box>
             <Stack
@@ -122,26 +120,31 @@ const Index: React.FC<{}> = () => {
               spacing={3}
               textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
             >
-              <Text fontSize="24px" fontWeight="700">
+              <Box
+                fontSize="24px"
+                fontWeight="700"
+                height={isChinese ? 'auto' : '72px'}
+              >
                 {t('home:safeAndSecureDepository')}
-              </Text>
-              <Text>{t('home:customerFunds')}</Text>
+              </Box>
+              <Box minH={isChinese ? 'auto' : '144px'}>
+                {t('home:customerFunds')}
+              </Box>
             </Stack>
           </Flex>
         </Box>
 
         <Box
-          bg={{ base: 'none', xl: 'red.600' }}
-          color={{ base: 'black', xl: 'white' }}
           width={{ base: '80vw', xl: '28vw' }}
           my={3}
+          border={{ base: 'none', xl: '1px' }}
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
-            <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
+            <Box m={5} color="red.600">
               <BsLightningFill fontSize="32px" />
             </Box>
             <Stack
@@ -149,26 +152,31 @@ const Index: React.FC<{}> = () => {
               spacing={3}
               textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
             >
-              <Text fontSize="24px" fontWeight="700">
+              <Box
+                fontSize="24px"
+                fontWeight="700"
+                height={isChinese ? 'auto' : '72px'}
+              >
                 {t('home:efficientDeposit')}
-              </Text>
-              <Text>{t('home:theDepositAndWithdrawal')}</Text>
+              </Box>
+              <Box minH={isChinese ? 'auto' : '144px'}>
+                {t('home:theDepositAndWithdrawal')}
+              </Box>
             </Stack>
           </Flex>
         </Box>
 
         <Box
-          bg={{ base: 'none', xl: 'red.600' }}
-          color={{ base: 'black', xl: 'white' }}
           width={{ base: '80vw', xl: '28vw' }}
           my={3}
+          border={{ base: 'none', xl: '1px' }}
         >
           <Flex
             direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
-            minH={{ base: '100px', xl: isChinese ? '200px' : '268px' }}
+            minH={{ base: '100px', xl: isChinese ? '200px' : '292px' }}
             align="center"
           >
-            <Box m={5} color={{ base: 'red.600', xl: 'inherit' }}>
+            <Box m={5} color="red.600">
               <GiServerRack fontSize="32px" />
             </Box>
             <Stack
@@ -176,10 +184,16 @@ const Index: React.FC<{}> = () => {
               spacing={3}
               textAlign={{ base: 'center', xl: isArabic ? 'right' : 'left' }}
             >
-              <Text fontSize="24px" fontWeight="700">
+              <Box
+                fontSize="24px"
+                fontWeight="700"
+                height={isChinese ? 'auto' : '72px'}
+              >
                 {t('home:fastPayment')}
-              </Text>
-              <Text>{t('home:theLatestTechnology')}</Text>
+              </Box>
+              <Box minH={isChinese ? 'auto' : '144px'}>
+                {t('home:theLatestTechnology')}
+              </Box>
             </Stack>
           </Flex>
         </Box>
@@ -191,8 +205,8 @@ const Index: React.FC<{}> = () => {
         p={5}
         direction="column"
         align="center"
-        bgColor={{ base: 'black', xl: 'white' }}
-        color={{ base: 'white', xl: 'black' }}
+        bgColor="gray.800"
+        color="white"
         className="animation"
       >
         <Flex fontSize={{ base: '28px', md: '36px' }} fontWeight="700">
@@ -233,48 +247,85 @@ const Index: React.FC<{}> = () => {
       </Flex>
 
       {/* Precious Metals Contract */}
-      <Flex
-        backgroundImage="url('../assets/images/home_gold.png')"
-        bgSize="cover"
-        minH="250px"
-        px={5}
-        py={10}
-        my={10}
-        direction={{ base: 'column', xl: 'row' }}
-        align="center"
-        justify="space-evenly"
-        color="white"
-        className="animation"
-      >
-        <Box textAlign={isArabic ? 'right' : 'left'} maxW="70vw">
+      <Flex py={10} my={10} align="center" color="white" className="animation">
+        <Box
+          textAlign={isArabic ? 'right' : 'left'}
+          width={{ base: '98vw', xl: '75vw' }}
+          minH="295px"
+          bgColor="gray.800"
+          padding="10"
+        >
           <InfoTitle title={t('home:preciousMetalsContract')} />
-          <Box pt={5}>
+          <Stack pt={5} spacing={2}>
             <Text>{t('home:timesLeverage')}</Text>
-          </Box>
+            <Text>{t('home:LondonGoldLondonSilver')}</Text>
+            <Text>{t('home:shortFundSettlementTime')}</Text>
+          </Stack>
+
+          <Flex
+            justify="center"
+            alignItems="center"
+            display={{ base: 'flex', xl: 'none' }}
+          >
+            <Link
+              _hover={{
+                textDecoration: 'none'
+              }}
+              href="https://trader.wc012.com/register"
+              isExternal
+            >
+              <StyledBox
+                mt={{ base: 10, xl: 0 }}
+                p={2}
+                bg="red.600"
+                fontSize="22px"
+                textAlign="center"
+                width="250px"
+                _hover={{
+                  bgColor: 'red.500',
+                  cursor: 'pointer',
+                  transition: '1s'
+                }}
+              >
+                {t('home:accountOpening')}
+              </StyledBox>
+            </Link>
+          </Flex>
         </Box>
 
-        <Link
-          _hover={{
-            textDecoration: 'none'
-          }}
-          href="https://trader.wc012.com/register"
-          isExternal
+        <Flex
+          backgroundImage="url('../assets/images/home_gold.jpg')"
+          bgSize="cover"
+          height="295px"
+          width="600px"
+          justify="center"
+          alignItems="center"
+          display={{ base: 'none', xl: 'flex' }}
         >
-          <StyledBox
-            mt={{ base: 10, xl: 0 }}
-            p={2}
-            bg="red.600"
-            fontSize="28px"
+          <Link
             _hover={{
-              bgColor: 'red.500',
-              cursor: 'pointer',
-              transform: 'scale(1.1)',
-              fontWeight: '600'
+              textDecoration: 'none'
             }}
+            href="https://trader.wc012.com/register"
+            isExternal
           >
-            {t('home:accountOpening')}
-          </StyledBox>
-        </Link>
+            <StyledBox
+              mt={{ base: 10, xl: 0 }}
+              p={2}
+              bg="red.600"
+              fontSize="22px"
+              minW="250px"
+              textAlign="center"
+              _hover={{
+                bgColor: 'red.500',
+                cursor: 'pointer',
+                transition: '1s'
+              }}
+            >
+              {t('home:accountOpening')}
+            </StyledBox>
+          </Link>
+        </Flex>
       </Flex>
 
       {/* TradingView Widget BEGIN */}
@@ -309,11 +360,11 @@ const Index: React.FC<{}> = () => {
       {/* TradingView Widget END */}
 
       {/* Mobile Real-time quotation of our trading products */}
-      <Box display={{ base: 'block', xxl: 'none' }} width="100%">
+      <Box display={{ base: 'block', xl: 'none' }} width="100%">
         <Box width="100%" height="auto">
           <Image
             minW="100%"
-            src="../assets/images/home_mobileBg.png"
+            src="../assets/images/home_mobileBg.jpg"
             alt="mobile"
           />
         </Box>
@@ -340,10 +391,10 @@ const Index: React.FC<{}> = () => {
       </Box>
 
       {/* Desktop Real-time quotation of our trading products */}
-      <Box display={{ base: 'none', xxl: 'block' }}>
+      <Box display={{ base: 'none', xl: 'block' }}>
         <Flex justify="center" mt="250px">
           <Box maxW="432px" mx={2}>
-            <Image src="../assets/images/home_phone.png" alt="left" />
+            <Image src="../assets/images/home_phone.jpg" alt="left" />
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"
@@ -388,7 +439,7 @@ const Index: React.FC<{}> = () => {
           </Box>
 
           <Box maxW="432px" mx={2}>
-            <Image src="../assets/images/home_connectServer.png" alt="right" />
+            <Image src="../assets/images/home_connectServer.jpg" alt="right" />
             <Stack
               backgroundImage="url('../assets/images/home_cardBg.png')"
               bgSize="cover"

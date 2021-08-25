@@ -15,6 +15,8 @@ export type Header = {
   questions: string;
   /** announcements */
   announcements: string;
+  /** about us */
+  aboutUs: string;
   /** contact us */
   contactUs: string;
   /****************************************/

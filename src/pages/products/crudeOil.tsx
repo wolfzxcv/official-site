@@ -107,7 +107,7 @@ const crudeOil: React.FC<{}> = () => {
         align="center"
       >
         <Box width={{ base: '60vw', xl: '40vw' }}>
-          <Image src="../assets/images/crudeOil_2.png" alt="crudeOil_2" />
+          <Image src="../assets/images/crudeOil_2.jpg" alt="crudeOil_2" />
         </Box>
         <Box
           my={{ base: 10, xl: 0 }}
@@ -135,7 +135,7 @@ const crudeOil: React.FC<{}> = () => {
       >
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_3.png" alt="crudeOil_3" />
+            <Image src="../assets/images/crudeOil_3.jpg" alt="crudeOil_3" />
           }
           title={t('WTI')}
           text={t('thisIsACrudeOilProduced')}
@@ -145,7 +145,7 @@ const crudeOil: React.FC<{}> = () => {
 
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_4.png" alt="crudeOil_4" />
+            <Image src="../assets/images/crudeOil_4.jpg" alt="crudeOil_4" />
           }
           title={t('BRENT')}
           text={t('brentCrudeOil')}
@@ -240,7 +240,7 @@ const crudeOil: React.FC<{}> = () => {
       >
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_5.png" alt="crudeOil_5" />
+            <Image src="../assets/images/crudeOil_5.jpg" alt="crudeOil_5" />
           }
           title={t('USDepartmentOfEnergy')}
           text={t('theUSDepartmentOfEnergy')}
@@ -250,7 +250,7 @@ const crudeOil: React.FC<{}> = () => {
 
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_6.png" alt="crudeOil_6" />
+            <Image src="../assets/images/crudeOil_6.jpg" alt="crudeOil_6" />
           }
           title={t('OPEC')}
           text={t('theCrudeOilReportYouShouldStudy')}

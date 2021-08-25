@@ -152,7 +152,7 @@ const MT4APPDownload: React.FC<{}> = () => {
       >
         <Box width={{ base: '100%', xl: '40vw' }}>
           <Center>
-            <Image src="../assets/images/mt4pcdownload_2.png" alt="device" />
+            <Image src="../assets/images/mt4pcdownload_2.jpg" alt="device" />
           </Center>
         </Box>
         <Box
@@ -186,7 +186,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4pcdownload_3.png"
+                src="../assets/images/mt4pcdownload_3.jpg"
                 alt="pcdownload_3"
               />
             }
@@ -197,7 +197,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4pcdownload_4.png"
+                src="../assets/images/mt4pcdownload_4.jpg"
                 alt="pcdownload_4"
               />
             }
@@ -207,7 +207,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4pcdownload_5.png"
+                src="../assets/images/mt4pcdownload_5.jpg"
                 alt="pcdownload_5"
               />
             }

@@ -6,7 +6,8 @@ interface LinkButtonProps {
   href: string;
   inMobile?: boolean;
   withBorder?: boolean;
-  borderColor?: 'red' | 'green' | 'inherit';
+  borderColor?: '#b81c22' | 'green' | 'inherit';
+  mdWidth?: string;
   isFooter?: boolean;
 }
 
@@ -16,6 +17,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({
   inMobile = false,
   withBorder = true,
   borderColor = 'inherit',
+  mdWidth,
   isFooter = false
 }: LinkButtonProps) => {
   return (
@@ -31,15 +33,17 @@ const LinkButton: React.FC<LinkButtonProps> = ({
         borderColor={withBorder && borderColor ? borderColor : 'inherit'}
         as="button"
         display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
-        width={{ base: isFooter ? 'inherit' : '45vw', md: '15vw' }}
+        width={{
+          base: isFooter ? 'inherit' : '45vw',
+          md: mdWidth ? mdWidth : '15vw'
+        }}
         minH="40px"
         minW="100px"
         mx={2}
         px={2}
         _hover={{
-          bgColor: 'gray.600',
-          transform: 'scale(1.1)',
-          fontWeight: '600'
+          bgColor: withBorder && borderColor ? borderColor : 'inherit',
+          transition: '1s'
         }}
       >
         {text}

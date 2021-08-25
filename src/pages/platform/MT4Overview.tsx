@@ -25,7 +25,7 @@ const MT4Overview: React.FC<{}> = () => {
         <Box my={20} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title="WCG MT4" />
           <InfoTitleSub title={t('efficientAndFreeTrading')} />
-          <Image src="../assets/images/mt4overview_1.png" alt="device" />
+          <Image src="../assets/images/mt4overview_1.jpg" alt="device" />
         </Box>
         <Flex
           my={10}
@@ -75,7 +75,7 @@ const MT4Overview: React.FC<{}> = () => {
           align="center"
         >
           <Box width={{ base: '60vw', xl: '40vw' }}>
-            <Image src="../assets/images/mt4overview_2.png" alt="device" />
+            <Image src="../assets/images/mt4overview_2.jpg" alt="device" />
           </Box>
           <Box
             my={{ base: 10, xl: 0 }}
@@ -105,7 +105,7 @@ const MT4Overview: React.FC<{}> = () => {
             <Text my={3}>{t('throughTheFurtherDevelopment')}</Text>
           </Box>
           <Box width={{ base: '60vw', xl: '40vw' }}>
-            <Image src="../assets/images/mt4overview_3.png" alt="device" />
+            <Image src="../assets/images/mt4overview_3.jpg" alt="device" />
           </Box>
         </Flex>
       </Flex>

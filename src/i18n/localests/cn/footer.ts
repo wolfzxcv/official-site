@@ -20,7 +20,7 @@ export const footer: Footer = {
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd*获加拿大金融情报部门(FIU)加拿大金融交易和报告分析中心(FINTRAC)监管，MSB牌照编号为M20282836。注册地址是：*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
   WCGGoldCompany:
-    '文传金业有限公司获香港金银业贸易场(Chinese*Gold*&*Silver*Exchange,*CGSE)权并受其监管。为12号A1级别会员单位。註册地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
+    '文传金业有限公司获香港金银业贸易场(Chinese*Gold*&*Silver*Exchange,*CGSE)受其监管。为12号A1级别会员单位。註册地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
     'Wenchuan*Global*Ltd是于英国注册成立的有限责任公司，公司编号为11019948。注册地址是：*5th*Floor,*3*Gower*Street,*London,*UK,*WC1E*6HA',
   HighRiskInvestmentWarning:

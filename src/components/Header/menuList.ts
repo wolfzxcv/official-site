@@ -14,20 +14,20 @@ export const menuList: IMenuItem[] = [
     i18n: 'home',
     href: '/'
   },
-  // {
-  //   i18n: 'about',
-  //   children: [
-  //     { i18n: 'about', href: '/about' },
-  //     { i18n: 'companyNews', href: '/about/companyNews' },
-  //     {
-  //       i18n: 'corporateResponsibility',
-  //       href: '/about/corporateResponsibility'
-  //     },
-  //     { i18n: 'questions', href: '/about/questions' },
-  //     { i18n: 'announcements', href: '/about/announcements' },
-  //     { i18n: 'contactUs', href: '/about/contactUs' }
-  //   ]
-  // },
+  {
+    i18n: 'about',
+    children: [
+      // { i18n: 'companyNews', href: '/about/companyNews' },
+      // {
+      //   i18n: 'corporateResponsibility',
+      //   href: '/about/corporateResponsibility'
+      // },
+      // { i18n: 'questions', href: '/about/questions' },
+      // { i18n: 'announcements', href: '/about/announcements' },
+      { i18n: 'aboutUs', href: '/about' }
+      // { i18n: 'contactUs', href: '/about/contactUs' }
+    ]
+  },
   {
     i18n: 'products',
     children: [

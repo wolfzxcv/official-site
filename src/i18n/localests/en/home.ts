@@ -29,7 +29,11 @@ export const home: Home = {
     "WCG*values*the*customer's*trading*experience*and*firmly*believes*that*the*future*development*of*the*brand*depends*on*the*common*growth*of*its*partners.",
   preciousMetalsContract: 'Precious*Metals*Contract',
   timesLeverage:
-    '100-200*times*leverage,low-cost*and*high-return,global*24-hours*trading,can*make*profit*by*both*buy*and*sell.London*Gold*&*London*Silver*is*a*trading*product*provided*by*the*International*Financial*Futures*Exchange,*with*simple*trading*rules,*T+0*operation,*short*fund*settlement*time,*and*fast*and*safe*online*electronic*transactions.',
+    '100-200*times*leverage,low-cost*and*high-return,global*24-hours*trading,can*make*profit*by*both*buy*and*sell.',
+  LondonGoldLondonSilver:
+    'London*Gold*&*London*Silver*is*a*trading*product*provided*by*the*International*Financial*Futures*Exchange,*with*simple*trading*rules,*T+0*operation.',
+  shortFundSettlementTime:
+    'Short*fund*settlement*time,*and*fast*and*safe*online*electronic*transactions.',
   accountOpening: 'Account*Opening',
   realTimeQuotation: 'Real-time*quotation*of*our*trading*products',
   aVarietyOfProfessional:

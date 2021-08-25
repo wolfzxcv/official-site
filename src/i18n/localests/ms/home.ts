@@ -31,7 +31,11 @@ export const home: Home = {
     'Dengan*lesen*perniagaan*formal*di*pasaran*kewangan*antarabangsa,*yang*dilindungi*oleh*undang-undang*Hong*Kong,*China*dan*peraturan*antarabangsa*St.Vincent.*Ini*adalah*Internet*"broker*logam*berharga*yang*paling*dipercayai*untuk*pelabur".',
   preciousMetalsContract: 'Kontrak*Logam*Berharga',
   timesLeverage:
-    '100-200*kali*leverage,*kos*rendah*dan*pulangan*tinggi,*perdagangan*24*jam*global,*dapat*memperoleh*keuntungan*dengan*membeli*dan*menjual.*London*Gold*&*London*Silver*adalah*produk*perdagangan*yang*disediakan*oleh*International*Financial*Futures*Exchange,*dengan*peraturan*perdagangan*yang*mudah,*operasi*T*+*0,*waktu*penyelesaian*dana*pendek,*dan*transaksi*elektronik*dalam*talian*yang*cepat*dan*selamat.',
+    '100-200*kali*leverage,*kos*rendah*dan*pulangan*tinggi,*perdagangan*24*jam*global,*dapat*memperoleh*keuntungan*dengan*membeli*dan*menjual.',
+  LondonGoldLondonSilver:
+    'London*Gold*&*London*Silver*adalah*produk*perdagangan*yang*disediakan*oleh*International*Financial*Futures*Exchange,*dengan*peraturan*perdagangan*yang*mudah,*operasi*T*+*0.',
+  shortFundSettlementTime:
+    'Waktu*penyelesaian*dana*pendek,*dan*transaksi*elektronik*dalam*talian*yang*cepat*dan*selamat.',
   accountOpening: 'Pembukaan*Akaun',
   realTimeQuotation: 'Petikan*masa*nyata*produk*perdagangan*kami',
   aVarietyOfProfessional:

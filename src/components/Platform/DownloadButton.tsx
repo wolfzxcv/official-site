@@ -93,7 +93,7 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
         color="white"
         _hover={{
           bgColor: 'green.600',
-          transform: 'scale(1.1)',
+          transition: '1s',
           cursor: 'pointer'
         }}
       >

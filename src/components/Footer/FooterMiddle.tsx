@@ -30,7 +30,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 text={t('openRealAccount')}
                 href="https://trader.wc012.com/register"
                 inMobile
-                borderColor="red"
+                borderColor="#b81c22"
                 isFooter
               ></LinkButton>
             </StyledBox>

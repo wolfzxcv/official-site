@@ -7,6 +7,7 @@ export const header: Header = {
   corporateResponsibility: 'مسؤولية*الشركة',
   questions: 'الأسئلة*المتكررة',
   announcements: 'تصريحات',
+  aboutUs: 'معلومات*عنا',
   contactUs: 'اتصل*بنا',
   products: 'منتجات*التداول',
   viewTradingProducts: 'عرض*منتجات*التداول',
