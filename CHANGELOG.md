@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.14](https://github.com/alice1qaz/WCG/compare/v1.2.13...v1.2.14) (2021-08-27)
+
+
+### Bug Fixes
+
+* **about:** fix box  warning ([c2f1e59](https://github.com/alice1qaz/WCG/commit/c2f1e5922004e4da6661b804f054c0657ff00c0f))
+
 ### [1.2.13](https://github.com/alice1qaz/WCG/compare/v1.2.12...v1.2.13) (2021-08-25)
 
 ### [1.2.12](https://github.com/alice1qaz/WCG/compare/v1.2.11...v1.2.12) (2021-08-25)
