@@ -256,137 +256,140 @@ const about: React.FC<{}> = () => {
         </Box> */}
       </Flex>
 
-      <Box bg="gray.200">
-        {/* 4 people: Mr. Xiao */}
+      {/* 4 people: Mr. Xiao */}
+      <Flex
+        bg="gray.800"
+        direction={{ base: 'column', xl: 'row' }}
+        wrap="wrap"
+        justify="space-around"
+        align="center"
+        padding={10}
+      >
         <Flex
-          direction={{ base: 'column', xl: 'row' }}
-          wrap="wrap"
-          justify="space-around"
+          width={{ base: '80vw', xl: '40vw' }}
+          my={1}
+          bg="white"
+          direction={isArabic ? 'row-reverse' : 'row'}
+          minH={{ base: 'auto', xl: '200px' }}
           align="center"
-          padding={10}
         >
-          <Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
-            <Flex
-              direction={isArabic ? 'row-reverse' : 'row'}
-              minH={{ base: 'auto', xl: '200px' }}
-              align="center"
-            >
-              <Box m={5} color="red.600">
-                <Image
-                  minW="91px"
-                  height="91px"
-                  src="../assets/images/about_person_1.png"
-                  alt="person_1"
-                />
-              </Box>
-              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-                <Box fontSize="24px" fontWeight="700">
-                  {t('mrXiao')}
-                </Box>
-                <Box
-                  minH={{
-                    base: 'auto',
-                    xl: tallerInfoCard ? '145px' : 'auto'
-                  }}
-                >
-                  {t('inTheBeginning')}
-                </Box>
-              </Stack>
-            </Flex>
+          <Box m={5} color="red.600">
+            <Image
+              minW="91px"
+              height="91px"
+              src="../assets/images/about_person_1.png"
+              alt="person_1"
+            />
           </Box>
-
-          <Box Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
-            <Flex
-              direction={isArabic ? 'row-reverse' : 'row'}
-              minH={{ base: 'auto', xl: '200px' }}
-              align="center"
+          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+            <Box fontSize="24px" fontWeight="700">
+              {t('mrXiao')}
+            </Box>
+            <Box
+              minH={{
+                base: 'auto',
+                xl: tallerInfoCard ? '145px' : 'auto'
+              }}
             >
-              <Box m={5} color="red.600">
-                <Image
-                  minW="91px"
-                  height="91px"
-                  src="../assets/images/about_person_2.png"
-                  alt="person_2"
-                />
-              </Box>
-              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-                <Box fontSize="24px" fontWeight="700">
-                  {t('msHuang')}
-                </Box>
-                <Box
-                  minH={{
-                    base: 'auto',
-                    xl: tallerInfoCard ? '145px' : 'auto'
-                  }}
-                >
-                  {t('becauseIAmGood')}
-                </Box>
-              </Stack>
-            </Flex>
-          </Box>
-
-          {/* 4 people: Ms. Zheng */}
-          <Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
-            <Flex
-              direction={isArabic ? 'row-reverse' : 'row'}
-              minH={{ base: 'auto', xl: '200px' }}
-              align="center"
-            >
-              <Box m={5} color="red.600">
-                <Image
-                  minW="91px"
-                  height="91px"
-                  src="../assets/images/about_person_3.png"
-                  alt="person_3"
-                />
-              </Box>
-              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-                <Box fontSize="24px" fontWeight="700">
-                  {t('msZheng')}
-                </Box>
-                <Box
-                  minH={{
-                    base: 'auto',
-                    xl: tallerInfoCard ? '145px' : 'auto'
-                  }}
-                >
-                  {t('whenIFirstCameInto')}
-                </Box>
-              </Stack>
-            </Flex>
-          </Box>
-
-          <Box width={{ base: '80vw', xl: '40vw' }} my={1} bg="white">
-            <Flex
-              direction={isArabic ? 'row-reverse' : 'row'}
-              minH={{ base: 'auto', xl: '200px' }}
-              align="center"
-            >
-              <Box m={5} color="red.600">
-                <Image
-                  minW="91px"
-                  height="91px"
-                  src="../assets/images/about_person_4.png"
-                  alt="person_4"
-                />
-              </Box>
-              <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-                <Box fontSize="24px" fontWeight="700">
-                  {t('msLai')}
-                </Box>
-                <Box
-                  minH={{
-                    base: 'auto',
-                    xl: tallerInfoCard ? '145px' : 'auto'
-                  }}
-                >
-                  {t('whileWorkingWithWCG')}
-                </Box>
-              </Stack>
-            </Flex>
-          </Box>
+              {t('inTheBeginning')}
+            </Box>
+          </Stack>
         </Flex>
-      </Box>
+
+        <Flex
+          width={{ base: '80vw', xl: '40vw' }}
+          my={1}
+          bg="white"
+          direction={isArabic ? 'row-reverse' : 'row'}
+          minH={{ base: 'auto', xl: '200px' }}
+          align="center"
+        >
+          <Box m={5} color="red.600">
+            <Image
+              minW="91px"
+              height="91px"
+              src="../assets/images/about_person_2.png"
+              alt="person_2"
+            />
+          </Box>
+          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+            <Box fontSize="24px" fontWeight="700">
+              {t('msHuang')}
+            </Box>
+            <Box
+              minH={{
+                base: 'auto',
+                xl: tallerInfoCard ? '145px' : 'auto'
+              }}
+            >
+              {t('becauseIAmGood')}
+            </Box>
+          </Stack>
+        </Flex>
+
+        {/* 4 people: Ms. Zheng */}
+        <Flex
+          width={{ base: '80vw', xl: '40vw' }}
+          my={1}
+          bg="white"
+          direction={isArabic ? 'row-reverse' : 'row'}
+          minH={{ base: 'auto', xl: '200px' }}
+          align="center"
+        >
+          <Box m={5} color="red.600">
+            <Image
+              minW="91px"
+              height="91px"
+              src="../assets/images/about_person_3.png"
+              alt="person_3"
+            />
+          </Box>
+          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+            <Box fontSize="24px" fontWeight="700">
+              {t('msZheng')}
+            </Box>
+            <Box
+              minH={{
+                base: 'auto',
+                xl: tallerInfoCard ? '145px' : 'auto'
+              }}
+            >
+              {t('whenIFirstCameInto')}
+            </Box>
+          </Stack>
+        </Flex>
+
+        <Flex
+          width={{ base: '80vw', xl: '40vw' }}
+          my={1}
+          bg="white"
+          direction={isArabic ? 'row-reverse' : 'row'}
+          minH={{ base: 'auto', xl: '200px' }}
+          align="center"
+        >
+          <Box m={5} color="red.600">
+            <Image
+              minW="91px"
+              height="91px"
+              src="../assets/images/about_person_4.png"
+              alt="person_4"
+            />
+          </Box>
+          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
+            <Box fontSize="24px" fontWeight="700">
+              {t('msLai')}
+            </Box>
+            <Box
+              minH={{
+                base: 'auto',
+                xl: tallerInfoCard ? '145px' : 'auto'
+              }}
+            >
+              {t('whileWorkingWithWCG')}
+            </Box>
+          </Stack>
+        </Flex>
+      </Flex>
     </Wrapper>
   );
 };
