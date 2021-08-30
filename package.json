@@ -1,6 +1,6 @@
 {
   "name": "WCG",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "scripts": {
     "dev": "next",
     "build": "next build",
