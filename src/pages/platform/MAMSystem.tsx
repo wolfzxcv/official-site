@@ -122,11 +122,11 @@ const MAMSystem: React.FC<{}> = () => {
                 'balanceIsAllocatedAccordingToProportion'
               )}`}
             </Text>
+            <Text>{`${!isArabic ? '4. ' : ''}${t('profitAndLoss')}`}</Text>
+            <Text>{`${!isArabic ? '5. ' : ''}${t('profitAndLossAre')}`}</Text>
             <Text fontWeight="700" fontSize="22px">
               {t('allocationByProfitAndLoss')}
             </Text>
-            <Text>{`${!isArabic ? '4. ' : ''}${t('profitAndLoss')}`}</Text>
-            <Text>{`${!isArabic ? '5. ' : ''}${t('profitAndLossAre')}`}</Text>
             <Box>
               <MAMProfitList
                 left={t('investment200')}
