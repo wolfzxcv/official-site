@@ -6,7 +6,7 @@ export const home: Home = {
   strongAdvantages:
     'Keuntungan*yang*kuat,*untuk*memastikan*keamanan*transaksi*Anda',
   highLiquidity:
-    'Likuiditas*tinggi,diskon*spread*signifikan,biaya rendah,dan*tingkat*pengembalian*tinggi.',
+    'Likuiditas*tinggi,*diskon*spread*signifikan,*biaya*rendah,*dan*tingkat*pengembalian*tinggi.',
   safetyOfFunds:
     'Keamanan*dana,*proses*setoran*dana*dan*penarikan*cepat,*sistem*yang*baik,*layanan*sepanjang*waktu',
   askProductsNow: 'Tanya*Sekarang',
@@ -24,7 +24,7 @@ export const home: Home = {
   professionalEquals: '100%*profesional*dengan*tingkat*kepercayaan*100%',
   mobileTradingSystem: 'Sistem*Perdagangan*Seluler',
   WCGMobileTradingSystem:
-    'Sistem*Perdagangan*Seluler*WCG*menyediakan*metode*sederhana*dan*nyaman*sehingga*nasabah dapat*berdagang*sambil*bepergian*dan*segera*bereaksi*terhadap*berita*dan*data*pasar*instan, sehingga*memaksimalkan*peluang*perdagangan.',
+    'Sistem*Perdagangan*Seluler*WCG*menyediakan*metode*sederhana*dan*nyaman*sehingga*nasabah*dapat*berdagang*sambil*bepergian*dan*segera*bereaksi*terhadap*berita*dan*data*pasar*instan,*sehingga*memaksimalkan*peluang*perdagangan.',
   brandReputation: 'Reputasi*jenama*dan*hubungan*win-win',
   WCGValuesTheCustomersTradingExperience:
     'WCG*menghargai*pengalaman*perdagangan*pelanggan*dan*yakin*bahawa*pengembangan*jenama*masa*depan*bergantung*pada*pertumbuhan*bersama*rakan*kongsi.',
@@ -39,7 +39,7 @@ export const home: Home = {
   realTimeQuotation:
     'Penyedia*harga*yang*real*time*dari*produk*perdagangan*kami',
   aVarietyOfProfessional:
-    'Berbagai*alat*analisis*grafik*profesional*dan*indikator*teknis.* Anda*dapat*dengan*bebas*mengatur*parameter*indikator*teknis*dan*kerangka*waktu*Anda*sendiri.',
+    'Berbagai*alat*analisis*grafik*profesional*dan*indikator*teknis.**Anda*dapat*dengan*bebas*mengatur*parameter*indikator*teknis*dan*kerangka*waktu*Anda*sendiri.',
   investmentProductsAcross: 'Produk*investasi*di*seluruh*dunia',
   includingMoreThan:
     'Termasuk*lebih*dari*seratus*produk*investasi*seperti*margin*FX,*logam*mulia,*minyak*mentah,*futures,*mata*uang*kripto,*saham,*dll.',
@@ -48,5 +48,5 @@ export const home: Home = {
     'Proses*otomatis*dapat*secara*efektif*meningkatkan*kecepatan*dan*akurasi*transfer*dana,*sehingga*Anda*dapat*menikmati*pengalaman*setoran*dan*penarikan*yang*terbaik.',
   downloadImmediately: 'Unduh*segera',
   fastExecutionOfEachOrder:
-    'Eksekusi*cepat*setiap*order,*likuiditas*tinggi,*stabilitas tinggi,*transparansi*tinggi'
+    'Eksekusi*cepat*setiap*order,*likuiditas*tinggi,*stabilitas*tinggi,*transparansi*tinggi'
 };
