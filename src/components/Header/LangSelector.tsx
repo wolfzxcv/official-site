@@ -31,10 +31,10 @@ const LangSelector: React.FC<{}> = () => {
     navigator.userAgent.match(/Windows Phone/i);
 
   const getCurrentLanguage = () => {
-    const langInLocalStorage = localStorage.getItem('language');
+    const langInLocalStorage = localStorage.getItem('language') as Locales;
 
-    if (langInLocalStorage) {
-      handleSetLanguage(langInLocalStorage as Locales);
+    if (langInLocalStorage && locales.includes(langInLocalStorage)) {
+      handleSetLanguage(langInLocalStorage);
     } else {
       let lang = i18n?.languages[0] as Locales;
       // Check browser language manually
