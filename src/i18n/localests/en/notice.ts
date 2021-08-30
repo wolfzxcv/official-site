@@ -28,7 +28,7 @@ export const notice: Notice = {
   ifTheAccountIs:
     'If*the*account*is*confirmed*to*be*with*abnormal*transactions,*the*company*will*close*the*account*and*return*the*remaining*funds*to*the*customer,*any*profits*and*commissions*arising*from*abnormal*transactions*will*be*canceled.',
   theRightToInterpret:
-    'The*right*to*interpret*“abnormal*transaction”*is*owned*by*WCG*Markets*Ltd.*and*if*there*is*any*dispute,*WCG*Markets*Ltd*reserves*the*right*to*modify.',
+    'The*right*to*interpret*“abnormal*transaction”*is*owned*by*WCG,*and*if*there*is*any*dispute,*WCG**reserves*the*right*to*modify.',
   tradeDetails: 'Trade*Details',
   sourceOfTradeExecution: 'Source*Of*Trade*Execution',
   theQuotesOfOur:

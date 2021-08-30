@@ -27,7 +27,7 @@ export const notice: Notice = {
   ifTheAccountIs:
     '如确认该帐号在进行异常交易，本公司会把该帐号注销，并把帐户的剩余资金发还客户，任何因异常交易所产生的利润和佣金不发放。',
   theRightToInterpret:
-    '异常交易的解释权归文传国际有限公司所有，如有任何争议，一切以文传国际之决定为最终裁决。',
+    '异常交易的解释权归WCG所有，如有任何争议，一切以WCG之决定为最终裁决。',
   tradeDetails: '交易细则',
   sourceOfTradeExecution: '执行来源',
   theQuotesOfOur:

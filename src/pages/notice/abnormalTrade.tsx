@@ -52,8 +52,9 @@ const abnormalTrade: React.FC<{}> = () => {
             <InfoAccordionItem
               title={t('handlingMethod')}
               content={[
-                `${!isArabic ? '1. ' : ''}${t('whenThereIs')}`,
-                `${!isArabic ? '2. ' : ''}${t('when30OfThe')}`
+                `${!isArabic ? '1. ' : ''}${t('ifTheAccount')}`,
+                `${!isArabic ? '2. ' : ''}${t('ifTheAccountIs')}`,
+                `${!isArabic ? '* ' : ''}${t('theRightToInterpret')}`
               ]}
             />
           </Accordion>
