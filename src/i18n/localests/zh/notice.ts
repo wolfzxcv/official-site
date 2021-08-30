@@ -27,7 +27,7 @@ export const notice: Notice = {
   ifTheAccountIs:
     '如確認該帳號在進行異常交易，本公司會把該帳號注銷，並把帳戶的剩余資金发還客戶，任何因異常交易所產生的利潤和傭金不发放。',
   theRightToInterpret:
-    '異常交易的解釋權歸文傳國際有限公司所有，如有任何爭議，一切以文傳國際之決定為最終裁決。',
+    '異常交易的解釋權歸WCG所有，如有任何爭議，一切以WCG之決定為最終裁決。',
   tradeDetails: '交易細則',
   sourceOfTradeExecution: '執行來源',
   theQuotesOfOur:
