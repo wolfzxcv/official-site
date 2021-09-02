@@ -14,7 +14,7 @@ const Activity: React.FC<{}> = () => {
   return (
     <>
       <Box
-        maxW="1920px"
+        maxW="100vw"
         maxH="319px"
         bgImage="../assets/images/activity_banner.png"
         bgPosition="center"
@@ -87,7 +87,7 @@ const Activity: React.FC<{}> = () => {
         </Box>
       </Flex>
       <Flex
-        maxW="1920px"
+        maxW="100vw"
         maxH="524px"
         bgImage="../assets/images/activity_towers.png"
         bgPosition="center"
