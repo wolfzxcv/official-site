@@ -104,7 +104,7 @@ const Activity: React.FC<{}> = () => {
           <Box fontSize={{ base: '10px', md: '18px' }}>具体赠金：</Box>
           <Flex>
             <FeedBack wording="每手点差回赠" number={10} />
-            <FeedBack wording="每20手额外赠金" number={200} break={true} />
+            <FeedBack wording="每20手额外赠金" number={200} />
           </Flex>
           <FeedBack wording="最高赠金总额" number={20000} />
         </Box>
@@ -358,10 +358,10 @@ const StyledTable = styled.table`
     border: 1px solid ${light};
     text-align: center;
   }
-  tr:nth-child(even) {
+  tr:nth-of-type(even) {
     background: ${tableGray};
   }
-  tr:not(:first-child) {
+  tr:not(:first-of-type) {
     color: ${white};
   }
   border-collapse: collapse;
