@@ -102,11 +102,11 @@ const Activity: React.FC<{}> = () => {
           textAlign="left"
         >
           <Box fontSize={{ base: '10px', md: '18px' }}>具体赠金：</Box>
-          {/* <Flex>
-            <Box bg={dark}>具体赠金：</Box>
-            <Box bg={dark}>具体赠金：</Box>
+          <Flex>
+            <FeedBack wording="每手点差回赠" number={10} />
+            <FeedBack wording="每20手额外赠金" number={200} break={true} />
           </Flex>
-          <Box bg={dark}>具体赠金：</Box> */}
+          <FeedBack wording="最高赠金总额" number={20000} />
         </Box>
       </Flex>
       <Flex
@@ -164,16 +164,23 @@ const Activity: React.FC<{}> = () => {
 
           <Center>
             <Flex
-              marginTop={20}
+              marginTop={{ base: 10, md: 20 }}
+              width={{ base: '80vw', xl: '500px' }}
+              maxW="500px"
               marginBottom={10}
               border="1px"
               borderColor={white}
               color={white}
-              paddingX={10}
               paddingY={1}
+              justify="center"
             >
-              <Box> </Box>
-              <Stack>
+              <Image
+                width={{ base: '60px', md: 'auto' }}
+                height={{ base: '60px', md: 'auto' }}
+                src="../assets/images/activity_clock.png"
+                alt="clock"
+              />
+              <Stack marginLeft={5}>
                 <Text>点差回赠统计时段</Text>
                 <Text>北京时间：夏令，每天05:00至次日05:00</Text>
                 <Text>北京时间：冬令，每天06:00至次日06:00</Text>
@@ -186,7 +193,7 @@ const Activity: React.FC<{}> = () => {
           </Box>
           <Box color={white}>如有任何疑问，欢迎联系客服查询。</Box>
 
-          <Flex color={white} marginTop={20} justify="center">
+          <Flex color={white} marginTop={{ base: 10, md: 20 }} justify="center">
             <Link
               _hover={{
                 textDecoration: 'none'
@@ -261,6 +268,81 @@ const Activity: React.FC<{}> = () => {
         </Stack>
       </Flex>
     </>
+  );
+};
+
+interface FeedBackProps {
+  wording: string;
+  number: number;
+}
+
+const FeedBack: React.FC<FeedBackProps> = ({
+  wording,
+  number
+}: FeedBackProps) => {
+  const wordBreak = wording.length > 6;
+  return (
+    <Flex
+      minW={{ base: '40vw', md: '350px' }}
+      bg={dark}
+      padding={{ base: 2, md: 3 }}
+      fontSize={{ base: '10px', md: '22px' }}
+      marginTop={5}
+      fontWeight={600}
+      marginRight={5}
+    >
+      <Flex
+        flexDirection="column"
+        width={{ base: '5em', md: '4em' }}
+        paddingY={1}
+        paddingX={{ base: 2, md: 3 }}
+      >
+        {wordBreak ? (
+          <>
+            <Box marginTop="0.1em" fontSize={{ base: '6px', md: '14px' }}>
+              {wording.slice(0, 4)}
+            </Box>
+            <Box>{wording.slice(4)}</Box>
+          </>
+        ) : (
+          <Box>{wording}</Box>
+        )}
+        <Box>{'>>'} </Box>
+      </Flex>
+
+      <Flex bg={light} align="flex-start" width="100%">
+        <Box
+          bg={rightButton}
+          borderRadius="50%"
+          width="1.8em"
+          padding={1}
+          margin={2}
+          textAlign="center"
+        >
+          贈
+        </Box>
+        <Flex
+          flexDirection="column"
+          color={dark}
+          paddingBottom={2}
+          width="100%"
+          height="100%"
+          align="center"
+          justify="center"
+        >
+          <Box fontSize={{ base: '30px', md: '72px' }}>{number} </Box>
+          <Flex
+            borderTop="1px"
+            borderColor={dark}
+            width={{ base: '30px', md: '80px' }}
+            justify="space-between"
+          >
+            <Box>美</Box>
+            <Box>金</Box>
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
   );
 };
 

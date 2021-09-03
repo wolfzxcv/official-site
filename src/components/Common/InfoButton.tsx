@@ -26,7 +26,7 @@ const InfoButton: React.FC<InfoButtonProps> = ({
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const widerButton =
-    currentLang === 'in' || currentLang === 'ms' || currentLang === 'vi';
+    currentLang === 'id' || currentLang === 'ms' || currentLang === 'vi';
 
   return (
     <NextLink

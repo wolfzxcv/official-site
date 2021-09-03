@@ -16,7 +16,7 @@ const about: React.FC<{}> = () => {
   const { t } = useTranslation(['about']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const tallerBanner = currentLang === 'in' || currentLang === 'ms';
+  const tallerBanner = currentLang === 'id' || currentLang === 'ms';
   const tallerInfoCard =
     tallerBanner || currentLang === 'en' || currentLang === 'vi';
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
