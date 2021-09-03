@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/alice1qaz/WCG/compare/v1.2.16...v1.3.0) (2021-09-03)
+
+
+### Features
+
+* **activity:** activity complete ([0d0dc63](https://github.com/alice1qaz/WCG/commit/0d0dc632935db830889fca87ae77fa277bf7f7fd))
+* **activity:** add activity page ([d4142ed](https://github.com/alice1qaz/WCG/commit/d4142edc6c34462d67bf7b7b42af1e90068bbe12))
+
 ### [1.2.16](https://github.com/alice1qaz/WCG/compare/v1.2.15...v1.2.16) (2021-08-30)
 
 ### [1.2.15](https://github.com/alice1qaz/WCG/compare/v1.2.14...v1.2.15) (2021-08-30)
