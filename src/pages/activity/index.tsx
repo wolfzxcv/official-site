@@ -7,12 +7,46 @@ const light = '#f0edc0';
 const black = 'black';
 const white = 'white';
 const tableGray = '#242d32';
+const topButton = '#b81c22';
 const leftButton = '#2c5468';
 const rightButton = '#cc2727';
 
 const Activity: React.FC<{}> = () => {
   return (
     <>
+      <Flex bg={dark} justify="center" paddingY={{ base: 1, md: 5 }}>
+        <Flex
+          width={{ base: '85vw', md: '750px' }}
+          justify="space-between"
+          align="center"
+        >
+          <Image
+            width={{ base: 87, md: 109 }}
+            height={{ base: 37, md: 46 }}
+            src="../assets/images/activity_logo.png"
+            alt="logo"
+          />
+
+          <Link
+            _hover={{
+              textDecoration: 'none'
+            }}
+            href="/"
+          >
+            <Box
+              width="30vw"
+              maxW="250px"
+              bg={topButton}
+              textAlign="center"
+              marginX={1}
+              paddingY={3}
+              color={white}
+            >
+              进入官网
+            </Box>
+          </Link>
+        </Flex>
+      </Flex>
       <Box
         maxW="100vw"
         maxH="319px"
