@@ -1,6 +1,8 @@
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import React from 'react';
+import LiveChat from '../../components/LiveChat';
+import { openChatWindow } from '../../utils';
 
 const dark = '#182227';
 const light = '#f0edc0';
@@ -228,24 +230,18 @@ const Activity: React.FC<{}> = () => {
           <Box color={white}>如有任何疑问，欢迎联系客服查询。</Box>
 
           <Flex color={white} marginTop={{ base: 10, md: 20 }} justify="center">
-            <Link
-              _hover={{
-                textDecoration: 'none'
-              }}
-              href="https://direct.lc.chat/11929440/"
-              isExternal
+            <Box
+              width="40vw"
+              maxW="300px"
+              bg={leftButton}
+              onClick={openChatWindow}
+              textAlign="center"
+              marginX={1}
+              paddingY={3}
             >
-              <Box
-                width="40vw"
-                maxW="300px"
-                bg={leftButton}
-                textAlign="center"
-                marginX={1}
-                paddingY={3}
-              >
-                在线咨询
-              </Box>
-            </Link>
+              在线咨询
+            </Box>
+
             <Link
               _hover={{
                 textDecoration: 'none'
@@ -301,6 +297,8 @@ const Activity: React.FC<{}> = () => {
           </Text>
         </Stack>
       </Flex>
+
+      <LiveChat />
     </>
   );
 };
