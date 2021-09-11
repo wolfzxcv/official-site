@@ -76,7 +76,7 @@ export const menuList: IMenuItem[] = [
     i18n: 'partner',
     children: [
       { i18n: 'fundManager', href: '/partner/fundManager' },
-      { i18n: 'iBBroker', href: '/partner/iBBroker' },
+      { i18n: 'introducingBroker', href: '/partner/introducingBroker' },
       {
         i18n: 'regionalRepresentative',
         href: '/partner/regionalRepresentative'

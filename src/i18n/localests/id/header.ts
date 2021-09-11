@@ -35,7 +35,7 @@ export const header: Header = {
   marketAnalysis: 'Analisis*Pasar',
   partner: 'Rekan',
   fundManager: 'Manajer*Investasi',
-  iBBroker: 'Introducing*Broker/*IB',
+  introducingBroker: 'Introducing*Broker/*IB',
   regionalRepresentative: 'Perwakilan*daerah',
   whiteLabelCooperation: 'Kerjasama*white*label'
 };

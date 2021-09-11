@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface whiteLabelCooperationProps {}
-
-const whiteLabelCooperation: React.FC<whiteLabelCooperationProps> = () => {
+const whiteLabelCooperation: React.FC<{}> = () => {
   return <Wrapper>whiteLabelCooperation page!</Wrapper>;
 };
 

@@ -77,8 +77,8 @@ export type Header = {
   partner: string;
   /** Fund manager */
   fundManager: string;
-  /** IB Broker */
-  iBBroker: string;
+  /** Introducing Broker */
+  introducingBroker: string;
   /** Regional representative */
   regionalRepresentative: string;
   /** White label cooperation */

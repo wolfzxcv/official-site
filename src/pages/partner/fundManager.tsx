@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface fundManagerProps {}
-
-const fundManager: React.FC<fundManagerProps> = () => {
+const fundManager: React.FC<{}> = () => {
   return <Wrapper>fundManager page!</Wrapper>;
 };
 

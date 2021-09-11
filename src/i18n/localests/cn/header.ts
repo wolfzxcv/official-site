@@ -35,7 +35,7 @@ export const header: Header = {
   marketAnalysis: '市场分析',
   partner: '成为伙伴',
   fundManager: '基金经理',
-  iBBroker: 'IB代理商',
+  introducingBroker: 'IB代理商',
   regionalRepresentative: '区域代表',
   whiteLabelCooperation: '白标合作'
 };

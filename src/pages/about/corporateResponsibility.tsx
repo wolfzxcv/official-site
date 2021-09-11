@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface corporateResponsibilityProps {}
-
-const corporateResponsibility: React.FC<corporateResponsibilityProps> = () => {
+const corporateResponsibility: React.FC<{}> = () => {
   return <Wrapper>corporateResponsibility page!</Wrapper>;
 };
 

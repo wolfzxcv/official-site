@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface companyNewsProps {}
-
-const companyNews: React.FC<companyNewsProps> = () => {
+const companyNews: React.FC<{}> = () => {
   return <Wrapper>companyNews page!</Wrapper>;
 };
 

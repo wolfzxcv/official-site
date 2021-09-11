@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface advancedTradingProps {}
-
-const advancedTrading: React.FC<advancedTradingProps> = () => {
+const advancedTrading: React.FC<{}> = () => {
   return <Wrapper>advancedTrading page!</Wrapper>;
 };
 export const getStaticProps: GetStaticProps = async (props) => ({

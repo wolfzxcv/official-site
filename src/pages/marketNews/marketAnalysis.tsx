@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface marketAnalysisProps {}
-
-const marketAnalysis: React.FC<marketAnalysisProps> = () => {
+const marketAnalysis: React.FC<{}> = () => {
   return <Wrapper>marketAnalysis page!</Wrapper>;
 };
 
