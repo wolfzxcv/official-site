@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface regionalRepresentativeProps {}
-
-const regionalRepresentative: React.FC<regionalRepresentativeProps> = () => {
+const regionalRepresentative: React.FC<{}> = () => {
   return <Wrapper>regionalRepresentative page!</Wrapper>;
 };
 

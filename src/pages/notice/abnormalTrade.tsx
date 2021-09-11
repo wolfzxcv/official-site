@@ -8,6 +8,7 @@ import React from 'react';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
+
 const InfoAccordionItem = dynamic(
   () => import('../../components/Common/InfoAccordionItem'),
   { ssr: false }

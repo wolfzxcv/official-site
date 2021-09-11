@@ -35,7 +35,7 @@ export const header: Header = {
   marketAnalysis: 'تحليل*السوق',
   partner: 'كن*شريكا',
   fundManager: 'دير*صندوق*استثماري',
-  iBBroker: 'الوسيط*المُعرّف*(IB)',
+  introducingBroker: 'الوسيط*المُعرّف*(IB)',
   regionalRepresentative: 'الممثل*الإقليمي',
   whiteLabelCooperation: 'شراكة*البطاقة*البيضاء'
 };

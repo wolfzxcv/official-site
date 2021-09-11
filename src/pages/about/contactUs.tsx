@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface contactUsProps {}
-
-const contactUs: React.FC<contactUsProps> = () => {
+const contactUs: React.FC<{}> = () => {
   return <Wrapper>contactUs page!</Wrapper>;
 };
 

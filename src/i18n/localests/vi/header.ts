@@ -35,7 +35,7 @@ export const header: Header = {
   marketAnalysis: 'Phân*tích*thị',
   partner: 'Đối*tác',
   fundManager: 'Quản*lý*quỹ',
-  iBBroker: 'Đại*lý*IB',
+  introducingBroker: 'Đại*lý*IB',
   regionalRepresentative: 'Đại*diện*khu',
   whiteLabelCooperation: 'Hợp*tác*nhãn'
 };

@@ -22,7 +22,7 @@ export const menuList: IMenuItem[] = [
       //   i18n: 'corporateResponsibility',
       //   href: '/about/corporateResponsibility'
       // },
-      // { i18n: 'questions', href: '/about/questions' },
+      { i18n: 'questions', href: '/about/questions' },
       // { i18n: 'announcements', href: '/about/announcements' },
       { i18n: 'aboutUs', href: '/about' }
       // { i18n: 'contactUs', href: '/about/contactUs' }
@@ -76,7 +76,7 @@ export const menuList: IMenuItem[] = [
   //   i18n: 'partner',
   //   children: [
   //     { i18n: 'fundManager', href: '/partner/fundManager' },
-  //     { i18n: 'iBBroker', href: '/partner/iBBroker' },
+  //     { i18n: 'introducingBroker', href: '/partner/introducingBroker' },
   //     {
   //       i18n: 'regionalRepresentative',
   //       href: '/partner/regionalRepresentative'

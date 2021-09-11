@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface announcementsProps {}
-
-const announcements: React.FC<announcementsProps> = () => {
+const announcements: React.FC<{}> = () => {
   return <Wrapper>announcements page!</Wrapper>;
 };
 

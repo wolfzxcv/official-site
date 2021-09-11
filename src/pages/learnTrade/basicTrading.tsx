@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface basicTradingProps {}
-
-const basicTrading: React.FC<basicTradingProps> = () => {
+const basicTrading: React.FC<{}> = () => {
   return <Wrapper>basicTrading page!</Wrapper>;
 };
 

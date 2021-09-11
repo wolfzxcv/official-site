@@ -35,7 +35,7 @@ export const header: Header = {
   marketAnalysis: 'Market*Analysis',
   partner: 'Partner',
   fundManager: 'Fund*Manager',
-  iBBroker: 'IB*Broker',
+  introducingBroker: 'IB*Broker',
   regionalRepresentative: 'Regional*Representative',
   whiteLabelCooperation: 'White*Label*Cooperation'
 };

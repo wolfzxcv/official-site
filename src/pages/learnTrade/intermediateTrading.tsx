@@ -3,9 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 import Wrapper from '../../components/Wrapper';
 
-interface intermediateTradingProps {}
-
-const intermediateTrading: React.FC<intermediateTradingProps> = () => {
+const intermediateTrading: React.FC<{}> = () => {
   return <Wrapper>intermediateTrading page!</Wrapper>;
 };
 

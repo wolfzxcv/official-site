@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/alice1qaz/WCG/compare/v1.3.4...v1.4.0) (2021-09-11)
+
+
+### Features
+
+* **questions.tsx:** questions page finished ([f773db2](https://github.com/alice1qaz/WCG/commit/f773db293f655b12cc7568422b011678fac3a274))
+
 ### [1.3.4](https://github.com/alice1qaz/WCG/compare/v1.3.3...v1.3.4) (2021-09-11)
 
 ### [1.3.3](https://github.com/alice1qaz/WCG/compare/v1.3.2...v1.3.3) (2021-09-10)

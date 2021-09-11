@@ -7,9 +7,7 @@ import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import Wrapper from '../../components/Wrapper';
 
-interface financialCalendarProps {}
-
-const financialCalendar: React.FC<financialCalendarProps> = () => {
+const financialCalendar: React.FC<{}> = () => {
   const { t } = useTranslation(['marketNews']);
 
   return (
