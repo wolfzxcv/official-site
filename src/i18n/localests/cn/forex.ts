@@ -3,7 +3,7 @@ import { Forex } from '../@types/forex';
 export const forex: Forex = {
   foreignExchangeTransactions: '外汇交易',
   theForeignExchange:
-    '外汇市场估计日交易量约五万亿美元，是世界上规模最大、流动性最强的金融市场。透过WCG外汇保证金交易平台投资外币，您可以参与金融世界中这个激动人心的部分，即时获得机构市场价格，24小时无间断交易。WCG外汇交易帐户，满足用户不同的投资需求。新手投资者亦可以试用我们的免费模拟帐户，体验快捷易用的MT4交易平台。',
+    '外汇市场估计日交易量约五万亿美元，是世界上规模最大、流动性最强的金融市场。透过WCG外汇保证金交易平台投资外币，您可以参与金融世界中这个激动人心的部分，即时获得机构市场价格，24小时无间断交易。WCG外汇交易账户，满足用户不同的投资需求。新手投资者亦可以试用我们的免费模拟账户，体验快捷易用的MT4交易平台。',
   viewTradingProducts: '查看交易产品',
   howToPerform: '如何执行外汇交易',
   foreignExchangeCurrencies:

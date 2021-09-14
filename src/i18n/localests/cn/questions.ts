@@ -13,14 +13,14 @@ export const questions: Questions = {
     'WCG*Markets*Ltd*由香港金银交易所*(CGSE)*授权和监管，是第*12*名*A1*会员。*WCG*是一家在英国註册成立的有限责任公司，公司编号为*11019948。',
   HowToOpenAnAccountInWCG: '如何在WCG开户？',
   youCanRegisterYourRealAccount:
-    '您可以在WCG官网注册您的真实帐户，或点此注册。',
-  whatKindOfAccounts: '平台提供什么种类的帐户？',
+    '您可以在WCG官网注册您的真实账户，或点此注册。',
+  whatKindOfAccounts: '平台提供什么种类的账户？',
   weProvideDifferentAccountTypes:
-    '我们提供不同种类及等级帐户，详情请洽客服人员。',
+    '我们提供不同种类及等级账户，详情请洽客服人员。',
   whatKindOfDocuments: '我需要上传哪些档案？',
   customersInMainlandChina:
     '中国大陆地区客户仅需要上传您的身份证明档案；中国大陆地区以外客户需要请您提供您的护照以及地址证明（如驾驶证、常住人口登记卡或近三个月水电煤帐单等）。',
-  howLongWillItTake: '帐户需要多长时间稽核完成？',
+  howLongWillItTake: '账户需要多长时间稽核完成？',
   accountOpeningWillTake: '开户正常1个工作日内会办理完成。',
   howLongWillItTakeToProcess: '办理出金申请需要多长时间？',
   theWithdrawalWillTake:

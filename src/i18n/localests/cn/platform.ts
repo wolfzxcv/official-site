@@ -23,7 +23,7 @@ export const platform: Platform = {
     '领先的交易和网路技术，拥有您所需要的一切工具，带给您最佳的交易体验',
   forPC: '电脑版MT4',
   forMac: 'Mac版MT4',
-  multiAccountManagementSystem: 'MT4多帐户*管理系统',
+  multiAccountManagementSystem: 'MT4多账户*管理系统',
   forIPhone: 'iPhone版MT4',
   forAndroid: 'Android版MT4',
   MT4PcVersion: 'MT4电脑版',
@@ -68,9 +68,9 @@ export const platform: Platform = {
     '立即下载我们的MT4移动版应用程式，让它成为您的交易伙伴，助您随时随地进入金融市场，24小时全天候把握每个交易机会。',
   downloadTheIOSVersion: '下载iOS版',
   downloadTheAndroidVersion: '下载安卓版',
-  MAMMultiAccountManagementSystem: 'MAM多帐户管理系统',
+  MAMMultiAccountManagementSystem: 'MAM多账户管理系统',
   theMultiAccountManagementSystem:
-    '多帐户管理系统 （MAM）具备重要整合管理功能，让资产管理人可以仅透过一个介面管理多个帐户。单一介面让资产管理人可以有效且精确地为多个个人帐户配置交易条件，将同样的交易条件及策略，根据预设的比例平均分配至个别帐户，协助您管理交易活动并提升管理技巧。',
+    '多账户管理系统 （MAM）具备重要整合管理功能，让资产管理人可以仅透过一个介面管理多个账户。单一介面让资产管理人可以有效且精确地为多个个人账户配置交易条件，将同样的交易条件及策略，根据预设的比例平均分配至个别账户，协助您管理交易活动并提升管理技巧。',
   consultCustomerServiceImmediately: '立即谘询客服',
   MAMAccountSupportsFiveDistributionLogics: 'MAM*帐号支援五种分配逻辑',
   theMAMSystemProvidesMultipleRatioSettings:
@@ -92,7 +92,7 @@ export const platform: Platform = {
   MAMFeaturesAndAdvantages: 'MAM*特点与优势',
   compatibleWithEA: '与EA（专家顾问）和自动交易策略相容',
   establishMultipleTrading: '为各种政策建立多个交易子群组',
-  accordingToAccountLevel: '根据帐户水准，提供部分平仓功能',
+  accordingToAccountLevel: '根据账户水准，提供部分平仓功能',
   customersCanStart: '客户的交易量达到0.01手就可以开始分配',
   compatibleWithAll: '相容所有MT4订单类型：止损、限价、跟踪止损、全部平仓等',
   thereIsNoLimit: '下单不限制客户帐号数量',
@@ -101,11 +101,11 @@ export const platform: Platform = {
     '为您提供有弹性又有竞争力的费率，设定快速以及高水准的持续支援，MAM系统也提供所有您需要的资料清单，包括未结束交易、馀额、盈亏、客户联络资料等。',
   transparentCommissionDetails: '佣金明细一目了然',
   realTimeDisplay:
-    '即时显示主帐户及子帐户明细，包括获利、佣金、隔夜利息、馀额以及保证金水平。',
+    '即时显示主账户及子账户明细，包括获利、佣金、隔夜利息、馀额以及保证金水平。',
   convenientAndFastExecution: '交易执行方便快捷',
   allTransactionOrders:
-    '所有交易单均透过主帐户执行，其后再依照您所选择的配置方式转移到子帐户。 结合这些工具，确定行情趋势，强大的分析能力帮您更彻底的分析市场动向，把握最佳时刻。',
+    '所有交易单均透过主账户执行，其后再依照您所选择的配置方式转移到子账户。 结合这些工具，确定行情趋势，强大的分析能力帮您更彻底的分析市场动向，把握最佳时刻。',
   AMustHaveSystem: '专职经纪必备系统',
   multilingualTradingPlatform:
-    '多语言交易平台与行销素材，流通性佳、执行可靠，可开立无限个帐户，让您成为一个专业的经纪人。'
+    '多语言交易平台与行销素材，流通性佳、执行可靠，可开立无限个账户，让您成为一个专业的经纪人。'
 };
