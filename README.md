@@ -2,8 +2,6 @@
 
 - [正式環境](https://glb.012wenchuan.com/)
 - [測試環境](https://wcg.vercel.app/) (暫時的)
-- [參考網站](https://www.wcglb.com/home/about/exchange.html) (電腦版)
-- [參考網站](https://www.wcglb.com/mobile) (手機版)
 
 ## 運行方式
 
@@ -35,9 +33,15 @@
 
 ## 交易產品編輯 (交易產品 > 查看交易產品 )
 
+手機版/電腦版,交易產品都會使用這支檔案)
+
+- 在命名上如果前面加星號,像是截圖內看到的 ==*USDJPY== / ==*USD== / ==\*JPY==,都可以在 i18n 檔案設定,畫面上,程式碼會做 i18n 的顯示轉換
+- src\components\Product\productsData.ts
+  ![](https://i.imgur.com/EiQc4vE.jpg)
+
 ## 導覽列設定
 
-導覽列的所有連結,是在**menuList.ts**設定
+導覽列的所有連結,是在**menuList.ts**設定 (手機版/電腦版,導覽列都會使用這支檔案)
 ![](https://i.imgur.com/dPHRK0z.jpg)
 
 每個連結,包含"名稱"及"對應的連結", **{ i18n: '名稱', href: '對應的連結' }**
@@ -102,3 +106,5 @@
 3. 中文以外的語言,不該出現全形符號
 4. 此網站 RWD 的標準為,螢幕拉窄或拉寬,切換不同語言,都不會跑版或爆版
 5. 需支援市面上主流瀏覽器(Chrome.Edge.Firefox.Safari)及作業系統(電腦 mac/windows,手機 android/ios)
+6. ==因為加密貨幣近期較為敏感,master 分支,導覽列不可出現"加密貨幣"==
+7. 開發完的頁面,才可出現在 master 分支的導覽列連結上

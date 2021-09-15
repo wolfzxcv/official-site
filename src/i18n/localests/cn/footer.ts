@@ -11,9 +11,9 @@ export const footer: Footer = {
   allTradesInvolveRisks: '所有交易均涉及风险，您的损失可能大于您的入金。',
   newbiesGettingStarted: '新手入门',
   getUSD: '免费获得*100,000*美元的模拟资金',
-  demoAccount: '开立模拟帐户',
+  demoAccount: '开立模拟账户',
   startRealFXTrading: '开始真实的外汇交易',
-  aRealAccount: '开立真实帐户',
+  aRealAccount: '开立真实账户',
   WCGIsABusinessBrand: 'WCG是由多家公司共同使用的业务品牌，包括：',
   WCGMarketsLtdIsALimitedLiabilityCompany:
     'WCG*Markets*Ltd*是位于圣文森特和格林纳丁斯群岛St.Vincent依据国际商业公司法注册的有限责任公司，公司编号为26087*BC*2020。注册地址是：*The*Financial*Services*Centre*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',

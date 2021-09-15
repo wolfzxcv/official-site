@@ -4,8 +4,8 @@ export const about: About = {
   buildTheWorldWithIntegrity: '诚信立天下，稳健赢未来',
   WCGHasASolidFoundation:
     'WCG拥有坚实的基础，并且持续注重创新。迄今为止，本行业最优的用户体验和提供专业的服务，使得我们继续成为市场的领导先锋，持续致力于为全球的投资者提供最好的交易环境。',
-  registerARealAccountNow: '立即注册真实帐户',
-  registerADemoAccountNow: '立即注册模拟帐户',
+  registerARealAccountNow: '立即注册真实账户',
+  registerADemoAccountNow: '立即注册模拟账户',
   strictlyRegulatedAndTrustworthy: '严格监管，值得信赖',
   WCGInternational:
     'WCG国际有限公司为专业金融投资品牌，于圣文森和格林纳丁斯成立，受其严谨的法律及法规监管，同时依据国际商业公司法注册（BCN:25293*BC*2019），严格的规范以保障投资者的利益。',
