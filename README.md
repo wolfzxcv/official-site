@@ -35,7 +35,7 @@
 
 手機版/電腦版,交易產品都會使用這支檔案)
 
-- 在命名上如果前面加星號,像是截圖內看到的 ==*USDJPY== / ==*USD== / ==\*JPY==,都可以在 i18n 檔案設定,畫面上,程式碼會做 i18n 的顯示轉換
+- 在命名上如果前面加星號,像是截圖內看到的 *USDJPY / *USD / \*JPY,都可以在 i18n 檔案設定,畫面上,程式碼會做 i18n 的顯示轉換
 - src\components\Product\productsData.ts
   ![](https://i.imgur.com/EiQc4vE.jpg)
 
