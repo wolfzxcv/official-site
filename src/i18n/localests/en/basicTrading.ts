@@ -1,6 +1,6 @@
-import { LearnTrade } from '../@types/learnTrade';
+import { BasicTrading } from '../@types/basicTrading';
 
-export const learnTrade: LearnTrade = {
+export const basicTrading: BasicTrading = {
   howToStartTrading: 'How*to*start*trading',
   haventHadExperience:
     "Haven't*had*experience*in*financial*transactions?*We*will*guide*you*step*by*step*to*start*trading.",

@@ -1,6 +1,6 @@
-export type LearnTrade = {
+export type BasicTrading = {
   /********
-   * learnTrade
+   * basicTrading
    ********/
   /** How to start trading */
   howToStartTrading: string;
