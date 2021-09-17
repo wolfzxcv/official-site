@@ -4,9 +4,9 @@ import { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import { BiDevices } from 'react-icons/bi';
+import { FaHandshake } from 'react-icons/fa';
 import { GiReceiveMoney, GiTakeMyMoney } from 'react-icons/gi';
-import { HiServer } from 'react-icons/hi';
-import { ImEarth } from 'react-icons/im';
 import { RiMoneyDollarCircleLine } from 'react-icons/ri';
 import InfoButtonBase from '../../components/Common/InfoButtonBase';
 import InfoCard from '../../components/Common/InfoCard';
@@ -288,12 +288,12 @@ const fundManager: React.FC<{}> = () => {
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
-            icon={<ImEarth fontSize="64px" />}
+            icon={<BiDevices fontSize="64px" />}
             text="A multi-account trading platform that can satisfy your needs"
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
-            icon={<HiServer fontSize="64px" />}
+            icon={<FaHandshake fontSize="64px" />}
             text="The broker you need with strong background for cooperation and support"
             minH={isChinese ? '280px' : '306px'}
           />
