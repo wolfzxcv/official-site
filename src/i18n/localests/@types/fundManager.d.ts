@@ -1,3 +1,4 @@
+/* 成为伙伴---基金经理 */
 export type FundManager = {
   /********
    * fundManager
