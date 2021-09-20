@@ -42,7 +42,7 @@ const Wrapper: React.FC<WrapperProps> = ({
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" type="image/ico" href="../assets/images/favicon.ico" />
       </Head>
-      <Box position="sticky" top="0" zIndex={1}>
+      <Box position="sticky" top="0" zIndex={100}>
         <Header />
         <TopLinks />
       </Box>
