@@ -47,7 +47,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
       </Box>
 
       <Stack
-        mx={withBorder ? 0 : 5}
+        mx={withBorder ? 0 : 'auto'}
         my={10}
         px={withBorder ? 5 : 0}
         spacing={3}
