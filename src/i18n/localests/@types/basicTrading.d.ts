@@ -181,6 +181,8 @@ export type BasicTrading = {
   onTheUpperLeftCorner:string;
   /* Modify the order */
   modifyTheOrder:string;
+  /* After opening */
+  afterOpening:string;
   /* In the pop-up window */
   inThePopUpWindow:string;
   /* Close position */
@@ -255,4 +257,8 @@ export type BasicTrading = {
   whatAreTheAdvantages:String;
   /* The most significant advantage */
   theMostSignificantAdvantage:String;
+  // Intermediate Trading Course
+  intermediateTradingCourse:String;
+  // Advanced Trading Course
+  advancedTradingCourse:String;
 };
