@@ -547,7 +547,8 @@ export const getStaticProps: GetStaticProps = async (props) => ({
     ...(await serverSideTranslations(props.locale!, [
       'common',
       'footer',
-      'header'
+      'header',
+      'intermediateTrading'
     ]))
   }
 });

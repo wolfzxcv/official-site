@@ -3,15 +3,20 @@ import {
   AccordionIcon,
   AccordionItem,
   AccordionPanel,
-  Box, Button, Image
+  Box, Button, Image, Link, Text
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { Fragment, useState } from 'react';
 import { Locales } from '../../i18n/locales';
+import { StyledBox } from '../Styled/Styled';
 
 interface InfoAccordionItemProps {
   title: string;
-  content?: {type: "text" | "title" | "image" | "page", key: string}[];
+  content?: {
+    type: "text" | "point" | "lastPoint" | "title" | "image" | "page" | "buttonLink" | "twoSection", 
+    key: string, 
+    secondKey?: string,
+  }[];
   node?: React.ReactElement;
   pageCallback?: (page: number)=>void;
   callback?: ()=>void;
@@ -52,9 +57,24 @@ const InfoAccordionMultiItem: React.FC<InfoAccordionItemProps> = ({
                 {each.key}
               </Box>
             )}
+            {each.type === "point" && (
+              <Box pb={0} textAlign={isArabic ? 'right' : 'left'}>
+                {each.key}
+              </Box>
+            )}
+            {each.type === "lastPoint" && (
+              <Box pb={3} textAlign={isArabic ? 'right' : 'left'}>
+                {each.key}
+              </Box>
+            )}
             {each.type === "title" && (
               <Box fontWeight="bold" pt={3} textAlign={isArabic ? 'right' : 'left'}>
                 {each.key}
+              </Box>
+            )}
+            {each.type === "twoSection" && (
+              <Box textAlign={isArabic ? 'right' : 'left'}>
+                <Text py={1}><span style={{fontWeight: "bold"}}>{each.key}</span>{" "}<span>{each.secondKey}</span></Text>
               </Box>
             )}
             {each.type === "image" && (
@@ -79,8 +99,35 @@ const InfoAccordionMultiItem: React.FC<InfoAccordionItemProps> = ({
                 </Button>
               </Box>
             )}
+            {each.type === "buttonLink" && each.secondKey && (
+              <Link
+                _hover={{
+                  textDecoration: 'none'
+                }}
+                href={each.secondKey}
+                isExternal
+              >
+                <StyledBox
+                  mb={10}
+                  p={2}
+                  bg="red.600"
+                  color="white"
+                  fontSize="14px"
+                  textAlign="center"
+                  width="250px"
+                  _hover={{
+                    bgColor: 'red.500',
+                    cursor: 'pointer',
+                    transition: '1s'
+                  }}
+                >
+                  {each.key}
+                </StyledBox>
+              </Link>
+            )}
           </Fragment>
-        ))}
+          )
+        )}
         {node}
         {!pageCallback && <Box pb={3}/>}
       </AccordionPanel>

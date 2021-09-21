@@ -1,12 +1,11 @@
 import { ArrowForwardIcon, ChevronRightIcon } from '@chakra-ui/icons';
-import { Accordion, AccordionButton, AccordionItem, Box, Flex, IconButton, Image, Link, Stack, Text, useBreakpointValue } from '@chakra-ui/react';
+import { Accordion, AccordionButton, AccordionItem, Box, Flex, IconButton, Image, Link, Text, useBreakpointValue } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React, { Fragment, useEffect, useState } from 'react';
 import InfoAccordionMultiItem from '../../components/Common/InfoAccordionMultiItem';
-import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { StyledBox } from '../../components/Styled/Styled';
@@ -18,197 +17,537 @@ const basicTrading: React.FC<{}> = () => {
   const { t } = useTranslation(['basicTrading']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
   const [page, setPage] = useState(0)
   const [height, setHeight] = useState(0)
   const [windowWidth, setWindowWidth] = useState(0)
-  const tallerBanner = currentLang === 'id' || currentLang === 'ms';
-  const tallerInfoCard = tallerBanner || currentLang === 'en' || currentLang === 'vi';
   const widthCheck = useBreakpointValue({base: false, xl: true})
   const data: {
-    type: "page" | "title" | "image" | "text"; 
-    key: string
+    type: "page" | "point" | "lastPoint" | "title" | "image" | "text" | "buttonLink" | "twoSection"; 
+    key: string,
+    secondKey?: string,
   }[][] = [
     [
       {
         type: "text",
-        key: t('TheForeignExchangeMarketIsTheLargest')
+        key: t('theForeignExchangeMarket')
       },
       {
         type: "text",
-        key: t('TheForeignExchangeMarketIsTheUsually')
+        key: t('theForeignExchangeMarketIsUsually')
       },
       {
         type: "title",
-        key: t('GlobalMarket')
+        key: t('globalMarket')
       },
       {
-        type: "text",
-        key: t('ThisIsAGlobalMarket')
+        type: "point",
+        key: t('thisIsAGlobalMarket')
       },
       {
-        type: "title",
-        key: t('DecentralizedMarket')
-      },
-      {
-        type: "text",
-        key: t('DecentralizedMarketMeans')
+        type: "lastPoint",
+        key: t('globalEconomic')
       },
       {
         type: "title",
-        key: t('OverTheCounterTransactions')
+        key: t('decentralizedMarket')
       },
       {
-        type: "text",
-        key: t('TheForeignExchangeMarketIsNotControlled')
+        type: "point",
+        key: t('decentralizedMarketMeans')
       },
       {
-        type: "title",
-        key: t('TradingForeignExchange')
-      },
-      {
-        type: "text",
-        key: t('ForActiveTraders')
+        type: "lastPoint",
+        key: t('insteadFinancialCenters')
       },
       {
         type: "title",
-        key: t('ComparedWithOtherMarkets')
+        key: t('overTheCounterTransactions')
+      },
+      {
+        type: "point",
+        key: t('theForeignExchangeMarketIsNotControlled')
+      },
+      {
+        type: "point",
+        key: t('brokersAndTraders')
+      },
+      {
+        type: "lastPoint",
+        key: t('thisKindOfMarket')
+      },
+      {
+        type: "title",
+        key: t('tradingForeignExchange')
       },
       {
         type: "text",
-        key: t('TheDailyTradingVolume')
+        key: t('forActiveTraders')
       },
       {
         type: "text",
-        key: t('WhatFactorsPlayAKeyRole')
+        key: t('differentCurrency')
+      },
+      {
+        type: "title",
+        key: t('comparedWithOtherMarkets')
       },
       {
         type: "text",
-        key: t('LetIsTakeAnotherExample')
+        key: t('theDailyTradingVolume')
       },
       {
         type: "text",
-        key: t('SimilarToStocks')
+        key: t('whatFactorsPlayAKeyRole')
+      },
+      {
+        type: "text",
+        key: t('LetsTakeAnotherExample')
+      },
+      {
+        type: "text",
+        key: t('similarToStocks')
+      },
+    ],
+    [
+      {
+        type: "title",
+        key: t('step1'),
+      },
+      {
+        type: "text",
+        key: t('weOfferTo'),
+      },
+      {
+        type: "buttonLink",
+        key: t('applyForARealAccountNow'),
+        secondKey: "https://trader.wc012.com/register"
+      },
+      {
+        type: "title",
+        key: t('step2'),
+      },
+      {
+        type: "text",
+        key: t('afterYourRealAccount'),
+      },
+      {
+        type: "buttonLink",
+        key: t('depositFundsNow'),
+        secondKey: "https://trader.wc012.com/register"
+      },
+      {
+        type: "title",
+        key: t('step3'),
+      },
+      {
+        type: "text",
+        key: t('nowThatYourTradingAccount'),
+      },
+      {
+        type: "twoSection",
+        key: t('understandTheMarket'),
+        secondKey: t('knowWhatYouWantTo')
+      },
+      {
+        type: "twoSection",
+        key: t('understandTheOperation'),
+        secondKey: t('beforeMaking')
+      },
+      {
+        type: "twoSection",
+        key: t('startYourTransaction'),
+        secondKey: t('afterYouAreFamiliarWith')
       },
     ],
     [
       {
         type: "text",
-        key: t('DoNotHaveExperience')
+        key: t('earlierWeIntroducedYou')
+      },
+      {
+        type: "text",
+        key: t('rememberThatTheMajorPlayers')
+      },
+      {
+        type: "text",
+        key: t('changesInGDP')
+      },
+      {
+        type: "title",
+        key: t('newsOrEvents')
+      },
+      {
+        type: "point",
+        key: t('grossDomesticProductGDP')
+      },
+      {
+        type: "point",
+        key: t('interestRate')
+      },
+      {
+        type: "point",
+        key: t('employment')
+      },
+      {
+        type: "point",
+        key: t('tradeSurplus')
+      },
+      {
+        type: "lastPoint",
+        key: t('forceMajeureEvent')
+      },
+      {
+        type: "title",
+        key: t('nonFarmPayroll')
+      },
+      {
+        type: "text",
+        key: t('theMostInfluentialMarketData')
+      },
+      {
+        type: "title",
+        key: t('economicCalendar')
+      },
+      {
+        type: "text",
+        key: t('soHowCanWeKeepAnEyeOn')
+      },
+      {
+        type: "text",
+        key: t('theEconomicCalendarListsTheNews')
+      },
+      {
+        type: "title",
+        key: t('tradingForeignExchange')
+      },
+      {
+        type: "text",
+        key: t('forActiveTraders')
+      },
+      {
+        type: "text",
+        key: t('differentCurrency')
+      },
+      {
+        type: "title",
+        key: t('marketSentiment')
+      },
+      {
+        type: "text",
+        key: t('marketSentimentCanBeUsedBy')
+      },
+      {
+        type: "title",
+        key: t('newsTrading')
+      },
+      {
+        type: "text",
+        key: t('newsTradingIsAVeryPopularWay')
+      },
+      {
+        type: "title",
+        key: t('avoidNewsTrading')
+      },
+      {
+        type: "text",
+        key: t('thisIsTheThirdTradingMethod')
       },
     ],
     [
       {
         type: "text",
-        key: t('EarlierWeIntroduced')
+        key: t('afterTheDownloadProcess')
       },
       {
         type: "text",
-        key: t('RememberThatTheMajorPlayers')
+        key: t('checkYesIAgreeWith'),
       },
       {
         type: "text",
-        key: t('ChangesInGDP')
+        key: t('theInstallationWizard'),
+      },
+      {
+        type: "text",
+        key: t('thePlatformInterface'),
+      },
+      {
+        type: "text",
+        key: t('logInToTheTradingAccount'),
+      },
+      {
+        type: "text",
+        key: t('inThePopUpLoginWindow'),
+      },
+      {
+        type: "text",
+        key: t('thePlatformWillTakeSomeTime')
       },
       {
         type: "title",
-        key: t('NewsOrEvents')
+        key: t('createAMarketOrder'),
       },
       {
         type: "text",
-        key: t('GrossDomesticProductGDP')
+        key: t('thereAreManyWaysTo'),
       },
       {
         type: "title",
-        key: t('NonFarmPayrollAndUnemploymentRate')
+        key: t('productCategory'),
       },
       {
         type: "text",
-        key: t('TheMostInfluentialMarket')
+        key: t('lotsEnterTheLotSize')
+      },
+      {
+        type: "text",
+        key: t('stopLossPrice')
+      },
+      {
+        type: "text",
+        key: t('takeProfitPrice')
+      },
+      {
+        type: "text",
+        key: t('sellAtMarketPriceOrBuy')
+      },
+      {
+        type: "text",
+        key: t('theOrderTypeColumn')
       },
       {
         type: "title",
-        key: t('EconomicCalendar')
+        key: t('economicCalendar')
       },
       {
         type: "text",
-        key: t('SoHowCanWeKeep')
+        key: t('soHowCanWeKeepAnEyeOn')
       },
       {
         type: "text",
-        key: t('TheEconomicCalendar')
+        key: t('theEconomicCalendarListsTheNews')
+      },
+
+      {
+        type: "title",
+        key: t('pendingOrder'),
+      },
+      {
+        type: "text",
+        key: t('changeTheOrderType')
+      },
+      {
+        type: "text",
+        key: t('thereAreFourTypes')
+      },
+      {
+        type: "text",
+        key: t('buyLimitBuyPending')
+      },
+      {
+        type: "text",
+        key: t('sellLimitSellPending')
+      },
+      {
+        type: "text",
+        key: t('buyStopBuyPending')
+      },
+      {
+        type: "text",
+        key: t('sellStopSellPending')
+      },
+      {
+        type: "text",
+        key: t('afterSelectingTheCorresponding')
       },
       {
         type: "title",
-        key: t('TradingForeignExchange')
+        key: t('oneClickTrading'),
       },
       {
         type: "text",
-        key: t('ForActiveTraders')
+        key: t('foreignExchangePrices')
+      },
+      {
+        type: "text",
+        key: t('onTheUpperLeftCorner')
       },
       {
         type: "title",
-        key: t('MarketSentiment')
+        key: t('modifyTheOrder'),
       },
       {
         type: "text",
-        key: t('MarketSentimentCanBeUsed')
+        key: t('afterOpening')
+      },
+      {
+        type: "text",
+        key: t('inThePopUpWindow')
       },
       {
         type: "title",
-        key: t('NewsTrading')
+        key: t('closePosition'),
       },
       {
         type: "text",
-        key: t('NewsTradingIsAVeryPopular')
+        key: t('theSummaryWindowAt')
+      },
+      {
+        type: "text",
+        key: t('theAccountBalance')
+      },
+      {
+        type: "text",
+        key: t('atThisTimeWeOpened')
+      },
+      {
+        type: "text",
+        key: t('oneClickClosing')
       },
       {
         type: "title",
-        key: t('AvoidNewsTrading')
+        key: t('accountHistory'),
       },
       {
         type: "text",
-        key: t('ThisIsTheThirdTradingMethod')
+        key: t('youCanFindAllClosed')
+      },
+      {
+        type: "text",
+        key: t('profitLossTheTotal')
+      },
+      {
+        type: "text",
+        key: t('depositsTotalDeposits')
+      },
+      {
+        type: "text",
+        key: t('withdrawalTheTotal')
+      },
+      {
+        type: "title",
+        key: t('openTheChartAndLoad'),
+      },
+      {
+        type: "text",
+        key: t('afterTheMT4Platform')
+      },
+      {
+        type: "text",
+        key: t('ifYouWantToSwitch')
+      },
+      {
+        type: "text",
+        key: t('withMT4IsLocatedInThe')
+      },
+      {
+        type: "text",
+        key: t('afterReadingThis')
       },
     ],
     [
       {
         type: "text",
-        key: t('AfterTheDownloadProcess')
+        key: t('leverageAndMarginMargin')
       },
       {
         type: "title",
-        key: t('CreateAMarketOrder')
+        key: t('assumingThatA1Lot')
+      },
+      {
+        type: "title",
+        key: t('whenTheLeverageRatioIs11')
+      },
+      {
+        type: "title",
+        key: t('whenTheLeverageRatioIs1400')
+      },
+      {
+        type: "text",
+        key: t('pleaseKeepInMindThat')
+      },
+      {
+        type: "text",
+        key: t('weUsuallyRecommendTraders')
+      },
+      {
+        type: "text",
+        key: t('stopLossPriceWhenThePrice')
+      },
+      {
+        type: "text",
+        key: t('whenUsingLeverage')
+      },
+      {
+        type: "text",
+        key: t('weRecommendThatYou')
       },
     ],
     [
       {
         type: "text",
-        key: t('LeverageAndMarginMargin')
+        key: t('contractForDifference')
       },
       {
         type: "title",
-        key: t('AssumingThatA1Lot')
+        key: t('exploreTheCfdMarket')
       },
-    ],
-    [
       {
         type: "text",
-        key: t('ContractForDifference')
+        key: t('index')
+      },
+      {
+        type: "text",
+        key: t('energy')
+      },
+      {
+        type: "text",
+        key: t('preciousMetals')
+      },
+      {
+        type: "text",
+        key: t('contractDetails')
       },
       {
         type: "title",
-        key: t('ExploreTheCFDMarket')
+        key: t('WhatAreTheDifferentTypes')
+      },
+      {
+        type: "text",
+        key: t('aStockIndexAsAFinancial')
+      },
+      {
+        type: "text",
+        key: t('commodityFuturesAreAlso')
+      },
+      {
+        type: "text",
+        key: t('byOpeningAnAccountThrough')
+      },
+      {
+        type: "title",
+        key: t('whatAreTheAdvantages')
+      },
+      {
+        type: "text",
+        key: t('theMostSignificantAdvantage')
       },
     ]
   ]
 
-  console.log("t: ", t)
+  useEffect(()=>{
+    if (document.getElementById("heightDetect2") && document.querySelector("body")){
+      const bodyTop = document.querySelector("body").getBoundingClientRect().top
+      const divTop = document.getElementById("heightDetect2").getBoundingClientRect().top
+      setHeight(divTop - bodyTop)
+    }
+  }, [windowWidth])
 
   useEffect(()=>{
-    heightCalculation()
-  }, [windowWidth])
+    if (widthCheck){
+      setPage(0)
+    }
+  }, [widthCheck])
 
   useEffect(()=>{
     if (typeof window !== 'undefined') {
@@ -238,7 +577,7 @@ const basicTrading: React.FC<{}> = () => {
 
   return (
     <Wrapper>
-      <Flex id="heightDetect2" display="flex" py={{base: 10, xl: 20}} bgColor="gray.50" direction="column" align="center">
+      <Flex id="heightDetect2" display="flex" px={10} py={{base: 10, xl: 20}} bgColor="gray.50" direction="column" align="center">
         <InfoTitle title={t('howToStartTrading')} />
         <InfoTitleSub title={t('haventHadExperience')} />
       </Flex>
@@ -248,9 +587,9 @@ const basicTrading: React.FC<{}> = () => {
       >
         {widthCheck && <Box display="flex" my={{base: 0, xl: 20}}>
           <Box w="25vw" mx={3}>
-            <Accordion allowMultiple allowToggle defaultIndex={[0]}>
+            <Accordion allowMultiple allowToggle defaultIndex={[0]} defaultChecked>
               <InfoAccordionMultiItem
-                title={t('intermediateTradingCourse')}
+                title={t('basicTradingCourse')}
                 content={[
                   {
                     type: "page",
@@ -258,23 +597,23 @@ const basicTrading: React.FC<{}> = () => {
                   },
                   {
                     type: "page",
-                    key: t('HowToStartTrading')
+                    key: t('howToStartTrading')
                   },
                   {
                     type: "page",
-                    key: t('FactorsAffectingTheMarket')
+                    key: t('factorsAffectingTheMarket')
                   },
                   {
                     type: "page",
-                    key: t('BasicOperationOfTheMT4Platform')
+                    key: t('basicOperationOfTheMT4Platform')
                   },
                   {
                     type: "page",
-                    key: t('LeverageAndMargin')
+                    key: t('leverageAndMargin')
                   },
                   {
                     type: "page",
-                    key: t('WhatIsACFDTransaction')
+                    key: t('whatIsACFDTransaction')
                   },
                 ]}
                 pageCallback={(page: number) => setPage(page)}
@@ -299,7 +638,7 @@ const basicTrading: React.FC<{}> = () => {
                 <h2>
                   <AccordionButton>
                     <Box flex="1" textAlign="left" fontWeight="600">
-                      {t('AdvancedTradingCourse')}
+                      {t('advancedTradingCourse')}
                     </Box>
                     <ChevronRightIcon fontSize="20px"/>
                   </AccordionButton>
@@ -320,121 +659,52 @@ const basicTrading: React.FC<{}> = () => {
                     {each.key}
                   </Box>
                 )}
+                {each.type === "point" && (
+                  <Box pb={0} textAlign={isArabic ? 'right' : 'left'}>
+                    {each.key}
+                  </Box>
+                )}
+                {each.type === "lastPoint" && (
+                  <Box pb={3} textAlign={isArabic ? 'right' : 'left'}>
+                    {each.key}
+                  </Box>
+                )}
                 {each.type === "image" && (
                   <Image py={3} src={each.key} />
                 )}
+                {each.type === "twoSection" && (
+                  <Box textAlign={isArabic ? 'right' : 'left'}>
+                    <Text py={1}><span style={{fontWeight: "bold"}}>{each.key}</span>{" "}<span>{each.secondKey}</span></Text>
+                  </Box>
+                )}
+                {each.type === "buttonLink" && each.secondKey && (
+                  <Link
+                    _hover={{
+                      textDecoration: 'none'
+                    }}
+                    href={each.secondKey}
+                    isExternal
+                  >
+                    <StyledBox
+                      mb={10}
+                      p={2}
+                      bg="red.600"
+                      color="white"
+                      fontSize="14px"
+                      textAlign="center"
+                      width="250px"
+                      _hover={{
+                        bgColor: 'red.500',
+                        cursor: 'pointer',
+                        transition: '1s'
+                      }}
+                    >
+                      {each.key}
+                    </StyledBox>
+                  </Link>
+                )}
               </Fragment>
             ))}
-            {page === 1 && 
-              <Flex
-                direction="column"
-                justify="space-evenly"
-              >
-                <InfoCard
-                  title={t('TheFirstStep')}
-                  text={t('WeOfferToTrade')}
-                  withTag={false}
-                  bigW="30vw"
-                  minH={{
-                    base: isChinese ? '200px' : '300px',
-                    xl: tallerInfoCard ? '376px' : '300px'
-                  }}
-                  pt="5"
-                  withBorder
-                  node={<Flex
-                    justify="center"
-                    alignItems="center"
-                    display={{ base: 'flex', xl: 'none' }}
-                  >
-                    <Link
-                      _hover={{
-                        textDecoration: 'none'
-                      }}
-                      href="https://trader.wc012.com/register"
-                      isExternal
-                    >
-                      <StyledBox
-                        mt={{ base: 10, xl: 0 }}
-                        p={2}
-                        bg="red.600"
-                        color="white"
-                        fontSize="22px"
-                        textAlign="center"
-                        width="250px"
-                        _hover={{
-                          bgColor: 'red.500',
-                          cursor: 'pointer',
-                          transition: '1s'
-                        }}
-                      >
-                        {t('ApplyForARealAccount')}
-                      </StyledBox>
-                    </Link>
-                  </Flex>}
-                />
-
-                <InfoCard
-                  title={t('Step2')}
-                  text={t('AfterYourRealAccount')}
-                  withTag={false}
-                  bigW="30vw"
-                  minH={{
-                    base: isChinese ? '200px' : '300px',
-                    xl: tallerInfoCard ? '376px' : '300px'
-                  }}
-                  pt="5"
-                  withBorder
-                  node={<Flex
-                    justify="center"
-                    alignItems="center"
-                    display={{ base: 'flex', xl: 'none' }}
-                  >
-                    <Link
-                      _hover={{
-                        textDecoration: 'none'
-                      }}
-                      href="https://trader.wc012.com/register"
-                      isExternal
-                    >
-                      <StyledBox
-                        mt={{ base: 10, xl: 0 }}
-                        p={2}
-                        bg="red.600"
-                        color="white"
-                        fontSize="22px"
-                        textAlign="center"
-                        width="250px"
-                        _hover={{
-                          bgColor: 'red.500',
-                          cursor: 'pointer',
-                          transition: '1s'
-                        }}
-                      >
-                        {t('DepositFundsNow')}
-                      </StyledBox>
-                    </Link>
-                  </Flex>}
-                />
-
-                <InfoCard
-                  title={t('Step3')}
-                  text={t('NowThatYourTradingAccount')}
-                  withTag={false}
-                  bigW="30vw"
-                  minH={{
-                    base: isChinese ? '200px' : '300px',
-                    xl: tallerInfoCard ? '376px' : '300px'
-                  }}
-                  pt="5"
-                  withBorder
-                  node={<Stack p={3} pt={10} textAlign={"left"}>
-                    <Text py={1}><span style={{fontWeight: "bold"}}>{t('UnderStandTheMarket')}</span>{" "}<span>{t('KnowWhatYouWant')}</span></Text>
-                    <Text py={1}><span style={{fontWeight: "bold"}}>{t('UnderStandTheOperation')}</span>{" "}<span>{t('BeforeMakingTheFirstTransaction')}</span></Text>
-                    <Text py={1}><span style={{fontWeight: "bold"}}>{t('StartYourTransaction')}</span>{" "}<span>{t('AfterYouAreFamiliar')}</span></Text>
-                  </Stack>}
-                />
-              </Flex>
-            }
             <Box pb={7}/>
           </Box>
         </Box>}
@@ -444,149 +714,48 @@ const basicTrading: React.FC<{}> = () => {
             <InfoAccordionMultiItem
               title={t('whatIsForeignExchangeTrading')}
               content={data[0]}
-              callback={()=>window.scroll(0, height+100)}
+              callback={()=>{
+                window.scroll(0, height+100)
+              }}
             />
             <InfoAccordionMultiItem
-              title={t('HowToStartTrading')}
+              title={t('howToStartTrading')}
               content={data[1]}
-              callback={()=>window.scroll(0, height+140)}
-              node={
-                <Flex
-                  direction={{
-                    base: 'column',
-                    xl: isArabic ? 'row-reverse' : 'row'
-                  }}
-                  justify="space-evenly"
-                  align="center"
-                >
-                  <InfoCard
-                    title={t('TheFirstStep')}
-                    text={t('WeOfferToTrade')}
-                    withTag={false}
-                    bigW="30vw"
-                    minH={{
-                      base: isChinese ? '200px' : '300px',
-                      xl: tallerInfoCard ? '376px' : '300px'
-                    }}
-                    pt="5"
-                    withBorder
-                    node={<Flex
-                      justify="center"
-                      alignItems="center"
-                      display={{ base: 'flex', xl: 'none' }}
-                    >
-                      <Link
-                        _hover={{
-                          textDecoration: 'none'
-                        }}
-                        href="https://trader.wc012.com/register"
-                        isExternal
-                      >
-                        <StyledBox
-                          mt={{ base: 10, xl: 0 }}
-                          p={2}
-                          bg="red.600"
-                          color="white"
-                          fontSize="22px"
-                          textAlign="center"
-                          width="250px"
-                          _hover={{
-                            bgColor: 'red.500',
-                            cursor: 'pointer',
-                            transition: '1s'
-                          }}
-                        >
-                          {t('ApplyForARealAccount')}
-                        </StyledBox>
-                      </Link>
-                    </Flex>}
-                  />
-
-                  <InfoCard
-                    title={t('Step2')}
-                    text={t('AfterYourRealAccount')}
-                    withTag={false}
-                    bigW="30vw"
-                    minH={{
-                      base: isChinese ? '200px' : '300px',
-                      xl: tallerInfoCard ? '376px' : '300px'
-                    }}
-                    pt="5"
-                    withBorder
-                    node={<Flex
-                      justify="center"
-                      alignItems="center"
-                      display={{ base: 'flex', xl: 'none' }}
-                    >
-                      <Link
-                        _hover={{
-                          textDecoration: 'none'
-                        }}
-                        href="https://trader.wc012.com/register"
-                        isExternal
-                      >
-                        <StyledBox
-                          mt={{ base: 10, xl: 0 }}
-                          p={2}
-                          bg="red.600"
-                          color="white"
-                          fontSize="22px"
-                          textAlign="center"
-                          width="250px"
-                          _hover={{
-                            bgColor: 'red.500',
-                            cursor: 'pointer',
-                            transition: '1s'
-                          }}
-                        >
-                          {t('DepositFundsNow')}
-                        </StyledBox>
-                      </Link>
-                    </Flex>}
-                  />
-
-                  <InfoCard
-                    title={t('Step3')}
-                    text={t('NowThatYourTradingAccount')}
-                    withTag={false}
-                    bigW="30vw"
-                    minH={{
-                      base: isChinese ? '200px' : '300px',
-                      xl: tallerInfoCard ? '376px' : '300px'
-                    }}
-                    pt="5"
-                    withBorder
-                    node={<Stack p={3} pt={10} textAlign={"left"}>
-                      <Text py={1}><span style={{fontWeight: "bold"}}>{t('UnderStandTheMarket')}</span>{" "}<span>{t('KnowWhatYouWant')}</span></Text>
-                      <Text py={1}><span style={{fontWeight: "bold"}}>{t('UnderStandTheOperation')}</span>{" "}<span>{t('BeforeMakingTheFirstTransaction')}</span></Text>
-                      <Text py={1}><span style={{fontWeight: "bold"}}>{t('StartYourTransaction')}</span>{" "}<span>{t('AfterYouAreFamiliar')}</span></Text>
-                    </Stack>}
-                  />
-                </Flex>}
+              callback={()=>{
+                window.scroll(0, height+140)
+              }}
             />
 
             <InfoAccordionMultiItem
-              title={t('FactorsAffectingTheMarket')}
+              title={t('factorsAffectingTheMarket')}
               content={data[2]}
-              callback={()=>window.scroll(0, height+180)}
+              callback={()=>{
+                window.scroll(0, height+180)
+              }}
             />
 
             <InfoAccordionMultiItem
-              title={t('BasicOperationOfTheMT4Platform')}
+              title={t('basicOperationOfTheMT4Platform')}
               content={data[3]}
-              callback={()=>window.scroll(0, height+220)}
+              callback={()=>{
+                window.scroll(0, height+220)
+              }}
             />
 
             <InfoAccordionMultiItem
-              title={t('LeverageAndMargin')}
+              title={t('leverageAndMargin')}
               content={data[4]}
-              callback={()=>window.scroll(0, height+260)}
+              callback={()=>{
+                window.scroll(0, height+260)
+              }}
             />
 
             <InfoAccordionMultiItem
-              title={t('WhatIsACFDTransaction')}
+              title={t('whatIsACFDTransaction')}
               content={data[5]}
-              callback={()=>window.scroll(0, height+300)}
+              callback={()=>{
+                window.scroll(0, height+300)
+              }}
             />
           </Accordion>
         </Box>}
@@ -604,6 +773,13 @@ const basicTrading: React.FC<{}> = () => {
               aria-label={t('intermediateTradingCourse')}
               icon={<ArrowForwardIcon fontSize="40px" />}
             />
+            {/* <Button onClick={()=>router.push("/learnTrade/intermediateTrading")} 
+              rightIcon={<ArrowForwardIcon />} 
+              colorScheme="gray"
+              variant="solid"
+            >
+              {t('intermediateTradingCourse')}
+            </Button> */}
           </Box>}
       </Flex>
     </Wrapper>
@@ -615,7 +791,8 @@ export const getStaticProps: GetStaticProps = async (props) => ({
     ...(await serverSideTranslations(props.locale!, [
       'common',
       'footer',
-      'header'
+      'header',
+      'basicTrading'
     ]))
   }
 });
