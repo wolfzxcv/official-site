@@ -38,9 +38,9 @@ export type RegionalRepresentative={
     become:string,
     /** your own boss */
     yourOwnBoss:string,
-    /** our partner */
     /** Become1 */
     become1:string,
+    /** our partner */
     ourPartner:string,
     /** Get */
     get:string,
