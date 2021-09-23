@@ -1,12 +1,33 @@
 /* 高级交易课程 */
-import { AdvancedTrading } from "../@types/advancedTrading"
-export const advancedTrading:AdvancedTrading={
-    analysisAndTrends:'Analysis and trends',
-    advancedTradingCourse: 'Advanced*Trading*Course',
-    technicalAnalysis: 'Technical*analysis*and*market*trends',
+import { AdvancedTrading } from '../@types/advancedTrading';
+export const advancedTrading : AdvancedTrading  = {
+  analysisAndTrends: 'Analysis*and*trends',
+  predictPossibleFuture: 'Predict*possible*future*price*trends*through*research*on*past*market*trends*and*help*investors*determine*the*entry*and*exit*point*of*the*transaction.',
+  basicTradingCourse: 'Basic*Trading*Course',
+  intermediateTradingCourse: 'Intermediate*Trading*Course',
+  advancedTradingCourse: 'Advanced*Trading*Course',
+  technicalAnalysis: 'Technical*analysis*and*market*trends',
   fundamentalAnalysis: 'Fundamental*analysis',
-  fibonacciRetracementLine:'Fibonacci Retracement Line',
+  fibonacciRetracementLine: 'Fibonacci*Retracement*Line',
   supportAndResistance: 'Support*and*resistance',
   marketParticipants: 'Market*participants',
   tradingStyle: 'Trading*style',
+  whatIsTechnical: 'What*is*technical*analysis',
+  technicalAnalysisPredicts: 'Technical*analysis*predicts*market*trends*by*observing*historical*prices*and*formulates*trading*strategies*accordingly.*Together*with*fundamental*analysis,*they*are*the*two*most*widely-used*analytical*tools.',
+  unlikeFundamentalAnalysis: 'Unlike*fundamental*analysis*which*focuses*on*economic,*political,*and*financial*development,*technical*analysis*basically*focuses*only*on*charts*by*studying*changes*in*historical*prices*to*predict*future*market*movements.',
+  tradersWhoUse: 'Traders*who*use*technical*analysis*rely*on*the*following*three*premises:',
+  theMarketPrice: 'The*market*price*contains*all*the*information*that*people*need*to*understand',
+  thePriceFluctuates: 'The*price*fluctuates*around*a*trend*line;',
+  historyWillRepeat: 'History*will*repeat*itself.',
+  theseThreePremises: 'These*three*premises*are*the*basis*for*effective*technical*analysis.*With*the*help*of*technical*analysis,*we*can*we*predict*the*possible*upcoming*price*movements.',
+  itShouldBe: 'It*should*be*noted*that*technical*analysis*is*not*100%*correct.*In*practical*applications,*you*may*find*that*your*trading*decisions*based*on*the*results*of*rigorous*technical*analysis*are*opposite*to*the*direction*of*price*fluctuations*in*the*real*market.*This*situation*does*not*contradict*our*original*intention*for*technical*analysis,*nor*does*it*mean*that*your*technical*analysis*method*is*wrong.',
+  theRoleOf: 'The*role*of*technical*analysis*is*not*simply*to*predict*the*rise*and*fall*of*market*prices.*Its*true*meaning*is*to*help*traders*better*understand*the*market*and*develop*a*trading*strategy*that*adapts*to*the*current*market.',
+  commonMethodsOf: 'Common*methods*of*technical*analysis*include*chart*patterns*and*technical*indicators.*We*will*open*up*two*additional*articles*to*introduce*them.*In*this*article,*we*will*introduce*a*basic*skill*of*technical*analysis-of*identifying*trends.',
+  whyIdentifyingTrends: 'Why*identifying*trends?？',
+  justUnderstanding: 'Just*understanding*the*chart*price*does*not*help*us*make*trading*decisions,*you*also*need*to*understand*how*to*identify*the*price*trend*on*the*chart.*There*are*three*types*of*chart*trends:*up,*down,*and*consolidation.*In*the*unilateral*trend*of*rising*and*falling,*people*often*adopt*a*breakthrough*trading*strategy,*that*is,*only*trade*in*one*direction,*buying*up*or*down.*In*a*consolidation*trend,*people*often*use*a*range*trading*strategy*of*selling*high*and*buying*low,*selling*when*the*price*rises*to*the*top*of*the*consolidation*range,*and*buy*when*the*price*falls*to*the*bottom*of*the*consolidation*range.*Therefore，*it*is*particularly*important*for*traders*to*judge*whether*the*exchange*rate*trend*is*in*a*unilateral*trend*of*up/down*or*in*a*consolidation*interval*trend.*Only*by*accurately*grasping*the*trend*can*we*adopt*the*correct*trading*method*as*far*as*possible.',
+  thereAreMany: 'There*are*many*tools*for*identifying*trends,*and*almost*all*technical*analysis*involves*trend*judgment.*In*this*article,*we*will*first*introduce*how*to*draw*trend*lines,*support/resistance*lines*in*the*chart,*and*the*general*rules*of*judging*the*trend*is*over.',
+  noteThatAlthough: 'Note*that*although*the*minute*chart*can*sometimes*reflect*some*trends,*we*still*recommend*that*you*use*technical*analysis*tools*on*the*longer-term*charts,*because*the*price*information*on*the*long-term*charts*is*more*comprehensive*and*statistically*more*reliable.*For*example,*the*price*data*on*the*hourly*chart*is*more*reliable*than*the*minute*chart,*and*the*price*data*on*the*daily*chart*is*more*reliable*than*the*hourly*one.',
+  seniorClassD: 'senior-class-content-four-d',
+  seniorClassE: 'senior-class-content-four-e',
+  seniorClassF: 'senior-class-content-four-f'
 }

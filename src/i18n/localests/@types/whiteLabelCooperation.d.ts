@@ -22,14 +22,14 @@ export type WhiteLabelCooperation={
     extremelyLow:string,
     /** We exclusively */
     weExclusively:string,
-    /** Provide comprehensive */
-    provideComprehensive:string,
     /** Very low */
     veryLow:string,
     /** Start your */
     startYour:string,
     /** Based on*/
     basedOn:string,
+    /** you can check */
+    youCanCheck:string;
     /** Create your own */
     createYourOwn:string,
     /** Our white label  */
