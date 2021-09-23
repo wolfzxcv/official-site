@@ -13,6 +13,7 @@ import {
   useBreakpointValue
 } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
+import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
@@ -28,7 +29,7 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const introducingBroker: React.FC<{}> = () => {
-  // const { t } = useTranslation(['forex']);
+  const { t } = useTranslation(['iBBroker']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -58,18 +59,11 @@ const introducingBroker: React.FC<{}> = () => {
           zIndex={1}
         >
           <Flex my={10}>
-            <InfoTitle title="Introducing Broker (IB)" />
+            <InfoTitle title={t('introducingBroker')} />
           </Flex>
 
-          <Text my={10}>
-            WCGs IB plan is people-oriented. Whether you are an individual or a
-            company with dozens or even hundreds of employees， we understand
-            what your business needs for growth. Our IB plan offers a variety of
-            rebate options， a flexible agent back office， and a professional
-            management team， ready to provide you and your customers with
-            considerate and meticulous services at any time..
-          </Text>
-          <InfoButtonBase text="IB Application" onClick={openChatWindow} />
+          <Text my={10}>{t('wCGsIBPlanIsPeopleOriented')}</Text>
+          <InfoButtonBase text={t('iBApplication')} onClick={openChatWindow} />
         </Box>
         <Image
           src="../assets/images/introducingBroker_banner.png"
@@ -88,14 +82,10 @@ const introducingBroker: React.FC<{}> = () => {
         <Box
           w={{ base: '80vw', lg: '45vw' }}
           pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          textAlign={{ base: isArabic ? 'right' : 'left', xl: 'center' }}
         >
-          <InfoTitle title="Exclusive IB plan" />
-          <Text>
-            Whether you are a trading educator， signal provider， sales，
-            marketer， or someone who can provide other added value to traders，
-            we can provide you with solutions..
-          </Text>
+          <InfoTitle title={t('exclusiveIBPlan')} />
+          <Text>{t('whetherYouAreATrading')}</Text>
         </Box>
       </Flex>
 
@@ -116,19 +106,12 @@ const introducingBroker: React.FC<{}> = () => {
             width={{ base: '80vw', lg: '50%' }}
             flexDirection="column"
             justifyContent="center"
-            textAlign={{ base: 'start', lg: 'center' }}
+            textAlign={{ base: isArabic ? 'right' : 'left', lg: 'center' }}
             py={8}
             px={{ base: 0, lg: 8 }}
           >
-            <InfoTitle title="Introducing Brokers" size="20px" />
-            <Text mb={5}>
-              Our unique IB plan pays commissions to agents of all sizes and
-              provides you with a better commission system. Through continuous
-              introduction of traders to generate trading commissions， we will
-              bring you endless profits! At the same time， you can view
-              customer transaction reports and various data at any time through
-              the agent background..
-            </Text>
+            <InfoTitle title={t('introducingBrokers')} size="20px" />
+            <Text mb={5}>{t('ourUniqueIBPlanPays')}</Text>
           </Flex>
         </Flex>
       </Flex>
@@ -144,19 +127,12 @@ const introducingBroker: React.FC<{}> = () => {
             width={{ base: '80vw', lg: '50%' }}
             flexDirection="column"
             justifyContent="center"
-            textAlign={{ base: 'start', lg: 'center' }}
+            textAlign={{ base: isArabic ? 'right' : 'left', lg: 'center' }}
             py={8}
             px={{ base: 0, lg: 8 }}
           >
-            <InfoTitle title="Fully competitive" size="20px" />
-            <Text mb={5}>
-              Customize a commission structure that suits you. Every time a
-              customer opens a trading account through a dedicated introducing
-              agent， the new customer will automatically be assigned to that
-              agents name. You can also identify and cultivate your star
-              customers through the return terms and the number of transactions
-              within a specific period.
-            </Text>
+            <InfoTitle title={t('fullyCompetitive')} size="20px" />
+            <Text mb={5}>{t('customizeACommission')}</Text>
           </Flex>
           <Image
             src="../assets/images/introducingBroker_2.png"
@@ -201,18 +177,12 @@ const introducingBroker: React.FC<{}> = () => {
             width={{ base: '80vw', lg: '50%' }}
             flexDirection="column"
             justifyContent="center"
-            textAlign={{ base: 'start', lg: 'center' }}
+            textAlign={{ base: isArabic ? 'right' : 'left', lg: 'center' }}
             py={8}
             px={{ base: 0, lg: 8 }}
           >
-            <InfoTitle title="Boost your IB performance" size="20px" />
-            <Text mb={5}>
-              As the agent of WCG， the clients you introduce will receive the
-              best service. We guarantee that the entire process of inputting
-              customer information， from account opening to safe and fast
-              depositing will be fully taken care of. Let you have no worries
-              and devote yourself to the recommended customers..
-            </Text>
+            <InfoTitle title={t('boostYourIBPerformance')} size="20px" />
+            <Text mb={5}>{t('asTheAgentOfWCG')}</Text>
           </Flex>
         </Flex>
       </Flex>
@@ -221,15 +191,11 @@ const introducingBroker: React.FC<{}> = () => {
       <Flex direction="column" align="center" py={20}>
         <Box
           w={{ base: '80vw', xl: '60vw' }}
-          textAlign={{ base: 'inherit', xl: 'center' }}
-          mb={8}
+          textAlign={{ base: isArabic ? 'right' : 'left', xl: 'center' }}
+          my={16}
         >
-          <InfoTitle title="Excellent agency experience" />
-          <Text>
-            We treat you as our vvip， with intuitive and optimized agency
-            experience， provide you with a wide range of customized products
-            and services to meet your needs..
-          </Text>
+          <InfoTitle title={t('excellentAgencyExperience')} />
+          <Text>{t('weTreatYouAsOurVvip')}</Text>
         </Box>
         <Flex
           px={8}
@@ -240,38 +206,38 @@ const introducingBroker: React.FC<{}> = () => {
         >
           <InfoCard
             icon={<GiReceiveMoney fontSize="64px" />}
-            title="Efficient and instant rebate system"
-            text="According to the transaction volume of the clients you referred， you will get very competitive rebates in real time."
+            title={t('efficientAndInstant')}
+            text={t('accordingToTheTransaction')}
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<ImTree fontSize="64px" />}
-            title="Multi-level agency settings"
-            text="With a variety of agency-specific settings， the profits obtained can grow with different levels."
+            title={t('multiLevelAgencySettings')}
+            text={t('withAVarietyOfAgency')}
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<RiListSettingsLine fontSize="64px" />}
-            title="A variety of commission setting options"
-            text="The rebate can be set according to different customers and transaction volumes， effectively handle distribution needs."
+            title={t('aVarietyOfCommission')}
+            text={t('theRebateCanBeSet')}
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<RiRefund2Line fontSize="64px" />}
-            title="Flexible Funds Settlement"
-            text="Receive commissions according to the payment method you choose， and transfer them to your designated account as soon as possible."
+            title={t('flexibleFundsSettlement')}
+            text={t('receiveCommissions')}
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<AiOutlineProfile fontSize="64px" />}
-            title="Transparent and clear agency structure"
-            text="Highly transparent agency system， all setting items are clear at a glance."
+            title={t('transparentAndClear')}
+            text={t('highlyTransparentAgency')}
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<ImProfile fontSize="64px" />}
-            title="View customer profile data"
-            text="Get customer transaction reports， income statements， transaction volume and other statistical data at any time."
+            title={t('viewCustomerProfile')}
+            text={t('getCustomerTransaction')}
             minH={isChinese ? '280px' : '306px'}
           />
         </Flex>
@@ -279,7 +245,7 @@ const introducingBroker: React.FC<{}> = () => {
 
       {/* How much can I profit */}
       <Flex direction="column" align="center" py={20} bg="gray.100">
-        <InfoTitle title="How much can I profit?" />
+        <InfoTitle title={t('howMuchCanIProfit')} />
         <Box
           w="80vw"
           pt={16}
@@ -296,7 +262,7 @@ const introducingBroker: React.FC<{}> = () => {
           >
             <FormControl id="account-type">
               <FormLabel htmlFor="account-type">
-                Account type of your client
+                {t('accountTypeOfYourClient')}
               </FormLabel>
               <Select borderColor="gray.300">
                 <option>標準</option>
@@ -304,7 +270,7 @@ const introducingBroker: React.FC<{}> = () => {
             </FormControl>
             <FormControl id="volume">
               <FormLabel htmlFor="volume">
-                Your clients transaction volume
+                {t('yourVlientSTransactionVolume')}
               </FormLabel>
               <Select
                 borderColor="gray.300"
@@ -329,7 +295,7 @@ const introducingBroker: React.FC<{}> = () => {
               </Select>
             </FormControl>
             <FormControl>
-              <FormLabel>Commission per lot</FormLabel>
+              <FormLabel>{t('commissionPerLot')}</FormLabel>
               <Flex h="10" alignItems="center">
                 <Text fontSize="24px" sx={{ fontWeight: 'bold' }}>
                   $10
@@ -337,7 +303,7 @@ const introducingBroker: React.FC<{}> = () => {
               </Flex>
             </FormControl>
             <FormControl>
-              <FormLabel>Your total commission</FormLabel>
+              <FormLabel>{t('yourTotalCommission')}</FormLabel>
               <Flex h="10" alignItems="center">
                 <Text
                   fontSize="24px"
@@ -463,22 +429,15 @@ const introducingBroker: React.FC<{}> = () => {
       <Flex direction="column" align="center" py={20}>
         <Box
           w={{ base: '80vw', lg: '45vw' }}
-          pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          pb={10}
+          textAlign='center'
         >
-          <InfoTitle title="Earn commissions instantly" />
-          <Text>
-            Becoming an agent / broker will be the easiest way to increase your
-            income because there is no registration cost. You can work anywhere
-            and even promote your services through the website. At the same
-            time， you can directly refer clients to WCG， guide them through
-            the real account opening process， and explain all the benefits of
-            becoming a WCG client.
-          </Text>
+          <InfoTitle title={t('earnCommissionsInstantly')} />
+          <Text>{t('becomingAnAgentBroker')}</Text>
         </Box>
         <Box>
           <InfoButtonBase
-            text="I want to be an agent"
+            text={t('iWantToBeAnAgent')}
             onClick={openChatWindow}
           />
         </Box>
@@ -492,7 +451,8 @@ export const getStaticProps: GetStaticProps = async (props) => ({
     ...(await serverSideTranslations(props.locale!, [
       'common',
       'footer',
-      'header'
+      'header',
+      'iBBroker'
     ]))
   }
 });

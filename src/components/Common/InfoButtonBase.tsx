@@ -26,7 +26,9 @@ export default function InfoButtonBase({
   return (
     <StyledFlex
       minH="40px"
-      width={widerButton ? '250px' : '200px'}
+      minW={widerButton ? '250px' : '200px'}
+      w="max-content"
+      px={2}
       bgColor={bgColor ? bgColor : 'red.600'}
       justify="space-around"
       align="center"

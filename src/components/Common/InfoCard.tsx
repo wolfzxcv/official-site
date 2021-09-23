@@ -57,7 +57,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
         <Text fontSize="24px" fontWeight="700">
           {title}
         </Text>
-        <Text>{text}</Text>
+        <Text sx={{ whiteSpace: 'pre-wrap' }}>{text}</Text>
         {node}
       </Stack>
     </Box>
