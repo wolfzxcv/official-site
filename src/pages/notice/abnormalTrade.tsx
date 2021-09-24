@@ -1,16 +1,17 @@
-import { Accordion, Box, Flex, Image } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import React from 'react';
+import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-const InfoAccordionItem = dynamic(
-  () => import('../../components/Common/InfoAccordionItem'),
+const InfoAccordion = dynamic(
+  () => import('../../components/Common/InfoAccordion'),
   { ssr: false }
 );
 
@@ -20,6 +21,33 @@ const abnormalTrade: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isArabic = currentLang === 'ar';
+
+  const data: InfoAccordionItemProps[] = [
+    {
+      title: t('whatIsAbnormalTrade'),
+      content: [t('abnormalTradeMeans'), t('abnormalTradeTakesUp')]
+    },
+    {
+      title: t('theDefinitionOfAbnormalTrades'),
+      content: [
+        t('whenTheCustomerWithdrawsMoney'),
+        `${!isArabic ? '1. ' : ''}${t('whenThereIs')}`,
+        `${!isArabic ? '2. ' : ''}${t('when30OfThe')}`,
+        `${!isArabic ? '3. ' : ''}${t('whenClientIsUsing')}`,
+        `${!isArabic ? '4. ' : ''}${t('whenCustomersAreTackling')}`,
+        `${!isArabic ? '5. ' : ''}${t('aTradeOfUtilizing')}`,
+        `${!isArabic ? '6. ' : ''}${t('whenTheNumber')}`
+      ]
+    },
+    {
+      title: t('handlingMethod'),
+      content: [
+        `${!isArabic ? '1. ' : ''}${t('ifTheAccount')}`,
+        `${!isArabic ? '2. ' : ''}${t('ifTheAccountIs')}`,
+        `${!isArabic ? '* ' : ''}${t('theRightToInterpret')}`
+      ]
+    }
+  ];
   return (
     <Wrapper>
       {/* Abnormal Trade */}
@@ -31,34 +59,7 @@ const abnormalTrade: React.FC<{}> = () => {
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
         <Box width={'80vw'} my={10}>
-          <Accordion width={'80vw'} allowToggle>
-            <InfoAccordionItem
-              title={t('whatIsAbnormalTrade')}
-              content={[t('abnormalTradeMeans'), t('abnormalTradeTakesUp')]}
-            />
-
-            <InfoAccordionItem
-              title={t('theDefinitionOfAbnormalTrades')}
-              content={[
-                t('whenTheCustomerWithdrawsMoney'),
-                `${!isArabic ? '1. ' : ''}${t('whenThereIs')}`,
-                `${!isArabic ? '2. ' : ''}${t('when30OfThe')}`,
-                `${!isArabic ? '3. ' : ''}${t('whenClientIsUsing')}`,
-                `${!isArabic ? '4. ' : ''}${t('whenCustomersAreTackling')}`,
-                `${!isArabic ? '5. ' : ''}${t('aTradeOfUtilizing')}`,
-                `${!isArabic ? '6. ' : ''}${t('whenTheNumber')}`
-              ]}
-            />
-
-            <InfoAccordionItem
-              title={t('handlingMethod')}
-              content={[
-                `${!isArabic ? '1. ' : ''}${t('ifTheAccount')}`,
-                `${!isArabic ? '2. ' : ''}${t('ifTheAccountIs')}`,
-                `${!isArabic ? '* ' : ''}${t('theRightToInterpret')}`
-              ]}
-            />
-          </Accordion>
+          <InfoAccordion data={data} />
         </Box>
       </Flex>
     </Wrapper>

@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
+import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -14,7 +15,7 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const regionalRepresentative: React.FC<{}> = () => {
-  // const { t } = useTranslation(['forex']);
+  const { t } = useTranslation(['regionalRepresentative']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -41,19 +42,12 @@ const regionalRepresentative: React.FC<{}> = () => {
           zIndex={1}
         >
           <Flex my={10}>
-            <InfoTitle title="Regional representative" />
+            <InfoTitle title={t('regionalRepresentative')} />
           </Flex>
 
-          <Text my={10}>
-            This is a unique opportunity for people who want to develop their
-            businesses locally. Opening a WCG regional office will be a
-            higher-level cooperation option. Manage your own agency company in
-            your area to obtain stable income， and at the same time provide you
-            with the best trading conditions and technology in the industry with
-            our competitive advantages.
-          </Text>
+          <Text my={10}>{t('thisIsAUnique')}</Text>
           <InfoButtonBase
-            text="Representative application"
+            text={t('representativeApplcation')}
             onClick={openChatWindow}
           />
         </Box>
@@ -74,15 +68,10 @@ const regionalRepresentative: React.FC<{}> = () => {
         <Box
           w={{ base: '80vw', lg: '45vw' }}
           pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          textAlign={{ base: isArabic ? 'right' : 'left', xl: 'center' }}
         >
-          <InfoTitle title="Do not miss this opportunity!" />
-          <Text>
-            Set your own business model freely， your marketing plan， organize
-            seminars， webinars， and activities that are beneficial or related
-            to specific market needs. We will assist you to gain a stable and
-            solid foundation in your local market.
-          </Text>
+          <InfoTitle title={t('doNotMiss')} />
+          <Text>{t('setYourOwn')}</Text>
         </Box>
       </Flex>
 
@@ -103,25 +92,12 @@ const regionalRepresentative: React.FC<{}> = () => {
             width={{ base: '80vw', lg: '65%' }}
             flexDirection="column"
             justifyContent="center"
-            textAlign={{ base: 'start', lg: 'center' }}
+            textAlign={{ base: isArabic ? 'right' : 'left', lg: 'center' }}
             py={8}
             px={{ base: 0, lg: 8 }}
           >
-            <InfoTitle
-              title="Brands that share a global reputation"
-              size="20px"
-            />
-            <Text mb={5}>
-              The support we provide to regional offices includes but not
-              limited to meeting all the needs for local businesses development.
-              WCG provides consulting services， promotional materials and
-              marketing budget， as well as direct contact with customers for
-              faster and more accurate support. We provide regional
-              representatives with assistance in all technical matters，
-              implementation and integration of local services (such as the most
-              popular payment system in the region) to help optimizing their
-              business performance.
-            </Text>
+            <InfoTitle title={t('brandsThatSahre')} size="20px" />
+            <Text mb={5}>{t('theSupportWe')}</Text>
           </Flex>
         </Flex>
       </Flex>
@@ -135,24 +111,24 @@ const regionalRepresentative: React.FC<{}> = () => {
         >
           <InfoCard
             icon={<MdLocationOn fontSize="64px" />}
-            title="Sole regional representative"
-            text="You will be the only representative in your area. Through the regional representative program of WCG， you will enjoy the exclusive right of agency in this specific area."
+            title={t('soleRegional')}
+            text={t('youWillBe')}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
             withBorder
           />
           <InfoCard
             icon={<MdMessage fontSize="64px" />}
-            title="Marketing assistance support"
-            text="Provide comprehensive technical support to help optimizing network promotion， marketing materials and help record and manage your customers."
+            title={t('marketingAssistance')}
+            text={t('provideComprehensive')}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
             withBorder
           />
           <InfoCard
             icon={<RiUserStarLine fontSize="64px" />}
-            title="Competitive edge"
-            text="We will provide your customers with competitive trading conditions and quickly enhance your trading advantages within your area."
+            title={t('competitiveEdge')}
+            text={t('weWillProvide')}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
             withBorder
@@ -165,14 +141,12 @@ const regionalRepresentative: React.FC<{}> = () => {
         <Box
           w={{ base: '80vw', lg: '80vw' }}
           pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          textAlign={{ base: isArabic ? 'right' : 'left', xl: 'center' }}
         >
-          <InfoTitle title="Regional representative's income" />
+          <InfoTitle title={t('regionalRepresentativeIsIncome')} />
           <Text>
-            Your income includes the standard commission from each referrer’s
-            transaction， as well as income from all of your downline accounts，
-            and additional agency remuneration The specific amount of additional
-            income can be determined after mutual agreement with the partner
+            {t('yourIncomeIncludes')}
+            {t('theSpecificAmount')}
           </Text>
           <Image
             src="../assets/images/regionalRepresentative_2.png"
@@ -192,6 +166,7 @@ const regionalRepresentative: React.FC<{}> = () => {
           flexDir={{ base: 'column', lg: 'row' }}
           alignItems={{ base: 'center', lg: 'unset' }}
           justifyContent="space-between"
+          textAlign={isArabic ? 'right' : 'left'}
         >
           <Box flex={1} position="relative">
             <Image
@@ -201,8 +176,8 @@ const regionalRepresentative: React.FC<{}> = () => {
             />
             <Box
               position="absolute"
-              w="120%"
               fontWeight="bold"
+              w="max-content"
               sx={{
                 top: { base: '35%', xl: '50%' },
                 left: '10%',
@@ -211,7 +186,9 @@ const regionalRepresentative: React.FC<{}> = () => {
             >
               <StyledBoxTag />
               <Text color="white" fontSize="60px">
-                Become your own boss
+                {t('become')}
+                <br />
+                {t('yourOwnBoss')}
               </Text>
             </Box>
           </Box>
@@ -223,8 +200,8 @@ const regionalRepresentative: React.FC<{}> = () => {
             />
             <Box
               position="absolute"
-              w="120%"
               fontWeight="bold"
+              w="max-content"
               sx={{
                 top: { base: '35%', xl: '50%' },
                 left: '10%',
@@ -233,7 +210,9 @@ const regionalRepresentative: React.FC<{}> = () => {
             >
               <StyledBoxTag />
               <Text color="blackAlpha.900" fontSize="60px">
-                Become our partner
+                {t('become1')}
+                <br />
+                {t('ourPartner')}
               </Text>
             </Box>
           </Box>
@@ -245,17 +224,19 @@ const regionalRepresentative: React.FC<{}> = () => {
             />
             <Box
               position="absolute"
-              w="120%"
               fontWeight="bold"
+              w="max-content"
               sx={{
-                top: { base: '35%', xl: '50%' },
+                top: { base: '35%', xl: '45%' },
                 left: '10%',
                 transform: 'scale(0.5) translate(-50%, -50%)'
               }}
             >
               <StyledBoxTag />
               <Text color="white" fontSize="60px">
-                Get technical support
+                {t('get')}
+                <br />
+                {t('technicalSupport')}
               </Text>
             </Box>
           </Box>
@@ -266,18 +247,14 @@ const regionalRepresentative: React.FC<{}> = () => {
       <Flex direction="column" align="center" py={20}>
         <Box
           w={{ base: '80vw', lg: '45vw' }}
-          pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          pb={10}
+          textAlign='center'
         >
-          <InfoTitle title="Become our regional representative" />
-          <Text>
-            WCG is currently undergoing rapid development， which means that we
-            will continue to seek and develop new markets， and our customers
-            are becoming part of our business model to grow with us.
-          </Text>
+          <InfoTitle title={t('becomeOurRegional')} />
+          <Text>{t('wCGIsCurrently')}</Text>
         </Box>
         <Box>
-          <InfoButtonBase text="Apply now" onClick={openChatWindow} />
+          <InfoButtonBase text={t('applyNow')} onClick={openChatWindow} />
         </Box>
       </Flex>
     </Wrapper>
@@ -289,7 +266,8 @@ export const getStaticProps: GetStaticProps = async (props) => ({
     ...(await serverSideTranslations(props.locale!, [
       'common',
       'footer',
-      'header'
+      'header',
+      'regionalRepresentative'
     ]))
   }
 });

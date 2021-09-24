@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
+import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -15,7 +16,7 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const whiteLabelCooperation: React.FC<{}> = () => {
-  // const { t } = useTranslation(['forex']);
+  const { t } = useTranslation(['whiteLabelCooperation']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -42,22 +43,11 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           zIndex={1}
         >
           <Flex my={10}>
-            <InfoTitle title="White label cooperation" />
+            <InfoTitle title={t('whiteLabel')} />
           </Flex>
 
-          <Text my={10}>
-            WCGs white label cooperation program allows you to create a personal
-            (or company) brand in the foreign exchange industry. This is a
-            solution that allows you to use your own identity and website to run
-            the brokerage business. We can provide you with high-quality
-            products， fully functional trading platforms， cutting-edge
-            technology and competitive conditions to meet all your customers
-            needs.
-          </Text>
-          <InfoButtonBase
-            text="Apply for cooperation"
-            onClick={openChatWindow}
-          />
+          <Text my={10}>{t('wCGsWhite')}</Text>
+          <InfoButtonBase text={t('applyFor')} onClick={openChatWindow} />
         </Box>
         <Image
           src="../assets/images/whiteLabelCooperation_banner.png"
@@ -95,20 +85,11 @@ const whiteLabelCooperation: React.FC<{}> = () => {
             py={16}
             px={{ base: 0, lg: 24 }}
             bg="gray.100"
+            textAlign={isArabic ? 'right' : 'left'}
           >
             <StyledBoxTag />
-            <InfoTitle title="WCG White Label Strategy" />
-            <Text mb={5}>
-              As a leading broker， we are ready to provide you with everything
-              you need to start a new business， from the creation of a website
-              (if needed) to extensive back-office support and management
-              activities. We provide a full set of products and services for
-              your free use. To further support your business， we provide
-              specialized training， customer support and first-class guidance.
-              Our trading platform is fully customizable and can be named after
-              your company name and trademark. You can choose between various
-              income and remuneration models to maximize your benefits.
-            </Text>
+            <InfoTitle title={t('wCGWhite')} />
+            <Text mb={5}>{t('asALeading')}</Text>
           </Flex>
         </Flex>
       </Flex>
@@ -116,17 +97,14 @@ const whiteLabelCooperation: React.FC<{}> = () => {
       {/* Advanced equipment and attractive offers */}
       <Flex direction="column" align="center" py={20}>
         <Box
-          w={{ base: '80vw', lg: '80vw' }}
+          w={{ base: '80vw', lg: '60vw' }}
           pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          textAlign={{ base: isArabic ? 'right' : 'left', xl: 'center' }}
         >
-          <InfoTitle title="Advanced equipment and attractive offers" />
+          <InfoTitle title={t('advancedEquipment')} />
           <Text>
-            We will authorize your customers to use a variety of financial
-            products and conduct transactions through the most internationally
-            recognized desktop and mobile platforms. We can help you formulate
-            your business development strategy， including formulating major
-            work processes and preventing foreseeable problems.
+            {t('weWill')}
+            {t('youFormulate')}
           </Text>
         </Box>
         <Flex
@@ -143,8 +121,8 @@ const whiteLabelCooperation: React.FC<{}> = () => {
                 objectFit="cover"
               />
             }
-            title="Extremely low spreads and high yields"
-            text="We exclusively provide customized margin requirements to generate a competitive low-spread price feed."
+            title={t('extremelyLow')}
+            text={t('weExclusively')}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
           />
@@ -157,8 +135,8 @@ const whiteLabelCooperation: React.FC<{}> = () => {
                 objectFit="cover"
               />
             }
-            title="Very low start-up costs"
-            text="Start your own foreign exchange white label brokerage business from anywhere in the world， with low risk and low cost."
+            title={t('veryLow')}
+            text={t('startYour')}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
           />
@@ -171,8 +149,8 @@ const whiteLabelCooperation: React.FC<{}> = () => {
                 objectFit="cover"
               />
             }
-            title="Based on the profit of each customer's transaction"
-            text="you can check in real time how much revenue the customer generates for you， as well as their commissions and customer transaction volume and other statistics."
+            title={t('basedOn')}
+            text={t('youCanCheck')}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
           />
@@ -194,8 +172,9 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           color="gray.100"
           position="relative"
         >
-          <InfoTitle title="Create your own brand" />
+          <InfoTitle title={t('createYourOwn')} />
           <Text
+            textAlign={isArabic ? 'right' : 'left'}
             _after={{
               content: "''",
               position: 'absolute',
@@ -206,11 +185,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
               bg: 'red.500'
             }}
           >
-            Our white label cooperation solution is powerful. You can rely on
-            our powerful platform to build your own trading community， provide
-            your customers with a fair and transparent trading environment， use
-            competitive spreads and take advantage of subsidy plans in order to
-            maximize benefits.
+            {t('ourWhiteLabel')}
           </Text>
         </Box>
       </Flex>
@@ -220,17 +195,10 @@ const whiteLabelCooperation: React.FC<{}> = () => {
         <Box
           w={{ base: '80vw', lg: '60vw' }}
           pb={6}
-          textAlign={{ base: 'inherit', xl: 'center' }}
+          textAlign={{ base: isArabic ? 'right' : 'left', xl: 'center' }}
         >
-          <InfoTitle title="High-quality trading platform" />
-          <Text>
-            WCG has long-term experience in foreign exchange trading， as well
-            as an in-depth understanding of the market and customer needs，
-            which will ensure that you successfully operate your own brokerage
-            company through white label services. Our advanced and mature
-            technology will help you to create your own development strategy，
-            marketing strategy and business operation process.
-          </Text>
+          <InfoTitle title={t('highQuality')} />
+          <Text>{t('wcgHasLongTerm')}</Text>
         </Box>
         <Flex
           w={{ base: '90vw', xl: '80vw' }}
@@ -239,31 +207,28 @@ const whiteLabelCooperation: React.FC<{}> = () => {
         >
           <InfoCard
             icon={<SiOpenaccess fontSize="64px" />}
-            title="Full access"
-            text="Real-time monitoring function Customized backend system"
+            title={t('fullAccess')}
+            text={`${t('realTime')}\n${t('customizedBackendSystem')}`}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<GrUserManager fontSize="64px" />}
-            title="Dedicated"
-            text="Assign a dedicated manager to assist your work at any time"
+            title={t('dedicated')}
+            text={`${t('assignADedicated')}\n${t('assistYourWork')}`}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
           />
           <InfoCard
             icon={<FcSupport fontSize="64px" />}
-            title="Customer support"
-            text="Provide development support to achieve brand integration purpose"
+            title={t('customerSupport')}
+            text={`${t('provideDevelopment')}\n${t('achieveBrandIntegration')}`}
             bigW="25vw"
             minH={isChinese ? '280px' : '306px'}
           />
         </Flex>
         <Box>
-          <InfoButtonBase
-            text="Apply for white label cooperation"
-            onClick={openChatWindow}
-          />
+          <InfoButtonBase text={t('applyforWhite')} onClick={openChatWindow} />
         </Box>
       </Flex>
     </Wrapper>
@@ -275,7 +240,8 @@ export const getStaticProps: GetStaticProps = async (props) => ({
     ...(await serverSideTranslations(props.locale!, [
       'common',
       'footer',
-      'header'
+      'header',
+      'whiteLabelCooperation'
     ]))
   }
 });
