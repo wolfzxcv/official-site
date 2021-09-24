@@ -1,38 +1,27 @@
-import axios from 'axios';
+import { Box, Flex } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
+import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import React from 'react';
+import ApiDataList from '../../components/Common/ApiDataList';
+import InfoTitle from '../../components/Common/InfoTitle';
+import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import Wrapper from '../../components/Wrapper';
-import { Locales } from '../../i18n/locales';
 
 const companyNews: React.FC<{}> = () => {
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
+  const { t } = useTranslation(['contactUs']);
+  return (
+    <Wrapper>
+      <Flex p={{ base: 10, md: 20 }} direction="column" align="center">
+        <InfoTitle title={t('companyNews')} />
+        <InfoTitleSub title={t('companyNews')} />
 
-  // const [info, setInfo] = useState([]);
-  useEffect(() => {
-    getCompanyNews(currentLang);
-  }, []);
-
-  const getCompanyNews = async (currentLang) => {
-    try {
-      const {
-        data: {
-          data: { com }
-        }
-      } = await axios.get(
-        `${process.env.NEXT_PUBLIC_API_URL}/index/company?lang=${currentLang}`
-      );
-
-      console.log(com[0]);
-      // setInfo(com);
-    } catch (e) {
-      console.log(e);
-    }
-  };
-
-  return <Wrapper>companyNews page!</Wrapper>;
+        <Box width={'80vw'} my={10}>
+          <ApiDataList api="index/company" objectKey="com" />
+        </Box>
+      </Flex>
+    </Wrapper>
+  );
 };
 
 export const getStaticProps: GetStaticProps = async (props) => ({
@@ -40,7 +29,8 @@ export const getStaticProps: GetStaticProps = async (props) => ({
     ...(await serverSideTranslations(props.locale!, [
       'common',
       'footer',
-      'header'
+      'header',
+      'contactUs'
     ]))
   }
 });
