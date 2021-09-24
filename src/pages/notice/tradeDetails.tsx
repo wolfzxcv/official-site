@@ -1,19 +1,50 @@
-import { Accordion, Box, Flex, Image } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
 import React from 'react';
+import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 
-const InfoAccordionItem = dynamic(
-  () => import('../../components/Common/InfoAccordionItem'),
+const InfoAccordion = dynamic(
+  () => import('../../components/Common/InfoAccordion'),
   { ssr: false }
 );
 
 const tradeDetails: React.FC<{}> = () => {
   const { t } = useTranslation(['notice']);
+
+  const data: InfoAccordionItemProps[] = [
+    {
+      title: t('sourceOfTradeExecution'),
+      content: [t('theQuotesOfOur')]
+    },
+    {
+      title: t('slippage'),
+      content: [t('ourCompanyWill')]
+    },
+    {
+      title: t('marketGapAndFluctuations'),
+      content: [t('whenEconomicData')]
+    },
+    {
+      title: t('leverageAndMarginPolicy'),
+      content: [t('inAnyCase')]
+    },
+    {
+      title: t('setTheValidityPeriodOfTheOrder'),
+      content: [t('allPendingOrders')]
+    },
+    {
+      title: t('forcedLiquidationPolicy'),
+      content: [
+        t('pleaseNoteThatUnlessWeHaveOtherNotice'),
+        t('theCalculationMethod')
+      ]
+    }
+  ];
 
   return (
     <Wrapper>
@@ -26,40 +57,7 @@ const tradeDetails: React.FC<{}> = () => {
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
         <Box width={'80vw'} my={10}>
-          <Accordion width={'80vw'} allowToggle>
-            <InfoAccordionItem
-              title={t('sourceOfTradeExecution')}
-              content={[t('theQuotesOfOur')]}
-            />
-
-            <InfoAccordionItem
-              title={t('slippage')}
-              content={[t('ourCompanyWill')]}
-            />
-
-            <InfoAccordionItem
-              title={t('marketGapAndFluctuations')}
-              content={[t('whenEconomicData')]}
-            />
-
-            <InfoAccordionItem
-              title={t('leverageAndMarginPolicy')}
-              content={[t('inAnyCase')]}
-            />
-
-            <InfoAccordionItem
-              title={t('setTheValidityPeriodOfTheOrder')}
-              content={[t('allPendingOrders')]}
-            />
-
-            <InfoAccordionItem
-              title={t('forcedLiquidationPolicy')}
-              content={[
-                t('pleaseNoteThatUnlessWeHaveOtherNotice'),
-                t('theCalculationMethod')
-              ]}
-            />
-          </Accordion>
+          <InfoAccordion data={data} />
         </Box>
       </Flex>
     </Wrapper>
