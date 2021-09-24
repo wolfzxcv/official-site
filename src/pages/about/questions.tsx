@@ -68,12 +68,7 @@ const questions: React.FC<{}> = () => {
 
   return (
     <Wrapper>
-      <Flex
-        pt={{ base: 10, md: 20 }}
-        px={{ base: 10, md: 20 }}
-        direction="column"
-        align="center"
-      >
+      <Flex p={{ base: 10, md: 20 }} direction="column" align="center">
         <InfoTitle title={t('questions')} />
         <InfoTitleSub title={t('thisArticleCollects')} />
 

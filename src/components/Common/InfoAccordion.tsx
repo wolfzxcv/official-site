@@ -54,7 +54,13 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
       <h2>
         <AccordionButton>
           {date && (
-            <Box bg="red" mr={5}>
+            <Box
+              bg="gray.500"
+              color="white"
+              px={2}
+              py={1}
+              mr={{ base: 10, md: 20 }}
+            >
               {date}
             </Box>
           )}
