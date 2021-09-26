@@ -9,6 +9,10 @@ export type IntermediateTrading={
   makeYourTradingMore:string;
    /** Intermediate Trading Course */
   intermediateTradingCourse: string;
+  /** Basic Trading Course */
+  basicTradingCourse:string,
+  /** Advanced Trading Course */
+  advancedTradingCourse:string,
    /** MT4 tips */
   mT4Tips: string;
   /** Risk management */

@@ -65,10 +65,16 @@ export type FundManager = {
   togetherWithWCG: string;
   /** Excellent trading environment */
   excellentTradingEnvironment: string;
+  /** to increase your */
+  toIncreaseYour:string,
   /** A multi-account trading platform */
   aMultiAccountTradingPlatform: string;
+  /** that can satisfy */
+  thatCanSatisfy:string,
   /** The broker you need  */
   theBrokerYouNeed: string;
+  /** background for cooperation */
+  backgroundForCooperation:string,
   /** I want to be a manager */
   iWantToBeAManager: string;
 };

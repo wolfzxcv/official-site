@@ -40,8 +40,11 @@ export const fundManager: FundManager = {
   haveEverythingYouNeed: '拥有您一切所需',
   togetherWithWCG:
     '与WCG一起建立一个广泛的客户群体，无论您的业务规模大小，都可以利用我们具有充裕功能性的出色交易环境，来处理您所有的需求。',
-  excellentTradingEnvironment: '优秀的交易环境为您增加多收入',
-  aMultiAccountTradingPlatform: '一个可以满足您多账户交易平台',
-  theBrokerYouNeed: '您需要的交易商大力合作与支持',
+  excellentTradingEnvironment: '优秀的交易环境',
+  toIncreaseYour:'为您增加多收入',
+  aMultiAccountTradingPlatform: '一个可以满足您',
+  thatCanSatisfy:'多账户交易平台',
+  theBrokerYouNeed: '您需要的交易商',
+  backgroundForCooperation:'大力合作与支持',
   iWantToBeAManager: '我想成为经理人'
 };

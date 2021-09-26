@@ -74,7 +74,7 @@
   "lotsEnterTheLotSize": "اللوتات (النقاط): أدخل حجم اللوت، الحد الأدنى هو 0.01 لوت (فوركس، ذهب وفضة). سعر إيق",
   "stopLossPrice": "اف الخسارة: عندما يصل السعر إلى السعر المحدد، يتم إغلاق المركز تلقائياً؛ الافتراضي هو صفر، مما يعني أنه لم يتم تعيين وقف الخسارة. ",
   "takeProfitprice": "سعر جني الأرباح: سوف يتم إغلاق المركز تلقائيًا للحفاظ على الربح عندما يصل السعر إلى السعر المحدد؛ الافتراضي هو صفر، مما يعني أنه لم يتم تعيين جني الأرباح. ",
-  "sellAtMarketPriceOrBuy": "Sell ​​at market price or buy at market price: click the red button to sell， and click the blue button to buy.",
+  "sellAtMarketPriceOrBuy": "Sell ​​at market price or buy at market price: click the red button to sell, and click the blue button to buy.",
   "theOrderTypeColumn": "في عمود \"نوع الأمر\" داخل نافذة الأمر، يكون التحديد الافتراضي هو \"سعر السوق\" ، مما يعني إنشاء صفقة بسعر السوق الحالي. ",
   "pendingOrder": "8. أمر معلق",
   "changeTheOrderType": "قم بتغيير نوع الأمر إلى \"أمر معلق\" في نافذة الأمر لتنفيذ تعليمات الأمر المعلق.",
