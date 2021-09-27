@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -16,9 +16,7 @@ const companyNews: React.FC<{}> = () => {
         <InfoTitle title={t('companyNews')} />
         <InfoTitleSub title={t('companyNews')} />
 
-        <Box width={'80vw'} my={10}>
-          <ApiDataList api="index/company" objectKey="com" />
-        </Box>
+        <ApiDataList api="index/company" objectKey="com" />
       </Flex>
     </Wrapper>
   );

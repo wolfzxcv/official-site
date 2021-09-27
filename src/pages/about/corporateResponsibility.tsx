@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -16,9 +16,7 @@ const corporateResponsibility: React.FC<{}> = () => {
         <InfoTitle title={t('corporateResponsibility')} />
         <InfoTitleSub title={t('corporateResponsibility')} />
 
-        <Box width={'80vw'} my={10}>
-          <ApiDataList api="index/responsibility" objectKey="reponce" />
-        </Box>
+        <ApiDataList api="index/responsibility" objectKey="reponce" />
       </Flex>
     </Wrapper>
   );
