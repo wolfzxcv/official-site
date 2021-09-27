@@ -1,4 +1,4 @@
-import { Accordion, Box, Flex, Image, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -8,14 +8,15 @@ import React from 'react';
 import { AiOutlineFieldTime } from 'react-icons/ai';
 import { HiServer, HiTrendingDown, HiTrendingUp } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
+import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-const InfoAccordionItem = dynamic(
-  () => import('../../components/Common/InfoAccordionItem'),
+const InfoAccordion = dynamic(
+  () => import('../../components/Common/InfoAccordion'),
   { ssr: false }
 );
 
@@ -25,6 +26,36 @@ const forex: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
+
+  const data: InfoAccordionItemProps[] = [
+    {
+      title: `${!isArabic ? '1. ' : ''}${t('chooseAForeign')}`,
+      content: [t('theFirstDecision'), t('inWCG')]
+    },
+    {
+      title: `${!isArabic ? '2. ' : ''}${t('determineTheDirection')}`,
+      content: [
+        t('afterChoosing'),
+        `${!isArabic ? '--' : ''}${t(
+          'ifYouThinkThatTheBaseCurrencyIsStronger'
+        )}`,
+        `${!isArabic ? '--' : ''}${t('ifYouThinkThatTheBaseCurrencyIsWeaker')}`,
+        t('atTheSameTime')
+      ]
+    },
+    {
+      title: `${!isArabic ? '3. ' : ''}${t('setStop')}`,
+      content: [t('stopLossTakeProfit'), t('thePurposeOf')]
+    },
+    {
+      title: `${!isArabic ? '4. ' : ''}${t('monitorYourTrading')}`,
+      content: [t('beforeThePositionIsClosed'), t('soRealTimeMonitoring')]
+    },
+    {
+      title: `${!isArabic ? '5. ' : ''}${t('closeYourPosition')}`,
+      content: [t('itIsExtremelyImportant'), t('FailingToDoSo')]
+    }
+  ];
 
   return (
     <Wrapper>
@@ -104,40 +135,7 @@ const forex: React.FC<{}> = () => {
           {t('joinA24Hour')}
         </Text>
 
-        <Accordion width={'80vw'} allowToggle>
-          <InfoAccordionItem
-            title={`1. ${t('chooseAForeign')}`}
-            content={[t('theFirstDecision'), t('inWCG')]}
-          />
-
-          <InfoAccordionItem
-            title={`2. ${t('determineTheDirection')}`}
-            content={[
-              t('afterChoosing'),
-              `--${t('ifYouThinkThatTheBaseCurrencyIsStronger')}`,
-              `--${t('ifYouThinkThatTheBaseCurrencyIsWeaker')}`,
-              t('atTheSameTime')
-            ]}
-          />
-
-          <InfoAccordionItem
-            title={`3. ${t('setStop')}`}
-            content={[t('stopLossTakeProfit'), t('thePurposeOf')]}
-          />
-
-          <InfoAccordionItem
-            title={`4. ${t('monitorYourTrading')}`}
-            content={[
-              t('beforeThePositionIsClosed'),
-              t('soRealTimeMonitoring')
-            ]}
-          />
-
-          <InfoAccordionItem
-            title={`5. ${t('closeYourPosition')}`}
-            content={[t('itIsExtremelyImportant'), t('FailingToDoSo')]}
-          />
-        </Accordion>
+        <InfoAccordion data={data} />
       </Flex>
 
       {/* Foreign exchange quotes */}

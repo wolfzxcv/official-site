@@ -1,51 +1,41 @@
 import { FundManager } from '../@types/fundManager';
 
 export const fundManager: FundManager = {
-  fundManager: 'Fund*manager',
-  WCGProvidesAssetManagement:
-    'WCG*provides*asset*management*solutions*for*fund*managers,*including*the*award-winning*MT4*MAM*(multi-account*management)*fund*management*tool*to*help*our*partners*effectively*manage*client*funds*in*a*safe*environment*and*grow*side*by*side*with*us.',
-  applyForManager: 'Apply*for*manager',
-  youCanTrade:
-    'You*can*trade*in*the*market*through*different*position*account*systems.*WCG*provides*the*best*analysis*and*trading*tools*(manual*and*algorithm).*In*addition,*we*will*continue*to*provide*automatic*software*updates*to*achieve*fast*and*safe*operation*on*any*device.',
-  makeFullUseOfAlgorithms:
-    'Make*full*use*of*algorithms*and*trading*opportunities*to*create,*test*and*improve*your*strategies.*Specify*how*to*calculate*parameters,*set*deadlines,*maximize*capital,*value,*and*other*investor*requirements.*Manage*accounts*and*generate*detailed*reports*to*monitor*customer*transaction*results*in*a*unified*way.*Display*any*data*on*the*graph,*automatically*calculate,*manage*operating*balances,*expenditures*and*handling*fees.',
-  WCGCanHelpYourFund:
-    'WCG*can*help*your*fund*to*increase*its*income:*your*traders*will*be*able*to*fully*realize*their*potential*and*bring*maximum*profits*to*the*fund,*and*its*positive*results*will*attract*new*investors*to*join.',
-  scientificAndFlexibleManagement: 'Scientific*and*flexible*management',
-  overTheYears:
-    'Over*the*years,*we*have*established*a*successful*relationship*with*fund*managers*because*we*understand*your*needs',
-  multiPersonAccountManagement: 'Multi-person*account*management',
-  usingTheWCGMAMManagementSystem:
-    'Using*the*WCG*MAM*management*system,*money*managers*can*quickly*manage*multiple*accounts',
-  efficientAccountControl: 'Efficient*account*control',
-  allowTradersToAdd:
-    'Allow*traders*to*add,*delete*or*suspend*the*client*at*any*time',
-  optionalAllocationTypes: 'Optional*allocation*types',
-  multipleTransactionAllocationTypes:
-    'Multiple*transaction*allocation*types,*depending*on*your*trading*style*and*size*and*types*of*client*funds',
-  multipleProductCategories: 'Multiple*product*categories',
-  multipleCurrencyProducts:
-    'Multiple*currency*products,*arbitrage*exchange*rates,*precious*metals,*commodities*and*index*CFDs,*etc',
-  fundManagersCan: 'Fund*managers*can',
-  openMainAccount: 'Open*main*account',
-  collectTheTradingHistory: 'Collect*the*trading*history*of*their*accounts',
-  manageInvestorAccounts: 'Manage*investor*accounts',
-  setANickname: 'Set*a*nickname,*set*risk*limits',
-  setFees: 'Set*fees',
-  investorsCan: 'Investors*can',
-  lookForAFund: 'Look*for*a*fund*investment*manager',
-  toOpenAn: 'To*open*an*investment*account',
-  toMakeDeposits: 'To*make*deposits',
-  subscribeToThe: 'Subscribe*to*the*main*account',
-  toViewTheir: 'To*view*their*account*statistics',
-  haveEverythingYouNeed: 'Have*everything*you*need',
-  togetherWithWCG:
-    'Together*with*WCG*to*establish*a*broad*customer*group,*no*matter*the*size*of*your*business,*you*can*use*our*excellent*trading*environment*with*abundant*functionality*to*handle*all*your*needs.',
-  excellentTradingEnvironment:
-    'Excellent*trading*environment*to*increase*your*income',
-  aMultiAccountTradingPlatform:
-    'A*multi-account*trading*platform*that*can*satisfy*your*needs',
-  theBrokerYouNeed:
-    'The*broker*you*need*with*strong*background*for*cooperation*and*support',
-  iWantToBeAManager: 'I*want*to*be*a*manager'
+  fundManager: 'مدير*صندوق*استثماري',
+  WCGProvidesAssetManagement: 'تقوم*WCG*بتوفير*حلول*إدارة*الأصول*لمديري*الصناديق*الاستثمارية*،*بما*في*ذلك*أداة*إدارة*الأموال*MT4*MAM*(إدارة*الحسابات*المتعددة)*الحائزة*على*جوائز*لمساعدة*شركائنا*على*إدارة*أموال*العملاء*بفعالية*في*بيئة*آمنة*والنمو*جنبًا*إلى*جنب*معنا..',
+  applyForManager: 'قدم*لتصبح*مدير*صندوق*استثماري****>',
+  youCanTrade: 'يمكنك*التداول*في*السوق*من*خلال*أنظمة*حساب*مراكز*مختلفة.*توفر*WCG*أفضل*أدوات*التحليل*والتداول*(يدوية*وخوارزمية).*بالإضافة*إلى*ذلك،*سنواصل*تقديم*التحديثات*التلقائية*للبرامج*لتحقيق*التشغيل*السريع*والآمن*على*أي*جهاز..',
+  makeFullUseOfAlgorithms: 'قم*بالاستفادة*الكاملة*من*الخوارزميات*وفرص*التداول*لإنشاء*استراتيجياتك*واختبارها*وتحسينها.*حدد*كيفية*حساب*الوسائط*وتحديد*المواعيد*النهائية*وزيادة*رأس*المال*والقيمة*ومتطلبات*المستثمر*الأخرى.*إدارة*الحسابات*وإنشاء*تقارير*مفصلة*لمراقبة*نتائج*معاملات*العملاء*بطريقة*موحدة.*عرض*أي*بيانات*على*الرسم*البياني،*وحساب*وإدارة*أرصدة*التشغيل*والنفقات*ورسوم*المناولة*تلقائياً..',
+  WCGCanHelpYourFund: 'يمكن*لـ*WCG*مساعدة*صندوقك*على*زيادة*دخله:*سيتمكن*المتداولون*لديك*من*إدراك*إمكاناتهم*بالكامل*وتحقيق*أقصى*قدر*من*الأرباح*للصندوق،*وستجذب*نتائجها*الإيجابية*مستثمرين*جدد*للانضمام..',
+  scientificAndFlexibleManagement: 'إدارة*علمية*ومرنة',
+  overTheYears: 'لقد*أقمنا*علاقة*ناجحة*مع*مديري*الصناديق*على*مر*السنين*لأننا*نتفهم*احتياجاتك',
+  multiPersonAccountManagement: 'إدارة*حساب*متعدد*الأشخاص',
+  usingTheWCGMAMManagementSystem: 'يمكن*لمديري*الأموال*إدارة*حسابات*متعددة*بسرعة*عن*طريق*استخدام*نظام*إدارة*WCG*MAM',
+  efficientAccountControl: 'تحكم*فعال*في*الحساب',
+  allowTradersToAdd: 'السماح*للمدير*بإضافة*أو*حذف*أو*إيقاف*العميل*في*أي*وقت.',
+  optionalAllocationTypes: 'أنواع*التخصيص*الاختيارية',
+  multipleTransactionAllocationTypes: 'أنواع*متعددة*لتخصيص*المعاملات،*اعتمادًا*على*أسلوب*التداول*الخاص*بك*وحجم*وأنواع*أموال*العملاء.',
+  multipleProductCategories: '*منتجات*متعددة*ذات*فئات*مختلفة*',
+  multipleCurrencyProducts: 'منتجات*العملات*المتعددة،*وأسعار*صرف*المراجحة،*والمعادن*الثمينة،*والسلع،*وعقود*فروقات*المؤشرات،*وغيرها',
+  fundManagersCan: 'يستطيع*مديري*الأموال',
+  openMainAccount: 'فتح*حساب*رئيسي',
+  collectTheTradingHistory: 'جمع*تاريخ*تداول*حساباتهم',
+  manageInvestorAccounts: 'إدارة*حسابات*المستثمرين',
+  setANickname: 'تحدد*اسماً*مستعاراً،*ووضع*حدوداً*للمخاطر',
+  setFees: 'تحديد*الرسوم',
+  investorsCan: 'يستطيع*المستثمرين',
+  lookForAFund: 'البحث*عن*مدير*صندوق*استثماري*',
+  toOpenAn: 'فتح*حساب*استثماري',
+  toMakeDeposits: 'القيام*بعمل*إيداعات',
+  subscribeToThe: 'الاشتراك*في*الحساب*الرئيسي',
+  toViewTheir: 'عرض*إحصائيات*حساباتهم',
+  haveEverythingYouNeed: 'احصل*على*كل*ما*تحتاجه',
+  togetherWithWCG: 'يمكنك*جنبًا*إلى*جنب*مع*WCG*استخدام*بيئة*التداول*الممتازة*لدينا*مع*مميزاتها*الكثيرة*للتعامل*مع*جميع*احتياجاتك*لإنشاء*مجموعة*واسعة*من*العملاء،*بغض*النظر*عن*حجم*عملك..',
+  excellentTradingEnvironment: 'ممتازة*لزيادة*دخلك',
+  toIncreaseYour: 'بيئة*تداول',
+  aMultiAccountTradingPlatform: 'الحسابات*يمكنها*تلبية*احتياجاتك',
+  thatCanSatisfy: '*منصة*تداول*متعددة',
+  theBrokerYouNeed: 'خلفية*قوية*للتعاون*والدعم',
+  backgroundForCooperation: 'الوسيط*الذي*تحتاجه*مع',
+  iWantToBeAManager: 'اريد*ان*اكون*مدير***>'
 };
