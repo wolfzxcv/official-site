@@ -1,7 +1,7 @@
 // 成为伙伴 -IB代理商
 import { IBBroker } from "../@types/iBBroker";
 export const iBBroker:IBBroker={
-    introducingBroker: 'Introducing*Broker*(IB)',
+  introducingBroker: 'Introducing*Broker*(IB)',
   wCGsIBPlanIsPeopleOriented: "WCG's*IB*plan*is*people-oriented.*Whether*you*are*an*individual*or*a*company*with*dozens*or*even*hundreds*of*employees，*we*understand*what*your*business*needs*for*growth.*Our*IB*plan*offers*a*variety*of*rebate*options，*a*flexible*agent*back*office，*and*a*professional*management*team，*ready*to*provide*you*and*your*customers*with*considerate*and*meticulous*services*at*any*time..",
   iBApplication: 'IB*Application',
   exclusiveIBPlan: 'Exclusive*IB*plan',
@@ -33,5 +33,6 @@ export const iBBroker:IBBroker={
   yourTotalCommission: 'Your*total*commission',
   earnCommissionsInstantly: 'Earn*commissions*instantly',
   becomingAnAgentBroker: 'Becoming*an*agent*/*broker*will*be*the*easiest*way*to*increase*your*income*because*there*is*no*registration*cost.*You*can*work*anywhere*and*even*promote*your*services*through*the*website.*At*the*same*time，*you*can*directly*refer*clients*to*WCG，*guide*them*through*the*real*account*opening*process，*and*explain*all*the*benefits*of*becoming*a*WCG*client.',
-  iWantToBeAnAgent: 'I*Want*to*be*an*agent'
+  iWantToBeAnAgent: 'I*Want*to*be*an*agent',
+  standard: 'standard'
 }

@@ -41,5 +41,6 @@ export const iBBroker: IBBroker = {
   earnCommissionsInstantly: '立即輕鬆賺取傭金',
   becomingAnAgentBroker:
     '成為代理經紀人將是增加收入的最簡單方法，因為無需註冊成本。您可以在任何地方工作，甚至通過網站推廣您的服務。同時可以直接將交易者',
-  iWantToBeAnAgent: '我想成為代理人'
+  iWantToBeAnAgent: '我想成為代理人',
+  standard:'標準'
 };

@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://103.68.61.92:8443///compare/v1.5.0...v1.5.1) (2021-09-27)
+
 ## [1.5.0](https://103.68.61.92:8443///compare/v1.4.3...v1.5.0) (2021-09-27)
 
 
