@@ -20,7 +20,7 @@ const InfoAccordion: React.FC<InfoAccordionProps> = ({
   data
 }: InfoAccordionProps) => {
   return (
-    <Accordion width={'80vw'} allowToggle>
+    <Accordion width={{ base: '90vw', md: '80vw' }} my={10} allowToggle>
       {data.map((x) => (
         <InfoAccordionItem key={x.title} {...x} />
       ))}
@@ -52,14 +52,14 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
   return (
     <AccordionItem>
       <h2>
-        <AccordionButton>
+        <AccordionButton fontSize={{ base: '12px', md: 'inherit' }}>
           {date && (
             <Box
               bg="gray.500"
               color="white"
-              px={2}
+              px={{ base: 1, md: 2 }}
               py={1}
-              mr={{ base: 10, md: 20 }}
+              mr={{ base: 3, md: 20 }}
             >
               {date}
             </Box>
@@ -70,42 +70,41 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
           <AccordionIcon />
         </AccordionButton>
       </h2>
-      <AccordionPanel pb={4}>
-        {content &&
-          content.length &&
-          content.map((each) =>
-            internalHref ? (
-              <NextLink key={each} href={internalHref} locale={currentLang}>
-                <Box
-                  py={3}
-                  textAlign={isArabic ? 'right' : 'left'}
-                  _hover={{ cursor: 'pointer' }}
+      <AccordionPanel pb={4} fontSize={{ base: '12px', md: 'inherit' }}>
+        {content && content.length
+          ? content.map((each) =>
+              internalHref ? (
+                <NextLink key={each} href={internalHref} locale={currentLang}>
+                  <Box
+                    py={3}
+                    textAlign={isArabic ? 'right' : 'left'}
+                    _hover={{ cursor: 'pointer' }}
+                  >
+                    {each}
+                  </Box>
+                </NextLink>
+              ) : externalHref ? (
+                <Link
+                  key={each}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                  href={externalHref}
+                  isExternal
                 >
+                  <Box py={3} textAlign={isArabic ? 'right' : 'left'}>
+                    {each}
+                  </Box>
+                </Link>
+              ) : (
+                <Box py={3} key={each} textAlign={isArabic ? 'right' : 'left'}>
                   {each}
                 </Box>
-              </NextLink>
-            ) : externalHref ? (
-              <Link
-                key={each}
-                _hover={{
-                  textDecoration: 'none'
-                }}
-                href={externalHref}
-                isExternal
-              >
-                <Box py={3} textAlign={isArabic ? 'right' : 'left'}>
-                  {each}
-                </Box>
-              </Link>
-            ) : (
-              <Box py={3} key={each} textAlign={isArabic ? 'right' : 'left'}>
-                {each}
-              </Box>
+              )
             )
-          )}
-
+          : null}
         {htmlContent && (
-          <Box dangerouslySetInnerHTML={{ __html: htmlContent }} />
+          <Box my={2} dangerouslySetInnerHTML={{ __html: htmlContent }} />
         )}
       </AccordionPanel>
     </AccordionItem>

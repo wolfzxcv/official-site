@@ -12,7 +12,7 @@ export type MarketNews = {
   financialNews: string;
   /** Market analysis */
   marketAnalysis: string;
-  /**Today's economic */
+  /** Today's economic */
   todaysEconomic: string;
   /** The most important */
   theMostImportant: string;

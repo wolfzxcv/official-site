@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -72,9 +72,7 @@ const questions: React.FC<{}> = () => {
         <InfoTitle title={t('questions')} />
         <InfoTitleSub title={t('thisArticleCollects')} />
 
-        <Box width={'80vw'} my={10}>
-          <InfoAccordion data={data} />
-        </Box>
+        <InfoAccordion data={data} />
       </Flex>
     </Wrapper>
   );

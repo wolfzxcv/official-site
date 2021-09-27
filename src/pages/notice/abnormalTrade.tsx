@@ -58,9 +58,7 @@ const abnormalTrade: React.FC<{}> = () => {
 
         <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
 
-        <Box width={'80vw'} my={10}>
-          <InfoAccordion data={data} />
-        </Box>
+        <InfoAccordion data={data} />
       </Flex>
     </Wrapper>
   );
