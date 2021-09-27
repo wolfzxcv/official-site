@@ -1,22 +1,9 @@
-import {
-  Box,
-  Flex,
-  FormControl,
-  FormLabel,
-  Image,
-  Select,
-  Slider,
-  SliderThumb,
-  SliderTrack,
-  Stack,
-  Text,
-  useBreakpointValue
-} from '@chakra-ui/react';
+import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineProfile } from 'react-icons/ai';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { ImProfile, ImTree } from 'react-icons/im';
@@ -34,8 +21,6 @@ const introducingBroker: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
-  const [volOption, setVolOption] = useState(1);
-  const showSlider = useBreakpointValue({ base: false, md: true });
 
   return (
     <Wrapper>
@@ -243,195 +228,9 @@ const introducingBroker: React.FC<{}> = () => {
         </Flex>
       </Flex>
 
-      {/* How much can I profit */}
-      <Flex direction="column" align="center" py={20} bg="gray.100">
-        <InfoTitle title={t('howMuchCanIProfit')} />
-        <Box
-          w="80vw"
-          pt={16}
-          pb={20}
-          px={16}
-          borderWidth="1px"
-          borderColor="gray.400"
-          borderRadius="xl"
-        >
-          <Stack
-            spacing={8}
-            direction={['column', 'column', 'column', 'row']}
-            align="flex-end"
-          >
-            <FormControl id="account-type">
-              <FormLabel htmlFor="account-type">
-                {t('accountTypeOfYourClient')}
-              </FormLabel>
-              <Select borderColor="gray.300">
-                <option>標準</option>
-              </Select>
-            </FormControl>
-            <FormControl id="volume">
-              <FormLabel htmlFor="volume">
-                {t('yourVlientSTransactionVolume')}
-              </FormLabel>
-              <Select
-                borderColor="gray.300"
-                value={volOption}
-                onChange={(e) => setVolOption(parseInt(e.target.value))}
-              >
-                {[
-                  '0',
-                  '50手',
-                  '100手',
-                  '500手',
-                  '1千手',
-                  '5千手',
-                  '1萬手',
-                  '5萬手',
-                  '10萬手'
-                ].map((ele, index) => (
-                  <option key={ele} value={index}>
-                    {ele}
-                  </option>
-                ))}
-              </Select>
-            </FormControl>
-            <FormControl>
-              <FormLabel>{t('commissionPerLot')}</FormLabel>
-              <Flex h="10" alignItems="center">
-                <Text fontSize="24px" sx={{ fontWeight: 'bold' }}>
-                  $10
-                </Text>
-              </Flex>
-            </FormControl>
-            <FormControl>
-              <FormLabel>{t('yourTotalCommission')}</FormLabel>
-              <Flex h="10" alignItems="center">
-                <Text
-                  fontSize="24px"
-                  color="red.600"
-                  sx={{ fontWeight: 'bold' }}
-                >
-                  $500
-                </Text>
-              </Flex>
-            </FormControl>
-          </Stack>
-          {showSlider && (
-            <>
-              <Slider
-                value={volOption}
-                onChange={(value) => setVolOption(value)}
-                min={0}
-                max={8}
-                step={1}
-                mt={12}
-              >
-                <SliderTrack display="flex" h={6}>
-                  <Box bg="red.600" flex={1} />
-                  <Box bg="gray.300" flex={1} />
-                  <Box bg="gray.400" flex={1} />
-                  <Box bg="gray.500" flex={1} />
-                  <Box bg="blue.500" flex={1} />
-                  <Box bg="blue.600" flex={1} />
-                  <Box bg="blue.700" flex={1} />
-                  <Box bg="blue.900" flex={1} />
-                </SliderTrack>
-                <SliderThumb
-                  w={12}
-                  h={9}
-                  borderColor="blackAlpha.700"
-                  borderRadius={5}
-                />
-              </Slider>
-              <Flex h={6} mt={2}>
-                {[
-                  '0',
-                  '50手',
-                  '100手',
-                  '500手',
-                  '1千手',
-                  '5千手',
-                  '1萬手',
-                  '5萬手'
-                ].map((ele) => (
-                  <Box
-                    key={ele}
-                    position="relative"
-                    display="flex"
-                    flex={1}
-                    sx={{
-                      borderLeft: '2px solid',
-                      borderRight: ele === '5萬手' ? '2px solid' : null,
-                      borderColor: 'gray.400'
-                    }}
-                  >
-                    <Text h={2} sx={{ flex: 1, borderColor: 'gray.300' }} />
-                    <Text
-                      h={2}
-                      sx={{
-                        flex: 1,
-                        borderLeft: '2px solid',
-                        borderColor: 'gray.300'
-                      }}
-                    />
-                    <Text
-                      h={2}
-                      sx={{
-                        flex: 1,
-                        borderLeft: '2px solid',
-                        borderColor: 'gray.300'
-                      }}
-                    />
-                    <Text
-                      h={2}
-                      sx={{
-                        flex: 1,
-                        borderLeft: '2px solid',
-                        borderColor: 'gray.300'
-                      }}
-                    />
-                    <Text
-                      h={2}
-                      sx={{
-                        flex: 1,
-                        borderLeft: '2px solid',
-                        borderColor: 'gray.300'
-                      }}
-                    />
-                    <Text
-                      position="absolute"
-                      color="gray.400"
-                      w="100%"
-                      textAlign="center"
-                      sx={{ left: 'calc(-50% - 1px)', bottom: -6 }}
-                    >
-                      {ele}
-                    </Text>
-                    {ele === '5萬手' && (
-                      <Text
-                        position="absolute"
-                        color="gray.400"
-                        w="100%"
-                        textAlign="center"
-                        sx={{ left: 'calc(50% - 1px)', bottom: -7 }}
-                      >
-                        10萬手
-                      </Text>
-                    )}
-                  </Box>
-                ))}
-              </Flex>
-            </>
-          )}
-        </Box>
-      </Flex>
-
       {/* Earn commissions instantly */}
       <Flex direction="column" align="center" py={20}>
-        <Box
-          w={{ base: '80vw', lg: '45vw' }}
-          pb={10}
-          textAlign='center'
-        >
+        <Box w={{ base: '80vw', lg: '45vw' }} pb={10} textAlign="center">
           <InfoTitle title={t('earnCommissionsInstantly')} />
           <Text>{t('becomingAnAgentBroker')}</Text>
         </Box>
