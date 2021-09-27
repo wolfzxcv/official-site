@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://103.68.61.92:8443///compare/v1.4.3...v1.5.0) (2021-09-27)
+
+
+### Features
+
+* **add learn trade pages:** add basic trading, intermediate trading, advanced trading page layout ([9f5ad30](https://103.68.61.92:8443///commit/9f5ad30ecfab04b47dd39e46a9a0c5b5545c22c3))
+* **apidatalist:** add companyNews, corporateResponsibility, announcements ([e68909d](https://103.68.61.92:8443///commit/e68909d8f99160908fa3d070fd83888ede3ea9e3))
+* **financialnews,marketanalysis:** financialNews, marketAnalysis pages finished ([3b33159](https://103.68.61.92:8443///commit/3b3315902b7325c69a61324d284fdd7201c1e130))
+* fundmanager page layout ([a0c1890](https://103.68.61.92:8443///commit/a0c1890df72a953c36f840edf5ce4bcd7c0cb14a))
+* integrate i18n for partner section ([38b39f0](https://103.68.61.92:8443///commit/38b39f04f63ab1773f044894d46d6bda6ad9023e))
+* **introducingbroker.tsx:** complete introducing broker layout ([b694848](https://103.68.61.92:8443///commit/b694848388f508c27ddadc075f937763c977fc8c))
+* **introducingbroker:** introducing broker page layout except 'How much can I profit' ([eda4626](https://103.68.61.92:8443///commit/eda4626da54ce9c74923e297808ad51c4e8cfabe))
+* **learntrade:** add a component for learn trade pages ([440e5c5](https://103.68.61.92:8443///commit/440e5c594d5d9928865c0bfb767fe7fee3e3e9e0))
+* **regionalrepresentative.tsx:** complete regionalRepresentative layout ([862dbee](https://103.68.61.92:8443///commit/862dbeeca78fd4aa5d6d9419e059b6071f743ace))
+* **whitelabelcooperation.tsx:** complete whiteLabelCooperation layout ([a8f670a](https://103.68.61.92:8443///commit/a8f670a02cb460ce84a60262dd5f89856ee47321))
+
+
+### Bug Fixes
+
+* **infoaccordionmultiitem:** rewrite type, and use dynamic import on learn trage pages ([867fb76](https://103.68.61.92:8443///commit/867fb7646eb3f3092d7173fc5927a105a31a0410))
+
 ### [1.4.3](https://github.com/alice1qaz/WCG/compare/v1.4.1...v1.4.3) (2021-09-16)
 
 ### [1.4.2](https://github.com/alice1qaz/WCG/compare/v1.4.1...v1.4.2) (2021-09-16)
