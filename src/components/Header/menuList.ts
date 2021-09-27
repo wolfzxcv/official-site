@@ -17,13 +17,13 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'about',
     children: [
-      // { i18n: 'companyNews', href: '/about/companyNews' },
-      // {
-      //   i18n: 'corporateResponsibility',
-      //   href: '/about/corporateResponsibility'
-      // },
+      { i18n: 'companyNews', href: '/about/companyNews' },
+      {
+        i18n: 'corporateResponsibility',
+        href: '/about/corporateResponsibility'
+      },
       { i18n: 'questions', href: '/about/questions' },
-      // { i18n: 'announcements', href: '/about/announcements' },
+      { i18n: 'announcements', href: '/about/announcements' },
       { i18n: 'aboutUs', href: '/about' }
       // { i18n: 'contactUs', href: '/about/contactUs' }
     ]
@@ -67,21 +67,21 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'marketNews',
     children: [
-      { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' }
-      // { i18n: 'financialNews', href: '/marketNews/financialNews' },
-      // { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
+      { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' },
+      { i18n: 'financialNews', href: '/marketNews/financialNews' },
+      { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
+    ]
+  },
+  {
+    i18n: 'partner',
+    children: [
+      { i18n: 'fundManager', href: '/partner/fundManager' },
+      { i18n: 'introducingBroker', href: '/partner/introducingBroker' },
+      {
+        i18n: 'regionalRepresentative',
+        href: '/partner/regionalRepresentative'
+      },
+      { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
     ]
   }
-  // {
-  //   i18n: 'partner',
-  //   children: [
-  //     { i18n: 'fundManager', href: '/partner/fundManager' },
-  //     { i18n: 'introducingBroker', href: '/partner/introducingBroker' },
-  //     {
-  //       i18n: 'regionalRepresentative',
-  //       href: '/partner/regionalRepresentative'
-  //     },
-  //     { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
-  //   ]
-  // }
 ];
