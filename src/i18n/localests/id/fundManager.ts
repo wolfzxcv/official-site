@@ -3,7 +3,7 @@ import { FundManager } from '../@types/fundManager';
 export const fundManager: FundManager ={
   fundManager: 'Manajer*dana',
   WCGProvidesAssetManagement: 'WCG*menyediakan*solusi*manajemen*aset*untuk*manajer*dana,*termasuk*alat*manajemen*dana*MT4*MAM*(manajemen*multi-akun)*yang*memenangkan*penghargaan*untuk*membantu*mitra*kami*secara*efektif*mengelola*dana*klien*dalam*lingkungan*yang*aman*dan*tumbuh*berdampingan*dengan*kami.',
-  applyForManager: 'Ajukan*lamaran*untuk*menjadi*manajer***>',
+  applyForManager: 'Ajukan*lamaran*untuk*menjadi*manajer***',
   youCanTrade: 'Anda*dapat*berdagang*di*pasar*melalui*sistem*akun*posisi*yang*berbeda.*WCG*menyediakan*alat*analisis*dan*perdagangan*terbaik*(manual*dan*algoritma).*Selain*itu,*kami*akan*terus*menyediakan*pembaruan*perangkat*lunak*otomatis*untuk*mencapai*pengoperasian*yang*cepat*dan*aman*di*perangkat*apa*pun.',
   makeFullUseOfAlgorithms: 'Manfaatkan*sepenuhnya*algoritme*dan*peluang*perdagangan*untuk*membuat,*menguji,*dan*meningkatkan*strategi*Anda.*Tentukan*cara*menghitung*parameter,*menetapkan*tenggat*waktu,*memaksimalkan*modal,*nilai,*dan*persyaratan*investor*lainnya.*Kelola*akun*dan*buat*laporan*terperinci*untuk*memantau*hasil*transaksi*pelanggan*secara*terpadu.*Tampilkan*data*apa*pun*pada*grafik,*secara*otomatis*menghitung,*mengelola*saldo*operasi,*pengeluaran,*dan*biaya*penanganan.',
   WCGCanHelpYourFund: 'WCG*dapat*membantu*dana*Anda*untuk*meningkatkan*pendapatannya:*pedagang*Anda*akan*dapat*sepenuhnya*menyadari*potensi*mereka*dan*membawa*keuntungan*maksimum*ke*dana*tersebut,*dan*hasil*positifnya*akan*menarik*investor*baru*untuk*bergabung.',
@@ -37,5 +37,5 @@ export const fundManager: FundManager ={
   thatCanSatisfy: 'dapat*memenuhi*kebutuhan*Anda',
   theBrokerYouNeed: 'Pialang*yang*Anda*butuhkan*dengan*latar',
   backgroundForCooperation: 'belakang*yang*kuat*untuk*kerja*sama*dan*dukungan',
-  iWantToBeAManager: 'Saya*ingin*menjadi*seorang*manajer***>'
+  iWantToBeAManager: 'Saya*ingin*menjadi*seorang*manajer***'
 }

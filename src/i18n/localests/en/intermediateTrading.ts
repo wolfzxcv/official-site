@@ -1,9 +1,11 @@
 /* 中级交易课程 */
 import { IntermediateTrading } from '../@types/intermediateTrading';
-export const intermediateTrading:IntermediateTrading={
+export const intermediateTrading: IntermediateTrading ={
   understandChartPatterns: 'Understand*chart*patterns',
   makeYourTradingMore: 'Make*your*trading*more*handy*by*studying*historical*data*and*understanding*the*related*chart*patterns.',
   intermediateTradingCourse: 'Intermediate*Trading*Course',
+  basicTradingCourse: 'Basic*Trading*Course',
+  advancedTradingCourse: 'Advanced*Trading*Course',
   mT4Tips: 'MT4*tips',
   riskManagement: 'Risk*management',
   howToCreateATradingStrategy: 'How*to*create*a*trading*strategy',
@@ -176,5 +178,5 @@ export const intermediateTrading:IntermediateTrading={
   theOpeningPriceForBuying: 'The*opening*price*for*buying*is',
   sellOrderShortPosition: 'Sell*​​order*(short*position)',
   theOpeningPriceForSelling: 'The*opening*price*for*selling*is',
-  inBothCases: 'In*both*cases,*your*profit*and*loss*(P/L)*when*you*first*opened*a*position*is*negative*because*the*spread*is*charged*when*the*order*is*opened.*When*the*market*fluctuates*in*a*direction*that*is*favorable*to*you*by*the*same*number*of*points*as*the*spread,*your*order*will*reach*breakeven.',
-};
+  inBothCases: 'In*both*cases,*your*profit*and*loss*(P/L)*when*you*first*opened*a*position*is*negative*because*the*spread*is*charged*when*the*order*is*opened.*When*the*market*fluctuates*in*a*direction*that*is*favorable*to*you*by*the*same*number*of*points*as*the*spread,*your*order*will*reach*breakeven.'
+}

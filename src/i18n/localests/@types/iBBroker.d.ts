@@ -67,7 +67,7 @@ export type IBBroker={
     becomingAnAgentBroker:string;
     /* I want to be an agent */
     iWantToBeAnAgent:string;
-
+    standard:string,
 
 
 
