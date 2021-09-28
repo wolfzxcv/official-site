@@ -56,14 +56,14 @@ export const menuList: IMenuItem[] = [
       { i18n: 'tradeDetails', href: '/notice/tradeDetails' }
     ]
   },
-  // {
-  //   i18n: 'learnTrade',
-  //   children: [
-  //     { i18n: 'basicTrading', href: '/learnTrade/basicTrading' },
-  //     { i18n: 'intermediateTrading', href: '/learnTrade/intermediateTrading' },
-  //     { i18n: 'advancedTrading', href: '/learnTrade/advancedTrading' }
-  //   ]
-  // },
+  {
+    i18n: 'learnTrade',
+    children: [
+      { i18n: 'basicTrading', href: '/learnTrade/basicTrading' },
+      { i18n: 'intermediateTrading', href: '/learnTrade/intermediateTrading' },
+      { i18n: 'advancedTrading', href: '/learnTrade/advancedTrading' }
+    ]
+  },
   {
     i18n: 'marketNews',
     children: [
