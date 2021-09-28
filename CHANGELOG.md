@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.4](https://103.68.61.92:8443///compare/v1.5.3...v1.5.4) (2021-09-28)
+
+
+### Bug Fixes
+
+* **env:** modify api to https ([971315b](https://103.68.61.92:8443///commit/971315b4ad873c02aa54e523374e7ebc7fb3ee9c))
+
 ### [1.5.3](https://103.68.61.92:8443///compare/v1.5.2...v1.5.3) (2021-09-28)
 
 
