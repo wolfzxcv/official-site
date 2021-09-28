@@ -11,7 +11,7 @@ export const advancedTrading: AdvancedTrading = {
   supportAndResistance: '支撐位和阻力位',
   marketParticipants: '市場參與者',
   tradingStyle: '交易風格',
-  whatIsTechnical: '什麽是技術分析？',
+  whatIsTechnical: '什麽是技術分析?',
   technicalAnalysisPredicts:
     '技術分析通過觀察歷史價格來理解市場走勢，並據此制定交易策略。它與基本面分析一起，是分析金融市場的主要分析方法。',
   unlikeFundamentalAnalysis:
@@ -28,7 +28,7 @@ export const advancedTrading: AdvancedTrading = {
     '技術分析的作用並不是簡單的預測市場價格的漲跌，它的真正意義在於幫助交易者更好的理解市場並制定出適應當前市場的交易策略。',
   commonMethodsOf:
     '技術分析的常見方法包括圖表形態和技術指標，我們會另外開辟兩篇文章來介紹它們。在本篇中，我們將介紹技術分析的一項基本技能——辨別趨勢。',
-  whyIdentifyingTrends: '為什麽要辨別趨勢？',
+  whyIdentifyingTrends: '為什麽要辨別趨勢?',
   justUnderstanding:
     '只是看懂圖表價格並不能幫助我們做出交易決策，您還需要了解如何辨別圖表上的價格趨勢。圖表趨勢分為三種類型：上升、下跌和盤整。在上升和下跌的單邊趨勢中，人們往往采取突破交易策略，也即只交易一個方向，買漲或買跌。而在盤整趨勢中，人們往往采取高拋低吸的區間交易策略，當價格漲到盤整區間的頂部時賣出，跌至盤整區間的底部時買進。因此，判斷匯價走勢處在上漲/下跌的單邊趨勢中，還是處在盤整的區間趨勢中，對交易者尤為重要，只有對趨勢的把握準確，我們才能采用盡可能正確的交易方法。',
   thereAreMany:
@@ -50,7 +50,7 @@ export const advancedTrading: AdvancedTrading = {
     '畫趨勢線的原則是，在所考慮時間段內的上漲（下跌）趨勢中，找到相關的最高點和最低點，用直線連接起來，其中價格不能穿越趨勢線。畫出來的趨勢線越長，所代表的單邊力量就越強大，價格在下跌（上漲）到趨勢線附近折返的可能性就越大。',
   drawingATrend:
     '畫出趨勢線可以幫助我們更清晰地辨別當前市場的趨勢。同時，我也需要依據趨勢線來判斷一段趨勢是否仍然延續。',
-  fundamentalAnalysisOverview: '基本面分析概述？',
+  fundamentalAnalysisOverview: '基本面分析概述?',
   technicalAnalysisStudies:
     '技術分析研究的是歷史價格，交易者只關註圖表和價格就能作出交易決策。基本面分析看起來會更復雜，它研究的是影響一國經濟和貨幣匯率變化的核心要素，旨在通過分析一系列經濟指標、政府決策和事件，來預測某一經濟週期中外匯價格變化和市場趨勢。',
   technicalAnalysisReveals:

@@ -38,7 +38,7 @@ export const platform: Platform = {
   supportMultipleWindows: '支援多重视窗',
   simpleChartingOperation: '图表操作简易',
   nineChartingTimePeriods: '九个价格时段',
-  whyChoose: '为何选用MetaTrader*4平台？',
+  whyChoose: '为何选用MetaTrader*4平台?',
   MT4IsTheMostPopularForeign: 'MT4是全球最受欢迎的外汇交易平台，屡获各式奖项',
   itHasWonVariousAwards: '平台有3种不同的图表类型、9种时段范围、39种语言',
   moreThan50Preset: '50多项预设的技术指标及可完全定製化的介面',

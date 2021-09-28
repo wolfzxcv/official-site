@@ -1,20 +1,20 @@
 import { ArrowForwardIcon } from '@chakra-ui/icons';
-import { Accordion, Box, Flex, IconButton } from '@chakra-ui/react';
+import { Box, Flex, IconButton } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
-import { IAccordionItemType } from '../../components/Common/InfoAccordionMultiItem';
+import React from 'react';
+import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-const InfoAccordionMultiItem = dynamic(
-  () => import('../../components/Common/InfoAccordionMultiItem'),
+const InfoAccordion = dynamic(
+  () => import('../../components/Common/InfoAccordion'),
   { ssr: false }
 );
 
@@ -22,615 +22,543 @@ const basicTrading: React.FC<{}> = () => {
   const { t } = useTranslation(['basicTrading']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const [height, setHeight] = useState(0);
-  const [windowWidth, setWindowWidth] = useState(0);
-  const data: {
-    type: IAccordionItemType;
-    key: string;
-    secondKey?: string;
-  }[][] = [
-    [
-      {
-        type: 'text',
-        key: t('theForeignExchangeMarket')
-      },
-      {
-        type: 'text',
-        key: t('theForeignExchangeMarketIsUsually')
-      },
-      {
-        type: 'title',
-        key: t('globalMarket')
-      },
-      {
-        type: 'point',
-        key: t('thisIsAGlobalMarket')
-      },
-      {
-        type: 'lastPoint',
-        key: t('globalEconomic')
-      },
-      {
-        type: 'title',
-        key: t('decentralizedMarket')
-      },
-      {
-        type: 'point',
-        key: t('decentralizedMarketMeans')
-      },
-      {
-        type: 'lastPoint',
-        key: t('insteadFinancialCenters')
-      },
-      {
-        type: 'title',
-        key: t('overTheCounterTransactions')
-      },
-      {
-        type: 'point',
-        key: t('theForeignExchangeMarketIsNotControlled')
-      },
-      {
-        type: 'point',
-        key: t('brokersAndTraders')
-      },
-      {
-        type: 'lastPoint',
-        key: t('thisKindOfMarket')
-      },
-      {
-        type: 'title',
-        key: t('tradingForeignExchange')
-      },
-      {
-        type: 'text',
-        key: t('forActiveTraders')
-      },
-      {
-        type: 'text',
-        key: t('differentCurrency')
-      },
-      {
-        type: 'title',
-        key: t('comparedWithOtherMarkets')
-      },
-      {
-        type: 'text',
-        key: t('theDailyTradingVolume')
-      },
-      {
-        type: 'text',
-        key: t('whatFactorsPlayAKeyRole')
-      },
-      {
-        type: 'text',
-        key: t('LetsTakeAnotherExample')
-      },
-      {
-        type: 'text',
-        key: t('similarToStocks')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('step1')
-      },
-      {
-        type: 'text',
-        key: t('weOfferTo')
-      },
-      {
-        type: 'buttonLink',
-        key: t('applyForARealAccountNow'),
-        secondKey: 'https://trader.wc012.com/register'
-      },
-      {
-        type: 'title',
-        key: t('step2')
-      },
-      {
-        type: 'text',
-        key: t('afterYourRealAccount')
-      },
-      {
-        type: 'buttonLink',
-        key: t('depositFundsNow'),
-        secondKey: 'https://trader.wc012.com/register'
-      },
-      {
-        type: 'title',
-        key: t('step3')
-      },
-      {
-        type: 'text',
-        key: t('nowThatYourTradingAccount')
-      },
-      {
-        type: 'twoSection',
-        key: t('understandTheMarket'),
-        secondKey: t('knowWhatYouWantTo')
-      },
-      {
-        type: 'twoSection',
-        key: t('understandTheOperation'),
-        secondKey: t('beforeMaking')
-      },
-      {
-        type: 'twoSection',
-        key: t('startYourTransaction'),
-        secondKey: t('afterYouAreFamiliarWith')
-      }
-    ],
-    [
-      {
-        type: 'text',
-        key: t('earlierWeIntroducedYou')
-      },
-      {
-        type: 'text',
-        key: t('rememberThatTheMajorPlayers')
-      },
-      {
-        type: 'text',
-        key: t('changesInGDP')
-      },
-      {
-        type: 'title',
-        key: t('newsOrEvents')
-      },
-      {
-        type: 'point',
-        key: t('grossDomesticProductGDP')
-      },
-      {
-        type: 'point',
-        key: t('interestRate')
-      },
-      {
-        type: 'point',
-        key: t('employment')
-      },
-      {
-        type: 'point',
-        key: t('tradeSurplus')
-      },
-      {
-        type: 'lastPoint',
-        key: t('forceMajeureEvent')
-      },
-      {
-        type: 'title',
-        key: t('nonFarmPayroll')
-      },
-      {
-        type: 'text',
-        key: t('theMostInfluentialMarketData')
-      },
-      {
-        type: 'title',
-        key: t('economicCalendar')
-      },
-      {
-        type: 'text',
-        key: t('soHowCanWeKeepAnEyeOn')
-      },
-      {
-        type: 'text',
-        key: t('theEconomicCalendarListsTheNews')
-      },
-      {
-        type: 'title',
-        key: t('tradingForeignExchange')
-      },
-      {
-        type: 'text',
-        key: t('forActiveTraders')
-      },
-      {
-        type: 'text',
-        key: t('differentCurrency')
-      },
-      {
-        type: 'title',
-        key: t('marketSentiment')
-      },
-      {
-        type: 'text',
-        key: t('marketSentimentCanBeUsedBy')
-      },
-      {
-        type: 'title',
-        key: t('newsTrading')
-      },
-      {
-        type: 'text',
-        key: t('newsTradingIsAVeryPopularWay')
-      },
-      {
-        type: 'title',
-        key: t('avoidNewsTrading')
-      },
-      {
-        type: 'text',
-        key: t('thisIsTheThirdTradingMethod')
-      }
-    ],
-    [
-      {
-        type: 'text',
-        key: t('afterTheDownloadProcess')
-      },
-      {
-        type: 'text',
-        key: t('checkYesIAgreeWith')
-      },
-      {
-        type: 'text',
-        key: t('theInstallationWizard')
-      },
-      {
-        type: 'text',
-        key: t('thePlatformInterface')
-      },
-      {
-        type: 'text',
-        key: t('logInToTheTradingAccount')
-      },
-      {
-        type: 'text',
-        key: t('inThePopUpLoginWindow')
-      },
-      {
-        type: 'text',
-        key: t('thePlatformWillTakeSomeTime')
-      },
-      {
-        type: 'title',
-        key: t('createAMarketOrder')
-      },
-      {
-        type: 'text',
-        key: t('thereAreManyWaysTo')
-      },
-      {
-        type: 'title',
-        key: t('productCategory')
-      },
-      {
-        type: 'text',
-        key: t('lotsEnterTheLotSize')
-      },
-      {
-        type: 'text',
-        key: t('stopLossPrice')
-      },
-      {
-        type: 'text',
-        key: t('takeProfitPrice')
-      },
-      {
-        type: 'text',
-        key: t('sellAtMarketPriceOrBuy')
-      },
-      {
-        type: 'text',
-        key: t('theOrderTypeColumn')
-      },
-      {
-        type: 'title',
-        key: t('economicCalendar')
-      },
-      {
-        type: 'text',
-        key: t('soHowCanWeKeepAnEyeOn')
-      },
-      {
-        type: 'text',
-        key: t('theEconomicCalendarListsTheNews')
-      },
 
-      {
-        type: 'title',
-        key: t('pendingOrder')
-      },
-      {
-        type: 'text',
-        key: t('changeTheOrderType')
-      },
-      {
-        type: 'text',
-        key: t('thereAreFourTypes')
-      },
-      {
-        type: 'text',
-        key: t('buyLimitBuyPending')
-      },
-      {
-        type: 'text',
-        key: t('sellLimitSellPending')
-      },
-      {
-        type: 'text',
-        key: t('buyStopBuyPending')
-      },
-      {
-        type: 'text',
-        key: t('sellStopSellPending')
-      },
-      {
-        type: 'text',
-        key: t('afterSelectingTheCorresponding')
-      },
-      {
-        type: 'title',
-        key: t('oneClickTrading')
-      },
-      {
-        type: 'text',
-        key: t('foreignExchangePrices')
-      },
-      {
-        type: 'text',
-        key: t('onTheUpperLeftCorner')
-      },
-      {
-        type: 'title',
-        key: t('modifyTheOrder')
-      },
-      {
-        type: 'text',
-        key: t('afterOpening')
-      },
-      {
-        type: 'text',
-        key: t('inThePopUpWindow')
-      },
-      {
-        type: 'title',
-        key: t('closePosition')
-      },
-      {
-        type: 'text',
-        key: t('theSummaryWindowAt')
-      },
-      {
-        type: 'text',
-        key: t('theAccountBalance')
-      },
-      {
-        type: 'text',
-        key: t('atThisTimeWeOpened')
-      },
-      {
-        type: 'text',
-        key: t('oneClickClosing')
-      },
-      {
-        type: 'title',
-        key: t('accountHistory')
-      },
-      {
-        type: 'text',
-        key: t('youCanFindAllClosed')
-      },
-      {
-        type: 'text',
-        key: t('profitLossTheTotal')
-      },
-      {
-        type: 'text',
-        key: t('depositsTotalDeposits')
-      },
-      {
-        type: 'text',
-        key: t('withdrawalTheTotal')
-      },
-      {
-        type: 'title',
-        key: t('openTheChartAndLoad')
-      },
-      {
-        type: 'text',
-        key: t('afterTheMT4Platform')
-      },
-      {
-        type: 'text',
-        key: t('ifYouWantToSwitch')
-      },
-      {
-        type: 'text',
-        key: t('withMT4IsLocatedInThe')
-      },
-      {
-        type: 'text',
-        key: t('afterReadingThis')
-      }
-    ],
-    [
-      {
-        type: 'text',
-        key: t('leverageAndMarginMargin')
-      },
-      {
-        type: 'title',
-        key: t('assumingThatA1Lot')
-      },
-      {
-        type: 'title',
-        key: t('whenTheLeverageRatioIs11')
-      },
-      {
-        type: 'title',
-        key: t('whenTheLeverageRatioIs1400')
-      },
-      {
-        type: 'text',
-        key: t('pleaseKeepInMindThat')
-      },
-      {
-        type: 'text',
-        key: t('weUsuallyRecommendTraders')
-      },
-      {
-        type: 'text',
-        key: t('stopLossPriceWhenThePrice')
-      },
-      {
-        type: 'text',
-        key: t('whenUsingLeverage')
-      },
-      {
-        type: 'text',
-        key: t('weRecommendThatYou')
-      }
-    ],
-    [
-      {
-        type: 'text',
-        key: t('contractForDifference')
-      },
-      {
-        type: 'title',
-        key: t('exploreTheCfdMarket')
-      },
-      {
-        type: 'text',
-        key: t('index')
-      },
-      {
-        type: 'text',
-        key: t('energy')
-      },
-      {
-        type: 'text',
-        key: t('preciousMetals')
-      },
-      {
-        type: 'text',
-        key: t('contractDetails')
-      },
-      {
-        type: 'title',
-        key: t('WhatAreTheDifferentTypes')
-      },
-      {
-        type: 'text',
-        key: t('aStockIndexAsAFinancial')
-      },
-      {
-        type: 'text',
-        key: t('commodityFuturesAreAlso')
-      },
-      {
-        type: 'text',
-        key: t('byOpeningAnAccountThrough')
-      },
-      {
-        type: 'title',
-        key: t('whatAreTheAdvantages')
-      },
-      {
-        type: 'text',
-        key: t('theMostSignificantAdvantage')
-      }
-    ]
+  const data: InfoAccordionItemProps[] = [
+    {
+      title: t('whatIsForeignExchangeTrading'),
+      complexContent: [
+        {
+          type: 'text',
+          objectKey: t('theForeignExchangeMarket')
+        },
+        {
+          type: 'text',
+          objectKey: t('theForeignExchangeMarketIsUsually')
+        },
+        {
+          type: 'title',
+          objectKey: t('globalMarket')
+        },
+        {
+          type: 'text',
+          objectKey: t('thisIsAGlobalMarket')
+        },
+        {
+          type: 'text',
+          objectKey: t('globalEconomic')
+        },
+        {
+          type: 'title',
+          objectKey: t('decentralizedMarket')
+        },
+        {
+          type: 'text',
+          objectKey: t('decentralizedMarketMeans')
+        },
+        {
+          type: 'text',
+          objectKey: t('insteadFinancialCenters')
+        },
+        {
+          type: 'title',
+          objectKey: t('overTheCounterTransactions')
+        },
+        {
+          type: 'text',
+          objectKey: t('theForeignExchangeMarketIsNotControlled')
+        },
+        {
+          type: 'text',
+          objectKey: t('brokersAndTraders')
+        },
+        {
+          type: 'text',
+          objectKey: t('thisKindOfMarket')
+        },
+        {
+          type: 'title',
+          objectKey: t('tradingForeignExchange')
+        },
+        {
+          type: 'text',
+          objectKey: t('forActiveTraders')
+        },
+        {
+          type: 'text',
+          objectKey: t('differentCurrency')
+        },
+        {
+          type: 'title',
+          objectKey: t('comparedWithOtherMarkets')
+        },
+        {
+          type: 'text',
+          objectKey: t('theDailyTradingVolume')
+        },
+        {
+          type: 'text',
+          objectKey: t('whatFactorsPlayAKeyRole')
+        },
+        {
+          type: 'text',
+          objectKey: t('LetsTakeAnotherExample')
+        },
+        {
+          type: 'text',
+          objectKey: t('similarToStocks')
+        }
+      ]
+    },
+    {
+      title: t('howToStartTrading'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('step1')
+        },
+        {
+          type: 'text',
+          objectKey: t('weOfferTo')
+        },
+        {
+          type: 'buttonLink',
+          objectKey: t('applyForARealAccountNow'),
+          secondKey: 'https://trader.wc012.com/register'
+        },
+        {
+          type: 'title',
+          objectKey: t('step2')
+        },
+        {
+          type: 'text',
+          objectKey: t('afterYourRealAccount')
+        },
+        {
+          type: 'buttonLink',
+          objectKey: t('depositFundsNow'),
+          secondKey: 'https://trader.wc012.com/register'
+        },
+        {
+          type: 'title',
+          objectKey: t('step3')
+        },
+        {
+          type: 'text',
+          objectKey: t('nowThatYourTradingAccount')
+        },
+        {
+          type: 'twoSection',
+          objectKey: t('understandTheMarket'),
+          secondKey: t('knowWhatYouWantTo')
+        },
+        {
+          type: 'twoSection',
+          objectKey: t('understandTheOperation'),
+          secondKey: t('beforeMaking')
+        },
+        {
+          type: 'twoSection',
+          objectKey: t('startYourTransaction'),
+          secondKey: t('afterYouAreFamiliarWith')
+        }
+      ]
+    },
+    {
+      title: t('factorsAffectingTheMarket'),
+      complexContent: [
+        {
+          type: 'text',
+          objectKey: t('earlierWeIntroducedYou')
+        },
+        {
+          type: 'text',
+          objectKey: t('rememberThatTheMajorPlayers')
+        },
+        {
+          type: 'text',
+          objectKey: t('changesInGDP')
+        },
+        {
+          type: 'title',
+          objectKey: t('newsOrEvents')
+        },
+        {
+          type: 'text',
+          objectKey: t('grossDomesticProductGDP')
+        },
+        {
+          type: 'text',
+          objectKey: t('interestRate')
+        },
+        {
+          type: 'text',
+          objectKey: t('employment')
+        },
+        {
+          type: 'text',
+          objectKey: t('tradeSurplus')
+        },
+        {
+          type: 'text',
+          objectKey: t('forceMajeureEvent')
+        },
+        {
+          type: 'title',
+          objectKey: t('nonFarmPayroll')
+        },
+        {
+          type: 'text',
+          objectKey: t('theMostInfluentialMarketData')
+        },
+        {
+          type: 'title',
+          objectKey: t('economicCalendar')
+        },
+        {
+          type: 'text',
+          objectKey: t('soHowCanWeKeepAnEyeOn')
+        },
+        {
+          type: 'text',
+          objectKey: t('theEconomicCalendarListsTheNews')
+        },
+        {
+          type: 'title',
+          objectKey: t('tradingForeignExchange')
+        },
+        {
+          type: 'text',
+          objectKey: t('forActiveTraders')
+        },
+        {
+          type: 'text',
+          objectKey: t('differentCurrency')
+        },
+        {
+          type: 'title',
+          objectKey: t('marketSentiment')
+        },
+        {
+          type: 'text',
+          objectKey: t('marketSentimentCanBeUsedBy')
+        },
+        {
+          type: 'title',
+          objectKey: t('newsTrading')
+        },
+        {
+          type: 'text',
+          objectKey: t('newsTradingIsAVeryPopularWay')
+        },
+        {
+          type: 'title',
+          objectKey: t('avoidNewsTrading')
+        },
+        {
+          type: 'text',
+          objectKey: t('thisIsTheThirdTradingMethod')
+        }
+      ]
+    },
+    {
+      title: t('basicOperationOfTheMT4Platform'),
+      complexContent: [
+        {
+          type: 'text',
+          objectKey: t('afterTheDownloadProcess')
+        },
+        {
+          type: 'text',
+          objectKey: t('checkYesIAgreeWith')
+        },
+        {
+          type: 'text',
+          objectKey: t('theInstallationWizard')
+        },
+        {
+          type: 'text',
+          objectKey: t('thePlatformInterface')
+        },
+        {
+          type: 'text',
+          objectKey: t('logInToTheTradingAccount')
+        },
+        {
+          type: 'text',
+          objectKey: t('inThePopUpLoginWindow')
+        },
+        {
+          type: 'text',
+          objectKey: t('thePlatformWillTakeSomeTime')
+        },
+        {
+          type: 'title',
+          objectKey: t('createAMarketOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('thereAreManyWaysTo')
+        },
+        {
+          type: 'title',
+          objectKey: t('productCategory')
+        },
+        {
+          type: 'text',
+          objectKey: t('lotsEnterTheLotSize')
+        },
+        {
+          type: 'text',
+          objectKey: t('stopLossPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('takeProfitPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('sellAtMarketPriceOrBuy')
+        },
+        {
+          type: 'text',
+          objectKey: t('theOrderTypeColumn')
+        },
+        {
+          type: 'title',
+          objectKey: t('economicCalendar')
+        },
+        {
+          type: 'text',
+          objectKey: t('soHowCanWeKeepAnEyeOn')
+        },
+        {
+          type: 'text',
+          objectKey: t('theEconomicCalendarListsTheNews')
+        },
+
+        {
+          type: 'title',
+          objectKey: t('pendingOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('changeTheOrderType')
+        },
+        {
+          type: 'text',
+          objectKey: t('thereAreFourTypes')
+        },
+        {
+          type: 'text',
+          objectKey: t('buyLimitBuyPending')
+        },
+        {
+          type: 'text',
+          objectKey: t('sellLimitSellPending')
+        },
+        {
+          type: 'text',
+          objectKey: t('buyStopBuyPending')
+        },
+        {
+          type: 'text',
+          objectKey: t('sellStopSellPending')
+        },
+        {
+          type: 'text',
+          objectKey: t('afterSelectingTheCorresponding')
+        },
+        {
+          type: 'title',
+          objectKey: t('oneClickTrading')
+        },
+        {
+          type: 'text',
+          objectKey: t('foreignExchangePrices')
+        },
+        {
+          type: 'text',
+          objectKey: t('onTheUpperLeftCorner')
+        },
+        {
+          type: 'title',
+          objectKey: t('modifyTheOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('afterOpening')
+        },
+        {
+          type: 'text',
+          objectKey: t('inThePopUpWindow')
+        },
+        {
+          type: 'title',
+          objectKey: t('closePosition')
+        },
+        {
+          type: 'text',
+          objectKey: t('theSummaryWindowAt')
+        },
+        {
+          type: 'text',
+          objectKey: t('theAccountBalance')
+        },
+        {
+          type: 'text',
+          objectKey: t('atThisTimeWeOpened')
+        },
+        {
+          type: 'text',
+          objectKey: t('oneClickClosing')
+        },
+        {
+          type: 'title',
+          objectKey: t('accountHistory')
+        },
+        {
+          type: 'text',
+          objectKey: t('youCanFindAllClosed')
+        },
+        {
+          type: 'text',
+          objectKey: t('profitLossTheTotal')
+        },
+        {
+          type: 'text',
+          objectKey: t('depositsTotalDeposits')
+        },
+        {
+          type: 'text',
+          objectKey: t('withdrawalTheTotal')
+        },
+        {
+          type: 'title',
+          objectKey: t('openTheChartAndLoad')
+        },
+        {
+          type: 'text',
+          objectKey: t('afterTheMT4Platform')
+        },
+        {
+          type: 'text',
+          objectKey: t('ifYouWantToSwitch')
+        },
+        {
+          type: 'text',
+          objectKey: t('withMT4IsLocatedInThe')
+        },
+        {
+          type: 'text',
+          objectKey: t('afterReadingThis')
+        }
+      ]
+    },
+    {
+      title: t('leverageAndMargin'),
+      complexContent: [
+        {
+          type: 'text',
+          objectKey: t('leverageAndMarginMargin')
+        },
+        {
+          type: 'title',
+          objectKey: t('assumingThatA1Lot')
+        },
+        {
+          type: 'title',
+          objectKey: t('whenTheLeverageRatioIs11')
+        },
+        {
+          type: 'title',
+          objectKey: t('whenTheLeverageRatioIs1400')
+        },
+        {
+          type: 'text',
+          objectKey: t('pleaseKeepInMindThat')
+        },
+        {
+          type: 'text',
+          objectKey: t('weUsuallyRecommendTraders')
+        },
+        {
+          type: 'text',
+          objectKey: t('stopLossPriceWhenThePrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('whenUsingLeverage')
+        },
+        {
+          type: 'text',
+          objectKey: t('weRecommendThatYou')
+        }
+      ]
+    },
+    {
+      title: t('whatIsACFDTransaction'),
+      complexContent: [
+        {
+          type: 'text',
+          objectKey: t('contractForDifference')
+        },
+        {
+          type: 'title',
+          objectKey: t('exploreTheCfdMarket')
+        },
+        {
+          type: 'text',
+          objectKey: t('index')
+        },
+        {
+          type: 'text',
+          objectKey: t('energy')
+        },
+        {
+          type: 'text',
+          objectKey: t('preciousMetals')
+        },
+        {
+          type: 'text',
+          objectKey: t('contractDetails')
+        },
+        {
+          type: 'title',
+          objectKey: t('WhatAreTheDifferentTypes')
+        },
+        {
+          type: 'text',
+          objectKey: t('aStockIndexAsAFinancial')
+        },
+        {
+          type: 'text',
+          objectKey: t('commodityFuturesAreAlso')
+        },
+        {
+          type: 'text',
+          objectKey: t('byOpeningAnAccountThrough')
+        },
+        {
+          type: 'title',
+          objectKey: t('whatAreTheAdvantages')
+        },
+        {
+          type: 'text',
+          objectKey: t('theMostSignificantAdvantage')
+        }
+      ]
+    }
   ];
-
-  useEffect(() => {
-    if (
-      document.getElementById('heightDetect2') &&
-      document.querySelector('body')
-    ) {
-      const bodyTop = document
-        .querySelector('body')
-        .getBoundingClientRect().top;
-      const divTop = document
-        .getElementById('heightDetect2')
-        .getBoundingClientRect().top;
-      setHeight(divTop - bodyTop);
-    }
-  }, [windowWidth]);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      handleResize();
-      window.addEventListener('resize', handleResize);
-      handleResize();
-      return () => window.removeEventListener('resize', handleResize);
-    }
-  }, []);
-
-  function handleResize() {
-    setWindowWidth(window.innerWidth);
-  }
 
   return (
     <Wrapper>
-      <Flex
-        id="heightDetect2"
-        display="flex"
-        px={10}
-        py={{ base: 10, xl: 20 }}
-        bgColor="gray.50"
-        direction="column"
-        align="center"
-      >
+      <Flex display="flex" p={10} direction="column" align="center">
         <InfoTitle title={t('basicTradingCourse')} />
         <InfoTitleSub title={t('haventHadExperience')} />
-      </Flex>
-      <Flex direction="column" align="center">
-        <Box width={'80vw'} my={10}>
-          <Accordion allowToggle>
-            <InfoAccordionMultiItem
-              title={t('whatIsForeignExchangeTrading')}
-              content={data[0]}
-              callback={() => {
-                window.scroll(0, height + 100);
-              }}
-            />
-            <InfoAccordionMultiItem
-              title={t('howToStartTrading')}
-              content={data[1]}
-              callback={() => {
-                window.scroll(0, height + 140);
-              }}
-            />
 
-            <InfoAccordionMultiItem
-              title={t('factorsAffectingTheMarket')}
-              content={data[2]}
-              callback={() => {
-                window.scroll(0, height + 180);
-              }}
-            />
+        <InfoAccordion data={data} />
 
-            <InfoAccordionMultiItem
-              title={t('basicOperationOfTheMT4Platform')}
-              content={data[3]}
-              callback={() => {
-                window.scroll(0, height + 220);
-              }}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('leverageAndMargin')}
-              content={data[4]}
-              callback={() => {
-                window.scroll(0, height + 260);
-              }}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('whatIsACFDTransaction')}
-              content={data[5]}
-              callback={() => {
-                window.scroll(0, height + 300);
-              }}
-            />
-          </Accordion>
-        </Box>
-        <Box mt={3} mb={10}>
+        <Box my={5}>
           <NextLink href="/learnTrade/intermediateTrading" locale={currentLang}>
             <IconButton
               size="lg"

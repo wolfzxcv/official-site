@@ -1,5 +1,4 @@
-
-const all ={}
+const all = {};
 const regex = / /gi;
 
 const replaceAll = () => {

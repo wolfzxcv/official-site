@@ -29,7 +29,7 @@ export const advancedTrading: AdvancedTrading = {
     'Vai*trò*của*phân*tích*kỹ*thuật*không*chỉ*đơn*giản*là*dự*đoán*sự*lên*xuống*của*giá*cả*thị*trường.*Ý*nghĩa*thực*sự*của*nó*là*giúp*các*nhà*giao*dịch*hiểu*rõ*hơn*về*thị*trường*và*phát*triển*một*chiến*lược*giao*dịch*thích*ứng*với*thị*trường*hiện*tại.*',
   commonMethodsOf:
     'Các*phương*pháp*phân*tích*kỹ*thuật*phổ*biến*bao*gồm*các*mẫu*biểu*đồ*và*các*chỉ*báo*kỹ*thuật.*Chúng*tôi*sẽ*mở*thêm*hai*bài*báo*để*giới*thiệu*chúng.*Trong*bài*viết*này,*chúng*tôi*sẽ*giới*thiệu*một*kỹ*năng*cơ*bản*của*phân*tích*kỹ*thuật*-*xác*định*xu*hướng.*',
-  whyIdentifyingTrends: 'Tại*sao*phải*xác*định*xu*hướng？',
+  whyIdentifyingTrends: 'Tại*sao*phải*xác*định*xu*hướng?',
   justUnderstanding:
     'Việc*chỉ*hiểu*giá*biểu*đồ*không*giúp*chúng*ta*đưa*ra*quyết*định*giao*dịch,*bạn*cũng*cần*hiểu*cách*xác*định*xu*hướng*giá*trên*biểu*đồ.*Có*ba*loại*xu*hướng*biểu*đồ:*lên,*xuống*và*hợp*nhất.*Trong*xu*hướng*đơn*phương*lên*xuống,*người*ta*thường*áp*dụng*chiến*lược*giao*dịch*đột*phá,*đó*là*chỉ*giao*dịch*theo*một*chiều,*mua*lên*hoặc*xuống.*Trong*xu*hướng*hợp*nhất,*mọi*người*thường*sử*dụng*chiến*lược*giao*dịch*theo*phạm*vi*gồm*bán*cao*và*mua*thấp,*bán*khi*giá*tăng*lên*đến*đỉnh*của*phạm*vi*hợp*nhất*và*mua*khi*giá*giảm*xuống*đáy*của*phạm*vi*hợp*nhất.*Do*đó,*điều*đặc*biệt*quan*trọng*đối*với*các*nhà*giao*dịch*là*phải*phán*đoán*liệu*xu*hướng*tỷ*giá*hối*đoái*là*xu*hướng*đơn*phương*lên*/*xuống*hay*xu*hướng*hợp*nhất*trong*khoảng*thời*gian.*Chỉ*bằng*cách*nắm*bắt*chính*xác*xu*hướng,*chúng*ta*mới*có*thể*áp*dụng*phương*pháp*giao*dịch*chính*xác*nhất*có*thể.*',
   thereAreMany:

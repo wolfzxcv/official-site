@@ -1,20 +1,20 @@
 import { ArrowBackIcon, ArrowForwardIcon } from '@chakra-ui/icons';
-import { Accordion, Box, Flex, IconButton } from '@chakra-ui/react';
+import { Box, Flex, IconButton } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
-import { IAccordionItemBasicType } from '../../components/Common/InfoAccordionMultiItem';
+import React from 'react';
+import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
-const InfoAccordionMultiItem = dynamic(
-  () => import('../../components/Common/InfoAccordionMultiItem'),
+const InfoAccordion = dynamic(
+  () => import('../../components/Common/InfoAccordion'),
   { ssr: false }
 );
 
@@ -22,419 +22,752 @@ const intermediateTrading: React.FC<{}> = () => {
   const { t } = useTranslation(['intermediateTrading']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const [height, setHeight] = useState(0);
-  const [windowWidth, setWindowWidth] = useState(0);
 
-  const data: {
-    type: IAccordionItemBasicType;
-    key: string;
-  }[][] = [
-    [
-      {
-        type: 'title',
-        key: t('PersonalizationOfTheChart')
-      },
-      {
-        type: 'text',
-        key: t('YouCanPersonalize')
-      },
-      {
-        type: 'title',
-        key: t('HidingTheSellingPriceLine')
-      },
-      {
-        type: 'text',
-        key: t('IfYouAddALot')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('PayAttentionToTheRisk')
-      },
-      {
-        type: 'text',
-        key: t('BeforePlacingATrade')
-      },
-      {
-        type: 'text',
-        key: t('TheSettingOfTheStopLoss')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('HowToCreateATradingStrategy')
-      },
-      {
-        type: 'text',
-        key: t('IfYouWantToBecomeATrader')
-      },
-      {
-        type: 'title',
-        key: t('AssessYourSkills')
-      },
-      {
-        type: 'text',
-        key: t('HaveYouTestedYourStrategy')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('WhatIsAChartPattern')
-      },
-      {
-        type: 'text',
-        key: t('InTheMarketBuyersAndSellers')
-      },
-      {
-        type: 'text',
-        key: t('TypicalChartPatternsInclude')
-      },
-      {
-        type: 'title',
-        key: t('HeadAndShoulders')
-      },
-      {
-        type: 'text',
-        key: t('TopAndHeadAndShouldersBottom')
-      },
-      {
-        type: 'title',
-        key: t('ATypicalHeadAndShouldersPattern')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_1.png'
-      },
-      {
-        type: 'text',
-        key: t('WhenThePriceRises')
-      },
-      {
-        type: 'text',
-        key: t('WhenYouFindAHead')
-      },
-      {
-        type: 'text',
-        key: t('MoreCautiousTraders')
-      },
-      {
-        type: 'text',
-        key: t('AfterTheTradeIsOpened')
-      },
-      {
-        type: 'text',
-        key: t('InAdditionYouMay')
-      },
-      {
-        type: 'title',
-        key: t('TheFigureBelowShowsTheHead')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_2.png'
-      },
-      {
-        type: 'title',
-        key: t('DoubleTopAndDoubleBottom')
-      },
-      {
-        type: 'text',
-        key: t('DoubleTopPatternOftenAppears')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_3.png'
-      },
-      {
-        type: 'text',
-        key: t('NTermsOfTheTimingOfEntry')
-      },
-      {
-        type: 'text',
-        key: t('TheProfitTarget')
-      },
-      {
-        type: 'text',
-        key: t('TheReverseOfADoubleTopPattern')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_4.png'
-      },
-      {
-        type: 'title',
-        key: t('FlagPattern')
-      },
-      {
-        type: 'text',
-        key: t('TheFlagPatternIsDifferent')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_5.png'
-      },
-      {
-        type: 'text',
-        key: t('TheAbovePictureIsAFlagShape')
-      },
-      {
-        type: 'text',
-        key: t('TakeTheFlagTrend')
-      },
-      {
-        type: 'text',
-        key: t('CalculateTheNumberOfPoints')
-      },
-      {
-        type: 'text',
-        key: t('TheFigureBelowShowsTheFlagPattern')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_6.png'
-      },
-      {
-        type: 'text',
-        key: t('TheAboveContentCanBeUsed')
-      }
-    ],
-    [
-      {
-        type: 'text',
-        key: t('StopLossCanHelpYouReduce')
-      },
-      {
-        type: 'title',
-        key: t('ExampleOfStopLoss')
-      },
-      {
-        type: 'text',
-        key: t('SupposeThereIsAnAUS200')
-      },
-      {
-        type: 'text',
-        key: t('ItIsWorthNotingThatTheStopLoss')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('MarketOrder')
-      },
-      {
-        type: 'title',
-        key: t('PendingOrder')
-      },
-      {
-        type: 'text',
-        key: t('APendingOrderIsAnOrder')
-      },
-      {
-        type: 'title',
-        key: t('TypesOfPendingOrders')
-      },
-      {
-        type: 'text',
-        key: t('StopLossPendingOrders')
-      },
-      {
-        type: 'title',
-        key: t('StopLossEntryOrder')
-      },
-      {
-        type: 'text',
-        key: t('TheFollowingFigureShowsABuyStop')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_7.png'
-      },
-      {
-        type: 'title',
-        key: t('TakeProfitPendingOrder')
-      },
-      {
-        type: 'text',
-        key: t('TheFigureBelowShowsABuyTakeProfitPendingOrder')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('ReadTheChart')
-      },
-      {
-        type: 'text',
-        key: t('ChartsAreTheCoreOfTrading')
-      },
-      {
-        type: 'text',
-        key: t('TheFirstThingToUnderstand')
-      },
-      {
-        type: 'title',
-        key: t('TimeXAxis')
-      },
-      {
-        type: 'text',
-        key: t('TheXAxisOnTheChart')
-      }
-    ],
-    [
-      {
-        type: 'title',
-        key: t('Spread')
-      },
-      {
-        type: 'text',
-        key: t('TheCompleteQuotationConsists')
-      },
-      {
-        type: 'text',
-        key: t('TheLargerTheTransactionVolume')
-      },
-      {
-        type: 'text',
-        key: t('ForTradersWhoTradeMoreFrequently')
-      },
-      {
-        type: 'image',
-        key: '../assets/images/course_8.png'
-      },
-      {
-        type: 'text',
-        key: t('TheAboveIsAScreenshot')
-      },
-      {
-        type: 'title',
-        key: t('BuyOrderLongPosition')
-      },
-      {
-        type: 'text',
-        key: t('QuotationBuying ')
-      },
-      {
-        type: 'title',
-        key: t('SellOrderShortPosition')
-      },
-      {
-        type: 'text',
-        key: t('QuotationSelling')
-      },
-      {
-        type: 'text',
-        key: t('InBothCasesYourProfitAndLoss')
-      }
-    ]
+  const data: InfoAccordionItemProps[] = [
+    {
+      title: t('MT4Tips'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('personalizationOfTheChart')
+        },
+        {
+          type: 'text',
+          objectKey: t('youCanPersonalizeYourChart')
+        },
+        {
+          type: 'title',
+          objectKey: t('hidingTheSellingPriceLine')
+        },
+        {
+          type: 'text',
+          objectKey: t('ifYouAddALotOfIndicators')
+        },
+        {
+          type: 'title',
+          objectKey: t('setDefaultChart')
+        },
+        {
+          type: 'text',
+          objectKey: t('onceYouHaveSetUpAVery')
+        },
+        {
+          type: 'text',
+          objectKey: t('ifYouWantToSetTheMost')
+        },
+        {
+          type: 'title',
+          objectKey: t('economicCalendar')
+        },
+        {
+          type: 'text',
+          objectKey: t('soHowCanWeKeepAnEye')
+        },
+        {
+          type: 'text',
+          objectKey: t('theEconomicCalendarLists')
+        },
+        {
+          type: 'title',
+          objectKey: t('customizationOfToolbars')
+        },
+        {
+          type: 'text',
+          objectKey: t('common')
+        },
+        {
+          type: 'text',
+          objectKey: t('chart')
+        },
+        {
+          type: 'text',
+          objectKey: t('drawLine')
+        },
+        {
+          type: 'text',
+          objectKey: t('cycle')
+        },
+        {
+          type: 'text',
+          objectKey: t('youCanSimplyDragThe')
+        },
+        {
+          type: 'text',
+          objectKey: t('hereYouCanComplete')
+        },
+        {
+          type: 'text',
+          objectKey: t('throughTheAboveOperations')
+        },
+        {
+          type: 'title',
+          objectKey: t('usingShortcutKeys')
+        },
+        {
+          type: 'text',
+          objectKey: t('keyboardShortcutsAre')
+        },
+        {
+          type: 'text',
+          objectKey: t('inTheLongRunThisWill')
+        },
+        {
+          type: 'text',
+          objectKey: t('terminal')
+        },
+        {
+          type: 'text',
+          objectKey: t('controlT')
+        },
+        {
+          type: 'text',
+          objectKey: t('thisIsTheMainWindow')
+        },
+        {
+          type: 'text',
+          objectKey: t('navigate')
+        },
+        {
+          type: 'text',
+          objectKey: t('controlN')
+        },
+        {
+          type: 'text',
+          objectKey: t('toAddIndicators')
+        },
+        {
+          type: 'text',
+          objectKey: t('marketQuotation')
+        },
+        {
+          type: 'text',
+          objectKey: t('controlM')
+        },
+        {
+          type: 'text',
+          objectKey: t('viewProductQuotation')
+        },
+        {
+          type: 'text',
+          objectKey: t('dataWindow')
+        },
+        {
+          type: 'text',
+          objectKey: t('controlD')
+        },
+        {
+          type: 'text',
+          objectKey: t('viewAllDataInformation')
+        },
+        {
+          type: 'title',
+          objectKey: t('usingShortcutKeys')
+        },
+        {
+          type: 'text',
+          objectKey: t('onTheMT4Platform')
+        },
+        {
+          type: 'text',
+          objectKey: t('theSpecificOperation')
+        },
+        {
+          type: 'title',
+          objectKey: t('favoriteIndicatorList')
+        },
+        {
+          type: 'text',
+          objectKey: t('inOrderToSimplifyThe')
+        },
+        {
+          type: 'text',
+          objectKey: t('openTheNavigationWindow')
+        },
+        {
+          type: 'text',
+          objectKey: t('expandTheRelevantContent')
+        },
+        {
+          type: 'text',
+          objectKey: t('moveTheMouseCursor')
+        },
+        {
+          type: 'text',
+          objectKey: t('rightClickTheMouse')
+        },
+        {
+          type: 'text',
+          objectKey: t('selectAddToFavorites')
+        },
+        {
+          type: 'title',
+          objectKey: t('alerts')
+        },
+        {
+          type: 'text',
+          objectKey: t('throughTheAlertFunction')
+        }
+      ]
+    },
+    {
+      title: t('riskManagement'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('payAttentionToTheRisk')
+        },
+        {
+          type: 'text',
+          objectKey: t('beforePlacingATrade')
+        },
+        {
+          type: 'text',
+          objectKey: t('theSettingOfTheStop')
+        },
+        {
+          type: 'text',
+          objectKey: t('someTradersAreOnlyWilling')
+        },
+        {
+          type: 'text',
+          objectKey: t('onceYouHaveDeterminedThis')
+        },
+        {
+          type: 'text',
+          objectKey: t('theMarketPriceGapRefers')
+        },
+        {
+          type: 'title',
+          objectKey: t('example')
+        },
+        {
+          type: 'text',
+          objectKey: t('upposeYouHaveAUD10')
+        },
+        {
+          type: 'text',
+          objectKey: t('trade1LotOfAUDUSDInAn')
+        },
+        {
+          type: 'text',
+          objectKey: t('transactionVolume')
+        },
+        {
+          type: 'text',
+          objectKey: t('yiPip00001')
+        },
+        {
+          type: 'text',
+          objectKey: t('aUDUSDexchangeRate')
+        },
+        {
+          type: 'text',
+          objectKey: t('pipValue0000107465')
+        },
+        {
+          type: 'text',
+          objectKey: t('asYouCanSeeTradingDifferent')
+        },
+        {
+          type: 'text',
+          objectKey: t('toCalculateTheSpecificPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('aUDUSD')
+        },
+        {
+          type: 'text',
+          objectKey: t('nZDCAD')
+        },
+        {
+          type: 'text',
+          objectKey: t('ifYouWantToSetALargerStop')
+        },
+        {
+          type: 'text',
+          objectKey: t('inTheCaseOfTrading')
+        },
+        {
+          type: 'text',
+          objectKey: t('pleaseRememberThat')
+        }
+      ]
+    },
+    {
+      title: t('howToCreateATradingStrategy'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('HowToCreateATradingStrategy')
+        },
+        {
+          type: 'text',
+          objectKey: t('ifYouWantToBecomeATrader')
+        },
+        {
+          type: 'title',
+          objectKey: t('assessYourSkills')
+        },
+        {
+          type: 'text',
+          objectKey: t('haveYouTestedYourStrategy')
+        },
+        {
+          type: 'title',
+          objectKey: t('psychologicalPreparation')
+        },
+        {
+          type: 'text',
+          objectKey: t('tradingCanAffectYourEmotions')
+        },
+        {
+          type: 'title',
+          objectKey: t('risksManagement')
+        },
+        {
+          type: 'text',
+          objectKey: t('whenYouAreTrading')
+        },
+        {
+          type: 'title',
+          objectKey: t('settingGoals')
+        },
+        {
+          type: 'text',
+          objectKey: t('beforeYouStartTrading')
+        },
+        {
+          type: 'title',
+          objectKey: t('prepareToTrade')
+        },
+        {
+          type: 'text',
+          objectKey: t('beforeYouOYourFirst')
+        },
+        {
+          type: 'title',
+          objectKey: t('positionOpeningAndClosing')
+        },
+        {
+          type: 'text',
+          objectKey: t('beforeOpeningAPosition')
+        },
+        {
+          type: 'text',
+          objectKey: t('youShouldOpenPositions')
+        },
+        {
+          type: 'text',
+          objectKey: t('youShouldAlsoCloseThePosition')
+        },
+        {
+          type: 'title',
+          objectKey: t('recordAllMatters')
+        },
+        {
+          type: 'text',
+          objectKey: t('recordTheOverallTrading')
+        },
+        {
+          type: 'text',
+          objectKey: t('assestheKeyInformationThatNeedssYourSkills')
+        },
+        {
+          type: 'text',
+          objectKey: t('openingPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('closingPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('yourInitialStopLoss')
+        },
+        {
+          type: 'text',
+          objectKey: t('positionSize')
+        },
+        {
+          type: 'text',
+          objectKey: t('reasonForOpeningAPosition')
+        },
+        {
+          type: 'text',
+          objectKey: t('psychologyDuringThe')
+        },
+        {
+          type: 'text',
+          objectKey: t('whetherItIsProfitOrLoss')
+        },
+        {
+          type: 'text',
+          objectKey: t('openingAndClosingPositions')
+        },
+        {
+          type: 'text',
+          objectKey: t('ifYouWantToBeAConsistent')
+        }
+      ]
+    },
+    {
+      title: t('commonChartPatterns'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('whatIsAChartPattern')
+        },
+        {
+          type: 'text',
+          objectKey: t('inTheMarketBuyersAnd')
+        },
+        {
+          type: 'text',
+          objectKey: t('typicalChartPatterns')
+        },
+        {
+          type: 'title',
+          objectKey: t('headAndShoulders')
+        },
+        {
+          type: 'text',
+          objectKey: t('topAndHeadAndShoulders')
+        },
+        {
+          type: 'title',
+          objectKey: t('aTypicalHeadAndShoulders')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_1.png'
+        },
+        {
+          type: 'text',
+          objectKey: t('whenThePriceRisesAnd')
+        },
+        {
+          type: 'text',
+          objectKey: t('whenYouFindAHeadAnd')
+        },
+        {
+          type: 'text',
+          objectKey: t('MoreCautiousTraders')
+        },
+        {
+          type: 'text',
+          objectKey: t('afterTheTradeIsOpened')
+        },
+        {
+          type: 'text',
+          objectKey: t('inAdditionYouMaySometimes')
+        },
+        {
+          type: 'title',
+          objectKey: t('theFigureBelowShowsThe')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_2.png'
+        },
+        {
+          type: 'title',
+          objectKey: t('doubleTopAndDoubleBottom')
+        },
+        {
+          type: 'text',
+          objectKey: t('doubleTopPatternOften')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_3.png'
+        },
+        {
+          type: 'text',
+          objectKey: t('nTermsOfTheTimingOfEntry')
+        },
+        {
+          type: 'text',
+          objectKey: t('theProfitTargetIsSetAtThe')
+        },
+        {
+          type: 'text',
+          objectKey: t('theReverseOfADoubleTop')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_4.png'
+        },
+        {
+          type: 'title',
+          objectKey: t('flagPattern')
+        },
+        {
+          type: 'text',
+          objectKey: t('theFlagPatternIsDifferent')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_5.png'
+        },
+        {
+          type: 'text',
+          objectKey: t('theAbovePictureIs')
+        },
+        {
+          type: 'text',
+          objectKey: t('takeTheFlagTrendInTheAbove')
+        },
+        {
+          type: 'text',
+          objectKey: t('calculateTheNumberOfPoints')
+        },
+        {
+          type: 'text',
+          objectKey: t('theFigureBelowShowsTheFlag')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_6.png'
+        },
+        {
+          type: 'text',
+          objectKey: t('theAboveContentCanBe')
+        }
+      ]
+    },
+    {
+      title: t('stopLossAndTakeProfit'),
+      complexContent: [
+        {
+          type: 'text',
+          objectKey: t('stopLossCanHelp')
+        },
+        {
+          type: 'title',
+          objectKey: t('exampleOfStopLoss')
+        },
+        {
+          type: 'text',
+          objectKey: t('supposeThereIsAn')
+        },
+        {
+          type: 'text',
+          objectKey: t('itIsWorthNotingThat')
+        },
+        {
+          type: 'title',
+          objectKey: t('howMuchStopLoss')
+        },
+        {
+          type: 'text',
+          objectKey: t('onceYouOpenAPosition')
+        },
+        {
+          type: 'title',
+          objectKey: t('trailingStopLoss')
+        },
+        {
+          type: 'text',
+          objectKey: t('wheneverThePriceMoves')
+        },
+        {
+          type: 'text',
+          objectKey: t('profitTargetProfit')
+        },
+        {
+          type: 'title',
+          objectKey: t('profitTarget')
+        },
+        {
+          type: 'text',
+          objectKey: t('profitTargetProfitTarget')
+        }
+      ]
+    },
+    {
+      title: t('exampleOfStopLoss'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('marketOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('aMarketOrder')
+        },
+        {
+          type: 'title',
+          objectKey: t('pendingOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('aPendingOrder')
+        },
+        {
+          type: 'title',
+          objectKey: t('typesOfPendingOrders')
+        },
+        {
+          type: 'text',
+          objectKey: t('stopLossPending')
+        },
+        {
+          type: 'text',
+          objectKey: t('takeProfitPending')
+        },
+        {
+          type: 'title',
+          objectKey: t('stopLossEntryOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('theFollowingFigure')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_7.png'
+        },
+        {
+          type: 'title',
+          objectKey: t('takeProfitPendingOrder')
+        },
+        {
+          type: 'text',
+          objectKey: t('theFigureBelowShows')
+        },
+        {
+          type: 'text',
+          objectKey: t('stopLossPendingOrders')
+        }
+      ]
+    },
+    {
+      title: t('chartAnalysis'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('readTheChart')
+        },
+        {
+          type: 'text',
+          objectKey: t('chartsAreTheCore')
+        },
+        {
+          type: 'text',
+          objectKey: t('theFirstThingTo')
+        },
+        {
+          type: 'title',
+          objectKey: t('timeXAxisFromLeftToRight')
+        },
+        {
+          type: 'text',
+          objectKey: t('theXAxisOnTheChart')
+        },
+        {
+          type: 'title',
+          objectKey: t('priceYAxisFromTopToBottom')
+        },
+        {
+          type: 'text',
+          objectKey: t('youCanReadThePrice')
+        },
+        {
+          type: 'title',
+          objectKey: t('priceComposition')
+        },
+        {
+          type: 'text',
+          objectKey: t('onTheCandlestick')
+        },
+        {
+          type: 'text',
+          objectKey: t('openingPriceThis')
+        },
+        {
+          type: 'text',
+          objectKey: t('highestPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('lowestPrice')
+        },
+        {
+          type: 'text',
+          objectKey: t('closingPriceThe')
+        },
+        {
+          type: 'text',
+          objectKey: t('atTheEndOfAPeriod')
+        }
+      ]
+    },
+    {
+      title: t('sellingPrice'),
+      complexContent: [
+        {
+          type: 'title',
+          objectKey: t('spread')
+        },
+        {
+          type: 'text',
+          objectKey: t('theCompleteQuotation')
+        },
+        {
+          type: 'text',
+          objectKey: t('theLargerTheTransaction')
+        },
+        {
+          type: 'text',
+          objectKey: t('forTradersWhoTrade')
+        },
+        {
+          type: 'image',
+          objectKey: '../assets/images/course_8.png'
+        },
+        {
+          type: 'text',
+          objectKey: t('theAboveIsAScreenshot')
+        },
+        {
+          type: 'title',
+          objectKey: t('buyOrderLongPosition')
+        },
+        {
+          type: 'text',
+          objectKey: t('quotation ')
+        },
+        {
+          type: 'text',
+          objectKey: t('theOpeningPriceForBuying')
+        },
+        {
+          type: 'title',
+          objectKey: t('sellOrderShortPosition')
+        },
+        {
+          type: 'text',
+          objectKey: t('theOpeningPriceForSelling')
+        },
+        {
+          type: 'text',
+          objectKey: t('inBothCases')
+        }
+      ]
+    }
   ];
-
-  useEffect(() => {
-    heightCalculation();
-  }, [windowWidth]);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      handleResize();
-      window.addEventListener('resize', handleResize);
-      handleResize();
-      return () => window.removeEventListener('resize', handleResize);
-    }
-  }, []);
-
-  function handleResize() {
-    setWindowWidth(window.innerWidth);
-  }
-
-  function heightCalculation() {
-    if (
-      document.getElementById('heightDetect2') &&
-      document.querySelector('body')
-    ) {
-      const bodyTop = document
-        .querySelector('body')
-        .getBoundingClientRect().top;
-      const divTop = document
-        .getElementById('heightDetect2')
-        .getBoundingClientRect().top;
-      setHeight(divTop - bodyTop);
-      return;
-    } else {
-      setTimeout(() => {
-        heightCalculation();
-      }, 500);
-    }
-  }
 
   return (
     <Wrapper>
-      <Flex
-        id="heightDetect2"
-        display="flex"
-        py={{ base: 10, xl: 20 }}
-        bgColor="gray.50"
-        direction="column"
-        align="center"
-      >
+      <Flex display="flex" p={10} direction="column" align="center">
         <InfoTitle title={t('intermediateTradingCourse')} />
         <InfoTitleSub title={t('makeYourTradingMore')} />
-      </Flex>
-      <Flex direction="column" align="center">
-        <Box width={'80vw'} my={10}>
-          <Accordion allowToggle>
-            <InfoAccordionMultiItem
-              title={t('MT4Tips')}
-              content={data[0]}
-              callback={() => window.scroll(0, height + 100)}
-            />
 
-            <InfoAccordionMultiItem
-              title={t('riskManagement')}
-              content={data[1]}
-              callback={() => window.scroll(0, height + 140)}
-            />
+        <InfoAccordion data={data} />
 
-            <InfoAccordionMultiItem
-              title={t('howToCreateATradingStrategy')}
-              content={data[2]}
-              callback={() => window.scroll(0, height + 180)}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('commonChartPatterns')}
-              content={data[3]}
-              callback={() => window.scroll(0, height + 220)}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('stopLossAndTakeProfit')}
-              content={data[4]}
-              callback={() => window.scroll(0, height + 260)}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('exampleOfStopLoss')}
-              content={data[5]}
-              callback={() => window.scroll(0, height + 300)}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('chartAnalysis')}
-              content={data[6]}
-              callback={() => window.scroll(0, height + 340)}
-            />
-
-            <InfoAccordionMultiItem
-              title={t('sellingPrice')}
-              content={data[7]}
-              callback={() => window.scroll(0, height + 380)}
-            />
-          </Accordion>
-        </Box>
         <Flex justifyContent="space-around" w="80vw">
-          <Box mt={3} mb={10}>
+          <Box my={5}>
             <NextLink href="/learnTrade/basicTrading" locale={currentLang}>
               <IconButton
                 size="lg"
@@ -450,7 +783,7 @@ const intermediateTrading: React.FC<{}> = () => {
             </NextLink>
           </Box>
 
-          <Box mt={3} mb={10}>
+          <Box my={5}>
             <NextLink href="/learnTrade/advancedTrading" locale={currentLang}>
               <IconButton
                 size="lg"
@@ -459,8 +792,8 @@ const intermediateTrading: React.FC<{}> = () => {
                   bgColor: 'gray.600'
                 }}
                 color="white"
-                title={t('AdvancedTradingCourse')}
-                aria-label={t('AdvancedTradingCourse')}
+                title={t('advancedTradingCourse')}
+                aria-label={t('advancedTradingCourse')}
                 icon={<ArrowForwardIcon fontSize="40px" />}
               />
             </NextLink>

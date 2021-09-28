@@ -219,7 +219,7 @@ export type IntermediateTrading = {
   openingAndClosingPositions: string;
   /* If you want to be a consistent */
   ifYouWantToBeAConsistent: string;
-  /* What is a chart pattern？ */
+  /* What is a chart pattern? */
   whatIsAChartPattern: string;
   /* In the market， buyers and */
   inTheMarketBuyersAnd: string;
@@ -289,6 +289,8 @@ export type IntermediateTrading = {
   profitTargetProfitTarget: string;
   /* Market order */
   marketOrder: string;
+  /* A market order */
+  aMarketOrder: string;
   /* Pending order */
   pendingOrder: string;
   /* A pending order  */

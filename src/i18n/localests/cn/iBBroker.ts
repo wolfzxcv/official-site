@@ -33,7 +33,7 @@ export const iBBroker: IBBroker = {
   highlyTransparentAgency: '高度透明的代理制度，所有设定项目一目了然。',
   viewCustomerProfile: '检视客户资料数据',
   getCustomerTransaction: '随时获取客户交易报告和收入报表、交易量等统计数据。',
-  howMuchCanIProfit: '我能获利多少？',
+  howMuchCanIProfit: '我能获利多少?',
   accountTypeOfYourClient: '您客户的帐户类型',
   yourVlientSTransactionVolume: '您客户的交易量',
   commissionPerLot: '每一手佣金',
@@ -42,5 +42,5 @@ export const iBBroker: IBBroker = {
   becomingAnAgentBroker:
     '成为代理经纪人将是增加收入的最简单方法，因为无需注册成本。您可以在任何地方工作，甚至通过网站推广您的服务。同时可以直接将交易者',
   iWantToBeAnAgent: '我想成为代理人',
-  standard:'标准'
+  standard: '标准'
 };
