@@ -1,25 +1,25 @@
 /* 中级交易课程 */
-export type IntermediateTrading={
-    /********
+export type IntermediateTrading = {
+  /********
    * intermediateTrading
    ********/
   /* Understand chart patterns */
-  understandChartPatterns:string;
+  understandChartPatterns: string;
   /* Make your trading more */
-  makeYourTradingMore:string;
-   /** Intermediate Trading Course */
+  makeYourTradingMore: string;
+  /** Intermediate Trading Course */
   intermediateTradingCourse: string;
   /** Basic Trading Course */
-  basicTradingCourse:string,
+  basicTradingCourse: string;
   /** Advanced Trading Course */
-  advancedTradingCourse:string,
-   /** MT4 tips */
-  mT4Tips: string;
+  advancedTradingCourse: string;
+  /** MT4 tips */
+  MT4Tips: string;
   /** Risk management */
   riskManagement: string;
-   /** How to create a trading strategy */
+  /** How to create a trading strategy */
   howToCreateATradingStrategy: string;
-   /** Common chart patterns */
+  /** Common chart patterns */
   commonChartPatterns: string;
   /** Stop loss and take profit  */
   stopLossAndTakeProfit: string;
@@ -30,333 +30,333 @@ export type IntermediateTrading={
   /** Selling price */
   sellingPrice: string;
   /* Personalization of the chart */
-  personalizationOfTheChart:string;
+  personalizationOfTheChart: string;
   /* You can personalize your chart */
-  youCanPersonalizeYourChart:string;
+  youCanPersonalizeYourChart: string;
   /* Hiding the selling price line */
-  hidingTheSellingPriceLine:string;
+  hidingTheSellingPriceLine: string;
   /* If you add a lot of indicators */
-  ifYouAddALotOfIndicators:string;
+  ifYouAddALotOfIndicators: string;
   /* Set default chart */
-  setDefaultChart:string;
+  setDefaultChart: string;
   /* Once you have set up a very */
-  onceYouHaveSetUpAVery:string;
+  onceYouHaveSetUpAVery: string;
   /* If you want to set the most  */
-  ifYouWantToSetTheMost:string;
+  ifYouWantToSetTheMost: string;
   /* Economic Calendar */
-  economicCalendar:string;
+  economicCalendar: string;
   /* So， how can we keep an eye */
-  soHowCanWeKeepAnEye:string;
+  soHowCanWeKeepAnEye: string;
   /* The economic calendar lists */
-  theEconomicCalendarLists:string;
+  theEconomicCalendarLists: string;
   /* Customization of toolbars */
-  customizationOfToolbars:string;
+  customizationOfToolbars: string;
   /* Common */
-  common:string;
+  common: string;
   /* Chart */
-  chart:string;
+  chart: string;
   /* Draw Line */
-  drawLine:string;
+  drawLine: string;
   /* Cycle */
-  cycle:string;
+  cycle: string;
   /* You can simply drag the */
-  youCanSimplyDragThe:string;
+  youCanSimplyDragThe: string;
   /* Here you can complete the */
-  hereYouCanComplete:string;
+  hereYouCanComplete: string;
   /* Through the above operations */
-  throughTheAboveOperations:string;
+  throughTheAboveOperations: string;
   /* Using shortcut keys */
-  usingShortcutKeys:string;
+  usingShortcutKeys: string;
   /* Keyboard shortcuts are */
-  keyboardShortcutsAre:string;
+  keyboardShortcutsAre: string;
   /* In the long run， this will */
-  inTheLongRunThisWill:string;
+  inTheLongRunThisWill: string;
   /* Terminal */
-  terminal:string;
+  terminal: string;
   /* Control+T */
-  controlT:string;
+  controlT: string;
   /* This is the main window */
-  thisIsTheMainWindow:string;
+  thisIsTheMainWindow: string;
   /* Navigate */
-  navigate:string;
+  navigate: string;
   /* Control+N */
-  controlN:string;
+  controlN: string;
   /* To add indicators */
-  toAddIndicators:string;
+  toAddIndicators: string;
   /* Market Quotation */
-  marketQuotation:string;
+  marketQuotation: string;
   /* Control+M */
-  controlM:string;
+  controlM: string;
   /* View product quotation. */
-  viewProductQuotation:string;
+  viewProductQuotation: string;
   /* Data Window */
-  dataWindow:string;
+  dataWindow: string;
   /* Control+D */
-  controlD:string;
+  controlD: string;
   /* View all data information */
-  viewAllDataInformation:string;
+  viewAllDataInformation: string;
   /* On the MT4 platform */
-  onTheMT4Platform:string;
+  onTheMT4Platform: string;
   /* The specific operation */
-  theSpecificOperation:string;
+  theSpecificOperation: string;
   /* Favorite indicator list */
-  favoriteIndicatorList:string;
+  favoriteIndicatorList: string;
   /* In order to simplify the */
-  inOrderToSimplifyThe:string;
+  inOrderToSimplifyThe: string;
   /* Open the navigation window */
-  openTheNavigationWindow:string;
+  openTheNavigationWindow: string;
   /* Expand the relevant content */
-  expandTheRelevantContent:string;
+  expandTheRelevantContent: string;
   /* move the mouse cursor */
-  moveTheMouseCursor:string;
+  moveTheMouseCursor: string;
   /* Right-click the mouse; */
-  rightClickTheMouse:string;
+  rightClickTheMouse: string;
   /* Select "Add to Favorites". */
-  selectAddToFavorites:string;
+  selectAddToFavorites: string;
   /* Alerts */
-  alerts:string;
+  alerts: string;
   /* Through the alert function */
-  throughTheAlertFunction:string;
+  throughTheAlertFunction: string;
   /*  Pay attention to the risk*/
-  payAttentionToTheRisk:string;
+  payAttentionToTheRisk: string;
   /* Before placing a trade */
-  beforePlacingATrade:string;
+  beforePlacingATrade: string;
   /* The setting of the stop */
-  theSettingOfTheStop:string;
+  theSettingOfTheStop: string;
   /* Some traders are only willing */
-  someTradersAreOnlyWilling:string;
+  someTradersAreOnlyWilling: string;
   /* Once you have determined this */
-  onceYouHaveDeterminedThis:string;
+  onceYouHaveDeterminedThis: string;
   /* The market price gap refers  */
-  theMarketPriceGapRefers:string;
+  theMarketPriceGapRefers: string;
   /* Example */
-  example:string;
+  example: string;
   /* uppose you have AUD 10 */
-  upposeYouHaveAUD10:string;
+  upposeYouHaveAUD10: string;
   /* Trade 1 lot of AUD/USD in an */
-  trade1LotOfAUDUSDInAn:string;
+  trade1LotOfAUDUSDInAn: string;
   /* Transaction volume */
-  transactionVolume:string;
+  transactionVolume: string;
   /* 1 pip = 0.0001 */
-  yiPip00001:string;
+  yiPip00001: string;
   /* AUD/USD exchange rate */
-  aUDUSDexchangeRate:string;
+  aUDUSDexchangeRate: string;
   /* Pip value = 0.0001/0.7465 */
-  pipValue0000107465:string;
+  pipValue0000107465: string;
   /* Trade 1 lot of NZD/CAD in */
-  trade1LotOfNZDCADin:string;
+  trade1LotOfNZDCADin: string;
   /* Trading volume */
-  tradingVolume:string;
+  tradingVolume: string;
   /* AUD/CAD exchange rate */
-  aUDCADExchangeRate:string;
+  aUDCADExchangeRate: string;
   /* Pip value = 0.0001/0.9907  */
-  pipValue0000109907:string;
+  pipValue0000109907: string;
   /* As you can see， trading different  */
-  asYouCanSeeTradingDifferent:string;
+  asYouCanSeeTradingDifferent: string;
   /* To calculate the specific */
-  toCalculateTheSpecificPrice:string;
+  toCalculateTheSpecificPrice: string;
   /* AUD/USD——$200 / $13.39 */
-  aUDUSD:string;
+  aUDUSD: string;
   /* NZD/CAD——$200 / $10.09 */
-  nZDCAD:string;
+  nZDCAD: string;
   /* If you want to set a larger stop */
-  ifYouWantToSetALargerStop:string;
+  ifYouWantToSetALargerStop: string;
   /* n the case of trading */
-  inTheCaseOfTrading:string;
+  inTheCaseOfTrading: string;
   /* Please remember that */
-  pleaseRememberThat:string;
+  pleaseRememberThat: string;
   /* If you want to become a trader */
-  ifYouWantToBecomeATrader:string;
+  ifYouWantToBecomeATrader: string;
   /* Assess your skills */
-  assessYourSkills:string;
+  assessYourSkills: string;
   /* Have you tested your strategy */
-  haveYouTestedYourStrategy:string;
+  haveYouTestedYourStrategy: string;
   /* Psychological preparation */
-  psychologicalPreparation:string;
+  psychologicalPreparation: string;
   /* Trading can affect your emotions */
-  tradingCanAffectYourEmotions:string;
+  tradingCanAffectYourEmotions: string;
   /* Risks Management */
-  risksManagement:string;
+  risksManagement: string;
   /* When you are trading */
-  whenYouAreTrading:string;
+  whenYouAreTrading: string;
   /* Setting goals */
-  settingGoals:string;
+  settingGoals: string;
   /* Before you start trading */
-  beforeYouStartTrading:string;
+  beforeYouStartTrading: string;
   /* Prepare to trade */
-  prepareToTrade:string;
+  prepareToTrade: string;
   /* Before you open your first */
-  beforeYouOYourFirst:string;
+  beforeYouOYourFirst: string;
   /* Position opening and closing */
-  positionOpeningAndClosing:string;
+  positionOpeningAndClosing: string;
   /* Before opening a position */
-  beforeOpeningAPosition:string;
+  beforeOpeningAPosition: string;
   /* You should open positions */
-  youShouldOpenPositions:string;
+  youShouldOpenPositions: string;
   /* You should also close the position */
-  youShouldAlsoCloseThePosition:string;
+  youShouldAlsoCloseThePosition: string;
   /* Record all matters: */
-  recordAllMatters:string;
+  recordAllMatters: string;
   /* Record the overall trading */
-  recordTheOverallTrading:string;
+  recordTheOverallTrading: string;
   /* The key information that needs */
-  theKeyInformationThatNeeds:string;
+  theKeyInformationThatNeeds: string;
   /* opening price； */
-  openingPrice:string;
+  openingPrice: string;
   /* closing price； */
-  closingPrice:string;
+  closingPrice: string;
   /* your initial stop loss */
-  yourInitialStopLoss:string;
+  yourInitialStopLoss: string;
   /* position size； */
-  positionSize:string;
+  positionSize: string;
   /* reason for opening a position; */
-  reasonForOpeningAPosition:string;
+  reasonForOpeningAPosition: string;
   /* psychology during the */
-  psychologyDuringThe:string;
+  psychologyDuringThe: string;
   /* whether it is profit or loss; */
-  whetherItIsProfitOrLoss:string;
+  whetherItIsProfitOrLoss: string;
   /* opening and closing positions */
-  openingAndClosingPositions:string;
+  openingAndClosingPositions: string;
   /* If you want to be a consistent */
-  ifYouWantToBeAConsistent:string;
+  ifYouWantToBeAConsistent: string;
   /* What is a chart pattern？ */
-  whatIsAChartPattern:string;
+  whatIsAChartPattern: string;
   /* In the market， buyers and */
-  inTheMarketBuyersAnd:string;
+  inTheMarketBuyersAnd: string;
   /* Typical chart patterns */
-  typicalChartPatterns:string;
+  typicalChartPatterns: string;
   /* Head and Shoulders */
-  headAndShoulders:string;
+  headAndShoulders: string;
   /* Top and Head and Shoulders */
-  topAndHeadAndShoulders:string;
+  topAndHeadAndShoulders: string;
   /* A typical head and shoulders */
-  aTypicalHeadAndShoulders:string;
+  aTypicalHeadAndShoulders: string;
   /* When the price rises and */
-  whenThePriceRisesAnd:string;
+  whenThePriceRisesAnd: string;
   /* When you find a head and  */
-  whenYouFindAHeadAnd:string;
+  whenYouFindAHeadAnd: string;
   /* More cautious traders  */
-  moreCautiousTraders:string;
+  moreCautiousTraders: string;
   /* After the trade is opened */
-  afterTheTradeIsOpened:string;
+  afterTheTradeIsOpened: string;
   /* In addition， you may sometimes */
-  inAdditionYouMaySometimes:string;
+  inAdditionYouMaySometimes: string;
   /* The figure below shows the  */
-  theFigureBelowShowsThe:string;
+  theFigureBelowShowsThe: string;
   /* Double top and double bottom */
-  doubleTopAndDoubleBottom:string;
+  doubleTopAndDoubleBottom: string;
   /* Double top pattern often  */
-  doubleTopPatternOften:string;
+  doubleTopPatternOften: string;
   /* n terms of the timing of entry */
-  nTermsOfTheTimingOfEntry:string;
+  nTermsOfTheTimingOfEntry: string;
   /* The profit target is set at the */
-  theProfitTargetIsSetAtThe:string;
+  theProfitTargetIsSetAtThe: string;
   /* The reverse of a double top */
-  theReverseOfADoubleTop:string;
+  theReverseOfADoubleTop: string;
   /* flag pattern */
-  flagPattern:string;
+  flagPattern: string;
   /* The flag pattern is different */
-  theFlagPatternIsDifferent:string;
+  theFlagPatternIsDifferent: string;
   /* The above picture is  */
-  theAbovePictureIs:string
+  theAbovePictureIs: string;
   /* Take the flag trend in the above */
-  takeTheFlagTrendInTheAbove:string;
+  takeTheFlagTrendInTheAbove: string;
   /* Calculate the number of points  */
-  calculateTheNumberOfPoints:string;
+  calculateTheNumberOfPoints: string;
   /* The figure below shows the flag */
-  theFigureBelowShowsTheFlag:string;
+  theFigureBelowShowsTheFlag: string;
   /* The above content can be */
-  theAboveContentCanBe:string;
+  theAboveContentCanBe: string;
   /* Stop loss can help  */
-  stopLossCanHelp:string;
+  stopLossCanHelp: string;
   /* Example of Stop Loss: */
-  supposeThereIsAn:string;
+  supposeThereIsAn: string;
   /* It is worth noting that */
-  itIsWorthNotingThat:string;
+  itIsWorthNotingThat: string;
   /* How much stop loss to set? */
-  howMuchStopLoss:string;
+  howMuchStopLoss: string;
   /* Once you open a position */
-  onceYouOpenAPosition:string;
+  onceYouOpenAPosition: string;
   /* Trailing stop loss */
-  trailingStopLoss:string;
+  trailingStopLoss: string;
   /* Whenever the price moves */
-  wheneverThePriceMoves:string;
+  wheneverThePriceMoves: string;
   /* Profit target Profit  */
-  profitTargetProfit:string;
+  profitTargetProfit: string;
   /* Profit target */
-  profitTarget:string;
+  profitTarget: string;
   /* Profit target Profit target */
-  profitTargetProfitTarget:string;
+  profitTargetProfitTarget: string;
   /* Market order */
-  marketOrder:string;
+  marketOrder: string;
   /* Pending order */
-  pendingOrder:string;
+  pendingOrder: string;
   /* A pending order  */
-  aPendingOrder:string;
+  aPendingOrder: string;
   /* Types of pending orders */
-  typesOfPendingOrders:string;
+  typesOfPendingOrders: string;
   /* Stop-loss pending */
-  stopLossPending:string;
+  stopLossPending: string;
   /* Take-profit pending */
-  takeProfitPending:string;
+  takeProfitPending: string;
   /* Stop Loss Entry Order */
-  stopLossEntryOrder:string;
+  stopLossEntryOrder: string;
   /* The following figure */
-  theFollowingFigure:string;
+  theFollowingFigure: string;
   /* Take Profit Pending Order */
-  takeProfitPendingOrder:string;
+  takeProfitPendingOrder: string;
   /* The figure below shows */
-  theFigureBelowShows:string;
+  theFigureBelowShows: string;
   /* Stop-loss pending orders */
-  stopLossPendingOrders:string;
+  stopLossPendingOrders: string;
   /* Read the chart */
-  readTheChart:string;
+  readTheChart: string;
   /* Charts are the core */
-  chartsAreTheCore:string;
+  chartsAreTheCore: string;
   /* The first thing to */
-  theFirstThingTo:string;
+  theFirstThingTo: string;
   /* Time: X axis (from left to right): */
-  timeXAxisFromLeftToRight:string;
+  timeXAxisFromLeftToRight: string;
   /* The X axis on the chart */
-  theXAxisOnTheChart:string;
+  theXAxisOnTheChart: string;
   /* Price: Y axis (from top to bottom) */
-  priceYAxisFromTopToBottom:string;
+  priceYAxisFromTopToBottom: string;
   /* You can read the price  */
-  youCanReadThePrice:string;
+  youCanReadThePrice: string;
   /* Price composition */
-  priceComposition:string;
+  priceComposition: string;
   /* On the candlestick */
-  onTheCandlestick:string;
+  onTheCandlestick: string;
   /* -Opening price: This */
-  openingPriceThis:string;
+  openingPriceThis: string;
   /* - Highest price:  */
-  highestPrice:string;
+  highestPrice: string;
   /* - Lowest price */
-  lowestPrice:string;
+  lowestPrice: string;
   /* - Closing price:  */
-  closingPriceThe:string;
+  closingPriceThe: string;
   /* At the end of a period */
-  atTheEndOfAPeriod:string;
+  atTheEndOfAPeriod: string;
   /* Spread */
-  spread:string;
+  spread: string;
   /* The complete quotation */
-  theCompleteQuotation:string;
+  theCompleteQuotation: string;
   /* The larger the transaction */
-  theLargerTheTransaction:string;
+  theLargerTheTransaction: string;
   /* For traders who trade */
-  forTradersWhoTrade:string;
+  forTradersWhoTrade: string;
   /* The above is a screenshot  */
-  theAboveIsAScreenshot:string;
+  theAboveIsAScreenshot: string;
   /* Buy order (long position) */
-  buyOrderLongPosition:string;
+  buyOrderLongPosition: string;
   /* Quotation: */
-  quotation:string;
+  quotation: string;
   /* The opening price for buying */
-  theOpeningPriceForBuying:string;
-  /* Sell ​​order (short position) */
-  sellOrderShortPosition:string;
+  theOpeningPriceForBuying: string;
+  /* Sell order (short position) */
+  sellOrderShortPosition: string;
   /* The opening price for selling */
-  theOpeningPriceForSelling:string;
+  theOpeningPriceForSelling: string;
   /* In both cases */
-  inBothCases:string;
-}
+  inBothCases: string;
+};
