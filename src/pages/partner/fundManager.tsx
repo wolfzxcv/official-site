@@ -164,16 +164,6 @@ const fundManager: React.FC<{}> = () => {
         color="white"
         textAlign={isArabic ? 'right' : 'left'}
         position="relative"
-        _before={{
-          xl: {
-            content: '""',
-            position: 'absolute',
-            left: '0',
-            width: '40px',
-            height: '100%',
-            bg: 'red.700'
-          }
-        }}
       >
         <Box bg="red.700" w={{ base: '100%', xl: 500 }} py={20} px={16}>
           <Icon as={GiReceiveMoney} boxSize={10} mb={10} />
