@@ -216,6 +216,8 @@ export const intermediateTrading: IntermediateTrading = {
   profitTargetProfitTarget:
     "Profit*target*Profit*target*is*a*pre-set*price*at*which*you*will*close*your*position*profitably.*Before*you*plan*to*open*a*position,*you*should*determine*where*your*profit*price*is*set.*The*profit*target*is*an*important*part*of*order*management.*As*long*as*the*market*price*reaches*the*profit*price,*you*don't*need*to*monitor*the*position*next*to*the*computer,*and*the*profit*will*help*you*automatically*close*the*profit.",
   marketOrder: 'Market*order',
+  aMarketOrder:
+    'A*market*order*is*a*trader*who*manually*opens*a*position*and*executes*an*order*at*the*current*market*tradable*price.*Day*traders*and*some*scalping*traders*are*more*inclined*to*open*market*orders*for*trading.',
   pendingOrder: 'Pending*order',
   aPendingOrder:
     'A*pending*order*is*an*order*with*a*preset*opening*price.*When*the*market*reaches*the*preset*price,*a*pending*order*will*automatically*open*a*position.*If*you*cannot*monitor*price*fluctuations*in*front*of*your*computer*for*a*long*time,*then*pending*orders*can*be*very*useful*for*you.*In*range*trading*(the*price*moves*back*and*forth*within*a*range)*and*breakout*trading*(the*price*breaks*through*the*range),*pending*orders*can*also*be*very*helpful.',

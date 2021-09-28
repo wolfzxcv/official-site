@@ -11,7 +11,7 @@ export const advancedTrading: AdvancedTrading = {
   supportAndResistance: '支撑位和阻力位',
   marketParticipants: '市场参与者',
   tradingStyle: '交易风格',
-  whatIsTechnical: '什麽是技术分析？',
+  whatIsTechnical: '什麽是技术分析?',
   technicalAnalysisPredicts:
     '技术分析通过观察历史价格来理解市场走势，并据此制定交易策略。它与基本面分析一起，是分析金融市场的主要分析方法。',
   unlikeFundamentalAnalysis:
@@ -28,7 +28,7 @@ export const advancedTrading: AdvancedTrading = {
     '技术分析的作用并不是简单的预测市场价格的涨跌，它的真正意义在于帮助交易者更好的理解市场并制定出调节当前市场的交易策略。',
   commonMethodsOf:
     '技术分析的常见方法包括图表形态和技术指标，我们会另外开辟两篇文章来介绍它们。在本篇中，我们将介绍技术分析的一项基本技能——辨别趋势。',
-  whyIdentifyingTrends: '为什么要辨别趋势？',
+  whyIdentifyingTrends: '为什么要辨别趋势?',
   justUnderstanding:
     '只是看懂图表价格并不能帮助我们做出交易决策，您还需要了解如何辨别图表上的价格趋势。图表趋势分为三种类型：上升、下跌和盘整。在上升和下跌的单边趋势中，人们往往采取突破交易策略，也即只交易一个方向，买涨或买跌。而在盘整趋势中，人们往往采取高抛低吸的区间交易策略，当价格涨到盘整区间的顶部时卖出，跌至盘整区间的底部时买进。因此，判断汇价走势处在上涨/下跌的单边趋势中，还是处在盘整的区间趋势中，对交易者尤为重要，只有对趋势的把握准确，我们才能采用尽可能正确的交易方法。',
   thereAreMany:
@@ -50,7 +50,7 @@ export const advancedTrading: AdvancedTrading = {
     '画趋势线的原则是，在所考虑时间段内的上涨（下跌）趋势中，找到相关的最高点和最低点，用直线连接起来，其中价格不能穿越趋势线。画出来的趋势线越长，所代表的单边力量就越强大，价格在下跌（上涨）到趋势线附近折返的可能性就越大。',
   drawingATrend:
     '画出趋势线可以帮助我们更清晰地辨别当前市场的趋势。同时，我也需要依据趋势线来判断一段趋势是否仍然延续。',
-  fundamentalAnalysisOverview: '基本面分析概述？',
+  fundamentalAnalysisOverview: '基本面分析概述?',
   technicalAnalysisStudies:
     '技术分析研究的是历史价格，交易者只关注图表和价格就能作出交易决策。基本面分析看起来会更复杂，它研究的是影响一国经济和货币汇率变化的核心要素，旨在通过分析一系列经济指标、政府决策和事件，来预测某一经济周期中外汇价格变化和市场趋势。',
   technicalAnalysisReveals:

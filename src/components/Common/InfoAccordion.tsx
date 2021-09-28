@@ -5,12 +5,15 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
-  Link
+  Image,
+  Link,
+  Text
 } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Locales } from '../../i18n/locales';
+import { StyledBox } from '../Styled/Styled';
 
 interface InfoAccordionProps {
   data: InfoAccordionItemProps[];
@@ -28,11 +31,25 @@ const InfoAccordion: React.FC<InfoAccordionProps> = ({
   );
 };
 
+type IAccordionItemType =
+  | 'title'
+  | 'image'
+  | 'text'
+  | 'text'
+  | 'buttonLink'
+  | 'twoSection';
+
+interface IComplexContent {
+  type: IAccordionItemType;
+  objectKey: string;
+  secondKey?: string;
+}
 export interface InfoAccordionItemProps {
   date?: string;
   title: string;
   htmlContent?: string;
   content?: string[];
+  complexContent?: IComplexContent[];
   internalHref?: string;
   externalHref?: string;
 }
@@ -41,6 +58,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
   date = '',
   title,
   content = [],
+  complexContent = [],
   htmlContent = '',
   internalHref = '',
   externalHref = ''
@@ -71,38 +89,92 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
         </AccordionButton>
       </h2>
       <AccordionPanel pb={4} fontSize={{ base: '12px', md: 'inherit' }}>
-        {content && content.length
-          ? content.map((each) =>
-              internalHref ? (
-                <NextLink key={each} href={internalHref} locale={currentLang}>
-                  <Box
-                    py={3}
-                    textAlign={isArabic ? 'right' : 'left'}
-                    _hover={{ cursor: 'pointer' }}
-                  >
-                    {each}
-                  </Box>
-                </NextLink>
-              ) : externalHref ? (
+        {content &&
+          content.map((each) =>
+            internalHref ? (
+              <NextLink key={each} href={internalHref} locale={currentLang}>
+                <Box
+                  py={3}
+                  textAlign={isArabic ? 'right' : 'left'}
+                  _hover={{ cursor: 'pointer' }}
+                >
+                  {each}
+                </Box>
+              </NextLink>
+            ) : externalHref ? (
+              <Link
+                key={each}
+                _hover={{
+                  textDecoration: 'none'
+                }}
+                href={externalHref}
+                isExternal
+              >
+                <Box py={3} textAlign={isArabic ? 'right' : 'left'}>
+                  {each}
+                </Box>
+              </Link>
+            ) : (
+              <Box py={3} key={each} textAlign={isArabic ? 'right' : 'left'}>
+                {each}
+              </Box>
+            )
+          )}
+        {complexContent &&
+          complexContent.map((each, index) => (
+            <Fragment key={each.type + each.objectKey + index}>
+              {each.type === 'text' && (
+                <Box py={2} textAlign={isArabic ? 'right' : 'left'}>
+                  {each.objectKey}
+                </Box>
+              )}
+              {each.type === 'title' && (
+                <Box
+                  fontWeight="bold"
+                  pt={{ base: 5, md: 10 }}
+                  pb={2}
+                  textAlign={isArabic ? 'right' : 'left'}
+                >
+                  {each.objectKey}
+                </Box>
+              )}
+              {each.type === 'twoSection' && (
+                <Box textAlign={isArabic ? 'right' : 'left'}>
+                  <Text py={2}>
+                    <span style={{ fontWeight: 'bold' }}>{each.objectKey}</span>{' '}
+                    <span>{each.secondKey}</span>
+                  </Text>
+                </Box>
+              )}
+              {each.type === 'image' && <Image py={2} src={each.objectKey} />}
+              {each.type === 'buttonLink' && each.secondKey && (
                 <Link
-                  key={each}
                   _hover={{
                     textDecoration: 'none'
                   }}
-                  href={externalHref}
+                  href={each.secondKey}
                   isExternal
                 >
-                  <Box py={3} textAlign={isArabic ? 'right' : 'left'}>
-                    {each}
-                  </Box>
+                  <StyledBox
+                    mb={10}
+                    p={2}
+                    bg="red.600"
+                    color="white"
+                    fontSize="14px"
+                    textAlign="center"
+                    width="250px"
+                    _hover={{
+                      bgColor: 'red.500',
+                      cursor: 'pointer',
+                      transition: '1s'
+                    }}
+                  >
+                    {each.objectKey}
+                  </StyledBox>
                 </Link>
-              ) : (
-                <Box py={3} key={each} textAlign={isArabic ? 'right' : 'left'}>
-                  {each}
-                </Box>
-              )
-            )
-          : null}
+              )}
+            </Fragment>
+          ))}
         {htmlContent && (
           <Box my={2} dangerouslySetInnerHTML={{ __html: htmlContent }} />
         )}

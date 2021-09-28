@@ -156,7 +156,7 @@ export const intermediateTrading: IntermediateTrading = {
     'membuka*dan*menutup*posisi*Tangkapan*Skrin*carta*masa.',
   ifYouWantToBeAConsistent:
     'Sekiranya*anda*ingin*menjadi*pedagang*yang*konsisten,*mempunyai*strategi*perdagangan*sangat*penting-jangan*sekali-kali*memandang*rendah*kekuatan*rancangan.',
-  whatIsAChartPattern: 'Apakah*corak*carta？',
+  whatIsAChartPattern: 'Apakah*corak*carta?',
   inTheMarketBuyersAnd:
     'Di*pasaran,*pembeli*dan*penjual*bermain*permainan*kuasa*sepanjang*masa*dan*carta*adalah*catatan*hasil*permainan*ini.*Orang*akan*secara*beransur-ansur*menemui*beberapa*corak*carta*khas*pada*carta.*Dengan*pertolongan*mereka,*orang*dapat*melihat*dengan*jelas*sama*ada*pembeli*dominan*atau*penjualnya*kuat*di*pasaran.*Lebih-lebih*lagi,*dengan*corak*klasik*ini*muncul*berulang*kali,*orang*mendapati*bahawa*perubahan*yang*sama*dalam*kekuatan*pembeli*dan*penjual*selalu*muncul*di*pasaran.*Oleh*itu,*kita*dapat*menggunakan*pengalaman*dari*corak*pembelajaran*untuk*meramalkan*trend*tinjauan*pasaran.*Ini*adalah*analisa*corak.',
   typicalChartPatterns:
@@ -218,6 +218,8 @@ export const intermediateTrading: IntermediateTrading = {
   profitTargetProfitTarget:
     'Sasaran*keuntungan*adalah*harga*yang*telah*ditetapkan*di*mana*anda*akan*menutup*posisi*anda*dengan*menguntungkan.*Sebelum*anda*merancang*untuk*membuka*kedudukan,*anda*harus*menentukan*di*mana*harga*keuntungan*anda*ditetapkan.*Sasaran*keuntungan*adalah*bahagian*penting*dalam*pengurusan*pesanan.*Selagi*harga*pasaran*mencapai*harga*keuntungan,*anda*tidak*perlu*memantau*kedudukan*di*sebelah*komputer*dan*keuntungan*akan*membantu*anda*menutup*keuntungan*secara*automatik.',
   marketOrder: 'Market*order',
+  aMarketOrder:
+    'Pesanan*pasaran*adalah*peniaga*yang*secara*manual*membuka*posisi*dan*melaksanakan*pesanan*pada*harga*yang*dapat*diperdagangkan*di*pasaran*saat*ini.*Pedagang*harian*dan*beberapa*pedagang*pedas*lebih*cenderung*untuk*membuka*pesanan*pasaran*untuk*perdagangan.',
   pendingOrder: 'Pending*order',
   aPendingOrder:
     'Pending*order*adalah*order*dengan*harga*pembukaan*yang*telah*ditetapkan.*Apabila*pasaran*mencapai*harga*yang*telah*ditetapkan,*pending*order*akan*secara*automatik*membuka*posisi.*Sekiranya*anda*tidak*dapat*memantau*turun*naik*harga*di*depan*komputer*anda*dalam*jangka*masa*yang*lama,*pesanan*yang*belum*selesai*dapat*sangat*berguna*untuk*anda.*Dalam*perdagangan*jarak*(harga*bergerak*berulang-alik*dalam*julat)*dan*perdagangan*pelarian*(harga*menembus*julat),*pending*order*juga*sangat*membantu.',

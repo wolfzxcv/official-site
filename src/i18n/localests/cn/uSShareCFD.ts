@@ -14,7 +14,7 @@ export const uSShareCFD: USShareCFD = {
     '通过杠杆交易股票交易者跟WCG交易股票差价合约，只需金额相对少的初始入金，即可获得完整敞口。',
   WCGOffersZeroCommission:
     '没有佣金或隐藏费用在WCG交易股票差价合约既是免佣金，也不就交易收取银行手续费，让交易者更有利可图。',
-  howDoITradeCFDShares: '如何与WCG交易股票差价合约？',
+  howDoITradeCFDShares: '如何与WCG交易股票差价合约?',
   whenTradingASingleCFDShare:
     '当交易单个股票差价合约股票时，相关公司将采取公司行动，例如派发现金股息。当相关公司发放现金股息时，WCG将会对客户的账户作出相应调整，并采取两项行动：',
   clientsWhoHoldBUY:
@@ -33,7 +33,7 @@ export const uSShareCFD: USShareCFD = {
   reserveShareSplit: '反向股票分割：差价合约价格将上涨',
   shareSplit: '股票分割：差价合约价格将下跌',
   openPositions:
-    '苹果公司差价合约的未平仓合约。难道不该只说「持有相关差价合约未平仓合约的客户」吗？',
+    '苹果公司差价合约的未平仓合约。难道不该只说「持有相关差价合约未平仓合约的客户」吗?',
   however:
     '不过，单一股票CFD也将受到公司行为的影响，当上市公司出现任何业务变化（如股票分割、储备股分拆分和股息支付等）时，可能会发生这种情况，从而可能影响公司的财务状况、其股价表现和股东利益。',
   dividends: '股息',

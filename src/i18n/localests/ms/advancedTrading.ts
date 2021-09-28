@@ -8,10 +8,10 @@ export const advancedTrading: AdvancedTrading = {
   technicalAnalysis: 'Teknikal*analisis*dan*trend*pasaran',
   fundamentalAnalysis: 'Analisa*asas',
   fibonacciRetracementLine: 'Fibonacci*retracement',
-  supportAndResistance: 'Fibonacci*retracement',
+  supportAndResistance: 'Sokongan*dan*rintangan',
   marketParticipants: 'Peserta*pasaran',
   tradingStyle: 'Gaya*perdagangan',
-  whatIsTechnical: 'Apakah*teknikal*analisis？',
+  whatIsTechnical: 'Apakah*teknikal*analisis?',
   technicalAnalysisPredicts:
     'Teknikal*analisis*meramalkan*trend*pasaran*dengan*memerhatikan*harga*sejarah*dan*merumuskan*strategi*perdagangan*dengan*sewajarnya.*Bersama*dengan*analisa*asas,*mereka*adalah*dua*alat*analisa*yang*paling*banyak*digunakan.',
   unlikeFundamentalAnalysis:
@@ -30,7 +30,7 @@ export const advancedTrading: AdvancedTrading = {
     'Peranan*teknikal*analisis*bukan*sekadar*untuk*meramalkan*kenaikan*dan*kejatuhan*harga*pasaran.*Makna*sebenarnya*adalah*untuk*membantu*pedagang*memahami*pasaran*dengan*lebih*baik*dan*mengembangkan*strategi*perdagangan*yang*menyesuaikan*diri*dengan*pasaran*semasa.',
   commonMethodsOf:
     'Kaedah*teknikal*analisis*yang*biasa*merangkumi*corak*grafik*dan*petunjuk*teknikal.*Kami*akan*membuka*dua*artikel*tambahan*untuk*memperkenalkannya.*Dalam*artikel*ini,*kami*akan*memperkenalkan*kemahiran*asas*teknikal*analisis-mengenal*pasti*arah*aliran.',
-  whyIdentifyingTrends: 'Mengapa*mengenal*pasti*trend？',
+  whyIdentifyingTrends: 'Mengapa*mengenal*pasti*trend?',
   justUnderstanding:
     'Hanya*memahami*harga*carta*tidak*membantu*kami*untuk*membuat*keputusan*perdagangan,*anda*juga*perlu*memahami*bagaimana*mengenal*pasti*trend*harga*pada*carta.*Terdapat*tiga*jenis*trend*carta:*naik,*turun,*dan*gabungan.*Dalam*trend*unilateral*yang*naik*dan*turun,*orang*sering*menggunakan*strategi*perdagangan*terobosan,*iaitu*hanya*berdagang*dalam*satu*arah,*membeli*atau*menurun.*Dalam*trend*penggabungan,*orang*sering*menggunakan*strategi*perdagangan*pelbagai*iaitu*menjual*tinggi*dan*rendah,*menjual*ketika*harga*naik*ke*puncak*julat*penyatuan*dan*membeli*ketika*harga*jatuh*ke*bawah*julat*penyatuan.*Oleh*itu,*sangat*penting*bagi*pedagang*untuk*menilai*sama*ada*trend*kadar*pertukaran*berada*dalam*arah*unilateral*naik/turun*atau*dalam*trend*selang*penyatuan.*Hanya*dengan*memahami*tren*dengan*tepat,*kita*dapat*menggunakan*kaedah*perdagangan*yang*betul*sejauh*mungkin.',
   thereAreMany:
@@ -53,7 +53,7 @@ export const advancedTrading: AdvancedTrading = {
     'Prinsip*melukis*garis*trend*adalah*dengan*mencari*titik*tertinggi*dan*terendah*yang*relevan*dalam*arah*aliran*menaik*(ke*bawah)*dalam*jangka*masa*yang*dipertimbangkan*dan*menghubungkannya*dengan*garis*lurus,*di*mana*harganya*tidak*dapat*melintasi*garis*arah*aliran.*Semakin*lama*garis*trend*dilukis,*semakin*kuat*kekuatan*yang*ditunjukkan*dan*semakin*besar*kemungkinan*harga*akan*turun*(naik)*dan*kembali*berhampiran*garis*arah*aliran.',
   drawingATrend:
     'Melukis*garis*arah*dapat*membantu*kita*mengenal*pasti*trend*pasaran*semasa*dengan*lebih*jelas.*Pada*masa*yang*sama,*saya*juga*perlu*menilai*sama*ada*trend*akan*terus*mengikut*garis*trend.',
-  fundamentalAnalysisOverview: 'Gambaran*keseluruhan*analisa*asas？',
+  fundamentalAnalysisOverview: 'Gambaran*keseluruhan*analisa*asas?',
   technicalAnalysisStudies:
     'Teknikal*analisis*mengkaji*harga*sejarah*dan*pedagang*boleh*membuat*keputusan*perdagangan*hanya*dengan*memfokuskan*pada*carta*dan*harga.*Analisa*asas*kelihatan*lebih*rumit.*Ia*mengkaji*elemen-elemen*teras*yang*mempengaruhi*ekonomi*negara*dan*perubahan*kadar*pertukaran*mata*wang.*Ini*bertujuan*untuk*meramalkan*perubahan*harga*pertukaran*asing*dalam*kitaran*ekonomi*tertentu*dengan*menganalisa*serangkaian*petunjuk*ekonomi,*keputusan*pemerintah*dan*akhirnya*trend*pasaran.',
   technicalAnalysisReveals:

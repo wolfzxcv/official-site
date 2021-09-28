@@ -14,7 +14,7 @@ export const uSShareCFD: USShareCFD = {
     '通過槓桿交易股票交易者跟WCG交易股票差價合約，只需金額相對少的初始入金，即可獲得完整敞口。',
   WCGOffersZeroCommission:
     '沒有傭金或隱藏費用在WCG交易股票差價合約既是免傭金，也不就交易收取銀行手續費，讓交易者更有利可圖。',
-  howDoITradeCFDShares: '如何與WCG交易股票差價合約？',
+  howDoITradeCFDShares: '如何與WCG交易股票差價合約?',
   whenTradingASingleCFDShare:
     '當交易單個股票差價合約股票時，相關公司將采取公司行動，例如派发現金股息。當相關公司发放現金股息時，WCG將會對客戶的帳戶作出相應調整，並采取兩項行動：',
   clientsWhoHoldBUY:
@@ -33,7 +33,7 @@ export const uSShareCFD: USShareCFD = {
   reserveShareSplit: '反向股票分割：差價合約價格將上漲',
   shareSplit: '股票分割：差價合約價格將下跌',
   openPositions:
-    '蘋果公司差價合約的未平倉合約。難道不該只說「持有相關差價合約未平倉合約的客戶」嗎？',
+    '蘋果公司差價合約的未平倉合約。難道不該只說「持有相關差價合約未平倉合約的客戶」嗎?',
   however:
     '不過，單一股票CFD也將受到公司行為的影響，當上市公司出現任何業務變化（如股票分割、儲備股分拆分和股息支付等）時，可能會发生這種情況，從而可能影響公司的財務狀況、其股價表現和股東利益。',
   dividends: '股息',

@@ -14,7 +14,7 @@ export type Questions = {
   WCGMarketsLtdIsSupervised: string;
   /** WCG Markets Ltd is authorized */
   WCGMarketsLtdIsAuthorized: string;
-  /** How to open an account in WCG？ */
+  /** How to open an account in WCG? */
   HowToOpenAnAccountInWCG: string;
   /** You can register your real account */
   youCanRegisterYourRealAccount: string;
@@ -38,7 +38,7 @@ export type Questions = {
   HowDoIKnowMyWithdrawal: string;
   /** Once the withdrawal application */
   onceTheWithdrawalApplication: string;
-  /** What is the MT4 platform？ */
+  /** What is the MT4 platform? */
   whatIsTheMT4Platform: string;
   /** MetaTrader 4 */
   MetaTrader4: string;
@@ -46,7 +46,7 @@ export type Questions = {
   howToDownload: string;
   /** You can click here */
   youCanClickHere: string;
-  /** Can I trade over weekends？ */
+  /** Can I trade over weekends? */
   canITradeOverWeekends: string;
   /** No trading over weekends */
   noTradingOverWeekends: string;

@@ -10,7 +10,7 @@ export const advancedTrading: AdvancedTrading = {
   fundamentalAnalysis: 'Fundamental*analysis',
   fibonacciRetracementLine: 'Fibonacci*Retracement*Line',
   supportAndResistance: 'Support*and*resistance',
-  marketParticipants: 'Support*and*resistance',
+  marketParticipants: 'Market*participants',
   tradingStyle: 'Trading*style',
   whatIsTechnical: 'What*is*technical*analysis',
   technicalAnalysisPredicts:

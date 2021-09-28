@@ -40,7 +40,7 @@ export const platform: Platform = {
   supportMultipleWindows: 'Menyokong*pelbagai*tetingkap',
   simpleChartingOperation: 'Operasi*membuat*peta*sederhana',
   nineChartingTimePeriods: 'Sembilan*tempoh*masa*carta',
-  whyChoose: 'Mengapa*memilih*platform*MetaTrader4？',
+  whyChoose: 'Mengapa*memilih*platform*MetaTrader4?',
   MT4IsTheMostPopularForeign:
     'MT4*adalah*platform*perdagangan*pertukaran*wang*asing*yang*paling*popular*di*dunia.*Ia*telah*memenangi*pelbagai*anugerah',
   itHasWonVariousAwards:

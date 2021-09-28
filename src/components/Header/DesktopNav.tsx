@@ -15,7 +15,7 @@ import {
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Locales } from '../../i18n/locales';
 import { ILinkSource, menuList } from './menuList';
 
@@ -27,6 +27,8 @@ const DesktopNav = () => {
   const linkColor = useColorModeValue('gray.600', 'gray.200');
   const linkHoverColor = useColorModeValue('gray.800', 'white');
   const popoverContentBgColor = useColorModeValue('white', 'gray.800');
+
+  useEffect(() => {}, [Popover]);
 
   return (
     <Stack direction={'row'} spacing={4}>

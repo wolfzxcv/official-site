@@ -11,7 +11,7 @@ export const advancedTrading: AdvancedTrading = {
   supportAndResistance: 'Dukungan*dan*resistensi',
   marketParticipants: 'Pelaku*pasar',
   tradingStyle: 'Gaya*perdagangan',
-  whatIsTechnical: 'Apa*itu*Analisis*Teknis？',
+  whatIsTechnical: 'Apa*itu*Analisis*Teknis?',
   technicalAnalysisPredicts:
     'Analisis*teknis*memprediksi*tren*pasar*dengan*mengamati*harga*historis*dan*merumuskan*strategi*perdagangan*yang*sesuai.*Bersama*dengan*analisis*fundamental,*keduanya*adalah*dua*alat*analisis*yang*paling*banyak*digunakan.',
   unlikeFundamentalAnalysis:
@@ -30,7 +30,7 @@ export const advancedTrading: AdvancedTrading = {
     'Peran*analisis*teknis*tidak*hanya*untuk*memprediksi*naik*turunnya*harga*pasar.*Arti*sebenarnya*adalah*membantu*pedagang*lebih*memahami*pasar*dan*mengembangkan*strategi*perdagangan*yang*beradaptasi*dengan*pasar*saat*ini.',
   commonMethodsOf:
     'Metode*umum*analisis*teknis*termasuk*pola*grafik*dan*indikator*teknis.*Kami*akan*membuka*dua*artikel*tambahan*untuk*memperkenalkan*mereka.*Dalam*artikel*ini,*kami*akan*memperkenalkan*keterampilan*dasar*analisis*teknis*-*mengidentifikasi*trend.',
-  whyIdentifyingTrends: 'Mengapa*mengidentifikasi*trend？',
+  whyIdentifyingTrends: 'Mengapa*mengidentifikasi*trend?',
   justUnderstanding:
     'Hanya*memahami*harga*grafik*tidak*membantu*kami*membuat*keputusan*perdagangan,*Anda*juga*perlu*memahami*cara*mengidentifikasi*trend*harga*pada*grafik.*Ada*tiga*jenis*tredn*grafik:*naik,*turun,*dan*konsolidasi.*Dalam*tren*naik*turun*secara*sepihak,*orang*sering*mengadopsi*strategi*terobosan*perdagangan,*yaitu*hanya*berdagang*dalam*satu*arah,*membeli*ke*atas*atau*ke*bawah.*Dalam*trend*konsolidasi,*orang*sering*menggunakan*strategi*perdagangan*kisaran*menjual*tinggi*dan*membeli*rendah,*menjual*saat*harga*naik*ke*atas*kisaran*konsolidasi,*dan*membeli*saat*harga*turun*ke*dasar*kisaran*konsolidasi.*Oleh*karena*itu,*sangat*penting*bagi*pedagang*untuk*menilai*apakah*trend*nilai*tukar*dalam*trend*naik*/*turun*sepihak*atau*dalam*trend*interval*konsolidasi.',
   thereAreMany:

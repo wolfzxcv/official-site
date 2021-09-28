@@ -6,7 +6,7 @@ export const basicTrading: BasicTrading = {
     'Không*có*kinh*nghiệm*giao*dịch*tài*chính?*Chúng*tôi*sẽ*hướng*dẫn*bạn*từng*bước*để*bắt*đầu*giao*dịch.*',
   basicTradingCourse: 'Khóa*học*giao*dịch*cơ*bản',
   intermediateTradingCourse: 'Khóa*học*giao*dịch*cơ*bản',
-  whatIsForeignExchangeTrading: 'Kinh*doanh*ngoại*hối*là*gì？',
+  whatIsForeignExchangeTrading: 'Kinh*doanh*ngoại*hối*là*gì?',
   factorsAffectingTheMarket: 'Các*nhân*tố*ảnh*hưởng*đến*thị*trường',
   basicOperationOfTheMT4Platform: 'Hoạt*động*cơ*bản*của*nền*tảng*MT4',
   leverageAndMargin: 'Đòn*bẩy*và*ký*quỹ',
@@ -196,8 +196,7 @@ export const basicTrading: BasicTrading = {
   energy: '-*Năng*lượng',
   preciousMetals: '-*Kim*loại*quý',
   contractDetails: '-*Chi*tiết*hợp*đồng',
-  WhatAreTheDifferentTypes:
-    'Các*loại*tài*sản*cơ*bản*khác*nhau*của*CFD*là*gì?？',
+  WhatAreTheDifferentTypes: 'Các*loại*tài*sản*cơ*bản*khác*nhau*của*CFD*là*gì??',
   aStockIndexAsAFinancial:
     "Chỉ*số*chứng*khoán*là*một*tài*sản*tài*chính*đại*diện*cho*giá*trị*của*một*phần*cụ*thể*của*cổ*phiếu*trên*thị*trường*chứng*khoán.*Ví*dụ,*một*trong*những*chỉ*số*chứng*khoán*phổ*biến*nhất,*Standard*&*Poor's*500,*đại*diện*cho*hiệu*suất*tổng*thể*của*500*công*ty*hàng*đầu*được*giao*dịch*công*khai*trên*thị*trường*chứng*khoán*Hoa*Kỳ.*Nếu*bạn*giao*dịch*S&P*500*CFD*thông*qua*WCG,*bạn*có*thể*quyết*định*mở*một*vị*thế*mua*hay*bán*bằng*cách*suy*đoán*xem*chỉ*số*sẽ*tăng*hay*giảm.*WCG*cũng*cung*cấp*giao*dịch*CFD*trên*các*chỉ*số*chứng*khoán*nổi*tiếng*khác,*bao*gồm*Chỉ*số*FTSE*của*Anh*(UK100),*Chỉ*số*Dow*Jones*30*của*Hoa*Kỳ*(US30),*Chỉ*số*Nasdaq*100*của*Hoa*Kỳ*(NAS100),*Chỉ*số*CAC*40*của*Pháp*(FRA40)*và*Châu*Âu.*Chỉ*số*Stoxx*50*(ESTX50),*Chỉ*số*DAX*của*Đức*(GER30),*Chỉ*số*Nikkei*225*(JPN225)*và*Chỉ*số*ASX*200*của*Úc*(AUS200).*",
   commodityFuturesAreAlso:
