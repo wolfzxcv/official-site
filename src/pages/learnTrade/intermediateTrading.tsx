@@ -299,7 +299,7 @@ const intermediateTrading: React.FC<{}> = () => {
       complexContent: [
         {
           type: 'title',
-          objectKey: t('HowToCreateATradingStrategy')
+          objectKey: t('howToCreateATradingStrategy')
         },
         {
           type: 'text',
@@ -371,7 +371,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'text',
-          objectKey: t('assestheKeyInformationThatNeedssYourSkills')
+          objectKey: t('theKeyInformationThatNeeds')
         },
         {
           type: 'text',
@@ -452,7 +452,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'text',
-          objectKey: t('MoreCautiousTraders')
+          objectKey: t('moreCautiousTraders')
         },
         {
           type: 'text',
@@ -736,7 +736,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'text',
-          objectKey: t('quotation ')
+          objectKey: t('quotation')
         },
         {
           type: 'text',
