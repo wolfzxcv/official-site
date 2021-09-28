@@ -2,6 +2,7 @@
   "howToStartTrading": "Bagaimana memulakan perdagangan",
   "haventHadExperience": "Anda tidak mempunyai pengalaman dalam perdagangan kewangan ? Kami akan membimbing anda selangkah demi selangkah.",
   "basicTradingCourse": "Kursus perdagangan untuk pemula",
+  "intermediateTradingCourse": "Kursus Perdagangan Pertengahan",
   "whatIsForeignExchangeTrading": "Apakah perdagangan pertukaran wang asing？",
   "factorsAffectingTheMarket": "Faktor yang mempengaruhi pasaran",
   "basicOperationOfTheMT4Platform": "Operasi asas platform MT4",
@@ -73,7 +74,7 @@
   "productCategory": "7. Kategori produk ：Pilih sasaran perdagangan anda",
   "lotsEnterTheLotSize": "Lot： Masukkan ukuran lot, minimum ialah 0.01 lot (pertukaran mata wang asing, emas dan perak). ",
   "stopLossPrice": "Stop Loss Price： Apabila harga mencapai harga yang ditentukan, kedudukan ditutup secara automatik; default adalah sifar, yang bermaksud tiada stop loss yang ditetapkan. ",
-  "takeProfitprice": "Harga take profit：Apabila harga mencapai harga yang ditentukan, posisi akan ditutup secara automatik untuk mengekalkan keuntungan; default adalah sifar, yang bermaksud tiada take profit ditetapkan. ",
+  "takeProfitPrice": "Harga take profit：Apabila harga mencapai harga yang ditentukan, posisi akan ditutup secara automatik untuk mengekalkan keuntungan; default adalah sifar, yang bermaksud tiada take profit ditetapkan. ",
   "sellAtMarketPriceOrBuy": "Jual pada harga pasaran atau beli pada harga pasaran：klik butang merah untuk menjual dan klik butang biru untuk membeli. ",
   "theOrderTypeColumn": "\"Jenis Order\" di order window, pilihan default adalah \"Harga Pasaran\", yang bermaksud membuat transaksi pada harga pasaran semasa. ",
   "pendingOrder": "8. Pending order",
@@ -125,7 +126,5 @@
   "commodityFuturesAreAlso": "Commodity futures juga merupakan sejenis aset kewangan. Ini mewakili perjanjian untuk membeli atau menjual sejumlah komoditi tertentu, seperti platinum, tembaga atau minyak mentah pada tarikh dan harga yang telah ditentukan. Oleh kerana harga komoditi selalu berubah-ubah dengan perubahan penawaran dan permintaan, pedagang dapat membuat spekulasi mengenai turun naik harga mereka dengan membeli dan menjual commodity futures. Sekiranya anda berdagang CFD platinum melalui WCG, anda boleh meramalkan sama ada harga platinum akan naik atau turun pada masa akan datang dan memutuskan sama ada untuk membuka pesanan beli atau jual. CFD komoditi yang disediakan oleh WCG juga merangkumi tembaga dan minyak mentah (minyak mentah Texas ringan WTI dan minyak mentah BRENT). ",
   "byOpeningAnAccountThrough": "Dengan membuka akaun melalui WCG, anda boleh memperdagangkan pertukaran mata wang asing dan indeks saham atau CFD komoditi pada platform dan akaun yang sama. Anda akan dapat bergerak bebas antara pasaran pertukaran asing dan pasaran CFD yang berbeza, membuka dan menutup posisi dengan tepat. ",
   "whatAreTheAdvantages": "Apakah kelebihan perdagangan CFD？",
-  "theMostSignificantAdvantage": "Kelebihan yang paling ketara dalam perdagangan CFD adalah anda boleh menggunakan leverage sehingga 100 kali, yang bermaksud anda dapat membuka transaksi yang lebih besar dengan modal permulaan yang lebih rendah dan kos transaksi yang agak kecil. Perlu diperhatikan bahawa walaupun leverage dapat meningkatkan keuntungan, ia juga akan meningkatkan kerugian. Oleh itu, anda perlu menggunakan strategi pengurusan risiko yang sesuai ketika berdagang CFD dengan leverage. CFD juga menyokong perdagangan dua hala, sama ada bear atau bull market, anda boleh membeli dan menjual secara bebas dan sepanjang proses anda tidak akan dikenakan komisen atau yuran pembiayaan. Berdagang semua produk dalam satu akaun dan manfaatkan sepenuhnya pelbagai peluang perdagangan yang disediakan oleh WCG kepada anda. ",
-  "intermediateTradingCourse": "Kursus Perdagangan Pertengahan",
-  "advancedTradingCourse": "Kursus Perdagangan Lanjutan"
+  "theMostSignificantAdvantage": "Kelebihan yang paling ketara dalam perdagangan CFD adalah anda boleh menggunakan leverage sehingga 100 kali, yang bermaksud anda dapat membuka transaksi yang lebih besar dengan modal permulaan yang lebih rendah dan kos transaksi yang agak kecil. Perlu diperhatikan bahawa walaupun leverage dapat meningkatkan keuntungan, ia juga akan meningkatkan kerugian. Oleh itu, anda perlu menggunakan strategi pengurusan risiko yang sesuai ketika berdagang CFD dengan leverage. CFD juga menyokong perdagangan dua hala, sama ada bear atau bull market, anda boleh membeli dan menjual secara bebas dan sepanjang proses anda tidak akan dikenakan komisen atau yuran pembiayaan. Berdagang semua produk dalam satu akaun dan manfaatkan sepenuhnya pelbagai peluang perdagangan yang disediakan oleh WCG kepada anda. "
 }

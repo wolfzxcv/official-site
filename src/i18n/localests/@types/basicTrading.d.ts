@@ -9,6 +9,8 @@ export type BasicTrading = {
   haventHadExperience: string;
   /** Basic Trading Course */
   basicTradingCourse: string;
+  /** Intermediate Trading Course */
+  intermediateTradingCourse: string;
   /** What is foreign exchange trading */
   whatIsForeignExchangeTrading: string;
   /** Factors affecting the market */
@@ -126,7 +128,7 @@ export type BasicTrading = {
   /** Avoid news trading */
   avoidNewsTrading: string;
   /* This is the third trading method */
-  thisIsTheThirdTradingMethod:string;
+  thisIsTheThirdTradingMethod: string;
   /** After the download process */
   afterTheDownloadProcess: string;
   /** Check "Yes, I agree with */
@@ -148,117 +150,113 @@ export type BasicTrading = {
   /** Product category */
   productCategory: string;
   /* Lots: Enter the lot size */
-  lotsEnterTheLotSize:string;
+  lotsEnterTheLotSize: string;
   /* Stop Loss Price */
-  stopLossPrice:string;
+  stopLossPrice: string;
   /* Take Profit price */
-  takeProfitprice:string;
-  /* Sell ​​at market price or buy */
-  sellAtMarketPriceOrBuy:string;
+  takeProfitPrice: string;
+  /* Sell at market price or buy */
+  sellAtMarketPriceOrBuy: string;
   /* The "Order Type" column */
-  theOrderTypeColumn:string;
+  theOrderTypeColumn: string;
   /* Pending order */
-  pendingOrder:string;
+  pendingOrder: string;
   /* Change the order type */
-  changeTheOrderType:string;
+  changeTheOrderType: string;
   /* There are four types */
-  thereAreFourTypes:string;
+  thereAreFourTypes: string;
   /* Buy limit——Buy pending */
-  buyLimitBuyPending:string;
+  buyLimitBuyPending: string;
   /* Sell limit——Sell pending */
-  sellLimitSellPending:string
+  sellLimitSellPending: string;
   /* Buy stop——Buy pending */
-  buyStopBuyPending:string;
+  buyStopBuyPending: string;
   /* Sell stop——Sell pending */
-  sellStopSellPending:string;
+  sellStopSellPending: string;
   /* After selecting the corresponding */
-  afterSelectingTheCorresponding:string;
+  afterSelectingTheCorresponding: string;
   /* One-click trading */
-  oneClickTrading:string;
+  oneClickTrading: string;
   /* Foreign exchange prices */
-  foreignExchangePrices:string;
+  foreignExchangePrices: string;
   /* On the upper left corner */
-  onTheUpperLeftCorner:string;
+  onTheUpperLeftCorner: string;
   /* Modify the order */
-  modifyTheOrder:string;
+  modifyTheOrder: string;
   /* After opening */
-  afterOpening:string;
+  afterOpening: string;
   /* In the pop-up window */
-  inThePopUpWindow:string;
+  inThePopUpWindow: string;
   /* Close position */
-  closePosition:string;
+  closePosition: string;
   /* the "Summary" window at */
-  theSummaryWindowAt:string;
+  theSummaryWindowAt: string;
   /* The account balance */
-  theAccountBalance:string;
+  theAccountBalance: string;
   /* At this time， we opened */
-  atThisTimeWeOpened:string;
+  atThisTimeWeOpened: string;
   /* One-click closing */
-  oneClickClosing:string;
+  oneClickClosing: string;
   /*  Account history */
-  accountHistory:string;
+  accountHistory: string;
   /* You can find all closed */
-  youCanFindAllClosed:string;
+  youCanFindAllClosed: string;
   /* Profit/Loss: the total */
-  profitLossTheTotal:string;
+  profitLossTheTotal: string;
   /* Deposits: total deposits. */
-  depositsTotalDeposits:String;
+  depositsTotalDeposits: String;
   /* Withdrawal: the total */
-  withdrawalTheTotal:string;
+  withdrawalTheTotal: string;
   /* Open the chart and load */
-  openTheChartAndLoad:string;
+  openTheChartAndLoad: string;
   /* After the MT4 platform */
-  afterTheMT4Platform:string;
+  afterTheMT4Platform: string;
   /* If you want to switch */
-  ifYouWantToSwitch:string;
+  ifYouWantToSwitch: string;
   /* with MT4 is located in the */
-  withMT4IsLocatedInThe:string;
+  withMT4IsLocatedInThe: string;
   /* After reading this */
-  afterReadingThis:string;
+  afterReadingThis: string;
   /* Leverage and  margin margin */
-  leverageAndMarginMargin:string;
+  leverageAndMarginMargin: string;
   /* Assuming that a 1 lot */
-  assumingThatA1Lot:string;
+  assumingThatA1Lot: string;
   /* When the leverage ratio is 1:1 */
-  whenTheLeverageRatioIs11:String;
+  whenTheLeverageRatioIs11: String;
   /* When the leverage ratio is 1:400 */
-  whenTheLeverageRatioIs1400:String;
+  whenTheLeverageRatioIs1400: String;
   /* Please keep in mind that the */
-  pleaseKeepInMindThat:String;
+  pleaseKeepInMindThat: String;
   /* We usually recommend traders */
-  weUsuallyRecommendTraders:String;
+  weUsuallyRecommendTraders: String;
   /* Stop Loss Price: When the price */
-  stopLossPriceWhenThePrice:String;
+  stopLossPriceWhenThePrice: String;
   /* When using leverage */
-  whenUsingLeverage:String;
+  whenUsingLeverage: String;
   /* We recommend that you */
-  weRecommendThatYou:String;
+  weRecommendThatYou: String;
   /* Contract for difference */
-  contractForDifference:String;
+  contractForDifference: String;
   /* Explore the CFD market */
-  exploreTheCfdMarket:String;
+  exploreTheCfdMarket: String;
   /* -Index */
-  index:String;
+  index: String;
   /* -Energy */
-  energy:String;
+  energy: String;
   /* - Precious Metals */
-  preciousMetals:String;
+  preciousMetals: String;
   /* -Contract Details */
-  contractDetails:String;
+  contractDetails: String;
   /* What are the different types */
-  WhatAreTheDifferentTypes:String;
+  WhatAreTheDifferentTypes: String;
   /* A stock index is a financial */
-  aStockIndexAsAFinancial:String;
+  aStockIndexAsAFinancial: String;
   /* Commodity futures are also */
-  commodityFuturesAreAlso:String;
+  commodityFuturesAreAlso: String;
   /* By opening an account through */
-  byOpeningAnAccountThrough:String;
+  byOpeningAnAccountThrough: String;
   /* What are the advantages */
-  whatAreTheAdvantages:String;
+  whatAreTheAdvantages: String;
   /* The most significant advantage */
-  theMostSignificantAdvantage:String;
-  // Intermediate Trading Course
-  intermediateTradingCourse:String;
-  // Advanced Trading Course
-  advancedTradingCourse:String;
+  theMostSignificantAdvantage: String;
 };

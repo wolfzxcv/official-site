@@ -2,6 +2,7 @@
   "howToStartTrading": "Bagaimana cara memulai perdagangan?",
   "haventHadExperience": "Belum punya pengalaman dalam transaksi keuangan? Kami akan memandu Anda langkah demi langkah untuk memulai perdagangan.",
   "basicTradingCourse": "Kursus perdagangan untuk pemula",
+  "intermediateTradingCourse": "Teori Perdagangan Menengah",
   "whatIsForeignExchangeTrading": "Apa itu perdagangan valuta asing?",
   "factorsAffectingTheMarket": "Faktor yang mempengaruhi pasar",
   "basicOperationOfTheMT4Platform": "Operasi dasar platform MT4",
@@ -73,7 +74,7 @@
   "productCategory": "7. Kategori produk: Pilih target perdagangan Anda",
   "lotsEnterTheLotSize": "Lot: Masukkan ukuran lot, minimal 0.01 lot (valas, emas dan perak). Harga Hentikan ",
   "stopLossPrice": "Kerugian: Ketika harga mencapai harga yang ditentukan, posisi secara otomatis",
-  "takeProfitprice": "ditutup; defaultnya adalah nol, yang berarti tidak ada stop loss yang ditetapkan.",
+  "takeProfitPrice": "ditutup; defaultnya adalah nol, yang berarti tidak ada stop loss yang ditetapkan.",
   "sellAtMarketPriceOrBuy": "Harga Take Profit: Ketika harga mencapai harga yang ditentukan, posisi akan ditutup secara otomatis untuk mempertahankan keuntungan; defaultnya adalah nol, yang berarti tidak ada take profit yang ditetapkan.",
   "theOrderTypeColumn": "Kolom \"Jenis Pesanan\" di jendela pesanan, pilihan defaultnya adalah \"Harga Pasar\", yang artinya membuat transaksi pada harga pasar saat ini.",
   "pendingOrder": "8. Perintah menunggu keputusan",
@@ -125,7 +126,5 @@
   "commodityFuturesAreAlso": "Komoditas berjangka juga merupakan jenis aset keuangan. Ini mewakili kesepakatan untuk membeli atau menjual sejumlah komoditas tertentu, seperti platina, tembaga atau minyak mentah pada tanggal dan harga yang telah ditentukan. Karena harga komoditas selalu berfluktuasi dengan perubahan penawaran dan permintaan, pedagang dapat berspekulasi tentang fluktuasi harga mereka dengan membeli dan menjual komoditas berjangka. Jika Anda memperdagangkan CFD platinum melalui WCG, Anda dapat memprediksi apakah harga platinum akan naik atau turun di masa mendatang dan memutuskan apakah akan membuka pesanan beli atau jual. CFD komoditas yang disediakan oleh WCG juga mencakup tembaga dan minyak mentah (minyak mentah Texas ringan WTI dan minyak mentah BRENT).",
   "byOpeningAnAccountThrough": "Dengan membuka akun melalui WCG, Anda dapat berdagang valuta asing dan indeks saham atau CFD komoditas di platform dan akun yang sama. Anda akan dapat dengan bebas beralih antara pasar valuta asing dan pasar CFD yang berbeda, membuka dan menutup posisi secara akurat.",
   "whatAreTheAdvantages": "Apa keuntungan dari perdagangan CFD？",
-  "theMostSignificantAdvantage": "Keuntungan paling signifikan dari perdagangan CFD adalah Anda dapat menggunakan leverage hingga 100 kali lipat, yang berarti Anda dapat membuka transaksi yang lebih besar dengan modal awal yang lebih rendah dan biaya transaksi yang relatif kecil. Perlu dicatat bahwa meskipun leverage dapat memperbesar keuntungan, itu juga akan memperbesar kerugian. Oleh karena itu, Anda perlu mengadopsi strategi manajemen risiko yang tepat saat memperdagangkan CFD dengan leverage. CFD juga mendukung perdagangan dua arah, apakah itu pasar beruang atau pasar naik, Anda dapat membeli dan menjual dengan bebas, dan seluruh proses Anda tidak akan dikenakan biaya komisi atau pembiayaan apa pun. Perdagangkan semua produk di satu akun dan manfaatkan sepenuhnya berbagai peluang perdagangan yang diberikan WCG kepada Anda.",
-  "intermediateTradingCourse": "Teori Perdagangan Menengah",
-  "advancedTradingCourse": "Teori Perdagangan Lanjutan"
+  "theMostSignificantAdvantage": "Keuntungan paling signifikan dari perdagangan CFD adalah Anda dapat menggunakan leverage hingga 100 kali lipat, yang berarti Anda dapat membuka transaksi yang lebih besar dengan modal awal yang lebih rendah dan biaya transaksi yang relatif kecil. Perlu dicatat bahwa meskipun leverage dapat memperbesar keuntungan, itu juga akan memperbesar kerugian. Oleh karena itu, Anda perlu mengadopsi strategi manajemen risiko yang tepat saat memperdagangkan CFD dengan leverage. CFD juga mendukung perdagangan dua arah, apakah itu pasar beruang atau pasar naik, Anda dapat membeli dan menjual dengan bebas, dan seluruh proses Anda tidak akan dikenakan biaya komisi atau pembiayaan apa pun. Perdagangkan semua produk di satu akun dan manfaatkan sepenuhnya berbagai peluang perdagangan yang diberikan WCG kepada Anda."
 }

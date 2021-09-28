@@ -1,26 +1,15 @@
-import { ArrowForwardIcon, ChevronRightIcon } from '@chakra-ui/icons';
-import {
-  Accordion,
-  AccordionButton,
-  AccordionItem,
-  Box,
-  Flex,
-  IconButton,
-  Image,
-  Link,
-  Text,
-  useBreakpointValue
-} from '@chakra-ui/react';
+import { ArrowForwardIcon } from '@chakra-ui/icons';
+import { Accordion, Box, Flex, IconButton } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
+import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IAccordionItemType } from '../../components/Common/InfoAccordionMultiItem';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { StyledBox } from '../../components/Styled/Styled';
 import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
@@ -33,11 +22,8 @@ const basicTrading: React.FC<{}> = () => {
   const { t } = useTranslation(['basicTrading']);
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'ar';
-  const [page, setPage] = useState(0);
   const [height, setHeight] = useState(0);
   const [windowWidth, setWindowWidth] = useState(0);
-  const widthCheck = useBreakpointValue({ base: false, xl: true });
   const data: {
     type: IAccordionItemType;
     key: string;
@@ -567,12 +553,6 @@ const basicTrading: React.FC<{}> = () => {
   }, [windowWidth]);
 
   useEffect(() => {
-    if (widthCheck) {
-      setPage(0);
-    }
-  }, [widthCheck]);
-
-  useEffect(() => {
     if (typeof window !== 'undefined') {
       handleResize();
       window.addEventListener('resize', handleResize);
@@ -583,26 +563,6 @@ const basicTrading: React.FC<{}> = () => {
 
   function handleResize() {
     setWindowWidth(window.innerWidth);
-  }
-
-  function heightCalculation() {
-    if (
-      document.getElementById('heightDetect2') &&
-      document.querySelector('body')
-    ) {
-      const bodyTop = document
-        .querySelector('body')
-        .getBoundingClientRect().top;
-      const divTop = document
-        .getElementById('heightDetect2')
-        .getBoundingClientRect().top;
-      setHeight(divTop - bodyTop);
-      return;
-    } else {
-      setTimeout(() => {
-        heightCalculation();
-      }, 500);
-    }
   }
 
   return (
@@ -616,204 +576,62 @@ const basicTrading: React.FC<{}> = () => {
         direction="column"
         align="center"
       >
-        <InfoTitle title={t('howToStartTrading')} />
+        <InfoTitle title={t('basicTradingCourse')} />
         <InfoTitleSub title={t('haventHadExperience')} />
       </Flex>
       <Flex direction="column" align="center">
-        {widthCheck && (
-          <Box display="flex" my={{ base: 0, xl: 20 }}>
-            <Box w="25vw" mx={3}>
-              <Accordion
-                allowMultiple
-                allowToggle
-                defaultIndex={[0]}
-                defaultChecked
-              >
-                <InfoAccordionMultiItem
-                  title={t('basicTradingCourse')}
-                  content={[
-                    {
-                      type: 'page',
-                      key: t('whatIsForeignExchangeTrading')
-                    },
-                    {
-                      type: 'page',
-                      key: t('howToStartTrading')
-                    },
-                    {
-                      type: 'page',
-                      key: t('factorsAffectingTheMarket')
-                    },
-                    {
-                      type: 'page',
-                      key: t('basicOperationOfTheMT4Platform')
-                    },
-                    {
-                      type: 'page',
-                      key: t('leverageAndMargin')
-                    },
-                    {
-                      type: 'page',
-                      key: t('whatIsACFDTransaction')
-                    }
-                  ]}
-                  pageCallback={(page: number) => setPage(page)}
-                />
+        <Box width={'80vw'} my={10}>
+          <Accordion allowToggle>
+            <InfoAccordionMultiItem
+              title={t('whatIsForeignExchangeTrading')}
+              content={data[0]}
+              callback={() => {
+                window.scroll(0, height + 100);
+              }}
+            />
+            <InfoAccordionMultiItem
+              title={t('howToStartTrading')}
+              content={data[1]}
+              callback={() => {
+                window.scroll(0, height + 140);
+              }}
+            />
 
-                <AccordionItem
-                  onClick={(e) => {
-                    router.push('/learnTrade/intermediateTrading');
-                  }}
-                >
-                  <h2>
-                    <AccordionButton>
-                      <Box flex="1" textAlign="left" fontWeight="600">
-                        {t('intermediateTradingCourse')}
-                      </Box>
-                      <ChevronRightIcon fontSize="20px" />
-                    </AccordionButton>
-                  </h2>
-                </AccordionItem>
+            <InfoAccordionMultiItem
+              title={t('factorsAffectingTheMarket')}
+              content={data[2]}
+              callback={() => {
+                window.scroll(0, height + 180);
+              }}
+            />
 
-                <AccordionItem
-                  onClick={(e) => {
-                    router.push('/learnTrade/advancedTrading');
-                  }}
-                >
-                  <h2>
-                    <AccordionButton>
-                      <Box flex="1" textAlign="left" fontWeight="600">
-                        {t('advancedTradingCourse')}
-                      </Box>
-                      <ChevronRightIcon fontSize="20px" />
-                    </AccordionButton>
-                  </h2>
-                </AccordionItem>
-              </Accordion>
-            </Box>
-            <Box w="65vw" mx={3}>
-              {data[page].map((each, index) => (
-                <Fragment key={each.key + index}>
-                  {each.type === 'text' && (
-                    <Box pb={3} textAlign={isArabic ? 'right' : 'left'}>
-                      {each.key}
-                    </Box>
-                  )}
-                  {each.type === 'title' && (
-                    <Box
-                      fontWeight="bold"
-                      pt={index === 0 ? 0 : 3}
-                      textAlign={isArabic ? 'right' : 'left'}
-                    >
-                      {each.key}
-                    </Box>
-                  )}
-                  {each.type === 'point' && (
-                    <Box pb={0} textAlign={isArabic ? 'right' : 'left'}>
-                      {each.key}
-                    </Box>
-                  )}
-                  {each.type === 'lastPoint' && (
-                    <Box pb={3} textAlign={isArabic ? 'right' : 'left'}>
-                      {each.key}
-                    </Box>
-                  )}
-                  {each.type === 'image' && <Image py={3} src={each.key} />}
-                  {each.type === 'twoSection' && (
-                    <Box textAlign={isArabic ? 'right' : 'left'}>
-                      <Text py={1}>
-                        <span style={{ fontWeight: 'bold' }}>{each.key}</span>{' '}
-                        <span>{each.secondKey}</span>
-                      </Text>
-                    </Box>
-                  )}
-                  {each.type === 'buttonLink' && each.secondKey && (
-                    <Link
-                      _hover={{
-                        textDecoration: 'none'
-                      }}
-                      href={each.secondKey}
-                      isExternal
-                    >
-                      <StyledBox
-                        mb={10}
-                        p={2}
-                        bg="red.600"
-                        color="white"
-                        fontSize="14px"
-                        textAlign="center"
-                        width="250px"
-                        _hover={{
-                          bgColor: 'red.500',
-                          cursor: 'pointer',
-                          transition: '1s'
-                        }}
-                      >
-                        {each.key}
-                      </StyledBox>
-                    </Link>
-                  )}
-                </Fragment>
-              ))}
-              <Box pb={7} />
-            </Box>
-          </Box>
-        )}
+            <InfoAccordionMultiItem
+              title={t('basicOperationOfTheMT4Platform')}
+              content={data[3]}
+              callback={() => {
+                window.scroll(0, height + 220);
+              }}
+            />
 
-        {!widthCheck && (
-          <Box width={'80vw'} my={10}>
-            <Accordion width={'80vw'} allowToggle>
-              <InfoAccordionMultiItem
-                title={t('whatIsForeignExchangeTrading')}
-                content={data[0]}
-                callback={() => {
-                  window.scroll(0, height + 100);
-                }}
-              />
-              <InfoAccordionMultiItem
-                title={t('howToStartTrading')}
-                content={data[1]}
-                callback={() => {
-                  window.scroll(0, height + 140);
-                }}
-              />
+            <InfoAccordionMultiItem
+              title={t('leverageAndMargin')}
+              content={data[4]}
+              callback={() => {
+                window.scroll(0, height + 260);
+              }}
+            />
 
-              <InfoAccordionMultiItem
-                title={t('factorsAffectingTheMarket')}
-                content={data[2]}
-                callback={() => {
-                  window.scroll(0, height + 180);
-                }}
-              />
-
-              <InfoAccordionMultiItem
-                title={t('basicOperationOfTheMT4Platform')}
-                content={data[3]}
-                callback={() => {
-                  window.scroll(0, height + 220);
-                }}
-              />
-
-              <InfoAccordionMultiItem
-                title={t('leverageAndMargin')}
-                content={data[4]}
-                callback={() => {
-                  window.scroll(0, height + 260);
-                }}
-              />
-
-              <InfoAccordionMultiItem
-                title={t('whatIsACFDTransaction')}
-                content={data[5]}
-                callback={() => {
-                  window.scroll(0, height + 300);
-                }}
-              />
-            </Accordion>
-          </Box>
-        )}
-        {!widthCheck && (
-          <Box mt={3} mb={10}>
+            <InfoAccordionMultiItem
+              title={t('whatIsACFDTransaction')}
+              content={data[5]}
+              callback={() => {
+                window.scroll(0, height + 300);
+              }}
+            />
+          </Accordion>
+        </Box>
+        <Box mt={3} mb={10}>
+          <NextLink href="/learnTrade/intermediateTrading" locale={currentLang}>
             <IconButton
               size="lg"
               bg="gray.600"
@@ -822,19 +640,11 @@ const basicTrading: React.FC<{}> = () => {
               }}
               color="white"
               title={t('intermediateTradingCourse')}
-              onClick={() => router.push('/learnTrade/intermediateTrading')}
               aria-label={t('intermediateTradingCourse')}
               icon={<ArrowForwardIcon fontSize="40px" />}
             />
-            {/* <Button onClick={()=>router.push("/learnTrade/intermediateTrading")} 
-              rightIcon={<ArrowForwardIcon />} 
-              colorScheme="gray"
-              variant="solid"
-            >
-              {t('intermediateTradingCourse')}
-            </Button> */}
-          </Box>
-        )}
+          </NextLink>
+        </Box>
       </Flex>
     </Wrapper>
   );

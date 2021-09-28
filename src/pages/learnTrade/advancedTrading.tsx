@@ -1,18 +1,10 @@
-import { ArrowBackIcon, ChevronRightIcon } from '@chakra-ui/icons';
-import {
-  Accordion,
-  AccordionButton,
-  AccordionItem,
-  Box,
-  Flex,
-  IconButton,
-  Image,
-  useBreakpointValue
-} from '@chakra-ui/react';
+import { ArrowBackIcon } from '@chakra-ui/icons';
+import { Accordion, Box, Flex, IconButton } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
+import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { IAccordionItemBasicType } from '../../components/Common/InfoAccordionMultiItem';
@@ -28,13 +20,12 @@ const InfoAccordionMultiItem = dynamic(
 
 const advancedTrading: React.FC<{}> = () => {
   const { t } = useTranslation(['advancedTrading']);
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'ar';
-  const [page, setPage] = useState(0);
   const [height, setHeight] = useState(0);
   const [windowWidth, setWindowWidth] = useState(0);
-  const widthCheck = useBreakpointValue({ base: false, xl: true });
+
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
   const data: {
     type: IAccordionItemBasicType;
     key: string;
@@ -42,67 +33,71 @@ const advancedTrading: React.FC<{}> = () => {
     [
       {
         type: 'title',
-        key: t('WhatIsTechnicalAnalysis')
+        key: t('whatIsTechnical')
       },
       {
         type: 'text',
-        key: t('TechnicalAnalysisPredictsMarketTrends')
+        key: t('technicalAnalysisPredicts')
       },
       {
         type: 'text',
-        key: t('UnlikeFundamentalAnalysis')
+        key: t('unlikeFundamentalAnalysis')
       },
       {
         type: 'title',
-        key: t('TradersWhoUseTechnicalAnalysis')
+        key: t('tradersWhoUse')
       },
       {
         type: 'text',
-        key: t('TheMarketPriceContainsAll')
+        key: t('theMarketPrice')
       },
       {
         type: 'text',
-        key: t('TheseThreePremisesAreTheBasis')
+        key: t('thePriceFluctuates')
       },
       {
         type: 'text',
-        key: t('ItShouldBeNotedThatTechnicalAnalysis')
+        key: t('historyWillRepeat')
       },
       {
         type: 'text',
-        key: t('TheRoleOfTechnicalAnalysis')
+        key: t('theseThreePremises')
       },
       {
         type: 'text',
-        key: t('CommonMethodsOfTechnicalAnalysis')
+        key: t('itShouldBe')
       },
       {
         type: 'title',
-        key: t('WhyIdentifyingTrends')
+        key: t('theRoleOf')
       },
       {
         type: 'text',
-        key: t('JustUnderstandingTheChartPrice')
-      },
-      {
-        type: 'text',
-        key: t('ThereAreManyToolsForIdentifyingTrends')
-      },
-      {
-        type: 'text',
-        key: t('NoteThatAlthoughTheMinuteChart')
+        key: t('commonMethodsOf')
       },
       {
         type: 'title',
-        key: t('TrendLinesSupportLinesAndResistanceLines')
+        key: t('whyIdentifyingTrends')
       },
       {
         type: 'text',
-        key: t('ATrendLineIsAStraightLine')
+        key: t('justUnderstanding')
       },
       {
         type: 'text',
-        key: t('ASupportLineRefersTo')
+        key: t('thereAreMany')
+      },
+      {
+        type: 'text',
+        key: t('noteThatAlthough')
+      },
+      {
+        type: 'title',
+        key: t('trendLines')
+      },
+      {
+        type: 'text',
+        key: t('aTrendLine')
       },
       {
         type: 'image',
@@ -110,7 +105,7 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('TheResistanceLineRefersTo')
+        key: t('theResistanceLine')
       },
       {
         type: 'image',
@@ -118,7 +113,7 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('OnTheMT4Platform')
+        key: t('onTheMT4')
       },
       {
         type: 'image',
@@ -126,71 +121,171 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('ThePrincipleOfDrawingATrendLine')
+        key: t('thePrincipleOf')
       },
       {
         type: 'text',
-        key: t('DrawingATrendLine')
+        key: t('drawingATrend')
       }
     ],
     [
       {
         type: 'title',
-        key: t('FundamentalAnalysis')
+        key: t('fundamentalAnalysis')
       },
       {
         type: 'text',
-        key: t('FundamentalAnalysisOverview')
+        key: t('fundamentalAnalysisOverview')
       },
       {
         type: 'text',
-        key: t('TechnicalAnalysisStudiesHistoricalPrices')
+        key: t('technicalAnalysisStudies')
+      },
+      {
+        type: 'text',
+        key: t('technicalAnalysisReveals')
+      },
+      {
+        type: 'text',
+        key: t('theFactorsAffecting')
+      },
+      {
+        type: 'text',
+        key: t('ofCourse')
+      },
+      {
+        type: 'title',
+        key: t('longTerm')
+      },
+      {
+        type: 'text',
+        key: t('whenMeasuringCurrencys')
+      },
+      {
+        type: 'title',
+        key: t('purchasingPower')
+      },
+      {
+        type: 'text',
+        key: t('purchasingPowerParity')
+      },
+      {
+        type: 'text',
+        key: t('exchangeRate')
+      },
+      {
+        type: 'text',
+        key: t('forExample')
+      },
+      {
+        type: 'text',
+        key: t('ifTheCurrent')
+      },
+      {
+        type: 'text',
+        key: t('itShouldBeNoted')
+      },
+      {
+        type: 'title',
+        key: t('balanceOfPayments')
+      },
+      {
+        type: 'text',
+        key: t('accordingToThe')
+      },
+      {
+        type: 'text',
+        key: t('theCurrentAccount')
+      },
+      {
+        type: 'text',
+        key: t('theCapitalAccount')
+      },
+      {
+        type: 'text',
+        key: t('capitalFlows')
+      },
+      {
+        type: 'text',
+        key: t('whenACountry')
+      },
+      {
+        type: 'text',
+        key: t('theFixedIncomeMarket')
+      },
+      {
+        type: 'title',
+        key: t('detectCurrency')
+      },
+      {
+        type: 'text',
+        key: t('investorsCanPay')
+      },
+      {
+        type: 'title',
+        key: t('theFixedIncome')
+      },
+      {
+        type: 'text',
+        key: t('giltsBonds')
+      },
+      {
+        type: 'title',
+        key: t('otherCountriesInternational')
+      },
+      {
+        type: 'text',
+        key: t('theFixedIncomeProducts')
+      },
+      {
+        type: 'text',
+        key: t('weAlsoNeed')
       }
     ],
     [
       {
         type: 'title',
-        key: t('FibonacciRetracementLine')
+        key: t('fibonacciRetracementLine')
       },
       {
         type: 'text',
-        key: t('Definition')
+        key: t('definition')
       },
       {
         type: 'text',
-        key: t('Effect')
+        key: t('theFibonacciRetracement')
       },
       {
         type: 'title',
-        key: t('FibonacciRetracementLine')
+        key: t('effect')
       },
       {
         type: 'text',
-        key: t('FibonacciRetracementsProvideUs')
+        key: t('fibonacciRetracementsProvide')
       },
       {
         type: 'text',
-        key: t('SomeTradersLikeToDraw')
+        key: t('someTradersLike')
       },
       {
         type: 'title',
-        key: t('Parameter')
+        key: t('parameter')
       },
       {
         type: 'text',
-        key: t('TheOfTheUptrendOrDowntrend')
+        key: t('uptrendOrDowntrend')
       },
       {
         type: 'title',
-        key: t('ApplicationExample')
+        key: t('applicationExample')
       },
       {
         type: 'text',
-        key: t('IfYouFindAWaveOfUptrend')
+        key: t('ifYouFind')
       },
       {
         type: 'text',
-        key: t('InTheMT4Platform')
+        key: t('inTheMT4')
       },
       {
         type: 'image',
@@ -198,7 +293,7 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('AfterClickingThisButton')
+        key: t('afterClicking')
       },
       {
         type: 'image',
@@ -208,27 +303,27 @@ const advancedTrading: React.FC<{}> = () => {
     [
       {
         type: 'title',
-        key: t('SupportAndResistance')
+        key: t('supportAndResistance')
       },
       {
         type: 'text',
-        key: t('SupportLevelRefers')
+        key: t('supportLevel')
       },
       {
         type: 'text',
-        key: t('TheMethodsToIdentify')
+        key: t('theMethods')
       },
       {
         type: 'title',
-        key: t('Trendline')
+        key: t('trendline')
       },
       {
         type: 'text',
-        key: t('InTechnicalAnalysisAndTrendJudgment')
+        key: t('weIntroduced')
       },
       {
         type: 'text',
-        key: t('SometimesWhenThePriceFalls')
+        key: t('sometimes')
       },
       {
         type: 'image',
@@ -236,19 +331,19 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('TheAbovePictureShows')
+        key: t('theAbovePicture')
       },
       {
         type: 'text',
-        key: t('InManyCasesResistanceAndSupportLevels')
+        key: t('inManyCases')
       },
       {
         type: 'title',
-        key: t('PreviousHighLow')
+        key: t('previousHigh')
       },
       {
         type: 'text',
-        key: t('WhenTheFXRateChanges')
+        key: t('whenTheFX')
       },
       {
         type: 'image',
@@ -256,15 +351,15 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('TheAbovePictureShowsThePrevious')
+        key: t('theAbovePictureShows')
       },
       {
         type: 'text',
-        key: t('WhenJudgingSupportAndResistanceLevels')
+        key: t('whenJudgingSupport')
       },
       {
         type: 'text',
-        key: t('WhenThePriceReturnsTo')
+        key: t('whenThePrice')
       },
       {
         type: 'image',
@@ -272,15 +367,19 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('TheAbovePictureIsTheWeeklyChart')
+        key: t('theAbove')
       },
       {
         type: 'title',
-        key: t('PatternRecognitionJudgment')
+        key: t('patternRecognitionJudgment')
       },
       {
         type: 'text',
-        key: t('ChartPatternsOftenProvide')
+        key: t('chartPatterns')
+      },
+      {
+        type: 'text',
+        key: t('inADouble')
       },
       {
         type: 'image',
@@ -288,27 +387,79 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'title',
-        key: t('TechnicalIndexJudgment')
+        key: t('technicalIndexJudgment')
       },
       {
         type: 'text',
-        key: t('SomeClassicalTechnicalIndicators')
+        key: t('someClassicalTechnical')
       }
     ],
     [
       {
         type: 'title',
-        key: t('MarketParticipants')
+        key: t('marketParticipants')
       },
       {
         type: 'text',
-        key: t('ByUnderstandingWhoAre')
+        key: t('byUnderstanding')
+      },
+      {
+        type: 'title',
+        key: t('interbankMarket')
+      },
+      {
+        type: 'text',
+        key: t('theInterbankMarket')
+      },
+      {
+        type: 'text',
+        key: t('beingAtThe')
+      },
+      {
+        type: 'title',
+        key: t('centralBanks')
+      },
+      {
+        type: 'text',
+        key: t('controlTheMoney')
+      },
+      {
+        type: 'text',
+        key: t('thisMeansThat')
+      },
+      {
+        type: 'title',
+        key: t('investmentManagementCompanies')
+      },
+      {
+        type: 'text',
+        key: t('theseCompaniesUsually')
+      },
+      {
+        type: 'text',
+        key: t('inOtherWords')
+      },
+      {
+        type: 'title',
+        key: t('retailTraders')
+      },
+      {
+        type: 'text',
+        key: t('retailTradersConduct')
+      },
+      {
+        type: 'title',
+        key: t('nonBank')
+      },
+      {
+        type: 'text',
+        key: t('refersToForeign')
       }
     ],
     [
       {
         type: 'text',
-        key: t('HereWeWillDiscuss')
+        key: t('hereWeWill')
       },
       {
         type: 'image',
@@ -316,7 +467,7 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'title',
-        key: t('EODTransaction')
+        key: t('eODTransaction')
       },
       {
         type: 'image',
@@ -324,15 +475,15 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('ThisIsATradingStyleAdopted')
+        key: t('thisIsATrading')
       },
       {
         type: 'text',
-        key: t('IfYouAreBusy')
+        key: t('ifYouAreBusy')
       },
       {
         type: 'title',
-        key: t('FundamentalsMacroTrading')
+        key: t('fundamentals')
       },
       {
         type: 'image',
@@ -340,11 +491,11 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('UseFundamentalInformation')
+        key: t('useFundamentalInformation')
       },
       {
         type: 'title',
-        key: t('DayTrading')
+        key: t('dayTrading')
       },
       {
         type: 'image',
@@ -352,15 +503,15 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('IntradayTradersComplete')
+        key: t('intradayTradersComplete')
       },
       {
         type: 'text',
-        key: t('DayTradingContains')
+        key: t('dayTradingContains')
       },
       {
         type: 'title',
-        key: t('NewsTrading')
+        key: t('newsTrading')
       },
       {
         type: 'image',
@@ -368,11 +519,11 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('NewsTradersTendToFocus')
+        key: t('newsTradersTend')
       },
       {
         type: 'title',
-        key: t('LongTermTrading')
+        key: t('longTermTrading')
       },
       {
         type: 'image',
@@ -380,15 +531,15 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('TheTradingStyleOfHolding')
+        key: t('theTradingStyle')
       },
       {
         type: 'text',
-        key: t('DueToTheLongerHoldingPeriod')
+        key: t('dueToThe')
       },
       {
         type: 'title',
-        key: t('Scalping')
+        key: t('scalping')
       },
       {
         type: 'image',
@@ -396,15 +547,15 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('ScalpingIsAnIntraday')
+        key: t('scalpingIsAn')
       },
       {
         type: 'text',
-        key: t('IntradayAndScalpingTraders')
+        key: t('intradayAndScalping')
       },
       {
         type: 'title',
-        key: t('SwingTrading')
+        key: t('swingTrading')
       },
       {
         type: 'image',
@@ -412,11 +563,11 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('AsASwingTrader')
+        key: t('asASwing')
       },
       {
         type: 'title',
-        key: t('TechnicalTrading')
+        key: t('technicalTrading')
       },
       {
         type: 'image',
@@ -424,11 +575,11 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('UseTechnicalAnalysisToAnalyze')
+        key: t('useTechnicalAnalysis')
       },
       {
         type: 'title',
-        key: t('TrendTrading')
+        key: t('trendTrading')
       },
       {
         type: 'image',
@@ -436,13 +587,24 @@ const advancedTrading: React.FC<{}> = () => {
       },
       {
         type: 'text',
-        key: t('TheTrendTradingStyleHereRefers')
+        key: t('theTrendTrading')
       }
     ]
   ];
 
   useEffect(() => {
-    heightCalculation();
+    if (
+      document.getElementById('heightDetect2') &&
+      document.querySelector('body')
+    ) {
+      const bodyTop = document
+        .querySelector('body')
+        .getBoundingClientRect().top;
+      const divTop = document
+        .getElementById('heightDetect2')
+        .getBoundingClientRect().top;
+      setHeight(divTop - bodyTop);
+    }
   }, [windowWidth]);
 
   useEffect(() => {
@@ -458,183 +620,60 @@ const advancedTrading: React.FC<{}> = () => {
     setWindowWidth(window.innerWidth);
   }
 
-  function heightCalculation() {
-    if (
-      document.getElementById('heightDetect3') &&
-      document.querySelector('body')
-    ) {
-      const bodyTop = document
-        .querySelector('body')
-        .getBoundingClientRect().top;
-      const divTop = document
-        .getElementById('heightDetect3')
-        .getBoundingClientRect().top;
-      setHeight(divTop - bodyTop);
-      return;
-    } else {
-      setTimeout(() => {
-        heightCalculation();
-      }, 500);
-    }
-  }
-
   return (
     <Wrapper>
       <Flex
-        id="heightDetect3"
         display="flex"
         py={{ base: 10, xl: 20 }}
         bgColor="gray.50"
         direction="column"
         align="center"
       >
-        <InfoTitle title={t('AnalysisAndTrends')} />
-        <InfoTitleSub title={t('PredictPossibleFuturePrice')} />
+        <InfoTitle title={t('advancedTradingCourse')} />
+        <InfoTitleSub title={t('predictPossibleFuture')} />
       </Flex>
       <Flex direction="column" align="center">
-        {widthCheck && (
-          <Box display="flex" my={{ base: 0, xl: 20 }}>
-            <Box w="25vw" mx={3}>
-              <Accordion allowMultiple allowToggle defaultIndex={[2]}>
-                <AccordionItem
-                  onClick={(e) => {
-                    router.push('/learnTrade/basicTrading');
-                  }}
-                >
-                  <h2>
-                    <AccordionButton>
-                      <Box flex="1" textAlign="left" fontWeight="600">
-                        {t('basicTradingCourse')}
-                      </Box>
-                      <ChevronRightIcon fontSize="20px" />
-                    </AccordionButton>
-                  </h2>
-                </AccordionItem>
-                <AccordionItem
-                  onClick={(e) => {
-                    router.push('/learnTrade/intermediateTrading');
-                  }}
-                >
-                  <h2>
-                    <AccordionButton>
-                      <Box flex="1" textAlign="left" fontWeight="600">
-                        {t('intermediateTradingCourse')}
-                      </Box>
-                      <ChevronRightIcon fontSize="20px" />
-                    </AccordionButton>
-                  </h2>
-                </AccordionItem>
+        <Box width={'80vw'} my={10}>
+          <Accordion allowToggle>
+            <InfoAccordionMultiItem
+              title={t('technicalAnalysis')}
+              content={data[0]}
+              callback={() => window.scroll(0, height + 100)}
+            />
+            <InfoAccordionMultiItem
+              title={t('fundamentalAnalysis')}
+              content={data[1]}
+              callback={() => window.scroll(0, height + 140)}
+            />
 
-                <InfoAccordionMultiItem
-                  title={t('AdvancedTradingCourse')}
-                  content={[
-                    {
-                      type: 'page',
-                      key: t('TechnicalAnalysisAndMarketTrends')
-                    },
-                    {
-                      type: 'page',
-                      key: t('FundamentalAnalysis')
-                    },
-                    {
-                      type: 'page',
-                      key: t('FibonacciRetracementLine')
-                    },
-                    {
-                      type: 'page',
-                      key: t('SupportAndResistance')
-                    },
-                    {
-                      type: 'page',
-                      key: t('MarketParticipants')
-                    },
-                    {
-                      type: 'page',
-                      key: t('TradingStyle')
-                    }
-                  ]}
-                  pageCallback={(page: number) => setPage(page)}
-                />
-              </Accordion>
-            </Box>
-            <Box w="65vw" mx={3}>
-              {data[page].map((each, index) => (
-                <>
-                  {each.type === 'text' && (
-                    <Box
-                      pb={3}
-                      key={'advanced' + page + index + each.key}
-                      textAlign={isArabic ? 'right' : 'left'}
-                    >
-                      {each.key}
-                    </Box>
-                  )}
-                  {each.type === 'title' && (
-                    <Box
-                      fontWeight="bold"
-                      pt={index === 0 ? 0 : 3}
-                      key={'advanced' + page + index + each.key}
-                      textAlign={isArabic ? 'right' : 'left'}
-                    >
-                      {each.key}
-                    </Box>
-                  )}
-                  {each.type === 'image' && (
-                    <Image
-                      py={3}
-                      key={'advanced' + page + index + each.key}
-                      src={each.key}
-                    />
-                  )}
-                </>
-              ))}
-              <Box pb={7} />
-            </Box>
-          </Box>
-        )}
+            <InfoAccordionMultiItem
+              title={t('fibonacciRetracementLine')}
+              content={data[2]}
+              callback={() => window.scroll(0, height + 180)}
+            />
 
-        {!widthCheck && (
-          <Box width={'80vw'} my={10}>
-            <Accordion width={'80vw'} allowToggle>
-              <InfoAccordionMultiItem
-                title={t('TechnicalAnalysisAndMarketTrends')}
-                content={data[0]}
-                callback={() => window.scroll(0, height + 100)}
-              />
-              <InfoAccordionMultiItem
-                title={t('FundamentalAnalysis')}
-                content={data[1]}
-                callback={() => window.scroll(0, height + 140)}
-              />
+            <InfoAccordionMultiItem
+              title={t('supportAndResistance')}
+              content={data[3]}
+              callback={() => window.scroll(0, height + 220)}
+            />
 
-              <InfoAccordionMultiItem
-                title={t('FibonacciRetracementLine')}
-                content={data[2]}
-                callback={() => window.scroll(0, height + 180)}
-              />
+            <InfoAccordionMultiItem
+              title={t('marketParticipants')}
+              content={data[4]}
+              callback={() => window.scroll(0, height + 260)}
+            />
 
-              <InfoAccordionMultiItem
-                title={t('SupportAndResistance')}
-                content={data[3]}
-                callback={() => window.scroll(0, height + 220)}
-              />
+            <InfoAccordionMultiItem
+              title={t('tradingStyle')}
+              content={data[5]}
+              callback={() => window.scroll(0, height + 300)}
+            />
+          </Accordion>
+        </Box>
 
-              <InfoAccordionMultiItem
-                title={t('MarketParticipants')}
-                content={data[4]}
-                callback={() => window.scroll(0, height + 260)}
-              />
-
-              <InfoAccordionMultiItem
-                title={t('TradingStyle')}
-                content={data[5]}
-                callback={() => window.scroll(0, height + 300)}
-              />
-            </Accordion>
-          </Box>
-        )}
-        {!widthCheck && (
-          <Box mt={3} mb={10}>
+        <Box mt={3} mb={10}>
+          <NextLink href="/learnTrade/intermediateTrading" locale={currentLang}>
             <IconButton
               size="lg"
               bg="gray.600"
@@ -643,12 +682,11 @@ const advancedTrading: React.FC<{}> = () => {
               }}
               color="white"
               title={t('intermediateTradingCourse')}
-              onClick={() => router.push('/learnTrade/intermediateTrading')}
               aria-label={t('intermediateTradingCourse')}
               icon={<ArrowBackIcon fontSize="40px" />}
             />
-          </Box>
-        )}
+          </NextLink>
+        </Box>
       </Flex>
     </Wrapper>
   );

@@ -2,6 +2,7 @@
   "howToStartTrading": "Cách bắt đầu giao dịch",
   "haventHadExperience": "Không có kinh nghiệm giao dịch tài chính? Chúng tôi sẽ hướng dẫn bạn từng bước để bắt đầu giao dịch. ",
   "basicTradingCourse": "Khóa học giao dịch cơ bản",
+  "intermediateTradingCourse": "Khóa học giao dịch cơ bản",
   "whatIsForeignExchangeTrading": "Kinh doanh ngoại hối là gì？",
   "factorsAffectingTheMarket": "Các nhân tố ảnh hưởng đến thị trường",
   "basicOperationOfTheMT4Platform": "Hoạt động cơ bản của nền tảng MT4",
@@ -73,7 +74,7 @@
   "productCategory": "7. Danh mục sản phẩm: Chọn mục tiêu giao dịch của bạn",
   "lotsEnterTheLotSize": "Lot: Nhập kích thước lô， tối thiểu là 0, 01 lot (ngoại hối， vàng và bạc)",
   "stopLossPrice": "Giá cắt lỗ: Khi giá đạt đến mức giá xác định, vị trí sẽ tự động bị đóng; mặc định là 0, có nghĩa là không đặt điểm dừng lỗ. ",
-  "takeProfitprice": "Giá Chốt lời: Khi giá đạt đến mức giá đã định, vị trí sẽ tự động được đóng để giữ lợi nhuận; mặc định là 0, có nghĩa là không có chốt lời được đặt. ",
+  "takeProfitPrice": "Giá Chốt lời: Khi giá đạt đến mức giá đã định, vị trí sẽ tự động được đóng để giữ lợi nhuận; mặc định là 0, có nghĩa là không có chốt lời được đặt. ",
   "sellAtMarketPriceOrBuy": "Bán theo giá thị trường hoặc mua theo giá thị trường: nhấp vào nút màu đỏ để bán và nhấp vào nút màu xanh để mua. ",
   "theOrderTypeColumn": "Cột \"Loại lệnh\" trong cửa sổ đặt hàng, lựa chọn mặc định là \"Giá thị trường\", nghĩa là tạo giao dịch theo giá thị trường hiện tại. ",
   "pendingOrder": "8. Lệnh đang chờ xử lý",
@@ -125,7 +126,5 @@
   "commodityFuturesAreAlso": "Hàng hóa tương lai cũng là một loại tài sản tài chính. Nó đại diện cho thỏa thuận mua hoặc bán một lượng hàng hóa nhất định, chẳng hạn như bạch kim, đồng hoặc dầu thô vào một ngày và giá xác định trước. Vì giá cả của hàng hóa luôn biến động theo những thay đổi của cung và cầu, các nhà giao dịch có thể suy đoán về sự biến động giá của chúng bằng cách mua và bán hàng hóa tương lai. Nếu bạn giao dịch CFD bạch kim thông qua WCG, bạn có thể dự đoán liệu giá bạch kim sẽ tăng hay giảm trong tương lai và quyết định mở một lệnh mua hay bán. CFD hàng hóa do WCG cung cấp cũng bao gồm đồng và dầu thô (dầu thô nhẹ WTI và dầu thô BRENT của Texas). ",
   "byOpeningAnAccountThrough": "Bằng cách mở tài khoản thông qua WCG, bạn có thể giao dịch ngoại hối và chỉ số chứng khoán hoặc CFD hàng hóa trên cùng một nền tảng và tài khoản. Bạn sẽ có thể tự do chuyển đổi giữa thị trường ngoại hối và các thị trường CFD khác nhau, mở và đóng các vị trí chính xác. ",
   "whatAreTheAdvantages": "Ưu điểm của giao dịch CFD là gì?",
-  "theMostSignificantAdvantage": "Ưu điểm đáng kể nhất của giao dịch CFD là bạn có thể sử dụng đòn bẩy gấp 100 lần, có nghĩa là bạn có thể mở các giao dịch lớn hơn với vốn khởi điểm thấp hơn và chi phí giao dịch tương đối nhỏ. Cần lưu ý rằng mặc dù đòn bẩy có thể làm tăng lợi nhuận, nhưng nó cũng sẽ làm tăng lỗ. Do đó, bạn cần áp dụng các chiến lược quản lý rủi ro phù hợp khi giao dịch CFD với đòn bẩy. CFD cũng hỗ trợ giao dịch hai chiều, cho dù đó là thị trường con gấu (Bear market) hay thị trường bò tót (Bull market), bạn có thể mua và bán tự do và toàn bộ quá trình bạn sẽ không bị tính phí hoa hồng hoặc phí tài chính. Giao dịch tất cả các sản phẩm trên một tài khoản và tận dụng tối đa nhiều cơ hội giao dịch mà WCG cung cấp cho bạn. ",
-  "intermediateTradingCourse": "Khóa học giao dịch trung cấp",
-  "advancedTradingCourse": "khóa học giao dịch nâng cao"
+  "theMostSignificantAdvantage": "Ưu điểm đáng kể nhất của giao dịch CFD là bạn có thể sử dụng đòn bẩy gấp 100 lần, có nghĩa là bạn có thể mở các giao dịch lớn hơn với vốn khởi điểm thấp hơn và chi phí giao dịch tương đối nhỏ. Cần lưu ý rằng mặc dù đòn bẩy có thể làm tăng lợi nhuận, nhưng nó cũng sẽ làm tăng lỗ. Do đó, bạn cần áp dụng các chiến lược quản lý rủi ro phù hợp khi giao dịch CFD với đòn bẩy. CFD cũng hỗ trợ giao dịch hai chiều, cho dù đó là thị trường con gấu (Bear market) hay thị trường bò tót (Bull market), bạn có thể mua và bán tự do và toàn bộ quá trình bạn sẽ không bị tính phí hoa hồng hoặc phí tài chính. Giao dịch tất cả các sản phẩm trên một tài khoản và tận dụng tối đa nhiều cơ hội giao dịch mà WCG cung cấp cho bạn. "
 }
