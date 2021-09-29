@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://103.68.61.92:8443///compare/v1.5.5...v1.6.0) (2021-09-29)
+
+
+### Features
+
+* **activity:** finished activity WCGZG ([7d0313d](https://103.68.61.92:8443///commit/7d0313dc948b0f507b735144df75be74d67c9aa5))
+
 ### [1.5.5](https://103.68.61.92:8443///compare/v1.5.4...v1.5.5) (2021-09-28)
 
 ### [1.5.4](https://103.68.61.92:8443///compare/v1.5.3...v1.5.4) (2021-09-28)
