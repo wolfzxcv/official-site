@@ -47,7 +47,7 @@ const WCGZG: React.FC<{}> = () => {
         </Flex>
       </Flex>
       <Flex bg={dark} justify="center">
-        <Box>
+        <Box display={{ base: 'inherit', md: 'none' }}>
           <Image
             height="auto"
             src="../assets/images/activity_WCGZG_banner_pic.png"
@@ -55,6 +55,13 @@ const WCGZG: React.FC<{}> = () => {
           />
         </Box>
       </Flex>
+      <Box
+        display={{ base: 'none', md: 'inherit' }}
+        maxW="100vw"
+        height="897px"
+        bgImage="../assets/images/activity_WCGZG_banner.jpg"
+        bgPosition="center"
+      ></Box>
 
       <Flex bg={dark} justify="center">
         <Box position={{ base: 'inherit', md: 'absolute' }} zIndex="1">
