@@ -5,7 +5,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "server": "node server.js",
     "locales": "npx prettier --write ./src/i18n/**/*.json",
     "release": "standard-version"
   },
@@ -26,9 +25,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "react-reveal": "^1.2.2",
     "standard-version": "^9.3.1",
-    "winston": "^3.3.3",
     "yup": "^0.32.9"
   },
   "devDependencies": {
