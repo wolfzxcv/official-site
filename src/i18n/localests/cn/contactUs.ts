@@ -30,5 +30,9 @@ export const contactUs: ContactUs = {
   iAgreeTo:
     '我同意将我的信息提交到WCG，对有关产品和其他优惠的信息，可通过电邮和电话与我沟通。我已阅读并同意WCG隐私政策。您可以随时选择拒绝接受我们的行销通信。',
   submit: '提交咨询单',
-  weWillContactYou: '我们将尽快与您联系'
+  weWillContactYou: '我们将尽快与您联系',
+  tooShort: '内容过短',
+  tooLong: '内容过长',
+  invalidFormat: '格式错误',
+  required: '必填'
 };

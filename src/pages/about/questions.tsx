@@ -23,7 +23,8 @@ const questions: React.FC<{}> = () => {
       content: [
         t('WCGMarketsLtdIsRegistered'),
         t('WCGMarketsLtdIsSupervised'),
-        t('WCGMarketsLtdIsAuthorized')
+        t('WCGMarketsLtdIsAuthorized'),
+        t('WCGIsALimitedLiabilityCompany')
       ]
     },
     {

@@ -10,7 +10,9 @@ export const questions: Questions = {
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*is*supervised*by*the*Canadian*Financial*Intelligence*Unit*(FIU)*and*the*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC).*The*MSB*license*number*is*M20282836.',
   WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*is*authorized*and*supervised*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*and*is*a*No.*12*A1*member.*WCG*is*a*limited*liability*company*incorporated*in*the*United*Kingdom*with*company*number*11019948.',
+    'WCG*Markets*Ltd*is*authorized*and*supervised*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*and*is*a*No.*12*A1*member.',
+  WCGIsALimitedLiabilityCompany:
+    'WCG*is*a*limited*liability*company*incorporated*in*the*United*Kingdom*with*company*number*11019948.',
   HowToOpenAnAccountInWCG: 'How*to*open*an*account*in*WCG?',
   youCanRegisterYourRealAccount:
     'You*can*register*your*real*account*on*the*official*website*of*WCG,*or*click*here*to*register.',

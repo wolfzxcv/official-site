@@ -31,5 +31,9 @@ export const contactUs: ContactUs = {
   iAgreeTo:
     "I*agree*to*submit*my*information*to*WCG.*For*information*about*products*and*other*promotion*offers,*I*can*be*reached*by*email*or*phone.*I*have*read*and*agree*with*the*WCG's*privacy*policy.You*can*choose*to*refuse*to*accept*our*marketing*communications*at*any*time.",
   submit: 'Submit',
-  weWillContactYou: 'We*will*contact*you*as*soon*as*possible'
+  weWillContactYou: 'We*will*contact*you*as*soon*as*possible',
+  tooShort: 'Too*short',
+  tooLong: 'Too*long',
+  invalidFormat: 'Invalid*format',
+  required: 'Required'
 };

@@ -32,5 +32,9 @@ export const contactUs: ContactUs = {
   iAgreeTo:
     'Tôi*đồng*ý*gửi*thông*tin*của*mình*cho*WCG.*Để*biết*thông*tin*về*sản*phẩm*và*các*ưu*đãi*khuyến*mãi*khác,*tôi*có*thể*liên*hệ*với*tôi*qua*email*hoặc*điện*thoại.*Tôi*đã*đọc*và*đồng*ý*với*chính*sách*bảo*mật*của*WCG.Bạn*có*thể*chọn*từ*chối*chấp*nhận*các*thông*tin*tiếp*thị*của*chúng*tôi*bất*kỳ*lúc*nào.',
   submit: 'Gửi*đơn*yêu*cầu',
-  weWillContactYou: 'Chúng*tôi*sẽ*liên*hệ*với*bạn*ngay*khi*có*thể'
+  weWillContactYou: 'Chúng*tôi*sẽ*liên*hệ*với*bạn*ngay*khi*có*thể',
+  tooShort: 'Too*short',
+  tooLong: 'Too*long',
+  invalidFormat: 'Invalid*format',
+  required: 'Required'
 };

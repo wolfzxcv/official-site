@@ -10,7 +10,9 @@ export const questions: Questions = {
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*diselia*oleh*Unit*Perisikan*Kewangan*Kanada*(FIU)*dan*Pusat*Analisis*Transaksi*dan*Pelaporan*Kewangan*Kanada*(FINTRAC).*Nombor*lesen*MSB*adalah*M20282836.',
   WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*diberi*kuasa*dan*diawasi*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*dan*merupakan*ahli*No.*12*A1.*WCG*adalah*syarikat*berhad*yang*diperbadankan*di*United*Kingdom*dengan*nombor*syarikat*11019948.',
+    'WCG*Markets*Ltd*diberi*kuasa*dan*diawasi*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*dan*merupakan*ahli*No.*12*A1.',
+  WCGIsALimitedLiabilityCompany:
+    'WCG*adalah*syarikat*berhad*yang*diperbadankan*di*United*Kingdom*dengan*nombor*syarikat*11019948.',
   HowToOpenAnAccountInWCG: 'Bagaimana*cara*membuka*akaun*di*WCG?',
   youCanRegisterYourRealAccount:
     'Anda*boleh*mendaftarkan*akaun*sebenar*anda*di*laman*web*rasmi*WCG,*atau*klik*di*sini*untuk*mendaftar.',

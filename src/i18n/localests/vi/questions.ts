@@ -10,7 +10,9 @@ export const questions: Questions = {
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*được*giám*sát*bởi*Đơn*vị*Tình*báo*Tài*chính*Canada*(FIU)*và*Trung*tâm*Phân*tích*Báo*cáo*và*Giao*dịch*Tài*chính*Canada*(FINTRAC).*Số*giấy*phép*MSB*là*M20282836.',
   WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*được*ủy*quyền*và*giám*sát*bởi*Sở*giao*dịch*vàng*bạc*Hồng*Kông*(CGSE),*và*là*thành*viên*số*12*A1.*WCG*là*một*công*ty*trách*nhiệm*hữu*hạn*được*thành*lập*tại*Vương*quốc*Anh*với*số*công*ty*11019948.',
+    'WCG*Markets*Ltd*được*ủy*quyền*và*giám*sát*bởi*Sở*giao*dịch*vàng*bạc*Hồng*Kông*(CGSE),*và*là*thành*viên*số*12*A1.',
+  WCGIsALimitedLiabilityCompany:
+    'WCG*là*một*công*ty*trách*nhiệm*hữu*hạn*được*thành*lập*tại*Vương*quốc*Anh*với*số*công*ty*11019948.',
   HowToOpenAnAccountInWCG: 'Làm*thế*nào*để*mở*một*tài*khoản*trong*WCG?',
   youCanRegisterYourRealAccount:
     'Bạn*có*thể*đăng*ký*tài*khoản*thực*của*mình*trên*trang*web*chính*thức*của*WCG,*hoặc*nhấp*vào*đây*để*đăng*ký.',

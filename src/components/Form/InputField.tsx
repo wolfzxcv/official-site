@@ -18,17 +18,17 @@ const InputField: React.FC<InputFieldProps> = ({
   size: _,
   ...props
 }: InputFieldProps) => {
-  const [field, { error }] = useField(props);
+  const [field, { error, touched }] = useField(props);
+
   return (
-    <FormControl isInvalid={!!error}>
+    <FormControl
+      isInvalid={!!error || !!touched}
+      width={{ base: '100%', md: '50%' }}
+      p={2}
+    >
       <FormLabel htmlFor={field.name}>{label}</FormLabel>
-      <Input
-        {...field}
-        {...props}
-        id={field.name}
-        placeholder={props.placeholder}
-      />
-      {error ? <FormErrorMessage>{error}</FormErrorMessage> : null}
+      <Input {...field} {...props} id={field.name} />
+      <FormErrorMessage>{error}</FormErrorMessage>
     </FormControl>
   );
 };

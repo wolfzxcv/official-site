@@ -10,7 +10,9 @@ export const questions: Questions = {
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*由加拿大金融情报机构*(FIU)*和加拿大金融交易和报告分析中心*(FINTRAC)*监管。*MSB*许可证编号为*M20282836。',
   WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*由香港金银交易所*(CGSE)*授权和监管，是第*12*名*A1*会员。*WCG*是一家在英国註册成立的有限责任公司，公司编号为*11019948。',
+    'WCG*Markets*Ltd*由香港金银交易所*(CGSE)*授权和监管，是第*12*号*A1*会员。',
+  WCGIsALimitedLiabilityCompany:
+    'WCG*是一家在英国註册成立的有限责任公司，公司编号为*11019948。',
   HowToOpenAnAccountInWCG: '如何在WCG开户?',
   youCanRegisterYourRealAccount:
     '您可以在WCG官网注册您的真实账户，或点此注册。',

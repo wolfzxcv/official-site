@@ -31,5 +31,9 @@ export const contactUs: ContactUs = {
   iAgreeTo:
     'Saya*setuju*untuk*mengirimkan*informasi*saya*ke*WCG.*Untuk*informasi*tentang*produk*dan*penawaran*promosi*lainnya,*saya*bisa*dihubungi*melalui*email*atau*telepon.*Saya*telah*membaca*dan*setuju*dengan*kebijakan*privasi*WCG.Anda*dapat*memilih*untuk*menolak*menerima*komunikasi*pemasaran*kami*kapan*saja.',
   submit: 'Kirimkan*formulir*pertanyaan',
-  weWillContactYou: 'Kami*akan*menghubungi*Anda*secepatnya'
+  weWillContactYou: 'Kami*akan*menghubungi*Anda*secepatnya',
+  tooShort: 'Too*short',
+  tooLong: 'Too*long',
+  invalidFormat: 'Invalid*format',
+  required: 'Required'
 };
