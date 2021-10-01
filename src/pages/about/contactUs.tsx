@@ -28,76 +28,77 @@ const contactUs: React.FC<{}> = () => {
       name: 'name',
       initialValue: '',
       rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
+        .min(2, t('tooShort'))
+        .max(50, t('tooLong'))
+        .required(t('required'))
     },
     {
       label: t('lastName'),
       name: 'surname',
       initialValue: '',
       rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
+        .min(2, t('tooShort'))
+        .max(50, t('tooLong'))
+        .required(t('required'))
     },
     {
       label: t('contactNumber'),
       name: 'mobile',
       initialValue: '',
       rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
+        .min(2, t('tooShort'))
+        .max(50, t('tooLong'))
+        .required(t('required'))
     },
     {
       label: t('emailAddress'),
       name: 'email',
-      type: 'email',
       initialValue: '',
-      rule: Yup.string().email('Invalid email').required('Required')
+      rule: Yup.string().email(t('invalidFormat')).required(t('required'))
     },
     {
       label: t('area'),
       name: 'area',
       initialValue: '',
       rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
+        .min(2, t('tooShort'))
+        .max(50, t('tooLong'))
+        .required(t('required'))
     },
     {
       label: t('category'),
       name: 'type',
-      type: 'text',
+      type: 'select',
+      options: [
+        t('pleaseSelectAnItem'),
+        t('generalInquiry'),
+        t('disputesComplaints'),
+        t('partner')
+      ],
       initialValue: '',
-      rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
-    },
-    {
-      label: t('areYouOurExistingCustomer'),
-      name: 'iScustomer',
-      type: 'text',
-      initialValue: '',
-      rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
+      rule: Yup.string().required(t('required'))
     },
     {
       label: t('yourAccount'),
       name: 'login',
       initialValue: '',
       rule: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required')
+        .min(2, t('tooShort'))
+        .max(50, t('tooLong'))
+        .required(t('required'))
+    },
+    {
+      label: t('areYouOurExistingCustomer'),
+      name: 'iScustomer',
+      type: 'select',
+      options: [t('pleaseSelectAnItem'), t('No'), t('Yes')],
+      initialValue: '',
+      rule: Yup.string().required(t('required'))
     },
     {
       label: t('leaveAMessage'),
       name: 'content',
+      type: 'textarea',
       initialValue: '',
       rule: Yup.string().notRequired()
     }
@@ -153,6 +154,7 @@ const contactUs: React.FC<{}> = () => {
         <Box w={{ base: '80vw', md: '700px' }}>
           <SubmitForm
             data={data}
+            agreement={t('iAgreeTo')}
             submit={t('submit')}
             afterSubmit={t('weWillContactYou')}
             api="account/contact"

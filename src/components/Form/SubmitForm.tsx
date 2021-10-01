@@ -1,4 +1,4 @@
-import { Box, Button, Flex } from '@chakra-ui/react';
+import { Box, Button, Checkbox, Flex } from '@chakra-ui/react';
 import axios from 'axios';
 import { Form, Formik } from 'formik';
 import React, { useState } from 'react';
@@ -6,13 +6,7 @@ import * as Yup from 'yup';
 import { RequiredStringSchema } from 'yup/lib/string';
 import InputField from './InputField';
 
-type IFieldType =
-  | 'text'
-  | 'email'
-  | 'textarea'
-  | 'radio'
-  | 'checkbox'
-  | 'select';
+export type IFieldType = 'text' | 'textarea' | 'radio' | 'checkbox' | 'select';
 
 export interface IField {
   type?: IFieldType;
@@ -28,14 +22,18 @@ interface SubmitFormProps {
   submit: string;
   afterSubmit: string;
   api: string;
+  agreement?: string;
 }
 
 const SubmitForm: React.FC<SubmitFormProps> = ({
   data,
   submit,
   afterSubmit,
-  api
+  api,
+  agreement
 }) => {
+  const [hasAgreed, setHasAgreed] = useState(false);
+
   const [hasSubmitted, setHasSubmitted] = useState(false);
 
   const initialValues = data.reduce((pre, cur) => {
@@ -66,21 +64,20 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
           initialValues={initialValues}
           validationSchema={submitValidation}
           onSubmit={async (values, actions) => {
-            try {
-              const { data } = await axios.post(
-                `${process.env.NEXT_PUBLIC_API_URL}${api}`,
-                values
-              );
+            if ((agreement && hasAgreed) || !agreement) {
+              try {
+                const { data } = await axios.post(
+                  `${process.env.NEXT_PUBLIC_API_URL}${api}`,
+                  values
+                );
 
-              console.log(values);
-
-              if (data) {
-                actions.setSubmitting(false);
-                setHasSubmitted(true);
-                console.log('response ', data);
+                if (data) {
+                  actions.setSubmitting(false);
+                  setHasSubmitted(true);
+                }
+              } catch (e) {
+                console.log(e);
               }
-            } catch (e) {
-              console.log(e);
             }
           }}
         >
@@ -89,9 +86,26 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
               <Flex wrap="wrap">
                 {data &&
                   data.map((x) => (
-                    <InputField key={x.label} label={x.label} name={x.name} />
+                    <InputField
+                      key={x.label}
+                      label={x.label}
+                      name={x.name}
+                      type={x.type}
+                      options={x.options}
+                    />
                   ))}
               </Flex>
+
+              {agreement && (
+                <Checkbox
+                  py={{ base: 5, md: 10 }}
+                  colorScheme="red"
+                  isChecked={hasAgreed}
+                  onChange={(e) => setHasAgreed(e.target.checked)}
+                >
+                  {agreement}
+                </Checkbox>
+              )}
 
               <Button
                 mt={5}
