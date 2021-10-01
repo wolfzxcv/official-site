@@ -56,4 +56,12 @@ export type ContactUs = {
   submit: string;
   /** We will contact you */
   weWillContactYou: string;
+  /** too short */
+  tooShort: string;
+  /** too long */
+  tooLong: string;
+  /** invalid format */
+  invalidFormat: string;
+  /** required */
+  required: string;
 };

@@ -25,5 +25,9 @@
   "leaveAMessage": "留言",
   "iAgreeTo": "我同意將我的信息提交到WCG，對有關產品和其他優惠的信息，可通過電郵和電話與我溝通。我已閱讀並同意WCG隱私政策。您可以隨時選擇拒絕接受我們的營銷通訊。",
   "submit": "提交諮詢單",
-  "weWillContactYou": "我們將盡快與您聯系"
+  "weWillContactYou": "我們將盡快與您聯系",
+  "tooShort": "內容過短",
+  "tooLong": "內容過長",
+  "invalidFormat": "格式錯誤",
+  "required": "必填"
 }

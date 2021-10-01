@@ -14,6 +14,8 @@ export type Questions = {
   WCGMarketsLtdIsSupervised: string;
   /** WCG Markets Ltd is authorized */
   WCGMarketsLtdIsAuthorized: string;
+  /** WCG is a limited liability company */
+  WCGIsALimitedLiabilityCompany: string;
   /** How to open an account in WCG? */
   HowToOpenAnAccountInWCG: string;
   /** You can register your real account */

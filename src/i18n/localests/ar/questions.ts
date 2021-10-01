@@ -10,8 +10,10 @@ export const questions: Questions = {
   WCGMarketsLtdIsSupervised:
     'يشرف*على*WCG*Markets*Ltd*وحدة*الاستخبارات*المالية*الكندية*(FIU)*والمركز*الكندي*لتحليل*المعاملات*المالية*والتقارير*(FINTRAC).*رقم*ترخيص*MSB*هو*M20282836.',
   WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*مرخصة*وتشرف*عليها*بورصة*هونغ*كونغ*للذهب*والفضة*(CGSE)*،*وهي*عضو*رقم*12*A1.*WCG*هي*شركة*ذات*مسؤولية*محدودة*تأسست*في*المملكة*المتحدة*برقم*11019948.',
-  HowToOpenAnAccountInWCG: 'كيفية*فتح*حساب*في*WCG*?',
+    'WCG*Markets*Ltd*مرخصة*وتشرف*عليها*بورصة*هونغ*كونغ*للذهب*والفضة*(CGSE)*،*وهي*عضو*رقم*12*A1.',
+  WCGIsALimitedLiabilityCompany:
+    'WCG*هي*شركة*ذات*مسؤولية*محدودة*تأسست*في*المملكة*المتحدة*برقم*11019948',
+  HowToOpenAnAccountInWCG: 'كيفية*فتح*حساب*في*WCG?',
   youCanRegisterYourRealAccount:
     'يمكنك*تسجيل*حسابك*الحقيقي*على*الموقع*الرسمي*لـ*WCG،*أو*انقر*هنا*للتسجيل',
   whatKindOfAccounts: 'ما*نوع*الحسابات*التي*توفرها*المنصة*?',
