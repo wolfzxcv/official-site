@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://103.68.61.92:8443///compare/v1.7.0...v1.8.0) (2021-10-04)
+
+
+### Features
+
+* **inputfield:** finish function ([98ffa3b](https://103.68.61.92:8443///commit/98ffa3bae177f6c8c77b38e50b969626160ee02c))
+
 ## [1.7.0](https://103.68.61.92:8443///compare/v1.6.0...v1.7.0) (2021-10-01)
 
 
