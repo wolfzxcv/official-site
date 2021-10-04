@@ -8,7 +8,7 @@ export const about: About = {
   registerADemoAccountNow: '立即註冊模擬帳戶',
   strictlyRegulatedAndTrustworthy: '嚴格監管，值得信賴',
   WCGInternational:
-    'WCG國際有限公司為專業金融投資品牌，於聖文森和格林納丁斯成立，受其嚴謹的法律及法規監管，同時依據國際商業公司法註冊（BCN*:*25293*BC*2019），嚴格的規範以保障投資者的利益。',
+    'WCG*Markets*Ltd*為專業金融投資品牌，於聖文森和格林納丁斯成立，受其嚴謹的法律及法規監管，同時依據國際商業公司法註冊（BCN*:*25293*BC*2019），嚴格的規範以保障投資者的利益。',
   tradingProducts: '交易產品',
   tradingPlatform: '交易平台',
   platformHasWonManyAwards: '平台屢獲殊榮',

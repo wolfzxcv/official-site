@@ -9,7 +9,7 @@ export const about: About = {
   registerADemoAccountNow: 'Daftarkan*akun*demo*sekarang',
   strictlyRegulatedAndTrustworthy: 'Diatur*dengan*ketat*dan*dapat*dipercaya',
   WCGInternational:
-    'WCG*International*adalah*merek*investasi*keuangan*profesional*yang*didirikan*di*Saint*Vincent*dan*Grenadines,*tunduk*pada*hukum*dan*peraturan*yang*ketat,*dan*terdaftar*sesuai*dengan*Hukum*Perusahaan*Bisnis*Internasional*(BCN:*25293*BC*2019),*Mereka*memiliki*peraturan*yang*ketat*untuk*melindungi*kepentingan*investor.',
+    'WCG*Markets*Ltd*adalah*merek*investasi*keuangan*profesional*yang*didirikan*di*Saint*Vincent*dan*Grenadines,*tunduk*pada*hukum*dan*peraturan*yang*ketat,*dan*terdaftar*sesuai*dengan*Hukum*Perusahaan*Bisnis*Internasional*(BCN:*25293*BC*2019),*Mereka*memiliki*peraturan*yang*ketat*untuk*melindungi*kepentingan*investor.',
   tradingProducts: 'Produk*perdagangan',
   tradingPlatform: 'Platform*perdagangan',
   platformHasWonManyAwards: 'Platform*telah*memenangkan*banyak*penghargaan',
