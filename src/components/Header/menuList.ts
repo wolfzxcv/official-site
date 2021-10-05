@@ -24,8 +24,8 @@ export const menuList: IMenuItem[] = [
       },
       { i18n: 'questions', href: '/about/questions' },
       { i18n: 'announcements', href: '/about/announcements' },
-      { i18n: 'aboutUs', href: '/about' }
-      // { i18n: 'contactUs', href: '/about/contactUs' }
+      { i18n: 'aboutUs', href: '/about' },
+      { i18n: 'contactUs', href: '/about/contactUs' }
     ]
   },
   {
