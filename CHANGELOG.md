@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://103.68.61.92:8443///compare/v1.8.0...v1.8.1) (2021-10-05)
+
+
+### Bug Fixes
+
+* **submitform:** modify SubmitForm and contactUs ([de66841](https://103.68.61.92:8443///commit/de6684102d740620c90f6fab992ba35322ed723d))
+
 ## [1.8.0](https://103.68.61.92:8443///compare/v1.7.0...v1.8.0) (2021-10-04)
 
 
