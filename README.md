@@ -76,7 +76,53 @@
 
 需要動到的檔案有兩個: **next-i18next.config.js**以及**locales.ts**
 
+- [請依照 ISO 碼命名](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+
 ## 開發相關
+
+### API 文件
+
+- API 路徑設定,在`.env`這支檔案
+  ![](https://i.imgur.com/gQNs8lG.jpg)
+
+- 語言代號,[依照 ISO 碼命名](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes),**所有 API 皆須在 URL 上帶語系**參數,**lang=(要帶的語系)**
+  cn = 簡體中文
+  zh = 繁體中文
+  en = 英語
+  vi = 越南語
+  ms = 馬來語
+  id = 印尼語
+  ar = 阿拉伯語
+
+- 1 市場資訊 (GET)
+  https://www.wc012.com/api/index/index?lang=cn
+  quote = 市場分析
+  focus = 財經新聞
+
+- 2 企業動向 (GET)
+  https://www.wc012.com/api/index/company?lang=cn
+
+- 3 企業責任 (GET)
+  https://www.wc012.com/api/index/responsibility?lang=cn
+
+- 4 平台公告 (GET)
+  https://www.wc012.com/api/index/notice?lang=cn
+
+- 5 "聯系我們" 表單提交 (POST)
+  https://www.wc012.com/api/index/contact?lang=cn
+  - 資料庫欄位截圖
+    ![](https://i.imgur.com/T8GnSrP.png)
+  - 所有 API 均需在 URL 帶上語系參數,此為共用 API 控制器寫好的規則
+  - 表單資訊的參數們,則用 json 帶在 request body
+  - API 送出成功,前端判斷標準
+    - response 裡面的 status 為 200
+    - HTTP status 為 200
+  - 傳送範例
+    - 錯誤範例
+      ![](https://i.imgur.com/7eJumId.jpg)
+    - 成功範例
+      ![](https://i.imgur.com/MYRfN7p.jpg)
+      ![](https://i.imgur.com/fHduG2c.jpg)
 
 ### 開發工具
 
