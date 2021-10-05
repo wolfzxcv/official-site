@@ -85,7 +85,7 @@ const contactUs: React.FC<{}> = () => {
       rule: Yup.string()
         .min(2, t('tooShort'))
         .max(50, t('tooLong'))
-        .required(t('required'))
+        .notRequired()
     },
     {
       label: t('areYouOurExistingCustomer'),
