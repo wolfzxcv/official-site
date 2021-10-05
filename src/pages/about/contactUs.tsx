@@ -37,7 +37,7 @@ const contactUs: React.FC<{}> = () => {
       name: 'surname',
       initialValue: '',
       rule: Yup.string()
-        .min(2, t('tooShort'))
+        .min(1, t('tooShort'))
         .max(50, t('tooLong'))
         .required(t('required'))
     },
@@ -157,7 +157,7 @@ const contactUs: React.FC<{}> = () => {
             agreement={t('iAgreeTo')}
             submit={t('submit')}
             afterSubmit={t('weWillContactYou')}
-            api="account/contact"
+            api="index/contact"
           />
         </Box>
       </Flex>

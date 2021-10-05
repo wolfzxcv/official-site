@@ -1,9 +1,11 @@
 import { Box, Button, Checkbox, Flex } from '@chakra-ui/react';
 import axios from 'axios';
 import { Form, Formik } from 'formik';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import * as Yup from 'yup';
 import { RequiredStringSchema } from 'yup/lib/string';
+import { Locales } from '../../i18n/locales';
 import InputField from './InputField';
 
 export type IFieldType = 'text' | 'textarea' | 'radio' | 'checkbox' | 'select';
@@ -32,6 +34,9 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
   api,
   agreement
 }) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
   const [hasAgreed, setHasAgreed] = useState(false);
 
   const [hasSubmitted, setHasSubmitted] = useState(false);
@@ -66,14 +71,18 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
           onSubmit={async (values, actions) => {
             if ((agreement && hasAgreed) || !agreement) {
               try {
-                const { data } = await axios.post(
-                  `${process.env.NEXT_PUBLIC_API_URL}${api}`,
+                const {
+                  data: { status }
+                } = await axios.post(
+                  `${process.env.NEXT_PUBLIC_API_URL}${api}?lang=${currentLang}`,
                   values
                 );
 
-                if (data) {
+                if (status === 200) {
                   actions.setSubmitting(false);
                   setHasSubmitted(true);
+
+                  actions.resetForm();
                 }
               } catch (e) {
                 console.log(e);
@@ -98,6 +107,7 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
 
               {agreement && (
                 <Checkbox
+                  isInvalid={!hasAgreed}
                   py={{ base: 5, md: 10 }}
                   colorScheme="red"
                   isChecked={hasAgreed}
