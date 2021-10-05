@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.2](https://103.68.61.92:8443///compare/v1.8.1...v1.8.2) (2021-10-05)
+
+
+### Bug Fixes
+
+* **contactus:** modify validation rule ([6a242f5](https://103.68.61.92:8443///commit/6a242f55db1b0332ffa67f423f2d7cc3ee568140))
+
 ### [1.8.1](https://103.68.61.92:8443///compare/v1.8.0...v1.8.1) (2021-10-05)
 
 
