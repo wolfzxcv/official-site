@@ -89,24 +89,24 @@ export const intermediateTrading: IntermediateTrading = {
     '市場價格跳空指的是市場在非常短的時間內突然發生的巨大波動。',
   example: '示例',
   upposeYouHaveAUD10:
-    '假設您的帳戶內有10，000澳元，您願意拿來承受風險的資金占總資金的2%，接下來您需要計算出交易的倉位大小。在計算過程中，您所交易的貨幣對種類也會影響到開倉量的計算。例如，200澳元的風險資金，在交易AUD/USD時的開倉量與NZD/CAD不同——因為不同貨幣對的每點價值存在差異。',
+    '假設您的帳戶內有10,000澳元，您願意拿來承受風險的資金占總資金的2%，接下來您需要計算出交易的倉位大小。在計算過程中，您所交易的貨幣對種類也會影響到開倉量的計算。例如，200澳元的風險資金，在交易AUD/USD時的開倉量與NZD/CAD不同——因為不同貨幣對的每點價值存在差異。',
   trade1LotOfAUDUSDInAn: '在澳元結算的帳戶中交易1手AUD/USD',
-  transactionVolume: '交易量= 100，000',
-  yiPip00001: '1點 = 0.0001',
-  aUDUSDexchangeRate: 'AUD/USD匯率 = 0.7465',
-  pipValue0000107465: '每點價值 = 0.0001/0.7465 * 100，000 = 13.39澳元',
+  transactionVolume: '交易量=*100,000',
+  yiPip00001: '1點*=*0.0001',
+  aUDUSDexchangeRate: 'AUD/USD匯率*=*0.7465',
+  pipValue0000107465: '每點價值*=*0.0001/0.7465*x*100,000*=*13.39澳元',
   trade1LotOfNZDCADin: '在澳元結算的帳戶中交易1手NZD/CAD',
-  tradingVolume: '交易量= 100，000',
-  aUDCADExchangeRate: 'AUD/CAD匯率 = 0.9907',
-  pipValue0000109907: '每點價值 = 0.0001/0.9907 * 100，000 = 10。09澳元',
+  tradingVolume: '交易量=*100,000',
+  aUDCADExchangeRate: 'AUD/CAD匯率*=*0.9907',
+  pipValue0000109907: '每點價值*=*0.0001*/*0.9907*x*100,000*=*10.09澳元',
   asYouCanSeeTradingDifferent:
-    '正如您所看到的，交易不同貨幣對意味著貨幣對波動的每點價值也會有所不同——交易AUD/USD時，市場價格每波動1點所帶來的資金風險是13。39澳元，而交易NZD/CAD時，相應的每點價值是10。09澳元。',
+    '正如您所看到的，交易不同貨幣對意味著貨幣對波動的每點價值也會有所不同——交易AUD/USD時，市場價格每波動1點所帶來的資金風險是13.39澳元，而交易NZD/CAD時，相應的每點價值是10.09澳元。',
   toCalculateTheSpecificPrice:
     '要計算出您設置止損的具體價格，接下來您需要計算出在多少點的逆向波動後，倉位的累計虧損會達到200澳元。',
-  aUDUSD: 'AUD/USD——$200 / $13.39 = 15點止損',
-  nZDCAD: 'NZD/CAD——$200 / $10.09 = 20點止損',
+  aUDUSD: 'AUD/USD——$200*/*$13.39*=*15點止損',
+  nZDCAD: 'NZD/CAD——$200*/*$10.09*=*20點止損',
   ifYouWantToSetALargerStop:
-    '如果您想要設置一個更大的止損，那麼您需要減少交易量——例如，將1標準手的交易量降低至1迷你手（10，000）',
+    '如果您想要設置一個更大的止損，那麼您需要減少交易量——例如，將1標準手的交易量降低至1迷你手（10,000）',
   inTheCaseOfTrading:
     '在交易1迷你手AUD/USD的情況下，您的止損可以擴大至距離開倉價格150點，而對於NZD/CAD交易，您的止損則可以擴大至距離開倉價格200點。',
   pleaseRememberThat:
@@ -116,7 +116,7 @@ export const intermediateTrading: IntermediateTrading = {
   assessYourSkills: '評估您的技能',
   haveYouTestedYourStrategy:
     '您測試過您的策略了嗎?您確信您的策略是有效的嗎?您能毫不猶豫地遵循您的策略嗎?如果您交易策略還不夠完善，那麼最好通過測試不斷調整，直到您能放心使用您的策略。',
-  psychologicalPreparation: '心理准',
+  psychologicalPreparation: '心理準備',
   tradingCanAffectYourEmotions:
     '交易會使情緒像坐過山車一樣起伏，所以努力讓情緒不受干擾顯得尤為重要。如果您面臨個人壓力而無法適應交易帶來的挑戰，那麼最好不要進行交易。如果您在情緒和心理上都准備好了，那麼您可以開始進行交易，但是請確保您的帳戶內只持有一個單子。',
   risksManagement: '設置風險等',
@@ -125,7 +125,7 @@ export const intermediateTrading: IntermediateTrading = {
   settingGoals: '設置目標',
   beforeYouStartTrading:
     '在開始交易前，您應該設置預期盈利目標和風險回報率。做為一名交易者，您應該設置每週、週月和每年的盈利目標，並定期評估以確保您的交易策略得到有效執行。',
-  prepareToTrade: '准備交易',
+  prepareToTrade: '準備交易',
   beforeYouOYourFirst:
     '每個交易日在您開立第一個倉位之前，您應該先做好一些準備。比如，研究當天的主要新聞、在圖表上面標示出支撐位與阻力位，甚至再次通讀您的交易策略。',
   positionOpeningAndClosing: '開倉與平倉規則',

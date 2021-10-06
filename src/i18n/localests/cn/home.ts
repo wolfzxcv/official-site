@@ -24,11 +24,10 @@ export const home: Home = {
   brandReputation: '品牌信誉及双赢关系',
   WCGValuesTheCustomersTradingExperience:
     'WCG重视客户的交易体验，深信品牌的未来发展有赖与各合作伙伴的共同成长。',
-  preciousMetalsContract: '贵金属合约',
+  preciousMetalsContract: '现货黄金及现货白银买卖合约',
   timesLeverage:
-    '100-200倍杠杆加持，低成本高收益，全球24小时交易，买涨买跌皆可获利。',
-  LondonGoldLondonSilver:
-    '伦敦金&伦敦银是国际金融期货交易所提供的一种交易产品，交易规则简单，T+0操作。',
+    '100-200倍杠杆，低成本高收益，全球24小时交易，买涨买跌皆可获利。',
+  LondonGoldLondonSilver: '交易规则简单，T+0操作。',
   shortFundSettlementTime: '资金结算时间短，网上电子交易快捷安全。',
   accountOpening: '开户交易',
   realTimeQuotation: '实时的交易品种报价',

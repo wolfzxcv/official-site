@@ -92,21 +92,21 @@ export const basicTrading: BasicTrading = {
     '这是第三种交易方式，也即使用同样的过滤器筛选出高影响的新闻，并确保避开这些新闻时间段来进行交易。这种方法更适合那些使用1小时、4小时或日图来设置交易的交易者（或超长线交易者）。',
   afterTheDownloadProcess: '下载完成后，开始安装程序：',
   checkYesIAgreeWith:
-    '1。勾选「Yes，I agree with all the terms of this license agreement」，按下「Next」按钮。如果需要指定MT4平台的安装路径，点击「Settings」按钮。',
+    '1.*勾选「Yes」，按下「Next」按钮。如果需要指定MT4平台的安装路径，点击「Settings」按钮。',
   theInstallationWizard:
-    '2。安装向导会自动连接到MetaQuotes网站并开始下载平台内容，下载的进度条完成时，点击「Finish」按钮。',
+    '2.*安装向导会自动连接到MetaQuotes网站并开始下载平台内容，下载的进度条完成时，点击「Finish」按钮。',
   thePlatformInterface:
-    '3。平台界面会自动打开，代表已成功安装MT4平台。如果您在安装过程中遇到任何问题，欢迎联系在线客服，或拨打免费电话与客服团队联系。',
+    '3.*平台界面会自动打开，代表已成功安装MT4平台。如果您在安装过程中遇到任何问题，欢迎联系在线客服，或拨打免费电话与客服团队联系。',
   logInToTheTradingAccount:
-    '4。登录交易帐户。如果您已有交易帐户，请点击平台左上方的「文件」——「登录到交易帐户」。',
+    '4.*登录交易帐户。如果您已有交易帐户，请点击平台左上方的「文件」——「登录到交易帐户」。',
   inThePopUpLoginWindow:
-    '5。在弹出登录视窗内，输入帐号、密码，并选择正确的服务器，然后点击「登录」按钮。',
+    '5.*在弹出登录视窗内，输入帐号、密码，并选择正确的服务器，然后点击「登录」按钮。',
   thePlatformWillTakeSomeTime:
     '平台会需要一些时间来登录帐户，您可以通过检查平台右下角来确认连接是否成功。在平台成功登录时，右下角应该显示数据流量。',
-  createAMarketOrder: '6。建立市价单',
+  createAMarketOrder: '6.*建立市价单',
   thereAreManyWaysTo:
     '在MT4平台上开设新交易有多种办法，最简单的操作是直接点击平台上方工具条上的「新订单」快捷按钮，并会出现一个订单视窗',
-  productCategory: '7。交易品种：选择交易对象',
+  productCategory: '7.*交易品种：选择交易对象',
   lotsEnterTheLotSize:
     '手数：输入交易量大小，最低为0.01手（外汇、黄金和白银）。',
   stopLossPrice:
@@ -117,7 +117,7 @@ export const basicTrading: BasicTrading = {
     '于市价卖或于市价买：点击红色按钮卖出，点击蓝色按钮买入。',
   theOrderTypeColumn:
     '订单视窗内的「交易类型」栏目，默认选择的是「市价成交」，意思是要按照当前市价建立交易。',
-  pendingOrder: '8。挂单交易',
+  pendingOrder: '8.*挂单交易',
   changeTheOrderType:
     '在订单视窗中将交易类型改为「挂单交易」即可执行挂单操作。',
   thereAreFourTypes: '挂单的类型分为四种：',
@@ -127,17 +127,17 @@ export const basicTrading: BasicTrading = {
   sellStopSellPending: 'Sell*stop——挂单价格低于市场价格的卖出挂单。',
   afterSelectingTheCorresponding:
     '选择对应的挂单类型后，在价格栏输入需要的价格，点击「下单」即可。',
-  oneClickTrading: '9。一键交易',
+  oneClickTrading: '9.*一键交易',
   foreignExchangePrices:
     '外汇价格波动瞬息万变，我们有时候不得不寻求更快速、更效率地下单办法，好在MT4提供了一键交易功能。在平台右边的图表视窗内按下鼠标右键，选择菜单选项中的「一键交易」。',
   onTheUpperLeftCorner:
     '在图表的左上角会出现一键交易的报价悬浮视窗。点击左边价格就会自动开设卖出交易，点击右边价格就会自动开设买进交易。在点击前，务必在中间的交易量栏目内输入需要交易的手数。',
-  modifyTheOrder: '10。修改订单',
+  modifyTheOrder: '10.*修改订单',
   afterOpening:
     '在开仓后，有时候我们需要给仓位设置止损/获利。在平台下方「终端」视窗的「交易」栏目中，找到需要修改的仓位，在上面单击鼠标右键，在菜单中选择「修改或删除订单」。',
   inThePopUpWindow:
     '在弹出视窗中，按照下图中的办法设置，可以更改仓位的止损/止盈。',
-  closePosition: '11。平仓操作',
+  closePosition: '11.*平仓操作',
   theSummaryWindowAt:
     '交易开设后，可以在平台下方的「终端」视窗内的「交易」栏目查看持仓：',
   theAccountBalance:
@@ -146,13 +146,13 @@ export const basicTrading: BasicTrading = {
     '这时候我们打开了平仓确认视窗，点击视窗内的黄色按钮来关闭这笔交易，为仓位结利。',
   oneClickClosing:
     '一键平仓：点击位于持仓最右边的X按钮，激活一键交易，可以更快速地完成平仓操作。',
-  accountHistory: '12。帐户历史',
+  accountHistory: '12.*帐户历史',
   youCanFindAllClosed:
     '在「终端」视窗的「帐户历史」栏目中可以找到所有的已平仓交易。',
   profitLossTheTotal: '盈/亏——交易的总盈亏，包括过夜利息。',
   depositsTotalDeposits: '存款——累计存款总额。',
   withdrawalTheTotal: '取款——累计取款总额。',
-  openTheChartAndLoad: '13。打开图表和加载技术指标',
+  openTheChartAndLoad: '13.*打开图表和加载技术指标',
   afterTheMT4Platform:
     'MT4平台安装后默认情况下会打开四个图表，如果要建立一个新图表，最简单的办法是在需要图表的产品市场报价上单击鼠标右键，在菜单选项中选择「图表视窗」。',
   ifYouWantToSwitch:
