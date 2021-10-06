@@ -92,21 +92,21 @@ export const basicTrading: BasicTrading = {
     '這是第三種交易方式，也即使用同樣的過濾器篩選出高影響的新聞，并確保避開這些新聞時間段來進行交易。這種方法更適合那些使用1小時、4小時或日圖來設置交易的交易者（或超長線交易者）。',
   afterTheDownloadProcess: '下載完成後，開始安裝程序：',
   checkYesIAgreeWith:
-    '1。 勾選「Yes， I agree with all the terms of this license agreement」，按下「Next」按鈕。如果需要指定MT4平台的安裝路徑，點擊「Settings」按鈕。',
+    '1.*勾選「Yes」，按下「Next」按鈕。如果需要指定MT4平台的安裝路徑，點擊「Settings」按鈕。',
   theInstallationWizard:
-    '2。 安裝向導會自動連接到MetaQuotes網站並開始下載平台內容，下載的進度條完成時，點擊「Finish」按鈕。',
+    '2.*安裝向導會自動連接到MetaQuotes網站並開始下載平台內容，下載的進度條完成時，點擊「Finish」按鈕。',
   thePlatformInterface:
-    '3。 平台界面會自動打開，代表已成功安裝MT4平台。如果您在安裝過程中遇到任何問題，歡迎聯系線上客服，或撥打免費電話與客服團隊聯系。',
+    '3.*平台界面會自動打開，代表已成功安裝MT4平台。如果您在安裝過程中遇到任何問題，歡迎聯系線上客服，或撥打免費電話與客服團隊聯系。',
   logInToTheTradingAccount:
-    '4。 登錄交易帳戶。如果您已有交易帳戶，請點擊平台左上方的「文件」——「登錄到交易帳戶」。',
+    '4.*登錄交易帳戶。如果您已有交易帳戶，請點擊平台左上方的「文件」——「登錄到交易帳戶」。',
   inThePopUpLoginWindow:
-    '5。 在彈出登錄視窗內，輸入帳號、密碼，並選擇正確的服務器，然後點擊「登錄」按鈕。',
+    '5.*在彈出登錄視窗內，輸入帳號、密碼，並選擇正確的服務器，然後點擊「登錄」按鈕。',
   thePlatformWillTakeSomeTime:
     '平台會需要一些時間來登錄帳戶，您可以通過檢查平台右下角來確認連接是否成功。在平台成功登錄時，右下角應該顯示數據流量。',
-  createAMarketOrder: '6。 建立市價單',
+  createAMarketOrder: '6.*建立市價單',
   thereAreManyWaysTo:
     '在MT4平台上開設新交易有多種辦法，最簡單的操作是直接點擊平台上方工具條上的「新訂單」快捷按鈕，並會出現一個訂單視窗',
-  productCategory: '7。 交易品種：選擇交易對象',
+  productCategory: '7.*交易品種：選擇交易對象',
   lotsEnterTheLotSize:
     '手數：輸入交易量大小，最低為0.01手（外匯、黃金和白銀）。',
   stopLossPrice:
@@ -117,7 +117,7 @@ export const basicTrading: BasicTrading = {
     '於市價賣或於市價買：點擊紅色按鈕賣出，點擊藍色按鈕買入。',
   theOrderTypeColumn:
     '訂單視窗內的「交易類型」欄目，默認選擇的是「市價成交」，意思是要按照當前市價建立交易。',
-  pendingOrder: '8。 掛單交易',
+  pendingOrder: '8.*掛單交易',
   changeTheOrderType:
     '在訂單視窗中將交易類型改為「掛單交易」即可執行掛單操作。',
   thereAreFourTypes: '掛單的類型分為四種：',
@@ -127,17 +127,17 @@ export const basicTrading: BasicTrading = {
   sellStopSellPending: 'Sell*stop——掛單價格低於市場價格的賣出掛單。',
   afterSelectingTheCorresponding:
     '選擇對應的掛單類型後，在價格欄輸入需要的價格，點擊「下單」即可。',
-  oneClickTrading: '9。 一鍵交易',
+  oneClickTrading: '9.* 一鍵交易',
   foreignExchangePrices:
     '外匯價格波動瞬息萬變，我們有時候不得不尋求更快速、更效率地下單辦法，好在MT4提供了一鍵交易功能。在平台右邊的圖表視窗內按下滑鼠右鍵，選擇菜單選項中的「一鍵交易」。',
   onTheUpperLeftCorner:
     '在圖表的左上角會出現一鍵交易的報價懸浮視窗。點擊左邊價格就會自動開設賣出交易，點擊右邊價格就會自動開設買進交易。在點擊前，務必在中間的交易量欄目內輸入需要交易的手數。',
-  modifyTheOrder: '10。 修改訂單',
+  modifyTheOrder: '10.*修改訂單',
   afterOpening:
     '在開倉後，有時候我們需要給倉位設置止損/獲利。在平台下方「終端」視窗的「交易」欄目中，找到需要修改的倉位，在上面單擊滑鼠右鍵，在菜單中選擇「修改或刪除訂單」。',
   inThePopUpWindow:
     '在彈出視窗中，按照下圖中的辦法設置，可以更改倉位的止損/止盈。',
-  closePosition: '11。 平倉操作',
+  closePosition: '11.*平倉操作',
   theSummaryWindowAt:
     '交易開設後，可以在平台下方的「終端」視窗內的「交易」欄目查看持倉：',
   theAccountBalance:
@@ -146,13 +146,13 @@ export const basicTrading: BasicTrading = {
     '這時候我們打開了平倉確認視窗，點擊視窗內的黃色按鈕來關閉這筆交易，為倉位結利。',
   oneClickClosing:
     '一鍵平倉：點擊位於持倉最右邊的X按鈕，激活一鍵交易，可以更快速地完成平倉操作。',
-  accountHistory: '12。 帳戶歷史',
+  accountHistory: '12.*帳戶歷史',
   youCanFindAllClosed:
     '在「終端」視窗的「帳戶歷史」欄目中可以找到所有的已平倉交易。',
   profitLossTheTotal: '盈/虧——交易的總盈虧，包括過夜利息。',
   depositsTotalDeposits: '存款——累計存款總額。',
   withdrawalTheTotal: '取款——累計取款總額。',
-  openTheChartAndLoad: '13。 打開圖表和加載技術指標',
+  openTheChartAndLoad: '13.*打開圖表和加載技術指標',
   afterTheMT4Platform:
     'MT4平台安裝後默認情況下會打開四個圖表，如果要建立一個新圖表，最簡單的辦法是在需要圖表的產品市場報價上單擊滑鼠右鍵，在菜單選項中選擇「圖表視窗」。',
   ifYouWantToSwitch:
