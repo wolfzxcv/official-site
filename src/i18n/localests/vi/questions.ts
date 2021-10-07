@@ -26,8 +26,10 @@ export const questions: Questions = {
   accountOpeningWillTake:
     'Việc*mở*tài*khoản*sẽ*diễn*ra*bình*thường*trong*1*ngày*làm*việc.',
   howLongWillItTakeToProcess: 'Mất*bao*lâu*để*xử*lý*đơn*rút*tiền?',
-  theWithdrawalWillTake:
-    'Việc*rút*tiền*sẽ*mất*từ*​​1-3*ngày*làm*việc,*không*bao*gồm*ngày*nộp*đơn.',
+  submitTheWithdrawal:
+    'Gửi*hướng*dẫn*rút*tiền*trước*11:00*sáng*và*bạn*sẽ*có*thể*nhận*được*tài*khoản*của*mình*trước*khoảng*1:00*chiều*cùng*ngày.',
+  submitTheWithdrawalInstruction:
+    'Gửi*hướng*dẫn*rút*tiền*trước*5:00*chiều*và*tài*khoản*sẽ*được*ghi*có*trước*7:00*tối*cùng*ngày.',
   HowDoIKnowMyWithdrawal:
     'Làm*cách*nào*để*biết*đơn*rút*tiền*của*tôi*đã*được*chấp*thuận?',
   onceTheWithdrawalApplication:

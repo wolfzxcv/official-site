@@ -28,8 +28,10 @@ export const questions: Questions = {
     'Pembukaan*akaun*akan*memakan*masa*1*hari*bekerja*seperti*biasa.',
   howLongWillItTakeToProcess:
     'Berapa*lama*masa*yang*diperlukan*untuk*memproses*permohonan*pengeluaran?',
-  theWithdrawalWillTake:
-    'Pengeluaran*akan*mengambil*masa*1-3*hari*bekerja,*tidak*termasuk*tarikh*permohonan.',
+  submitTheWithdrawal:
+    'Kirim*arahan*pengeluaran*sebelum*jam*11:00*pagi,*dan*anda*akan*dapat*akaun*anda*sebelum*kira-kira*jam*1:00*petang*pada*hari*yang*sama.',
+  submitTheWithdrawalInstruction:
+    'Kirim*arahan*pengeluaran*sebelum*jam*5:00*petang,*dan*akaun*akan*dikreditkan*sebelum*jam*7:00*malam*pada*hari*yang*sama.',
   HowDoIKnowMyWithdrawal:
     'Bagaimana*saya*tahu*bahawa*permohonan*pengeluaran*saya*diluluskan?',
   onceTheWithdrawalApplication:

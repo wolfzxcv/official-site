@@ -34,8 +34,10 @@ export type Questions = {
   accountOpeningWillTake: string;
   /** How long will it take to process */
   howLongWillItTakeToProcess: string;
-  /** The withdrawal will take */
-  theWithdrawalWillTake: string;
+  /** Submit the withdrawal */
+  submitTheWithdrawal: string;
+  /** Submit the withdrawal instruction  */
+  submitTheWithdrawalInstruction: string;
   /** How do I know my withdrawal */
   HowDoIKnowMyWithdrawal: string;
   /** Once the withdrawal application */

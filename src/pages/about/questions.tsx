@@ -46,7 +46,7 @@ const questions: React.FC<{}> = () => {
     },
     {
       title: t('howLongWillItTakeToProcess'),
-      content: [t('theWithdrawalWillTake')]
+      content: [t('submitTheWithdrawal'), t('submitTheWithdrawalInstruction')]
     },
     {
       title: t('HowDoIKnowMyWithdrawal'),

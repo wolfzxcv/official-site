@@ -24,8 +24,10 @@ export const questions: Questions = {
   howLongWillItTake: '账户需要多长时间稽核完成?',
   accountOpeningWillTake: '开户正常1个工作日内会办理完成。',
   howLongWillItTakeToProcess: '办理出金申请需要多长时间?',
-  theWithdrawalWillTake:
-    '我司每天有两个时段出金：上午11点之前申请出金会在11点出金，上午11点之后至下午5点之前申请出金会在下午5点出金，下午5点之后申请出金*会在第二个工作日上午11点出金处理后最快2小时内到帐。',
+  submitTheWithdrawal:
+    '上午**11:00*时*前提交提款指示，当天约*下午*1:00*时*前便能到账。',
+  submitTheWithdrawalInstruction:
+    '下午*5:00*时*前提交提款指示，当天约*晚上*7:00*时*前便能到账。',
   HowDoIKnowMyWithdrawal: '如何知道出金申请已经被准予?',
   onceTheWithdrawalApplication:
     '一旦提款申请获得批准，出金金额将自动从平台中扣除，并减少可用于交易和维持任何未结头寸的保证金。',

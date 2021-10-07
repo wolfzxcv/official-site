@@ -26,8 +26,10 @@ export const questions: Questions = {
   accountOpeningWillTake: 'Account*opening*will*take*1*working*day*normally.',
   howLongWillItTakeToProcess:
     'How*long*will*it*take*to*process*a*withdrawal*application?',
-  theWithdrawalWillTake:
-    'The*withdrawal*will*take*1-3*working*days,*not*including*the*date*of*application.',
+  submitTheWithdrawal:
+    'Submit*the*withdrawal*instructions*before*11:00*in*the*morning,*and*you*will*be*able*to*get*your*account*before*about*1:00*pm*on*the*same*day.',
+  submitTheWithdrawalInstruction:
+    'Submit*the*withdrawal*instruction*before*5:00*pm,*and*the*account*will*be*credited*before*7:00*pm*on*the*same*day.',
   HowDoIKnowMyWithdrawal:
     'How*do*I*know*my*withdrawal*application*is*approved?',
   onceTheWithdrawalApplication:
