@@ -41,10 +41,10 @@ const InputField: React.FC<InputFieldProps> = ({
         <Textarea resize="none" {...field} {...props} id={field.name} />
       )}
       {/* {type === 'radio' && options && (
-        <RadioGroup defaultValue={0} id={field.name} {...field} {...props}>
-          <HStack spacing="24px">
-            {options.map((x, index) => (
-              <Radio key={x} value={index}>
+        <RadioGroup colorScheme="green" {...field} {...props}>
+          <Stack spacing="24px">
+            {options.map((x) => (
+              <Radio {...field} key={x} value={x}>
                 {x}
               </Radio>
             ))}
