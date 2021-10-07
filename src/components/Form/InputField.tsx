@@ -46,10 +46,10 @@ const InputField: React.FC<InputFieldProps> = ({
         <Textarea resize="none" {...field} {...props} id={field.name} />
       )}
       {type === 'radio' && options && (
-        <RadioGroup id={field.name} {...field} {...props}>
+        <RadioGroup colorScheme="green" {...field} id={field.name} {...props}>
           <Stack spacing="24px">
             {options.map((x) => (
-              <Radio key={x} value={x}>
+              <Radio {...field} key={x} value={x}>
                 {x}
               </Radio>
             ))}
@@ -57,10 +57,15 @@ const InputField: React.FC<InputFieldProps> = ({
         </RadioGroup>
       )}
       {type === 'checkbox' && options && (
-        <CheckboxGroup colorScheme="green" {...field} {...props}>
+        <CheckboxGroup
+          colorScheme="green"
+          {...field}
+          {...props}
+          onChange={(values) => console.log(values)}
+        >
           <Stack spacing="24px">
             {options.map((x) => (
-              <Checkbox key={x} value={x}>
+              <Checkbox {...field} key={x} value={x}>
                 {x}
               </Checkbox>
             ))}
