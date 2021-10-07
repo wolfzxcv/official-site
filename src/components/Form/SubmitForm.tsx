@@ -15,7 +15,7 @@ export interface IField {
   options?: string[];
   label: string;
   name: string;
-  initialValue: string;
+  initialValue: string | (string | number)[];
   rule: RequiredStringSchema<string, Record<string, any>>;
 }
 
@@ -81,7 +81,6 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
                 if (status === 200) {
                   actions.setSubmitting(false);
                   setHasSubmitted(true);
-
                   actions.resetForm();
                 }
               } catch (e) {
@@ -90,7 +89,7 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
             }
           }}
         >
-          {({ isSubmitting }) => (
+          {({ isSubmitting, values, errors }) => (
             <Form>
               <Flex wrap="wrap">
                 {data &&
@@ -130,6 +129,13 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
               >
                 {submit}
               </Button>
+
+              <Box as="pre" marginY={10}>
+                {JSON.stringify(values, null, 2)}
+                <br />
+                <br />
+                {JSON.stringify(errors, null, 2)}
+              </Box>
             </Form>
           )}
         </Formik>

@@ -1,8 +1,13 @@
 import {
+  Checkbox,
+  CheckboxGroup,
   FormControl,
   FormErrorMessage,
   FormLabel,
+  HStack,
   Input,
+  Radio,
+  RadioGroup,
   Select,
   Textarea
 } from '@chakra-ui/react';
@@ -40,11 +45,11 @@ const InputField: React.FC<InputFieldProps> = ({
       {type === 'textarea' && (
         <Textarea resize="none" {...field} {...props} id={field.name} />
       )}
-      {/* {type === 'radio' && options && (
-        <RadioGroup defaultValue={0} id={field.name} {...field} {...props}>
+      {type === 'radio' && options && (
+        <RadioGroup id={field.name} {...field} {...props}>
           <HStack spacing="24px">
-            {options.map((x, index) => (
-              <Radio key={x} value={index}>
+            {options.map((x) => (
+              <Radio key={x} value={x}>
                 {x}
               </Radio>
             ))}
@@ -52,21 +57,17 @@ const InputField: React.FC<InputFieldProps> = ({
         </RadioGroup>
       )}
       {type === 'checkbox' && options && (
-        <CheckboxGroup
-          colorScheme="green"
-          defaultValue={[]}
-          {...field}
-          {...props}
-        >
+        <CheckboxGroup colorScheme="green" {...field} {...props}>
           <HStack spacing="24px">
-            {options.map((x, index) => (
-              <Checkbox key={x} value={index}>
+            {options.map((x) => (
+              <Checkbox key={x} value={x}>
                 {x}
               </Checkbox>
             ))}
           </HStack>
         </CheckboxGroup>
-      )} */}
+      )}
+
       {type === 'select' && options && options.length && (
         <Select {...field} {...props} placeholder={options[0]} id={field.name}>
           {options.map((x, index) => {

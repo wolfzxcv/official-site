@@ -46,8 +46,8 @@ const contactUs: React.FC<{}> = () => {
       name: 'mobile',
       initialValue: '',
       rule: Yup.string()
-        .min(2, t('tooShort'))
-        .max(50, t('tooLong'))
+        .min(8, t('tooShort'))
+        .max(15, t('tooLong'))
         .required(t('required'))
     },
     {
@@ -79,12 +79,28 @@ const contactUs: React.FC<{}> = () => {
       rule: Yup.string().required(t('required'))
     },
     {
+      label: 'category2',
+      name: 'category2',
+      type: 'radio',
+      options: [t('generalInquiry'), t('disputesComplaints'), t('partner')],
+      initialValue: '',
+      rule: Yup.string().required(t('required'))
+    },
+    {
+      label: 'category3',
+      name: 'category3',
+      type: 'checkbox',
+      options: [t('generalInquiry'), t('disputesComplaints'), t('partner')],
+      initialValue: [],
+      rule: Yup.array().min(2, t('required'))
+    },
+    {
       label: t('yourAccount'),
       name: 'login',
       initialValue: '',
       rule: Yup.string()
-        .min(2, t('tooShort'))
-        .max(50, t('tooLong'))
+        .min(3, t('tooShort'))
+        .max(20, t('tooLong'))
         .notRequired()
     },
     {
