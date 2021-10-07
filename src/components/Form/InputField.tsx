@@ -4,11 +4,11 @@ import {
   FormControl,
   FormErrorMessage,
   FormLabel,
-  HStack,
   Input,
   Radio,
   RadioGroup,
   Select,
+  Stack,
   Textarea
 } from '@chakra-ui/react';
 import { useField } from 'formik';
@@ -47,24 +47,24 @@ const InputField: React.FC<InputFieldProps> = ({
       )}
       {type === 'radio' && options && (
         <RadioGroup id={field.name} {...field} {...props}>
-          <HStack spacing="24px">
+          <Stack spacing="24px">
             {options.map((x) => (
               <Radio key={x} value={x}>
                 {x}
               </Radio>
             ))}
-          </HStack>
+          </Stack>
         </RadioGroup>
       )}
       {type === 'checkbox' && options && (
         <CheckboxGroup colorScheme="green" {...field} {...props}>
-          <HStack spacing="24px">
+          <Stack spacing="24px">
             {options.map((x) => (
               <Checkbox key={x} value={x}>
                 {x}
               </Checkbox>
             ))}
-          </HStack>
+          </Stack>
         </CheckboxGroup>
       )}
 
