@@ -46,8 +46,8 @@ const contactUs: React.FC<{}> = () => {
       name: 'mobile',
       initialValue: '',
       rule: Yup.string()
-        .min(2, t('tooShort'))
-        .max(50, t('tooLong'))
+        .min(8, t('tooShort'))
+        .max(15, t('tooLong'))
         .required(t('required'))
     },
     {
@@ -83,8 +83,8 @@ const contactUs: React.FC<{}> = () => {
       name: 'login',
       initialValue: '',
       rule: Yup.string()
-        .min(2, t('tooShort'))
-        .max(50, t('tooLong'))
+        .min(3, t('tooShort'))
+        .max(20, t('tooLong'))
         .notRequired()
     },
     {

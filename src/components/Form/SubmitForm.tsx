@@ -15,8 +15,8 @@ export interface IField {
   options?: string[];
   label: string;
   name: string;
-  initialValue: string;
-  rule: RequiredStringSchema<string, Record<string, any>>;
+  initialValue: string | (string | number)[];
+  rule: RequiredStringSchema<string, Record<string, unknown>> | unknown;
 }
 
 interface SubmitFormProps {
@@ -81,7 +81,6 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
                 if (status === 200) {
                   actions.setSubmitting(false);
                   setHasSubmitted(true);
-
                   actions.resetForm();
                 }
               } catch (e) {
