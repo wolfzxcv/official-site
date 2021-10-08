@@ -5,6 +5,7 @@ import { StyledBox } from '../Styled/Styled';
 interface LicenseCardProps {
   image: JSX.Element;
   text: string;
+  textHeight?: string;
   button?: string;
   link?: string;
 }
@@ -12,6 +13,7 @@ interface LicenseCardProps {
 const LicenseCard: React.FC<LicenseCardProps> = ({
   image,
   text,
+  textHeight,
   button,
   link
 }: LicenseCardProps) => {
@@ -28,7 +30,12 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
       <Flex height="255px" width="100%" justify="center" align="center">
         {image}
       </Flex>
-      <Box my={10}>{text}</Box>
+      <Box
+        my={10}
+        height={{ base: 'auto', lg: textHeight ? textHeight : 'auto' }}
+      >
+        {text}
+      </Box>
       {button && link && (
         <Link
           _hover={{

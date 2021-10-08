@@ -272,6 +272,7 @@ const about: React.FC<{}> = () => {
             <Image src="../assets/images/about_license_3.png" alt="license_3" />
           }
           text={t('HongKongIsThe')}
+          textHeight={isChinese ? '240px' : '432px'}
           button={t('view')}
           link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
         />
@@ -290,6 +291,7 @@ const about: React.FC<{}> = () => {
             </>
           }
           text={t('WCGMarketsLtdIsSupervised')}
+          textHeight={isChinese ? '240px' : '432px'}
           button={t('view')}
           link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
         />
