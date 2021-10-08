@@ -40,20 +40,14 @@ export const about: About = {
   qualityService: 'Dịch*vụ*chất*lượng',
   ourSalesTeam:
     'Đội*ngũ*bán*hàng*và*nhóm*hỗ*trợ*khách*hàng*của*chúng*tôi*đã*được*đào*tạo*chuyên*nghiệp*và*cố*gắng*cung*cấp*cho*bạn*trải*nghiệm*giao*dịch*tốt*nhất.',
-  becomeOurPartner: 'Trở*thành*đối*tác*của*chúng*tôi',
-  joinWCGsPartnerProgram:
-    'Tham*gia*chương*trình*đối*tác*của*WCG*và*bắt*đầu*việc*kinh*doanh*của*riêng*bạn*ngay*lập*tức!',
-  joinNow: 'Tham*gia*ngay',
-  mrXiao: 'Mr*Xiao',
-  inTheBeginning:
-    'Thời*gian*đầu,*tôi*chỉ*đắm*mình*làm*việc*trong*một*văn*phòng*cho*thuê*nhỏ,*và*khoản*lãi*đầu*tiên*của*tôi*chỉ*bù*lại*khoản*đầu*tư*ban*đầu.*Hôm*nay,*tôi*là*một*trong*những*đối*tác*thành*công*nhất*của*WCG.',
-  msHuang: 'Ms*Hoàng',
-  becauseIAmGood:
-    'Vì*tôi*giỏi*điều*hành*cộng*đồng*trên*mạng*xã*hội.*Thông*qua*tiếp*thị*truyền*miệng,*số*lượng*khách*hàng*tiếp*tục*phát*triển*và*lợi*nhuận*tiếp*tục*tăng.*Cảm*ơn*WCG*đã*cho*chúng*tôi*một*nền*tảng*giao*dịch*tuyệt*vời*như*vậy.',
-  msZheng: 'Ms*Zheng',
-  whenIFirstCameInto:
-    'Khi*tôi*lần*đầu*tiên*tiếp*xúc*với*Wen*Chuan,*tôi*đã*yêu*thích*chế*độ*hoạt*động*đơn*giản*nhưng*toàn*diện.*Khi*tôi*gặp*sự*cố,*nhân*viên*chăm*sóc*khách*hàng*rất*nhiệt*tình*và*sẵn*sàng*giúp*đỡ,*và*khách*hàng*của*tôi*rất*hài*lòng.',
-  msLai: 'Ms*Lai',
-  whileWorkingWithWCG:
-    'Trong*thời*gian*làm*việc*với*WCG,*tôi*đã*học*được*rất*nhiều*điều*về*thị*trường*tài*chính.*Bây*giờ*tôi*thường*chia*sẻ*quan*điểm*thị*trường*và*nguồn*lực*với*bạn*bè*của*mình.'
+  licenseIntroduction: 'License*introduction',
+  WCGMarketsLtdIsAuthorized:
+    'WCG*Markets*Ltd*is*authorized*and*supervised*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*For*the*No.*12*A1*level*trainer.',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*is*registered*under*the*International*Business*Law*and*is*regulated*by*the*Saint*Vincent*and*the*Grenadines*Financial*Services*Authority*(SVGFSA),*with*registration*number*26087*BC*2020.*Saint*Vincent*and*the*Grenadines*Golden*FSA*(Financial*Services*Authority)*is*the*national*authority*responsible*for*the*management*and*supervision*of*international*financial*services*institutions*and*non-bank*financial*institutions*in*Saint*Vincent*and*the*Grenadines.',
+  HongKongIsThe:
+    "Hong*Kong*is*the*world's*third*largest*gold*trading*market*after*the*New*York*gold*market*and*the*London*gold*market.*The*Hong*Kong*Gold*and*Silver*Exchange*(CGSE)*was*established*in*1910*and*is*currently*the*only*gold*and*silver*exchange*in*Hong*Kong*that*trades*spot*gold*and*silver.*Implement*a*membership*system.*The*Hong*Kong*Gold*and*Silver*Exchange*(CGSE)*aims*to*provide*members*with*trading*venue*facilities*and*related*services*to*conduct*gold,*silver*and*other*precious*metals*trading*activities.*It*has*the*ability*to*implement*the*business*rules*of*the*gold*exchange,*regulate*trading*behavior,*supervise*member*trading*operations,*and*investigate*and*punish*violations*of*this*field.*Various*functions*such*as*members*who*act*as*stipulated*in*the*articles*of*association.",
+  WCGMarketsLtdIsSupervised:
+    "WCG*Markets*Ltd*is*supervised*by*the*Canadian*Financial*Intelligence*Unit*(FIU)*and*the*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC).*The*MSB*license*number*is*M20282836.*The*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC)*is*Canada's*financial*intelligence*unit,*established*in*2000.*It*is*an*independent*agency*that*reports*to*the*Minister*of*Finance*and*is*mainly*responsible*for*collecting,*analyzing,*evaluating*and*disclosing*relevant*information*about*the*Canadian*financial*industry*to*protect*Canadian*financial*stability*and*security.",
+  view: 'View'
 };

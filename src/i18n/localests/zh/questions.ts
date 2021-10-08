@@ -5,14 +5,13 @@ export const questions: Questions = {
   thisArticleCollects:
     '本文收集了大部分投資者經常會問到的問題，統一為您做個詳細的解答。',
   whatKindOfSupervision: 'WCG是什麽監管?',
-  WCGMarketsLtdIsRegistered:
-    'WCG*Markets*Ltd*根據國際商法註冊並受聖文森特和格林納丁斯金融服務管理局*(SVGFSA)*監管，編號為*26087*BC*2020。',
+  WCGIsABusinessBrand: 'WCG*是由多家公司共同使用的業務品牌，包括',
+  WCGMarketsLtdIsAuthorized:
+    '文傳金業有限公司獲香港金銀業貿易場(Chinese*Gold*&*Silver*Exchange,受其監管。為*12*號*A1*級別會員單位。',
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*由加拿大金融情報機構*(FIU)*和加拿大金融交易和報告分析中心*(FINTRAC)*監管。*MSB*許可證編號為*M20282836。',
-  WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*由香港金銀交易所*(CGSE)*授權和監管，是第*12*號*A1*會員。',
-  WCGIsALimitedLiabilityCompany:
-    'WCG*是一家在英國註冊成立的有限責任公司，公司編號為*11019948。',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*根據國際商法註冊並受聖文森特和格林納丁斯金融服務管理局*(SVGFSA)*監管，編號為*26087*BC*2020。',
   HowToOpenAnAccountInWCG: '如何在WCG開戶?',
   youCanRegisterYourRealAccount:
     '您可以在WCG官網注冊您的真實帳戶，或點此注冊。',

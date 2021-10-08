@@ -8,14 +8,14 @@ export type Questions = {
   thisArticleCollects: string;
   /** What kind of supervision */
   whatKindOfSupervision: string;
-  /** WCG Markets Ltd is registered */
-  WCGMarketsLtdIsRegistered: string;
-  /** WCG Markets Ltd is supervised */
-  WCGMarketsLtdIsSupervised: string;
+  /** WCG is a business brand */
+  WCGIsABusinessBrand: string;
   /** WCG Markets Ltd is authorized */
   WCGMarketsLtdIsAuthorized: string;
-  /** WCG is a limited liability company */
-  WCGIsALimitedLiabilityCompany: string;
+  /** WCG Markets Ltd is supervised */
+  WCGMarketsLtdIsSupervised: string;
+  /** WCG Markets Ltd is registered */
+  WCGMarketsLtdIsRegistered: string;
   /** How to open an account in WCG? */
   HowToOpenAnAccountInWCG: string;
   /** You can register your real account */

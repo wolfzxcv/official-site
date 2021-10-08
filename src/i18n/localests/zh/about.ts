@@ -39,19 +39,14 @@ export const about: About = {
   qualityService: '優質服務',
   ourSalesTeam:
     '我們的銷售團隊以及客戶支援團隊均已接受良好訓練，力求提供給您最佳的交易體驗。',
-  becomeOurPartner: '成為我們的合作夥伴',
-  joinWCGsPartnerProgram: '加入WCG的合作夥伴計劃，立即開展自己的事業！',
-  joinNow: '立即加入',
-  mrXiao: '蕭先生',
-  inTheBeginning:
-    '一開始我只是在租賃的小辦公室里埋頭工作，我的第一筆利潤正好抵消了初始投資額。*今天，我是WCG最成功的合作夥伴之一。',
-  msHuang: '黃女士',
-  becauseIAmGood:
-    '由於我擅長在社交網絡上運營社區。經由口碑營銷，客戶數量不斷增長，利潤也一直隨之增加。*感謝WCG給我們這麼好的平台。',
-  msZheng: '鄭女士',
-  whenIFirstCameInto:
-    '當初一接觸WCG就愛上了，簡單不複雜的操作模式，*在我遇見問題的時候，客服都非常熱心的幫助我，我的客戶都十分滿意。',
-  msLai: '賴女士',
-  whileWorkingWithWCG:
-    '在跟WCG合作的期間，我學習到了很多關於金融市場的知識，現在我常常與身邊的朋友一起分享行情看法，共享資源。'
+  licenseIntroduction: '牌照介紹',
+  WCGMarketsLtdIsAuthorized:
+    '文傳金業有限公司獲香港金銀業貿易場（Chinese*Gold*&*Silver*Exchange,*CGSE）受權並受其監管。為12號A1級別行員。',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*根據國際商業法註冊成立受聖文森特和格林納丁斯金融服務管理局（SVGFSA）監管，登記編號為*26087*BC*2020。聖文森特和格林納丁斯金FSA（金融服務管理局）是負責管理和監督國際金融服務機構以及聖文森特和格林納丁斯群島非銀行金融機構的國家管理局。',
+  HongKongIsThe:
+    '香港是世界上僅次於紐約黃金市場、倫敦黃金市場的第三大黃金交易市場，香港金銀業貿易場（CGSE）成立於1910年，是香港現時唯一進行現貨黃金、白銀買賣的金銀交易所，實行會員制度。香港金銀業貿易場（CGSE）旨在為會員提供交易場所設施及相關服務來進行黃金、白銀等貴金屬交易活動，具有實施黃金交易所的業務規則、規範交易行為、監管會員交易業務、查處違反本場章程規定行為的會員等各項職能。',
+  WCGMarketsLtdIsSupervised:
+    'WCG*Markets*Ltd*獲加拿大金融情報部門（FIU）加拿大金融交易和報告分析中心（FINTRAC）監管，MSB牌照編號為*M20282836。加拿大金融交易和報告分析中心（FINTRAC）是加拿大的金融情報單位，於2000年成立。它是一個獨立機構，向財政部長匯報工作，主要負責收集、分析、評估和披露加國金融行業的相關資料，以保護加國的金融穩定及安全。',
+  view: '點擊查看'
 };
