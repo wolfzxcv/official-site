@@ -40,20 +40,14 @@ export const about: About = {
   qualityService: 'Pelayanan*berkualitas',
   ourSalesTeam:
     'Tim*penjualan*dan*tim*dukungan*pelanggan*kami*telah*menerima*pelatihan*profesional,*dan*berusaha*untuk*memberi*Anda*pengalaman*perdagangan*terbaik.',
-  becomeOurPartner: 'Menjadi*mitra*kami',
-  joinWCGsPartnerProgram:
-    'Bergabunglah*dengan*program*mitra*WCG*dan*segera*mulai*bisnis*Anda*sendiri！',
-  joinNow: 'Bergabung*sekarang',
-  mrXiao: 'Mr.*Xiao',
-  inTheBeginning:
-    'Pada*awalnya,*saya*hanya*membenamkan*diri*untuk*bekerja*di*sebuah*kantor*sewaan*kecil,*dan*keuntungan*pertama*saya*hanya*menutupi*investasi*awal.*Hari*ini,*saya*adalah*salah*satu*mitra*paling*sukses*di*WCG.',
-  msHuang: 'Ms.*Huang',
-  becauseIAmGood:
-    'Karena*saya*pandai*menjalankan*komunitas*di*jejaring*sosial.*Melalui*pemasaran*dari*mulut*ke*mulut,*jumlah*pelanggan*terus*bertambah*dan*keuntungan*terus*meningkat.*Terima*kasih*WCG*karena*telah*memberi*kami*platform*perdagangan*yang*luar*biasa.',
-  msZheng: 'Ms.*Zheng',
-  whenIFirstCameInto:
-    'Ketika*saya*pertama*kali*berhubungan*dengan*Wen*Chuan,*saya*jatuh*cinta*dengan*mode*operasi*yang*sederhana*namun*komprehensif.*Saat*saya*menemui*masalah,*customer*service*sangat*antusias*dan*mau*membantu,*dan*customer*saya*sangat*puas.',
-  msLai: 'Ms.*Lai',
-  whileWorkingWithWCG:
-    'Saat*bekerja*dengan*WCG,*saya*belajar*banyak*tentang*pasar*keuangan.*Sekarang*saya*sering*berbagi*pandangan*pasar*dan*sumber*daya*dengan*teman-teman*saya.'
+  licenseIntroduction: 'License*introduction',
+  WCGMarketsLtdIsAuthorized:
+    'WCG*Markets*Ltd*is*authorized*and*supervised*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*For*the*No.*12*A1*level*trainer.',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*is*registered*under*the*International*Business*Law*and*is*regulated*by*the*Saint*Vincent*and*the*Grenadines*Financial*Services*Authority*(SVGFSA),*with*registration*number*26087*BC*2020.*Saint*Vincent*and*the*Grenadines*Golden*FSA*(Financial*Services*Authority)*is*the*national*authority*responsible*for*the*management*and*supervision*of*international*financial*services*institutions*and*non-bank*financial*institutions*in*Saint*Vincent*and*the*Grenadines.',
+  HongKongIsThe:
+    "Hong*Kong*is*the*world's*third*largest*gold*trading*market*after*the*New*York*gold*market*and*the*London*gold*market.*The*Hong*Kong*Gold*and*Silver*Exchange*(CGSE)*was*established*in*1910*and*is*currently*the*only*gold*and*silver*exchange*in*Hong*Kong*that*trades*spot*gold*and*silver.*Implement*a*membership*system.*The*Hong*Kong*Gold*and*Silver*Exchange*(CGSE)*aims*to*provide*members*with*trading*venue*facilities*and*related*services*to*conduct*gold,*silver*and*other*precious*metals*trading*activities.*It*has*the*ability*to*implement*the*business*rules*of*the*gold*exchange,*regulate*trading*behavior,*supervise*member*trading*operations,*and*investigate*and*punish*violations*of*this*field.*Various*functions*such*as*members*who*act*as*stipulated*in*the*articles*of*association.",
+  WCGMarketsLtdIsSupervised:
+    "WCG*Markets*Ltd*is*supervised*by*the*Canadian*Financial*Intelligence*Unit*(FIU)*and*the*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC).*The*MSB*license*number*is*M20282836.*The*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC)*is*Canada's*financial*intelligence*unit,*established*in*2000.*It*is*an*independent*agency*that*reports*to*the*Minister*of*Finance*and*is*mainly*responsible*for*collecting,*analyzing,*evaluating*and*disclosing*relevant*information*about*the*Canadian*financial*industry*to*protect*Canadian*financial*stability*and*security.",
+  view: 'View'
 };

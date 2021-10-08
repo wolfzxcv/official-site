@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import LicenseCard from '../../components/About/LicenseCard';
 import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
@@ -182,9 +183,7 @@ const about: React.FC<{}> = () => {
       {/* WCG is always your wise choice */}
       <Flex paddingY={20} bg="gray.800" color="white" justify="center">
         <Box paddingX={20} display={{ base: 'none', xl: 'block' }}>
-          {/* <Slide bottom> */}
           <Image src="../assets/images/about_2.png" alt="about_2" />
-          {/* </Slide> */}
         </Box>
 
         <Flex
@@ -241,154 +240,61 @@ const about: React.FC<{}> = () => {
         </Flex>
       </Flex>
 
-      {/* Diversified products, create the future */}
-      <Flex
-        bg="gray.800"
-        p={{ base: 10, md: 20 }}
-        flexDirection="column"
-        color="white"
-        align="center"
-      >
-        <InfoTitle title={t('diversifiedProducts')} />
-        <InfoTitleSub title={t('WCGProvides24Hours')} />
-        {/* <Box m={5}>
-          <InfoButton text={t('joinNow')} href="#" withBorder />
-        </Box> */}
-      </Flex>
-
-      {/* 4 people: Mr. Xiao */}
-      <Flex
-        bg="gray.800"
-        direction={{ base: 'column', xl: 'row' }}
-        wrap="wrap"
-        justify="space-around"
-        align="center"
-        padding={10}
-      >
-        <Flex
-          width={{ base: '80vw', xl: '40vw' }}
-          my={1}
-          bg="white"
-          direction={isArabic ? 'row-reverse' : 'row'}
-          minH={{ base: 'auto', xl: '200px' }}
-          align="center"
-        >
-          <Box m={5} color="red.600">
-            <Image
-              minW="91px"
-              height="91px"
-              src="../assets/images/about_person_1.png"
-              alt="person_1"
-            />
-          </Box>
-          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-            <Box fontSize="24px" fontWeight="700">
-              {t('mrXiao')}
-            </Box>
-            <Box
-              minH={{
-                base: 'auto',
-                xl: tallerInfoCard ? '145px' : 'auto'
-              }}
-            >
-              {t('inTheBeginning')}
-            </Box>
-          </Stack>
-        </Flex>
-
-        <Flex
-          width={{ base: '80vw', xl: '40vw' }}
-          my={1}
-          bg="white"
-          direction={isArabic ? 'row-reverse' : 'row'}
-          minH={{ base: 'auto', xl: '200px' }}
-          align="center"
-        >
-          <Box m={5} color="red.600">
-            <Image
-              minW="91px"
-              height="91px"
-              src="../assets/images/about_person_2.png"
-              alt="person_2"
-            />
-          </Box>
-          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-            <Box fontSize="24px" fontWeight="700">
-              {t('msHuang')}
-            </Box>
-            <Box
-              minH={{
-                base: 'auto',
-                xl: tallerInfoCard ? '145px' : 'auto'
-              }}
-            >
-              {t('becauseIAmGood')}
-            </Box>
-          </Stack>
-        </Flex>
-
-        {/* 4 people: Ms. Zheng */}
-        <Flex
-          width={{ base: '80vw', xl: '40vw' }}
-          my={1}
-          bg="white"
-          direction={isArabic ? 'row-reverse' : 'row'}
-          minH={{ base: 'auto', xl: '200px' }}
-          align="center"
-        >
-          <Box m={5} color="red.600">
-            <Image
-              minW="91px"
-              height="91px"
-              src="../assets/images/about_person_3.png"
-              alt="person_3"
-            />
-          </Box>
-          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-            <Box fontSize="24px" fontWeight="700">
-              {t('msZheng')}
-            </Box>
-            <Box
-              minH={{
-                base: 'auto',
-                xl: tallerInfoCard ? '145px' : 'auto'
-              }}
-            >
-              {t('whenIFirstCameInto')}
-            </Box>
-          </Stack>
-        </Flex>
-
-        <Flex
-          width={{ base: '80vw', xl: '40vw' }}
-          my={1}
-          bg="white"
-          direction={isArabic ? 'row-reverse' : 'row'}
-          minH={{ base: 'auto', xl: '200px' }}
-          align="center"
-        >
-          <Box m={5} color="red.600">
-            <Image
-              minW="91px"
-              height="91px"
-              src="../assets/images/about_person_4.png"
-              alt="person_4"
-            />
-          </Box>
-          <Stack p={2} spacing={3} textAlign={isArabic ? 'right' : 'left'}>
-            <Box fontSize="24px" fontWeight="700">
-              {t('msLai')}
-            </Box>
-            <Box
-              minH={{
-                base: 'auto',
-                xl: tallerInfoCard ? '145px' : 'auto'
-              }}
-            >
-              {t('whileWorkingWithWCG')}
-            </Box>
-          </Stack>
-        </Flex>
+      {/* License introduction */}
+      <Flex py={20} wrap="wrap" justify="center">
+        <Box mb={5} w="100%" textAlign="center">
+          <InfoTitle title={t('licenseIntroduction')} />
+        </Box>
+        <LicenseCard
+          image={
+            <Image src="../assets/images/about_license_1.png" alt="license_1" />
+          }
+          text={t('WCGMarketsLtdIsAuthorized')}
+        />
+        <LicenseCard
+          image={
+            <>
+              <Image
+                src="../assets/images/about_license_2.png"
+                alt="license_2"
+              />
+              <Image
+                ml={2}
+                src="../assets/images/about_license_2-1.png"
+                alt="license_2-1"
+              />
+            </>
+          }
+          text={t('WCGMarketsLtdIsRegistered')}
+        />
+        <LicenseCard
+          image={
+            <Image src="../assets/images/about_license_3.png" alt="license_3" />
+          }
+          text={t('HongKongIsThe')}
+          textHeight={isChinese ? '240px' : '432px'}
+          button={t('view')}
+          link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
+        />
+        <LicenseCard
+          image={
+            <>
+              <Image
+                src="../assets/images/about_license_4.png"
+                alt="license_4"
+              />
+              <Image
+                ml={2}
+                src="../assets/images/about_license_4-1.png"
+                alt="license_4-1"
+              />
+            </>
+          }
+          text={t('WCGMarketsLtdIsSupervised')}
+          textHeight={isChinese ? '240px' : '432px'}
+          button={t('view')}
+          link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
+        />
       </Flex>
     </Wrapper>
   );

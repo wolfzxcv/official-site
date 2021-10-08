@@ -5,14 +5,14 @@ export const questions: Questions = {
   thisArticleCollects:
     'This*article*collects*most*questions*investors*often*ask,*and*hope*you*can*find*those*answers*useful.',
   whatKindOfSupervision: 'What*kind*of*supervision*WCG*is*regulated?',
-  WCGMarketsLtdIsRegistered:
-    'WCG*Markets*Ltd*is*registered*under*the*International*Business*Law*and*is*regulated*by*the*Saint*Vincent*and*the*Grenadines*Financial*Services*Authority*(SVGFSA),*numbered*26087*BC*2020.',
-  WCGMarketsLtdIsSupervised:
-    'WCG*Markets*Ltd*is*supervised*by*the*Canadian*Financial*Intelligence*Unit*(FIU)*and*the*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC).*The*MSB*license*number*is*M20282836.',
+  WCGIsABusinessBrand:
+    'WCG*Markets*Ltd*is*a*business*brand*used*by*multiple*companies,*including',
   WCGMarketsLtdIsAuthorized:
     'WCG*Markets*Ltd*is*authorized*and*supervised*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*and*is*a*No.*12*A1*member.',
-  WCGIsALimitedLiabilityCompany:
-    'WCG*is*a*limited*liability*company*incorporated*in*the*United*Kingdom*with*company*number*11019948.',
+  WCGMarketsLtdIsSupervised:
+    'WCG*Markets*Ltd*is*supervised*by*the*Canadian*Financial*Intelligence*Unit*(FIU)*and*the*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC).*The*MSB*license*number*is*M20282836.',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*is*registered*under*the*International*Business*Law*and*is*regulated*by*the*Saint*Vincent*and*the*Grenadines*Financial*Services*Authority*(SVGFSA),*numbered*26087*BC*2020.',
   HowToOpenAnAccountInWCG: 'How*to*open*an*account*in*WCG?',
   youCanRegisterYourRealAccount:
     'You*can*register*your*real*account*on*the*official*website*of*WCG,*or*click*here*to*register.',
@@ -26,8 +26,10 @@ export const questions: Questions = {
   accountOpeningWillTake: 'Account*opening*will*take*1*working*day*normally.',
   howLongWillItTakeToProcess:
     'How*long*will*it*take*to*process*a*withdrawal*application?',
-  theWithdrawalWillTake:
-    'The*withdrawal*will*take*1-3*working*days,*not*including*the*date*of*application.',
+  submitTheWithdrawal:
+    'Submit*the*withdrawal*instructions*before*11:00*in*the*morning,*and*you*will*be*able*to*get*your*account*before*about*1:00*pm*on*the*same*day.',
+  submitTheWithdrawalInstruction:
+    'Submit*the*withdrawal*instruction*before*5:00*pm,*and*the*account*will*be*credited*before*7:00*pm*on*the*same*day.',
   HowDoIKnowMyWithdrawal:
     'How*do*I*know*my*withdrawal*application*is*approved?',
   onceTheWithdrawalApplication:

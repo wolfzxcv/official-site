@@ -56,26 +56,16 @@ export type About = {
   qualityService: string;
   /** Our sales team */
   ourSalesTeam: string;
-  /** Become our partner */
-  becomeOurPartner: string;
-  /** Join WCG's partner program */
-  joinWCGsPartnerProgram: string;
-  /** Join now */
-  joinNow: string;
-  /** Mr. Xiao */
-  mrXiao: string;
-  /** In the beginning */
-  inTheBeginning: string;
-  /** Ms. Huang */
-  msHuang: string;
-  /** Because I am good */
-  becauseIAmGood: string;
-  /** Ms. Zheng */
-  msZheng: string;
-  /** When I first came into contact with */
-  whenIFirstCameInto: string;
-  /** Ms. Lai */
-  msLai: string;
-  /** While working with WCG */
-  whileWorkingWithWCG: string;
+  /** License introduction */
+  licenseIntroduction: string;
+  /** WCG Markets Ltd is authorized */
+  WCGMarketsLtdIsAuthorized: string;
+  /** WCG Markets Ltd is registered */
+  WCGMarketsLtdIsRegistered: string;
+  /** Hong Kong is the */
+  HongKongIsThe: string;
+  /** WCG Markets Ltd is supervised */
+  WCGMarketsLtdIsSupervised: string;
+  /** View */
+  view: string;
 };

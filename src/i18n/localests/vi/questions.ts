@@ -5,14 +5,14 @@ export const questions: Questions = {
   thisArticleCollects:
     'Bài*viết*này*thu*thập*hầu*hết*các*câu*hỏi*mà*các*nhà*đầu*tư*thường*hỏi,*và*hy*vọng*bạn*có*thể*tìm*thấy*những*câu*trả*lời*hữu*ích.',
   whatKindOfSupervision: 'WCG*được*quy*định*về*loại*giám*sát*nào?',
-  WCGMarketsLtdIsRegistered:
-    'WCG*Markets*Ltd*được*đăng*ký*theo*Luật*Kinh*doanh*Quốc*tế*và*được*điều*chỉnh*bởi*Saint*Vincent*và*Cơ*quan*Dịch*vụ*Tài*chính*Grenadines*(SVGFSA),*được*đánh*số*là*26087*BC*2020.',
-  WCGMarketsLtdIsSupervised:
-    'WCG*Markets*Ltd*được*giám*sát*bởi*Đơn*vị*Tình*báo*Tài*chính*Canada*(FIU)*và*Trung*tâm*Phân*tích*Báo*cáo*và*Giao*dịch*Tài*chính*Canada*(FINTRAC).*Số*giấy*phép*MSB*là*M20282836.',
   WCGMarketsLtdIsAuthorized:
     'WCG*Markets*Ltd*được*ủy*quyền*và*giám*sát*bởi*Sở*giao*dịch*vàng*bạc*Hồng*Kông*(CGSE),*và*là*thành*viên*số*12*A1.',
-  WCGIsALimitedLiabilityCompany:
-    'WCG*là*một*công*ty*trách*nhiệm*hữu*hạn*được*thành*lập*tại*Vương*quốc*Anh*với*số*công*ty*11019948.',
+  WCGIsABusinessBrand:
+    'WCG*là*thương*hiệu*kinh*doanh*được*nhiều*công*ty*sử*dụng,*bao*gồm',
+  WCGMarketsLtdIsSupervised:
+    'WCG*Markets*Ltd*được*giám*sát*bởi*Đơn*vị*Tình*báo*Tài*chính*Canada*(FIU)*và*Trung*tâm*Phân*tích*Báo*cáo*và*Giao*dịch*Tài*chính*Canada*(FINTRAC).*Số*giấy*phép*MSB*là*M20282836.',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*được*đăng*ký*theo*Luật*Kinh*doanh*Quốc*tế*và*được*điều*chỉnh*bởi*Saint*Vincent*và*Cơ*quan*Dịch*vụ*Tài*chính*Grenadines*(SVGFSA),*được*đánh*số*là*26087*BC*2020.',
   HowToOpenAnAccountInWCG: 'Làm*thế*nào*để*mở*một*tài*khoản*trong*WCG?',
   youCanRegisterYourRealAccount:
     'Bạn*có*thể*đăng*ký*tài*khoản*thực*của*mình*trên*trang*web*chính*thức*của*WCG,*hoặc*nhấp*vào*đây*để*đăng*ký.',
@@ -26,8 +26,10 @@ export const questions: Questions = {
   accountOpeningWillTake:
     'Việc*mở*tài*khoản*sẽ*diễn*ra*bình*thường*trong*1*ngày*làm*việc.',
   howLongWillItTakeToProcess: 'Mất*bao*lâu*để*xử*lý*đơn*rút*tiền?',
-  theWithdrawalWillTake:
-    'Việc*rút*tiền*sẽ*mất*từ*​​1-3*ngày*làm*việc,*không*bao*gồm*ngày*nộp*đơn.',
+  submitTheWithdrawal:
+    'Gửi*hướng*dẫn*rút*tiền*trước*11:00*sáng*và*bạn*sẽ*có*thể*nhận*được*tài*khoản*của*mình*trước*khoảng*1:00*chiều*cùng*ngày.',
+  submitTheWithdrawalInstruction:
+    'Gửi*hướng*dẫn*rút*tiền*trước*5:00*chiều*và*tài*khoản*sẽ*được*ghi*có*trước*7:00*tối*cùng*ngày.',
   HowDoIKnowMyWithdrawal:
     'Làm*cách*nào*để*biết*đơn*rút*tiền*của*tôi*đã*được*chấp*thuận?',
   onceTheWithdrawalApplication:

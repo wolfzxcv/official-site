@@ -8,14 +8,14 @@ export type Questions = {
   thisArticleCollects: string;
   /** What kind of supervision */
   whatKindOfSupervision: string;
-  /** WCG Markets Ltd is registered */
-  WCGMarketsLtdIsRegistered: string;
-  /** WCG Markets Ltd is supervised */
-  WCGMarketsLtdIsSupervised: string;
+  /** WCG is a business brand */
+  WCGIsABusinessBrand: string;
   /** WCG Markets Ltd is authorized */
   WCGMarketsLtdIsAuthorized: string;
-  /** WCG is a limited liability company */
-  WCGIsALimitedLiabilityCompany: string;
+  /** WCG Markets Ltd is supervised */
+  WCGMarketsLtdIsSupervised: string;
+  /** WCG Markets Ltd is registered */
+  WCGMarketsLtdIsRegistered: string;
   /** How to open an account in WCG? */
   HowToOpenAnAccountInWCG: string;
   /** You can register your real account */
@@ -34,8 +34,10 @@ export type Questions = {
   accountOpeningWillTake: string;
   /** How long will it take to process */
   howLongWillItTakeToProcess: string;
-  /** The withdrawal will take */
-  theWithdrawalWillTake: string;
+  /** Submit the withdrawal */
+  submitTheWithdrawal: string;
+  /** Submit the withdrawal instruction  */
+  submitTheWithdrawalInstruction: string;
   /** How do I know my withdrawal */
   HowDoIKnowMyWithdrawal: string;
   /** Once the withdrawal application */

@@ -5,14 +5,13 @@ export const questions: Questions = {
   thisArticleCollects:
     '本文收集了大部分投資者經常會問到的問題，統一為您做個詳細的解答。',
   whatKindOfSupervision: 'WCG是什麽監管?',
-  WCGMarketsLtdIsRegistered:
-    'WCG*Markets*Ltd*根據國際商法註冊並受聖文森特和格林納丁斯金融服務管理局*(SVGFSA)*監管，編號為*26087*BC*2020。',
+  WCGIsABusinessBrand: 'WCG*是由多家公司共同使用的業務品牌，包括',
+  WCGMarketsLtdIsAuthorized:
+    '文傳金業有限公司獲香港金銀業貿易場(Chinese*Gold*&*Silver*Exchange,受其監管。為*12*號*A1*級別會員單位。',
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*由加拿大金融情報機構*(FIU)*和加拿大金融交易和報告分析中心*(FINTRAC)*監管。*MSB*許可證編號為*M20282836。',
-  WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*由香港金銀交易所*(CGSE)*授權和監管，是第*12*號*A1*會員。',
-  WCGIsALimitedLiabilityCompany:
-    'WCG*是一家在英國註冊成立的有限責任公司，公司編號為*11019948。',
+  WCGMarketsLtdIsRegistered:
+    'WCG*Markets*Ltd*根據國際商法註冊並受聖文森特和格林納丁斯金融服務管理局*(SVGFSA)*監管，編號為*26087*BC*2020。',
   HowToOpenAnAccountInWCG: '如何在WCG開戶?',
   youCanRegisterYourRealAccount:
     '您可以在WCG官網注冊您的真實帳戶，或點此注冊。',
@@ -24,8 +23,10 @@ export const questions: Questions = {
   howLongWillItTake: '帳戶需要多長時間稽核完成?',
   accountOpeningWillTake: '開戶正常1個工作日內會辦理完成。',
   howLongWillItTakeToProcess: '辦理出金申請需要多長時間?',
-  theWithdrawalWillTake:
-    '我司每天有兩個時段出金：上午11點之前申請出金會在11點出金，上午11點之後至下午5點之前申請出金會在下午5點出金，下午5點之後申請出金*會在第二個工作日上午11點出金處理後最快2小時內到帳。',
+  submitTheWithdrawal:
+    '上午*11:00時*前提交提款指示，當天約*下午*1:00時*前便能到帳。',
+  submitTheWithdrawalInstruction:
+    '下午*5:00時*前提交提款指示，當天約*晚上*7:00時*前便能到帳。',
   HowDoIKnowMyWithdrawal: '如何知道出金申請已經被準予?',
   onceTheWithdrawalApplication:
     '一旦提款申請獲得批準，出金金額將自動從平台中扣除，並減少可用於交易和維持任何未結頭寸的保證金。',

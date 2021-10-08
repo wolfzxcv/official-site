@@ -1,9 +1,14 @@
 import {
+  Checkbox,
+  CheckboxGroup,
   FormControl,
   FormErrorMessage,
   FormLabel,
   Input,
+  Radio,
+  RadioGroup,
   Select,
+  Stack,
   Textarea
 } from '@chakra-ui/react';
 import { useField } from 'formik';
@@ -40,33 +45,39 @@ const InputField: React.FC<InputFieldProps> = ({
       {type === 'textarea' && (
         <Textarea resize="none" {...field} {...props} id={field.name} />
       )}
-      {/* {type === 'radio' && options && (
-        <RadioGroup defaultValue={0} id={field.name} {...field} {...props}>
-          <HStack spacing="24px">
-            {options.map((x, index) => (
-              <Radio key={x} value={index}>
+      {type === 'radio' && options && (
+        <RadioGroup
+          colorScheme="green"
+          {...field}
+          id={field.name}
+          {...(props as unknown)}
+        >
+          <Stack spacing="24px">
+            {options.map((x) => (
+              <Radio {...field} key={x} value={x}>
                 {x}
               </Radio>
             ))}
-          </HStack>
+          </Stack>
         </RadioGroup>
       )}
       {type === 'checkbox' && options && (
         <CheckboxGroup
           colorScheme="green"
-          defaultValue={[]}
           {...field}
-          {...props}
+          {...(props as unknown)}
+          onChange={(values) => console.log(values)}
         >
-          <HStack spacing="24px">
-            {options.map((x, index) => (
-              <Checkbox key={x} value={index}>
+          <Stack spacing="24px">
+            {options.map((x) => (
+              <Checkbox {...field} key={x} value={x}>
                 {x}
               </Checkbox>
             ))}
-          </HStack>
+          </Stack>
         </CheckboxGroup>
-      )} */}
+      )}
+
       {type === 'select' && options && options.length && (
         <Select {...field} {...props} placeholder={options[0]} id={field.name}>
           {options.map((x, index) => {
