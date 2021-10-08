@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.4](https://103.68.61.92:8443///compare/v1.8.3...v1.8.4) (2021-10-08)
+
+
+### Bug Fixes
+
+* **about/queston:** about, question, MT4APPDownload: fix wording and layout ([091f438](https://103.68.61.92:8443///commit/091f4384aad84d0b1e83d38874cb7c9d758e2fab))
+
 ### [1.8.3](https://103.68.61.92:8443///compare/v1.8.2...v1.8.3) (2021-10-05)
 
 ### [1.8.2](https://103.68.61.92:8443///compare/v1.8.1...v1.8.2) (2021-10-05)
