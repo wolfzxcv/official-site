@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.5](https://103.68.61.92:8443///compare/v1.8.4...v1.8.5) (2021-10-08)
+
+
+### Bug Fixes
+
+* **apidatalist:** add link button when needed ([ea56935](https://103.68.61.92:8443///commit/ea56935f37397117e1218963e8f86f4bbf8dc94a))
+
 ### [1.8.4](https://103.68.61.92:8443///compare/v1.8.3...v1.8.4) (2021-10-08)
 
 
