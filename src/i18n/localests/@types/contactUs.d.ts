@@ -64,4 +64,67 @@ export type ContactUs = {
   invalidFormat: string;
   /** required */
   required: string;
+  /********
+   * companyNews
+   ********/
+  /** January */
+  January: string;
+  /** February */
+  February: string;
+  /** March */
+  March: string;
+  /** April */
+  April: string;
+  /** May */
+  May: string;
+  /** June */
+  June: string;
+  /** July */
+  July: string;
+  /** August */
+  August: string;
+  /** September */
+  September: string;
+  /** October */
+  October: string;
+  /** November */
+  November: string;
+  /** December */
+  December: string;
+  /** Established Hong Kong */
+  establishedHongKong: string;
+  /** Won the No */
+  wonTheNo: string;
+  /** Changed its name */
+  changedItsName: string;
+  /** The online trading platform */
+  theOnlineTradingPlatform: string;
+  /** The international trade volume */
+  theInternationalTradeVolume: string;
+  /** Set up Vietnam */
+  setUpVietnam: string;
+  /** Invited to participate */
+  invitedToParticipate: string;
+  /** Partnered with */
+  partneredWith: string;
+  /** Awarded the Most Investor Trusted */
+  awardedTheMostInvestorTrusted: string;
+  /** WCG Markets Ltd obtained */
+  WCGMarketsLtdObtained: string;
+  /** Established Malaysia  */
+  establishedMalaysia: string;
+  /** Set up Taiwan */
+  setUpTaiwan: string;
+  /** a leader in the industry */
+  aLeaderInTheIndustry: string;
+  /** WCG Markets Ltd obtained the FINTRAC */
+  WCGMarketsLtdObtainedTheFINTRAC: string;
+  /** Start charity projects */
+  startCharityProjects: string;
+  /** Integrate and update */
+  integrateAndUpdate: string;
+  /** The trading system */
+  theTradingSystem: string;
+  /** Focusing on */
+  focusingOn: string;
 };
