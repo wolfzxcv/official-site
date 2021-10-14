@@ -37,7 +37,7 @@ const HistoryItem: React.FC<HistoryItemProps> = ({
             color={location === 'left' ? color : ''}
             year={location === 'left' ? year : ''}
           />
-          <Stem color={color} />
+          <Stem location={location} color={color} />
           <HistoryCircle
             color={location === 'right' ? color : ''}
             year={location === 'right' ? year : ''}
@@ -54,6 +54,7 @@ const HistoryItem: React.FC<HistoryItemProps> = ({
         width="100%"
         border="2px"
         borderColor="white"
+        borderRight="none"
         display={{ base: 'inherit', md: 'none' }}
       >
         <Stem color={color} />
@@ -65,16 +66,35 @@ const HistoryItem: React.FC<HistoryItemProps> = ({
 };
 
 interface StemProps {
+  location?: ILocation;
   color: string;
 }
 
-const Stem: React.FC<StemProps> = ({ color }: StemProps) => {
+const Stem: React.FC<StemProps> = ({
+  color,
+  location = 'right'
+}: StemProps) => {
   return (
-    <Box
+    <Flex
       width={{ base: '20px', md: '30px' }}
       minH={{ base: '180px', md: '120px' }}
       bg={color}
-    ></Box>
+      align="center"
+    >
+      <Box
+        width="25px"
+        height="25px"
+        bg={color}
+        border="2px"
+        borderColor="white"
+        borderRadius="50%"
+        position="relative"
+        left={{
+          base: location === 'right' ? '10px' : '-10px',
+          md: location === 'right' ? '15px' : '-15px'
+        }}
+      ></Box>
+    </Flex>
   );
 };
 
@@ -98,7 +118,7 @@ const HistoryCircle: React.FC<HistoryCircleProps> = ({
       {color && year && (
         <>
           {location === 'right' && (
-            <Box width="20px" height="0.6em" bg={color}></Box>
+            <Box width="30px" height="0.6em" bg={color}></Box>
           )}
           <Flex
             width={{ base: '70px', md: '5em' }}
@@ -115,12 +135,13 @@ const HistoryCircle: React.FC<HistoryCircleProps> = ({
               borderRadius="50%"
               justify="center"
               align="center"
+              style={{ boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.5)' }}
             >
               <Box fontWeight="600">{year}</Box>
             </Flex>
           </Flex>
           {location === 'left' && (
-            <Box width="20px" height="0.6em" bg={color}></Box>
+            <Box width="30px" height="0.6em" bg={color}></Box>
           )}
         </>
       )}
