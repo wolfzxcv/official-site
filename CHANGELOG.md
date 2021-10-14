@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.7](https://103.68.61.92:8443///compare/v1.8.6...v1.8.7) (2021-10-14)
+
 ### [1.8.6](https://103.68.61.92:8443///compare/v1.8.5...v1.8.6) (2021-10-14)
 
 ### [1.8.5](https://103.68.61.92:8443///compare/v1.8.4...v1.8.5) (2021-10-08)
