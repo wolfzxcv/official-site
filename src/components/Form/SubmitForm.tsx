@@ -6,13 +6,19 @@ import React, { useState } from 'react';
 import * as Yup from 'yup';
 import { RequiredStringSchema } from 'yup/lib/string';
 import { Locales } from '../../i18n/locales';
-import InputField from './InputField';
+import InputField, { IOption } from './InputField';
 
-export type IFieldType = 'text' | 'textarea' | 'radio' | 'checkbox' | 'select';
+export type IFieldType =
+  | 'text'
+  | 'password'
+  | 'textarea'
+  | 'radio'
+  | 'checkbox'
+  | 'select';
 
 export interface IField {
   type?: IFieldType;
-  options?: string[];
+  options?: IOption[];
   label: string;
   name: string;
   initialValue: string | (string | number)[];
