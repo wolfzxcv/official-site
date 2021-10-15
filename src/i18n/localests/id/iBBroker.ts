@@ -46,6 +46,5 @@ export const iBBroker: IBBroker = {
   earnCommissionsInstantly: 'Dapatkan*komisi*secara*instan',
   becomingAnAgentBroker:
     'Menjadi*agen*/*broker*akan*menjadi*cara*termudah*untuk*menambah*penghasilan*Anda*karena*tidak*ada*biaya*pendaftaran.*Anda*dapat*bekerja*di*mana*saja*dan*bahkan*mempromosikan*layanan*Anda*melalui*situs*web.*Pada*saat*yang*sama,*Anda*dapat*langsung*merujuk*klien*ke*WCG,*memandu*mereka*melalui*proses*pembukaan*akun*nyata,dan*menjelaskan*semua*manfaat*menjadi*klien*WCG',
-  iWantToBeAnAgent: 'Saya*ingin*menjadi*agen',
-  standard: 'standar'
+  iWantToBeAnAgent: 'Saya*ingin*menjadi*agen'
 };
