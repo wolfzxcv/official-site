@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://103.68.61.92:8443///compare/v1.8.9...v1.9.0) (2021-10-22)
+
+
+### Features
+
+* **all:** modify README.md, +2 pictures, move LiveChat.tsx, modify SubmitForm and API, add Pop-up ([2d3e696](https://103.68.61.92:8443///commit/2d3e696b35643b38d2d44c5483d67f00451acf28))
+
 ### [1.8.9](https://103.68.61.92:8443///compare/v1.8.8...v1.8.9) (2021-10-15)
 
 ### [1.8.8](https://103.68.61.92:8443///compare/v1.8.7...v1.8.8) (2021-10-15)
