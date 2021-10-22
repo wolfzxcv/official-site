@@ -1,11 +1,9 @@
 import { Box, Button, Checkbox, Flex } from '@chakra-ui/react';
 import axios from 'axios';
 import { Form, Formik } from 'formik';
-import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import * as Yup from 'yup';
 import { RequiredStringSchema } from 'yup/lib/string';
-import { Locales } from '../../i18n/locales';
 import InputField, { IOption } from './InputField';
 
 export type IFieldType =
@@ -40,9 +38,6 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
   api,
   agreement
 }) => {
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
-
   const [hasAgreed, setHasAgreed] = useState(false);
 
   const [hasSubmitted, setHasSubmitted] = useState(false);
@@ -80,7 +75,7 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
                 const {
                   data: { status }
                 } = await axios.post(
-                  `${process.env.NEXT_PUBLIC_API_URL}${api}?lang=${currentLang}`,
+                  `${process.env.NEXT_PUBLIC_API_URL}${api}`,
                   values
                 );
 

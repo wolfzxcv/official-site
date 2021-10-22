@@ -12,7 +12,6 @@ interface InfoCardProps {
   pt?: string;
   withBorder?: boolean;
   withTag?: boolean;
-  node?: React.ReactElement;
 }
 
 // a row with 2-4 cards
@@ -25,8 +24,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
   bigW,
   pt,
   withBorder = false,
-  withTag = true,
-  node
+  withTag = true
 }: InfoCardProps) => {
   return (
     <Box
@@ -58,7 +56,6 @@ const InfoCard: React.FC<InfoCardProps> = ({
           {title}
         </Text>
         <Text sx={{ whiteSpace: 'pre-wrap' }}>{text}</Text>
-        {node}
       </Stack>
     </Box>
   );

@@ -6,7 +6,7 @@ import { animationsOnScroll } from '../utils/animationsOnScroll';
 import BackToTop from './BackToTop/BackToTop';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-import LiveChat from './LiveChat';
+import LiveChat from './LiveChat/LiveChat';
 import TopLinks from './TopLinks/TopLinks';
 
 interface WrapperProps {

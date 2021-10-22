@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
-import LiveChat from '../../components/LiveChat';
+import LiveChat from '../../components/LiveChat/LiveChat';
 import { openChatWindow } from '../../utils/openChatWindow';
 
 const dark = '#0d0d29';

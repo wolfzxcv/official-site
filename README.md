@@ -1,7 +1,7 @@
 # WCG 官網
 
 - [正式環境](https://glb.012wenchuan.com/)
-- [測試環境](https://wcg.vercel.app/) (暫時的)
+- [測試環境](http://newwcg.coltech.hk/)
 
 ## 運行方式
 
@@ -94,12 +94,14 @@
   id = 印尼語
   ar = 阿拉伯語
 
+- 路徑為/api/index/底下的所有 API 均需在 URL 帶上語系參數,此為 index 這個控制器寫好的規則
+
 - 1 市場資訊 (GET)
   https://www.wc012.com/api/index/index?lang=cn
   quote = 市場分析
   focus = 財經新聞
 
-- 2 企業動向 (GET)
+- 2 企業動向 (GET) (暫時沒用到了)
   https://www.wc012.com/api/index/company?lang=cn
 
 - 3 企業責任 (GET)
@@ -109,11 +111,11 @@
   https://www.wc012.com/api/index/notice?lang=cn
 
 - 5 "聯系我們" 表單提交 (POST)
-  https://www.wc012.com/api/index/contact?lang=cn
+  https://www.wc012.com/api/wcg/contact
+
   - 資料庫欄位截圖
     ![](https://i.imgur.com/T8GnSrP.png)
-  - 所有 API 均需在 URL 帶上語系參數,此為共用 API 控制器寫好的規則
-  - 表單資訊的參數們,則用 json 帶在 request body
+  - 表單資訊的參數們,用 json 帶在 request body
   - API 送出成功,前端判斷標準
     - response 裡面的 status 為 200
     - HTTP status 為 200
@@ -123,6 +125,17 @@
     - 成功範例
       ![](https://i.imgur.com/MYRfN7p.jpg)
       ![](https://i.imgur.com/fHduG2c.jpg)
+
+- 6 偵測地區 API (GET)
+  https://www.wc012.com/api/wcg/checkIp
+  - response
+  ```javascript=
+  {
+    ip: '201.201.2.301',
+    isShow: true,  // 如果是香港IP, 回傳true, 如果不是, 回傳false. 若IP檢測失敗,也會回傳true
+    message: 'success'  // IP 檢測成功success, 檢測失敗fail
+  }
+  ```
 
 ### 開發工具
 
@@ -154,3 +167,7 @@
 5. 需支援市面上主流瀏覽器(Chrome.Edge.Firefox.Safari)及作業系統(電腦 mac/windows,手機 android/ios)
 6. 因為加密貨幣近期較為敏感,master 分支,導覽列不可出現"加密貨幣"
 7. 常見問題頁面,"如何在 WCG 開戶",及現有 CRM 頁面連結,之後需要再改過
+
+## 備註
+
+1. 有兩張圖片放在此專案目錄底下, WCG 預計放到 Jan 2022, 圖片名稱為 **JYSL-PC.jpg** 及 **JYSL-M.jpg**
