@@ -40,16 +40,16 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
 
         <AlertDialogContent>
           <AlertDialogHeader
-            fontSize="28px"
+            fontSize="24px"
             fontWeight="bold"
             bg="red.600"
             color="white"
             textAlign="center"
-            py={2}
+            py={1}
           >
             {title}
           </AlertDialogHeader>
-          <AlertDialogCloseButton color="white" size="lg" />
+          <AlertDialogCloseButton color="white" size="lg" top={1} />
           <AlertDialogBody>{content}</AlertDialogBody>
         </AlertDialogContent>
       </AlertDialog>

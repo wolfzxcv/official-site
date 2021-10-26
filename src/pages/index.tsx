@@ -23,6 +23,7 @@ import { ImEarth } from 'react-icons/im';
 import InfoCard from '../components/Common/InfoCard';
 import InfoTitle from '../components/Common/InfoTitle';
 import PopUp from '../components/PopUp/PopUp';
+import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
 import { StyledBox } from '../components/Styled/Styled';
 import Wrapper from '../components/Wrapper';
 import { Locales } from '../i18n/locales';
@@ -69,31 +70,7 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       {showPopUp && (
-        <PopUp
-          title="風險披露聲明"
-          content={
-            <Stack spacing={2} py={2}>
-              <Text>
-                本網站所有資料及服務並不向香港地區開放，並禁止香港地區人士使用。站內所有資料及信息並不存在任何分銷，推廣，要約，買賣任何投資產品。
-              </Text>
-              <Text>
-                風險披露：WCG Markets Ltd並不向中國居民提供加密貨幣交易
-              </Text>
-              <Text color="red.600">Risk Disclosure</Text>
-              <Text>
-                All materials and services on this website are not open to the
-                Hong Kong area and are prohibited from being used by Hong Kong
-                residents. There is no distribution, promotion, offer, sale or
-                purchase of any investment products for all information and
-                information on the site.
-              </Text>
-              <Text>
-                Risk disclosure: WCG Markets Ltd is unable to offer
-                cryptocurrencies trading to China residents.
-              </Text>
-            </Stack>
-          }
-        />
+        <PopUp title="Restrictions on Use" content={<RestrictionsOnUse />} />
       )}
       <Box
         minH="500px"

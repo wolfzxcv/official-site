@@ -170,4 +170,4 @@
 
 ## 備註
 
-1. 有兩張圖片放在此專案目錄底下, WCG 預計放到 Jan 2022, 圖片名稱為 **JYSL-PC.jpg** 及 **JYSL-M.jpg**
+1. 有 4 張圖片放在此專案目錄底下, WCG 預計放到 Jan 2022, 圖片名稱為 **WCGI-PC.jpg**, **WCGI-M.jpg**, **JYSL-PC.jpg** 及 **JYSL-M.jpg**
