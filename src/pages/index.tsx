@@ -83,7 +83,10 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       {showPopUp && (
-        <PopUp title="Restrictions on Use" content={<RestrictionsOnUse />} />
+        <PopUp
+          title="Restrictions on Use 使用限制"
+          content={<RestrictionsOnUse />}
+        />
       )}
       <Box
         minH="500px"
