@@ -11,7 +11,6 @@ const RestrictionsOnUse: React.FC<{}> = () => {
         investments.
       </Text>
       <Text>
-        使用限制：
         本網站的產品及服務不適合香港居民使用。網站內部的信息和素材不應被視為分銷，要約，買入或賣出任何投資產品。
       </Text>
     </Stack>
