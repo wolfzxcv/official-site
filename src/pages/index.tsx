@@ -8,6 +8,7 @@ import {
   Text,
   useMediaQuery
 } from '@chakra-ui/react';
+import axios from 'axios';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -42,9 +43,21 @@ const Index: React.FC<{}> = () => {
     checkIp();
   }, []);
 
-  const checkIp = () => {
+  const checkIp = async () => {
     if (isNotMobile) {
-      setShowPopUp(true);
+      try {
+        const api = '/wcg/checkIp';
+        const {
+          data: { data }
+        } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
+
+        if (data && data.isShow) {
+          setShowPopUp(true);
+        }
+      } catch (e) {
+        console.log(e);
+        setShowPopUp(true);
+      }
     }
   };
 
