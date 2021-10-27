@@ -5,7 +5,8 @@ import {
   AlertDialogCloseButton,
   AlertDialogContent,
   AlertDialogHeader,
-  AlertDialogOverlay
+  AlertDialogOverlay,
+  useMediaQuery
 } from '@chakra-ui/react';
 import React, { useEffect, useRef } from 'react';
 
@@ -17,6 +18,8 @@ interface PopUpProps {
 const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const cancelRef = useRef();
+
+  const [isNotMobile] = useMediaQuery('(min-width: 832px)');
 
   useEffect(() => {
     openPopUp();
@@ -34,22 +37,26 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
         onClose={onClose}
         isOpen={isOpen}
         isCentered
-        size="xl"
+        size="md"
       >
         <AlertDialogOverlay />
 
         <AlertDialogContent>
           <AlertDialogHeader
-            fontSize="24px"
+            fontSize={isNotMobile ? '24px' : '20px'}
             fontWeight="bold"
-            bg="red.600"
+            bg="black"
             color="white"
             textAlign="center"
-            py={1}
+            py={isNotMobile ? 1 : 2}
           >
             {title}
           </AlertDialogHeader>
-          <AlertDialogCloseButton color="white" size="lg" top={1} />
+          <AlertDialogCloseButton
+            color="white"
+            size="lg"
+            top={isNotMobile ? 1 : 0}
+          />
           <AlertDialogBody>{content}</AlertDialogBody>
         </AlertDialogContent>
       </AlertDialog>

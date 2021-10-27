@@ -1,13 +1,4 @@
-import {
-  Box,
-  Center,
-  Flex,
-  Image,
-  Link,
-  Stack,
-  Text,
-  useMediaQuery
-} from '@chakra-ui/react';
+import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import axios from 'axios';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -37,27 +28,23 @@ const Index: React.FC<{}> = () => {
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
 
-  const [isNotMobile] = useMediaQuery('(min-width: 832px)');
-
   useEffect(() => {
     checkIp();
   }, []);
 
   const checkIp = async () => {
-    if (isNotMobile) {
-      try {
-        const api = '/wcg/checkIp';
-        const {
-          data: { data }
-        } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
+    try {
+      const api = '/wcg/checkIp';
+      const {
+        data: { data }
+      } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
 
-        if (data && data.isShow) {
-          setShowPopUp(true);
-        }
-      } catch (e) {
-        console.log(e);
+      if (data) {
         setShowPopUp(true);
       }
+    } catch (e) {
+      console.log(e);
+      setShowPopUp(true);
     }
   };
 

@@ -167,7 +167,3 @@
 5. 需支援市面上主流瀏覽器(Chrome.Edge.Firefox.Safari)及作業系統(電腦 mac/windows,手機 android/ios)
 6. 因為加密貨幣近期較為敏感,master 分支,導覽列不可出現"加密貨幣"
 7. 常見問題頁面,"如何在 WCG 開戶",及現有 CRM 頁面連結,之後需要再改過
-
-## 備註
-
-1. 有 4 張圖片放在此專案目錄底下, WCG 預計放到 Jan 2022, 圖片名稱為 **WCGI-PC.jpg**, **WCGI-M.jpg**, **JYSL-PC.jpg** 及 **JYSL-M.jpg**
