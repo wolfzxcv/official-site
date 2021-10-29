@@ -16,7 +16,7 @@ const JYSL: React.FC<{}> = () => {
         bgImage="../assets/images/activity_JYSL_bg.jpg"
         bgPosition="center top"
         bgRepeat="no-repeat"
-        py={10}
+        pb={10}
       >
         <Center>
           <Flex
