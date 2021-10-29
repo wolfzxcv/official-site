@@ -6,16 +6,17 @@ import { openChatWindow } from '../../utils';
 const white = 'white';
 const yellow = '#FFD800';
 const blue = '#2b8dff';
-const blue2 = '#2a66eb';
+const blue2 = '#295fe5';
 const darkBlue = '#18284f';
 
 const JYSL: React.FC<{}> = () => {
   return (
     <>
       <Box
-        maxW="1920px"
-        bgImage="../assets/images/activity_JYSL_banner_bg.png"
+        bgImage="../assets/images/activity_JYSL_bg.jpg"
         bgPosition="center top"
+        bgRepeat="no-repeat"
+        py={10}
       >
         <Center>
           <Flex
@@ -163,131 +164,136 @@ const JYSL: React.FC<{}> = () => {
             </Text>
           </Box>
         </Flex>
-      </Box>
-
-      <Flex bg={blue2} justify="center">
-        <Flex
-          bg={blue}
-          py={5}
-          width={{ base: '85vw', md: '800px' }}
-          justify="space-evenly"
-          align="center"
-        >
-          <Image
-            width={{ base: '50%', md: '40%' }}
-            height="auto"
-            src="../assets/images/activity_JYSL_20.png"
-            alt="20"
-          />
-        </Flex>
-      </Flex>
-
-      <Flex bg={blue2} justify="center">
-        <Flex
-          bg={blue}
-          width={{ base: '85vw', md: '800px' }}
-          justify="space-evenly"
-          align="center"
-        >
-          <Image
-            width={{ base: '40%', md: '30%' }}
-            height="auto"
-            src="../assets/images/activity_JYSL_15.png"
-            alt="15"
-          />
-          <Image
-            width={{ base: '40%', md: '30%' }}
-            height="auto"
-            src="../assets/images/activity_JYSL_5.png"
-            alt="5"
-          />
-        </Flex>
-      </Flex>
-
-      <Flex bg={blue2} justify="center">
-        <Flex
-          bg={blue}
-          color={white}
-          width={{ base: '85vw', md: '800px' }}
-          px={{ base: 5, md: 20 }}
-          py={10}
-          justify="space-evenly"
-          align="center"
-        >
-          举例：王先生注册账号后首次入金1000美元，可获得100美元的首充赠金，在活动期间完成20手交易，王先生总共可提现100美元首充赠金及300美元点差回赠并获得＄1000人民币京东卡一张。
-        </Flex>
-      </Flex>
-
-      <Flex bg={blue2} justify="center">
-        <Flex
-          bg={blue}
-          color={white}
-          width={{ base: '85vw', md: '800px' }}
-          px={{ base: 5, md: 20 }}
-          py={10}
-          justify="space-evenly"
-          align="center"
-          wrap="wrap"
-        >
-          <Image
-            width={{ base: '80%', md: '50%' }}
-            pr={{ base: 0, md: 2 }}
-            height="auto"
-            onClick={openChatWindow}
-            _hover={{
-              cursor: 'pointer'
-            }}
-            src="../assets/images/activity_JYSL_buttona.png"
-            alt="a"
-          />
-          <Link
-            _hover={{
-              textDecoration: 'none'
-            }}
-            href="https://trader.wc012.com/register"
-            isExternal
-            width={{ base: '80%', md: '50%' }}
-            pt={{ base: 5, md: 0 }}
-            pl={{ base: 0, md: 2 }}
+        <Center>
+          <Flex
+            bg={blue}
+            py={5}
+            width={{ base: '85vw', md: '800px' }}
+            justify="space-evenly"
+            align="center"
           >
             <Image
+              width={{ base: '50%', md: '40%' }}
               height="auto"
-              width="100%"
-              src="../assets/images/activity_JYSL_buttonb.png"
-              alt="b"
+              src="../assets/images/activity_JYSL_20.png"
+              alt="20"
             />
-          </Link>
-        </Flex>
-      </Flex>
-
-      {/* 加入公众号 */}
-      <Flex bg={blue2} justify="center">
-        <Flex
-          bg={blue}
-          color={white}
-          width={{ base: '85vw', md: '800px' }}
-          px={{ base: 5, md: 20 }}
-          py={10}
-          flexDirection="column"
-          justify="center"
-          align="center"
-        >
-          <Box width="100%" textAlign="center">
-            加入公众号
-          </Box>
-          <Box pt={5}>
+          </Flex>
+        </Center>
+        <Center>
+          <Flex
+            bg={blue}
+            width={{ base: '85vw', md: '800px' }}
+            justify="space-evenly"
+            align="center"
+          >
             <Image
+              width={{ base: '40%', md: '30%' }}
               height="auto"
-              width="100%"
-              src="../assets/images/activity_JYSL_GZH_LOGO.png"
-              alt="GZH_LOGO"
+              src="../assets/images/activity_JYSL_15.png"
+              alt="15"
             />
-          </Box>
-        </Flex>
-      </Flex>
+            <Image
+              width={{ base: '40%', md: '30%' }}
+              height="auto"
+              src="../assets/images/activity_JYSL_5.png"
+              alt="5"
+            />
+          </Flex>
+        </Center>
+
+        <Center>
+          <Flex
+            bg={blue}
+            color={white}
+            width={{ base: '85vw', md: '800px' }}
+            px={{ base: 5, md: 20 }}
+            py={10}
+            justify="space-evenly"
+            align="center"
+          >
+            举例：王先生注册账号后首次入金1000美元，可获得100美元的首充赠金，在活动期间完成20手交易，王先生总共可提现100美元首充赠金及300美元点差回赠并获得＄1000人民币京东卡一张。
+          </Flex>
+        </Center>
+
+        <Center>
+          <Flex
+            bg={blue}
+            color={white}
+            width={{ base: '85vw', md: '800px' }}
+            px={{ base: 5, md: 20 }}
+            py={10}
+            justify="space-evenly"
+            align="center"
+            wrap="wrap"
+          >
+            <Image
+              width={{ base: '80%', md: '50%' }}
+              pr={{ base: 0, md: 2 }}
+              height="auto"
+              onClick={openChatWindow}
+              _hover={{
+                cursor: 'pointer'
+              }}
+              src="../assets/images/activity_JYSL_buttona.png"
+              alt="a"
+            />
+            <Link
+              _hover={{
+                textDecoration: 'none'
+              }}
+              href="https://trader.wc012.com/register"
+              isExternal
+              width={{ base: '80%', md: '50%' }}
+              pt={{ base: 5, md: 0 }}
+              pl={{ base: 0, md: 2 }}
+            >
+              <Image
+                height="auto"
+                width="100%"
+                src="../assets/images/activity_JYSL_buttonb.png"
+                alt="b"
+              />
+            </Link>
+          </Flex>
+        </Center>
+
+        <Center>
+          {/* 加入公众号 */}
+          <Flex bg={blue2} justify="center">
+            <Flex
+              bg={blue}
+              color={white}
+              width={{ base: '85vw', md: '800px' }}
+              px={{ base: 5, md: 20 }}
+              py={10}
+              flexDirection="column"
+              justify="center"
+              align="center"
+            >
+              <Box width="100%" textAlign="center">
+                加入公众号
+              </Box>
+              <Box pt={5}>
+                <Image
+                  height="auto"
+                  width="100%"
+                  src="../assets/images/activity_JYSL_GZH_LOGO.png"
+                  alt="GZH_LOGO"
+                />
+              </Box>
+            </Flex>
+          </Flex>
+        </Center>
+      </Box>
 
       {/* grass */}
-      <Flex maxW="100vw" height="193px" bg={blue2}>
+      <Flex
+        maxW="100vw"
+        height="193px"
+        display={{ base: 'none', md: 'block' }}
+        bg={blue2}
+      >
         <Box
           width="100%"
           height="100%"
@@ -296,6 +302,7 @@ const JYSL: React.FC<{}> = () => {
           bgRepeat="no-repeat"
         ></Box>
       </Flex>
+
       {/* 注意事项 */}
       <Flex
         bg={darkBlue}

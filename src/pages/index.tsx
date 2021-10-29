@@ -39,7 +39,7 @@ const Index: React.FC<{}> = () => {
         data: { data }
       } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
 
-      if (data) {
+      if (data && data.isShow) {
         setShowPopUp(true);
       }
     } catch (e) {
