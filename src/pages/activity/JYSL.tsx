@@ -55,7 +55,7 @@ const JYSL: React.FC<{}> = () => {
               <Box
                 _hover={{ cursor: 'pointer' }}
                 onClick={openChatWindow}
-                ml={3}
+                ml={5}
                 height="1.2em"
               >
                 <Image
