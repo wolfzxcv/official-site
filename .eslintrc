@@ -33,13 +33,13 @@
      * Eslint Rules
      * DOC: https://eslint.org/docs/rules
      ****************************************/
-    "no-console": "warn",
+    "no-console": "off",
     // suppress errors for missing 'import React' in files
     "react/react-in-jsx-scope": "off",
 
     /***********************************
      * other plugins
      **********************************/
-    "@typescript-eslint/no-explicit-any": "warn"
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
