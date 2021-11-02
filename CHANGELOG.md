@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.8](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.3...v1.9.8) (2021-11-02)
+
+
+### Bug Fixes
+
+* **package.json:** lock next version ([cc175b7](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/cc175b787c65bc3c2364726b2dd1fe2e003194b8))
+
 ### [1.9.7](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.3...v1.9.7) (2021-11-02)
 
 
