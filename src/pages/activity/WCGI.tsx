@@ -169,13 +169,13 @@ const WCGI: React.FC<{}> = () => {
             align="center"
           >
             <Image
-              width="40%"
+              width="48%"
               height="auto"
               src="../assets/images/activity_WCGI_2500.png"
               alt="15"
             />
             <Image
-              width="40%"
+              width="48%"
               height="auto"
               src="../assets/images/activity_WCGI_2000.png"
               alt="5"
@@ -192,13 +192,13 @@ const WCGI: React.FC<{}> = () => {
             align="center"
           >
             <Image
-              width="40%"
+              width="48%"
               height="auto"
               src="../assets/images/activity_WCGI_1500.png"
               alt="15"
             />
             <Image
-              width="40%"
+              width="48%"
               height="auto"
               src="../assets/images/activity_WCGI_1000.png"
               alt="5"
@@ -221,6 +221,7 @@ const WCGI: React.FC<{}> = () => {
               border="4px"
               borderRadius="10px"
               borderColor="orange"
+              fontSize={{ base: '10px', md: '18px' }}
             >
               例子：客户陈先生在活动期间内成功注资2,500美元，即可获得参加活动资格。陈先生在此次活动中完成了100手黄金及100手原油交易，于活动结束后可以免费获得以下苹果系列产品iPhone
               13 Pro手机一份。
