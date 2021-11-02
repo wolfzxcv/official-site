@@ -1,13 +1,4 @@
-import {
-  Box,
-  Center,
-  Flex,
-  Image,
-  Link,
-  Stack,
-  Text,
-  useMediaQuery
-} from '@chakra-ui/react';
+import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
 import LiveChat from '../../components/LiveChat/LiveChat';
 import { openChatWindow } from '../../utils';
@@ -16,76 +7,74 @@ const white = 'white';
 const darkRed = '#620000';
 
 const WCGI: React.FC<{}> = () => {
-  const [usePCLayout] = useMediaQuery('(min-width: 1200px)');
-
   return (
     <>
-      {usePCLayout ? (
-        <Box
-          bgImage="../assets/images/activity_WCGI_bg2.jpg"
-          bgPosition="center top"
-          bgRepeat="no-repeat"
-          height="3380px"
+      {/* PC layout */}
+      <Box
+        display={{ base: 'none', xl: 'block' }}
+        bgImage="../assets/images/activity_WCGI_bg2.jpg"
+        bgPosition="center top"
+        bgRepeat="no-repeat"
+        height="3380px"
+      >
+        <TopLinks />
+
+        {/*  立即開戶 */}
+        <Flex
+          position="absolute"
+          top="930px"
+          justify="space-evenly"
+          width="100%"
         >
-          <TopLinks />
-
-          {/*  立即開戶 */}
-          <Flex
-            position="absolute"
-            top="930px"
-            justify="space-evenly"
-            width="100%"
-          >
-            <Box></Box>
-            <Box ml={20}>
-              <Link
-                _hover={{
-                  textDecoration: 'none'
-                }}
-                href="https://trader.wc012.com/register"
-                isExternal
-              >
-                <Image
-                  height="auto"
-                  src="../assets/images/activity_JYSL_buttonb.png"
-                  alt="b"
-                />
-              </Link>
-            </Box>
-          </Flex>
-
-          {/* 在線諮詢 + 立即開戶 */}
-          <Flex position="absolute" top="2500px" justify="center" width="100%">
-            <Box mr={5}>
+          <Box></Box>
+          <Box ml={20}>
+            <Link
+              _hover={{
+                textDecoration: 'none'
+              }}
+              href="https://trader.wc012.com/register"
+              isExternal
+            >
               <Image
-                onClick={openChatWindow}
-                _hover={{
-                  cursor: 'pointer'
-                }}
-                src="../assets/images/activity_JYSL_buttona.png"
-                alt="a"
+                height="auto"
+                src="../assets/images/activity_JYSL_buttonb.png"
+                alt="b"
               />
-            </Box>
+            </Link>
+          </Box>
+        </Flex>
 
-            <Box>
-              <Link
-                _hover={{
-                  textDecoration: 'none'
-                }}
-                href="https://trader.wc012.com/register"
-                isExternal
-              >
-                <Image
-                  src="../assets/images/activity_JYSL_buttonb.png"
-                  alt="b"
-                />
-              </Link>
-            </Box>
-          </Flex>
-        </Box>
-      ) : (
-        <Box>123</Box>
-      )}
+        {/* 在線諮詢 + 立即開戶 */}
+        <Flex position="absolute" top="2500px" justify="center" width="100%">
+          <Box mr={5}>
+            <Image
+              onClick={openChatWindow}
+              _hover={{
+                cursor: 'pointer'
+              }}
+              src="../assets/images/activity_JYSL_buttona.png"
+              alt="a"
+            />
+          </Box>
+
+          <Box>
+            <Link
+              _hover={{
+                textDecoration: 'none'
+              }}
+              href="https://trader.wc012.com/register"
+              isExternal
+            >
+              <Image src="../assets/images/activity_JYSL_buttonb.png" alt="b" />
+            </Link>
+          </Box>
+        </Flex>
+      </Box>
+
+      {/* Mobile layout */}
+      <Box display={{ base: 'block', xl: 'none' }}>
+        <TopLinks />
+      </Box>
 
       {/* 注意事项 */}
       <Flex

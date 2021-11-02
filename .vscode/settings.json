@@ -8,5 +8,12 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["allowtransparency", "Chakra", "forex", "Formik", "havent"]
+  "cSpell.words": [
+    "allowtransparency",
+    "Chakra",
+    "forex",
+    "Formik",
+    "havent",
+    "nprogress"
+  ]
 }
