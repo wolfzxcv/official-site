@@ -45,6 +45,10 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
       break;
   }
 
+  const formatTime = (time) => {
+    return time && time.length > 10 ? time.slice(0, 10) : time;
+  };
+
   const getItems = async (currentLang) => {
     try {
       const {
@@ -57,7 +61,7 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
         data[objectKey] && data[objectKey].length
           ? data[objectKey].map((x) => ({
               id: x.id,
-              date: x.time && x.time.length > 10 ? x.time.slice(0, 10) : x.time,
+              date: formatTime(x.showTime || x.time),
               title: x.title,
               htmlContent:
                 x.content +
