@@ -112,6 +112,8 @@ export type Conditions = {
   sinceWCGCannotControl: string;
   /** Market risk and online trading */
   marketRiskAndOnlineTrading: string;
+  /** Precious metals trading */
+  preciousMetalsTrading: string;
   /** Customers must keep the password */
   customersMustKeepThePassword: string;
   /** Password protection */

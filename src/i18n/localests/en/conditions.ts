@@ -88,6 +88,8 @@ export const conditions: Conditions = {
   sinceWCGCannotControl:
     "Since*WCG*cannot*control*the*signal*capacity,*the*reception*of*signals*through*the*Internet*and*routing*depends*on*the*structure*of*the*client's*equipment*or*the*reliability*of*the*connection.*WCG*does*not*responsible*for*communication*failures,*distortions*or*delays*in*transactions*on*the*Internet.",
   marketRiskAndOnlineTrading: 'Market*risk*and*online*trading',
+  preciousMetalsTrading:
+    'Precious*metals*trading*involves*significant*level*of*risks*and*is*not*suitable*for*everyone.*Please*refer*to*the*customer*contract*for*a*detailed*introduction*of*risks.*No*matter*how*convenient*or*efficient*online*trading*is,*this*does*not*reduce*the*risk*of*precious*metals*trading.',
   customersMustKeepThePassword:
     'Customers*must*keep*the*password*confidential*to*ensure*that*third*parties*cannot*access*the*trading*facilities.*The*client*agrees*to*be*responsible*for*all*instructions*sent*via*email*and*all*instructions*sent*to*WCG*via*email,*verbal*or*by*written,*even*if*issued*by*a*third*party,*these*instructions*have*been*authenticated*with*the*client’s*password*and*account*number.*According*to*WCG’s*judgment,*it*is*believed*to*be*basic*authorization*of*clients.*WCG*does*not*responsible*for*making*further*inquiries*about*this*apparent*permission,*nor*it*is*responsible*for*the*consequences*of*actions*or*non-actions*based*on*these*instructions*or*apparent*permission.',
   passwordProtection: 'Password*protection',

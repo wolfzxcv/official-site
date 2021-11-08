@@ -84,6 +84,8 @@ export const conditions: Conditions = {
   sinceWCGCannotControl:
     '由于WCG无法控制讯号能力，讯号通过互联网和路由的接收，视乎客户设备的结构或连接的可靠性，WCG不对互联网上交易中出现的通讯故障、失真或延迟负责。',
   marketRiskAndOnlineTrading: '市场风险和网上交易',
+  preciousMetalsTrading:
+    '贵金属交易涉及相当大的风险，并非适合每个人。请参照客户合约书了解风险的详细介绍。不论网上交易多么方便或有效率，这并不降低贵金属交易的风险。',
   customersMustKeepThePassword:
     '客户必须将密码保密存放，确保第三者无法取用交易设施。客户同意对所有经电邮传送来的训示和对所有经由电邮、口头或书面向WCG發出的训示确实负责，即使是由第三者發出，这些训示已和客户密码和账户号码认证，根据WCG的判断相信是客户表面授权。WCG并没有责任对这个表面许可权作进一步査询，也没有责任因为依据这些训示或表面许可权所采的行动或不採取行动所造成的后果负责。',
   passwordProtection: '密码保护',

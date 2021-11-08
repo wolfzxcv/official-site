@@ -43,7 +43,7 @@ const riskDisclaimer: React.FC<{}> = () => {
             )}`}
           />
 
-          <Text>{t('customersMustKeepThePassword')}</Text>
+          <Text>{t('preciousMetalsTrading')}</Text>
         </Box>
 
         <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
