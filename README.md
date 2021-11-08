@@ -167,3 +167,18 @@
 5. 需支援市面上主流瀏覽器(Chrome.Edge.Firefox.Safari)及作業系統(電腦 mac/windows,手機 android/ios)
 6. 因為加密貨幣近期較為敏感,master 分支,導覽列不可出現"加密貨幣"
 7. 常見問題頁面,"如何在 WCG 開戶",及現有 CRM 頁面連結,之後需要再改過
+
+### 活動頁面
+
+- 路徑命名為 activity/活動名稱
+
+  - 新增檔案在 src\pages\activity 底下
+  - 新增圖片在 public\assets\images 底下, 圖片命名方式為 activity*活動名稱*圖片名稱
+  - 用以上方式命名, 將來若想刪除已經過時的活動相關頁面及檔案, 維護會較容易
+
+- 目前已有活動頁面們(依照開發順序陳列)
+  - [index](https://newwcg.coltech.hk/activity)
+  - [WCGZG](https://newwcg.coltech.hk/activity/WCGZG)
+  - [JYSL](http://newwcg.coltech.hk/activity/JYSL)
+  - [WCGI](http://newwcg.coltech.hk/activity/WCGI)
+  - [WCGE](https://newwcg.coltech.hk/activity/WCGE)
