@@ -1,6 +1,9 @@
 import { Box, Flex, Image, Link } from '@chakra-ui/react';
 import styled from '@emotion/styled';
+import dynamic from 'next/dynamic';
 import React from 'react';
+
+const WCGEPopOver = dynamic(() => import('./WCGEPopOver'), { ssr: false });
 
 const borderColor = 'black';
 
@@ -25,7 +28,7 @@ const WCGE: React.FC<{}> = () => {
           justify="center"
           align="center"
         >
-          <Flex w="100%">
+          <Flex>
             <Image
               width={181}
               height={76}
@@ -34,7 +37,7 @@ const WCGE: React.FC<{}> = () => {
             />
           </Flex>
 
-          <Flex flexDirection="column" w="100%" justify="center">
+          <Flex flexDirection="column" w="100%">
             <Flex align="center">
               <Image
                 mr={3}
@@ -87,17 +90,10 @@ const WCGE: React.FC<{}> = () => {
           className="icon-box"
           justify={{ base: 'inherit', md: 'space-evenly' }}
         >
+          <WCGEPopOver />
           <Flex align="center" my={2}>
             <Image
-              w="25px"
-              h="26px"
-              src="../assets/images/activity_WCGE_icon5.png"
-              alt="icon5"
-            />
-            WCGMarkets
-          </Flex>
-          <Flex align="center" my={2}>
-            <Image
+              mr={3}
               w="25px"
               h="26px"
               src="../assets/images/activity_WCGE_icon6.png"
@@ -105,19 +101,27 @@ const WCGE: React.FC<{}> = () => {
             />
             WCGMarkets
           </Flex>
-          <Link href="https://direct.lc.chat/11929440" isExternal>
+
+          <Link
+            _hover={{ textDecoration: 'none' }}
+            href="https://direct.lc.chat/11929440"
+            isExternal
+          >
             <Flex align="center" my={2}>
               <Image
+                mr={3}
                 w="25px"
                 h="26px"
                 src="../assets/images/activity_WCGE_icon7.png"
                 alt="icon7"
               />
-              在线客服
+              <Box>在线客服</Box>
             </Flex>
           </Link>
+
           <Flex align="center" my={2}>
             <Image
+              mr={3}
               w="25px"
               h="26px"
               src="../assets/images/activity_WCGE_icon8.png"
@@ -133,13 +137,20 @@ const WCGE: React.FC<{}> = () => {
 
 const StyledBusinessCard = styled(Box)`
   width: 730px;
+  .icon-box {
+    & > a > div {
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+  }
 
   /* custom break point 640px */
   @media (min-width: 641px) {
     .icon-box {
       justify-content: space-evenly;
     }
-    .logo-box > :first-child {
+    .logo-box > :first-of-type {
+      width: 80%;
       justify-content: center;
     }
   }
@@ -149,15 +160,19 @@ const StyledBusinessCard = styled(Box)`
       flex-direction: column;
       padding-left: 10px;
     }
-
-    .logo-box > div {
+    .logo-box {
+      & > :first-of-type {
+        width: 100%;
+        margin-top: 30px;
+      }
+      & > div {
+        margin-bottom: 30px;
+      }
       margin-bottom: 30px;
     }
 
-    .icon-box {
-      img {
-        margin-right: 12px;
-      }
+    .icon-box > :first-of-type {
+      justify-content: flex-start;
     }
   }
 `;
