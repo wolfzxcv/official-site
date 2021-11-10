@@ -96,6 +96,13 @@
 
 - 路徑為/api/index/底下的所有 API 均需在 URL 帶上語系參數,此為 index 這個控制器寫好的規則
 
+- 因應"後台"增加日期選擇器, 前台 API 日期顯示規則更新.
+
+  - ![](https://i.imgur.com/WFZei2D.jpg)
+  - 如果 API 有回傳日期選擇器時間,則優先顯示
+  - 若無,則回傳文章插入時間
+  - time = 文章插入時間, showTime = 日期選擇器時間
+
 - 1 市場資訊 (GET)
   https://www.wc012.com/api/index/index?lang=cn
   quote = 市場分析
@@ -181,4 +188,4 @@
   - [WCGZG](https://newwcg.coltech.hk/activity/WCGZG)
   - [JYSL](http://newwcg.coltech.hk/activity/JYSL)
   - [WCGI](http://newwcg.coltech.hk/activity/WCGI)
-  - [WCGE](https://newwcg.coltech.hk/activity/WCGE)
+  - [WCGE (Business card)](https://newwcg.coltech.hk/activity/WCGE)
