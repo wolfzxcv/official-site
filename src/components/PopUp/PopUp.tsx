@@ -22,9 +22,7 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
   const [isNotMobile] = useMediaQuery('(min-width: 832px)');
 
   useEffect(() => {
-    if (isNotMobile) {
-      openPopUp();
-    }
+    openPopUp();
   }, []);
 
   const openPopUp = () => {
@@ -47,7 +45,7 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
           <AlertDialogHeader
             fontSize={isNotMobile ? '24px' : '20px'}
             fontWeight="bold"
-            bg="red.600"
+            bg="black"
             color="white"
             textAlign="center"
             py={isNotMobile ? 1 : 2}
