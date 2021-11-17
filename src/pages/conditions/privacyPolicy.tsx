@@ -4,8 +4,8 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
 const privacyPolicy: React.FC<{}> = () => {

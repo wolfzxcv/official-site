@@ -8,10 +8,10 @@ import { AiOutlineProfile } from 'react-icons/ai';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { ImProfile, ImTree } from 'react-icons/im';
 import { RiListSettingsLine, RiRefund2Line } from 'react-icons/ri';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoButtonBase from '../../components/Common/InfoButtonBase';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 

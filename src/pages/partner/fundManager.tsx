@@ -9,10 +9,10 @@ import { BiDevices } from 'react-icons/bi';
 import { FaHandshake } from 'react-icons/fa';
 import { GiReceiveMoney, GiTakeMyMoney } from 'react-icons/gi';
 import { RiMoneyDollarCircleLine } from 'react-icons/ri';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoButtonBase from '../../components/Common/InfoButtonBase';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 

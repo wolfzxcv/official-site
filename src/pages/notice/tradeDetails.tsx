@@ -4,9 +4,9 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import dynamic from 'next/dynamic';
 import React from 'react';
+import Wrapper from '../../components/Base/Wrapper';
 import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoTitle from '../../components/Common/InfoTitle';
-import Wrapper from '../../components/Wrapper';
 
 const InfoAccordion = dynamic(
   () => import('../../components/Common/InfoAccordion'),

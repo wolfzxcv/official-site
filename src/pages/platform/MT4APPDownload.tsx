@@ -4,13 +4,13 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoCardSm from '../../components/Common/InfoCardSm';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import DownloadButton from '../../components/Platform/DownloadButton';
 import InfoList from '../../components/Platform/InfoList';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
 const MT4APPDownload: React.FC<{}> = () => {

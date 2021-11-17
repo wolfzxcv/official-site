@@ -12,12 +12,12 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { GiChampions, GiServerRack } from 'react-icons/gi';
 import { HiServer } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
+import Wrapper from '../components/Base/Wrapper';
 import InfoCard from '../components/Common/InfoCard';
 import InfoTitle from '../components/Common/InfoTitle';
 import PopUp from '../components/PopUp/PopUp';
 import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
 import { StyledBox } from '../components/Styled/Styled';
-import Wrapper from '../components/Wrapper';
 import { Locales } from '../i18n/locales';
 
 const Index: React.FC<{}> = () => {
@@ -34,7 +34,7 @@ const Index: React.FC<{}> = () => {
 
   const checkIp = async () => {
     try {
-      const api = '/wcg/checkIp';
+      const api = 'wcg/checkIp';
       const {
         data: { data }
       } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);

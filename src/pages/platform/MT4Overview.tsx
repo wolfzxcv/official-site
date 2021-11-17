@@ -4,11 +4,11 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import MT4DownloadOption from '../../components/Platform/MT4DownloadOption';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
 const MT4Overview: React.FC<{}> = () => {

@@ -6,10 +6,10 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import React from 'react';
 import * as Yup from 'yup';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { IField } from '../../components/Form/SubmitForm';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
 const SubmitForm = dynamic(() => import('../../components/Form/SubmitForm'), {

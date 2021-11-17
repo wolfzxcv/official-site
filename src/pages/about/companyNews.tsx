@@ -6,8 +6,8 @@ import React from 'react';
 import HistoryItem, {
   HistoryItemProps
 } from '../../components/About/HistoryItem';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
-import Wrapper from '../../components/Wrapper';
 
 const companyNews: React.FC<{}> = () => {
   const { t } = useTranslation(['contactUs']);

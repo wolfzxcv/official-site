@@ -3,9 +3,9 @@ import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import Wrapper from '../../components/Wrapper';
 
 const financialCalendar: React.FC<{}> = () => {
   const { t } = useTranslation(['marketNews']);

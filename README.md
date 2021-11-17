@@ -189,3 +189,25 @@
   - [JYSL](http://newwcg.coltech.hk/activity/JYSL)
   - [WCGI](http://newwcg.coltech.hk/activity/WCGI)
   - [WCGE (Business card)](https://newwcg.coltech.hk/activity/WCGE)
+
+## 情報
+
+### 目前已知域名
+
+- 國際站
+
+  - https://glb.012wenchuan.com/
+  - https://wcgmarkets.com/
+  - http://wcglb.com
+
+- 國內站
+
+  - https://www.wc012.com/
+  - http://wcgold.hk
+
+- 國際站/國內站, 共用後台(裡面有分國內和國際內容添加)
+
+  - http://admin.wc012.com/admin
+
+- 支付回調網址
+  - https://www.wc012.com/home/Pay/RetVite

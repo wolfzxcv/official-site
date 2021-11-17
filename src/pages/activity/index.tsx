@@ -1,7 +1,8 @@
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import React from 'react';
-import LiveChat from '../../components/LiveChat/LiveChat';
+import HTMLHead from '../../components/Base/HTMLHead';
+import LiveChat from '../../components/Base/LiveChat';
 import { openChatWindow } from '../../utils';
 
 const dark = '#182227';
@@ -16,6 +17,9 @@ const rightButton = '#cc2727';
 const Activity: React.FC<{}> = () => {
   return (
     <>
+      <HTMLHead />
+      <LiveChat />
+
       <Flex bg={dark} justify="center" paddingY={{ base: 1, md: 5 }}>
         <Flex
           width={{ base: '85vw', md: '750px' }}
@@ -297,8 +301,6 @@ const Activity: React.FC<{}> = () => {
           </Text>
         </Stack>
       </Flex>
-
-      <LiveChat />
     </>
   );
 };

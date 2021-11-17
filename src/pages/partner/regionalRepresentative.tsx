@@ -6,11 +6,11 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { MdLocationOn, MdMessage } from 'react-icons/md';
 import { RiUserStarLine } from 'react-icons/ri';
+import Wrapper from '../../components/Base/Wrapper';
 import InfoButtonBase from '../../components/Common/InfoButtonBase';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import { StyledBoxTag } from '../../components/Styled/Styled';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
@@ -245,11 +245,7 @@ const regionalRepresentative: React.FC<{}> = () => {
 
       {/* Become our regional representative */}
       <Flex direction="column" align="center" py={20}>
-        <Box
-          w={{ base: '80vw', lg: '45vw' }}
-          pb={10}
-          textAlign='center'
-        >
+        <Box w={{ base: '80vw', lg: '45vw' }} pb={10} textAlign="center">
           <InfoTitle title={t('becomeOurRegional')} />
           <Text>{t('wCGIsCurrently')}</Text>
         </Box>

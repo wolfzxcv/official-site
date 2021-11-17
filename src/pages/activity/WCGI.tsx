@@ -1,6 +1,7 @@
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
-import LiveChat from '../../components/LiveChat/LiveChat';
+import HTMLHead from '../../components/Base/HTMLHead';
+import LiveChat from '../../components/Base/LiveChat';
 import { openChatWindow } from '../../utils';
 
 const white = 'white';
@@ -11,6 +12,9 @@ const darkRed = '#620000';
 const WCGI: React.FC<{}> = () => {
   return (
     <>
+      <HTMLHead />
+      <LiveChat />
+
       <Box width="100%" bg={red}>
         {/* PC layout 1280px up */}
         <Box
@@ -366,8 +370,6 @@ const WCGI: React.FC<{}> = () => {
           </Text>
         </Stack>
       </Flex>
-
-      <LiveChat />
     </>
   );
 };

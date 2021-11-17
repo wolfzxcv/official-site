@@ -1,6 +1,7 @@
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
-import LiveChat from '../../components/LiveChat/LiveChat';
+import HTMLHead from '../../components/Base/HTMLHead';
+import LiveChat from '../../components/Base/LiveChat';
 import { openChatWindow } from '../../utils';
 
 const white = 'white';
@@ -12,6 +13,9 @@ const darkBlue = '#18284f';
 const JYSL: React.FC<{}> = () => {
   return (
     <>
+      <HTMLHead />
+      <LiveChat />
+
       <Box
         bgImage="../assets/images/activity_JYSL_bg.jpg"
         bgPosition="center top"
@@ -343,8 +347,6 @@ const JYSL: React.FC<{}> = () => {
           </Text>
         </Stack>
       </Flex>
-
-      <LiveChat />
     </>
   );
 };

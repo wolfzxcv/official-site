@@ -1,13 +1,13 @@
 import { Box, useMediaQuery } from '@chakra-ui/react';
-import Head from 'next/head';
 import React, { useEffect } from 'react';
-import packageJson from '../../package.json';
-import { animationsOnScroll } from '../utils/animationsOnScroll';
-import BackToTop from './BackToTop/BackToTop';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import LiveChat from './LiveChat/LiveChat';
-import TopLinks from './TopLinks/TopLinks';
+import { animationsOnScroll } from '../../utils/animationsOnScroll';
+import BackToTop from '../BackToTop/BackToTop';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import TopLinks from '../TopLinks/TopLinks';
+import GoogleTagManager from './GoogleTagManager';
+import HTMLHead from './HTMLHead';
+import LiveChat from './LiveChat';
 
 interface WrapperProps {
   maxW?: string;
@@ -34,14 +34,11 @@ const Wrapper: React.FC<WrapperProps> = ({
 
   return (
     <>
-      <Head>
-        <title>WCG</title>
-        {packageJson.version && (
-          <meta name="version" content={`${packageJson.version}`}></meta>
-        )}
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" type="image/ico" href="../assets/images/favicon.ico" />
-      </Head>
+      <HTMLHead />
+
+      <LiveChat />
+      <GoogleTagManager />
+
       <Box position="sticky" top="0" zIndex={100}>
         <Header />
         <TopLinks />
@@ -52,8 +49,6 @@ const Wrapper: React.FC<WrapperProps> = ({
       <BackToTop />
 
       <Footer />
-
-      <LiveChat />
     </>
   );
 };

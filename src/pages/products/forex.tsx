@@ -8,11 +8,11 @@ import React from 'react';
 import { AiOutlineFieldTime } from 'react-icons/ai';
 import { HiServer, HiTrendingDown, HiTrendingUp } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
+import Wrapper from '../../components/Base/Wrapper';
 import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
-import Wrapper from '../../components/Wrapper';
 import { Locales } from '../../i18n/locales';
 
 const InfoAccordion = dynamic(

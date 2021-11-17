@@ -2,6 +2,7 @@ import { Box, Flex, Image, Link } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import dynamic from 'next/dynamic';
 import React from 'react';
+import HTMLHead from '../../components/Base/HTMLHead';
 
 const WCGEPopOver = dynamic(() => import('./WCGEPopOver'), { ssr: false });
 
@@ -9,129 +10,133 @@ const borderColor = 'black';
 
 const WCGE: React.FC<{}> = () => {
   return (
-    <Flex w="100%" minH="100vh" align="center" justify="center">
-      <StyledBusinessCard
-        display="flex"
-        flexDirection="column"
-        justifyContent="center"
-        border={{ base: 'none', md: '1px' }}
-        borderColor={borderColor}
-        h={{ base: '100%', md: '281px' }}
-      >
-        <Flex
-          className="logo-box"
-          mx="50px"
-          py={5}
-          borderTop="1px"
-          borderBottom="1px"
-          borderColor={borderColor}
-          justify="center"
-          align="center"
-        >
-          <Flex>
-            <Image
-              width={181}
-              height={76}
-              src="../assets/images/logo.svg"
-              alt="logo"
-            />
-          </Flex>
+    <>
+      <HTMLHead />
 
-          <Flex flexDirection="column" w="100%">
-            <Flex align="center">
+      <Flex w="100%" minH="100vh" align="center" justify="center">
+        <StyledBusinessCard
+          display="flex"
+          flexDirection="column"
+          justifyContent="center"
+          border={{ base: 'none', md: '1px' }}
+          borderColor={borderColor}
+          h={{ base: '100%', md: '281px' }}
+        >
+          <Flex
+            className="logo-box"
+            mx="50px"
+            py={5}
+            borderTop="1px"
+            borderBottom="1px"
+            borderColor={borderColor}
+            justify="center"
+            align="center"
+          >
+            <Flex>
               <Image
-                mr={3}
-                w="16px"
-                h="16px"
-                src="../assets/images/activity_WCGE_icon1.png"
-                alt="icon1"
+                width={181}
+                height={76}
+                src="../assets/images/logo.svg"
+                alt="logo"
               />
-              {'WCG Markets Ltd'.toUpperCase()}
             </Flex>
-            <a href="mailto: info@wcglb.com">
-              <Flex align="center">
-                <Image
-                  mr={3}
-                  w="16px"
-                  h="12px"
-                  src="../assets/images/activity_WCGE_icon2.png"
-                  alt="icon2"
-                />
-                {'info@wcglb.com'.toUpperCase()}
-              </Flex>
-            </a>
-            <Flex align="center">
-              <Image
-                mr={3}
-                w="16px"
-                h="14px"
-                src="../assets/images/activity_WCGE_icon3.png"
-                alt="icon3"
-              />
-              4001 203 612
-            </Flex>
-            <Link href="http://www.wcgmarkets.com/" isExternal>
+
+            <Flex flexDirection="column" w="100%">
               <Flex align="center">
                 <Image
                   mr={3}
                   w="16px"
                   h="16px"
-                  src="../assets/images/activity_WCGE_icon4.png"
-                  alt="icon4"
+                  src="../assets/images/activity_WCGE_icon1.png"
+                  alt="icon1"
                 />
-
-                {'http://www.wcgmarkets.com/'.toUpperCase()}
+                {'WCG Markets Ltd'.toUpperCase()}
               </Flex>
-            </Link>
-          </Flex>
-        </Flex>
-        <Flex
-          mx="50px"
-          className="icon-box"
-          justify={{ base: 'inherit', md: 'space-evenly' }}
-        >
-          <WCGEPopOver />
-          <Flex align="center" my={2}>
-            <Image
-              mr={3}
-              w="25px"
-              h="26px"
-              src="../assets/images/activity_WCGE_icon6.png"
-              alt="icon6"
-            />
-            WCGMarkets
-          </Flex>
+              <a href="mailto: info@wcglb.com">
+                <Flex align="center">
+                  <Image
+                    mr={3}
+                    w="16px"
+                    h="12px"
+                    src="../assets/images/activity_WCGE_icon2.png"
+                    alt="icon2"
+                  />
+                  {'info@wcglb.com'.toUpperCase()}
+                </Flex>
+              </a>
+              <Flex align="center">
+                <Image
+                  mr={3}
+                  w="16px"
+                  h="14px"
+                  src="../assets/images/activity_WCGE_icon3.png"
+                  alt="icon3"
+                />
+                4001 203 612
+              </Flex>
+              <Link href="http://www.wcgmarkets.com/" isExternal>
+                <Flex align="center">
+                  <Image
+                    mr={3}
+                    w="16px"
+                    h="16px"
+                    src="../assets/images/activity_WCGE_icon4.png"
+                    alt="icon4"
+                  />
 
-          <Link
-            _hover={{ textDecoration: 'none' }}
-            href="https://direct.lc.chat/11929440"
-            isExternal
+                  {'http://www.wcgmarkets.com/'.toUpperCase()}
+                </Flex>
+              </Link>
+            </Flex>
+          </Flex>
+          <Flex
+            mx="50px"
+            className="icon-box"
+            justify={{ base: 'inherit', md: 'space-evenly' }}
           >
+            <WCGEPopOver />
             <Flex align="center" my={2}>
               <Image
                 mr={3}
                 w="25px"
                 h="26px"
-                src="../assets/images/activity_WCGE_icon7.png"
-                alt="icon7"
+                src="../assets/images/activity_WCGE_icon6.png"
+                alt="icon6"
               />
-              <Box>在线客服</Box>
+              WCGMarkets
             </Flex>
-          </Link>
 
-          <Flex align="center" my={2}>
-            <Image
-              mr={3}
-              w="25px"
-              h="26px"
-              src="../assets/images/activity_WCGE_icon8.png"
-              alt="icon8"
-            />
-            金銀業貿易埸12行員
+            <Link
+              _hover={{ textDecoration: 'none' }}
+              href="https://direct.lc.chat/11929440"
+              isExternal
+            >
+              <Flex align="center" my={2}>
+                <Image
+                  mr={3}
+                  w="25px"
+                  h="26px"
+                  src="../assets/images/activity_WCGE_icon7.png"
+                  alt="icon7"
+                />
+                <Box>在线客服</Box>
+              </Flex>
+            </Link>
+
+            <Flex align="center" my={2}>
+              <Image
+                mr={3}
+                w="25px"
+                h="26px"
+                src="../assets/images/activity_WCGE_icon8.png"
+                alt="icon8"
+              />
+              金銀業貿易埸12行員
+            </Flex>
           </Flex>
-        </Flex>
-      </StyledBusinessCard>
-    </Flex>
+        </StyledBusinessCard>
+      </Flex>
+    </>
   );
 };
 
