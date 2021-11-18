@@ -61,7 +61,6 @@ const about: React.FC<{}> = () => {
           ></LinkButton>
         </Stack>
         <Box paddingX={20} display={{ base: 'none', xl: 'block' }}>
-          {/* <Slide bottom> */}
           <Image
             position="relative"
             top={tallerBanner ? '185px' : '120px'}
@@ -69,7 +68,6 @@ const about: React.FC<{}> = () => {
             src="../assets/images/about_1.png"
             alt="about_1"
           />
-          {/* </Slide> */}
         </Box>
       </Flex>
 

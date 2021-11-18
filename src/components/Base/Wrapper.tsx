@@ -1,13 +1,14 @@
 import { Box, useMediaQuery } from '@chakra-ui/react';
+import dynamic from 'next/dynamic';
 import React, { useEffect } from 'react';
 import { animationsOnScroll } from '../../utils/animationsOnScroll';
 import BackToTop from '../BackToTop/BackToTop';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import TopLinks from '../TopLinks/TopLinks';
-import GoogleTagManager from './GoogleTagManager';
 import HTMLHead from './HTMLHead';
-import LiveChat from './LiveChat';
+
+const LiveChat = dynamic(() => import('./LiveChat'), { ssr: false });
 
 interface WrapperProps {
   maxW?: string;
@@ -37,7 +38,6 @@ const Wrapper: React.FC<WrapperProps> = ({
       <HTMLHead />
 
       <LiveChat />
-      <GoogleTagManager />
 
       <Box position="sticky" top="0" zIndex={100}>
         <Header />
