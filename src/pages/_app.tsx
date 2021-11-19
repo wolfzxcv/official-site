@@ -8,7 +8,7 @@ import '../styles/animationsOnScroll.css';
 import '../styles/index.css'; // global styling
 import '../styles/nprogress.css'; //styles of nprogress
 import theme from '../styles/theme';
-import { GTMPageView } from '../utils/gtm';
+import { GTMPageView } from '../utils';
 
 //Binding events.
 Router.events.on('routeChangeStart', () => NProgress.start());

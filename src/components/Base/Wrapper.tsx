@@ -1,7 +1,7 @@
 import { Box, useMediaQuery } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
 import React, { useEffect } from 'react';
-import { animationsOnScroll } from '../../utils/animationsOnScroll';
+import { animationsOnScroll } from '../../utils';
 import BackToTop from '../BackToTop/BackToTop';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
