@@ -15,7 +15,7 @@ import MobileNav from './MobileNav';
 const LangSelector = dynamic(() => import('./LangSelector'), { ssr: false });
 const DesktopNav = dynamic(() => import('./DesktopNav'), { ssr: false });
 
-export default function Header() {
+const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -70,4 +70,6 @@ export default function Header() {
       </Collapse>
     </Box>
   );
-}
+};
+
+export default Header;

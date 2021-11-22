@@ -17,9 +17,11 @@ const LangSelector: React.FC<{}> = () => {
   useEffect(() => {
     getCurrentLanguage();
   }, []);
+
   const [language, setLanguage] = useState(i18n?.languages[0]);
 
   const router = useRouter();
+  const currentLang = router.locale as Locales;
 
   const isUsingMobile =
     navigator.userAgent.match(/Android/i) ||
@@ -33,7 +35,11 @@ const LangSelector: React.FC<{}> = () => {
   const getCurrentLanguage = () => {
     const langInLocalStorage = localStorage.getItem('language') as Locales;
 
-    if (langInLocalStorage && locales.includes(langInLocalStorage)) {
+    if (
+      langInLocalStorage &&
+      locales.includes(langInLocalStorage) &&
+      langInLocalStorage !== currentLang
+    ) {
       handleSetLanguage(langInLocalStorage);
     } else {
       let lang = i18n?.languages[0] as Locales;
@@ -68,6 +74,7 @@ const LangSelector: React.FC<{}> = () => {
     // to show option in select
     setLanguage(locale);
     // to change router locale
+
     router.push(router.asPath, router.asPath, { locale: locale });
     // to save locale in localStorage
     localStorage.setItem('language', locale);
