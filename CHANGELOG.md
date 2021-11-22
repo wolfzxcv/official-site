@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.13](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.12...v1.9.13) (2021-11-22)
+
+
+### Bug Fixes
+
+* **langselector:** improve performance by adding necessary logic ([a1d2347](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/a1d23476af3d6b0179893e936054bfa3d6674524))
+
 ### [1.9.12](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.11...v1.9.12) (2021-11-19)
 
 ### [1.9.11](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.10...v1.9.11) (2021-11-15)
