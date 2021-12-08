@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.15](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.14...v1.9.15) (2021-12-08)
+
+
+### Bug Fixes
+
+* **linkbutton:** correct import method to fit CSR, fix isUsingMobile type ([b1906f5](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/b1906f5a7f0e6c80e36a2a25711a428d81a8f786))
+
 ### [1.9.14](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.13...v1.9.14) (2021-12-08)
 
 ### [1.9.13](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.12...v1.9.13) (2021-11-22)
