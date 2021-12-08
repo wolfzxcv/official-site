@@ -43,7 +43,7 @@ const LangSelector: React.FC<{}> = () => {
 
       if (isCN) {
         lang = 'cn';
-      } else if (isUsingMobile) {
+      } else if (isUsingMobile()) {
         // If it's a mobile, use substr(0, 2) to get lang ISO code, if it matches any of our app locales, set it as language
         const matchLang = navigator.languages
           .find((x) => x.substr(0, 2) === navigator.language.substr(0, 2))

@@ -67,7 +67,7 @@ const BaseLinkButton = ({
   onClick
 }: LinkButtonProps) => {
   const reduceSize =
-    (text.length > 20 || (isIOS && text.length >= 20)) && inMobile;
+    (text.length > 20 || (isIOS() && text.length >= 20)) && inMobile;
   return (
     <Box
       border={withBorder ? '1px' : '0px'}

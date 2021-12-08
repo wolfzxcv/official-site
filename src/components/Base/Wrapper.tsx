@@ -5,10 +5,10 @@ import { animationsOnScroll } from '../../utils';
 import BackToTop from '../BackToTop/BackToTop';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import TopLinks from '../TopLinks/TopLinks';
 import HTMLHead from './HTMLHead';
 
 const LiveChat = dynamic(() => import('./LiveChat'), { ssr: false });
+const TopLinks = dynamic(() => import('../TopLinks/TopLinks'), { ssr: false });
 
 interface WrapperProps {
   maxW?: string;
