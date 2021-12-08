@@ -4,6 +4,8 @@ export const common: Common = {
   openRealAccount: 'Mở*tài*khoản*thực',
   openDemoAccount: 'Mở*tài*khoản*demo',
   usersCenter: 'Trung*tâm*khách*hàng',
+  usersCenterNew: 'Trung*tâm*khách*hang*2.0',
+  usersCenterOld: 'Trung*tâm*khách*hang*1.0',
   iBCenter: 'Trung*tâm*đại*lý',
   contactUs: 'Liên*hệ*chúng*tôi',
   telegram: 'Telegram',

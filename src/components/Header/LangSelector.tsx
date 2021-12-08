@@ -12,6 +12,7 @@ import { i18n } from 'next-i18next';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { locales, Locales, localesOptions } from '../../i18n/locales';
+import { isUsingMobile } from '../../utils';
 
 const LangSelector: React.FC<{}> = () => {
   useEffect(() => {
@@ -22,15 +23,6 @@ const LangSelector: React.FC<{}> = () => {
 
   const router = useRouter();
   const currentLang = router.locale as Locales;
-
-  const isUsingMobile =
-    navigator.userAgent.match(/Android/i) ||
-    navigator.userAgent.match(/webOS/i) ||
-    navigator.userAgent.match(/iPhone/i) ||
-    navigator.userAgent.match(/iPad/i) ||
-    navigator.userAgent.match(/iPod/i) ||
-    navigator.userAgent.match(/BlackBerry/i) ||
-    navigator.userAgent.match(/Windows Phone/i);
 
   const getCurrentLanguage = () => {
     const langInLocalStorage = localStorage.getItem('language') as Locales;

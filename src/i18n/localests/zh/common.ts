@@ -4,6 +4,8 @@ export const common: Common = {
   openRealAccount: '開立真實帳戶',
   openDemoAccount: '開立模擬帳戶',
   usersCenter: '客戶中心',
+  usersCenterNew: '新客戶中心',
+  usersCenterOld: '舊客戶中心',
   iBCenter: '代理中心',
   contactUs: '聯繫我們',
   telegram: 'Telegram',

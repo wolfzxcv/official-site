@@ -1,4 +1,11 @@
-import { Flex } from '@chakra-ui/react';
+import {
+  Center,
+  Flex,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Stack
+} from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import LinkButton from './LinkButton';
@@ -29,10 +36,23 @@ const TopLinks: React.FC<{}> = () => {
         borderColor="green"
       ></LinkButton>
 
-      <LinkButton
-        text={t('usersCenter')}
-        href="https://trader.wc012.com/login"
-      ></LinkButton>
+      <Popover trigger={'hover'} placement={'bottom-start'}>
+        <PopoverTrigger>
+          <Center>
+            <LinkButton text={t('usersCenter')}></LinkButton>
+          </Center>
+        </PopoverTrigger>
+
+        <PopoverContent border={0} bg="gray.700" px={0} py={3} width="auto">
+          <Stack spacing={3}>
+            <LinkButton text={t('usersCenterNew')}></LinkButton>
+            <LinkButton
+              text={t('usersCenterOld')}
+              href="https://trader.wc012.com/login"
+            ></LinkButton>
+          </Stack>
+        </PopoverContent>
+      </Popover>
 
       <LinkButton
         text={t('iBCenter')}

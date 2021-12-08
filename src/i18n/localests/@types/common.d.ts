@@ -8,6 +8,10 @@ export type Common = {
   openDemoAccount: string;
   /** Users' Center */
   usersCenter: string;
+  /** Users' Center New */
+  usersCenterNew: string;
+  /** Users' Center Old */
+  usersCenterOld: string;
   /** IB Center */
   iBCenter: string;
   /** contactUs */

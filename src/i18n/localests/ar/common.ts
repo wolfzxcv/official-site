@@ -4,6 +4,8 @@ export const common: Common = {
   openRealAccount: 'افتح*حساب*حقيقي',
   openDemoAccount: 'افتح*حساب*تجريبي',
   usersCenter: 'مركز*المستخدم',
+  usersCenterNew: '2.0مركز*المستخدم',
+  usersCenterOld: '1.0مركز*المستخدم',
   iBCenter: 'مركز*الوسطاء*المُعرّفين',
   contactUs: 'اتصل*بنا',
   telegram: 'Telegram',

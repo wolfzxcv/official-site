@@ -12,12 +12,13 @@ import {
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
 import { Locales } from '../../i18n/locales';
 import LinkButton from '../TopLinks/LinkButton';
 import { IMenuItem, menuList } from './menuList';
 
 const MobileNav = () => {
+  const [isShowSubButtons, setIsShowSubButtons] = useState(false);
   const { t } = useTranslation(['common']);
 
   return (
@@ -41,13 +42,30 @@ const MobileNav = () => {
       >
         <LinkButton
           text={t('usersCenter')}
-          href="https://trader.wc012.com/login"
+          onClick={() => setIsShowSubButtons(!isShowSubButtons)}
           inMobile
         ></LinkButton>
 
         <LinkButton
           text={t('iBCenter')}
           href="https://broker.wc012.com/"
+          inMobile
+        ></LinkButton>
+      </Flex>
+
+      <Flex
+        display={{ base: isShowSubButtons ? 'flex' : 'none', md: 'none' }}
+        bgColor="gray.700"
+        minH="40px"
+        justify="center"
+        color="white"
+        pt={3}
+      >
+        <LinkButton text={t('usersCenterNew')} inMobile></LinkButton>
+
+        <LinkButton
+          text={t('usersCenterOld')}
+          href="https://trader.wc012.com/login"
           inMobile
         ></LinkButton>
       </Flex>
