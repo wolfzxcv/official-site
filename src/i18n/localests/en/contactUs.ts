@@ -76,7 +76,7 @@ export const contactUs: ContactUs = {
   integrateAndUpdate:
     'Integrate*and*update*the*brand.*Adopting*new*logos*and*slogans,*and*also*grandly*launching*a*new*webpage*with*multiple*languages*​​to*facilitate*international*investors.',
   theTradingSystem:
-    'The*trading*system*is*upgraded,*and*more*new*products*are*launched,*such*as*US*stocks,*cryptocurrency,*etc.,*to*optimize*the*investment*experience*of*customers.',
+    'The*trading*system*is*upgraded,*and*more*new*products*are*launched,*such*as*US*stocks,*etc.,*to*optimize*the*investment*experience*of*customers.',
   focusingOn:
     "Focusing*on*rural*quality*education,*we*specially*sponsor*the*Zhixing*Education*Foundation's*21-22*Zhixing*Book*Corner*Project.*It*is*estimated*that*there*will*be*at*least*6*primary*schools*and*thousands*of*primary*school*students*can*benefit*from*it."
 };

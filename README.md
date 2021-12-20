@@ -197,7 +197,7 @@
 - 國際站
 
   - https://glb.012wenchuan.com/
-  - https://wcgmarkets.com/
+  - https://www.wcgmarkets.com/
   - http://wcglb.com
 
 - 國內站
