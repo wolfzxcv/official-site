@@ -90,11 +90,19 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
       </h2>
       <AccordionPanel pb={4} fontSize={{ base: '12px', md: 'inherit' }}>
         {content &&
-          content.map((each) =>
-            internalHref ? (
+          content.map((each) => {
+            let pl = '0';
+            if (each.startsWith('  ')) {
+              pl = '30px';
+            } else if (each.startsWith(' ')) {
+              pl = '15px';
+            }
+
+            return internalHref ? (
               <NextLink key={each} href={internalHref} locale={currentLang}>
                 <Box
                   py={3}
+                  pl={pl}
                   textAlign={isArabic ? 'right' : 'left'}
                   _hover={{ cursor: 'pointer' }}
                 >
@@ -110,16 +118,21 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
                 href={externalHref}
                 isExternal
               >
-                <Box py={3} textAlign={isArabic ? 'right' : 'left'}>
+                <Box pl={pl} py={3} textAlign={isArabic ? 'right' : 'left'}>
                   {each}
                 </Box>
               </Link>
             ) : (
-              <Box py={3} key={each} textAlign={isArabic ? 'right' : 'left'}>
+              <Box
+                pl={pl}
+                py={3}
+                key={each}
+                textAlign={isArabic ? 'right' : 'left'}
+              >
                 {each}
               </Box>
-            )
-          )}
+            );
+          })}
         {complexContent &&
           complexContent.map((each, index) => (
             <Fragment key={each.type + each.objectKey + index}>

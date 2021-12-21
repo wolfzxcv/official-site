@@ -182,14 +182,14 @@ const amlPolicy: React.FC<{}> = () => {
         }The WCG Markets (HK) Limited shall obtain the following information to ascertain the true identity of the natural persons:`,
         ` ${
           !isArabic ? 'a. ' : ''
-        } True name and/or names used as these are stated on the official identity card or passport.`,
-        `${
+        }True name and/or names used as these are stated on the official identity card or passport.`,
+        ` ${
           !isArabic ? 'b. ' : ''
         }Full permanent address, including postal code, as reflected from any of the following documents:`,
-        `   ${
+        `  ${
           !isArabic ? 'i. ' : ''
         }Utility bills linked to their residential address.`,
-        `   ${!isArabic ? 'ii. ' : ''}Official bank statements.`,
+        `  ${!isArabic ? 'ii. ' : ''}Official bank statements.`,
         ` ${!isArabic ? 'c. ' : ''}Telephone (home and mobile) and fax numbers`,
         ` ${!isArabic ? 'd. ' : ''}E-mail address, if any`,
         ` ${!isArabic ? 'e. ' : ''}Date and place of birth`,
