@@ -6,6 +6,7 @@ export const footer: Footer = {
   termsAndConditions: 'Syarat*dan*Ketentuan',
   disputeSettlement: 'Penyelesaian*Sengketa',
   riskDisclaimer: 'Penafsiran*tentang*Risiko',
+  amlPolicy: 'AML*Policy',
   followUs: 'Ikuti*kami',
   provideYouWith:
     'Memberi*Anda*layanan*investasi*berkualitas*tinggi*dengan*pengalaman*paling*profesional*di*industrinya',

@@ -12,6 +12,8 @@ export type Footer = {
   disputeSettlement: string;
   /** Risk Disclaimer */
   riskDisclaimer: string;
+  /** AML Policy */
+  amlPolicy: string;
   /** followUs */
   followUs: string;
   /** provideYouWith */

@@ -6,6 +6,7 @@ export const footer: Footer = {
   termsAndConditions: 'Các*điều*khoản*và*điều*kiện',
   disputeSettlement: 'Giải*quyết*tranh*chấp',
   riskDisclaimer: 'Tuyên*bố*từ*chối*trách*nhiệm*về*rủi*ro',
+  amlPolicy: 'AML*Policy',
   followUs: 'Theo*chúng*tôi',
   provideYouWith:
     'Cung*cấp*cho*bạn*các*dịch*vụ*đầu*tư*chất*lượng*cao*với*trải*nghiệm*chuyên*nghiệp*nhất*trong*ngành',

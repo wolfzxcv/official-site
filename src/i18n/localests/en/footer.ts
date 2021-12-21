@@ -6,6 +6,7 @@ export const footer: Footer = {
   termsAndConditions: 'Terms*and*Conditions',
   disputeSettlement: 'Dispute*Settlement',
   riskDisclaimer: 'Risk*Disclaimer',
+  amlPolicy: 'AML*Policy',
   followUs: 'Follow*us',
   provideYouWith:
     'Provide*you*with*high-quality*investment*services*with*the*most*professional*experience*in*the*industry',

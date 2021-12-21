@@ -47,6 +47,14 @@ export const Copyright: React.FC<{}> = () => {
             href="/conditions/riskDisclaimer"
           />
         </Flex>
+
+        <Box mx={1} display={{ base: 'none', xl: 'flex' }}>
+          |
+        </Box>
+
+        <Flex justify="center">
+          <CopyrightLinks text={t('amlPolicy')} href="/conditions/amlPolicy" />
+        </Flex>
       </Flex>
 
       <SocialMediaLinks />

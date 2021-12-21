@@ -6,6 +6,7 @@ export const footer: Footer = {
   termsAndConditions: '條款細則',
   disputeSettlement: '爭端處理',
   riskDisclaimer: '免責申明',
+  amlPolicy: '防止洗黑錢條款',
   followUs: '關注我們',
   provideYouWith: '憑藉業內最專業的經驗為您提供優質的投資服務',
   allTradesInvolveRisks: '所有交易均涉及風險，您的損失可能大於您的入金。',
