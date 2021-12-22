@@ -63,7 +63,7 @@ const amlPolicy: React.FC<{}> = () => {
         `${!isArabic ? '3. ' : ''}To approve the Manual.`,
         `${
           !isArabic ? '4. ' : ''
-        }To ensure that all relevant requirements of the Law are applied, and assure that appropriate, effective and sufficient systems and controls are introduced for achieving the abovementioned requirement.`,
+        }To ensure that all relevant requirements of the Law are applied, and assure that appropriate, effective and sufficient systems and controls are introduced for achieving the above mentioned requirement.`,
         `${
           !isArabic ? '5. ' : ''
         }To ensure that the AMLCO and his assistants, if any, and any other person who has been assigned with the duty of implementing the procedures for the prevention of Money Laundering and Terrorist Financing (i.e. personnel of the Administration/Back-Office Department), have complete and timely access to all data and information concerning Clients' identity, transactions' documents (as and where applicable) and other relevant files and information, so as to be fully facilitated in the effective execution of their duties, as included herein.`,
@@ -390,7 +390,7 @@ const amlPolicy: React.FC<{}> = () => {
         }The timing and content of the training provided to the employees of the various departments will be determined according to the needs of the WCG Markets (HK) Limited. The frequency of the training can vary depending on to the amendments of legal and/or regulatory requirements, employees' duties as well as any other changes in the financial system.`,
         `${
           !isArabic ? '3. ' : ''
-        }The training program aims at educating the WCG Markets (HK) Limited's employees on the latest developments in the prevention of Money Laundering and Terrorist Financing, including the practical methods a`
+        }The training program aims at educating the WCG Markets (HK) Limited's employees on the latest developments in the prevention of Money Laundering and Terrorist Financing, including the practical methods.`
       ]
     }
   ];
