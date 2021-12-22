@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.21](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.15...v1.9.21) (2021-12-22)
+
+
+### Bug Fixes
+
+* **financialnews:** mofify financialNews ([cdc16f1](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/cdc16f1cafbc6dbc7cda528b2b8b777e22b163e0))
+* **marketnews:** fix ar i18n files and wording ([35cf605](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/35cf6052d4f29ad2dba52d8c78c23114ad30e6a7))
+
 ### [1.9.20](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.15...v1.9.20) (2021-12-22)
 
 
