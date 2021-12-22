@@ -1,28 +1,45 @@
 import { Box, Flex, Image } from '@chakra-ui/react';
 import axios from 'axios';
-import { GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Wrapper from '../../components/Base/Wrapper';
+import ApiDataList from '../../components/Common/ApiDataList';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { formatTimestamp } from '../../utils';
 
-type financialNewsProps = {
-  news: {
-    id: string;
-    createAt: number;
-    author: string;
-    imageUrl: string;
-    text: string;
-  }[];
+type INews = {
+  id: string;
+  createAt: number;
+  author: string;
+  imageUrl: string;
+  text: string;
 };
 
-const financialNews: React.FC<financialNewsProps> = ({
-  news
-}: financialNewsProps) => {
+const financialNews: React.FC<{}> = () => {
   const { t } = useTranslation(['marketNews']);
+
+  const [news, setNews] = useState<INews[]>([]);
+
+  const hasNews = news.length > 0;
+
+  useEffect(() => {
+    getNews();
+  }, []);
+
+  const getNews = async () => {
+    try {
+      const {
+        data: { data }
+      } = await axios.get('https://echo-and-more.herokuapp.com/api/news');
+
+      setNews(data);
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   return (
     <Wrapper>
@@ -30,7 +47,7 @@ const financialNews: React.FC<financialNewsProps> = ({
         <InfoTitle title={t('financialNews')} />
         <InfoTitleSub title={t('theMostImportant')} />
 
-        {news.length &&
+        {hasNews &&
           news.map((each) => (
             <Flex
               py={5}
@@ -61,45 +78,22 @@ const financialNews: React.FC<financialNewsProps> = ({
               </Flex>
             </Flex>
           ))}
+
+        {!hasNews && <ApiDataList api="index/index" objectKey="focus" />}
       </Flex>
     </Wrapper>
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (props) => {
-  const { locale } = props;
-
-  let news = [];
-
-  try {
-    const result = await axios.get(
-      `https://www.dailyfxasia.com/real-time-news/update-data`
-    );
-
-    if (result && result.data) {
-      news = result.data.map((x) => ({
-        author: x.author.twitter_nick || null,
-        imageUrl: x.author.photo_url || null,
-        id: x.id,
-        createAt: x.createAt,
-        text: x.text
-      }));
-    }
-  } catch (e) {
-    console.log(e);
+export const getStaticProps: GetStaticProps = async (props) => ({
+  props: {
+    ...(await serverSideTranslations(props.locale!, [
+      'common',
+      'footer',
+      'header',
+      'marketNews'
+    ]))
   }
-
-  return {
-    props: {
-      news,
-      ...(await serverSideTranslations(locale!, [
-        'common',
-        'footer',
-        'header',
-        'marketNews'
-      ]))
-    }
-  };
-};
+});
 
 export default financialNews;
