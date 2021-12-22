@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.22](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.21...v1.9.22) (2021-12-22)
+
+
+### Bug Fixes
+
+* **financialnews:** modify function ([b41c69b](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/b41c69ba545bc48a5033add37c8c2cdaabcfae4c))
+
 ### [1.9.21](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.15...v1.9.21) (2021-12-22)
 
 
