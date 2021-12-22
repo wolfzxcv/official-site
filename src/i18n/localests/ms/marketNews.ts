@@ -6,9 +6,8 @@ export const marketNews: MarketNews = {
   weeklyForeignExchangeNews:
     'Berita*pertukaran*asing*mingguan*dari*WCG*dan*petunjuk*ekonomi*dunia*yang*komprehensif',
   financialCalendar: 'Kalendar*Kewangan',
-  financialNews: 'Berita*kewangan',
   marketAnalysis: 'Analisa*pasaran',
-  todaysEconomic: 'Berita*ekonomi*hari*ini',
+  financialNews: 'Berita*kewangan',
   theMostImportant:
     'Berita*ekonomi*dan*kewangan*yang*paling*penting*berkaitan*dengan*pasaran*mata*wang*dan*saham*antarabangsa',
   theLatestReview: 'Tinjauan*terkini*tentang*analisa*pasaran*dan*berita',

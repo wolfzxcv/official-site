@@ -6,9 +6,8 @@ export const marketNews: MarketNews = {
   weeklyForeignExchangeNews:
     'Tin*tức*ngoại*hối*hàng*tuần*từ*WCG*và*các*chỉ*số*kinh*tế*thế*giới*toàn*diện',
   financialCalendar: 'Lịch*tài*chính',
-  financialNews: 'Tin*tức*tài*chính',
   marketAnalysis: 'Phân*tích*thị*trường',
-  todaysEconomic: 'Tin*tức*kinh*tế*hôm*nay',
+  financialNews: 'Tin*tức*tài*chính',
   theMostImportant:
     'Tin*tức*kinh*tế*và*tài*chính*quan*trọng*nhất*liên*quan*đến*thị*trường*chứng*khoán*và*tiền*tệ*quốc*tế',
   theLatestReview: 'Đánh*giá*mới*nhất*về*phân*tích*thị*trường*và*tin*tức',

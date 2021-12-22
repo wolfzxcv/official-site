@@ -4,9 +4,8 @@ export const marketNews: MarketNews = {
   economicCalendar: '關於外匯和世界新聞的經濟日曆，每日和每週發布',
   weeklyForeignExchangeNews: '來自WCG的每週外匯要聞以及精確的世界經濟指向標',
   financialCalendar: '財經日暦',
-  financialNews: '財經新聞',
   marketAnalysis: '市場分析',
-  todaysEconomic: '今日的經濟新聞',
+  financialNews: '財經新聞消息',
   theMostImportant: '有關國際貨幣市場和股票交易相關的最重要經濟、財務新聞',
   theLatestReview: '市場分析和新聞的最新回顧',
   theLatestReviewsAndForecasts:

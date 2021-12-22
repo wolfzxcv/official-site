@@ -6,9 +6,8 @@ export const marketNews: MarketNews = {
   weeklyForeignExchangeNews:
     'Weekly*foreign*exchange*news*from*WCG*and*comprehensive*world*economic*indicators',
   financialCalendar: 'Financial*Calendar',
-  financialNews: 'Financial*News',
   marketAnalysis: 'Market*Analysis',
-  todaysEconomic: "Today's*economic*news",
+  financialNews: 'Financial*News',
   theMostImportant:
     'The*most*important*economic*and*financial*news*related*to*the*international*currency*and*stocks*market',
   theLatestReview: 'The*latest*review*of*market*analysis*and*news',

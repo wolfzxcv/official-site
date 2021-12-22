@@ -31,7 +31,7 @@ export const header: Header = {
   advancedTrading: '高級交易課程',
   marketNews: '市場資訊',
   financialCalendar: '財經日曆',
-  financialNews: '財經新聞消息',
+  financialNews: '財經新聞',
   marketAnalysis: '市場分析',
   partner: '成為夥伴',
   fundManager: '基金經理',

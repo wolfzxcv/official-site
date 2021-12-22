@@ -8,12 +8,10 @@ export type MarketNews = {
   weeklyForeignExchangeNews: string;
   /** Financial Calendar */
   financialCalendar: string;
-  /** Financial news */
-  financialNews: string;
   /** Market analysis */
   marketAnalysis: string;
-  /** Today's economic */
-  todaysEconomic: string;
+  /** Financial news */
+  financialNews: string;
   /** The most important */
   theMostImportant: string;
   /** The latest review */
