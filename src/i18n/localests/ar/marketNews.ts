@@ -6,9 +6,8 @@ export const marketNews: MarketNews = {
   weeklyForeignExchangeNews:
     'أخبار*العملات*الأجنبية*الأسبوعية*من*WCG*والمؤشرات*الاقتصادية*العالمية*الشاملة',
   financialCalendar: 'التقويم*المالي',
-  financialNews: 'الأخبار*المالية',
   marketAnalysis: 'تحليل*السوق',
-  todaysEconomic: 'أخبار*اليوم*الاقتصادية',
+  financialNews: 'الأخبار*المالية',
   theMostImportant:
     'أهم*الأخبار*الاقتصادية*والمالية*المتعلقة*بسوق*العملات*والأسهم*العالمية',
   theLatestReview: 'أحدث*مراجعة*لتحليلات*وأخبار*السوق',
