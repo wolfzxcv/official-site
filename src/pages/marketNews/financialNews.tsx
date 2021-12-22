@@ -5,7 +5,6 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React, { useEffect, useState } from 'react';
 import Wrapper from '../../components/Base/Wrapper';
-import ApiDataList from '../../components/Common/ApiDataList';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { formatTimestamp } from '../../utils';
@@ -33,7 +32,7 @@ const financialNews: React.FC<{}> = () => {
     try {
       const {
         data: { data }
-      } = await axios.get('https://echo-and-more.herokuapp.com/api/news');
+      } = await axios.get(process.env.NEXT_PUBLIC_JS_API_URL);
 
       setNews(data);
     } catch (e) {
@@ -78,8 +77,6 @@ const financialNews: React.FC<{}> = () => {
               </Flex>
             </Flex>
           ))}
-
-        {!hasNews && <ApiDataList api="index/index" objectKey="focus" />}
       </Flex>
     </Wrapper>
   );
