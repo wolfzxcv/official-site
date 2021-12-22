@@ -17,6 +17,20 @@ type INews = {
   text: string;
 };
 
+const formatHTML = (text) => {
+  const regex = /https:(.*)html/;
+
+  const newOutput = text.split(' ').map((each) => {
+    if (each.match(regex)) {
+      return `<a href=${each} target="_blank" style="color:blue;">${each}</a>`;
+    } else {
+      return each;
+    }
+  });
+
+  return newOutput.join(' ');
+};
+
 const financialNews: React.FC<{}> = () => {
   const { t } = useTranslation(['marketNews']);
 
@@ -72,7 +86,7 @@ const financialNews: React.FC<{}> = () => {
                 </Flex>
                 <Box
                   color="gray.600"
-                  dangerouslySetInnerHTML={{ __html: each.text }}
+                  dangerouslySetInnerHTML={{ __html: formatHTML(each.text) }}
                 />
               </Flex>
             </Flex>
