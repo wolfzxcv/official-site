@@ -42,16 +42,6 @@ const financialNews: React.FC<{}> = () => {
 
   useEffect(() => {
     getNews();
-
-    const timer = setTimeout(() => {
-      if (!hasNews) {
-        setShowBackup(true);
-      }
-    }, 5000);
-
-    return () => {
-      clearTimeout(timer);
-    };
   }, []);
 
   const getNews = async () => {
@@ -63,6 +53,7 @@ const financialNews: React.FC<{}> = () => {
 
       setNews(data);
     } catch (e) {
+      setShowBackup(true);
       console.log(e);
     }
   };
