@@ -79,10 +79,7 @@ const financialNews: React.FC<{}> = () => {
               </Box>
               <Flex flexDirection="column" width={'80%'} pl={5}>
                 <Flex mb={3}>
-                  <Box fontWeight={700}>{each.author}</Box>
-                  <Box color="gray.400" ml={10}>
-                    {formatTimestamp(each.createAt)}
-                  </Box>
+                  <Box color="gray.400">{formatTimestamp(each.createAt)}</Box>
                 </Flex>
                 <Box
                   color="gray.600"
