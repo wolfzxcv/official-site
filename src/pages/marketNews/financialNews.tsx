@@ -5,6 +5,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React, { useEffect, useState } from 'react';
 import Wrapper from '../../components/Base/Wrapper';
+import ApiDataList from '../../components/Common/ApiDataList';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { formatTimestamp } from '../../utils';
@@ -35,18 +36,30 @@ const financialNews: React.FC<{}> = () => {
   const { t } = useTranslation(['marketNews']);
 
   const [news, setNews] = useState<INews[]>([]);
+  const [showBackup, setShowBackup] = useState(false);
 
-  const hasNews = news.length > 0;
+  const hasNews = news && news.length > 0;
 
   useEffect(() => {
     getNews();
+
+    const timer = setTimeout(() => {
+      if (!hasNews) {
+        setShowBackup(true);
+      }
+    }, 5000);
+
+    return () => {
+      clearTimeout(timer);
+    };
   }, []);
 
   const getNews = async () => {
     try {
+      const api = 'news';
       const {
         data: { data }
-      } = await axios.get(process.env.NEXT_PUBLIC_JS_API_URL);
+      } = await axios.get(`${process.env.NEXT_PUBLIC_JS_API_URL}${api}`);
 
       setNews(data);
     } catch (e) {
@@ -60,7 +73,8 @@ const financialNews: React.FC<{}> = () => {
         <InfoTitle title={t('financialNews')} />
         <InfoTitleSub title={t('theMostImportant')} />
 
-        {hasNews &&
+        {!showBackup &&
+          hasNews &&
           news.map((each) => (
             <Flex
               py={5}
@@ -88,6 +102,8 @@ const financialNews: React.FC<{}> = () => {
               </Flex>
             </Flex>
           ))}
+
+        {showBackup && <ApiDataList api="index/index" objectKey="focus" />}
       </Flex>
     </Wrapper>
   );
