@@ -1,4 +1,4 @@
-export interface IProduct {
+export type IProduct = {
   category:
     | 'mainForex'
     | 'secondaryForex'
@@ -8,11 +8,11 @@ export interface IProduct {
     | 'uSShareCFD'
     | 'cryptocurrencies';
   detail: IDetail[];
-}
+};
 
 export type IDetailKey = keyof IDetail;
 
-export interface IDetail {
+export type IDetail = {
   product: string;
   name: string;
   lotRange: string;
@@ -23,7 +23,7 @@ export interface IDetail {
   marginCloseout: string;
   openingTime: string;
   closingTime: string;
-}
+};
 
 // product table data
 export const productsData: IProduct[] = [
@@ -405,7 +405,7 @@ export const productsData: IProduct[] = [
       {
         product: 'A50',
         name: '*A50',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '10',
         standardPoint: '10*USD',
         leverage: '1:100',
@@ -416,7 +416,7 @@ export const productsData: IProduct[] = [
       {
         product: 'HKG33',
         name: '*HKG33',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '50',
         standardPoint: '50*HKD',
         leverage: '1:100',
@@ -427,7 +427,7 @@ export const productsData: IProduct[] = [
       {
         product: 'SPX500',
         name: '*SPX500',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '50',
         standardPoint: '50*USD',
         leverage: '1:100',
@@ -438,7 +438,7 @@ export const productsData: IProduct[] = [
       {
         product: 'US30',
         name: '*US30',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '10',
         standardPoint: '10*USD',
         leverage: '1:100',
@@ -449,7 +449,7 @@ export const productsData: IProduct[] = [
       {
         product: 'NAS100',
         name: '*NAS100',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '20',
         standardPoint: '20*USD',
         leverage: '1:100',
@@ -460,7 +460,7 @@ export const productsData: IProduct[] = [
       {
         product: 'UK100',
         name: '*UK100',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '10',
         standardPoint: '10*GBP',
         leverage: '1:100',
@@ -471,7 +471,7 @@ export const productsData: IProduct[] = [
       {
         product: 'JPN225',
         name: '*JPN225',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '10',
         standardPoint: '10*USD',
         leverage: '1:100',
@@ -482,7 +482,7 @@ export const productsData: IProduct[] = [
       {
         product: 'ESP35',
         name: '*ESP35',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '10',
         standardPoint: '10*EUR',
         leverage: '1:100',
@@ -493,7 +493,7 @@ export const productsData: IProduct[] = [
       {
         product: 'AUS200',
         name: '*AUS200',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '20',
         standardPoint: '20*AUD',
         leverage: '1:100',
@@ -504,7 +504,7 @@ export const productsData: IProduct[] = [
       {
         product: 'EU50',
         name: '*EU50',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '30',
         standardPoint: '30*EUR',
         leverage: '1:100',
@@ -515,7 +515,7 @@ export const productsData: IProduct[] = [
       {
         product: 'FRA40',
         name: '*FRA40',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '20',
         standardPoint: '20*EUR',
         leverage: '1:100',
@@ -526,7 +526,7 @@ export const productsData: IProduct[] = [
       {
         product: 'GER30',
         name: '*GER30',
-        lotRange: '0.01/10',
+        lotRange: '0.02/10',
         contractUnit: '10',
         standardPoint: '10*EUR',
         leverage: '1:100',
