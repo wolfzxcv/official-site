@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.26...v1.10.0) (2022-01-18)
+
+
+### Features
+
+* **index:** modify .env, remove class name-animation, add activity in homepage ([35b8d66](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/35b8d663ba9cce8c270831a95e6aa75b7856a600))
+
 ### [1.9.26](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.25...v1.9.26) (2021-12-30)
 
 ### [1.9.25](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.24...v1.9.25) (2021-12-23)
