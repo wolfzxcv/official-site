@@ -6,7 +6,11 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { AiFillLock, AiOutlineFieldTime } from 'react-icons/ai';
+import {
+  AiFillCloseCircle,
+  AiFillLock,
+  AiOutlineFieldTime
+} from 'react-icons/ai';
 import { BsLightningFill } from 'react-icons/bs';
 import { FaMobileAlt } from 'react-icons/fa';
 import { GiChampions, GiServerRack } from 'react-icons/gi';
@@ -19,6 +23,7 @@ import PopUp from '../components/PopUp/PopUp';
 import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
 import { StyledBox } from '../components/Styled/Styled';
 import { Locales } from '../i18n/locales';
+import { openChatWindow } from '../utils';
 
 const Index: React.FC<{}> = () => {
   const [showPopUp, setShowPopUp] = useState(false);
@@ -27,6 +32,9 @@ const Index: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
+
+  // Activity use
+  const [isShowDetail, setIsShowDetail] = useState(false);
 
   useEffect(() => {
     checkIp();
@@ -75,74 +83,236 @@ const Index: React.FC<{}> = () => {
           content={<RestrictionsOnUse />}
         />
       )}
-      <Box
-        minH="500px"
-        backgroundImage="url('../assets/images/banner.png')"
-        bgPosition="top center"
-        bgSize="cover"
-      >
-        <Flex
-          className="animation"
-          height="inherit"
-          minH="500px"
-          direction="column"
-          justify="center"
-          align="center"
+      {isChinese ? (
+        <Box
+          minH={{ base: '800px', md: '500px' }}
+          backgroundImage={{
+            base: "url('../assets/images/XNHZ-M.jpg')",
+            md: "url('../assets/images/XNHZ.jpg')"
+          }}
+          pt={{ base: isShowDetail ? '550px' : '450px', md: 0 }}
+          bgPosition="top center"
+          bgSize="cover"
         >
-          {/* Banner */}
-          <Stack
-            textAlign={isArabic ? 'right' : 'left'}
-            spacing={3}
-            p={3}
-            width={{ base: '80vw', xl: '60vw' }}
+          <Flex
+            height="inherit"
+            minH={{ base: '0px', md: '500px' }}
+            direction="column"
+            justify="center"
+            align="center"
           >
-            <Text
-              fontWeight="700"
-              fontSize={{ base: '28px', md: '42px' }}
-              color="white"
-            >
-              {t('home:diversifiedProducts')}
-            </Text>
-            <Text
-              fontWeight="700"
-              fontSize={{ base: '28px', md: '42px' }}
-              color="white"
-            >
-              {t('home:strongAdvantages')}
-            </Text>
-            <Text fontSize={{ base: '20px', md: '24px' }} color="white">
-              {t('home:highLiquidity')}
-            </Text>
-            <Text fontSize={{ base: '20px', md: '24px' }} color="white">
-              {t('home:safetyOfFunds')}
-            </Text>
-          </Stack>
+            {/* Banner */}
+            <Stack spacing={3} p={2} width={{ base: '90vw', xl: '70vw' }}>
+              <Text
+                fontWeight="700"
+                fontSize={{ base: '32px', md: '36px' }}
+                color="yellow"
+              >
+                {currentLang === 'cn'
+                  ? '贵金属，原油交易每手回赠25美元'
+                  : '貴金屬，原油交易每手回贈25美元'}
+              </Text>
 
-          {/* Button under Banner */}
-          <NextLink href="/products" locale={currentLang}>
-            <StyledBox
-              m={10}
-              p={2}
-              minH="48px"
-              minW="200px"
-              border="2px"
-              borderColor="gray.100"
-              bgColor="transparent"
-              color="gray.100"
-              textAlign="center"
-              fontSize={{ base: '20px', md: '22px' }}
-              _hover={{
-                bgColor: 'gray.100',
-                color: 'gray.700',
-                cursor: 'pointer',
-                transition: '1s'
-              }}
+              {isShowDetail && (
+                <Flex>
+                  <Flex direction="column">
+                    <Text
+                      fontWeight="600"
+                      fontSize={{ base: '16px', md: '18px' }}
+                      color="white"
+                    >
+                      {currentLang === 'cn'
+                        ? '活动期间:由2022年1月17日 至 2022年2月7日'
+                        : '活動期間:由2022年1月17日 至 2022年2月7日'}
+                    </Text>
+                    <Text
+                      fontWeight="600"
+                      fontSize={{ base: '16px', md: '18px' }}
+                      color="white"
+                    >
+                      {currentLang === 'cn'
+                        ? '开户提供其他平台交易证明即可每手回赠25美元'
+                        : '開戶提供其他平台交易證明即可每手回贈25美元'}
+                    </Text>
+
+                    <Stack mt="5" width={{ base: '85vw', md: '500px' }}>
+                      <Text
+                        fontSize={{ base: '10px', md: '16px' }}
+                        color="white"
+                      >
+                        {currentLang === 'cn'
+                          ? '● 每位WCG客户只可使用一个帐号参加此活动'
+                          : '● 每位WCG客戶只可使用一個帳號參加此活動'}
+                      </Text>
+                      <Text
+                        fontSize={{ base: '10px', md: '16px' }}
+                        color="white"
+                      >
+                        {currentLang === 'cn'
+                          ? '● 点差回赠将于活动日结束次日结算添加至客户交易帐户'
+                          : '● 點差回贈將於活動日結束次日結算添加至客戶交易帳戶'}
+                      </Text>
+                      <Text
+                        fontSize={{ base: '10px', md: '16px' }}
+                        color="white"
+                      >
+                        {currentLang === 'cn'
+                          ? '● 若客户通过超短线刷单持仓低于5分钟的订单不计入本次活动的手数，AB仓交易或者不正规交易套取赠金，WCG有权停止客户交易，取消活动资格并按照WCG交易细则中异常交易的处理方式进行处理'
+                          : '● 若客戶通過超短線刷單持倉低於5分鐘的訂單不計入本次活動的手數，AB倉交易或者不正規交易套取贈金，WCG有權停止客戶交易，取消活動資格並按照WCG交易細則中異常交易的處理方式進行處理'}
+                      </Text>
+                      <Text
+                        fontSize={{ base: '10px', md: '16px' }}
+                        color="white"
+                      >
+                        {currentLang === 'cn'
+                          ? '● 公司保留随时修改、暂停、终止本活动计划及任何相关规则条款之权利及其解释权，毋须事前通知客户'
+                          : '● 公司保留隨時修改、暫停、終止本活動計劃及任何相關規則條款之權利及其解釋權，毋須事前通知客戶'}
+                      </Text>
+                      <Text
+                        fontSize={{ base: '10px', md: '16px' }}
+                        color="white"
+                      >
+                        {currentLang === 'cn'
+                          ? '● 贵金属，原油交易手数定义;黄金1标准手100盎司，白银1标准手2500盎司，原油1标准手1000桶'
+                          : '● 貴金屬，原油交易手數定義;黃金1標準手100盎司，白銀1標準手2500盎司，原油1標準手1000桶'}
+                      </Text>
+                    </Stack>
+                  </Flex>
+                  <Box
+                    _hover={{
+                      cursor: 'pointer'
+                    }}
+                    onClick={() => setIsShowDetail(false)}
+                  >
+                    <AiFillCloseCircle color="white" fontSize="32px" />
+                  </Box>
+                </Flex>
+              )}
+
+              <Flex py={3} justify={{ base: 'center', md: 'flex-start' }}>
+                <StyledBox
+                  p={{ base: 3, md: 1 }}
+                  width={{ base: '70vw', md: '130px' }}
+                  border="2px"
+                  borderRadius={{ base: '40px', md: '30px' }}
+                  borderColor="gray.100"
+                  bgColor="transparent"
+                  color="gray.100"
+                  textAlign="center"
+                  fontSize={{ base: '36px', md: '22px' }}
+                  _hover={{
+                    bgColor: 'gray.100',
+                    color: 'gray.700',
+                    cursor: 'pointer',
+                    transition: '1s'
+                  }}
+                  onClick={openChatWindow}
+                >
+                  {currentLang === 'cn' ? '马上领取' : '馬上領取'}
+                </StyledBox>
+              </Flex>
+              {!isShowDetail && (
+                <Flex
+                  pt={{ base: '30px', md: 0 }}
+                  justify={{ base: 'center', md: 'flex-start' }}
+                >
+                  <Text
+                    fontSize={{ base: '16px', md: '16px' }}
+                    fontWeight={100}
+                    color="white"
+                  >
+                    {currentLang === 'cn'
+                      ? '交易存在风险，活动受条款限制，'
+                      : '交易存在風險，活動受條款限制，'}
+                  </Text>
+                  <Text
+                    fontSize={{ base: '16px', md: '16px' }}
+                    fontWeight={100}
+                    color="white"
+                    textDecoration="underline"
+                    onClick={() => setIsShowDetail(true)}
+                    _hover={{
+                      color: 'gray.500',
+                      cursor: 'pointer',
+                      transition: '1s'
+                    }}
+                  >
+                    {currentLang === 'cn' ? '点此查看' : '點此查看'}
+                  </Text>
+                </Flex>
+              )}
+            </Stack>
+          </Flex>
+        </Box>
+      ) : (
+        <Box
+          minH="500px"
+          backgroundImage="url('../assets/images/banner.png')"
+          bgPosition="top center"
+          bgSize="cover"
+        >
+          <Flex
+            height="inherit"
+            minH="500px"
+            direction="column"
+            justify="center"
+            align="center"
+          >
+            {/* Banner */}
+            <Stack
+              textAlign={isArabic ? 'right' : 'left'}
+              spacing={3}
+              p={3}
+              width={{ base: '80vw', xl: '60vw' }}
             >
-              {t('home:askProductsNow')}
-            </StyledBox>
-          </NextLink>
-        </Flex>
-      </Box>
+              <Text
+                fontWeight="700"
+                fontSize={{ base: '28px', md: '42px' }}
+                color="white"
+              >
+                {t('home:diversifiedProducts')}
+              </Text>
+              <Text
+                fontWeight="700"
+                fontSize={{ base: '28px', md: '42px' }}
+                color="white"
+              >
+                {t('home:strongAdvantages')}
+              </Text>
+              <Text fontSize={{ base: '20px', md: '24px' }} color="white">
+                {t('home:highLiquidity')}
+              </Text>
+              <Text fontSize={{ base: '20px', md: '24px' }} color="white">
+                {t('home:safetyOfFunds')}
+              </Text>
+            </Stack>
+
+            {/* Button under Banner */}
+            <NextLink href="/products" locale={currentLang}>
+              <StyledBox
+                m={10}
+                p={2}
+                minH="48px"
+                minW="200px"
+                border="2px"
+                borderColor="gray.100"
+                bgColor="transparent"
+                color="gray.100"
+                textAlign="center"
+                fontSize={{ base: '20px', md: '22px' }}
+                _hover={{
+                  bgColor: 'gray.100',
+                  color: 'gray.700',
+                  cursor: 'pointer',
+                  transition: '1s'
+                }}
+              >
+                {t('home:askProductsNow')}
+              </StyledBox>
+            </NextLink>
+          </Flex>
+        </Box>
+      )}
 
       {/* 3 red/white blocks: Safe and secure depository */}
       <Flex
@@ -256,7 +426,6 @@ const Index: React.FC<{}> = () => {
         align="center"
         bgColor="gray.800"
         color="white"
-        className="animation"
       >
         <Flex fontSize={{ base: '28px', md: '36px' }} fontWeight="700">
           <Text color="red.500" mr={isChinese ? 0 : 3}>
@@ -276,7 +445,6 @@ const Index: React.FC<{}> = () => {
         direction={{ base: 'column', xl: isArabic ? 'row-reverse' : 'row' }}
         justify="space-evenly"
         align="center"
-        className="animation"
       >
         <InfoCard
           icon={<FaMobileAlt fontSize="32px" />}
@@ -296,7 +464,7 @@ const Index: React.FC<{}> = () => {
       </Flex>
 
       {/* Precious Metals Contract */}
-      <Flex py={10} my={10} align="center" color="white" className="animation">
+      <Flex py={10} my={10} align="center" color="white">
         <Box
           textAlign={isArabic ? 'right' : 'left'}
           width={{ base: '98vw', xl: '75vw' }}
