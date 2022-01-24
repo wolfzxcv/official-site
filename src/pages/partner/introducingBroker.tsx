@@ -16,7 +16,7 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const introducingBroker: React.FC<{}> = () => {
-  const { t } = useTranslation(['iBBroker']);
+  const { t } = useTranslation('iBBroker');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -245,9 +245,9 @@ const introducingBroker: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

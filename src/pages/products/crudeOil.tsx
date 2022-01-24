@@ -12,7 +12,7 @@ import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { Locales } from '../../i18n/locales';
 
 const crudeOil: React.FC<{}> = () => {
-  const { t } = useTranslation(['crudeOil']);
+  const { t } = useTranslation('crudeOil');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -262,9 +262,9 @@ const crudeOil: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

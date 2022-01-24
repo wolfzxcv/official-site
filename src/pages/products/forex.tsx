@@ -21,7 +21,7 @@ const InfoAccordion = dynamic(
 );
 
 const forex: React.FC<{}> = () => {
-  const { t } = useTranslation(['forex']);
+  const { t } = useTranslation('forex');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -183,9 +183,9 @@ const forex: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'forex',

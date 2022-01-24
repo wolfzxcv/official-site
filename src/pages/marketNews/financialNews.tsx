@@ -33,7 +33,7 @@ const formatHTML = (text) => {
 };
 
 const financialNews: React.FC<{}> = () => {
-  const { t } = useTranslation(['marketNews']);
+  const { t } = useTranslation('marketNews');
 
   const [news, setNews] = useState<INews[]>([]);
   const [showBackup, setShowBackup] = useState(false);
@@ -100,9 +100,9 @@ const financialNews: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

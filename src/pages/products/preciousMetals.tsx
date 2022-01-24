@@ -12,7 +12,7 @@ import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { Locales } from '../../i18n/locales';
 
 const preciousMetals: React.FC<{}> = () => {
-  const { t } = useTranslation(['preciousMetals']);
+  const { t } = useTranslation('preciousMetals');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -307,9 +307,9 @@ const preciousMetals: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

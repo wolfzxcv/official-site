@@ -10,7 +10,7 @@ import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
 
 const companyNews: React.FC<{}> = () => {
-  const { t } = useTranslation(['contactUs']);
+  const { t } = useTranslation('contactUs');
 
   const data: HistoryItemProps[] = [
     {
@@ -121,9 +121,9 @@ const companyNews: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

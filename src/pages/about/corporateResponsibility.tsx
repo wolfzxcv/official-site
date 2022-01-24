@@ -9,7 +9,8 @@ import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 
 const corporateResponsibility: React.FC<{}> = () => {
-  const { t } = useTranslation(['contactUs']);
+  const { t } = useTranslation('contactUs');
+
   return (
     <Wrapper>
       <Flex p={{ base: 10, md: 20 }} direction="column" align="center">
@@ -22,9 +23,9 @@ const corporateResponsibility: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

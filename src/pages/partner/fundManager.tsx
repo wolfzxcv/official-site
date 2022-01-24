@@ -17,7 +17,7 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const fundManager: React.FC<{}> = () => {
-  const { t } = useTranslation(['fundManager']);
+  const { t } = useTranslation('fundManager');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -268,9 +268,9 @@ const fundManager: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

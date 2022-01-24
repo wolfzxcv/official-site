@@ -14,7 +14,8 @@ import LinkButton from '../../components/TopLinks/LinkButton';
 import { Locales } from '../../i18n/locales';
 
 const about: React.FC<{}> = () => {
-  const { t } = useTranslation(['about']);
+  const { t } = useTranslation('about');
+
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const tallerBanner = currentLang === 'id' || currentLang === 'ms';
@@ -298,9 +299,9 @@ const about: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'about',
       'common',
       'footer',

@@ -14,7 +14,7 @@ const InfoAccordion = dynamic(
 );
 
 const tradeDetails: React.FC<{}> = () => {
-  const { t } = useTranslation(['notice']);
+  const { t } = useTranslation('notice');
 
   const data: InfoAccordionItemProps[] = [
     {
@@ -62,9 +62,9 @@ const tradeDetails: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

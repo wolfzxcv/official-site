@@ -15,7 +15,8 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const regionalRepresentative: React.FC<{}> = () => {
-  const { t } = useTranslation(['regionalRepresentative']);
+  const { t } = useTranslation('regionalRepresentative');
+
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -257,9 +258,9 @@ const regionalRepresentative: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

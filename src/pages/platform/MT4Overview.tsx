@@ -12,7 +12,7 @@ import MT4DownloadOption from '../../components/Platform/MT4DownloadOption';
 import { Locales } from '../../i18n/locales';
 
 const MT4Overview: React.FC<{}> = () => {
-  const { t } = useTranslation(['platform']);
+  const { t } = useTranslation('platform');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -152,9 +152,9 @@ const MT4Overview: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

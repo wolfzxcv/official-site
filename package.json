@@ -1,12 +1,14 @@
 {
   "name": "WCG",
-  "version": "1.10.1",
+  "version": "1.10.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "locales": "npx prettier --write ./src/i18n/**/*.json",
-    "release": "standard-version"
+    "lint": "next lint",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "release": "standard-version",
+    "locales": "npx prettier --write ./src/i18n/**/*.json"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.5",
@@ -39,13 +41,23 @@
     "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.24.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^12.2.0",
     "prettier": "^2.3.2",
     "typescript": "4.3.2"
   },
   "license": "MIT",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "eslint --fix"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   }
 }

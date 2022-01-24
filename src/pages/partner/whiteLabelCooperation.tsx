@@ -16,7 +16,7 @@ import { Locales } from '../../i18n/locales';
 import { openChatWindow } from '../../utils';
 
 const whiteLabelCooperation: React.FC<{}> = () => {
-  const { t } = useTranslation(['whiteLabelCooperation']);
+  const { t } = useTranslation('whiteLabelCooperation');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -235,9 +235,9 @@ const whiteLabelCooperation: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

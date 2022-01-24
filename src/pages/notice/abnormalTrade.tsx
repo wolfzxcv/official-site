@@ -16,7 +16,7 @@ const InfoAccordion = dynamic(
 );
 
 const abnormalTrade: React.FC<{}> = () => {
-  const { t } = useTranslation(['notice']);
+  const { t } = useTranslation('notice');
 
   const router = useRouter();
   const currentLang = router.locale as Locales;
@@ -64,9 +64,9 @@ const abnormalTrade: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

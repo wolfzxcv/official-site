@@ -19,7 +19,7 @@ const InfoAccordion = dynamic(
 );
 
 const basicTrading: React.FC<{}> = () => {
-  const { t } = useTranslation(['basicTrading']);
+  const { t } = useTranslation('basicTrading');
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
@@ -578,9 +578,9 @@ const basicTrading: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

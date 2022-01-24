@@ -27,7 +27,7 @@ import { openChatWindow } from '../utils';
 
 const Index: React.FC<{}> = () => {
   const [showPopUp, setShowPopUp] = useState(false);
-  const { t } = useTranslation(['common', 'home']);
+  const { t } = useTranslation('home');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isChinese = currentLang === 'cn' || currentLang === 'zh';
@@ -744,9 +744,9 @@ const Index: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

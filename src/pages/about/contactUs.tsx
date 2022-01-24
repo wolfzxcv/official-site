@@ -17,7 +17,8 @@ const SubmitForm = dynamic(() => import('../../components/Form/SubmitForm'), {
 });
 
 const contactUs: React.FC<{}> = () => {
-  const { t } = useTranslation(['contactUs']);
+  const { t } = useTranslation('contactUs');
+
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isArabic = currentLang === 'ar';
@@ -165,9 +166,9 @@ const contactUs: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',

@@ -9,7 +9,7 @@ import InfoTitle from '../../components/Common/InfoTitle';
 import { Locales } from '../../i18n/locales';
 
 const termsAndConditions: React.FC<{}> = () => {
-  const { t } = useTranslation(['conditions']);
+  const { t } = useTranslation('conditions');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isArabic = currentLang === 'ar';
@@ -109,9 +109,9 @@ const termsAndConditions: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'conditions',

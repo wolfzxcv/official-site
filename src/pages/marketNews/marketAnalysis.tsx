@@ -9,7 +9,7 @@ import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 
 const marketAnalysis: React.FC<{}> = () => {
-  const { t } = useTranslation(['marketNews']);
+  const { t } = useTranslation('marketNews');
   return (
     <Wrapper>
       <Flex p={10} direction="column" align="center">
@@ -22,9 +22,9 @@ const marketAnalysis: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
+    ...(await serverSideTranslations(locale!, [
       'common',
       'footer',
       'header',
