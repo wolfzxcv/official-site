@@ -27,7 +27,7 @@ const FooterMiddle: React.FC<{}> = () => {
             </Box>
             <StyledBox width={{ base: '30vw', md: '15vw' }}>
               <LinkButton
-                text={t('openRealAccount')}
+                text={t('common:openRealAccount')}
                 href="https://trader.wc012.com/register"
                 inMobile
                 borderColor="#b81c22"
@@ -47,7 +47,7 @@ const FooterMiddle: React.FC<{}> = () => {
             </Box>
             <StyledBox width={{ base: '30vw', md: '15vw' }}>
               <LinkButton
-                text={t('openDemoAccount')}
+                text={t('common:openDemoAccount')}
                 href="https://trader.wc012.com/registerMock"
                 inMobile
                 borderColor="green"

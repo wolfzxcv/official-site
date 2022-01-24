@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 const SocialMediaLinks: React.FC<{}> = () => {
-  const { t } = useTranslation(['footer']);
+  const { t } = useTranslation('footer');
   return (
     <Flex alignItems="center">
       <Text mr={1}>{t('followUs')}</Text>

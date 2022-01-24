@@ -15,7 +15,7 @@ import { openChatWindow, scrollToTop } from '../../utils';
 import { StyledBox, StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation('common');
   const router = useRouter();
   const currentLang = router.locale as Locales;
 

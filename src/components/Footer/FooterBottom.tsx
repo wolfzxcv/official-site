@@ -5,7 +5,7 @@ import React from 'react';
 import { Locales } from '../../i18n/locales';
 
 const FooterBottom: React.FC<{}> = () => {
-  const { t } = useTranslation(['footer']);
+  const { t } = useTranslation('footer');
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isArabic = currentLang === 'ar';

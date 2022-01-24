@@ -11,7 +11,7 @@ import React from 'react';
 import LinkButton from './LinkButton';
 
 const TopLinks: React.FC<{}> = () => {
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation('common');
 
   return (
     <Flex

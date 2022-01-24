@@ -1,13 +1,12 @@
-import { Box, useMediaQuery } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
-import React, { useEffect } from 'react';
-import { animationsOnScroll } from '../../utils';
+import React from 'react';
 import BackToTop from '../BackToTop/BackToTop';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import HTMLHead from './HTMLHead';
 
 const LiveChat = dynamic(() => import('./LiveChat'), { ssr: false });
+const Header = dynamic(() => import('../Header/Header'), { ssr: false });
 const TopLinks = dynamic(() => import('../TopLinks/TopLinks'), { ssr: false });
 
 interface WrapperProps {
@@ -19,20 +18,6 @@ const Wrapper: React.FC<WrapperProps> = ({
   children,
   maxW = '100vw'
 }: WrapperProps) => {
-  const [isWideScreen] = useMediaQuery('(min-width: 1200px)');
-
-  useEffect(() => {
-    if (isWideScreen) {
-      animationsOnScroll('animation', [
-        'fadeIn',
-        'fadeInDown',
-        'fadeInLeft',
-        'fadeInRight',
-        'fadeInUp'
-      ]);
-    }
-  }, []);
-
   return (
     <>
       <HTMLHead />

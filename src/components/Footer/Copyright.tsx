@@ -5,7 +5,7 @@ import CopyrightLinks from './CopyrightLinks';
 import SocialMediaLinks from './SocialMediaLinks';
 
 export const Copyright: React.FC<{}> = () => {
-  const { t } = useTranslation(['footer']);
+  const { t } = useTranslation('footer');
   return (
     <Flex
       mb={{ base: '5', md: '0' }}

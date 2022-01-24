@@ -1,22 +1,20 @@
-import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 import {
   Box,
   Collapse,
   Flex,
-  IconButton,
   useColorModeValue,
-  useDisclosure
+  useDisclosure,
+  useMediaQuery
 } from '@chakra-ui/react';
-import dynamic from 'next/dynamic';
 import React from 'react';
-import Logo from './Logo';
+import DesktopHeader from './DesktopHeader';
+import MobileHeader from './MobileHeader';
 import MobileNav from './MobileNav';
-
-const LangSelector = dynamic(() => import('./LangSelector'), { ssr: false });
-const DesktopNav = dynamic(() => import('./DesktopNav'), { ssr: false });
 
 const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
+
+  const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
   return (
     <Box>
@@ -28,46 +26,18 @@ const Header = () => {
         px={{ base: 4 }}
         align={'center'}
       >
-        {/* mobile layout */}
-        <Flex
-          flex="1"
-          ml={{ base: -2 }}
-          display={{ base: 'flex', md: 'none' }}
-          justify="space-between"
-        >
-          <IconButton
-            onClick={onToggle}
-            icon={
-              isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
-            }
-            variant={'ghost'}
-            aria-label={'Toggle Navigation'}
-          />
-          <Logo />
-          <LangSelector />
-        </Flex>
-
-        {/* desktop layout */}
-        <Flex
-          width="100vw"
-          mx={5}
-          justify="space-between"
-          align={'center'}
-          display={{ base: 'none', md: 'flex' }}
-        >
-          <Logo />
-
-          <Flex mx={10}>
-            <DesktopNav />
-          </Flex>
-
-          <LangSelector />
-        </Flex>
+        {isDesktop ? (
+          <DesktopHeader />
+        ) : (
+          <MobileHeader onToggle={onToggle} isOpen={isOpen} />
+        )}
       </Flex>
 
-      <Collapse in={isOpen} animateOpacity>
-        <MobileNav />
-      </Collapse>
+      {!isDesktop && (
+        <Collapse in={isOpen} animateOpacity>
+          <MobileNav />
+        </Collapse>
+      )}
     </Box>
   );
 };

@@ -1,10 +1,12 @@
+import { Header } from '../../i18n/locales/@types/header';
+
 export interface ILinkSource {
-  i18n: string;
+  i18n: keyof Header;
   href: string;
 }
 
 export interface IMenuItem {
-  i18n: string;
+  i18n: keyof Header;
   href?: string;
   children?: ILinkSource[];
 }

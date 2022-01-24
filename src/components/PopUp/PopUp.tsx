@@ -19,7 +19,7 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const cancelRef = useRef();
 
-  const [isNotMobile] = useMediaQuery('(min-width: 832px)');
+  const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
   useEffect(() => {
     openPopUp();
@@ -43,19 +43,19 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
 
         <AlertDialogContent>
           <AlertDialogHeader
-            fontSize={isNotMobile ? '24px' : '20px'}
+            fontSize={isDesktop ? '24px' : '20px'}
             fontWeight="bold"
             bg="black"
             color="white"
             textAlign="center"
-            py={isNotMobile ? 1 : 2}
+            py={isDesktop ? 1 : 2}
           >
             {title}
           </AlertDialogHeader>
           <AlertDialogCloseButton
             color="white"
             size="lg"
-            top={isNotMobile ? 1 : 0}
+            top={isDesktop ? 1 : 0}
           />
           <AlertDialogBody>{content}</AlertDialogBody>
         </AlertDialogContent>

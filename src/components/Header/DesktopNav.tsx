@@ -20,7 +20,8 @@ import { Locales } from '../../i18n/locales';
 import { ILinkSource, menuList } from './menuList';
 
 const DesktopNav = () => {
-  const { t } = useTranslation(['header']);
+  const { t } = useTranslation('header');
+
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
@@ -95,7 +96,7 @@ const DesktopNav = () => {
 };
 
 const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
-  const { t } = useTranslation(['header']);
+  const { t } = useTranslation('header');
   const router = useRouter();
   const currentLang = router.locale as Locales;
 

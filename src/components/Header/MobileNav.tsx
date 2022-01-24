@@ -19,7 +19,7 @@ import { IMenuItem, menuList } from './menuList';
 
 const MobileNav = () => {
   const [isShowSubButtons, setIsShowSubButtons] = useState(false);
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation('common');
 
   return (
     <>
@@ -74,7 +74,7 @@ const MobileNav = () => {
 };
 
 const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
-  const { t } = useTranslation(['header']);
+  const { t } = useTranslation('header');
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
@@ -96,7 +96,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
             fontWeight={600}
             color={useColorModeValue('gray.600', 'gray.200')}
           >
-            {t(`header:${i18n}`)}
+            {t(`${i18n}`)}
           </Text>
           {children && (
             <Icon
@@ -136,7 +136,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
                   fontWeight={router.pathname === child.href ? 700 : 500}
                   color={router.pathname === child.href ? 'red.800' : 'inherit'}
                 >
-                  {t(`header:${child.i18n}`)}
+                  {t(`${child.i18n}`)}
                 </Link>
               </NextLink>
             ))}

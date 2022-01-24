@@ -29,13 +29,13 @@ import { openChatWindow, scrollToTop } from '../../utils';
 
 const BackToTopMobile: React.FC<{}> = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation('common');
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
-  const [isNotMobile] = useMediaQuery('(min-width: 832px)');
+  const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
-  if (isNotMobile && isOpen) {
+  if (isDesktop && isOpen) {
     onClose();
   }
 

@@ -26,9 +26,9 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
   type,
   onClick
 }: DownloadButtonProps) => {
-  const [isNotMobile] = useMediaQuery('(min-width: 1000px)');
+  const [isDesktop] = useMediaQuery('(min-width: 1000px)');
 
-  const placement = isNotMobile ? 'right' : 'bottom';
+  const placement = isDesktop ? 'right' : 'bottom';
 
   return (
     <>
