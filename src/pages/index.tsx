@@ -22,7 +22,7 @@ import InfoTitle from '../components/Common/InfoTitle';
 import PopUp from '../components/PopUp/PopUp';
 import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
 import { StyledBox } from '../components/Styled/Styled';
-import { Locales } from '../i18n/locales';
+import { Locales } from '../i18n';
 import { openChatWindow } from '../utils';
 
 const Index: React.FC<{}> = () => {
@@ -270,20 +270,20 @@ const Index: React.FC<{}> = () => {
                 fontSize={{ base: '28px', md: '42px' }}
                 color="white"
               >
-                {t('home:diversifiedProducts')}
+                {t('diversifiedProducts')}
               </Text>
               <Text
                 fontWeight="700"
                 fontSize={{ base: '28px', md: '42px' }}
                 color="white"
               >
-                {t('home:strongAdvantages')}
+                {t('strongAdvantages')}
               </Text>
               <Text fontSize={{ base: '20px', md: '24px' }} color="white">
-                {t('home:highLiquidity')}
+                {t('highLiquidity')}
               </Text>
               <Text fontSize={{ base: '20px', md: '24px' }} color="white">
-                {t('home:safetyOfFunds')}
+                {t('safetyOfFunds')}
               </Text>
             </Stack>
 
@@ -307,7 +307,7 @@ const Index: React.FC<{}> = () => {
                   transition: '1s'
                 }}
               >
-                {t('home:askProductsNow')}
+                {t('askProductsNow')}
               </StyledBox>
             </NextLink>
           </Flex>
@@ -344,10 +344,10 @@ const Index: React.FC<{}> = () => {
                 fontWeight="700"
                 height={isChinese ? 'auto' : '72px'}
               >
-                {t('home:safeAndSecureDepository')}
+                {t('safeAndSecureDepository')}
               </Box>
               <Box minH={isChinese ? 'auto' : '144px'}>
-                {t('home:customerFunds')}
+                {t('customerFunds')}
               </Box>
             </Stack>
           </Flex>
@@ -376,10 +376,10 @@ const Index: React.FC<{}> = () => {
                 fontWeight="700"
                 height={isChinese ? 'auto' : '72px'}
               >
-                {t('home:efficientDeposit')}
+                {t('efficientDeposit')}
               </Box>
               <Box minH={isChinese ? 'auto' : '144px'}>
-                {t('home:theDepositAndWithdrawal')}
+                {t('theDepositAndWithdrawal')}
               </Box>
             </Stack>
           </Flex>
@@ -408,10 +408,10 @@ const Index: React.FC<{}> = () => {
                 fontWeight="700"
                 height={isChinese ? 'auto' : '72px'}
               >
-                {t('home:fastPayment')}
+                {t('fastPayment')}
               </Box>
               <Box minH={isChinese ? 'auto' : '144px'}>
-                {t('home:theLatestTechnology')}
+                {t('theLatestTechnology')}
               </Box>
             </Stack>
           </Flex>
@@ -429,12 +429,12 @@ const Index: React.FC<{}> = () => {
       >
         <Flex fontSize={{ base: '28px', md: '36px' }} fontWeight="700">
           <Text color="red.500" mr={isChinese ? 0 : 3}>
-            {t('home:invest')}
+            {t('invest')}
           </Text>
-          <Text>{t('home:inNewChannels')}</Text>
+          <Text>{t('inNewChannels')}</Text>
         </Flex>
         <Box fontSize={{ base: '20px', md: '24px' }} my={3}>
-          {t('home:professionalEquals')}
+          {t('professionalEquals')}
         </Box>
         <Image src="../assets/images/home_divider.png" alt="divider" />
       </Flex>
@@ -448,16 +448,16 @@ const Index: React.FC<{}> = () => {
       >
         <InfoCard
           icon={<FaMobileAlt fontSize="32px" />}
-          title={t('home:mobileTradingSystem')}
-          text={t('home:WCGMobileTradingSystem')}
+          title={t('mobileTradingSystem')}
+          text={t('WCGMobileTradingSystem')}
           minH={isChinese ? 'auto' : '300px'}
           bigW="40vw"
         />
 
         <InfoCard
           icon={<GiChampions fontSize="32px" />}
-          title={t('home:brandReputation')}
-          text={t('home:WCGValuesTheCustomersTradingExperience')}
+          title={t('brandReputation')}
+          text={t('WCGValuesTheCustomersTradingExperience')}
           minH={isChinese ? 'auto' : '300px'}
           bigW="40vw"
         />
@@ -472,11 +472,11 @@ const Index: React.FC<{}> = () => {
           bgColor="gray.800"
           padding="10"
         >
-          <InfoTitle title={t('home:preciousMetalsContract')} />
+          <InfoTitle title={t('preciousMetalsContract')} />
           <Stack pt={5} spacing={2}>
-            <Text>{t('home:timesLeverage')}</Text>
-            <Text>{t('home:LondonGoldLondonSilver')}</Text>
-            <Text>{t('home:shortFundSettlementTime')}</Text>
+            <Text>{t('timesLeverage')}</Text>
+            <Text>{t('LondonGoldLondonSilver')}</Text>
+            <Text>{t('shortFundSettlementTime')}</Text>
           </Stack>
 
           <Flex
@@ -504,7 +504,7 @@ const Index: React.FC<{}> = () => {
                   transition: '1s'
                 }}
               >
-                {t('home:accountOpening')}
+                {t('accountOpening')}
               </StyledBox>
             </Link>
           </Flex>
@@ -539,7 +539,7 @@ const Index: React.FC<{}> = () => {
                 transition: '1s'
               }}
             >
-              {t('home:accountOpening')}
+              {t('accountOpening')}
             </StyledBox>
           </Link>
         </Flex>
@@ -589,20 +589,20 @@ const Index: React.FC<{}> = () => {
         <Flex m={10} direction="column" justify="center" align="center">
           <InfoCard
             icon={<AiOutlineFieldTime fontSize="32px" />}
-            title={t('home:realTimeQuotation')}
-            text={t('home:aVarietyOfProfessional')}
+            title={t('realTimeQuotation')}
+            text={t('aVarietyOfProfessional')}
           />
 
           <InfoCard
             icon={<ImEarth fontSize="32px" />}
-            title={t('home:investmentProductsAcross')}
-            text={t('home:includingMoreThan')}
+            title={t('investmentProductsAcross')}
+            text={t('includingMoreThan')}
           />
 
           <InfoCard
             icon={<HiServer fontSize="32px" />}
-            title={t('home:connectingTo')}
-            text={t('home:automatedProcess')}
+            title={t('connectingTo')}
+            text={t('automatedProcess')}
           />
         </Flex>
       </Box>
@@ -622,9 +622,9 @@ const Index: React.FC<{}> = () => {
               textAlign={isArabic ? 'right' : 'left'}
             >
               <Text fontSize="24px" fontWeight="700">
-                {t('home:realTimeQuotation')}
+                {t('realTimeQuotation')}
               </Text>
-              <Text>{t('home:aVarietyOfProfessional')}</Text>
+              <Text>{t('aVarietyOfProfessional')}</Text>
             </Stack>
           </Box>
 
@@ -649,9 +649,9 @@ const Index: React.FC<{}> = () => {
               textAlign={isArabic ? 'right' : 'left'}
             >
               <Text fontSize="24px" fontWeight="700">
-                {t('home:investmentProductsAcross')}
+                {t('investmentProductsAcross')}
               </Text>
-              <Text>{t('home:includingMoreThan')}</Text>
+              <Text>{t('includingMoreThan')}</Text>
             </Stack>
           </Box>
 
@@ -667,9 +667,9 @@ const Index: React.FC<{}> = () => {
               textAlign={isArabic ? 'right' : 'left'}
             >
               <Text fontSize="24px" fontWeight="700">
-                {t('home:connectingTo')}
+                {t('connectingTo')}
               </Text>
-              <Text>{t('home:automatedProcess')}</Text>
+              <Text>{t('automatedProcess')}</Text>
             </Stack>
           </Box>
         </Flex>
@@ -691,14 +691,14 @@ const Index: React.FC<{}> = () => {
             textAlign="center"
             mr={{ base: 0, md: 5 }}
           >
-            {t('home:downloadImmediately')}
+            {t('downloadImmediately')}
           </Box>
           <Box>
             <Image src="../assets/images/home_meta4.png" alt="meta4"></Image>
           </Box>
         </Flex>
 
-        <Box textAlign="center">{t('home:fastExecutionOfEachOrder')}</Box>
+        <Box textAlign="center">{t('fastExecutionOfEachOrder')}</Box>
 
         <Flex my={10} justify="center">
           <Link

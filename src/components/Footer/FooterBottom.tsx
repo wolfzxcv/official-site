@@ -2,7 +2,7 @@ import { Box, Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const FooterBottom: React.FC<{}> = () => {
   const { t } = useTranslation('footer');

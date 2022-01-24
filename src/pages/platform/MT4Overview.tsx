@@ -9,7 +9,7 @@ import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import MT4DownloadOption from '../../components/Platform/MT4DownloadOption';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const MT4Overview: React.FC<{}> = () => {
   const { t } = useTranslation('platform');

@@ -2,7 +2,7 @@ import { CheckCircleIcon } from '@chakra-ui/icons';
 import { ListIcon, ListItem } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 interface InfoListProps {
   text: string;

@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const termsAndConditions: React.FC<{}> = () => {
   const { t } = useTranslation('conditions');

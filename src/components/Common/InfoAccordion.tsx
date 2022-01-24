@@ -12,7 +12,7 @@ import {
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { Fragment } from 'react';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { StyledBox } from '../Styled/Styled';
 
 interface InfoAccordionProps {

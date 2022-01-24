@@ -2,7 +2,7 @@ import { Box, Center, Flex } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { CgArrowsExchangeAlt } from 'react-icons/cg';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 interface MAMProfitListProps {
   left: string;

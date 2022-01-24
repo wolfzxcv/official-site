@@ -13,7 +13,7 @@ import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const InfoAccordion = dynamic(
   () => import('../../components/Common/InfoAccordion'),

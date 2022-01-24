@@ -8,7 +8,7 @@ import Wrapper from '../../components/Base/Wrapper';
 import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const uSShareCFD: React.FC<{}> = () => {
   const { t } = useTranslation('uSShareCFD');

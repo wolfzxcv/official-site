@@ -2,7 +2,7 @@ import axios from 'axios';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 interface ApiDataListProps {
   api: string;

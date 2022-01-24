@@ -10,7 +10,7 @@ import {
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { openChatWindow, scrollToTop } from '../../utils';
 import { StyledBox, StyledIconButton } from '../Styled/Styled';
 

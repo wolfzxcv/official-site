@@ -1,7 +1,7 @@
 import { Box } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { forwardRef } from 'react';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { StyledFlex } from '../Styled/Styled';
 
 interface InfoButtonBaseProps {

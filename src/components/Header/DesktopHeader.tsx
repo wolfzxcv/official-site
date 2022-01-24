@@ -19,7 +19,7 @@ const DesktopHeader: React.FC<{}> = () => {
         <DesktopNav />
       </Flex>
 
-      <LangSelector from="desktop" />
+      <LangSelector />
     </Flex>
   );
 };

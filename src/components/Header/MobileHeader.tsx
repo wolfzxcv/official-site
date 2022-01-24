@@ -30,7 +30,7 @@ const MobileHeader: React.FC<MobileHeaderProps> = ({
       />
       <Logo />
 
-      <LangSelector from="mobile" />
+      <LangSelector />
     </Flex>
   );
 };

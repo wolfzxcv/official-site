@@ -11,7 +11,7 @@ import InfoButtonBase from '../../components/Common/InfoButtonBase';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import { StyledBoxTag } from '../../components/Styled/Styled';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { openChatWindow } from '../../utils';
 
 const regionalRepresentative: React.FC<{}> = () => {

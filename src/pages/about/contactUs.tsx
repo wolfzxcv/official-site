@@ -10,7 +10,7 @@ import Wrapper from '../../components/Base/Wrapper';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import { IField } from '../../components/Form/SubmitForm';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const SubmitForm = dynamic(() => import('../../components/Form/SubmitForm'), {
   ssr: false

@@ -11,7 +11,7 @@ import Wrapper from '../../components/Base/Wrapper';
 import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const InfoAccordion = dynamic(
   () => import('../../components/Common/InfoAccordion'),

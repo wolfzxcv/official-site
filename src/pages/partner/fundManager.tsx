@@ -13,7 +13,7 @@ import Wrapper from '../../components/Base/Wrapper';
 import InfoButtonBase from '../../components/Common/InfoButtonBase';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { openChatWindow } from '../../utils';
 
 const fundManager: React.FC<{}> = () => {

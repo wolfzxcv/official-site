@@ -11,7 +11,7 @@ import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import LinkButton from '../../components/TopLinks/LinkButton';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const about: React.FC<{}> = () => {
   const { t } = useTranslation('about');

@@ -11,7 +11,7 @@ import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import DownloadButton from '../../components/Platform/DownloadButton';
 import InfoList from '../../components/Platform/InfoList';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const MT4APPDownload: React.FC<{}> = () => {
   const { t } = useTranslation('platform');

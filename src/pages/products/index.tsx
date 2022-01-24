@@ -13,7 +13,7 @@ import {
   productsData
 } from '../../components/Product/productsData';
 import { StyledTable } from '../../components/Styled/Styled';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const products: React.FC<{}> = () => {
   const { t } = useTranslation('products');

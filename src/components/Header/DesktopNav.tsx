@@ -16,7 +16,7 @@ import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { ILinkSource, menuList } from './menuList';
 
 const DesktopNav = () => {

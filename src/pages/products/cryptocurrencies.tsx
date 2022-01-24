@@ -11,7 +11,7 @@ import InfoButton from '../../components/Common/InfoButton';
 import InfoCard from '../../components/Common/InfoCard';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 
 const cryptocurrencies: React.FC<{}> = () => {
   const { t } = useTranslation('cryptocurrencies');

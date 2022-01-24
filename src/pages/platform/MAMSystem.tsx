@@ -12,7 +12,7 @@ import InfoTitleSub from '../../components/Common/InfoTitleSub';
 import DownloadButton from '../../components/Platform/DownloadButton';
 import InfoList from '../../components/Platform/InfoList';
 import MAMProfitList from '../../components/Platform/MAMProfitList';
-import { Locales } from '../../i18n/locales';
+import { Locales } from '../../i18n/config';
 import { openChatWindow } from '../../utils';
 
 const MAMSystem: React.FC<{}> = () => {
