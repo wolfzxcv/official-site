@@ -58,12 +58,8 @@ export type About = {
   ourSalesTeam: string;
   /** License introduction */
   licenseIntroduction: string;
-  /** WCG Markets Ltd is authorized */
-  WCGMarketsLtdIsAuthorized: string;
   /** WCG Markets Ltd is registered */
   WCGMarketsLtdIsRegistered: string;
-  /** Hong Kong is the */
-  HongKongIsThe: string;
   /** WCG Markets Ltd is supervised */
   WCGMarketsLtdIsSupervised: string;
   /** View */

@@ -7,8 +7,6 @@ export const questions: Questions = {
   whatKindOfSupervision: 'Pengawasan*seperti*apa*yang*diatur*WCG?',
   WCGIsABusinessBrand:
     'WCG*adalah*merek*bisnis*yang*digunakan*oleh*banyak*perusahaan,*termasuk',
-  WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*disahkan*dan*diawasi*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*dan*merupakan*anggota*No.*12*A1.',
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*diawasi*oleh*Unit*Intelijen*Keuangan*Kanada*(FIU)*dan*Pusat*Analisis*Transaksi*dan*Pelaporan*Keuangan*Kanada*(FINTRAC).*Nomor*lisensi*MSB*adalah*M20282836.',
   WCGMarketsLtdIsRegistered:

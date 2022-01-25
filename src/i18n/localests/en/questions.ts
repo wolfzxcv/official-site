@@ -7,8 +7,6 @@ export const questions: Questions = {
   whatKindOfSupervision: 'What*kind*of*supervision*WCG*is*regulated?',
   WCGIsABusinessBrand:
     'WCG*Markets*Ltd*is*a*business*brand*used*by*multiple*companies,*including',
-  WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*is*authorized*and*supervised*by*the*Hong*Kong*Gold*&*Silver*Exchange*(CGSE),*and*is*a*No.*12*A1*member.',
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*is*supervised*by*the*Canadian*Financial*Intelligence*Unit*(FIU)*and*the*Canadian*Financial*Transaction*and*Reporting*Analysis*Center*(FINTRAC).*The*MSB*license*number*is*M20282836.',
   WCGMarketsLtdIsRegistered:

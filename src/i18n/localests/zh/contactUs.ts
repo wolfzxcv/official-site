@@ -47,11 +47,6 @@ export const contactUs: ContactUs = {
   October: '十月',
   November: '十一月',
   December: '十二月',
-  establishedHongKong: '成立香港晨辰貿易有限公司',
-  wonTheNo: '榮獲香港金銀業貿易場12號行員牌照，主營貴金屬的國際貿易業務',
-  changedItsName: '更名為文傳金業有限公司',
-  theOnlineTradingPlatform: '正式推出線上交易平台，方便客戶可以對現貨進行對沖',
-  theInternationalTradeVolume: '實體貴金屬的國際貿易量達日均200多公斤以上',
   setUpVietnam: '設立越南聯絡處',
   invitedToParticipate: '受邀參加第十六屆中國上海理財博覽會，接受媒體專訪',
   partneredWith:

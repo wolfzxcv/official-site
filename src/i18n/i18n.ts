@@ -86,3 +86,31 @@ export const serverSideTranslations = async (
     }
   };
 };
+
+export const defaultModules: (keyof IResources)[] = [
+  'about',
+  'advancedTrading',
+  'basicTrading',
+  'common',
+  'conditions',
+  'contactUs',
+  'crudeOil',
+  'cryptocurrencies',
+  'footer',
+  'forex',
+  'fundManager',
+  'header',
+  'home',
+  'iBBroker',
+  'indexTrading',
+  'intermediateTrading',
+  'marketNews',
+  'notice',
+  'platform',
+  'preciousMetals',
+  'products',
+  'questions',
+  'regionalRepresentative',
+  'uSShareCFD',
+  'whiteLabelCooperation'
+];

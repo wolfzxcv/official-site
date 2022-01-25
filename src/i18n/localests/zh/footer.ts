@@ -20,8 +20,6 @@ export const footer: Footer = {
     'WCG*Markets*Ltd*是位於聖文森特和格林納丁斯依據國際商業公司法注冊的有限責任公司，公司編號為*26087*BC*2020。註冊地址是：The*Financial*Services*Centre*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd*獲加拿大金融情報部門(FIU)加拿大金融交易和報告分析中心(FINTRAC)監管，MSB牌照編號為*M20282836。註冊地址是：*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
-  WCGGoldCompany:
-    '文傳金業有限公司獲香港金銀業貿易場*(Chinese*Gold*&*Silver*Exchange,*CGSE)受其監管。為12號A1級別會員單位。註冊地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
     'Wenchuan*Global*Ltd*是於英國注冊成立的有限責任公司，公司編號為*11019948。註冊地址是：*5th*Floor,*3*Gower*Street,*London,*UK,*WC1E*6HA',
   HighRiskInvestmentWarning:

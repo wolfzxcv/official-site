@@ -6,8 +6,6 @@ export const questions: Questions = {
     '本文收集了大部分投资者经常会问到的问题，统一为您做个详细的解答。',
   whatKindOfSupervision: 'WCG是什么监管?',
   WCGIsABusinessBrand: 'WCG*是由多家公司共同使用的業務品牌，包括',
-  WCGMarketsLtdIsAuthorized:
-    '文传金业有限公司獲香港金銀業貿易場(Chinese*Gold*&*Silver*Exchange,受其監管。為*12*號*A1*級別會員單位。',
   WCGMarketsLtdIsSupervised:
     'WCG*Markets*Ltd*由加拿大金融情报机构*(FIU)*和加拿大金融交易和报告分析中心*(FINTRAC)*监管。*MSB*许可证编号为*M20282836。',
   WCGMarketsLtdIsRegistered:

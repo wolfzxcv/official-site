@@ -23,8 +23,6 @@ export const footer: Footer = {
     'WCG*Markets*Ltd*là*một*công*ty*trách*nhiệm*hữu*hạn*được*đăng*ký*theo*Luật*Công*ty*Kinh*doanh*Quốc*tế*tại*Saint*Vincent*và*Grenadines.*Số*công*ty*là*26087*BC*2020.*Địa*chỉ*đăng*ký*là:*Trung*tâm*Dịch*vụ*Tài*chính*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd*được*quản*lý*bởi*FINTRAC.*Số*giấy*phép*MSB*là*M20282836.*Địa*chỉ*đăng*ký*là:*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
-  WCGGoldCompany:
-    'Công*ty*TNHH*vàng*Vấn*Xuyên*chịu*sự*điều*chỉnh*của*Sở*giao*dịch*vàng*bạc*Hồng*Kông*(CGSE).*Là*đơn*vị*thành*viên*số*12*A1.*Địa*chỉ*đăng*ký*là:*Căn*hộ*D,*22*/*F,*Tháp*B,*Tháp*Capital,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
     'Wenchuan*Global*Ltd*là*một*công*ty*trách*nhiệm*hữu*hạn*được*thành*lập*tại*Vương*quốc*Anh*với*số*công*ty*là*11019948.*Địa*chỉ*đăng*ký*là:*WC1E*6HA,*Tầng*5,*3*Phố*Gower,*Luân*Đôn,*Vương*quốc*Anh.',
   HighRiskInvestmentWarning:

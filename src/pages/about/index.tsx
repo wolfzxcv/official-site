@@ -244,12 +244,7 @@ const about: React.FC<{}> = () => {
         <Box mb={5} w="100%" textAlign="center">
           <InfoTitle title={t('licenseIntroduction')} />
         </Box>
-        <LicenseCard
-          image={
-            <Image src="../assets/images/about_license_1.png" alt="license_1" />
-          }
-          text={t('WCGMarketsLtdIsAuthorized')}
-        />
+
         <LicenseCard
           image={
             <>
@@ -266,15 +261,7 @@ const about: React.FC<{}> = () => {
           }
           text={t('WCGMarketsLtdIsRegistered')}
         />
-        <LicenseCard
-          image={
-            <Image src="../assets/images/about_license_3.png" alt="license_3" />
-          }
-          text={t('HongKongIsThe')}
-          textHeight={isChinese ? '240px' : '432px'}
-          button={t('view')}
-          link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
-        />
+
         <LicenseCard
           image={
             <>
@@ -290,7 +277,6 @@ const about: React.FC<{}> = () => {
             </>
           }
           text={t('WCGMarketsLtdIsSupervised')}
-          textHeight={isChinese ? '240px' : '432px'}
           button={t('view')}
           link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
         />

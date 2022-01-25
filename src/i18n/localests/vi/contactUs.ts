@@ -49,14 +49,6 @@ export const contactUs: ContactUs = {
   October: 'October',
   November: 'November',
   December: 'December',
-  establishedHongKong: 'Established*Hong*Kong*Chenchen*Trading*Co.,*Ltd.',
-  wonTheNo:
-    'Won*the*No.*12*member*license*of*the*Hong*Kong*Gold*and*Silver*Trade*Fair,*mainly*engaged*in*the*international*trading*business*of*precious*metals.',
-  changedItsName: 'Changed*its*name*to*Wen*Chuan*Gold*Industry*Co.,*Ltd.',
-  theOnlineTradingPlatform:
-    'The*online*trading*platform*was*officially*launched*to*facilitate*customers*to*hedge*against*the*spot.',
-  theInternationalTradeVolume:
-    'The*international*trade*volume*of*physical*precious*metals*reaches*an*average*of*more*than*200*kilograms*per*day',
   setUpVietnam: 'Set*up*Vietnam*Liaison*Office.',
   invitedToParticipate:
     'Invited*to*participate*in*the*16th*China*Shanghai*Financial*Expo,*accepting*media*interviews.',

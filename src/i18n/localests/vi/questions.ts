@@ -5,8 +5,6 @@ export const questions: Questions = {
   thisArticleCollects:
     'Bài*viết*này*thu*thập*hầu*hết*các*câu*hỏi*mà*các*nhà*đầu*tư*thường*hỏi,*và*hy*vọng*bạn*có*thể*tìm*thấy*những*câu*trả*lời*hữu*ích.',
   whatKindOfSupervision: 'WCG*được*quy*định*về*loại*giám*sát*nào?',
-  WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*được*ủy*quyền*và*giám*sát*bởi*Sở*giao*dịch*vàng*bạc*Hồng*Kông*(CGSE),*và*là*thành*viên*số*12*A1.',
   WCGIsABusinessBrand:
     'WCG*là*thương*hiệu*kinh*doanh*được*nhiều*công*ty*sử*dụng,*bao*gồm',
   WCGMarketsLtdIsSupervised:

@@ -10,8 +10,6 @@ export type Questions = {
   whatKindOfSupervision: string;
   /** WCG is a business brand */
   WCGIsABusinessBrand: string;
-  /** WCG Markets Ltd is authorized */
-  WCGMarketsLtdIsAuthorized: string;
   /** WCG Markets Ltd is supervised */
   WCGMarketsLtdIsSupervised: string;
   /** WCG Markets Ltd is registered */

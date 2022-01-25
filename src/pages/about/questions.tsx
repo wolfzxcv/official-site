@@ -22,7 +22,6 @@ const questions: React.FC<{}> = () => {
       title: t('whatKindOfSupervision'),
       content: [
         t('WCGIsABusinessBrand'),
-        t('WCGMarketsLtdIsAuthorized'),
         t('WCGMarketsLtdIsSupervised'),
         t('WCGMarketsLtdIsRegistered')
       ]

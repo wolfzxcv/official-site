@@ -23,8 +23,6 @@ export const footer: Footer = {
     'WCG*Markets*Ltd*adalah*perseroan*terbatas*yang*terdaftar*di*bawah*Hukum*Perusahaan*Bisnis*Internasional*di*Saint*Vincent*dan*Grenadines.*Nomor*perusahaan*adalah*26087*SM*2020.*Alamat*terdaftar*adalah:*The*Financial*Services*Center*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd*diatur*oleh*FINTRAC.*Nomor*lisensi*MSB*adalah*M20282836.*Alamat*terdaftar*adalah:*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Kanada.',
-  WCGGoldCompany:
-    'WCG*Gold*Company*Limited*diatur*oleh*Hong*Kong*Gold*&*Silver*Exchange*(CGSE).*Ini*adalah*unit*anggota*No.12*A1.*Alamat*terdaftar*adalah:*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
     'Wenchuan*Global*Ltd*adalah*perseroan*terbatas*yang*didirikan*di*Inggris*dengan*nomor*perusahaan*11019948.*Alamat*terdaftar*adalah:*WC1E*6HA,*Lantai*5,*3*Gower*Street,*London,*Inggris.',
   HighRiskInvestmentWarning:

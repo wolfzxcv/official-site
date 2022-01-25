@@ -7,8 +7,6 @@ export const questions: Questions = {
   whatKindOfSupervision: 'ما*هو*نوع*الإشراف*الذي*تخضع*له*WCG*?',
   WCGIsABusinessBrand:
     'WCG*هي*علامة*تجارية*تجارية*تستخدمها*العديد*من*الشركات*،*بما*في*ذلك',
-  WCGMarketsLtdIsAuthorized:
-    'WCG*Markets*Ltd*مرخصة*وتشرف*عليها*بورصة*هونغ*كونغ*للذهب*والفضة*(CGSE)*،*وهي*عضو*رقم*12*A1.',
   WCGMarketsLtdIsSupervised:
     'يشرف*على*WCG*Markets*Ltd*وحدة*الاستخبارات*المالية*الكندية*(FIU)*والمركز*الكندي*لتحليل*المعاملات*المالية*والتقارير*(FINTRAC).*رقم*ترخيص*MSB*هو*M20282836.',
   WCGMarketsLtdIsRegistered:

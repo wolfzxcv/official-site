@@ -20,8 +20,6 @@ export const footer: Footer = {
     'WCG*Markets*Ltd*是位于圣文森特和格林纳丁斯群岛St.Vincent依据国际商业公司法注册的有限责任公司，公司编号为26087*BC*2020。注册地址是：*The*Financial*Services*Centre*Stoney*Ground,*Kingstown,*St.Vincent*&*the*Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'WCG*Markets*Ltd*获加拿大金融情报部门(FIU)加拿大金融交易和报告分析中心(FINTRAC)监管，MSB牌照编号为*M20282836。注册地址是：*150-10451*Shellbridge*Way,*Richmond*BC*V6X*2W8,*Canada.',
-  WCGGoldCompany:
-    '文传金业有限公司获香港金银业贸易场*(Chinese*Gold*&*Silver*Exchange,*CGSE)受其监管。为12号A1级别会员单位。注册地址是：*Flat*D,*22/F,*Tower*B,*Capital*Tower,*38Wai*Yip*Street,*Kowloon,*Hong*Kong.',
   WCGGlobalLtd:
     'Wenchuan*Global*Ltd*是于英国注册成立的有限责任公司，公司编号为*11019948。注册地址是：*5th*Floor,*3*Gower*Street,*London,*UK,*WC1E*6HA',
   HighRiskInvestmentWarning:

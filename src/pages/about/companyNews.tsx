@@ -14,24 +14,6 @@ const companyNews: React.FC<{}> = () => {
 
   const data: HistoryItemProps[] = [
     {
-      year: '2014',
-      month: t('January'),
-      text: [t('establishedHongKong'), t('wonTheNo')],
-      color: '#3e7b97'
-    },
-    {
-      year: '2017',
-      month: t('September'),
-      text: [t('changedItsName'), t('theOnlineTradingPlatform')],
-      color: '#e23a59'
-    },
-    {
-      year: '2018',
-      month: t('September'),
-      text: [t('theInternationalTradeVolume')],
-      color: '#fcc82b'
-    },
-    {
       year: '2018',
       month: t('October'),
       text: [t('setUpVietnam')],
@@ -109,7 +91,7 @@ const companyNews: React.FC<{}> = () => {
         {data.map((x, idx) => (
           <HistoryItem
             key={x.text[0]}
-            location={idx % 2 === 1 ? 'left' : 'right'}
+            location={idx % 2 === 1 ? 'right' : 'left'}
             year={x.year}
             month={x.month}
             text={x.text}

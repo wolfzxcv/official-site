@@ -36,8 +36,6 @@ export type Footer = {
   WCGMarketsLtdIsALimitedLiabilityCompany: string;
   /** WCGMarketsLtdIsRegulatedByTheFINTRAC */
   WCGMarketsLtdIsRegulatedByTheFINTRAC: string;
-  /** WCGGoldCompany */
-  WCGGoldCompany: string;
   /** WCGGlobalLtd */
   WCGGlobalLtd: string;
   /** HighRiskInvestmentWarning */

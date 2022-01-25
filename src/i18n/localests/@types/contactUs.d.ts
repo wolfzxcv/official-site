@@ -91,16 +91,6 @@ export type ContactUs = {
   November: string;
   /** December */
   December: string;
-  /** Established Hong Kong */
-  establishedHongKong: string;
-  /** Won the No */
-  wonTheNo: string;
-  /** Changed its name */
-  changedItsName: string;
-  /** The online trading platform */
-  theOnlineTradingPlatform: string;
-  /** The international trade volume */
-  theInternationalTradeVolume: string;
   /** Set up Vietnam */
   setUpVietnam: string;
   /** Invited to participate */

@@ -23,8 +23,6 @@ export const footer: Footer = {
     'WCG*Markets*Ltd*هي*شركة*ذات*مسؤولية*محدودة*مسجلة*بموجب*قانون*الشركات*التجارية*الدولية*في*سانت*فنسنت*وجزر*غرينادين.*رقم*الشركة*26087*قبل*الميلاد*2020.*العنوان*المسجل*هو:*مركز*الخدمات*المالية*ستوني*جراوند*،*كينجستاون*،*سانت*فنسنت*وجزر*غرينادين.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
     'تخضع*WCG*Markets*Ltd*للتنظيم*من*قبل*FINTRAC.*رقم*ترخيص*MSB*هو*M20282836.*العنوان*المسجل*هو:*150-10451*Shellbridge*Way،*Richmond*BC*V6X*2W8،*Canada.',
-  WCGGoldCompany:
-    'شركة*WCG*Gold*Company*المحدودة*مرخصة*من*بورصة*هونغ*كونغ*للذهب*والفضة*(CGSE).*إنها*الوحدة*العضو*رقم*12*A1.*العنوان*المسجل*هو:*Flat*D،*22*/*F،*Tower*B،*Capital*Tower،*38Wai*Yip*Street،*Kowloon،*Hong*Kong.',
   WCGGlobalLtd:
     'Wenchuan*Global*Ltd*هي*شركة*ذات*مسئولية*محدودة*تأسست*في*المملكة*المتحدة*برقم*الشركة*11019948.*العنوان*المسجل*هو:*WC1E*6HA،*5th*Floor،*3*Gower*Street،*London،*UK.',
   HighRiskInvestmentWarning:
