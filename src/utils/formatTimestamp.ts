@@ -1,14 +1,31 @@
-export const formatTimestamp = (time) => {
-  const a = new Date(time * 1000);
+type DateTimeFormatOptions = {
+  localeMatcher?: 'best fit' | 'lookup';
+  weekday?: 'long' | 'short' | 'narrow';
+  era?: 'long' | 'short' | 'narrow';
+  year?: 'numeric' | '2-digit';
+  month?: 'numeric' | '2-digit' | 'long' | 'short' | 'narrow';
+  day?: 'numeric' | '2-digit';
+  hour?: 'numeric' | '2-digit';
+  minute?: 'numeric' | '2-digit';
+  second?: 'numeric' | '2-digit';
+  timeZoneName?: 'long' | 'short';
+  formatMatcher?: 'best fit' | 'basic';
+  hour12?: boolean;
+  timeZone?: string;
+};
 
-  const year = a.getFullYear();
-  const month = a.getMonth() + 1;
-  const date = a.getDate();
+export const formatTimestamp = (time, lang) => {
+  const date = new Date(time * 1000);
 
-  const hour = a.getHours();
-  const min = a.getMinutes();
-  const output = `${year}年${month}月${date > 9 ? date : '0' + date}日 ${
-    hour > 9 ? hour : '0' + hour
-  }:${min > 9 ? min : '0' + min}`;
+  const options: DateTimeFormatOptions = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  };
+
+  const output = date.toLocaleDateString(lang, options);
   return output;
 };

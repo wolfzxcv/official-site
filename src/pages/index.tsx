@@ -23,7 +23,7 @@ import PopUp from '../components/PopUp/PopUp';
 import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
 import { StyledBox } from '../components/Styled/Styled';
 import { Locales } from '../i18n/config';
-import { openChatWindow } from '../utils';
+import { formatLang, openChatWindow } from '../utils';
 
 const Index: React.FC<{}> = () => {
   const [showPopUp, setShowPopUp] = useState(false);
@@ -56,24 +56,7 @@ const Index: React.FC<{}> = () => {
     }
   };
 
-  let lang = 'en';
-  switch (currentLang) {
-    case 'cn':
-      lang = 'zh_CN';
-      break;
-    case 'zh':
-      lang = 'zh_TW';
-      break;
-    case 'vi':
-      lang = 'vi_VN';
-      break;
-    case 'id':
-      lang = 'id';
-      break;
-    case 'ms':
-      lang = 'ms_MY';
-      break;
-  }
+  const lang = formatLang(currentLang, 'ar').replace('-', '_');
 
   return (
     <Wrapper>

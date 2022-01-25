@@ -3,12 +3,14 @@ import axios from 'axios';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Wrapper from '../../components/Base/Wrapper';
 import ApiDataList from '../../components/Common/ApiDataList';
 import InfoTitle from '../../components/Common/InfoTitle';
 import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { formatTimestamp } from '../../utils';
+import { Locales } from '../../i18n/config';
+import { formatLang, formatTimestamp } from '../../utils';
 
 type INews = {
   id: string;
@@ -34,6 +36,11 @@ const formatHTML = (text) => {
 
 const financialNews: React.FC<{}> = () => {
   const { t } = useTranslation('marketNews');
+
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  const lang = formatLang(currentLang);
 
   const [news, setNews] = useState<INews[]>([]);
   const [showBackup, setShowBackup] = useState(false);
@@ -84,7 +91,9 @@ const financialNews: React.FC<{}> = () => {
               </Box>
               <Flex flexDirection="column" width={'80%'} pl={5}>
                 <Flex mb={3}>
-                  <Box color="gray.400">{formatTimestamp(each.createAt)}</Box>
+                  <Box color="gray.400">
+                    {formatTimestamp(each.createAt, lang)}
+                  </Box>
                 </Flex>
                 <Box
                   color="gray.600"

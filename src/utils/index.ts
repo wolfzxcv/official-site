@@ -1,3 +1,4 @@
+export * from './formatLang';
 export * from './formatTimestamp';
 export * from './isUsingMobile';
 export * from './openChatWindow';
