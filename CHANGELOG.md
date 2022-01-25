@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.10.1...v1.11.0) (2022-01-25)
+
+
+### Features
+
+* **many:** remove everything about 金銀業貿易場 金银贸易场 ([73684cb](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/73684cb6dba9f936f79a7239d2060e5771e3a56e))
+
+
+### Bug Fixes
+
+* **i18n:** fix i18n type ([d01ef74](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/d01ef743e72b78fe4202d2f0b3381d46a5925c38))
+
 ### [1.10.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.10.0...v1.10.1) (2022-01-18)
 
 ## [1.10.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.9.26...v1.10.0) (2022-01-18)
