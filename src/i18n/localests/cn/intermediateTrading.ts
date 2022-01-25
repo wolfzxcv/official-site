@@ -91,20 +91,20 @@ export const intermediateTrading: IntermediateTrading = {
   upposeYouHaveAUD10:
     '假设您的帐户内有10,000澳元，您愿意拿来承受风险的资金占总资金的2%，接下来您需要计算出交易的仓位大小。在计算过程中，您所交易的货币对种类也会影响到开仓量的计算。例如，200澳元的风险资金，在交易AUD/USD时的开仓量与NZD/CAD不同——因为不同货币对的每点价值存在差异。',
   trade1LotOfAUDUSDInAn: '在澳元结算的帐户中交易1手AUD/USD',
-  transactionVolume: '交易量=*100,000',
-  yiPip00001: '1点=*0001',
-  aUDUSDexchangeRate: 'AUD/USD汇率=*0.7465',
-  pipValue0000107465: '每点价值=*0.0001*/*0.7465*x*100,000*=*13.39澳元',
+  transactionVolume: '交易量= 100,000',
+  yiPip00001: '1点= 0001',
+  aUDUSDexchangeRate: 'AUD/USD汇率= 0.7465',
+  pipValue0000107465: '每点价值= 0.0001 / 0.7465 x 100,000 = 13.39澳元',
   trade1LotOfNZDCADin: '在澳元结算的帐户中交易1手NZD/CAD',
-  tradingVolume: '交易量=*100,000',
-  aUDCADExchangeRate: 'AUD/CAD汇率=*0.9907',
-  pipValue0000109907: '每点价值=*0.0001*/*0.9907*x*100,000*=*10.09澳元',
+  tradingVolume: '交易量= 100,000',
+  aUDCADExchangeRate: 'AUD/CAD汇率= 0.9907',
+  pipValue0000109907: '每点价值= 0.0001 / 0.9907 x 100,000 = 10.09澳元',
   asYouCanSeeTradingDifferent:
     '正如您所看到的，交易不同货币对意味着货币对波动的每点价值也会有所不同——交易AUD/USD时，市场价格每波动1点所带来的资金风险是13.39澳元，而交易NZD/CAD时，相应的每点价值是10.09澳元。',
   toCalculateTheSpecificPrice:
     '要计算出您设置止损的具体价格，接下来您需要计算出在多少点的逆向波动后，仓位的累计亏损会达到200澳元。',
-  aUDUSD: 'AUD/USD——$200*/*$13.39*=*15点止损',
-  nZDCAD: 'NZD/CAD——$200*/*$10.09*=*20点止损',
+  aUDUSD: 'AUD/USD——$200 / $13.39 = 15点止损',
+  nZDCAD: 'NZD/CAD——$200 / $10.09 = 20点止损',
   ifYouWantToSetALargerStop:
     '如果您想要设置一个更大的止损，那么您需要减少交易量——例如，将1标准手的交易量降低至1迷你手（10,000）',
   inTheCaseOfTrading:

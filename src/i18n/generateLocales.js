@@ -1,9 +1,9 @@
 const des = 'locales';
 const src = 'localests';
-const npmScript = 'locales';
-
+const outputFormat = '.json';
 const desPath = `./${des}`;
 const srcPath = `./${src}`;
+const npmScript = 'format';
 
 const {
   promises: fs,
@@ -23,19 +23,9 @@ const { exec } = require('child_process');
   });
   console.log(`1. Remove ${des} folder if exist`);
 
-  // Create folder
-  await fs.mkdir(desPath);
-  console.log(`2. Create ${des} folder`);
-
-  // Copy folder
-  await copyDir(srcPath, desPath);
-  console.log(`3. Copy folder`);
-
-  // Remove @types folder
-  await fs.rmdir(`${desPath}/@types`, { recursive: true }, (err) => {
-    if (err) return console.error(err);
-  });
-  console.log(`4. Remove @types folder if exist`);
+  // Copy folder exclude '@types'
+  await copyDir(srcPath, desPath, '@types');
+  console.log(`2. Copy folder`);
 
   let filenames = readdirSync(desPath);
 
@@ -51,21 +41,22 @@ const { exec } = require('child_process');
           console.error(err.message);
         }
 
-        const fileContent = fileBuffer.toString().replace(/\s/g, '');
+        const fileContent = fileBuffer.toString();
 
-        const contentWeWant = fileContent.match(/=(\{.*\:.*\})/);
-        const replaceStarWithSpace = contentWeWant[1]?.replace(/\*/g, ' ');
+        const contentWeWant = fileContent.match(/(?<= = {)(.*)[^}]*/);
 
-        if (replaceStarWithSpace) {
+        const outputContent = `{${contentWeWant[0]}}`;
+
+        if (contentWeWant[0]) {
           // Rewrite the file with content we want
-          writeFile(jsonFilePath, replaceStarWithSpace, (err) => {
+          writeFile(jsonFilePath, outputContent, (err) => {
             if (err) {
               return console.log(err);
             } else {
               const oldPath = jsonFilePath;
-              const newPath = jsonFilePath.replace(/\.[^.]+$/, '.json');
+              const newPath = jsonFilePath.replace(/\.[^.]+$/, outputFormat);
 
-              // Rename file from whatever to .json
+              // Rename file from whatever to "outputFormat"
               rename(oldPath, newPath, (err) => {
                 if (err) {
                   return console.log(err);
@@ -77,15 +68,15 @@ const { exec } = require('child_process');
       });
     }
   }
-  console.log('5. Rewrite/Rename file from whatever to .json');
+  console.log('3. Rewrite/Rename file from whatever to .json');
 
   exec(`npm run ${npmScript}`);
-  console.log('6. Format json');
+  console.log('4. Format json');
 })();
 
 const path = require('path');
 
-const copyDir = async (src, dest) => {
+const copyDir = async (src, dest, escapeFolder = undefined) => {
   await fs.mkdir(dest, { recursive: true });
   const entries = await fs.readdir(src, { withFileTypes: true });
 
@@ -93,8 +84,10 @@ const copyDir = async (src, dest) => {
     const srcPath = path.join(src, entry.name);
     const destPath = path.join(dest, entry.name);
 
-    entry.isDirectory()
-      ? await copyDir(srcPath, destPath)
-      : await fs.copyFile(srcPath, destPath);
+    if (!entry.name.includes(escapeFolder)) {
+      entry.isDirectory()
+        ? await copyDir(srcPath, destPath)
+        : await fs.copyFile(srcPath, destPath);
+    }
   }
 };

@@ -50,16 +50,16 @@ export const contactUs: ContactUs = {
   setUpVietnam: '设立越南联络处',
   invitedToParticipate: '受邀参加第十六届中国上海理财博览会，接受媒体专访',
   partneredWith:
-    '伙拍印度尼西亚当地知名持牌交易商*–*中央资本期货有限公司，正式迈进全球第四大市场',
+    '伙拍印度尼西亚当地知名持牌交易商 – 中央资本期货有限公司，正式迈进全球第四大市场',
   awardedTheMostInvestorTrusted: '荣膺年度最具投资者信赖贵金属交易商',
   WCGMarketsLtdObtained:
-    'WCG*Markets*Ltd取得圣文森特和格林纳丁斯金融服务管理局（SVGFSA）牌照，号码为126087*BC*2020',
+    'WCG Markets Ltd取得圣文森特和格林纳丁斯金融服务管理局（SVGFSA）牌照，号码为126087 BC 2020',
   establishedMalaysia: '设立马来西亚联络处',
   setUpTaiwan: '设立台湾联络处',
   aLeaderInTheIndustry:
     '业界翘楚吴国强先生强势加盟，负责风控及监控部门。吴先生拥有财务硕士学位及多项国际专业资格，历任多家世界级银行首席交易员和风险管理部主管',
   WCGMarketsLtdObtainedTheFINTRAC:
-    'WCG*Markets*Ltd取得拿大FINTRAC*MSB牌照，号码为*M20282836',
+    'WCG Markets Ltd取得拿大FINTRAC MSB牌照，号码为 M20282836',
   startCharityProjects:
     '启动慈善项目，积极参与教育及医疗慈善项目，致力成为良好企业公民，回馈社会',
   integrateAndUpdate:
@@ -67,5 +67,5 @@ export const contactUs: ContactUs = {
   theTradingSystem:
     '交易系统升级，推出更多新产品，如美股等，优化客户的投资体验',
   focusingOn:
-    '心系乡村素质教育，特赞助知行教育基金会*21-22*年度知行图书角项目，预计最少有6所小学，数以千计的小学生可因此获益'
+    '心系乡村素质教育，特赞助知行教育基金会 21-22 年度知行图书角项目，预计最少有6所小学，数以千计的小学生可因此获益'
 };

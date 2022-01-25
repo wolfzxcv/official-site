@@ -3,7 +3,7 @@ import { CrudeOil } from '../@types/crudeOil';
 export const crudeOil: CrudeOil = {
   crudeOil: '原油',
   crudeOilIsNotOnly:
-    '原油不僅是全球高度追捧的商品，更是在能源供應、工業、交通等方面經濟活動的必須品。CFDs*是商品價格的差價合約，不需要擁有實體產品。總體而言，投資原油*CFDs*意味你可在不必擁有原油產品的情況下，針對石油的差價進行交易，從能源商品價格的升跌波動中獲利。',
+    '原油不僅是全球高度追捧的商品，更是在能源供應、工業、交通等方面經濟活動的必須品。CFDs 是商品價格的差價合約，不需要擁有實體產品。總體而言，投資原油 CFDs 意味你可在不必擁有原油產品的情況下，針對石油的差價進行交易，從能源商品價格的升跌波動中獲利。',
   viewTradingProducts: '查看交易產品',
   howToTradeCommodities: '如何交易大宗商品',
   crudeOilAndNaturalGas:

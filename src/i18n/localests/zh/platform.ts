@@ -18,27 +18,27 @@ export const platform: Platform = {
   automaticAdaptabilityAndScalability: '自動適應性和可擴充性',
   throughTheFurtherDevelopment:
     '透過進一步開發的API程式能夠將WCG MT4與您現有的交易設備完美融合，不管您身處世界任何一個角落，您都可以隨時接入您的交易平台，定制您的指標、進行指令、執行交易，設定限價、止損訂單、以及追蹤市場動向，確保您即使在外出時，也不會錯過任何一個交易機會和重要的市場資料。',
-  downloadWCGMT4TradingPlatform: '下載WCG*MT4交易平台',
+  downloadWCGMT4TradingPlatform: '下載WCG MT4交易平台',
   leadingTradingAndNetworkTechnology:
     '領先的交易和網路技術，擁有您所需要的一切工具，帶給您最佳的交易體驗',
   forPC: '電腦版MT4',
   forMac: 'Mac版MT4',
-  multiAccountManagementSystem: 'MT4多帳戶*管理系統',
+  multiAccountManagementSystem: 'MT4多帳戶 管理系統',
   forIPhone: 'iPhone版MT4',
   forAndroid: 'Android版MT4',
   MT4PcVersion: 'MT4電腦版',
   MetaTrader4IsTheMostPopular:
-    'MetaTrader*4*是全球最受歡迎的線上交易平台， 多年來已在行業內建立了龍頭的地位。MetaTrader*4（MT4）是專門為外匯及期貨等交易而設，交易者可通過其直觀的使用者介面和完善的功能，分析市場走勢、繪製交易圖表、管理他們的倉位與訂單。',
+    'MetaTrader 4 是全球最受歡迎的線上交易平台， 多年來已在行業內建立了龍頭的地位。MetaTrader 4（MT4）是專門為外匯及期貨等交易而設，交易者可通過其直觀的使用者介面和完善的功能，分析市場走勢、繪製交易圖表、管理他們的倉位與訂單。',
   downloadImmediately: '立即下載',
   comprehensiveTechnicalAnalysisFunction: '全面的技術分析功能',
   professionalIconFunctions:
-    '專業圖示功能、交易指標、智慧交易（EAs）等，可適用於所有不同經驗程度的交易者。讓您隨時掌握全球外匯保證金和差價合約（CFD）的最新動態，並通過WCG*MT4隨時隨地進行專業的交易。',
+    '專業圖示功能、交易指標、智慧交易（EAs）等，可適用於所有不同經驗程度的交易者。讓您隨時掌握全球外匯保證金和差價合約（CFD）的最新動態，並通過WCG MT4隨時隨地進行專業的交易。',
   automaticChartingRecords: '自動圖表記錄',
   selfDefinedTechnicalIndicators: '自定技術指標',
   supportMultipleWindows: '支援多重視窗',
   simpleChartingOperation: '圖表操作簡易',
   nineChartingTimePeriods: '九個價格時段',
-  whyChoose: '為何選用MetaTrader*4平台?',
+  whyChoose: '為何選用MetaTrader 4平台?',
   MT4IsTheMostPopularForeign: 'MT4是全球最受歡迎的外匯交易平台，屢獲各式獎項',
   itHasWonVariousAwards: '平台有3種不同的圖表類型、9種時段範圍、39種語言',
   moreThan50Preset: '50多項預設的技術指標及可完全定製化的介面',
@@ -48,9 +48,9 @@ export const platform: Platform = {
   itHasAMobileVersion:
     '擁有手機版交易平台，可用手機APP隨時隨地進行交易、管理訂單',
   provideAnAdvanced: '提供先進的通知信號系統',
-  downloadTheWCGMT4: '立即下載WCG*MT4交易平台',
+  downloadTheWCGMT4: '立即下載WCG MT4交易平台',
   usingMT4AllowsYou:
-    '使用*MT4*讓您能更精準地監控市場，快速又高效地管您的倉位，優化交易策略，提升您你的交易優勢，享受完美的交易體驗。',
+    '使用 MT4 讓您能更精準地監控市場，快速又高效地管您的倉位，優化交易策略，提升您你的交易優勢，享受完美的交易體驗。',
   tradingSystem: '交易系統',
   includesCurrentPriceExecution:
     '包括現價成交，以及買賣雙向交易，四種掛單和二種止損單和追蹤止損功能。一鍵交易功能可以使您從圖表上一次點擊即可直接發送交易命令。內置的報價圖表提供了準確的判斷交易時機的方法。',
@@ -60,10 +60,10 @@ export const platform: Platform = {
   safeAndConvenient: '安全便利',
   advancedTradingAndAnalysisFunctions:
     '先進的交易和分析功能，友好的用戶界面，有助於您輕鬆的了解全部功能和操作規則。符合最高的安全標準。客戶端和平台服務器之間的數據交換完全加密，讓您的交易帳戶得到最安全的保護。',
-  MT4APPVersion: 'MT4*APP*版（安卓*/*iOS）',
+  MT4APPVersion: 'MT4 APP 版（安卓 / iOS）',
   weProvideTheMT4MobileApplication:
-    '我們提供*MT4*移動應用程式，只要在您在手機或平版電腦下載及安裝MT4 APP，可以輕鬆實現隨時隨地交易。MT4*iOS及安卓*APP*提供更簡化的操作介面，能夠更方快捷的監察市場走勢，享受卓越的交易體驗。是您的每日助手，更是您不可替代的工具。',
-  MetaTrader4MobileApp: 'MetaTrader4*手機APP',
+    '我們提供 MT4 移動應用程式，只要在您在手機或平版電腦下載及安裝MT4 APP，可以輕鬆實現隨時隨地交易。MT4 iOS及安卓 APP 提供更簡化的操作介面，能夠更方快捷的監察市場走勢，享受卓越的交易體驗。是您的每日助手，更是您不可替代的工具。',
+  MetaTrader4MobileApp: 'MetaTrader4 手機APP',
   downloadOurMT4MobileAppNow:
     '立即下載我們的MT4移動版應用程式，讓它成為您的交易夥伴，助您隨時隨地進入金融市場，24小時全天候把握每個交易機會。',
   downloadTheIOSVersion: '下載iOS版',
@@ -72,7 +72,7 @@ export const platform: Platform = {
   theMultiAccountManagementSystem:
     '多帳戶管理系統 （MAM）具備重要整合管理功能，讓資產管理人可以僅透過一個介面管理多個帳戶。單一介面讓資產管理人可以有效且精確地為多個個人帳戶配置交易條件，將同樣的交易條件及策略，根據預設的比例平均分配至個別帳戶，協助您管理交易活動並提升管理技巧。',
   consultCustomerServiceImmediately: '立即諮詢客服',
-  MAMAccountSupportsFiveDistributionLogics: 'MAM*帳號支援五種分配邏輯',
+  MAMAccountSupportsFiveDistributionLogics: 'MAM 帳號支援五種分配邏輯',
   theMAMSystemProvidesMultipleRatioSettings:
     'MAM系統提供多項比例設置，您可以依照需求，選擇最適合您的方案，並允許客戶利用五個不同的模組，對交易項進行分配，同時執行所有常見訂單類型。',
   accountNetValueIsAllocatedAccordingToProportion: '帳號凈值按比例配置',
@@ -89,7 +89,7 @@ export const platform: Platform = {
   profit300: '利潤$300',
   totalInvestment: '總投資額$1000',
   totalProfit: '總利潤$600',
-  MAMFeaturesAndAdvantages: 'MAM*特點與優勢',
+  MAMFeaturesAndAdvantages: 'MAM 特點與優勢',
   compatibleWithEA: '與EA（專家顧問）和自動交易策略相容',
   establishMultipleTrading: '為各種政策建立多個交易子群組',
   accordingToAccountLevel: '根據帳戶水準，提供部分平倉功能',

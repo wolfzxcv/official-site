@@ -91,20 +91,20 @@ export const intermediateTrading: IntermediateTrading = {
   upposeYouHaveAUD10:
     '假設您的帳戶內有10,000澳元，您願意拿來承受風險的資金占總資金的2%，接下來您需要計算出交易的倉位大小。在計算過程中，您所交易的貨幣對種類也會影響到開倉量的計算。例如，200澳元的風險資金，在交易AUD/USD時的開倉量與NZD/CAD不同——因為不同貨幣對的每點價值存在差異。',
   trade1LotOfAUDUSDInAn: '在澳元結算的帳戶中交易1手AUD/USD',
-  transactionVolume: '交易量=*100,000',
-  yiPip00001: '1點*=*0.0001',
-  aUDUSDexchangeRate: 'AUD/USD匯率*=*0.7465',
-  pipValue0000107465: '每點價值*=*0.0001/0.7465*x*100,000*=*13.39澳元',
+  transactionVolume: '交易量= 100,000',
+  yiPip00001: '1點 = 0.0001',
+  aUDUSDexchangeRate: 'AUD/USD匯率 = 0.7465',
+  pipValue0000107465: '每點價值 = 0.0001/0.7465 x 100,000 = 13.39澳元',
   trade1LotOfNZDCADin: '在澳元結算的帳戶中交易1手NZD/CAD',
-  tradingVolume: '交易量=*100,000',
-  aUDCADExchangeRate: 'AUD/CAD匯率*=*0.9907',
-  pipValue0000109907: '每點價值*=*0.0001*/*0.9907*x*100,000*=*10.09澳元',
+  tradingVolume: '交易量= 100,000',
+  aUDCADExchangeRate: 'AUD/CAD匯率 = 0.9907',
+  pipValue0000109907: '每點價值 = 0.0001 / 0.9907 x 100,000 = 10.09澳元',
   asYouCanSeeTradingDifferent:
     '正如您所看到的，交易不同貨幣對意味著貨幣對波動的每點價值也會有所不同——交易AUD/USD時，市場價格每波動1點所帶來的資金風險是13.39澳元，而交易NZD/CAD時，相應的每點價值是10.09澳元。',
   toCalculateTheSpecificPrice:
     '要計算出您設置止損的具體價格，接下來您需要計算出在多少點的逆向波動後，倉位的累計虧損會達到200澳元。',
-  aUDUSD: 'AUD/USD——$200*/*$13.39*=*15點止損',
-  nZDCAD: 'NZD/CAD——$200*/*$10.09*=*20點止損',
+  aUDUSD: 'AUD/USD——$200 / $13.39 = 15點止損',
+  nZDCAD: 'NZD/CAD——$200 / $10.09 = 20點止損',
   ifYouWantToSetALargerStop:
     '如果您想要設置一個更大的止損，那麼您需要減少交易量——例如，將1標準手的交易量降低至1迷你手（10,000）',
   inTheCaseOfTrading:

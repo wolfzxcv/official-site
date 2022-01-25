@@ -18,8 +18,8 @@ export const products: Products = {
   leverage: '杠杆比例',
   basicMargin: '基本保证金',
   marginCloseout: '强平保证金',
-  openingTime: '开市时间*(星期一)',
-  closingTime: '收市时间*(星期五)',
+  openingTime: '开市时间 (星期一)',
+  closingTime: '收市时间 (星期五)',
   ounce: '盎司',
   barrels: '桶',
   share: '股',
@@ -76,7 +76,7 @@ export const products: Products = {
   JPN225: '日本日经225指数(CFD)',
   ESP35: '西班牙IBEX35指数(CFD)',
   AUS200: '澳大利亚标准普尔/ASX指数(CFD)',
-  EU50: '欧盟STOXX*50指数(CFD)',
-  FRA40: '法国CAC*40指数(CFD)',
-  GER30: '德国DAX*30指数(CFD)'
+  EU50: '欧盟STOXX 50指数(CFD)',
+  FRA40: '法国CAC 40指数(CFD)',
+  GER30: '德国DAX 30指数(CFD)'
 };

@@ -1,7 +1,7 @@
 # WCG 官網
 
 - [正式環境](https://glb.012wenchuan.com/)
-- [測試環境](http://newwcg.coltech.hk/)
+- [測試環境](http://newwcg.012wenchuan.com)
 
 ## 運行方式
 
@@ -26,10 +26,10 @@
   - src\components\Header\menuList.ts
 - 多國語言
   - public\assets\images (國旗的圖片放在這裡)
-  - src\i18n\locales.ts (編輯下拉選單的語言選項)
+  - src\i18n\config.ts (編輯下拉選單的語言選項)
   - next-i18next.config.js (編輯 router 網址對應的語言有哪些,預設語言是什麼)
   - src\i18n\localests (編寫多國語檔案)
-  - src\i18n\generateLocales.js (執行這個檔案,即可將 src\i18n\localests 內編輯的所有檔案,自動產出 src\i18n\locales 內的 json 檔案)
+  - src\i18n\generateLocales.js (執行這個檔案,即可將 src\i18n\localests 內編輯的所有 ts 檔案,自動產出 src\i18n\locales 內的 json 檔案)
 
 ## 交易產品編輯 (交易產品 > 查看交易產品 )
 

@@ -18,8 +18,8 @@ export const products: Products = {
   leverage: '槓桿比例',
   basicMargin: '基本保證金',
   marginCloseout: '強平保證金',
-  openingTime: '開市時間*(星期一)',
-  closingTime: '收市時間*(星期五)',
+  openingTime: '開市時間 (星期一)',
+  closingTime: '收市時間 (星期五)',
   ounce: '盎司',
   barrels: '桶',
   share: '股',
@@ -76,7 +76,7 @@ export const products: Products = {
   JPN225: '日本日經225指數(CFD)',
   ESP35: '西班牙IBEX35指數(CFD)',
   AUS200: '澳大利亞標準普爾/ASX指數(CFD)',
-  EU50: '歐盟STOXX*50指數(CFD)',
-  FRA40: '法國CAC*40指數(CFD)',
-  GER30: '德國DAX*30指數(CFD)'
+  EU50: '歐盟STOXX 50指數(CFD)',
+  FRA40: '法國CAC 40指數(CFD)',
+  GER30: '德國DAX 30指數(CFD)'
 };

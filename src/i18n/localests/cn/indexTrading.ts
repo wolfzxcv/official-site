@@ -35,10 +35,10 @@ export const indexTrading: IndexTrading = {
   JPN225: '日经指数（JPN225）',
   theMostPopularIndex:
     '东京证券交易所内最流行的指数，是衡量日本经济表现的一个核心指标。日经225的表现与美国股票市场呈现明显的正相关。',
-  AUS200: '澳大利亚ASX*200指数（AUS200）',
+  AUS200: '澳大利亚ASX 200指数（AUS200）',
   theIndexConsistsOfThe200:
     '指数包含了澳大利亚最大的二百家公司。它是一个市值加权指数，意味着总市值越高的公司，对指数价格的影响也越大。',
-  FRA40: '法国CAC*40指数（FRA40）',
+  FRA40: '法国CAC 40指数（FRA40）',
   theBenchmarkIndex:
     '法国股票市场的基准指数。它被广泛用于评估整个欧洲的健康状况。指数包含一些知名的成分公司，例如莱雅集团、AXA（安盛）集团和米其林公司。',
   ESTX50: '欧洲斯托克50指数（ESTX50）',

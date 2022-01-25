@@ -7,8 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "release": "standard-version",
-    "locales": "npx prettier --write ./src/i18n/**/*.json"
+    "release": "standard-version"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.5",

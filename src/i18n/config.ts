@@ -1,14 +1,16 @@
 /** Files to modify locales
- *  next-i18next.config.json
+ *  next-i18next.config.js
  *  */
 
 /** Please use ISO codes to name locales as possible
  * https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
  *  */
 
+import nextI18next from '../../next-i18next.config';
+
 export type Locales = 'cn' | 'ar' | 'en' | 'ms' | 'id' | 'vi' | 'zh';
 
-export const locales: Locales[] = ['cn', 'ar', 'en', 'ms', 'id', 'vi', 'zh'];
+export const locales: Locales[] = nextI18next.i18n.locales as Locales[];
 
 type localesOptions = {
   code: Locales;
