@@ -175,6 +175,17 @@
 6. 因為加密貨幣近期較為敏感,master 分支,導覽列不可出現"加密貨幣"
 7. 常見問題頁面,"如何在 WCG 開戶",及現有 CRM 頁面連結,之後需要再改過
 
+### 環境變數
+
+- NEXT_PUBLIC_API_URL
+  - 除了"財經新聞"以外的所有 API
+- NEXT_PUBLIC_JS_API_URL
+  - 財經新聞的 API
+- NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
+  - Google 分析的 GTM 標籤, 已在此標籤下編輯, 同時控制 Google Analytics 以及 Visitor Analytics
+- NEXT_PUBLIC_EMAIL
+  - 整個網站所使用到的聯絡信箱
+
 ### 活動頁面
 
 - 路徑命名為 activity/活動名稱

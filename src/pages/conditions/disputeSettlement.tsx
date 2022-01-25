@@ -30,7 +30,9 @@ const disputeSettlement: React.FC<{}> = () => {
 
           <Text>
             {`${t('ifYouNeedAnyAssistance')} ${t('orEmailUs')} `}
-            <Link href="mailto:info@wcglb.com">info@wcglb.com</Link>
+            <Link href={`mailto: ${process.env.NEXT_PUBLIC_EMAIL}`}>
+              {`${process.env.NEXT_PUBLIC_EMAIL}`}
+            </Link>
           </Text>
         </Box>
 
@@ -67,7 +69,9 @@ const disputeSettlement: React.FC<{}> = () => {
           <Box my={1}>
             <Text>
               {t('emailTo')}{' '}
-              <Link href="mailto:info@wcglb.com">info@wcglb.com</Link>
+              <Link href={`mailto: ${process.env.NEXT_PUBLIC_EMAIL}`}>
+                {`${process.env.NEXT_PUBLIC_EMAIL}`}
+              </Link>
             </Text>
             <Text>{t('headOfCompliance')}</Text>
             <Text>WCG Markets Ltd</Text>

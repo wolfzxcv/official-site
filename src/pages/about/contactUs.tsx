@@ -130,7 +130,11 @@ const contactUs: React.FC<{}> = () => {
             <InfoTitle title={t('contactUs')} />
             <InfoTitleSub title={t('ifYouNeed')} />
             <Text>{`${t('customerService')}： 4001 203 612`} </Text>
-            <Text>{`${t('customerServiceEmail')}： info@wcglb.com`} </Text>
+            <Text>
+              {`${t('customerServiceEmail')}： ${
+                process.env.NEXT_PUBLIC_EMAIL
+              }`}
+            </Text>
           </Flex>
         </Box>
         <Image

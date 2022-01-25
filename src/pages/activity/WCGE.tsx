@@ -52,7 +52,7 @@ const WCGE: React.FC<{}> = () => {
                 />
                 {'WCG Markets Ltd'.toUpperCase()}
               </Flex>
-              <a href="mailto: info@wcglb.com">
+              <a href={`mailto: ${process.env.NEXT_PUBLIC_EMAIL}`}>
                 <Flex align="center">
                   <Image
                     mr={3}
@@ -61,7 +61,7 @@ const WCGE: React.FC<{}> = () => {
                     src="../assets/images/activity_WCGE_icon2.png"
                     alt="icon2"
                   />
-                  {'info@wcglb.com'.toUpperCase()}
+                  {`${process.env.NEXT_PUBLIC_EMAIL}`.toUpperCase()}
                 </Flex>
               </a>
               <Flex align="center">
@@ -74,7 +74,7 @@ const WCGE: React.FC<{}> = () => {
                 />
                 4001 203 612
               </Flex>
-              <Link href="https://www.wcgmarkets.com/" isExternal>
+              <Link href="https://www.wcgmarkets.com" isExternal>
                 <Flex align="center">
                   <Image
                     mr={3}
@@ -83,8 +83,7 @@ const WCGE: React.FC<{}> = () => {
                     src="../assets/images/activity_WCGE_icon4.png"
                     alt="icon4"
                   />
-
-                  {'https://www.wcgmarkets.com/'.toUpperCase()}
+                  {'www.wcgmarkets.com'.toUpperCase()}
                 </Flex>
               </Link>
             </Flex>
