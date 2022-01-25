@@ -1,7 +1,7 @@
 import { SSRConfig, UserConfig } from 'next-i18next';
 import nextI18nextConfig from '../../next-i18next.config.js';
 import { Locales } from './index';
-import IResources from './locales/@types';
+import IResources from './localests/@types';
 
 const fallbackLng = nextI18nextConfig.i18n.defaultLocale as Locales;
 

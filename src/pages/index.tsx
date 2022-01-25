@@ -22,7 +22,7 @@ import InfoTitle from '../components/Common/InfoTitle';
 import PopUp from '../components/PopUp/PopUp';
 import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
 import { StyledBox } from '../components/Styled/Styled';
-import { Locales } from '../i18n';
+import { Locales } from '../i18n/config';
 import { openChatWindow } from '../utils';
 
 const Index: React.FC<{}> = () => {
