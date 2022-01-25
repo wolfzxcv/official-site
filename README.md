@@ -183,11 +183,9 @@
   - 新增圖片在 public\assets\images 底下, 圖片命名方式為 activity*活動名稱*圖片名稱
   - 用以上方式命名, 將來若想刪除已經過時的活動相關頁面及檔案, 維護會較容易
 
-- 目前已有活動頁面們(依照開發順序陳列)
+- 目前活動頁面們(依照開發順序陳列)
   - [index](http://newwcg.012wenchuan.com/activity)
-  - [WCGZG](http://newwcg.012wenchuan.com/activity/WCGZG)
   - [JYSL](http://newwcg.012wenchuan.com/activity/JYSL)
-  - [WCGI](http://newwcg.012wenchuan.com/activity/WCGI)
   - [WCGE (Business card)](http://newwcg.012wenchuan.com/activity/WCGE)
 
 ## 情報
