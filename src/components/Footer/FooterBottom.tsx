@@ -12,22 +12,14 @@ const FooterBottom: React.FC<{}> = () => {
   return (
     <Flex direction="column" align="center" p={10}>
       <Box fontSize="sm">{t('WCGIsABusinessBrand')}</Box>
-      <Flex direction={{ base: 'column', md: 'row' }} m={3}>
-        <Flex direction="column" mx={2}>
-          <Box fontSize="sm" mb={3}>
-            {t('WCGMarketsLtdIsALimitedLiabilityCompany')}
-          </Box>
-          <Box fontSize="sm" mb={{ base: 3, md: 0 }}>
-            {t('WCGMarketsLtdIsRegulatedByTheFINTRAC')}
-          </Box>
-        </Flex>
+      <Flex direction="column" m={3}>
+        <Box fontSize="sm">{t('WCGMarketsLtdIsALimitedLiabilityCompany')}</Box>
 
-        <Flex direction="column" mx={2}>
-          <Box fontSize="sm" mb={3}>
-            {t('WCGGoldCompany')}
-          </Box>
-          <Box fontSize="sm">{t('WCGGlobalLtd')}</Box>
-        </Flex>
+        <Box fontSize="sm" my={3}>
+          {t('WCGMarketsLtdIsRegulatedByTheFINTRAC')}
+        </Box>
+
+        <Box fontSize="sm">{t('WCGGlobalLtd')}</Box>
       </Flex>
       <Box
         width={{ base: '85vw', md: '92vw' }}

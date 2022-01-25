@@ -184,11 +184,11 @@
   - 用以上方式命名, 將來若想刪除已經過時的活動相關頁面及檔案, 維護會較容易
 
 - 目前已有活動頁面們(依照開發順序陳列)
-  - [index](https://newwcg.coltech.hk/activity)
-  - [WCGZG](https://newwcg.coltech.hk/activity/WCGZG)
-  - [JYSL](http://newwcg.coltech.hk/activity/JYSL)
-  - [WCGI](http://newwcg.coltech.hk/activity/WCGI)
-  - [WCGE (Business card)](https://newwcg.coltech.hk/activity/WCGE)
+  - [index](http://newwcg.012wenchuan.com/activity)
+  - [WCGZG](http://newwcg.012wenchuan.com/activity/WCGZG)
+  - [JYSL](http://newwcg.012wenchuan.com/activity/JYSL)
+  - [WCGI](http://newwcg.012wenchuan.com/activity/WCGI)
+  - [WCGE (Business card)](http://newwcg.012wenchuan.com/activity/WCGE)
 
 ## 情報
 
