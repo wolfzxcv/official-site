@@ -4,9 +4,9 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { Locales } from '../../i18n/config';
 
-interface InfoListProps {
+type InfoListProps = {
   text: string;
-}
+};
 
 const InfoList: React.FC<InfoListProps> = ({ text }: InfoListProps) => {
   const router = useRouter();

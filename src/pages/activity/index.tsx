@@ -305,10 +305,10 @@ const Activity: React.FC<{}> = () => {
   );
 };
 
-interface FeedBackProps {
+type FeedBackProps = {
   wording: string;
   number: number;
-}
+};
 
 const FeedBack: React.FC<FeedBackProps> = ({
   wording,

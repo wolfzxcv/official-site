@@ -14,6 +14,7 @@ import {
 } from '../../components/Product/productsData';
 import { StyledTable } from '../../components/Styled/Styled';
 import { Locales } from '../../i18n/config';
+import { Products } from '../../i18n/locales/@types/products';
 
 const products: React.FC<{}> = () => {
   const { t } = useTranslation('products');
@@ -37,7 +38,7 @@ const products: React.FC<{}> = () => {
         setCategory(option);
       }
     }
-  }, []);
+  }, [productsOptions, router.query?.option]);
 
   const handleCategoryChange = (
     event: React.ChangeEvent<HTMLSelectElement>
@@ -57,10 +58,11 @@ const products: React.FC<{}> = () => {
 
   const formatValue = (val: string) => {
     const getValArr = val.split('*');
+    const valArr1 = getValArr[1] as keyof Products;
     if (getValArr[0] === '') {
-      return t(getValArr[1]);
+      return t(valArr1);
     } else {
-      return `${getValArr[0]} ${t(getValArr[1])}`;
+      return `${getValArr[0]} ${t(valArr1)}`;
     }
   };
 

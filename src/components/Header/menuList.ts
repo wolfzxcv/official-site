@@ -1,15 +1,15 @@
 import { Header } from '../../i18n/locales/@types/header';
 
-export interface ILinkSource {
+export type ILinkSource = {
   i18n: keyof Header;
   href: string;
-}
+};
 
-export interface IMenuItem {
+export type IMenuItem = {
   i18n: keyof Header;
   href?: string;
   children?: ILinkSource[];
-}
+};
 
 export const menuList: IMenuItem[] = [
   {

@@ -4,10 +4,10 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import { Locales } from '../../i18n/config';
 
-interface ApiDataListProps {
+type ApiDataListProps = {
   api: string;
   objectKey: string;
-}
+};
 
 const InfoAccordion = dynamic(() => import('./InfoAccordion'), { ssr: false });
 
@@ -19,7 +19,7 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
   const currentLang = router.locale as Locales;
   useEffect(() => {
     getItems(currentLang);
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [items, setItems] = useState([]);
 

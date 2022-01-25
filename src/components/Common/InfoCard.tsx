@@ -2,7 +2,7 @@ import { Box, Center, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
 import { StyledBoxTag } from '../Styled/Styled';
 
-interface InfoCardProps {
+type InfoCardProps = {
   icon?: JSX.Element;
   image?: JSX.Element;
   title?: string;
@@ -12,7 +12,7 @@ interface InfoCardProps {
   pt?: string;
   withBorder?: boolean;
   withTag?: boolean;
-}
+};
 
 // a row with 2-4 cards
 const InfoCard: React.FC<InfoCardProps> = ({

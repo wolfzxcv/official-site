@@ -9,10 +9,10 @@ const LiveChat = dynamic(() => import('./LiveChat'), { ssr: false });
 const Header = dynamic(() => import('../Header/Header'), { ssr: false });
 const TopLinks = dynamic(() => import('../TopLinks/TopLinks'), { ssr: false });
 
-interface WrapperProps {
+type WrapperProps = {
   maxW?: string;
   children?: React.ReactNode;
-}
+};
 
 const Wrapper: React.FC<WrapperProps> = ({
   children,

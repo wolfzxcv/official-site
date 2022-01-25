@@ -415,13 +415,9 @@ const amlPolicy: React.FC<{}> = () => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (props) => ({
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
-    ...(await serverSideTranslations(props.locale!, [
-      'common',
-      'footer',
-      'header'
-    ]))
+    ...(await serverSideTranslations(locale!, ['common', 'footer', 'header']))
   }
 });
 

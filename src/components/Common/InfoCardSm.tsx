@@ -1,11 +1,11 @@
 import { Box, Center, Text } from '@chakra-ui/react';
 import React from 'react';
 
-interface InfoCardSmProps {
+type InfoCardSmProps = {
   icon?: JSX.Element;
   image?: JSX.Element;
   text: string;
-}
+};
 
 const InfoCardSm: React.FC<InfoCardSmProps> = ({
   icon,

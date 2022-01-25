@@ -4,12 +4,12 @@ import React from 'react';
 import { CgArrowsExchangeAlt } from 'react-icons/cg';
 import { Locales } from '../../i18n/config';
 
-interface MAMProfitListProps {
+type MAMProfitListProps = {
   left: string;
   right: string;
   bg: string;
   percentage: string;
-}
+};
 
 const MAMProfitList: React.FC<MAMProfitListProps> = ({
   left,

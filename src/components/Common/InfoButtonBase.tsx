@@ -4,13 +4,13 @@ import React, { forwardRef } from 'react';
 import { Locales } from '../../i18n/config';
 import { StyledFlex } from '../Styled/Styled';
 
-interface InfoButtonBaseProps {
+type InfoButtonBaseProps = {
   text: string;
   bgColor?: string;
   hoverBg?: string;
   withBorder?: boolean;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
-}
+};
 
 const InfoButtonBase = forwardRef<HTMLDivElement, InfoButtonBaseProps>(
   (

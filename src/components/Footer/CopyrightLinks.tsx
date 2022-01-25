@@ -2,10 +2,10 @@ import { Box } from '@chakra-ui/react';
 import Link from 'next/link';
 import React from 'react';
 
-interface CopyrightLinksProps {
+type CopyrightLinksProps = {
   text: string;
   href: string;
-}
+};
 
 const CopyrightLinks: React.FC<CopyrightLinksProps> = ({
   text,

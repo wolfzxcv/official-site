@@ -30,10 +30,10 @@ type InputFieldProps = InputHTMLAttributes<HTMLInputElement> &
 
 export type IOption = string | IOptionObject;
 
-interface IOptionObject {
+type IOptionObject = {
   id: string;
   value: string;
-}
+};
 
 const InputField: React.FC<InputFieldProps> = ({
   label,

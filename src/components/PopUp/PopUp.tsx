@@ -10,10 +10,10 @@ import {
 } from '@chakra-ui/react';
 import React, { useEffect, useRef } from 'react';
 
-interface PopUpProps {
+type PopUpProps = {
   title: string;
   content: JSX.Element;
-}
+};
 
 const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -23,7 +23,7 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
 
   useEffect(() => {
     openPopUp();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const openPopUp = () => {
     onOpen();

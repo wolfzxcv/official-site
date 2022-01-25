@@ -2,13 +2,13 @@ import { Box, Flex, Stack, Text } from '@chakra-ui/layout';
 import React from 'react';
 
 type ILocation = 'left' | 'right';
-export interface HistoryItemProps {
+export type HistoryItemProps = {
   location?: ILocation;
   year: string;
   month: string;
   text: string[];
   color: string;
-}
+};
 
 const HistoryItem: React.FC<HistoryItemProps> = ({
   location = 'right',
@@ -65,10 +65,10 @@ const HistoryItem: React.FC<HistoryItemProps> = ({
   );
 };
 
-interface StemProps {
+type StemProps = {
   location?: ILocation;
   color: string;
-}
+};
 
 const Stem: React.FC<StemProps> = ({
   color,
@@ -98,11 +98,11 @@ const Stem: React.FC<StemProps> = ({
   );
 };
 
-interface HistoryCircleProps {
+type HistoryCircleProps = {
   location?: ILocation;
   color: string;
   year: string;
-}
+};
 
 const HistoryCircle: React.FC<HistoryCircleProps> = ({
   location = 'right',
@@ -149,11 +149,11 @@ const HistoryCircle: React.FC<HistoryCircleProps> = ({
   );
 };
 
-interface HistoryWordingProps {
+type HistoryWordingProps = {
   location?: ILocation;
   month?: string;
   text?: string[];
-}
+};
 
 const HistoryWording: React.FC<HistoryWordingProps> = ({
   location = 'right',

@@ -17,7 +17,7 @@ import { isUsingMobile } from '../../utils';
 const LangSelector: React.FC<{}> = () => {
   useEffect(() => {
     getCurrentLanguage();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [language, setLanguage] = useState(i18n?.languages[0]);
 
@@ -65,9 +65,10 @@ const LangSelector: React.FC<{}> = () => {
   const handleSetLanguage = (locale: Locales) => {
     // to show option in select
     setLanguage(locale);
-    // to change router locale
 
+    // to change router locale
     router.push(router.asPath, router.asPath, { locale: locale });
+
     // to save locale in localStorage
     localStorage.setItem('language', locale);
   };

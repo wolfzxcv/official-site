@@ -8,6 +8,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
+    "next/core-web-vitals",
     "plugin:@typescript-eslint/eslint-recommended",
     "prettier"
   ],
@@ -36,6 +37,8 @@
     "no-console": "off",
     // suppress errors for missing 'import React' in files
     "react/react-in-jsx-scope": "off",
+    // React component names must start with an uppercase letter.
+    "react-hooks/rules-of-hooks": "off",
 
     /***********************************
      * other plugins

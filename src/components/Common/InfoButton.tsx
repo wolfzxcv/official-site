@@ -5,14 +5,14 @@ import { Locales } from '../../i18n/config';
 import { IProduct } from '../Product/productsData';
 import InfoButtonBase from './InfoButtonBase';
 
-interface InfoButtonProps {
+type InfoButtonProps = {
   text: string;
   href: string;
   option?: IProduct['category'];
   bgColor?: string;
   hoverBg?: string;
   withBorder?: boolean;
-}
+};
 
 const InfoButton: React.FC<InfoButtonProps> = ({
   text,

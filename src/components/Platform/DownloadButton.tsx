@@ -13,12 +13,12 @@ import { BiUser } from 'react-icons/bi';
 import { Locales } from '../../i18n/config';
 import { StyledFlex } from '../Styled/Styled';
 
-interface DownloadButtonProps {
+type DownloadButtonProps = {
   text: string;
   href?: string;
   type?: 'android' | 'ios' | 'user';
   onClick?: React.MouseEventHandler;
-}
+};
 
 const DownloadButton: React.FC<DownloadButtonProps> = ({
   text,

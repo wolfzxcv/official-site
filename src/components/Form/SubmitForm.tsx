@@ -14,22 +14,22 @@ export type IFieldType =
   | 'checkbox'
   | 'select';
 
-export interface IField {
+export type IField = {
   type?: IFieldType;
   options?: IOption[];
   label: string;
   name: string;
   initialValue: string | (string | number)[];
   rule: RequiredStringSchema<string, Record<string, unknown>> | unknown;
-}
+};
 
-interface SubmitFormProps {
+type SubmitFormProps = {
   data: IField[];
   submit: string;
   afterSubmit: string;
   api: string;
   agreement?: string;
-}
+};
 
 const SubmitForm: React.FC<SubmitFormProps> = ({
   data,

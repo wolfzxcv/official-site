@@ -1,13 +1,13 @@
 import { SSRConfig, UserConfig } from 'next-i18next';
 import nextI18nextConfig from '../../next-i18next.config.js';
-import { locales, Locales } from './index';
-import IResources from './localests/@types';
+import { Locales } from './index';
+import IResources from './locales/@types';
 
 const fallbackLng = nextI18nextConfig.i18n.defaultLocale as Locales;
 
 const defaultNS: keyof IResources = 'common';
 
-const TARGET_PATH = './localests';
+const TARGET_PATH = './locales';
 
 const getTranslations = async (
   locales: Locales[],
@@ -15,20 +15,16 @@ const getTranslations = async (
 ) => {
   const resources = {};
 
-  locales.forEach(async (locale) => {
-    modules.forEach(async (module) => {
+  for (const locale of locales) {
+    for (const module of modules) {
       const moduleContent: Record<string, string> = await import(
         `${TARGET_PATH}/${locale}/${module}`
       )[module];
-
-      console.log('moduleContent', resources[locale]);
       resources[locale]
         ? (resources[locale][module] = moduleContent)
         : (resources[locale] = { [module]: moduleContent });
-    });
-  });
-
-  console.log('resources', resources);
+    }
+  }
 
   return resources;
 };
@@ -38,11 +34,8 @@ export const serverSideTranslations = async (
   namespacesRequired: (keyof IResources)[] = [],
   configOverride: UserConfig | null = null
 ): Promise<SSRConfig> => {
-  if (
-    typeof initialLocale !== 'string' ||
-    !locales.find((locale) => locale === initialLocale)
-  ) {
-    throw new Error('Invalid initial locale argument');
+  if (typeof initialLocale !== 'string') {
+    throw new Error('Invalid locale');
   }
 
   if (!Array.isArray(namespacesRequired)) {
@@ -78,15 +71,17 @@ export const serverSideTranslations = async (
     }
   };
 
-  let initialI18nStore = {};
-
-  initialI18nStore = await getTranslations(requestLocales, requestModules);
+  const initialI18nStore = await getTranslations(
+    requestLocales,
+    requestModules
+  );
 
   console.log('initialI18nStore', initialI18nStore);
 
   return {
     _nextI18Next: {
       initialI18nStore,
+      initialLocale,
       userConfig: config
     }
   };

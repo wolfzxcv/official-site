@@ -1,11 +1,11 @@
 import { Text } from '@chakra-ui/react';
 import React from 'react';
 
-interface InfoTitleProps {
+type InfoTitleProps = {
   title: string;
   size?: string;
   minH?: string;
-}
+};
 
 const InfoTitle: React.FC<InfoTitleProps> = ({
   title,

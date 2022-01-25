@@ -26,7 +26,7 @@ const cryptocurrencies: React.FC<{}> = () => {
         router.push('/products');
       }, 3000);
     }
-  }, []);
+  }, [isCN, router]);
 
   return (
     <Wrapper>

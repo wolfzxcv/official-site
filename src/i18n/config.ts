@@ -10,10 +10,10 @@ export type Locales = 'cn' | 'ar' | 'en' | 'ms' | 'id' | 'vi' | 'zh';
 
 export const locales: Locales[] = ['cn', 'ar', 'en', 'ms', 'id', 'vi', 'zh'];
 
-interface localesOptions {
+type localesOptions = {
   code: Locales;
   value: string;
-}
+};
 
 export const localesOptions: localesOptions[] = [
   { code: 'cn', value: '简体' },

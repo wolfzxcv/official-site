@@ -15,9 +15,9 @@ import React, { Fragment } from 'react';
 import { Locales } from '../../i18n/config';
 import { StyledBox } from '../Styled/Styled';
 
-interface InfoAccordionProps {
+type InfoAccordionProps = {
   data: InfoAccordionItemProps[];
-}
+};
 
 const InfoAccordion: React.FC<InfoAccordionProps> = ({
   data
@@ -39,12 +39,12 @@ type IAccordionItemType =
   | 'buttonLink'
   | 'twoSection';
 
-interface IComplexContent {
+type IComplexContent = {
   type: IAccordionItemType;
   objectKey: string;
   secondKey?: string;
-}
-export interface InfoAccordionItemProps {
+};
+export type InfoAccordionItemProps = {
   date?: string;
   title: string;
   htmlContent?: string;
@@ -52,7 +52,7 @@ export interface InfoAccordionItemProps {
   complexContent?: IComplexContent[];
   internalHref?: string;
   externalHref?: string;
-}
+};
 
 const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
   date = '',
@@ -159,7 +159,9 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
                   </Text>
                 </Box>
               )}
-              {each.type === 'image' && <Image py={2} src={each.objectKey} />}
+              {each.type === 'image' && (
+                <Image alt="image" py={2} src={each.objectKey} />
+              )}
               {each.type === 'buttonLink' && each.secondKey && (
                 <Link
                   _hover={{

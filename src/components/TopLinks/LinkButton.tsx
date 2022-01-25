@@ -2,7 +2,7 @@ import { Box, Link } from '@chakra-ui/react';
 import React from 'react';
 import { isIOS } from '../../utils';
 
-interface LinkButtonProps {
+type LinkButtonProps = {
   text: string;
   href?: string;
   inMobile?: boolean;
@@ -11,7 +11,7 @@ interface LinkButtonProps {
   mdWidth?: string;
   isFooter?: boolean;
   onClick?: () => void;
-}
+};
 
 const LinkButton: React.FC<LinkButtonProps> = ({
   text,

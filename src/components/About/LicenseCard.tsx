@@ -2,13 +2,13 @@ import { Box, Flex, Link } from '@chakra-ui/layout';
 import React from 'react';
 import { StyledBox } from '../Styled/Styled';
 
-interface LicenseCardProps {
+type LicenseCardProps = {
   image: JSX.Element;
   text: string;
   textHeight?: string;
   button?: string;
   link?: string;
-}
+};
 
 const LicenseCard: React.FC<LicenseCardProps> = ({
   image,

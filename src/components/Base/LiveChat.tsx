@@ -5,6 +5,7 @@ const LiveChat: React.FC<{}> = () => {
   return (
     <>
       <Script
+        id="LiveChat"
         strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `

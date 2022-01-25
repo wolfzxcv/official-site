@@ -1,9 +1,9 @@
 import { Text } from '@chakra-ui/react';
 import React from 'react';
 
-interface InfoTitleSubProps {
+type InfoTitleSubProps = {
   title: string;
-}
+};
 
 const InfoTitleSub: React.FC<InfoTitleSubProps> = ({
   title

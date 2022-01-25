@@ -1,13 +1,13 @@
 import { Box, Center, Link, Text } from '@chakra-ui/react';
 import React from 'react';
 
-interface MT4DownloadOptionProps {
+type MT4DownloadOptionProps = {
   icon?: JSX.Element;
   image?: JSX.Element;
   text: string;
   href: string;
   inMobile?: boolean;
-}
+};
 
 const MT4DownloadOption: React.FC<MT4DownloadOptionProps> = ({
   icon,
