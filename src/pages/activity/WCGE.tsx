@@ -74,7 +74,7 @@ const WCGE: React.FC<{}> = () => {
                 />
                 4001 203 612
               </Flex>
-              <Link href="http://www.wcgmarkets.com/" isExternal>
+              <Link href="https://www.wcgmarkets.com/" isExternal>
                 <Flex align="center">
                   <Image
                     mr={3}
@@ -84,7 +84,7 @@ const WCGE: React.FC<{}> = () => {
                     alt="icon4"
                   />
 
-                  {'http://www.wcgmarkets.com/'.toUpperCase()}
+                  {'https://www.wcgmarkets.com/'.toUpperCase()}
                 </Flex>
               </Link>
             </Flex>
@@ -122,17 +122,6 @@ const WCGE: React.FC<{}> = () => {
                 <Box>在线客服</Box>
               </Flex>
             </Link>
-
-            <Flex align="center" my={2}>
-              <Image
-                mr={3}
-                w="25px"
-                h="26px"
-                src="../assets/images/activity_WCGE_icon8.png"
-                alt="icon8"
-              />
-              金銀業貿易埸12行員
-            </Flex>
           </Flex>
         </StyledBusinessCard>
       </Flex>
