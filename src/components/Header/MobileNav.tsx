@@ -1,3 +1,5 @@
+import { links } from '@/assets/links';
+import { IMenuItem, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
@@ -15,7 +17,6 @@ import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import LinkButton from '../TopLinks/LinkButton';
-import { IMenuItem, menuList } from './menuList';
 
 const MobileNav = () => {
   const [isShowSubButtons, setIsShowSubButtons] = useState(false);
@@ -48,7 +49,7 @@ const MobileNav = () => {
 
         <LinkButton
           text={t('iBCenter')}
-          href="https://broker.wc012.com/"
+          href={links.iBCenter}
           inMobile
         ></LinkButton>
       </Flex>
@@ -65,7 +66,7 @@ const MobileNav = () => {
 
         <LinkButton
           text={t('usersCenterOld')}
-          href="https://trader.wc012.com/login"
+          href={links.usersCenterOld}
           inMobile
         ></LinkButton>
       </Flex>

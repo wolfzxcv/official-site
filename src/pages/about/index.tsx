@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import LicenseCard from '@/components/About/LicenseCard';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoButton from '@/components/Common/InfoButton';
@@ -47,7 +48,7 @@ const about: React.FC<{}> = () => {
           <Box>{t('WCGHasASolidFoundation')}</Box>
           <LinkButton
             text={t('registerARealAccountNow')}
-            href="https://trader.wc012.com/register"
+            href={links.registerReal}
             inMobile
             borderColor="#b81c22"
             mdWidth="300px"
@@ -55,7 +56,7 @@ const about: React.FC<{}> = () => {
 
           <LinkButton
             text={t('registerADemoAccountNow')}
-            href="https://trader.wc012.com/registerMock"
+            href={links.registerDemo}
             inMobile
             borderColor="green"
             mdWidth="300px"
@@ -278,7 +279,7 @@ const about: React.FC<{}> = () => {
           }
           text={t('WCGMarketsLtdIsSupervised')}
           button={t('view')}
-          link="http://www.cgse.com.hk/chines/en/cgse-recognized-e-trading-member-list"
+          link="https://www10.fintrac-canafe.gc.ca/msb-esm/public/detailed-information/msb-details/7b226d73624f72674e756d626572223a3136333237382c227072696d617279536561726368223a7b226f72674e616d65223a22574347204d41524b455453204c5444222c2273656172636854797065223a337d7d/"
         />
       </Flex>
     </Wrapper>

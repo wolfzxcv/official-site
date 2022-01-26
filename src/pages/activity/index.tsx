@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
 import { openChatWindow } from '@/utils';
@@ -250,7 +251,7 @@ const Activity: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href="https://trader.wc012.com/register"
+              href={links.registerReal}
               isExternal
             >
               <Box

@@ -15,6 +15,8 @@ export const StyledIconButton = styled(IconButton)`
   }
 `;
 
+export const StyledIconButtonBase = styled(IconButton)``;
+
 export const StyledBoxTag = styled(Box)`
   width: 0;
   height: 0;

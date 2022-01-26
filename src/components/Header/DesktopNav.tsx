@@ -1,3 +1,4 @@
+import { ILinkSource, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import {
@@ -17,7 +18,6 @@ import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { ILinkSource, menuList } from './menuList';
 
 const DesktopNav = () => {
   const { t } = useTranslation('header');

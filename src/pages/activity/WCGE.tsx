@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import { Box, Flex, Image, Link } from '@chakra-ui/react';
 import styled from '@emotion/styled';
@@ -52,7 +53,7 @@ const WCGE: React.FC<{}> = () => {
                 />
                 {'WCG Markets Ltd'.toUpperCase()}
               </Flex>
-              <a href={`mailto: ${process.env.NEXT_PUBLIC_EMAIL}`}>
+              <a href={`mailto: ${links.email}`}>
                 <Flex align="center">
                   <Image
                     mr={3}
@@ -61,7 +62,7 @@ const WCGE: React.FC<{}> = () => {
                     src="../assets/images/activity_WCGE_icon2.png"
                     alt="icon2"
                   />
-                  {`${process.env.NEXT_PUBLIC_EMAIL}`.toUpperCase()}
+                  {`${links.email}`.toUpperCase()}
                 </Flex>
               </a>
               <Flex align="center">

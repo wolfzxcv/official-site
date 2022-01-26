@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoCardSm from '@/components/Common/InfoCardSm';
@@ -56,7 +57,7 @@ const MT4PCDownload: React.FC<{}> = () => {
             width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
           >
             <DownloadButton
-              href="https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe"
+              href={links.mt4APP}
               text={t('downloadImmediately')}
             />
           </Box>
@@ -206,10 +207,7 @@ const MT4PCDownload: React.FC<{}> = () => {
           mb={20}
           width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
         >
-          <DownloadButton
-            href="https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe"
-            text={t('downloadImmediately')}
-          />
+          <DownloadButton href={links.mt4APP} text={t('downloadImmediately')} />
         </Box>
       </Center>
     </Wrapper>

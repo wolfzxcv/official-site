@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import {
   Center,
   Flex,
@@ -24,14 +25,14 @@ const TopLinks: React.FC<{}> = () => {
     >
       <LinkButton
         text={t('openRealAccount')}
-        href="https://trader.wc012.com/register"
+        href={links.registerReal}
         inMobile
         borderColor="#b81c22"
       ></LinkButton>
 
       <LinkButton
         text={t('openDemoAccount')}
-        href="https://trader.wc012.com/registerMock"
+        href={links.registerDemo}
         inMobile
         borderColor="green"
       ></LinkButton>
@@ -45,19 +46,19 @@ const TopLinks: React.FC<{}> = () => {
 
         <PopoverContent border={0} bg="gray.700" px={0} py={3} width="auto">
           <Stack spacing={3}>
-            <LinkButton text={t('usersCenterNew')}></LinkButton>
+            <LinkButton
+              text={t('usersCenterNew')}
+              href={links.usersCenterNew}
+            ></LinkButton>
             <LinkButton
               text={t('usersCenterOld')}
-              href="https://trader.wc012.com/login"
+              href={links.usersCenterOld}
             ></LinkButton>
           </Stack>
         </PopoverContent>
       </Popover>
 
-      <LinkButton
-        text={t('iBCenter')}
-        href="https://broker.wc012.com/"
-      ></LinkButton>
+      <LinkButton text={t('iBCenter')} href={links.iBCenter}></LinkButton>
     </Flex>
   );
 };

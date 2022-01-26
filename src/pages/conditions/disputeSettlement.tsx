@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoTitle from '@/components/Common/InfoTitle';
 import { Locales } from '@/i18n/config';
@@ -30,9 +31,7 @@ const disputeSettlement: React.FC<{}> = () => {
 
           <Text>
             {`${t('ifYouNeedAnyAssistance')} ${t('orEmailUs')} `}
-            <Link href={`mailto: ${process.env.NEXT_PUBLIC_EMAIL}`}>
-              {`${process.env.NEXT_PUBLIC_EMAIL}`}
-            </Link>
+            <Link href={`mailto: ${links.email}`}>{`${links.email}`}</Link>
           </Text>
         </Box>
 
@@ -69,9 +68,7 @@ const disputeSettlement: React.FC<{}> = () => {
           <Box my={1}>
             <Text>
               {t('emailTo')}{' '}
-              <Link href={`mailto: ${process.env.NEXT_PUBLIC_EMAIL}`}>
-                {`${process.env.NEXT_PUBLIC_EMAIL}`}
-              </Link>
+              <Link href={`mailto: ${links.email}`}>{`${links.email}`}</Link>
             </Text>
             <Text>{t('headOfCompliance')}</Text>
             <Text>WCG Markets Ltd</Text>

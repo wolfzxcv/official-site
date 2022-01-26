@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoCardSm from '@/components/Common/InfoCardSm';
@@ -58,7 +59,7 @@ const MT4APPDownload: React.FC<{}> = () => {
               width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
             >
               <DownloadButton
-                href="https://apps.apple.com/us/app/metatrader-4/id496212596"
+                href={links.mt4IOS}
                 text={t('downloadTheIOSVersion')}
                 type="ios"
               />
@@ -70,7 +71,7 @@ const MT4APPDownload: React.FC<{}> = () => {
               width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
             >
               <DownloadButton
-                href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en&referrer=ref_id%3d5189084203383832573%26server%3dWenChuanGlobalLtd-Demo%252cWenChuanGlobalLtd-Live"
+                href={links.mt4Android}
                 text={t('downloadTheAndroidVersion')}
                 type="android"
               />
@@ -232,7 +233,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
         >
           <DownloadButton
-            href="https://apps.apple.com/us/app/metatrader-4/id496212596"
+            href={links.mt4IOS}
             text={t('downloadTheIOSVersion')}
             type="ios"
           />
@@ -244,7 +245,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
         >
           <DownloadButton
-            href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en&referrer=ref_id%3d5189084203383832573%26server%3dWenChuanGlobalLtd-Demo%252cWenChuanGlobalLtd-Live"
+            href={links.mt4Android}
             text={t('downloadTheAndroidVersion')}
             type="android"
           />

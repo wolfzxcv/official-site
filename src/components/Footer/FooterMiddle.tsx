@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import { Box, Flex, Stack, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -28,7 +29,7 @@ const FooterMiddle: React.FC<{}> = () => {
             <StyledBox width={{ base: '30vw', md: '15vw' }}>
               <LinkButton
                 text={t('common:openRealAccount')}
-                href="https://trader.wc012.com/register"
+                href={links.registerReal}
                 inMobile
                 borderColor="#b81c22"
                 isFooter
@@ -48,7 +49,7 @@ const FooterMiddle: React.FC<{}> = () => {
             <StyledBox width={{ base: '30vw', md: '15vw' }}>
               <LinkButton
                 text={t('common:openDemoAccount')}
-                href="https://trader.wc012.com/registerMock"
+                href={links.registerDemo}
                 inMobile
                 borderColor="green"
                 isFooter

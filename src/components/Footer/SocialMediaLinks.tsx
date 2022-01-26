@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import { Box, Flex, Image, Link, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -15,7 +16,7 @@ const SocialMediaLinks: React.FC<{}> = () => {
           color: 'gray.700'
         }}
         mx={1}
-        href="https://www.facebook.com/WCG-109473260957040"
+        href={links.facebook}
         isExternal
       >
         <Image
@@ -30,7 +31,7 @@ const SocialMediaLinks: React.FC<{}> = () => {
           bgColor: 'gray.500',
           color: 'gray.700'
         }}
-        href="https://www.instagram.com/wcg_markets/"
+        href={links.instagram}
         isExternal
       >
         <Image

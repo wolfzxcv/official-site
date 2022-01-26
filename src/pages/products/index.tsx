@@ -1,11 +1,11 @@
-import Wrapper from '@/components/Base/Wrapper';
-import InfoTitle from '@/components/Common/InfoTitle';
 import {
   IDetail,
   IDetailKey,
   IProduct,
   productsData
-} from '@/components/Product/productsData';
+} from '@/assets/productsData';
+import Wrapper from '@/components/Base/Wrapper';
+import InfoTitle from '@/components/Common/InfoTitle';
 import { StyledTable } from '@/components/Styled/Styled';
 import { Locales } from '@/i18n/config';
 import { Products } from '@/i18n/localests/@types/products';

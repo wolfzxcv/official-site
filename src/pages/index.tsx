@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
@@ -471,7 +472,7 @@ const Index: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href="https://trader.wc012.com/register"
+              href={links.registerReal}
               isExternal
             >
               <StyledBox
@@ -506,7 +507,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               textDecoration: 'none'
             }}
-            href="https://trader.wc012.com/register"
+            href={links.registerReal}
             isExternal
           >
             <StyledBox
@@ -690,7 +691,7 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href="https://apps.apple.com/us/app/metatrader-4/id496212596"
+            href={links.mt4IOS}
           >
             <Image src="../assets/images/home_apple.png" alt="apple"></Image>
           </Link>
@@ -700,7 +701,7 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en&referrer=ref_id%3d5189084203383832573%26server%3dWenChuanGlobalLtd-Demo%252cWenChuanGlobalLtd-Live"
+            href={links.mt4Android}
           >
             <Image
               src="../assets/images/home_android.png"
@@ -713,7 +714,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               transform: 'scale(1.2)'
             }}
-            href="https://download.mql5.com/cdn/web/17749/mt4/WenChuangloballtd4setup.exe"
+            href={links.mt4APP}
           >
             <Image src="../assets/images/home_pc.png" alt="pc"></Image>
           </Link>

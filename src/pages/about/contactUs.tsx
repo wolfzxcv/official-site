@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoTitle from '@/components/Common/InfoTitle';
 import InfoTitleSub from '@/components/Common/InfoTitleSub';
@@ -130,11 +131,7 @@ const contactUs: React.FC<{}> = () => {
             <InfoTitle title={t('contactUs')} />
             <InfoTitleSub title={t('ifYouNeed')} />
             <Text>{`${t('customerService')}： 4001 203 612`} </Text>
-            <Text>
-              {`${t('customerServiceEmail')}： ${
-                process.env.NEXT_PUBLIC_EMAIL
-              }`}
-            </Text>
+            <Text>{`${t('customerServiceEmail')}： ${links.email}`}</Text>
           </Flex>
         </Box>
         <Image

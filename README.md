@@ -21,9 +21,11 @@
 設定以下項目,各自對應的設定檔案(或檔案位置)
 
 - 交易產品
-  - src\components\Product\productsData.ts
+  - src\assets\productsData.ts
 - 導覽列
-  - src\components\Header\menuList.ts
+  - src\assets\menuList.ts
+- 連結
+  - src\assets\links.ts
 - 多國語言
   - public\assets\images (國旗的圖片放在這裡)
   - src\i18n\config.ts (編輯下拉選單的語言選項)
@@ -183,8 +185,6 @@
   - 財經新聞的 API
 - NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
   - Google 分析的 GTM 標籤, 已在此標籤下編輯, 同時控制 Google Analytics 以及 Visitor Analytics
-- NEXT_PUBLIC_EMAIL
-  - 整個網站所使用到的聯絡信箱
 
 ### 活動頁面
 

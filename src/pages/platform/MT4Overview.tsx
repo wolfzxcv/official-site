@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
@@ -118,7 +119,7 @@ const MT4Overview: React.FC<{}> = () => {
         </Box>
         <Flex>
           <MT4DownloadOption
-            href="https://apps.apple.com/us/app/metatrader-4/id496212596"
+            href={links.mt4IOS}
             image={
               <Image
                 src="../assets/images/mt4overview_ios.png"
@@ -129,7 +130,7 @@ const MT4Overview: React.FC<{}> = () => {
             inMobile
           />
           <MT4DownloadOption
-            href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en&referrer=ref_id%3d5189084203383832573%26server%3dWenChuanGlobalLtd-Demo%252cWenChuanGlobalLtd-Live"
+            href={links.mt4Android}
             image={
               <Image
                 src="../assets/images/mt4overview_android.png"
@@ -140,7 +141,7 @@ const MT4Overview: React.FC<{}> = () => {
             inMobile
           />
           <MT4DownloadOption
-            href="https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe"
+            href={links.mt4APP}
             image={
               <Image src="../assets/images/mt4overview_pc.png" alt="forPC" />
             }
