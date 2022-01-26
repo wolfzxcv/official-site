@@ -1,12 +1,12 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoTitle from '@/components/Common/InfoTitle';
+import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/config';
 
 const disputeSettlement: React.FC<{}> = () => {
   const { t } = useTranslation('conditions');

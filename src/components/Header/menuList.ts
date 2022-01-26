@@ -1,4 +1,4 @@
-import { Header } from '../../i18n/localests/@types/header';
+import { Header } from '@/i18n/localests/@types/header';
 
 export type ILinkSource = {
   i18n: keyof Header;

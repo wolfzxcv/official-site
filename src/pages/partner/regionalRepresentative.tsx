@@ -1,3 +1,10 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoButtonBase from '@/components/Common/InfoButtonBase';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import { StyledBoxTag } from '@/components/Styled/Styled';
+import { Locales } from '@/i18n/config';
+import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -6,13 +13,6 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { MdLocationOn, MdMessage } from 'react-icons/md';
 import { RiUserStarLine } from 'react-icons/ri';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoButtonBase from '../../components/Common/InfoButtonBase';
-import InfoCard from '../../components/Common/InfoCard';
-import InfoTitle from '../../components/Common/InfoTitle';
-import { StyledBoxTag } from '../../components/Styled/Styled';
-import { Locales } from '../../i18n/config';
-import { openChatWindow } from '../../utils';
 
 const regionalRepresentative: React.FC<{}> = () => {
   const { t } = useTranslation('regionalRepresentative');

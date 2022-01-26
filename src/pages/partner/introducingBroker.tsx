@@ -1,3 +1,9 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoButtonBase from '@/components/Common/InfoButtonBase';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import { Locales } from '@/i18n/config';
+import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -8,12 +14,6 @@ import { AiOutlineProfile } from 'react-icons/ai';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { ImProfile, ImTree } from 'react-icons/im';
 import { RiListSettingsLine, RiRefund2Line } from 'react-icons/ri';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoButtonBase from '../../components/Common/InfoButtonBase';
-import InfoCard from '../../components/Common/InfoCard';
-import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/config';
-import { openChatWindow } from '../../utils';
 
 const introducingBroker: React.FC<{}> = () => {
   const { t } = useTranslation('iBBroker');

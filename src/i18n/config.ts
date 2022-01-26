@@ -6,7 +6,7 @@
  * https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
  *  */
 
-import nextI18next from '../../next-i18next.config';
+import nextI18next from '~/next-i18next.config';
 
 export type Locales = 'cn' | 'ar' | 'en' | 'ms' | 'id' | 'vi' | 'zh';
 

@@ -1,12 +1,12 @@
+import Wrapper from '@/components/Base/Wrapper';
+import ApiDataList from '@/components/Common/ApiDataList';
+import InfoTitle from '@/components/Common/InfoTitle';
+import InfoTitleSub from '@/components/Common/InfoTitleSub';
 import { Flex } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
-import Wrapper from '../../components/Base/Wrapper';
-import ApiDataList from '../../components/Common/ApiDataList';
-import InfoTitle from '../../components/Common/InfoTitle';
-import InfoTitleSub from '../../components/Common/InfoTitleSub';
 
 const marketAnalysis: React.FC<{}> = () => {
   const { t } = useTranslation('marketNews');

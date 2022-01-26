@@ -1,8 +1,8 @@
+import { Locales } from '@/i18n/config';
 import { Box, Center, Flex } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { CgArrowsExchangeAlt } from 'react-icons/cg';
-import { Locales } from '../../i18n/config';
 
 type MAMProfitListProps = {
   left: string;

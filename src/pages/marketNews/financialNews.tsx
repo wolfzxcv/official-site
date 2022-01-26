@@ -1,3 +1,9 @@
+import Wrapper from '@/components/Base/Wrapper';
+import ApiDataList from '@/components/Common/ApiDataList';
+import InfoTitle from '@/components/Common/InfoTitle';
+import InfoTitleSub from '@/components/Common/InfoTitleSub';
+import { Locales } from '@/i18n/config';
+import { formatLang, formatTimestamp } from '@/utils';
 import { Box, Flex, Image } from '@chakra-ui/react';
 import axios from 'axios';
 import { GetStaticProps } from 'next';
@@ -5,12 +11,6 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import Wrapper from '../../components/Base/Wrapper';
-import ApiDataList from '../../components/Common/ApiDataList';
-import InfoTitle from '../../components/Common/InfoTitle';
-import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { Locales } from '../../i18n/config';
-import { formatLang, formatTimestamp } from '../../utils';
 
 type INews = {
   id: string;

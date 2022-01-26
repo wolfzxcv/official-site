@@ -1,3 +1,5 @@
+import { Locales } from '@/i18n/config';
+import { openChatWindow, scrollToTop } from '@/utils';
 import { Flex, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
@@ -10,8 +12,6 @@ import {
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
-import { Locales } from '../../i18n/config';
-import { openChatWindow, scrollToTop } from '../../utils';
 import { StyledBox, StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {

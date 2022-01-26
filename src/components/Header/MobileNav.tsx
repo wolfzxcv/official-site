@@ -1,3 +1,4 @@
+import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
   Collapse,
@@ -13,7 +14,6 @@ import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
-import { Locales } from '../../i18n/config';
 import LinkButton from '../TopLinks/LinkButton';
 import { IMenuItem, menuList } from './menuList';
 

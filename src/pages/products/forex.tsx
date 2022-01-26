@@ -1,3 +1,9 @@
+import Wrapper from '@/components/Base/Wrapper';
+import { InfoAccordionItemProps } from '@/components/Common/InfoAccordion';
+import InfoButton from '@/components/Common/InfoButton';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -8,15 +14,9 @@ import React from 'react';
 import { AiOutlineFieldTime } from 'react-icons/ai';
 import { HiServer, HiTrendingDown, HiTrendingUp } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
-import Wrapper from '../../components/Base/Wrapper';
-import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
-import InfoButton from '../../components/Common/InfoButton';
-import InfoCard from '../../components/Common/InfoCard';
-import InfoTitle from '../../components/Common/InfoTitle';
-import { Locales } from '../../i18n/config';
 
 const InfoAccordion = dynamic(
-  () => import('../../components/Common/InfoAccordion'),
+  () => import('@/components/Common/InfoAccordion'),
   { ssr: false }
 );
 

@@ -1,3 +1,12 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import InfoTitleSub from '@/components/Common/InfoTitleSub';
+import DownloadButton from '@/components/Platform/DownloadButton';
+import InfoList from '@/components/Platform/InfoList';
+import MAMProfitList from '@/components/Platform/MAMProfitList';
+import { Locales } from '@/i18n/config';
+import { openChatWindow } from '@/utils';
 import { Box, Center, Flex, Image, List, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -5,15 +14,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { GiReceiveMoney } from 'react-icons/gi';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoCard from '../../components/Common/InfoCard';
-import InfoTitle from '../../components/Common/InfoTitle';
-import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import DownloadButton from '../../components/Platform/DownloadButton';
-import InfoList from '../../components/Platform/InfoList';
-import MAMProfitList from '../../components/Platform/MAMProfitList';
-import { Locales } from '../../i18n/config';
-import { openChatWindow } from '../../utils';
 
 const MAMSystem: React.FC<{}> = () => {
   const { t } = useTranslation('platform');

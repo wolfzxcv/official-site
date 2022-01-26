@@ -1,3 +1,4 @@
+import { Locales } from '@/i18n/config';
 import {
   Accordion,
   AccordionButton,
@@ -12,7 +13,6 @@ import {
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { Fragment } from 'react';
-import { Locales } from '../../i18n/config';
 import { StyledBox } from '../Styled/Styled';
 
 type InfoAccordionProps = {

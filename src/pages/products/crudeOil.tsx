@@ -1,15 +1,15 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoButton from '@/components/Common/InfoButton';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import InfoTitleSub from '@/components/Common/InfoTitleSub';
+import { Locales } from '@/i18n/config';
 import { Box, Center, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoButton from '../../components/Common/InfoButton';
-import InfoCard from '../../components/Common/InfoCard';
-import InfoTitle from '../../components/Common/InfoTitle';
-import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { Locales } from '../../i18n/config';
 
 const crudeOil: React.FC<{}> = () => {
   const { t } = useTranslation('crudeOil');

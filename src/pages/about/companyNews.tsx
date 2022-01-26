@@ -1,13 +1,11 @@
+import HistoryItem, { HistoryItemProps } from '@/components/About/HistoryItem';
+import Wrapper from '@/components/Base/Wrapper';
+import InfoTitle from '@/components/Common/InfoTitle';
 import { Flex } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
-import HistoryItem, {
-  HistoryItemProps
-} from '../../components/About/HistoryItem';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoTitle from '../../components/Common/InfoTitle';
 
 const companyNews: React.FC<{}> = () => {
   const { t } = useTranslation('contactUs');

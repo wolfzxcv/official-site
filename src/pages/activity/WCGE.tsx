@@ -1,8 +1,8 @@
+import HTMLHead from '@/components/Base/HTMLHead';
 import { Box, Flex, Image, Link } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import dynamic from 'next/dynamic';
 import React from 'react';
-import HTMLHead from '../../components/Base/HTMLHead';
 
 const WCGEPopOver = dynamic(() => import('./WCGEPopOver'), { ssr: false });
 

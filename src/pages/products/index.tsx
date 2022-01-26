@@ -1,20 +1,20 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoTitle from '@/components/Common/InfoTitle';
+import {
+  IDetail,
+  IDetailKey,
+  IProduct,
+  productsData
+} from '@/components/Product/productsData';
+import { StyledTable } from '@/components/Styled/Styled';
+import { Locales } from '@/i18n/config';
+import { Products } from '@/i18n/localests/@types/products';
 import { Box, Center, Flex, Select, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoTitle from '../../components/Common/InfoTitle';
-import {
-  IDetail,
-  IDetailKey,
-  IProduct,
-  productsData
-} from '../../components/Product/productsData';
-import { StyledTable } from '../../components/Styled/Styled';
-import { Locales } from '../../i18n/config';
-import { Products } from '../../i18n/localests/@types/products';
 
 const products: React.FC<{}> = () => {
   const { t } = useTranslation('products');

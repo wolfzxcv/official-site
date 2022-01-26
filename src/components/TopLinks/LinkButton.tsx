@@ -1,6 +1,6 @@
+import { isIOS } from '@/utils';
 import { Box, Link } from '@chakra-ui/react';
 import React from 'react';
-import { isIOS } from '../../utils';
 
 type LinkButtonProps = {
   text: string;

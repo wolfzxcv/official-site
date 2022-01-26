@@ -1,3 +1,5 @@
+import { Locales } from '@/i18n/config';
+import { openChatWindow, scrollToTop } from '@/utils';
 import {
   Box,
   Flex,
@@ -24,8 +26,6 @@ import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
 import { GiTalk } from 'react-icons/gi';
-import { Locales } from '../../i18n/config';
-import { openChatWindow, scrollToTop } from '../../utils';
 
 const BackToTopMobile: React.FC<{}> = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

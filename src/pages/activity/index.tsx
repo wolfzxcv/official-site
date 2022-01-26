@@ -1,9 +1,9 @@
+import HTMLHead from '@/components/Base/HTMLHead';
+import LiveChat from '@/components/Base/LiveChat';
+import { openChatWindow } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import React from 'react';
-import HTMLHead from '../../components/Base/HTMLHead';
-import LiveChat from '../../components/Base/LiveChat';
-import { openChatWindow } from '../../utils';
 
 const dark = '#182227';
 const light = '#f0edc0';

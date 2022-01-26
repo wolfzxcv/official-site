@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import packageJson from '../../../package.json';
+import packageJson from '~/package.json';
 
 const HTMLHead: React.FC<{}> = () => {
   return (

@@ -1,3 +1,5 @@
+import { locales, Locales, localesOptions } from '@/i18n/config';
+import { isUsingMobile } from '@/utils';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
   Button,
@@ -11,8 +13,6 @@ import {
 import { i18n } from 'next-i18next';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { locales, Locales, localesOptions } from '../../i18n/config';
-import { isUsingMobile } from '../../utils';
 
 const LangSelector: React.FC<{}> = () => {
   useEffect(() => {

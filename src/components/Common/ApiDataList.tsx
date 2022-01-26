@@ -1,8 +1,8 @@
+import { Locales } from '@/i18n/config';
 import axios from 'axios';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { Locales } from '../../i18n/config';
 
 type ApiDataListProps = {
   api: string;

@@ -1,3 +1,8 @@
+import Wrapper from '@/components/Base/Wrapper';
+import { InfoAccordionItemProps } from '@/components/Common/InfoAccordion';
+import InfoTitle from '@/components/Common/InfoTitle';
+import InfoTitleSub from '@/components/Common/InfoTitleSub';
+import { Locales } from '@/i18n/config';
 import { ArrowBackIcon } from '@chakra-ui/icons';
 import { Box, Flex, IconButton } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
@@ -7,14 +12,9 @@ import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
-import Wrapper from '../../components/Base/Wrapper';
-import { InfoAccordionItemProps } from '../../components/Common/InfoAccordion';
-import InfoTitle from '../../components/Common/InfoTitle';
-import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import { Locales } from '../../i18n/config';
 
 const InfoAccordion = dynamic(
-  () => import('../../components/Common/InfoAccordion'),
+  () => import('@/components/Common/InfoAccordion'),
   { ssr: false }
 );
 

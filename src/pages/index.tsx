@@ -1,3 +1,11 @@
+import Wrapper from '@/components/Base/Wrapper';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import PopUp from '@/components/PopUp/PopUp';
+import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
+import { StyledBox } from '@/components/Styled/Styled';
+import { Locales } from '@/i18n/config';
+import { formatLang, openChatWindow } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import axios from 'axios';
 import { GetStaticProps } from 'next';
@@ -16,14 +24,6 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { GiChampions, GiServerRack } from 'react-icons/gi';
 import { HiServer } from 'react-icons/hi';
 import { ImEarth } from 'react-icons/im';
-import Wrapper from '../components/Base/Wrapper';
-import InfoCard from '../components/Common/InfoCard';
-import InfoTitle from '../components/Common/InfoTitle';
-import PopUp from '../components/PopUp/PopUp';
-import RestrictionsOnUse from '../components/PopUp/RestrictionsOnUse';
-import { StyledBox } from '../components/Styled/Styled';
-import { Locales } from '../i18n/config';
-import { formatLang, openChatWindow } from '../utils';
 
 const Index: React.FC<{}> = () => {
   const [showPopUp, setShowPopUp] = useState(false);

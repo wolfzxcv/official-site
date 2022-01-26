@@ -1,17 +1,17 @@
+import LicenseCard from '@/components/About/LicenseCard';
+import Wrapper from '@/components/Base/Wrapper';
+import InfoButton from '@/components/Common/InfoButton';
+import InfoCard from '@/components/Common/InfoCard';
+import InfoTitle from '@/components/Common/InfoTitle';
+import InfoTitleSub from '@/components/Common/InfoTitleSub';
+import LinkButton from '@/components/TopLinks/LinkButton';
+import { Locales } from '@/i18n/config';
 import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useRouter } from 'next/router';
 import React from 'react';
-import LicenseCard from '../../components/About/LicenseCard';
-import Wrapper from '../../components/Base/Wrapper';
-import InfoButton from '../../components/Common/InfoButton';
-import InfoCard from '../../components/Common/InfoCard';
-import InfoTitle from '../../components/Common/InfoTitle';
-import InfoTitleSub from '../../components/Common/InfoTitleSub';
-import LinkButton from '../../components/TopLinks/LinkButton';
-import { Locales } from '../../i18n/config';
 
 const about: React.FC<{}> = () => {
   const { t } = useTranslation('about');
