@@ -33,6 +33,7 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       <RestrictionsOnUse />
+      {/* <Carousel /> */}
       {isChinese ? <XNHZ /> : <Banner />}
 
       {/* 3 red/white blocks: Safe and secure depository */}
