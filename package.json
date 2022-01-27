@@ -1,5 +1,5 @@
 {
-  "name": "WCG",
+  "name": "wcg-markets",
   "version": "1.11.5",
   "scripts": {
     "dev": "next",

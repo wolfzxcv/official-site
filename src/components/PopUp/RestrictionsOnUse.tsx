@@ -1,7 +1,44 @@
 import { Stack, Text } from '@chakra-ui/layout';
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import PopUp from './PopUp';
 
 const RestrictionsOnUse: React.FC<{}> = () => {
+  const [showPopUp, setShowPopUp] = useState(false);
+
+  useEffect(() => {
+    checkIp();
+  }, []);
+
+  const checkIp = async () => {
+    try {
+      const api = 'wcg/checkIp';
+      const {
+        data: { data }
+      } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
+
+      if (data && data.isShow) {
+        setShowPopUp(true);
+      }
+    } catch (e) {
+      console.log(e);
+      setShowPopUp(true);
+    }
+  };
+
+  return (
+    <>
+      {showPopUp && (
+        <PopUp
+          title="Restrictions on Use 使用限制"
+          content={<RestrictionsOnUseContent />}
+        />
+      )}
+    </>
+  );
+};
+
+const RestrictionsOnUseContent = () => {
   return (
     <Stack spacing={2} py={2}>
       <Text>

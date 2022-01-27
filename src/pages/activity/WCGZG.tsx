@@ -115,7 +115,7 @@ const WCGZG: React.FC<{}> = () => {
             活动时间：2021年09月20日05:00 – 2021年10月30日05:00（北京时间）
           </Text>
           <Text>活动产品：黄金，白银</Text>
-          <Text>活动对象： WCG特选新客户</Text>
+          <Text>活动对象： WCG Markets 特选新客户</Text>
         </Box>
 
         <Box
@@ -126,7 +126,7 @@ const WCGZG: React.FC<{}> = () => {
           fontSize={{ base: '10px', md: '18px' }}
           maxW="680px"
         >
-          活动期间内，只要于WCG
+          活动期间内，只要于WCG Markets
           进行贵金属产品交易，最高可享：每手赠金20美金！赠可即时提取，每位客户赠金总额最高10,000美金！
         </Box>
       </Flex>
@@ -227,10 +227,10 @@ const WCGZG: React.FC<{}> = () => {
           width={{ base: '85vw', md: '80vw' }}
         >
           <Text>注意事项</Text>
-          <Text>1. 任何争议WCG保留最终决定权及最终解释权利;</Text>
-          <Text>2. 每位WCG客户只可使用一个账号参加此活动</Text>
+          <Text>1. 任何争议WCG Markets 保留最终决定权及最终解释权利;</Text>
+          <Text>2. 每位WCG Markets 客户只可使用一个账号参加此活动</Text>
           <Text>
-            3. WCG有权对企图篡改或违反本活动细则条款的客户取消活动资格
+            3. WCG Markets 有权对企图篡改或违反本活动细则条款的客户取消活动资格
           </Text>
           <Text>4. 活动赠金将于北京时间次日14:00前结算添加至客户交易账户</Text>
           <Text>

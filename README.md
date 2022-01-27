@@ -1,4 +1,4 @@
-# WCG 官網
+# WCG Markets 官網
 
 - [正式環境](https://glb.012wenchuan.com/)
 - [測試環境](http://newwcg.012wenchuan.com)

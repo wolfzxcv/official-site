@@ -111,7 +111,7 @@ const Activity: React.FC<{}> = () => {
             textAlign="left"
           >
             <Text>活动产品：美原油、布伦特原油</Text>
-            <Text>活动对象： WCG新客户</Text>
+            <Text>活动对象：WCG Markets 新客户</Text>
           </Box>
 
           <Box
@@ -122,7 +122,7 @@ const Activity: React.FC<{}> = () => {
             textAlign="left"
             maxW="680px"
           >
-            活动期间内，只要于WCG Markets Ltd
+            活动期间内，只要于WCG Markets
             进行原油产品交易，可享：每手原油点差回赠10美金！每累积交易满20手，更额外赠送200美金！每位客户赠金总额最高20,000
           </Box>
         </Box>
@@ -282,11 +282,10 @@ const Activity: React.FC<{}> = () => {
           width={{ base: '85vw', md: '80vw' }}
         >
           <Text>注意事项</Text>
-          <Text>1. 任何争议WCG Markets Ltd保留最终决定权及最终解释权利;</Text>
-          <Text>2. 每位WCG Markets Ltd客户只可使用一个账号参加此活动</Text>
+          <Text>1. 任何争议WCG Markets 保留最终决定权及最终解释权利;</Text>
+          <Text>2. 每位WCG Markets 客户只可使用一个账号参加此活动</Text>
           <Text>
-            3. WCG Markets Ltd
-            有权对企图篡改或违反本活动细则条款的客户取消活动资格;
+            3. WCG Markets 有权对企图篡改或违反本活动细则条款的客户取消活动资格;
           </Text>
           <Text>
             4. 如客户在活动期间,提取全部或部分资金,
@@ -294,11 +293,12 @@ const Activity: React.FC<{}> = () => {
           </Text>
           <Text>5. 原油交易手数定义; 一标准手数原油等于1000桶</Text>
           <Text>
-            6. 所有异常交易将不计算活动交易手数当中 (异常交易的定义参阅WCG官网)
+            6. 所有异常交易将不计算活动交易手数当中 (异常交易的定义参阅WCG
+            Markets 官网)
           </Text>
           <Text>
-            7. WCG Markets Ltd 将保留权利随时修改或终止此促销活动,
-            任何修改或终止活动的通知将以WCG Markets Ltd 发出的公布为准;
+            7. WCG Markets 将保留权利随时修改或终止此促销活动,
+            任何修改或终止活动的通知将以WCG Markets 发出的公布为准;
           </Text>
         </Stack>
       </Flex>

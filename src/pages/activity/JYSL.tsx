@@ -118,7 +118,7 @@ const JYSL: React.FC<{}> = () => {
               活动时间：2021年11月1日05:00 – 2022年1月30日05:00（北京时间）
             </Text>
             <Text>活动产品：黄金，白银</Text>
-            <Text>活动对象： WCG特选客户</Text>
+            <Text>活动对象：WCG Markets 特选客户</Text>
           </Box>
 
           <Box my={10} width={{ base: '70%', md: 'auto' }}>
@@ -144,7 +144,7 @@ const JYSL: React.FC<{}> = () => {
             px={{ base: '1rem', md: 10 }}
             textAlign="center"
           >
-            <Text>活动期间内，只要于WCG 进行贵金属产品交易</Text>
+            <Text>活动期间内，只要于WCG Markets 进行贵金属产品交易</Text>
           </Box>
           <Box
             width={{ base: '100%', md: 'auto' }}
@@ -323,7 +323,7 @@ const JYSL: React.FC<{}> = () => {
           width={{ base: '85vw', md: '80vw' }}
         >
           <Text>注意事项</Text>
-          <Text>1. 每位WCG客户只可使用一个账号参加此活动.</Text>
+          <Text>1. 每位WCG Markets 客户只可使用一个账号参加此活动.</Text>
           <Text>2. 点差回赠将于北京时间次日14:00前结算添加至客户交易账户.</Text>
           <Text>
             3. 首充赠金发放后60天内完成相应的交易手数；贵金属交易手数定义; 黄金
@@ -331,8 +331,9 @@ const JYSL: React.FC<{}> = () => {
             1标准手2500盎司(持仓低于5分钟的订单不计入本次活动的手数)
           </Text>
           <Text>
-            4.
-            若客户通过超短线刷单，AB仓交易或者不正规交易套取赠金，WCG有权停止客户交易，取消赠金并按照WCG交易细则中异常交易的处理方法进行处理.
+            4. 若客户通过超短线刷单，AB仓交易或者不正规交易套取赠金，WCG Markets
+            Markets有权停止客户交易，取消赠金并按照WCG Markets
+            Markets交易细则中异常交易的处理方法进行处理.
           </Text>
           <Text>
             5.
