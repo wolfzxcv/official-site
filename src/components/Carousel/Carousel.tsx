@@ -69,7 +69,7 @@ const Carousel: React.FC<CarouselProps> = ({
           left={{ base: 0, md: 0 }}
           top={'500px'}
           onClick={() => handleLeftArrowClick()}
-          fontSize={{ base: '36px', md: '96px' }}
+          fontSize={{ base: '72px', md: '96px' }}
           color="blue.700"
           bg="transparent"
           borderRadius="50%"
@@ -82,7 +82,7 @@ const Carousel: React.FC<CarouselProps> = ({
           top={'500px'}
           onClick={() => handleRightArrowClick()}
           _hover={{ cursor: 'pointer' }}
-          fontSize={{ base: '36px', md: '96px' }}
+          fontSize={{ base: '72px', md: '96px' }}
           color="blue.700"
           bg="transparent"
           borderRadius="50%"

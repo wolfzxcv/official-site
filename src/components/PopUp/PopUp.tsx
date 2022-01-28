@@ -37,7 +37,7 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
         onClose={onClose}
         isOpen={isOpen}
         isCentered
-        size="md"
+        size="lg"
       >
         <AlertDialogOverlay />
 
@@ -57,7 +57,9 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
             size="lg"
             top={isDesktop ? 1 : 0}
           />
-          <AlertDialogBody>{content}</AlertDialogBody>
+          <AlertDialogBody p={0} border="1px" borderColor="white">
+            {content}
+          </AlertDialogBody>
         </AlertDialogContent>
       </AlertDialog>
     </>
