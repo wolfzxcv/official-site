@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.11.5...v1.12.0) (2022-01-28)
+
+
+### Features
+
+* **carousel:** carousel basic ([94960ca](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/94960ca48e18f9641017fd5c89865c341fa896a9))
+* **wcg15zj:** add WCG15ZJ pop up ([f2898e4](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/f2898e4f1876eacc2da365630d86ff938983c91d))
+
 ### [1.11.5](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.11.4...v1.11.5) (2022-01-27)
 
 ### [1.11.4](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.11.3...v1.11.4) (2022-01-26)

@@ -1,6 +1,6 @@
 {
   "name": "wcg-markets",
-  "version": "1.11.5",
+  "version": "1.12.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
