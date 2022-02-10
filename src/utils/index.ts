@@ -1,3 +1,4 @@
+export * from './cookie';
 export * from './formatLang';
 export * from './formatTimestamp';
 export * from './isUsingMobile';

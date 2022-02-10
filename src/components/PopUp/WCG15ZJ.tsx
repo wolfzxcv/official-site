@@ -9,8 +9,8 @@ const WCG15ZJ: React.FC<{}> = () => {
 const WCG15ZJContent: React.FC<{}> = () => {
   const [isShowDetail, setIsShowDetail] = useState(false);
 
-  const main = 'activity_WCG15ZJ_1.jpg';
-  const detail = 'activity_WCG15ZJ_2.jpg';
+  const main = 'activity_WCG15ZJ_M.jpg';
+  const detail = 'activity_WCG15ZJ_M_detail.jpg';
 
   const pic = isShowDetail ? detail : main;
 

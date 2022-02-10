@@ -14,14 +14,14 @@ const Banner: React.FC<{}> = () => {
 
   return (
     <Box
-      minH="500px"
+      minH={{ base: '600px', md: '500px' }}
       backgroundImage="url('../assets/images/banner.png')"
       bgPosition="top center"
       bgSize="cover"
     >
       <Flex
         height="inherit"
-        minH="500px"
+        minH={{ base: '600px', md: '500px' }}
         direction="column"
         justify="center"
         align="center"
@@ -30,19 +30,19 @@ const Banner: React.FC<{}> = () => {
         <Stack
           textAlign={isArabic ? 'right' : 'left'}
           spacing={3}
-          p={3}
+          p={2}
           width={{ base: '80vw', xl: '60vw' }}
         >
           <Text
             fontWeight="700"
-            fontSize={{ base: '28px', md: '42px' }}
+            fontSize={{ base: '28px', md: '40px' }}
             color="white"
           >
             {t('diversifiedProducts')}
           </Text>
           <Text
             fontWeight="700"
-            fontSize={{ base: '28px', md: '42px' }}
+            fontSize={{ base: '28px', md: '40px' }}
             color="white"
           >
             {t('strongAdvantages')}
@@ -58,7 +58,7 @@ const Banner: React.FC<{}> = () => {
         {/* Button under Banner */}
         <NextLink href="/products" locale={currentLang}>
           <StyledBox
-            m={10}
+            my={{ base: 10, md: 2 }}
             p={2}
             minH="48px"
             minW="200px"

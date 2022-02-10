@@ -1,5 +1,5 @@
 import { locales, Locales, localesOptions } from '@/i18n/config';
-import { isUsingMobile } from '@/utils';
+import { getCookie, isUsingMobile, setCookie } from '@/utils';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
   Button,
@@ -25,14 +25,14 @@ const LangSelector: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   const getCurrentLanguage = () => {
-    const langInLocalStorage = localStorage.getItem('language') as Locales;
+    const langInCookie = getCookie('lang') as Locales;
 
     if (
-      langInLocalStorage &&
-      locales.includes(langInLocalStorage) &&
-      langInLocalStorage !== currentLang
+      langInCookie &&
+      locales.includes(langInCookie) &&
+      langInCookie !== currentLang
     ) {
-      handleSetLanguage(langInLocalStorage);
+      handleSetLanguage(langInCookie);
     } else {
       let lang = i18n?.languages[0] as Locales;
       // Check browser language manually
@@ -53,8 +53,8 @@ const LangSelector: React.FC<{}> = () => {
         }
       }
 
-      // to save locale in localStorage
-      localStorage.setItem('language', lang);
+      // to save locale in cookie
+      setCookie('lang', lang, 30);
     }
   };
 
@@ -69,8 +69,8 @@ const LangSelector: React.FC<{}> = () => {
     // to change router locale
     router.push(router.asPath, router.asPath, { locale: locale });
 
-    // to save locale in localStorage
-    localStorage.setItem('language', locale);
+    // to save locale in cookie
+    setCookie('lang', locale, 30);
   };
 
   return (

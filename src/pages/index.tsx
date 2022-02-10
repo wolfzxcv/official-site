@@ -1,11 +1,9 @@
 import { links } from '@/assets/links';
-import Banner from '@/components/Banner/Banner';
-import XNHZ from '@/components/Banner/XNHZ';
 import Wrapper from '@/components/Base/Wrapper';
+import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
-import WCG15ZJ from '@/components/PopUp/WCG15ZJ';
 import { StyledBox } from '@/components/Styled/Styled';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
@@ -34,9 +32,8 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       <RestrictionsOnUse />
-      <WCG15ZJ />
-      {/* <Carousel /> */}
-      {isChinese ? <XNHZ /> : <Banner />}
+
+      <Carousel />
 
       {/* 3 red/white blocks: Safe and secure depository */}
       <Flex

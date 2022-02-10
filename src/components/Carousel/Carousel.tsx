@@ -2,6 +2,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box, Fade, Flex, Icon } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Banner from '../Banner/Banner';
+import WCG15ZJ from '../Banner/WCG15ZJ';
 import XNHZ from '../Banner/XNHZ';
 
 type CarouselProps = {
@@ -15,7 +16,11 @@ const Carousel: React.FC<CarouselProps> = ({
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
 
-  const all = [<XNHZ key="XNHZ" />, <Banner key="Banner" />];
+  const all = [
+    <WCG15ZJ key="WCG15ZJ" />,
+    <XNHZ key="XNHZ" />,
+    <Banner key="Banner" />
+  ];
 
   const handleSelect = (dotIndex) => {
     console.log(showArrow, duration, 'handleSelect', dotIndex);
