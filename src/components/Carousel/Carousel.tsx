@@ -8,22 +8,18 @@ import XNHZ from '../Banner/XNHZ';
 type CarouselProps = {
   showArrow?: boolean;
   duration?: number;
+  transition?: number;
 };
 
 const Carousel: React.FC<CarouselProps> = ({
   showArrow = true,
-  duration = 6
+  duration = 1,
+  transition = 6
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
 
-  const all = [
-    <WCG15ZJ key="WCG15ZJ" />,
-    <XNHZ key="XNHZ" />,
-    <Banner key="Banner" />
-  ];
-
   const handleSelect = (dotIndex) => {
-    console.log(showArrow, duration, 'handleSelect', dotIndex);
+    console.log('transition', transition, 'handleSelect', dotIndex);
     setIndex(dotIndex);
   };
 
@@ -34,7 +30,8 @@ const Carousel: React.FC<CarouselProps> = ({
     } else {
       result = index - 1;
     }
-    setIndex(result);
+
+    handleSelect(result);
   };
 
   const handleRightArrowClick = () => {
@@ -44,54 +41,47 @@ const Carousel: React.FC<CarouselProps> = ({
     } else {
       result = index + 1;
     }
-    setIndex(result);
+    handleSelect(result);
   };
 
-  const handleMouseEnter = () => {
-    console.log('handleMouseEnter');
-  };
-
-  const handleMouseLeave = () => {
-    console.log('handleMouseLeave');
-  };
-
-  const handleMouseOver = () => {
-    console.log('handleMouseOver');
-  };
+  const all = [
+    <WCG15ZJ key="WCG15ZJ" />,
+    <XNHZ key="XNHZ" />,
+    <Banner key="Banner" />
+  ];
 
   return (
-    <Box
-      minH="500px"
-      onMouseEnter={() => handleMouseEnter()}
-      onMouseLeave={() => handleMouseLeave()}
-      onMouseOver={() => handleMouseOver()}
-    >
-      <Fade key={index} in={true} transition={{ enter: { duration: 1 } }}>
+    <Box minH="500px">
+      <Fade key={index} in={true} transition={{ enter: { duration } }}>
         {all[index]}
-        <ChevronLeftIcon
-          zIndex={5}
-          position="absolute"
-          left={{ base: 0, md: 0 }}
-          top={'500px'}
-          onClick={() => handleLeftArrowClick()}
-          fontSize={{ base: '72px', md: '96px' }}
-          color="blue.700"
-          bg="transparent"
-          borderRadius="50%"
-          _hover={{ cursor: 'pointer' }}
-        />
-        <ChevronRightIcon
-          zIndex={5}
-          position="absolute"
-          right={{ base: 0, md: 20 }}
-          top={'500px'}
-          onClick={() => handleRightArrowClick()}
-          _hover={{ cursor: 'pointer' }}
-          fontSize={{ base: '72px', md: '96px' }}
-          color="blue.700"
-          bg="transparent"
-          borderRadius="50%"
-        />
+        {showArrow && (
+          <ChevronLeftIcon
+            zIndex={5}
+            position="absolute"
+            left={{ base: 0, md: 0 }}
+            top="500px"
+            onClick={() => handleLeftArrowClick()}
+            fontSize={{ base: '72px', md: '96px' }}
+            color="blue.700"
+            bg="transparent"
+            borderRadius="50%"
+            _hover={{ cursor: 'pointer' }}
+          />
+        )}
+        {showArrow && (
+          <ChevronRightIcon
+            zIndex={5}
+            position="absolute"
+            right={{ base: 0, md: 20 }}
+            top="500px"
+            onClick={() => handleRightArrowClick()}
+            _hover={{ cursor: 'pointer' }}
+            fontSize={{ base: '72px', md: '96px' }}
+            color="blue.700"
+            bg="transparent"
+            borderRadius="50%"
+          />
+        )}
       </Fade>
       <Flex justify="center" mt={5}>
         {all.map((each, idx) => (
