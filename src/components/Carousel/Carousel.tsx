@@ -1,6 +1,6 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box, Fade, Flex, Icon } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Banner from '../Banner/Banner';
 import WCG15ZJ from '../Banner/WCG15ZJ';
 import XNHZ from '../Banner/XNHZ';
@@ -18,9 +18,24 @@ const Carousel: React.FC<CarouselProps> = ({
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
 
+  const [isPlay, setIsPlay] = useState(true);
+
+  useEffect(() => {
+    let id;
+    if (isPlay) {
+      id = setInterval(() => {
+        handleRightArrowClick();
+      }, transition * 1000);
+    }
+    return () => {
+      if (id) clearInterval(id);
+    };
+  }, [isPlay]); // eslint-disable-line react-hooks/exhaustive-deps
+
   const handleSelect = (dotIndex) => {
-    console.log('transition', transition, 'handleSelect', dotIndex);
+    setIsPlay(false);
     setIndex(dotIndex);
+    setIsPlay(true);
   };
 
   const handleLeftArrowClick = () => {
