@@ -9,8 +9,6 @@ const WCG15ZJ: React.FC<{}> = () => {
     <Box>
       {isShowDetail && (
         <Box
-          border="1px"
-          borderColor="blue"
           minH={{ base: '600px', md: '500px' }}
           backgroundImage={{
             base: "url('../assets/images/activity_WCG15ZJ_M_detail.jpg')",
