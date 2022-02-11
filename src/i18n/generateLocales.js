@@ -3,7 +3,7 @@ const src = 'localests';
 const outputFormat = '.json';
 const desPath = `./${des}`;
 const srcPath = `./${src}`;
-const npmScript = 'format';
+const npmScript = 'locales';
 
 const {
   promises: fs,

@@ -14,7 +14,7 @@ type CarouselProps = {
 const Carousel: React.FC<CarouselProps> = ({
   showArrow = true,
   duration = 1,
-  transition = 6
+  transition = 10
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
 
