@@ -1,6 +1,5 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
-import { Common } from '@/i18n/localests/@types/common';
 import { openChatWindow, scrollToTop } from '@/utils';
 import { Flex, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
@@ -71,7 +70,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
 };
 
 type DesktopBaseButtonProps = {
-  label: keyof Common;
+  label: string;
   icon: JSX.Element;
   onClick?: () => void | boolean;
   href?: string;

@@ -51,7 +51,7 @@ const Carousel: React.FC<CarouselProps> = ({
 
   const handleRightArrowClick = () => {
     let result;
-    if (index + 1 === all.length) {
+    if (index + 1 >= all.length) {
       result = 0;
     } else {
       result = index + 1;

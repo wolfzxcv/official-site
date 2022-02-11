@@ -1,6 +1,5 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
-import { Common } from '@/i18n/localests/@types/common';
 import { openChatWindow, scrollToTop } from '@/utils';
 import {
   Box,
@@ -130,7 +129,7 @@ const BackToTopMobile: React.FC<{}> = () => {
 
 type MobileBaseButtonProps = {
   bg?: string;
-  label: keyof Common;
+  label: string;
   icon: JSX.Element;
   onClick?: () => void | boolean;
   href?: string;
