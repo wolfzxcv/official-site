@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.0...v1.12.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* **backtotop:** modify BackToTop and Carousel ([6c97ff2](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/6c97ff29ecea85ed9eabc405fc0f155f4f784ef9))
+* **carousel, i18n:** modify package.json, carousel, react-i18next.d.ts, generateLocales.js ([c074b75](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/c074b75f138730e231fcf091f20bb67061e7a2e5))
+* **carousel:** add engines to package.json, refactor carousel ([141aa4a](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/141aa4a533a3d0bcc0f64cd74c776a25246949c8))
+
 ## [1.12.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.11.5...v1.12.0) (2022-01-28)
 
 
