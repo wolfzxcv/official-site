@@ -1,17 +1,18 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box, Fade, Flex, Icon } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
-import Banner from '../Banner/Banner';
-import WCG15ZJ from '../Banner/WCG15ZJ';
-import XNHZ from '../Banner/XNHZ';
 
 type CarouselProps = {
+  defaultSlider: JSX.Element;
+  sliders?: Array<JSX.Element>;
   showArrow?: boolean;
   duration?: number;
   transition?: number;
 };
 
 const Carousel: React.FC<CarouselProps> = ({
+  defaultSlider,
+  sliders,
   showArrow = true,
   duration = 1,
   transition = 10
@@ -19,6 +20,8 @@ const Carousel: React.FC<CarouselProps> = ({
   const [index, setIndex] = useState(0);
 
   const [isPlay, setIsPlay] = useState(true);
+
+  const allSliders = sliders.length > 0 ? sliders : [defaultSlider];
 
   useEffect(() => {
     let id;
@@ -32,16 +35,19 @@ const Carousel: React.FC<CarouselProps> = ({
     };
   }, [isPlay]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleSelect = (dotIndex) => {
+  const handleSelect = async (dotIndex) => {
     setIsPlay(false);
-    setIndex(dotIndex);
+
+    await setIndex(dotIndex);
+
     setIsPlay(true);
   };
 
   const handleLeftArrowClick = () => {
     let result;
+
     if (index - 1 < 0) {
-      result = all.length - 1;
+      result = allSliders.length - 1;
     } else {
       result = index - 1;
     }
@@ -51,24 +57,20 @@ const Carousel: React.FC<CarouselProps> = ({
 
   const handleRightArrowClick = () => {
     let result;
-    if (index + 1 >= all.length) {
+
+    if (index + 1 >= allSliders.length) {
       result = 0;
     } else {
       result = index + 1;
     }
+
     handleSelect(result);
   };
-
-  const all = [
-    <WCG15ZJ key="WCG15ZJ" />,
-    <XNHZ key="XNHZ" />,
-    <Banner key="Banner" />
-  ];
 
   return (
     <Box minH="500px">
       <Fade key={index} in={true} transition={{ enter: { duration } }}>
-        {all[index]}
+        {allSliders[index]}
         {showArrow && (
           <ChevronLeftIcon
             zIndex={5}
@@ -99,7 +101,7 @@ const Carousel: React.FC<CarouselProps> = ({
         )}
       </Fade>
       <Flex justify="center" mt={5}>
-        {all.map((each, idx) => (
+        {sliders.map((each, idx) => (
           <Flex
             key={idx}
             onClick={() => handleSelect(idx)}
