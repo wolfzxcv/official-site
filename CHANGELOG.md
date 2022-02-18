@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.1...v1.12.3) (2022-02-18)
+
+
+### Bug Fixes
+
+* **carousel, apidatalist:** modify types ([2477860](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/247786044015cf600414d02c939632b3e3909c06))
+
 ### [1.12.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.1...v1.12.2) (2022-02-18)
 
 ### [1.12.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.0...v1.12.1) (2022-02-14)
