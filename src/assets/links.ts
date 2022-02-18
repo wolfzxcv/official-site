@@ -10,17 +10,17 @@ export const links = {
   mt4APP:
     'https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe',
   // 真實帳戶
-  registerReal: 'https://trader.wc012.com/register',
+  registerReal: 'https://my.wcgmarkets.com/zh/login',
   // 模擬帳戶
   registerDemo: 'https://trader.wc012.com/registerMock',
   // 舊客戶中心
   usersCenterOld: 'https://trader.wc012.com/login',
   // 新客戶中心
-  usersCenterNew: 'https://my.wcgmarkets.com/en/login',
+  usersCenterNew: 'https://my.wcgmarkets.com/zh/login',
   // 舊代理中心
   iBCenterOld: 'https://broker.wc012.com',
   // 新代理中心
-  iBCenterNew: 'https://my.wcgmarkets.com/en/login',
+  iBCenterNew: 'https://my.wcgmarkets.com/zh/login',
   // 聯絡信箱
   email: 'cs@wcgmarkets.com'
 };

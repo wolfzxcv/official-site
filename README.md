@@ -175,7 +175,6 @@
 4. 此網站 RWD 的標準為,螢幕拉窄或拉寬,切換不同語言,都不會跑版或爆版
 5. 需支援市面上主流瀏覽器(Chrome.Edge.Firefox.Safari)及作業系統(電腦 mac/windows,手機 android/ios)
 6. 因為加密貨幣近期較為敏感,master 分支,導覽列不可出現"加密貨幣"
-7. 常見問題頁面,"如何在 WCG 開戶",及現有 CRM 頁面連結,之後需要再改過
 
 ### 環境變數
 
@@ -195,11 +194,14 @@
   - 用以上方式命名, 將來若想刪除已經過時的活動相關頁面及檔案, 維護會較容易
 
 - 目前活動頁面們(依照開發順序陳列)
+
   - [index](http://newwcg.012wenchuan.com/activity)
   - [WCGZG](http://newwcg.012wenchuan.com/activity/WCGZG)
   - [JYSL](http://newwcg.012wenchuan.com/activity/JYSL)
   - [WCGI](http://newwcg.012wenchuan.com/activity/WCGI)
   - [WCGE (Business card)](http://newwcg.012wenchuan.com/activity/WCGE)
+
+- 新活動改放在首頁 banner
 
 ## 情報
 
