@@ -21,21 +21,23 @@ const Carousel: React.FC<CarouselProps> = ({
 
   const [isPlay, setIsPlay] = useState(true);
 
-  const allSliders = sliders.length > 0 ? sliders : [defaultSlider];
+  const allSliders = sliders && sliders.length > 0 ? sliders : [defaultSlider];
 
   useEffect(() => {
-    let id;
+    let id: NodeJS.Timeout | undefined;
     if (isPlay) {
       id = setInterval(() => {
         handleRightArrowClick();
       }, transition * 1000);
     }
     return () => {
-      if (id) clearInterval(id);
+      if (id) {
+        clearInterval(id);
+      }
     };
   }, [isPlay]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleSelect = async (dotIndex) => {
+  const handleSelect = async (dotIndex: number) => {
     setIsPlay(false);
 
     await setIndex(dotIndex);
@@ -101,7 +103,7 @@ const Carousel: React.FC<CarouselProps> = ({
         )}
       </Fade>
       <Flex justify="center" mt={5}>
-        {sliders.map((each, idx) => (
+        {allSliders.map((each, idx) => (
           <Flex
             key={idx}
             onClick={() => handleSelect(idx)}
@@ -132,7 +134,7 @@ const Dot: React.FC<DotProps> = ({ dotIndex, currentIndex }: DotProps) => {
   );
 };
 
-const CircleIcon = (props) => (
+const CircleIcon = (props: { boxSize: number; color: string }) => (
   <Icon viewBox="0 0 200 200" {...props}>
     <path
       fill="currentColor"

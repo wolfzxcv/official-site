@@ -23,7 +23,7 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
 
   const [items, setItems] = useState([]);
 
-  let buttonText;
+  let buttonText = '';
   switch (currentLang) {
     case 'cn':
       buttonText = '查看详情';
@@ -45,11 +45,11 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
       break;
   }
 
-  const formatTime = (time) => {
+  const formatTime = (time: string) => {
     return time && time.length > 10 ? time.slice(0, 10) : time;
   };
 
-  const getItems = async (currentLang) => {
+  const getItems = async (currentLang: Locales) => {
     try {
       const {
         data: { data }
