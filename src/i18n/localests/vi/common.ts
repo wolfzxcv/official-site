@@ -7,6 +7,8 @@ export const common: Common = {
   usersCenterNew: 'Trung tâm khách hang 2.0',
   usersCenterOld: 'Trung tâm khách hang 1.0',
   iBCenter: 'Trung tâm đại lý',
+  iBCenterNew: 'Trung tâm đại lý 2.0',
+  iBCenterOld: 'Trung tâm đại lý 1.0',
   contactUs: 'Liên hệ chúng tôi',
   telegram: 'Telegram',
   online: 'Trực tuyến',

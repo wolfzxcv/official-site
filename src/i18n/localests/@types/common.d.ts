@@ -14,6 +14,10 @@ export type Common = {
   usersCenterOld: string;
   /** IB Center */
   iBCenter: string;
+  /** IB Center New */
+  iBCenterNew: string;
+  /** IB Center Old */
+  iBCenterOld: string;
   /** contactUs */
   contactUs: string;
   /** telegram */

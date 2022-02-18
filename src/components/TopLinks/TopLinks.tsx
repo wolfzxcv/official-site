@@ -58,7 +58,26 @@ const TopLinks: React.FC<{}> = () => {
         </PopoverContent>
       </Popover>
 
-      <LinkButton text={t('iBCenter')} href={links.iBCenter}></LinkButton>
+      <Popover trigger={'hover'} placement={'bottom-start'}>
+        <PopoverTrigger>
+          <Center>
+            <LinkButton text={t('iBCenter')}></LinkButton>
+          </Center>
+        </PopoverTrigger>
+
+        <PopoverContent border={0} bg="gray.700" px={0} py={3} width="auto">
+          <Stack spacing={3}>
+            <LinkButton
+              text={t('iBCenterNew')}
+              href={links.iBCenterNew}
+            ></LinkButton>
+            <LinkButton
+              text={t('iBCenterOld')}
+              href={links.iBCenterOld}
+            ></LinkButton>
+          </Stack>
+        </PopoverContent>
+      </Popover>
     </Flex>
   );
 };

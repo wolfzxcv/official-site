@@ -15,11 +15,10 @@ import {
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, { useState } from 'react';
+import React from 'react';
 import LinkButton from '../TopLinks/LinkButton';
 
 const MobileNav = () => {
-  const [isShowSubButtons, setIsShowSubButtons] = useState(false);
   const { t } = useTranslation('common');
 
   return (
@@ -42,31 +41,35 @@ const MobileNav = () => {
         pt={3}
       >
         <LinkButton
-          text={t('usersCenter')}
-          onClick={() => setIsShowSubButtons(!isShowSubButtons)}
+          text={t('usersCenterNew')}
+          href={links.usersCenterNew}
           inMobile
         ></LinkButton>
 
         <LinkButton
-          text={t('iBCenter')}
-          href={links.iBCenter}
+          text={t('usersCenterOld')}
+          href={links.usersCenterOld}
           inMobile
         ></LinkButton>
       </Flex>
 
       <Flex
-        display={{ base: isShowSubButtons ? 'flex' : 'none', md: 'none' }}
+        display={{ base: 'flex', md: 'none' }}
         bgColor="gray.700"
         minH="40px"
         justify="center"
         color="white"
         pt={3}
       >
-        <LinkButton text={t('usersCenterNew')} inMobile></LinkButton>
+        <LinkButton
+          text={t('iBCenterNew')}
+          href={links.iBCenterNew}
+          inMobile
+        ></LinkButton>
 
         <LinkButton
-          text={t('usersCenterOld')}
-          href={links.usersCenterOld}
+          text={t('iBCenterOld')}
+          href={links.iBCenterOld}
           inMobile
         ></LinkButton>
       </Flex>

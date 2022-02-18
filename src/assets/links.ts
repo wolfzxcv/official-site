@@ -13,12 +13,14 @@ export const links = {
   registerReal: 'https://trader.wc012.com/register',
   // 模擬帳戶
   registerDemo: 'https://trader.wc012.com/registerMock',
-  // 代理中心
-  iBCenter: 'https://broker.wc012.com/',
   // 舊客戶中心
   usersCenterOld: 'https://trader.wc012.com/login',
   // 新客戶中心
-  usersCenterNew: '',
+  usersCenterNew: 'https://my.wcgmarkets.com/en/login',
+  // 舊代理中心
+  iBCenterOld: 'https://broker.wc012.com',
+  // 新代理中心
+  iBCenterNew: 'https://my.wcgmarkets.com/en/login',
   // 聯絡信箱
   email: 'cs@wcgmarkets.com'
 };

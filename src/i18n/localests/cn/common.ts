@@ -7,6 +7,8 @@ export const common: Common = {
   usersCenterNew: '新客户中心',
   usersCenterOld: '旧客户中心',
   iBCenter: '代理中心',
+  iBCenterNew: '新代理中心',
+  iBCenterOld: '旧代理中心',
   contactUs: '联系我们',
   telegram: 'Telegram',
   online: '在线客服',

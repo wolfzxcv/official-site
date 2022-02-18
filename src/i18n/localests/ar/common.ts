@@ -7,6 +7,8 @@ export const common: Common = {
   usersCenterNew: '2.0مركز المستخدم',
   usersCenterOld: '1.0مركز المستخدم',
   iBCenter: 'مركز الوسطاء المُعرّفين',
+  iBCenterNew: 'مركز الوسطاء المُعرّفين2.0',
+  iBCenterOld: '1.0مركز الوسطاء المُعرّفين',
   contactUs: 'اتصل بنا',
   telegram: 'Telegram',
   online: 'عبر الانترنت',
