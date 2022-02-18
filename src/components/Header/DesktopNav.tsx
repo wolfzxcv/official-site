@@ -37,7 +37,11 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Center>
                 {each.href ? (
-                  <NextLink href={each.href ?? '#'} locale={currentLang}>
+                  <NextLink
+                    passHref={true}
+                    href={each.href ?? '#'}
+                    locale={currentLang}
+                  >
                     <Link
                       p={1}
                       fontSize={'md'}
@@ -99,7 +103,7 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
   const currentLang = router.locale as Locales;
 
   return (
-    <NextLink href={href} locale={currentLang}>
+    <NextLink passHref={true} href={href} locale={currentLang}>
       <Link
         role={'group'}
         display={

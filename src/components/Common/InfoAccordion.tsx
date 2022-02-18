@@ -99,7 +99,12 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
             }
 
             return internalHref ? (
-              <NextLink key={each} href={internalHref} locale={currentLang}>
+              <NextLink
+                passHref={true}
+                key={each}
+                href={internalHref}
+                locale={currentLang}
+              >
                 <Box
                   py={3}
                   pl={pl}

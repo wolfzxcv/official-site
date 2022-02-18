@@ -614,7 +614,11 @@ const advancedTrading: React.FC<{}> = () => {
         <InfoAccordion data={data} />
 
         <Box my={5}>
-          <NextLink href="/learnTrade/intermediateTrading" locale={currentLang}>
+          <NextLink
+            passHref={true}
+            href="/learnTrade/intermediateTrading"
+            locale={currentLang}
+          >
             <IconButton
               size="lg"
               bg="gray.600"

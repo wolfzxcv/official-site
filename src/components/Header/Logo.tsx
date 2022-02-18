@@ -9,7 +9,7 @@ const Logo: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   return (
-    <NextLink href="/" locale={currentLang}>
+    <NextLink passHref={true} href="/" locale={currentLang}>
       <Link>
         <Image
           width={109}

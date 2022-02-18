@@ -56,7 +56,7 @@ const Banner: React.FC<{}> = () => {
         </Stack>
 
         {/* Button under Banner */}
-        <NextLink href="/products" locale={currentLang}>
+        <NextLink passHref={true} href="/products" locale={currentLang}>
           <StyledBox
             my={{ base: 10, md: 2 }}
             p={2}

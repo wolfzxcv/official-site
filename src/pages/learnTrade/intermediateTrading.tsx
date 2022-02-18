@@ -768,7 +768,11 @@ const intermediateTrading: React.FC<{}> = () => {
 
         <Flex justifyContent="space-around" w="80vw">
           <Box my={5}>
-            <NextLink href="/learnTrade/basicTrading" locale={currentLang}>
+            <NextLink
+              passHref={true}
+              href="/learnTrade/basicTrading"
+              locale={currentLang}
+            >
               <IconButton
                 size="lg"
                 bg="gray.600"
@@ -784,7 +788,11 @@ const intermediateTrading: React.FC<{}> = () => {
           </Box>
 
           <Box my={5}>
-            <NextLink href="/learnTrade/advancedTrading" locale={currentLang}>
+            <NextLink
+              passHref={true}
+              href="/learnTrade/advancedTrading"
+              locale={currentLang}
+            >
               <IconButton
                 size="lg"
                 bg="gray.600"

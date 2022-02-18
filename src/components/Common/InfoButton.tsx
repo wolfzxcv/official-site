@@ -26,6 +26,7 @@ const InfoButton: React.FC<InfoButtonProps> = ({
   const currentLang = router.locale as Locales;
   return (
     <NextLink
+      passHref={true}
       href={
         option
           ? {

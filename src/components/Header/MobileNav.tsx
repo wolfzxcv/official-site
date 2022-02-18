@@ -86,7 +86,12 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
 
   return (
     <Stack spacing={4} onClick={children && onToggle}>
-      <NextLink key={href} href={href ?? '#'} locale={currentLang}>
+      <NextLink
+        passHref={true}
+        key={href}
+        href={href ?? '#'}
+        locale={currentLang}
+      >
         <Flex
           py={2}
           as={Link}
@@ -125,7 +130,12 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
         >
           {children &&
             children.map((child) => (
-              <NextLink key={child.href} href={child.href} locale={currentLang}>
+              <NextLink
+                passHref={true}
+                key={child.href}
+                href={child.href}
+                locale={currentLang}
+              >
                 <Link
                   width="100%"
                   display={
