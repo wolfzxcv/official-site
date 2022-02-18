@@ -1,4 +1,5 @@
 import { links } from '@/assets/links';
+import { openChatWindow } from '@/utils';
 import {
   Center,
   Flex,
@@ -32,7 +33,7 @@ const TopLinks: React.FC<{}> = () => {
 
       <LinkButton
         text={t('openDemoAccount')}
-        href={links.registerDemo}
+        onClick={openChatWindow}
         inMobile
         borderColor="green"
       ></LinkButton>

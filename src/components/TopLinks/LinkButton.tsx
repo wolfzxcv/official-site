@@ -11,6 +11,7 @@ type LinkButtonProps = {
   mdWidth?: string;
   isFooter?: boolean;
   onClick?: () => void;
+  style?: React.CSSProperties;
 };
 
 const LinkButton: React.FC<LinkButtonProps> = ({
@@ -21,7 +22,8 @@ const LinkButton: React.FC<LinkButtonProps> = ({
   borderColor = 'inherit',
   mdWidth,
   isFooter = false,
-  onClick
+  onClick,
+  style
 }: LinkButtonProps) => {
   return (
     <>
@@ -40,6 +42,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({
             borderColor={borderColor}
             mdWidth={mdWidth}
             isFooter={isFooter}
+            style={style}
           />
         </Link>
       ) : (
@@ -51,6 +54,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({
           mdWidth={mdWidth}
           isFooter={isFooter}
           onClick={onClick}
+          style={style}
         />
       )}
     </>
@@ -64,7 +68,8 @@ const BaseLinkButton = ({
   borderColor = 'inherit',
   mdWidth,
   isFooter = false,
-  onClick
+  onClick,
+  style
 }: LinkButtonProps) => {
   const reduceSize =
     (text.length > 20 || (isIOS() && text.length >= 20)) && inMobile;
@@ -75,7 +80,7 @@ const BaseLinkButton = ({
       as="button"
       display={{ base: inMobile ? 'inline' : 'none', md: 'inline' }}
       width={{
-        base: isFooter ? 'inherit' : '45vw',
+        base: isFooter ? 'auto' : '45vw',
         md: mdWidth ? mdWidth : '15vw'
       }}
       minH="40px"
@@ -88,6 +93,7 @@ const BaseLinkButton = ({
         transition: '1s'
       }}
       onClick={onClick}
+      style={style}
     >
       {text}
     </Box>
