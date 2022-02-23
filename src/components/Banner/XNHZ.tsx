@@ -39,7 +39,7 @@ const XNHZ: React.FC<{}> = () => {
             fontWeight="700"
             fontSize={{ base: '20px', md: '36px' }}
             color="yellow"
-            textAlign="left"
+            textAlign={{ base: 'center', md: 'left' }}
           >
             {currentLang === 'cn'
               ? '贵金属，原油交易每手回赠25美元'
