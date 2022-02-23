@@ -89,7 +89,7 @@ const WCG15ZJ: React.FC<{}> = () => {
               display={{ base: 'none', md: 'block' }}
             >
               <Box color="white" fontSize="28px" fontWeight="700">
-                由2022年1月31日-2022年2月28日
+                由2022年3月1日-2022年4月30日
               </Box>
               <Box color="yellow" fontSize="16px">
                 关注WCG MARKETS官方微博，并私信留言交易账号
