@@ -14,3 +14,6 @@ RUN npm run build
 ENV NODE_ENV=production
 
 CMD [ "npm", "start" ]
+
+# docker build -t [image name] .
+# docker run -d -p 3000:3000 [image name] 

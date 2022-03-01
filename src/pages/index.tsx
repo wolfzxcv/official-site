@@ -1,7 +1,6 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import WCG15ZJ from '@/components/Banner/WCG15ZJ';
-import XNHZ from '@/components/Banner/XNHZ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -32,11 +31,7 @@ const Index: React.FC<{}> = () => {
 
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
 
-  const sliders = [
-    <WCG15ZJ key="WCG15ZJ" />,
-    <XNHZ key="XNHZ" />,
-    <Banner key="Banner" />
-  ];
+  const sliders = [<WCG15ZJ key="WCG15ZJ" />, <Banner key="Banner" />];
 
   return (
     <Wrapper>
