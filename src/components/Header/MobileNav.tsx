@@ -41,35 +41,14 @@ const MobileNav = () => {
         pt={3}
       >
         <LinkButton
-          text={t('usersCenterNew')}
+          text={t('usersCenter')}
           href={links.usersCenterNew}
           inMobile
         ></LinkButton>
 
         <LinkButton
-          text={t('usersCenterOld')}
-          href={links.usersCenterOld}
-          inMobile
-        ></LinkButton>
-      </Flex>
-
-      <Flex
-        display={{ base: 'flex', md: 'none' }}
-        bgColor="gray.700"
-        minH="40px"
-        justify="center"
-        color="white"
-        pt={3}
-      >
-        <LinkButton
-          text={t('iBCenterNew')}
+          text={t('iBCenter')}
           href={links.iBCenterNew}
-          inMobile
-        ></LinkButton>
-
-        <LinkButton
-          text={t('iBCenterOld')}
-          href={links.iBCenterOld}
           inMobile
         ></LinkButton>
       </Flex>

@@ -4,8 +4,6 @@ export type Conditions = {
    ********/
   /** Privacy Policy */
   privacyPolicy: string;
-  /** Privacy Policy */
-  privacyPolicy: string;
   /** The customer's personal data */
   theCustomers: string;
   /** The verification procedures for */
