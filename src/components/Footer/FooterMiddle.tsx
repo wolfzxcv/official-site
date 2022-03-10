@@ -3,7 +3,6 @@ import { openChatWindow } from '@/utils';
 import { Box, Flex, Stack, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { StyledBox } from '../Styled/Styled';
 import LinkButton from '../TopLinks/LinkButton';
 
 const FooterMiddle: React.FC<{}> = () => {
@@ -27,7 +26,10 @@ const FooterMiddle: React.FC<{}> = () => {
                 {t('footer:startRealFXTrading')}
               </Text>
             </Box>
-            <StyledBox width={{ base: '30vw', md: '15vw' }}>
+            <Box
+              width={{ base: '30vw', md: '15vw' }}
+              _hover={{ transition: '1s' }}
+            >
               <LinkButton
                 text={t('common:openRealAccount')}
                 href={links.registerReal}
@@ -35,7 +37,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 borderColor="#b81c22"
                 isFooter
               ></LinkButton>
-            </StyledBox>
+            </Box>
           </Flex>
           <Flex align="center" justify="space-around">
             <Box
@@ -47,7 +49,10 @@ const FooterMiddle: React.FC<{}> = () => {
               </Text>
               <Text fontSize="sm">{t('footer:getUSD')}</Text>
             </Box>
-            <StyledBox width={{ base: '30vw', md: '15vw' }}>
+            <Box
+              width={{ base: '30vw', md: '15vw' }}
+              _hover={{ transition: '1s' }}
+            >
               <LinkButton
                 text={t('common:openDemoAccount')}
                 onClick={openChatWindow}
@@ -55,7 +60,7 @@ const FooterMiddle: React.FC<{}> = () => {
                 borderColor="green"
                 isFooter
               ></LinkButton>
-            </StyledBox>
+            </Box>
           </Flex>
         </Flex>
       </Stack>

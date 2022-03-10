@@ -1,6 +1,5 @@
 import { Box, Flex, Link } from '@chakra-ui/layout';
 import React from 'react';
-import { StyledBox } from '../Styled/Styled';
 
 type LicenseCardProps = {
   image: JSX.Element;
@@ -44,7 +43,7 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
           href={link}
           isExternal
         >
-          <StyledBox
+          <Box
             mt={{ base: 10, lg: 0 }}
             p={2}
             bg="gray.700"
@@ -59,7 +58,7 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
             }}
           >
             {button}
-          </StyledBox>
+          </Box>
         </Link>
       )}
     </Flex>

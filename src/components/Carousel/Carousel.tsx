@@ -13,7 +13,7 @@ type CarouselProps = {
 const Carousel: React.FC<CarouselProps> = ({
   defaultSlider,
   sliders,
-  showArrow = true,
+  showArrow = false,
   duration = 1,
   transition = 10
 }: CarouselProps) => {

@@ -13,7 +13,6 @@ import {
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React, { Fragment } from 'react';
-import { StyledBox } from '../Styled/Styled';
 
 type InfoAccordionProps = {
   data: InfoAccordionItemProps[];
@@ -175,7 +174,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
                   href={each.secondKey}
                   isExternal
                 >
-                  <StyledBox
+                  <Box
                     mb={10}
                     p={2}
                     bg="red.600"
@@ -190,7 +189,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
                     }}
                   >
                     {each.objectKey}
-                  </StyledBox>
+                  </Box>
                 </Link>
               )}
             </Fragment>

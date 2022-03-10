@@ -1,6 +1,5 @@
 import { Box, Flex, Stack } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import { StyledBox } from '../Styled/Styled';
 
 const WCG15ZJ: React.FC<{}> = () => {
   const [isShowDetail, setIsShowDetail] = useState(false);
@@ -20,7 +19,7 @@ const WCG15ZJ: React.FC<{}> = () => {
           justifyContent="center"
           position="relative"
         >
-          <StyledBox
+          <Box
             p={1}
             my={{ base: 10, md: 5 }}
             width={{ base: '50vw', md: '130px' }}
@@ -42,7 +41,7 @@ const WCG15ZJ: React.FC<{}> = () => {
             bottom="1"
           >
             关闭详情
-          </StyledBox>
+          </Box>
         </Box>
       )}
       {!isShowDetail && (
@@ -64,7 +63,7 @@ const WCG15ZJ: React.FC<{}> = () => {
             position="relative"
             align="center"
           >
-            <StyledBox
+            <Box
               display={{ base: 'block', md: 'none' }}
               p={1}
               my={7}
@@ -79,9 +78,10 @@ const WCG15ZJ: React.FC<{}> = () => {
               onClick={() => setIsShowDetail(true)}
               position="absolute"
               bottom="1"
+              _hover={{ transition: '1s' }}
             >
               查看条款细则
-            </StyledBox>
+            </Box>
 
             <Stack
               mb="150px"

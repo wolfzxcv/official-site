@@ -25,7 +25,7 @@ import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
 import { GiTalk } from 'react-icons/gi';
-import { StyledIconButtonBase } from '../Styled/Styled';
+import { StyledIconButton } from '../Styled/Styled';
 
 const BackToTopMobile: React.FC<{}> = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -145,7 +145,7 @@ const MobileBaseButton: React.FC<MobileBaseButtonProps> = ({
   isRound = true
 }: MobileBaseButtonProps) => {
   return (
-    <StyledIconButtonBase
+    <StyledIconButton
       onClick={onClick}
       as={href ? 'a' : 'button'}
       href={href}

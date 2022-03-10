@@ -6,7 +6,6 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
-import { StyledBox } from '@/components/Styled/Styled';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -216,21 +215,16 @@ const Index: React.FC<{}> = () => {
               href={links.registerReal}
               isExternal
             >
-              <StyledBox
+              <Box
                 mt={{ base: 10, xl: 0 }}
                 p={2}
                 bg="red.600"
                 fontSize="22px"
                 textAlign="center"
                 width="250px"
-                _hover={{
-                  bgColor: 'red.500',
-                  cursor: 'pointer',
-                  transition: '1s'
-                }}
               >
                 {t('accountOpening')}
-              </StyledBox>
+              </Box>
             </Link>
           </Flex>
         </Box>
@@ -251,7 +245,7 @@ const Index: React.FC<{}> = () => {
             href={links.registerReal}
             isExternal
           >
-            <StyledBox
+            <Box
               mt={{ base: 10, xl: 0 }}
               p={2}
               bg="red.600"
@@ -265,7 +259,7 @@ const Index: React.FC<{}> = () => {
               }}
             >
               {t('accountOpening')}
-            </StyledBox>
+            </Box>
           </Link>
         </Flex>
       </Flex>
@@ -401,7 +395,12 @@ const Index: React.FC<{}> = () => {
       </Box>
 
       {/* Download immediately */}
-      <StyledBox mt={{ base: '100px', md: 0 }} mx={10} mb="100px">
+      <Box
+        mt={{ base: '100px', md: 0 }}
+        mx={10}
+        mb="100px"
+        _hover={{ transition: '1s' }}
+      >
         <Flex
           justify="center"
           align="center"
@@ -464,7 +463,7 @@ const Index: React.FC<{}> = () => {
         <Center>
           <Image src="../assets/images/home_divider.png" alt="divider" />
         </Center>
-      </StyledBox>
+      </Box>
     </Wrapper>
   );
 };

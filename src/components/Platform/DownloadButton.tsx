@@ -2,6 +2,7 @@ import { Locales } from '@/i18n/config';
 import {
   Box,
   Center,
+  Flex,
   Image,
   Link,
   Tooltip,
@@ -11,7 +12,6 @@ import { useRouter } from 'next/router';
 import React, { forwardRef } from 'react';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { BiUser } from 'react-icons/bi';
-import { StyledFlex } from '../Styled/Styled';
 
 type DownloadButtonProps = {
   text: string;
@@ -81,7 +81,7 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
     const isChinese = currentLang === 'cn' || currentLang === 'zh';
     const isArabic = currentLang === 'ar';
     return (
-      <StyledFlex
+      <Flex
         ref={ref}
         {...rest}
         onClick={onClick ? onClick : () => false}
@@ -120,7 +120,7 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
         </Center>
 
         <Box mx={2}>{text}</Box>
-      </StyledFlex>
+      </Flex>
     );
   }
 );

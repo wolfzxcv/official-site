@@ -1,7 +1,7 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
 import { openChatWindow, scrollToTop } from '@/utils';
-import { Flex, Tooltip } from '@chakra-ui/react';
+import { Box, Flex, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -13,7 +13,7 @@ import {
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
-import { StyledBox, StyledIconButton } from '../Styled/Styled';
+import { StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {
   const { t } = useTranslation('common');
@@ -21,7 +21,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   return (
-    <StyledBox zIndex={1} position="fixed" bottom={'30%'} right="3">
+    <Box zIndex={1} position="fixed" bottom={'30%'} right="3">
       <Flex direction={'column'} color="white">
         <DesktopBaseButton
           label={t('online')}
@@ -65,7 +65,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
           icon={<BiArrowToTop fontSize="32px" />}
         />
       </Flex>
-    </StyledBox>
+    </Box>
   );
 };
 
@@ -98,7 +98,9 @@ const DesktopBaseButton: React.FC<DesktopBaseButtonProps> = ({
         borderColor="white"
         border="1px"
         _hover={{
-          bgColor: 'red.600'
+          bgColor: 'red.600',
+          transition: '1s',
+          transform: 'scale(1.5)'
         }}
       />
     </Tooltip>

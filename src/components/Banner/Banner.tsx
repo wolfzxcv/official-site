@@ -4,7 +4,6 @@ import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { StyledBox } from '../Styled/Styled';
 
 const Banner: React.FC<{}> = () => {
   const { t } = useTranslation('home');
@@ -57,7 +56,7 @@ const Banner: React.FC<{}> = () => {
 
         {/* Button under Banner */}
         <NextLink passHref={true} href="/products" locale={currentLang}>
-          <StyledBox
+          <Box
             my={{ base: 10, md: 2 }}
             p={2}
             minH="48px"
@@ -76,7 +75,7 @@ const Banner: React.FC<{}> = () => {
             }}
           >
             {t('askProductsNow')}
-          </StyledBox>
+          </Box>
         </NextLink>
       </Flex>
     </Box>

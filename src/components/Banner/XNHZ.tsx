@@ -4,7 +4,6 @@ import { Box, Flex, Stack, Text } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { AiFillCloseCircle } from 'react-icons/ai';
-import { StyledBox } from '../Styled/Styled';
 
 const XNHZ: React.FC<{}> = () => {
   const [isShowDetail, setIsShowDetail] = useState(false);
@@ -113,7 +112,7 @@ const XNHZ: React.FC<{}> = () => {
                 </Box>
               </Flex>
               <Flex justify="center">
-                <StyledBox
+                <Box
                   p={1}
                   mt="20"
                   width="50vw"
@@ -128,14 +127,14 @@ const XNHZ: React.FC<{}> = () => {
                   onClick={() => setIsShowDetail(false)}
                 >
                   关闭详情
-                </StyledBox>
+                </Box>
               </Flex>
             </>
           )}
 
           {!isShowDetail && (
             <Flex py={3} justify={{ base: 'center', md: 'flex-start' }}>
-              <StyledBox
+              <Box
                 p={{ base: 1, md: 1 }}
                 width={{ base: '70vw', md: '130px' }}
                 border="2px"
@@ -154,7 +153,7 @@ const XNHZ: React.FC<{}> = () => {
                 onClick={openChatWindow}
               >
                 {currentLang === 'cn' ? '马上领取' : '馬上領取'}
-              </StyledBox>
+              </Box>
             </Flex>
           )}
           {!isShowDetail && (

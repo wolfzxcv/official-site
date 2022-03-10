@@ -1,8 +1,7 @@
 import { Locales } from '@/i18n/config';
-import { Box } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { forwardRef } from 'react';
-import { StyledFlex } from '../Styled/Styled';
 
 type InfoButtonBaseProps = {
   text: string;
@@ -29,7 +28,7 @@ const InfoButtonBase = forwardRef<HTMLDivElement, InfoButtonBaseProps>(
     const widerButton =
       currentLang === 'id' || currentLang === 'ms' || currentLang === 'vi';
     return (
-      <StyledFlex
+      <Flex
         ref={ref}
         {...rest}
         minH="40px"
@@ -52,7 +51,7 @@ const InfoButtonBase = forwardRef<HTMLDivElement, InfoButtonBaseProps>(
       >
         <Box>{text}</Box>
         <Box>{'>'}</Box>
-      </StyledFlex>
+      </Flex>
     );
   }
 );
