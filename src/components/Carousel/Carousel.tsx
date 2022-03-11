@@ -114,7 +114,6 @@ const Carousel: React.FC<CarouselProps> = ({
         onTouchStart={(e: React.TouchEvent) =>
           handleMove(e.changedTouches[0].clientX, 'start')
         }
-        onTouchMove={(e: React.TouchEvent) => e.preventDefault()}
         onTouchEnd={(e: React.TouchEvent) =>
           handleMove(e.changedTouches[0].clientX, 'end')
         }
