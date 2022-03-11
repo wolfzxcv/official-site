@@ -36,7 +36,11 @@ const Index: React.FC<{}> = () => {
     <Wrapper>
       <RestrictionsOnUse />
 
-      <Carousel defaultSlider={<Banner key="Banner" />} sliders={sliders} />
+      <Carousel
+        defaultSlider={<Banner key="Banner" />}
+        sliders={sliders}
+        showArrow
+      />
 
       {/* 3 red/white blocks: Safe and secure depository */}
       <Flex

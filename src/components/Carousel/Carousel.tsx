@@ -24,7 +24,7 @@ type CarouselProps = {
 const Carousel: React.FC<CarouselProps> = ({
   defaultSlider,
   sliders,
-  showArrow = true,
+  showArrow = false,
   duration = 0.5,
   transition = 10,
   type = 'circle'
@@ -92,10 +92,15 @@ const Carousel: React.FC<CarouselProps> = ({
       const startValue = clientXValue;
       const endValue = value;
 
-      if (startValue > endValue) {
+      const movement = startValue - endValue;
+
+      // add tolerance value to prevent up down swipe on mobile triggering this event
+      const tolerance = 50;
+
+      if (movement > tolerance) {
         // start value > end value : left swipe, so equal to right arrow click
         handleLeftArrowClick();
-      } else if (startValue < endValue) {
+      } else if (movement < -tolerance) {
         // start value < end value : right swipe, so equal to left arrow click
         handleRightArrowClick();
       }
@@ -171,6 +176,7 @@ const Carousel: React.FC<CarouselProps> = ({
                     dotIndex={idx}
                     currentIndex={index}
                     transition={transition}
+                    amount={allSliders.length}
                   />
                 </Flex>
               ))}
@@ -206,16 +212,34 @@ const widthChange = keyframes`
   }
 `;
 
-type ProgressBarProps = DotProps & { transition: number };
+type ProgressBarProps = DotProps & { transition: number; amount: number };
 
 const ProgressBar: React.FC<ProgressBarProps> = ({
   dotIndex,
   currentIndex,
-  transition
+  transition,
+  amount
 }: ProgressBarProps) => {
   const isSelected = dotIndex === currentIndex;
+  let mobileBarWidth = 40;
+
+  const browserWidth = window.document.body?.clientWidth;
+  if (browserWidth) {
+    const newWidth = (browserWidth - 100) / amount;
+
+    if (newWidth < mobileBarWidth) {
+      mobileBarWidth = newWidth;
+    }
+  }
+
   return (
-    <Flex width="50px" height="8px" bg={unselectedItem} mx={2} justify="start">
+    <Flex
+      width={{ base: `${mobileBarWidth}px`, md: '50px' }}
+      height="8px"
+      bg={unselectedItem}
+      mx={2}
+      justify="start"
+    >
       <Box
         animation={`${widthChange} ${transition}s linear infinite`}
         height="8px"
