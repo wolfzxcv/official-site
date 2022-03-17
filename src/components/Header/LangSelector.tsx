@@ -22,16 +22,11 @@ const LangSelector: React.FC<{}> = () => {
   const [language, setLanguage] = useState(i18n?.languages[0]);
 
   const router = useRouter();
-  const currentLang = router.locale as Locales;
 
   const getCurrentLanguage = () => {
     const langInCookie = getCookie('lang') as Locales;
 
-    if (
-      langInCookie &&
-      locales.includes(langInCookie) &&
-      langInCookie !== currentLang
-    ) {
+    if (langInCookie && locales.includes(langInCookie)) {
       handleSetLanguage(langInCookie);
     } else {
       let lang = i18n?.languages[0] as Locales;
