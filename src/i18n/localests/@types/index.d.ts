@@ -1,6 +1,5 @@
 import { About } from './about';
 import { AdvancedTrading } from './advancedTrading';
-import { AmlPolicy } from './amlPolicy';
 import { BasicTrading } from './basicTrading';
 import { Common } from './common';
 import { Conditions } from './conditions';
@@ -28,7 +27,6 @@ import { WhiteLabelCooperation } from './whiteLabelCooperation';
 type IResources = {
   about: About;
   advancedTrading: AdvancedTrading;
-  amlPolicy: AmlPolicy;
   basicTrading: BasicTrading;
   common: Common;
   conditions: Conditions;

@@ -1,6 +1,9 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
-import { Box, Fade, Flex, Icon, keyframes } from '@chakra-ui/react';
+import { Box, Fade, Flex, Icon } from '@chakra-ui/react';
+import dynamic from 'next/dynamic';
 import React, { useEffect, useState } from 'react';
+
+const ProgressBar = dynamic(() => import('./ProgressBar'), { ssr: false });
 
 const arrowsPositionFromTheTop = '500px';
 
@@ -8,9 +11,9 @@ const barPositionFromTheTop = '600px';
 
 const arrowColor = 'blue.700';
 
-const unselectedItem = 'blue.700';
+export const unselectedItem = 'blue.700';
 
-const selectedItem = 'red.500';
+export const selectedItem = 'red.500';
 
 type CarouselProps = {
   defaultSlider: JSX.Element;
@@ -27,7 +30,7 @@ const Carousel: React.FC<CarouselProps> = ({
   showArrow = false,
   duration = 0.5,
   transition = 10,
-  type = 'circle'
+  type = 'bar'
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
 
@@ -202,54 +205,7 @@ const Carousel: React.FC<CarouselProps> = ({
   );
 };
 
-const widthChange = keyframes`
-0% {
-    width:0%;
-    
-  }
-  100% {
-    width: 100%;   
-  }
-`;
-
-type ProgressBarProps = DotProps & { transition: number; amount: number };
-
-const ProgressBar: React.FC<ProgressBarProps> = ({
-  dotIndex,
-  currentIndex,
-  transition,
-  amount
-}: ProgressBarProps) => {
-  const isSelected = dotIndex === currentIndex;
-  let mobileBarWidth = 40;
-
-  const browserWidth = window.document.body?.clientWidth;
-  if (browserWidth) {
-    const newWidth = (browserWidth - 100) / amount;
-
-    if (newWidth < mobileBarWidth) {
-      mobileBarWidth = newWidth;
-    }
-  }
-
-  return (
-    <Flex
-      width={{ base: `${mobileBarWidth}px`, md: '50px' }}
-      height="8px"
-      bg={unselectedItem}
-      mx={2}
-      justify="start"
-    >
-      <Box
-        animation={`${widthChange} ${transition}s linear infinite`}
-        height="8px"
-        bg={isSelected ? selectedItem : 'auto'}
-      ></Box>
-    </Flex>
-  );
-};
-
-type DotProps = {
+export type DotProps = {
   dotIndex: number;
   currentIndex: number;
 };
