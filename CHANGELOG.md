@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.9](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.8...v1.12.9) (2022-03-21)
+
+
+### Bug Fixes
+
+* **carousel:** carousel progress bar in mobile and add swipe tolerance to prevent up down swipe ([fd842e4](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/fd842e4a3ca79f54f9ccd7f60c2ae61289d496ff))
+
 ### [1.12.8](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.7...v1.12.8) (2022-03-02)
 
 ### [1.12.7](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.6...v1.12.7) (2022-03-01)
