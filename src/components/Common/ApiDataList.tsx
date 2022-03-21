@@ -6,15 +6,11 @@ import React, { useEffect, useState } from 'react';
 
 type ApiDataListProps = {
   api: string;
-  objectKey: string;
 };
 
 const InfoAccordion = dynamic(() => import('./InfoAccordion'), { ssr: false });
 
-const ApiDataList: React.FC<ApiDataListProps> = ({
-  api,
-  objectKey
-}: ApiDataListProps) => {
+const ApiDataList: React.FC<ApiDataListProps> = ({ api }: ApiDataListProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   useEffect(() => {
@@ -45,10 +41,6 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
       break;
   }
 
-  const formatTime = (time: string) => {
-    return time && time.length > 10 ? time.slice(0, 10) : time;
-  };
-
   const getItems = async (currentLang: Locales) => {
     try {
       const {
@@ -57,19 +49,16 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
         `${process.env.NEXT_PUBLIC_API_URL}${api}?lang=${currentLang}`
       );
 
-      const newItems =
-        data[objectKey] && data[objectKey].length
-          ? data[objectKey].map((x) => ({
-              id: x.id,
-              date: formatTime(x.showTime || x.time),
-              title: x.title,
-              htmlContent:
-                x.content +
-                (x.out_url
-                  ? `<br/><br/><a target="_blank" style="background-color: #C53030; color: white; padding: 10px;" href="${x.out_url}">${buttonText}  ></a>`
-                  : '')
-            }))
-          : [];
+      const newItems = data.map((x) => ({
+        id: x.id,
+        date: x.displayTime,
+        title: x.title,
+        htmlContent:
+          x.content +
+          (x.url
+            ? `<br/><br/><a target="_blank" style="background-color: #C53030; color: white; padding: 10px;" href="${x.url}">${buttonText}  ></a>`
+            : '')
+      }));
 
       setItems(newItems);
     } catch (e) {

@@ -12,12 +12,12 @@ const RestrictionsOnUse: React.FC<{}> = () => {
 
   const checkIp = async () => {
     try {
-      const api = 'wcg/checkIp';
+      const api = '/checkIp';
       const {
         data: { data }
       } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
 
-      if (data && data.isShow) {
+      if (data && data.location === 'HK') {
         setShowPopUp(true);
       }
     } catch (e) {

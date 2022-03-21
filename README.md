@@ -82,70 +82,6 @@
 
 ## 開發相關
 
-### API 文件
-
-- API 路徑設定,在`.env`這支檔案
-  ![](https://i.imgur.com/gQNs8lG.jpg)
-
-- 語言代號,[依照 ISO 碼命名](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes),**所有 API 皆須在 URL 上帶語系**參數,**lang=(要帶的語系)**
-  cn = 簡體中文
-  zh = 繁體中文
-  en = 英語
-  vi = 越南語
-  ms = 馬來語
-  id = 印尼語
-  ar = 阿拉伯語
-
-- 路徑為/api/index/底下的所有 API 均需在 URL 帶上語系參數,此為 index 這個控制器寫好的規則
-
-- 因應"後台"增加日期選擇器, 前台 API 日期顯示規則更新.
-
-  - ![](https://i.imgur.com/WFZei2D.jpg)
-  - 如果 API 有回傳日期選擇器時間,則優先顯示
-  - 若無,則回傳文章插入時間
-  - time = 文章插入時間, showTime = 日期選擇器時間
-
-- 1 市場資訊 (GET)
-  https://www.wc012.com/api/index/index?lang=cn
-  quote = 市場分析
-  focus = 財經新聞
-
-- 2 企業動向 (GET) (暫時沒用到了)
-  https://www.wc012.com/api/index/company?lang=cn
-
-- 3 企業責任 (GET)
-  https://www.wc012.com/api/index/responsibility?lang=cn
-
-- 4 平台公告 (GET)
-  https://www.wc012.com/api/index/notice?lang=cn
-
-- 5 "聯系我們" 表單提交 (POST)
-  https://www.wc012.com/api/wcg/contact
-
-  - 資料庫欄位截圖
-    ![](https://i.imgur.com/T8GnSrP.png)
-  - 表單資訊的參數們,用 json 帶在 request body
-  - API 送出成功,前端判斷標準
-    - response 裡面的 status 為 200
-    - HTTP status 為 200
-  - 傳送範例
-    - 錯誤範例
-      ![](https://i.imgur.com/7eJumId.jpg)
-    - 成功範例
-      ![](https://i.imgur.com/MYRfN7p.jpg)
-      ![](https://i.imgur.com/fHduG2c.jpg)
-
-- 6 偵測地區 API (GET)
-  https://www.wc012.com/api/wcg/checkIp
-  - response
-  ```javascript=
-  {
-    ip: '201.201.2.301',
-    isShow: true,  // 如果是香港IP, 回傳true, 如果不是, 回傳false. 若IP檢測失敗,也會回傳true
-    message: 'success'  // IP 檢測成功success, 檢測失敗fail
-  }
-  ```
-
 ### 開發工具
 
 請先安裝 **[Visual Studio Code](https://code.visualstudio.com/download)**
@@ -179,9 +115,7 @@
 ### 環境變數
 
 - NEXT_PUBLIC_API_URL
-  - 除了"財經新聞"以外的所有 API
-- NEXT_PUBLIC_JS_API_URL
-  - 財經新聞的 API
+  - 所有 API
 - NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
   - Google 分析的 GTM 標籤, 已在此標籤下編輯, 同時控制 Google Analytics 以及 Visitor Analytics
 
@@ -224,3 +158,141 @@
 
 - 支付回調網址
   - https://www.wc012.com/home/Pay/RetVite
+
+## API 文件
+
+- API 路徑設定,在`.env`這支檔案
+  ![](https://i.imgur.com/gQNs8lG.jpg)
+
+### 0.共用 response 格式
+
+```typescript=
+type IResponseFormat = {
+  status: number;
+  message: string;
+  code: 1 | 0;
+  data?: any;
+  error?: any;
+};
+```
+
+- 語言代號,[依照 ISO 碼命名](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), API 參數 **lang** 為要請求的 **語系**
+  cn = 簡體中文
+  zh = 繁體中文
+  en = 英語
+  vi = 越南語
+  ms = 馬來語
+  id = 印尼語
+  ar = 阿拉伯語
+
+- 因應"後台"增加日期選擇器, API 回傳 displayTime 規則更新.
+
+  - 如果該筆資料, 有 showTime,則回傳 showTime
+  - 若無,則回傳 time
+  - time = 文章插入時間, showTime = 日期選擇器時間
+
+```typescript=
+type DataOutputFormat = {
+  id: number;
+  title: string;
+  content: string;
+  url?: string;  // 目前僅有 企業責任 可能有這個參數
+  displayTime: string;
+};
+```
+
+### 1.市場分析
+
+| Item   | Value          |
+| ------ | -------------- |
+| Method | GET            |
+| path   | **/quotation** |
+| param  | lang           |
+| table  | d_quotation    |
+
+### 2.財經新聞
+
+| Item   | Value      |
+| ------ | ---------- |
+| Method | GET        |
+| path   | **/focus** |
+| param  | lang       |
+| table  | d_focus    |
+
+### 3.企業責任
+
+| Item   | Value         |
+| ------ | ------------- |
+| Method | GET           |
+| path   | **/response** |
+| param  | lang          |
+| table  | d_response    |
+
+### 4.平台公告
+
+| Item   | Value       |
+| ------ | ----------- |
+| Method | GET         |
+| path   | **/notice** |
+| param  | lang        |
+| table  | d_notice    |
+
+### 5.聯繫我們
+
+| Item   | Value        |
+| ------ | ------------ |
+| Method | POST         |
+| path   | **/contact** |
+| param  |              |
+| table  | d_contact    |
+
+```typescript=
+type IContactInput = {
+  name: string;
+  surname: string;
+  mobile: string;
+  email: string;
+  area: string;
+  type: string;
+  iScustomer: string;
+  login?: string;
+  content?: string;
+};
+```
+
+- 以上沒打問號的, 代表必填
+- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到.env 設定的 CUSTOMER_SERVICE_EMAIL
+- 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD
+
+### 6.偵測 IP 來源地區
+
+| Item   | Value        |
+| ------ | ------------ |
+| Method | GET          |
+| path   | **/checkip** |
+| param  |              |
+
+```typescript=
+type ICheckIpRes = {
+  ip: string; // client public ip
+  location?: string; // 回傳地區代碼, 香港為 HK, 若為香港IP, 前端需顯示風險彈窗
+};
+```
+
+### 7.取得即時新聞
+
+| Item   | Value     |
+| ------ | --------- |
+| Method | GET       |
+| path   | **/news** |
+| param  |           |
+
+```typescript=
+type INewsRes = {
+  author: string | null;
+  imageUrl: string | null;
+  id: string;
+  createAt: number;
+  text: string;
+};
+```

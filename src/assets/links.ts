@@ -22,5 +22,5 @@ export const links = {
   // 新代理中心
   iBCenterNew: 'https://my.wcgmarkets.com/',
   // 聯絡信箱
-  email: 'cs@wcgmarkets.com'
+  email: 'partner@wcgmarkets.com'
 };

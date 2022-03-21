@@ -30,7 +30,7 @@ const Carousel: React.FC<CarouselProps> = ({
   showArrow = false,
   duration = 0.5,
   transition = 10,
-  type = 'bar'
+  type = 'circle'
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
 

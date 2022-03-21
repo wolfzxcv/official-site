@@ -53,10 +53,10 @@ const financialNews: React.FC<{}> = () => {
 
   const getNews = async () => {
     try {
-      const api = 'news';
+      const api = '/news';
       const {
         data: { data }
-      } = await axios.get(`${process.env.NEXT_PUBLIC_JS_API_URL}${api}`);
+      } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}${api}`);
 
       setNews(data);
     } catch (e) {
@@ -103,7 +103,7 @@ const financialNews: React.FC<{}> = () => {
             </Flex>
           ))}
 
-        {showBackup && <ApiDataList api="index/index" objectKey="focus" />}
+        {showBackup && <ApiDataList api="/focus" />}
       </Flex>
     </Wrapper>
   );
