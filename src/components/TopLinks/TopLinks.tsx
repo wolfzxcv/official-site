@@ -31,12 +31,9 @@ const TopLinks: React.FC<{}> = () => {
         borderColor="green"
       ></LinkButton>
 
-      <LinkButton
-        text={t('usersCenter')}
-        href={links.usersCenterNew}
-      ></LinkButton>
+      <LinkButton text={t('usersCenter')} href={links.usersCenter}></LinkButton>
 
-      <LinkButton text={t('iBCenter')} href={links.iBCenterNew}></LinkButton>
+      <LinkButton text={t('iBCenter')} href={links.iBCenter}></LinkButton>
     </Flex>
   );
 };

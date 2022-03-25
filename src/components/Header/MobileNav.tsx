@@ -42,13 +42,13 @@ const MobileNav = () => {
       >
         <LinkButton
           text={t('usersCenter')}
-          href={links.usersCenterNew}
+          href={links.usersCenter}
           inMobile
         ></LinkButton>
 
         <LinkButton
           text={t('iBCenter')}
-          href={links.iBCenterNew}
+          href={links.iBCenter}
           inMobile
         ></LinkButton>
       </Flex>
