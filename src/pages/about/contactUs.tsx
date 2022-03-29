@@ -159,7 +159,7 @@ const contactUs: React.FC<{}> = () => {
             agreement={t('iAgreeTo')}
             submit={t('submit')}
             afterSubmit={t('weWillContactYou')}
-            api="wcg/contact"
+            api="/contact"
           />
         </Box>
       </Flex>
