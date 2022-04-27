@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.10](https://github.com/wolfzxcv/official-site/compare/v1.12.9...v1.12.10) (2022-04-27)
+
 ### [1.12.9](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.12.8...v1.12.9) (2022-03-21)
 
 
