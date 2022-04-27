@@ -94,7 +94,7 @@ const WCG51: React.FC<{}> = () => {
 
       {/* Mobile layout less than 831px */}
       <Flex
-        overflowX="hidden"
+        overflow="hidden"
         display={{ base: 'flex', md: 'none' }}
         bgImage="../assets/images/activity_WCG51_M.jpg"
         bgPosition="top center"
@@ -142,47 +142,47 @@ const WCG51: React.FC<{}> = () => {
           </Box>
         </Flex>
 
-        <Box w="95vw" my="70px">
+        <Flex w="95vw" my="70px" justify="center">
           <Image
             src="../assets/images/activity_WCG51_M_01.png"
             alt="activity_WCG51_M_01"
           />
-        </Box>
+        </Flex>
 
-        <Box w="95vw" my="70px">
+        <Flex w="95vw" my="70px" justify="center">
           <Image
             src="../assets/images/activity_WCG51_M_02.png"
             alt="activity_WCG51_M_02"
           />
-        </Box>
+        </Flex>
 
-        <Box w="95vw" my="70px">
+        <Flex w="95vw" my="70px" justify="center">
           <Image
             src="../assets/images/activity_WCG51_M_03.png"
             alt="activity_WCG51_M_03"
           />
-        </Box>
+        </Flex>
 
-        <Box w="95vw" my="70px">
+        <Flex w="95vw" my="70px" justify="center">
           <Image
             src="../assets/images/activity_WCG51_M_04.png"
             alt="activity_WCG51_M_04"
           />
-        </Box>
+        </Flex>
 
-        <Box w="95vw" my="70px">
+        <Flex w="95vw" my="70px" justify="center">
           <Image
             src="../assets/images/activity_WCG51_M_05.png"
             alt="activity_WCG51_M_05"
           />
-        </Box>
+        </Flex>
 
-        <Box w="95vw" my="70px">
+        <Flex w="95vw" my="70px" justify="center">
           <Image
             src="../assets/images/activity_WCG51_M_06.png"
             alt="activity_WCG51_M_06"
           />
-        </Box>
+        </Flex>
       </Flex>
     </>
   );
