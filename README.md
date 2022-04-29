@@ -134,6 +134,7 @@
   - [JYSL](http://newwcg.012wenchuan.com/activity/JYSL)
   - [WCGI](http://newwcg.012wenchuan.com/activity/WCGI)
   - [WCGE (Business card)](http://newwcg.012wenchuan.com/activity/WCGE)
+  - [WCG51](http://newwcg.012wenchuan.com/activity/WCG51)
 
 - 新活動改放在首頁 banner
 
