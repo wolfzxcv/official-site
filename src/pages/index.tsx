@@ -2,6 +2,7 @@ import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import WCG15 from '@/components/Banner/WCG15';
 import WCG51 from '@/components/Banner/WCG51';
+import WCGDC from '@/components/Banner/WCGDC';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -34,6 +35,7 @@ const Index: React.FC<{}> = () => {
   const sliders = [
     <WCG51 key="WCG51" />,
     <WCG15 key="WCG15" />,
+    <WCGDC key="WCGDC" />,
     <Banner key="Banner" />
   ];
 
