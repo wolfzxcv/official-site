@@ -45,7 +45,7 @@ const WCG15: React.FC<{}> = () => {
               opacity: 0.8,
               transition: '1s'
             }}
-            href={links.registerReal}
+            href={links.usersCenterZh}
             isExternal
           >
             <Image
@@ -104,7 +104,7 @@ const WCG15: React.FC<{}> = () => {
             />
           </Link>
 
-          <Link href={links.registerReal} isExternal>
+          <Link href={links.usersCenterZh} isExternal>
             <Image
               src="../assets/images/activity_WCG15_M_b2.png"
               alt="Instagram"

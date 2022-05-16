@@ -17,6 +17,8 @@ export const links = {
   registerDemo: 'https://trader.wc012.com/registerMock',
   // 客戶中心
   usersCenter: 'https://my.wcgmarkets.com/login',
+  // 客戶中心(中文)
+  usersCenterZh: 'https://my.wcgmarkets.com/zh/login',
   // 代理中心
   iBCenter: 'https://my.wcgmarkets.com/',
   // 聯絡信箱
