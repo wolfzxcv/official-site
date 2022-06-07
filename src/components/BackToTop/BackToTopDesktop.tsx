@@ -21,7 +21,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   return (
-    <Box zIndex={101} position="fixed" bottom={'50px'} right="3">
+    <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
       <Flex direction={'column'} color="white">
         <DesktopBaseButton
           label={t('online')}

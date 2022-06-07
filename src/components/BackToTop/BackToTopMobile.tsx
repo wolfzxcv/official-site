@@ -46,24 +46,24 @@ const BackToTopMobile: React.FC<{}> = () => {
 
   return (
     <>
-      {/* right bottom */}
-      <Box position="fixed" zIndex={1} bottom="0" right="0">
-        <MobileBaseButton
-          isRound={false}
-          label={t('top')}
-          onClick={scrollToTop}
-          icon={<BiArrowToTop fontSize="40px" />}
-        />
-      </Box>
-
-      {/* left bottom */}
-      <Box position="fixed" zIndex={1} bottom="0" left="0">
+      {/* widget bottom */}
+      <Box position="fixed" zIndex={1} bottom="50" left="0">
         <MobileBaseButton
           isRound={false}
           label={t('contactUs')}
           onClick={onOpen}
           icon={<GiTalk fontSize="40px" />}
         />
+
+        {/* to top bottom */}
+        <Box position="fixed" zIndex={1} bottom="0" left="0">
+          <MobileBaseButton
+            isRound={false}
+            label={t('top')}
+            onClick={scrollToTop}
+            icon={<BiArrowToTop fontSize="40px" />}
+          />
+        </Box>
       </Box>
 
       {/* Modal */}
