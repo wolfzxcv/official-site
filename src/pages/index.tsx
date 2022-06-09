@@ -7,7 +7,6 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
-import WCGDW from '@/components/PopUp/WCGDW';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -41,7 +40,6 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       <RestrictionsOnUse />
-      {isChinese && <WCGDW lang={currentLang} />}
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}
