@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import { openChatWindow } from '@/utils';
 import { Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
@@ -19,7 +18,7 @@ const TopLinks: React.FC<{}> = () => {
     >
       <LinkButton
         text={t('openRealAccount')}
-        href={links.registerReal}
+        href={process.env.NEXT_PUBLIC_REGISTER_REAL}
         inMobile
         borderColor="#b81c22"
       ></LinkButton>
@@ -31,9 +30,15 @@ const TopLinks: React.FC<{}> = () => {
         borderColor="green"
       ></LinkButton>
 
-      <LinkButton text={t('usersCenter')} href={links.usersCenter}></LinkButton>
+      <LinkButton
+        text={t('usersCenter')}
+        href={process.env.NEXT_PUBLIC_USERS_CENTER}
+      ></LinkButton>
 
-      <LinkButton text={t('iBCenter')} href={links.iBCenter}></LinkButton>
+      <LinkButton
+        text={t('iBCenter')}
+        href={process.env.NEXT_PUBLIC_IB_CENTER}
+      ></LinkButton>
     </Flex>
   );
 };

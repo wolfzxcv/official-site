@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import { openChatWindow } from '@/utils';
 import { Box, Flex, Stack, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
@@ -32,7 +31,7 @@ const FooterMiddle: React.FC<{}> = () => {
             >
               <LinkButton
                 text={t('common:openRealAccount')}
-                href={links.registerReal}
+                href={process.env.NEXT_PUBLIC_REGISTER_REAL}
                 inMobile
                 borderColor="#b81c22"
                 isFooter

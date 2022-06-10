@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import LicenseCard from '@/components/About/LicenseCard';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoButton from '@/components/Common/InfoButton';
@@ -49,7 +48,7 @@ const about: React.FC<{}> = () => {
           <Box>{t('WCGHasASolidFoundation')}</Box>
           <LinkButton
             text={t('registerARealAccountNow')}
-            href={links.registerReal}
+            href={process.env.NEXT_PUBLIC_REGISTER_REAL}
             inMobile
             borderColor="#b81c22"
             mdWidth="300px"

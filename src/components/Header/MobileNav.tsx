@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import { IMenuItem, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
@@ -42,13 +41,13 @@ const MobileNav = () => {
       >
         <LinkButton
           text={t('usersCenter')}
-          href={links.usersCenter}
+          href={process.env.NEXT_PUBLIC_USERS_CENTER}
           inMobile
         ></LinkButton>
 
         <LinkButton
           text={t('iBCenter')}
-          href={links.iBCenter}
+          href={process.env.NEXT_PUBLIC_IB_CENTER}
           inMobile
         ></LinkButton>
       </Flex>

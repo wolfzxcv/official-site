@@ -109,7 +109,7 @@ const BackToTopMobile: React.FC<{}> = () => {
               <MobileBaseButton
                 bg="purple.600"
                 label={t('clientPortal')}
-                href={links.registerReal}
+                href={process.env.NEXT_PUBLIC_REGISTER_REAL}
                 icon={<BsPencilSquare fontSize="36px" />}
               />
 

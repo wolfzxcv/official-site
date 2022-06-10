@@ -221,7 +221,7 @@ const Index: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href={links.registerReal}
+              href={process.env.NEXT_PUBLIC_REGISTER_REAL}
               isExternal
             >
               <Box
@@ -251,7 +251,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               textDecoration: 'none'
             }}
-            href={links.registerReal}
+            href={process.env.NEXT_PUBLIC_REGISTER_REAL}
             isExternal
           >
             <Box

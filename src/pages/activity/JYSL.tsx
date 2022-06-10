@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
 import { openChatWindow } from '@/utils';
@@ -126,7 +125,7 @@ const JYSL: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href={links.registerReal}
+              href={process.env.NEXT_PUBLIC_REGISTER_REAL}
               isExternal
             >
               <Image
@@ -247,7 +246,7 @@ const JYSL: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href={links.registerReal}
+              href={process.env.NEXT_PUBLIC_REGISTER_REAL}
               isExternal
               width={{ base: '80%', md: '50%' }}
               pt={{ base: 5, md: 0 }}
