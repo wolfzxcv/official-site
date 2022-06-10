@@ -16,7 +16,7 @@ import { BiUser } from 'react-icons/bi';
 type DownloadButtonProps = {
   text: string;
   href?: string;
-  type?: 'android' | 'ios' | 'user';
+  type?: 'huawei' | 'android' | 'ios' | 'user';
   onClick?: React.MouseEventHandler;
 };
 
@@ -43,7 +43,14 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
           <Tooltip
             placement={placement}
             label={
-              type === 'android' ? (
+              type === 'huawei' ? (
+                <Image
+                  minW="150px"
+                  height="150x"
+                  src="../assets/images/huawei-qr.jpg"
+                  alt="huawei-qr"
+                />
+              ) : type === 'android' ? (
                 <Image
                   minW="150px"
                   height="150x"
@@ -98,7 +105,14 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
         }}
       >
         <Center>
-          {type === 'android' ? (
+          {type === 'huawei' ? (
+            <Image
+              width="28px"
+              height="28px"
+              src="../assets/images/huawei.png"
+              alt="huawei"
+            />
+          ) : type === 'android' ? (
             <Image
               minW="28px"
               height="28px"
@@ -119,7 +133,16 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
           )}
         </Center>
 
-        <Box mx={2}>{text}</Box>
+        <Box
+          width={
+            type === 'huawei' || type === 'android' || type === 'ios'
+              ? '140px'
+              : 'auto'
+          }
+          mx={2}
+        >
+          {text}
+        </Box>
       </Flex>
     );
   }

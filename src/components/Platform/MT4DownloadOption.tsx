@@ -20,7 +20,7 @@ const MT4DownloadOption: React.FC<MT4DownloadOptionProps> = ({
     <Link
       href={href}
       isExternal
-      w={{ base: '30vw', xl: '20vw' }}
+      w={{ base: '30vw', md: '20vw' }}
       my={10}
       p={5}
       display={{ base: inMobile ? 'block' : 'none', md: 'block' }}

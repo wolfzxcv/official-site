@@ -11,6 +11,9 @@ export const links = {
   mt4IOS: 'https://apps.apple.com/us/app/metatrader-4/id496212596',
   mt4APP:
     'https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe',
+  mt4Huawei: 'https://appgallery.huawei.com/#/app/C102015319',
+  mt4HuaweiApk:
+    'https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk?utm_source=www.metatrader4.com&utm_campaign=install.metaquotes',
   // 真實帳戶
   registerReal: 'https://my.wcgmarkets.com/register',
   // 模擬帳戶

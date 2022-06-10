@@ -140,6 +140,19 @@ const MT4Overview: React.FC<{}> = () => {
             text={t('forAndroid')}
             inMobile
           />
+
+          <MT4DownloadOption
+            href={links.mt4HuaweiApk}
+            image={
+              <Image
+                src="../assets/images/mt4overview_huawei.png"
+                alt="forHuawei"
+              />
+            }
+            text={t('forHuawei')}
+            inMobile
+          />
+
           <MT4DownloadOption
             href={links.mt4APP}
             image={

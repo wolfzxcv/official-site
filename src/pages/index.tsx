@@ -444,6 +444,7 @@ const Index: React.FC<{}> = () => {
           >
             <Image src="../assets/images/home_apple.png" alt="apple"></Image>
           </Link>
+
           <Link
             mx={2}
             _hover={{
@@ -456,6 +457,17 @@ const Index: React.FC<{}> = () => {
               src="../assets/images/home_android.png"
               alt="android"
             ></Image>
+          </Link>
+
+          <Link
+            mx={2}
+            _hover={{
+              transform: 'scale(1.2)'
+            }}
+            isExternal
+            href={links.mt4HuaweiApk}
+          >
+            <Image src="../assets/images/home_huawei.png" alt="huawei"></Image>
           </Link>
 
           <Link

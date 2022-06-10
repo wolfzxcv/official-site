@@ -26,6 +26,7 @@ export const platform: Platform = {
   multiAccountManagementSystem: 'MT4多账户 管理系统',
   forIPhone: 'iPhone版MT4',
   forAndroid: 'Android版MT4',
+  forHuawei: 'Huawei版MT4',
   MT4PcVersion: 'MT4电脑版',
   MetaTrader4IsTheMostPopular:
     'MetaTrader 4 是全球最受欢迎的线上交易平台， 多年来已在行业内建立了龙头的地位。MetaTrader 4（MT4）是专门为外汇及期货等交易而设，交易者可通过其直观的使用者介面和完善的功能，分析市场走势、绘製交易图表、管理他们的仓位与订单。',
@@ -66,8 +67,9 @@ export const platform: Platform = {
   MetaTrader4MobileApp: 'MetaTrader4 手机APP',
   downloadOurMT4MobileAppNow:
     '立即下载我们的MT4移动版应用程式，让它成为您的交易伙伴，助您随时随地进入金融市场，24小时全天候把握每个交易机会。',
-  downloadTheIOSVersion: '下载iOS版',
-  downloadTheAndroidVersion: '下载安卓版',
+  IOSVersion: '下载iOS版',
+  AndroidVersion: '下载安卓版',
+  HuaweiVersion: '下载华为版',
   MAMMultiAccountManagementSystem: 'MAM多账户管理系统',
   theMultiAccountManagementSystem:
     '多账户管理系统 （MAM）具备重要整合管理功能，让资产管理人可以仅透过一个介面管理多个账户。单一介面让资产管理人可以有效且精确地为多个个人账户配置交易条件，将同样的交易条件及策略，根据预设的比例平均分配至个别账户，协助您管理交易活动并提升管理技巧。',

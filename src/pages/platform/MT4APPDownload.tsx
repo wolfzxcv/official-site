@@ -60,7 +60,7 @@ const MT4APPDownload: React.FC<{}> = () => {
             >
               <DownloadButton
                 href={links.mt4IOS}
-                text={t('downloadTheIOSVersion')}
+                text={t('IOSVersion')}
                 type="ios"
               />
             </Box>
@@ -72,8 +72,20 @@ const MT4APPDownload: React.FC<{}> = () => {
             >
               <DownloadButton
                 href={links.mt4Android}
-                text={t('downloadTheAndroidVersion')}
+                text={t('AndroidVersion')}
                 type="android"
+              />
+            </Box>
+
+            <Box
+              mt={5}
+              mx={5}
+              width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
+            >
+              <DownloadButton
+                href={links.mt4HuaweiApk}
+                text={t('HuaweiVersion')}
+                type="huawei"
               />
             </Box>
           </Flex>
@@ -234,7 +246,7 @@ const MT4APPDownload: React.FC<{}> = () => {
         >
           <DownloadButton
             href={links.mt4IOS}
-            text={t('downloadTheIOSVersion')}
+            text={t('IOSVersion')}
             type="ios"
           />
         </Box>
@@ -246,8 +258,20 @@ const MT4APPDownload: React.FC<{}> = () => {
         >
           <DownloadButton
             href={links.mt4Android}
-            text={t('downloadTheAndroidVersion')}
+            text={t('AndroidVersion')}
             type="android"
+          />
+        </Box>
+
+        <Box
+          mt={5}
+          mx={5}
+          width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
+        >
+          <DownloadButton
+            href={links.mt4HuaweiApk}
+            text={t('HuaweiVersion')}
+            type="huawei"
           />
         </Box>
       </Flex>
