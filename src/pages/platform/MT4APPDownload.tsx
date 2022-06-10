@@ -55,7 +55,6 @@ const MT4APPDownload: React.FC<{}> = () => {
           <Flex direction={'column'} mt={20}>
             <Box
               mt={5}
-              mx={5}
               width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
             >
               <DownloadButton
@@ -67,7 +66,6 @@ const MT4APPDownload: React.FC<{}> = () => {
 
             <Box
               mt={5}
-              mx={5}
               width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
             >
               <DownloadButton
@@ -79,7 +77,6 @@ const MT4APPDownload: React.FC<{}> = () => {
 
             <Box
               mt={5}
-              mx={5}
               width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
             >
               <DownloadButton
@@ -239,11 +236,7 @@ const MT4APPDownload: React.FC<{}> = () => {
         mb={20}
         mx={10}
       >
-        <Box
-          mt={5}
-          mx={5}
-          width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
-        >
+        <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
           <DownloadButton
             href={links.mt4IOS}
             text={t('IOSVersion')}
@@ -251,11 +244,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           />
         </Box>
 
-        <Box
-          mt={5}
-          mx={5}
-          width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
-        >
+        <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
           <DownloadButton
             href={links.mt4Android}
             text={t('AndroidVersion')}
@@ -263,11 +252,7 @@ const MT4APPDownload: React.FC<{}> = () => {
           />
         </Box>
 
-        <Box
-          mt={5}
-          mx={5}
-          width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
-        >
+        <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
           <DownloadButton
             href={links.mt4HuaweiApk}
             text={t('HuaweiVersion')}

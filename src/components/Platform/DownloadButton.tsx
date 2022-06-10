@@ -134,7 +134,7 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
         </Center>
 
         <Box
-          width={
+          minW={
             type === 'huawei' || type === 'android' || type === 'ios'
               ? '140px'
               : 'auto'
