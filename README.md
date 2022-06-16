@@ -1,6 +1,6 @@
 # WCG Markets 官網
 
-- [正式環境](https://glb.012wenchuan.com/)
+- [正式環境](https://www.wcgpartner.com/)
 - [測試環境](http://newwcg.012wenchuan.com)
 
 ## 運行方式
@@ -88,7 +88,7 @@
 請先安裝 **[Node](https://nodejs.org/en/download/)**
 
 - [Next.js](https://nextjs.org/)
-- TypeScript
+- [TypeScript](https://www.typescriptlang.org/)
 - [Chakra UI](https://chakra-ui.com/)
 - [next-i18next](https://github.com/isaachinman/next-i18next)
 - [commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly)
@@ -118,6 +118,14 @@
   - 所有 API
 - NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID
   - Google 分析的 GTM 標籤, 已在此標籤下編輯, 同時控制 Google Analytics 以及 Visitor Analytics
+- NEXT_PUBLIC_REGISTER_REAL
+  - 開立真實帳戶
+- NEXT_PUBLIC_USERS_CENTER
+  - 客戶中心
+- NEXT_PUBLIC_USERS_CENTER_ZH
+  - 客戶中心(中文)
+- NEXT_PUBLIC_IB_CENTER
+  - 代理中心
 
 ### 活動頁面
 
@@ -135,6 +143,7 @@
   - [WCGI](http://newwcg.012wenchuan.com/activity/WCGI)
   - [WCGE (Business card)](http://newwcg.012wenchuan.com/activity/WCGE)
   - [WCG51](http://newwcg.012wenchuan.com/activity/WCG51)
+  - [WCG15](http://newwcg.012wenchuan.com/activity/WCG15)
 
 - 新活動改放在首頁 banner
 
