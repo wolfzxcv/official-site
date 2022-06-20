@@ -13,9 +13,14 @@ import React, { useEffect, useRef } from 'react';
 type PopUpProps = {
   title: string;
   content: JSX.Element;
+  useBorder?: boolean;
 };
 
-const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
+const PopUp: React.FC<PopUpProps> = ({
+  title,
+  content,
+  useBorder = true
+}: PopUpProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const cancelRef = useRef();
 
@@ -57,7 +62,11 @@ const PopUp: React.FC<PopUpProps> = ({ title, content }: PopUpProps) => {
             size="lg"
             top={isDesktop ? 1 : 0}
           />
-          <AlertDialogBody p={0} border="1px" borderColor="white">
+          <AlertDialogBody
+            p={0}
+            border={useBorder ? '1px' : '0'}
+            borderColor="white"
+          >
             {content}
           </AlertDialogBody>
         </AlertDialogContent>
