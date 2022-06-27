@@ -144,6 +144,8 @@
   - [WCGE (Business card)](http://newwcg.012wenchuan.com/activity/WCGE)
   - [WCG51](http://newwcg.012wenchuan.com/activity/WCG51)
   - [WCG15](http://newwcg.012wenchuan.com/activity/WCG15)
+  - [WCG51](http://newwcg.012wenchuan.com/activity/WCGQYHK)
+  - [WCG15](http://newwcg.012wenchuan.com/activity/WCGDLJS)
 
 - 新活動改放在首頁 banner
 
