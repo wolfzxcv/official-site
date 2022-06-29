@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.27](https://github.com/wolfzxcv/official-site/compare/v1.12.26...v1.12.27) (2022-06-29)
+
 ### [1.12.26](https://github.com/wolfzxcv/official-site/compare/v1.12.25...v1.12.26) (2022-06-27)
 
 ### [1.12.25](https://github.com/wolfzxcv/official-site/compare/v1.12.23...v1.12.25) (2022-06-21)
