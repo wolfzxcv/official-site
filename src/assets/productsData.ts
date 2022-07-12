@@ -378,7 +378,7 @@ export const productsData: IProduct[] = [
       {
         product: 'USOIL',
         name: '*USOIL',
-        lotRange: '0.1/20',
+        lotRange: '0.01/20',
         contractUnit: '1000*barrels',
         standardPoint: '10*USD',
         basicMargin: '1000*USD',
@@ -389,7 +389,7 @@ export const productsData: IProduct[] = [
       {
         product: 'UKOIL',
         name: '*UKOIL',
-        lotRange: '0.1/20',
+        lotRange: '0.01/20',
         contractUnit: '1000*barrels',
         standardPoint: '10*USD',
         basicMargin: '1000*USD',
