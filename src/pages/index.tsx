@@ -467,7 +467,7 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href={links.mt4HuaweiApk}
+            href={process.env.NEXT_PUBLIC_MT4_APK}
           >
             <Image src="../assets/images/home_huawei.png" alt="huawei"></Image>
           </Link>
@@ -477,7 +477,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               transform: 'scale(1.2)'
             }}
-            href={links.mt4APP}
+            href={process.env.NEXT_PUBLIC_MT4_APP}
           >
             <Image src="../assets/images/home_pc.png" alt="pc"></Image>
           </Link>

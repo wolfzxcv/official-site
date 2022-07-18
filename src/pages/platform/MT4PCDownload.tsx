@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoCardSm from '@/components/Common/InfoCardSm';
@@ -57,7 +56,7 @@ const MT4PCDownload: React.FC<{}> = () => {
             width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
           >
             <DownloadButton
-              href={links.mt4APP}
+              href={process.env.NEXT_PUBLIC_MT4_APP}
               text={t('downloadImmediately')}
             />
           </Box>
@@ -207,7 +206,10 @@ const MT4PCDownload: React.FC<{}> = () => {
           mb={20}
           width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
         >
-          <DownloadButton href={links.mt4APP} text={t('downloadImmediately')} />
+          <DownloadButton
+            href={process.env.NEXT_PUBLIC_MT4_APP}
+            text={t('downloadImmediately')}
+          />
         </Box>
       </Center>
     </Wrapper>

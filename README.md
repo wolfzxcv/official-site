@@ -126,6 +126,10 @@
   - 客戶中心(中文)
 - NEXT_PUBLIC_IB_CENTER
   - 代理中心
+- NEXT_PUBLIC_MT4_APP
+  - MT4 電腦版下載
+- NEXT_PUBLIC_MT4_APK
+  - MT4 APP(華為)下載
 
 ### 活動頁面
 
@@ -156,8 +160,9 @@
 
 - 國際站
 
-  - https://glb.012wenchuan.com/
   - https://www.wcgmarkets.com/
+  - https://www.wcgmarkets-global.com/
+  - https://glb.012wenchuan.com/
   - http://wcglb.com
 
 - 國內站
