@@ -162,8 +162,6 @@
 
   - https://www.wcgmarkets.com/
   - https://www.wcgmarkets-global.com/
-  - https://glb.012wenchuan.com/
-  - http://wcglb.com
 
 - 國內站
 
