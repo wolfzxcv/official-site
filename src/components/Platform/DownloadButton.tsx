@@ -47,7 +47,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
                 <Image
                   minW="150px"
                   height="150x"
-                  src="../assets/images/huawei-qr.jpg"
+                  src="../assets/images/huawei-qr.png"
                   alt="huawei-qr"
                 />
               ) : type === 'android' ? (

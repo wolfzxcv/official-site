@@ -232,7 +232,7 @@ const MT4APPDownload: React.FC<{}> = () => {
 
       <Flex
         direction={{ base: 'column', xl: 'row' }}
-        justify="center"
+        justify="space-around"
         mb={20}
         mx={10}
       >
