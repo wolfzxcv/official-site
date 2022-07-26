@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/wolfzxcv/official-site/compare/v1.12.33...v1.13.0) (2022-07-26)
+
+
+### Features
+
+* **introductionvideo:** add English video, modify .env ([7420f67](https://github.com/wolfzxcv/official-site/commit/7420f674f40c6019b6e3b52fa0595ed3f068c508))
+
 ### [1.12.33](https://github.com/wolfzxcv/official-site/compare/v1.12.32...v1.12.33) (2022-07-22)
 
 ### [1.12.32](https://github.com/wolfzxcv/official-site/compare/v1.12.31...v1.12.32) (2022-07-18)
