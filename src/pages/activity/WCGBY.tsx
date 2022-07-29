@@ -65,7 +65,7 @@ const WCGBYContent: React.FC<{}> = () => (
         href="/"
         isExternal
       >
-        官網首頁
+        官网首页
       </Link>
       <Link
         width="30vw"
@@ -82,7 +82,7 @@ const WCGBYContent: React.FC<{}> = () => (
         href={process.env.NEXT_PUBLIC_USERS_CENTER_ZH}
         isExternal
       >
-        立即開戶
+        立即开户
       </Link>
       <Box
         width="30vw"
@@ -99,7 +99,7 @@ const WCGBYContent: React.FC<{}> = () => (
         }}
         onClick={openChatWindow}
       >
-        在線客服
+        在线客服
       </Box>
     </Flex>
 
