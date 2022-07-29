@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.14.0](https://github.com/wolfzxcv/official-site/compare/v1.13.0...v1.14.0) (2022-07-29)
+
+
+### Features
+
+* **activity:** add WCGBY ([f3e94e5](https://github.com/wolfzxcv/official-site/commit/f3e94e54a39a12b2e1ef2e427bad8545b68582e9))
+
 ## [1.13.0](https://github.com/wolfzxcv/official-site/compare/v1.12.33...v1.13.0) (2022-07-26)
 
 
