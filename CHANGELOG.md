@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.14.1](https://github.com/wolfzxcv/official-site/compare/v1.14.0...v1.14.1) (2022-07-29)
+
+
+### Bug Fixes
+
+* **wcgby:** fix typo ([53b8b61](https://github.com/wolfzxcv/official-site/commit/53b8b61aa7e34cc92a881c7db677f2610043db63))
+
 ## [1.14.0](https://github.com/wolfzxcv/official-site/compare/v1.13.0...v1.14.0) (2022-07-29)
 
 
