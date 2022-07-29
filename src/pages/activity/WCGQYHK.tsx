@@ -28,11 +28,6 @@ const WCGQYHK: React.FC<{}> = () => {
               isExternal
             >
               <Image
-                _hover={{
-                  opacity: 0.8,
-                  transition: '1s',
-                  cursor: 'pointer'
-                }}
                 src="../assets/images/activity_WCGQYHK_b1.png"
                 alt="activity_WCGQYHK_b1"
               />
