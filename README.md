@@ -292,7 +292,7 @@ type IContactInput = {
 ```typescript=
 type ICheckIpRes = {
   ip: string; // client public ip
-  location?: string; // 回傳地區代碼, 香港為 HK, 若為香港IP, 前端需顯示風險彈窗
+  location?: string; // 回傳地區代碼, 香港為 HK, 若為香港IP, 前端需顯示風險彈窗 => 2022/08/01 前端移除此功能
 };
 ```
 
