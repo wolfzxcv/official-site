@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/wolfzxcv/official-site/compare/v1.14.1...v1.15.0) (2022-08-01)
+
+
+### Features
+
+* **index:** remove RestrictionsOnUse ([d9c3fe2](https://github.com/wolfzxcv/official-site/commit/d9c3fe24983e017ca13aa6c987d8f39d8e3616ba))
+
 ### [1.14.1](https://github.com/wolfzxcv/official-site/compare/v1.14.0...v1.14.1) (2022-07-29)
 
 
