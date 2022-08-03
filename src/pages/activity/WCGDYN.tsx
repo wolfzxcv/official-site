@@ -129,9 +129,10 @@ export const WCGDYNTitle: React.FC<{}> = () => (
       border="1px"
       borderColor="white"
       bg={WCGDYN_BG_DARKGREEN}
-      px={5}
+      width={{ base: '90vw', md: 'auto' }}
+      px={{ base: 2, md: 5 }}
       py={5}
-      fontSize={{ base: '14px', md: '28px' }}
+      fontSize={{ base: '12px', md: '28px' }}
       fontWeight="700"
       textAlign="center"
     >
@@ -141,7 +142,7 @@ export const WCGDYNTitle: React.FC<{}> = () => (
     <Box
       mt={{ base: 10, md: 20 }}
       mb={{ base: 10, md: '150px' }}
-      fontSize="18px"
+      fontSize={{ base: '12px', md: '18px' }}
       width={{ base: '80vw', md: '90vw' }}
       maxW={{ base: 'auto', md: '900px' }}
       textAlign="center"
