@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.16.0](https://github.com/wolfzxcv/official-site/compare/v1.15.2...v1.16.0) (2022-08-03)
+
+
+### Features
+
+* **activity:** add WCGDYN, modify readme, homepage ([299d8f4](https://github.com/wolfzxcv/official-site/commit/299d8f45a2f90cbc9478a00770ac1e678e92d340))
+
+
+### Bug Fixes
+
+* **popovertrigger:** temp fix chakra-ui PopoverTrigger with React 18 type conflict ([0a7c186](https://github.com/wolfzxcv/official-site/commit/0a7c1869e2ed038a2e3faef09462fdd30b57a20a))
+
 ### [1.15.2](https://github.com/wolfzxcv/official-site/compare/v1.15.1...v1.15.2) (2022-08-02)
 
 ### [1.15.1](https://github.com/wolfzxcv/official-site/compare/v1.15.0...v1.15.1) (2022-08-01)
