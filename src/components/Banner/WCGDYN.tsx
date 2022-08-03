@@ -1,22 +1,22 @@
 import { Locales } from '@/i18n/config';
-import { WCGBYTitle, WCGBY_BG_RED } from '@/pages/activity/WCGBY';
+import { WCGDYNTitle, WCGDYN_BG_GREEN } from '@/pages/activity/WCGDYN';
 import { Flex } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const WCGBY: React.FC<{}> = () => {
+const WCGDYN: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
   return (
-    <NextLink passHref={true} href="/activity/WCGBY" locale={currentLang}>
+    <NextLink passHref={true} href="/activity/WCGDYN" locale={currentLang}>
       <Flex
-        minH={{ base: '600px', md: '500px' }}
-        bg={WCGBY_BG_RED}
+        minH={{ base: '510px', md: '500px' }}
+        bg={WCGDYN_BG_GREEN}
         backgroundImage={{
-          base: '../assets/images/activity_WCGBY_M.jpg',
-          md: '../assets/images/activity_WCGBY_banner.jpg'
+          base: '../assets/images/activity_WCGDYN_M.jpg',
+          md: '../assets/images/activity_WCGDYN_banner.jpg'
         }}
         bgPosition={{ base: 'top center', md: 'top center' }}
         bgSize={{ base: 'contain', md: 'cover' }}
@@ -30,18 +30,18 @@ const WCGBY: React.FC<{}> = () => {
       >
         <Flex
           display={{ base: 'block', md: 'none' }}
-          bg={WCGBY_BG_RED}
-          mt="380px"
+          bg={WCGDYN_BG_GREEN}
+          mt="330px"
           color="white"
           flexDir="column"
           align="center"
           justify="flex-end"
         >
-          <WCGBYTitle />
+          <WCGDYNTitle />
         </Flex>
       </Flex>
     </NextLink>
   );
 };
 
-export default WCGBY;
+export default WCGDYN;

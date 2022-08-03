@@ -19,7 +19,7 @@ const WCGBY: React.FC<{}> = () => {
         minH={{ base: '320px', md: '600px' }}
         bg={WCGBY_BG_RED}
         bgImage={{
-          base: "url('../assets/images/activity_WCGBY_M.jpg')",
+          base: '../assets/images/activity_WCGBY_M.jpg',
           md: '../assets/images/activity_WCGBY.jpg'
         }}
         bgPosition="top center"
@@ -31,7 +31,7 @@ const WCGBY: React.FC<{}> = () => {
       <WCGBYContent />
 
       {/* rules */}
-      <Flex fontSize="8px" bg="#4f0713" justify="center">
+      <Flex fontSize="8px" bg={WCGBY_BG_BROWN} justify="center">
         <Stack
           my={10}
           width="90vw"
