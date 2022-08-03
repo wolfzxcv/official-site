@@ -4,9 +4,12 @@ import {
   Popover,
   PopoverBody,
   PopoverContent,
-  PopoverTrigger
+  PopoverTrigger as OrigPopoverTrigger
 } from '@chakra-ui/react';
 import React from 'react';
+
+export const PopoverTrigger: React.FC<{ children: React.ReactNode }> =
+  OrigPopoverTrigger;
 
 const WCGEPopOver: React.FC<{}> = () => {
   return (

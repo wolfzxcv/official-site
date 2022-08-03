@@ -9,7 +9,7 @@ import {
   Link,
   Popover,
   PopoverContent,
-  PopoverTrigger,
+  PopoverTrigger as OrigPopoverTrigger,
   Stack,
   Text,
   useColorModeValue
@@ -18,6 +18,9 @@ import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
+
+export const PopoverTrigger: React.FC<{ children: React.ReactNode }> =
+  OrigPopoverTrigger;
 
 const DesktopNav = () => {
   const { t } = useTranslation('header');
