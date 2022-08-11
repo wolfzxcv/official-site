@@ -24,7 +24,7 @@
   - src\assets\productsData.ts
 - 導覽列
   - src\assets\menuList.ts
-- 連結
+- 整個站使用到的連結們
   - src\assets\links.ts
 - 多國語言
   - public\assets\images (國旗的圖片放在這裡)

@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import { IMenuItem, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
@@ -14,7 +15,6 @@ import {
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
 import LinkButton from '../TopLinks/LinkButton';
 
 const MobileNav = () => {
@@ -41,13 +41,13 @@ const MobileNav = () => {
       >
         <LinkButton
           text={t('usersCenter')}
-          href={process.env.NEXT_PUBLIC_USERS_CENTER}
+          href={links.userCenter}
           inMobile
         ></LinkButton>
 
         <LinkButton
           text={t('iBCenter')}
-          href={process.env.NEXT_PUBLIC_IB_CENTER}
+          href={links.ibCenter}
           inMobile
         ></LinkButton>
       </Flex>

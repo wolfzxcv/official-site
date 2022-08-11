@@ -4,7 +4,7 @@ import InfoTitle from '@/components/Common/InfoTitle';
 import InfoTitleSub from '@/components/Common/InfoTitleSub';
 import { IField } from '@/components/Form/SubmitForm';
 import { Locales } from '@/i18n/config';
-import { Box, Flex, Image, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Link, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -130,8 +130,36 @@ const contactUs: React.FC<{}> = () => {
           <Flex my={10} flexDirection="column">
             <InfoTitle title={t('contactUs')} />
             <InfoTitleSub title={t('ifYouNeed')} />
-            <Text>{`${t('customerService')}： 4001 203 612`} </Text>
-            <Text>{`${t('customerServiceEmail')}： ${links.email}`}</Text>
+            <Text>
+              {`${t('customerService')}: `}
+
+              <Link
+                _hover={{ cursor: 'pointer' }}
+                href={`tel:${links.tel}`}
+                isExternal
+              >
+                {links.tel}
+              </Link>
+              {', '}
+              <Link
+                _hover={{ cursor: 'pointer' }}
+                href={`tel:${links.tel2}`}
+                isExternal
+              >
+                {links.tel2}
+              </Link>
+            </Text>
+            <Text>
+              {`${t('customerServiceEmail')}: `}
+
+              <Link
+                _hover={{ cursor: 'pointer' }}
+                href={`mailto:${links.email}`}
+                isExternal
+              >
+                {links.email}
+              </Link>
+            </Text>
           </Flex>
         </Box>
         <Image

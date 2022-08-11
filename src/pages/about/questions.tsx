@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import { InfoAccordionItemProps } from '@/components/Common/InfoAccordion';
 import InfoTitle from '@/components/Common/InfoTitle';
@@ -29,7 +30,7 @@ const questions: React.FC<{}> = () => {
     {
       title: t('HowToOpenAnAccountInWCG'),
       content: [t('youCanRegisterYourRealAccount')],
-      externalHref: process.env.NEXT_PUBLIC_REGISTER_REAL
+      externalHref: links.register
     },
     {
       title: t('whatKindOfAccounts'),

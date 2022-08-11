@@ -80,7 +80,7 @@ const MT4APPDownload: React.FC<{}> = () => {
               width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
             >
               <DownloadButton
-                href={process.env.NEXT_PUBLIC_MT4_APK}
+                href={links.mt4Apk}
                 text={t('HuaweiVersion')}
                 type="huawei"
               />
@@ -254,7 +254,7 @@ const MT4APPDownload: React.FC<{}> = () => {
 
         <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
           <DownloadButton
-            href={process.env.NEXT_PUBLIC_MT4_APK}
+            href={links.mt4Apk}
             text={t('HuaweiVersion')}
             type="huawei"
           />

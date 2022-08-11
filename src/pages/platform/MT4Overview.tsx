@@ -142,7 +142,7 @@ const MT4Overview: React.FC<{}> = () => {
           />
 
           <MT4DownloadOption
-            href={process.env.NEXT_PUBLIC_MT4_APK}
+            href={links.mt4Apk}
             image={
               <Image
                 src="../assets/images/mt4overview_huawei.png"
@@ -154,7 +154,7 @@ const MT4Overview: React.FC<{}> = () => {
           />
 
           <MT4DownloadOption
-            href={process.env.NEXT_PUBLIC_MT4_APP}
+            href={links.mt4App}
             image={
               <Image src="../assets/images/mt4overview_pc.png" alt="forPC" />
             }

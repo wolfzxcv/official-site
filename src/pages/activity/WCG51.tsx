@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
 import { openChatWindow } from '@/utils/openChatWindow';
@@ -44,7 +45,7 @@ const WCG51: React.FC<{}> = () => {
               opacity: 0.8,
               transition: '1s'
             }}
-            href={process.env.NEXT_PUBLIC_USERS_CENTER_ZH}
+            href={links.userCenterZH}
             isExternal
           >
             <Image
@@ -128,7 +129,7 @@ const WCG51: React.FC<{}> = () => {
             />
           </Link>
 
-          <Link href={process.env.NEXT_PUBLIC_USERS_CENTER_ZH} isExternal>
+          <Link href={links.userCenterZH} isExternal>
             <Image
               src="../assets/images/activity_WCG51_M_b2.png"
               alt="Instagram"

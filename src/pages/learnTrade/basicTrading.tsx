@@ -1,3 +1,4 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import { InfoAccordionItemProps } from '@/components/Common/InfoAccordion';
 import InfoTitle from '@/components/Common/InfoTitle';
@@ -123,7 +124,7 @@ const basicTrading: React.FC<{}> = () => {
         {
           type: 'buttonLink',
           objectKey: t('applyForARealAccountNow'),
-          secondKey: process.env.NEXT_PUBLIC_REGISTER_REAL
+          secondKey: links.register
         },
         {
           type: 'title',
@@ -136,7 +137,7 @@ const basicTrading: React.FC<{}> = () => {
         {
           type: 'buttonLink',
           objectKey: t('depositFundsNow'),
-          secondKey: process.env.NEXT_PUBLIC_REGISTER_REAL
+          secondKey: links.register
         },
         {
           type: 'title',

@@ -222,7 +222,7 @@ const Index: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href={process.env.NEXT_PUBLIC_REGISTER_REAL}
+              href={links.register}
               isExternal
             >
               <Box
@@ -252,7 +252,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               textDecoration: 'none'
             }}
-            href={process.env.NEXT_PUBLIC_REGISTER_REAL}
+            href={links.register}
             isExternal
           >
             <Box
@@ -466,7 +466,7 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href={process.env.NEXT_PUBLIC_MT4_APK}
+            href={links.mt4Apk}
           >
             <Image src="../assets/images/home_huawei.png" alt="huawei"></Image>
           </Link>
@@ -476,7 +476,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               transform: 'scale(1.2)'
             }}
-            href={process.env.NEXT_PUBLIC_MT4_APP}
+            href={links.mt4App}
           >
             <Image src="../assets/images/home_pc.png" alt="pc"></Image>
           </Link>
