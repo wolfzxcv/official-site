@@ -24,7 +24,7 @@ export const links = {
     process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',
   // 用戶中心註冊
   register:
-    process.env.NEXT_PUBLIC_IB_CENTER ||
+    process.env.NEXT_PUBLIC_REGISTER_REAL ||
     'https://my.wcgmarkets-global.com/register',
   // 用戶中心
   userCenter:
