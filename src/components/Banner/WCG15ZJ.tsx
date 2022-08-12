@@ -10,8 +10,8 @@ const WCG15ZJ: React.FC<{}> = () => {
         <Box
           minH={{ base: '600px', md: '500px' }}
           backgroundImage={{
-            base: "url('../assets/images/activity_WCG15ZJ_M_detail.jpg')",
-            md: "url('../assets/images/activity_WCG15ZJ_detail.jpg')"
+            base: '../assets/images/activity_WCG15ZJ_M_detail.jpg',
+            md: '../assets/images/activity_WCG15ZJ_detail.jpg'
           }}
           bgPosition="top center"
           bgSize="cover"

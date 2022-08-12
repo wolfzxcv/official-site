@@ -12,7 +12,7 @@ const WCGDYN: React.FC<{}> = () => {
   return (
     <NextLink passHref={true} href="/activity/WCGDYN" locale={currentLang}>
       <Flex
-        minH={{ base: '510px', md: '500px' }}
+        minH={{ base: '600px', md: '500px' }}
         bg={WCGDYN_BG_GREEN}
         backgroundImage={{
           base: '../assets/images/activity_WCGDYN_M.jpg',

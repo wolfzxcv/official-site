@@ -13,8 +13,8 @@ const WCG51: React.FC<{}> = () => {
       <Flex
         minH={{ base: '600px', md: '500px' }}
         backgroundImage={{
-          base: "url('../assets/images/activity_WCG51_banner_M.jpg')",
-          md: "url('../assets/images/activity_WCG51_banner.jpg')"
+          base: '../assets/images/activity_WCG51_banner_M.jpg',
+          md: '../assets/images/activity_WCG51_banner.jpg'
         }}
         bgPosition={{ base: 'top center', md: 'top right' }}
         bgSize="cover"
