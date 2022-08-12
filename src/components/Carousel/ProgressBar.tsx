@@ -14,7 +14,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
 
   const browserWidth = window?.document.body?.clientWidth;
   if (browserWidth) {
-    const newWidth = (browserWidth - 100) / amount;
+    const newWidth = (browserWidth - 150) / amount;
 
     if (newWidth < mobileBarWidth) {
       mobileBarWidth = newWidth;

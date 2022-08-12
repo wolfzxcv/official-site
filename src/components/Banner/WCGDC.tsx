@@ -14,8 +14,6 @@ const WCGDC: React.FC<{}> = () => {
       _hover={{
         cursor: 'pointer'
       }}
-      justify="center"
-      align="flex-end"
     ></Flex>
   );
 };
