@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://github.com/wolfzxcv/official-site/compare/v1.17.0...v1.18.0) (2022-08-12)
+
+
+### Features
+
+* **banner:** add WCGIFX ([196f116](https://github.com/wolfzxcv/official-site/commit/196f11615b14faa62c70c1c5386280e00069d4a5))
+
 ## [1.17.0](https://github.com/wolfzxcv/official-site/compare/v1.16.2...v1.17.0) (2022-08-12)
 
 
