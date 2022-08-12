@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/wolfzxcv/official-site/compare/v1.16.2...v1.17.0) (2022-08-12)
+
+
+### Features
+
+* **homepage:** add WCGIFX ([a84ae2d](https://github.com/wolfzxcv/official-site/commit/a84ae2d5ba21fecdc5cb7761584554860c32d33f))
+
 ### [1.16.2](https://github.com/wolfzxcv/official-site/compare/v1.16.0...v1.16.2) (2022-08-11)
 
 ### [1.16.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.16.0...v1.16.1) (2022-08-08)
