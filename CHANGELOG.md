@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.19.0](https://github.com/wolfzxcv/official-site/compare/v1.18.0...v1.19.0) (2022-08-25)
+
+
+### Features
+
+* **activity:** add WCGZQJ ([0e7f738](https://github.com/wolfzxcv/official-site/commit/0e7f7388d7d5d3eb56f2362c01077ecc3d55d380))
+
 ## [1.18.0](https://github.com/wolfzxcv/official-site/compare/v1.17.0...v1.18.0) (2022-08-12)
 
 
