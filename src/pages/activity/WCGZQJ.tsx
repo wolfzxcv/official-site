@@ -24,10 +24,10 @@ const WCGZQJ: React.FC<{}> = () => {
         bg={WCGZQJ_BG_BROWN}
         bgImage={{
           base: '../assets/images/activity_WCGZQJ_M.jpg',
-          md: '../assets/images/activity_WCGZQJ_banner_full.jpg'
+          md: '../assets/images/activity_WCGZQJ.jpg'
         }}
         bgPosition="top center"
-        bgSize={{ base: 'cover', md: 'cover' }}
+        bgSize="cover"
         bgRepeat="no-repeat"
       ></Flex>
 
