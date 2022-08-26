@@ -14,7 +14,7 @@ const XNHZ: React.FC<{}> = () => {
   return (
     <Box
       minH={{ base: '600px', md: '500px' }}
-      backgroundImage={{
+      bgImage={{
         base: isShowDetail ? 'none' : '../assets/images/activity_XNHZ_M.jpg',
         md: '../assets/images/activity_XNHZ.jpg'
       }}

@@ -1,11 +1,11 @@
-import { Flex } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import React from 'react';
 
 const WCGDC: React.FC<{}> = () => {
   return (
-    <Flex
+    <Box
       minH={{ base: '600px', md: '500px' }}
-      backgroundImage={{
+      bgImage={{
         base: '../assets/images/activity_WCGDC_banner_M.jpg',
         md: '../assets/images/activity_WCGDC_banner.jpg'
       }}
@@ -14,7 +14,7 @@ const WCGDC: React.FC<{}> = () => {
       _hover={{
         cursor: 'pointer'
       }}
-    ></Flex>
+    ></Box>
   );
 };
 

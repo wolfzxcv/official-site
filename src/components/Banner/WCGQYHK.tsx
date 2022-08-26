@@ -13,7 +13,7 @@ const WCGQYHK: React.FC<{}> = () => {
     <NextLink passHref={true} href="/activity/WCGQYHK" locale={currentLang}>
       <Flex
         minH={{ base: '600px', md: '500px' }}
-        backgroundImage={{
+        bgImage={{
           base: '../assets/images/activity_WCGQYHK_M.jpg',
           md: '../assets/images/activity_WCGQYHK_banner.jpg'
         }}

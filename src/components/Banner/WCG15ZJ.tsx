@@ -9,7 +9,7 @@ const WCG15ZJ: React.FC<{}> = () => {
       {isShowDetail && (
         <Box
           minH={{ base: '600px', md: '500px' }}
-          backgroundImage={{
+          bgImage={{
             base: '../assets/images/activity_WCG15ZJ_M_detail.jpg',
             md: '../assets/images/activity_WCG15ZJ_detail.jpg'
           }}
@@ -47,9 +47,9 @@ const WCG15ZJ: React.FC<{}> = () => {
       {!isShowDetail && (
         <Box
           minH={{ base: '600px', md: '500px' }}
-          backgroundImage={{
-            base: "url('../assets/images/activity_WCG15ZJ_M.jpg')",
-            md: "url('../assets/images/activity_WCG15ZJ.jpg')"
+          bgImage={{
+            base: '../assets/images/activity_WCG15ZJ_M.jpg',
+            md: '../assets/images/activity_WCG15ZJ.jpg'
           }}
           bgPosition="top center"
           bgSize="cover"

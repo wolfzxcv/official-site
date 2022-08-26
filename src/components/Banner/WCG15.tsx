@@ -1,5 +1,5 @@
 import { Locales } from '@/i18n/config';
-import { Flex } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -10,9 +10,9 @@ const WCG15: React.FC<{}> = () => {
 
   return (
     <NextLink passHref={true} href="/activity/WCG15" locale={currentLang}>
-      <Flex
+      <Box
         minH={{ base: '600px', md: '500px' }}
-        backgroundImage={{
+        bgImage={{
           base: '../assets/images/activity_WCG15_banner_M.jpg',
           md: '../assets/images/activity_WCG15_banner.jpg'
         }}
@@ -21,9 +21,7 @@ const WCG15: React.FC<{}> = () => {
         _hover={{
           cursor: 'pointer'
         }}
-        justify="center"
-        align="flex-end"
-      ></Flex>
+      ></Box>
     </NextLink>
   );
 };

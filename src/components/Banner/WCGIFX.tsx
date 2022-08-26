@@ -5,7 +5,7 @@ const WCGIFX: React.FC<{}> = () => {
   return (
     <Flex
       minH={{ base: '600px', md: '500px' }}
-      backgroundImage={{
+      bgImage={{
         base: '../assets/images/activity_WCGIFX_banner_M.jpg',
         md: '../assets/images/activity_WCGIFX_banner.jpg'
       }}

@@ -87,7 +87,7 @@ const MAMSystem: React.FC<{}> = () => {
           align="center"
         >
           <Flex
-            backgroundImage="url('../assets/images/mt4mamsystem_2.png')"
+            bgImage="../assets/images/mt4mamsystem_2.png"
             bgSize="100% 100%"
             width={{ base: '80vw', sm: '60vw', md: '500px' }}
             height={{ base: '80vw', sm: '60vw', md: '500px' }}

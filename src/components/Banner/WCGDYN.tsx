@@ -14,7 +14,7 @@ const WCGDYN: React.FC<{}> = () => {
       <Flex
         minH={{ base: '600px', md: '500px' }}
         bg={WCGDYN_BG_GREEN}
-        backgroundImage={{
+        bgImage={{
           base: '../assets/images/activity_WCGDYN_M.jpg',
           md: '../assets/images/activity_WCGDYN_banner.jpg'
         }}

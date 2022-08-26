@@ -79,7 +79,7 @@ const WCGQYHK: React.FC<{}> = () => {
         display={{ base: 'flex', md: 'none' }}
         minH="710px"
         bg="#34c0e1"
-        backgroundImage="url('../assets/images/activity_WCGQYHK_M.jpg')"
+        bgImage="../assets/images/activity_WCGQYHK_M.jpg"
         bgPosition="top center"
         bgSize="cover"
         flexDir="column"

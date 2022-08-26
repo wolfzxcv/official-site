@@ -163,7 +163,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
         align="center"
         py={20}
         h="460px"
-        backgroundImage="url('../assets/images/whiteLabelCooperation_5.png')"
+        bgImage="../assets/images/whiteLabelCooperation_5.png"
         justifyContent="center"
       >
         <Box

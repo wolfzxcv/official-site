@@ -1,5 +1,6 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
+import WCGCZ from '@/components/Banner/WCGCZ';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGIFXBanner from '@/components/Banner/WCGIFX';
 import WCGZQJ from '@/components/Banner/WCGZQJ';
@@ -33,6 +34,7 @@ const Index: React.FC<{}> = () => {
 
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
   const sliders = [
+    <WCGCZ key="WCGCZ" />,
     <WCGZQJ key="WCGZQJ" />,
     <WCGIFXBanner key="WCGIFX" />,
     <WCGDC key="WCGDC" />,
@@ -243,7 +245,7 @@ const Index: React.FC<{}> = () => {
         </Box>
 
         <Flex
-          backgroundImage="url('../assets/images/home_gold.jpg')"
+          bgImage="../assets/images/home_gold.jpg"
           bgSize="cover"
           height="295px"
           width="600px"
@@ -345,7 +347,7 @@ const Index: React.FC<{}> = () => {
           <Box maxW="432px" mx={2}>
             <Image src="../assets/images/home_phone.jpg" alt="left" />
             <Stack
-              backgroundImage="url('../assets/images/home_cardBg.png')"
+              bgImage="../assets/images/home_cardBg.png"
               bgSize="cover"
               minH={isChinese ? '150px' : '225px'}
               p={6}
@@ -368,7 +370,7 @@ const Index: React.FC<{}> = () => {
             />
 
             <Stack
-              backgroundImage="url('../assets/images/home_cardBg.png')"
+              bgImage="../assets/images/home_cardBg.png"
               bgSize="cover"
               minH={isChinese ? '150px' : '225px'}
               position="relative"
@@ -390,7 +392,7 @@ const Index: React.FC<{}> = () => {
           <Box maxW="432px" mx={2}>
             <Image src="../assets/images/home_connectServer.jpg" alt="right" />
             <Stack
-              backgroundImage="url('../assets/images/home_cardBg.png')"
+              bgImage="../assets/images/home_cardBg.png"
               bgSize="cover"
               minH={isChinese ? '150px' : '225px'}
               p={6}

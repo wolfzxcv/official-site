@@ -193,7 +193,7 @@ const fundManager: React.FC<{}> = () => {
           w={{ base: '100%', xl: 500 }}
           py={20}
           px={16}
-          bgImage="url('/assets/images/fundManager_investor_bg.png')"
+          bgImage="/assets/images/fundManager_investor_bg.png"
           bgSize="cover"
           bgPosition="center"
           bgRepeat="no-repeat"

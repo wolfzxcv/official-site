@@ -14,7 +14,7 @@ const Banner: React.FC<{}> = () => {
   return (
     <Box
       minH={{ base: '600px', md: '500px' }}
-      backgroundImage="../assets/images/banner.png"
+      bgImage="../assets/images/banner.png"
       bgPosition="top center"
       bgSize="cover"
     >

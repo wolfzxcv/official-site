@@ -14,7 +14,7 @@ const WCGBY: React.FC<{}> = () => {
       <Flex
         minH={{ base: '600px', md: '500px' }}
         bg={WCGBY_BG_RED}
-        backgroundImage={{
+        bgImage={{
           base: '../assets/images/activity_WCGBY_M.jpg',
           md: '../assets/images/activity_WCGBY_banner.jpg'
         }}
