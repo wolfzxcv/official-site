@@ -154,6 +154,7 @@
   - [WCGBY](http://newwcg.012wenchuan.com/activity/WCGBY)
   - [WCGDYN](http://newwcg.012wenchuan.com/activity/WCGDYN)
   - [WCGZQJ](http://newwcg.012wenchuan.com/activity/WCGZQJ)
+  - [WCGCZ](http://newwcg.012wenchuan.com/activity/WCGCZ)
 
 - 新活動改放在首頁 banner
 
