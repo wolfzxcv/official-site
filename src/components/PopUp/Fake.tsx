@@ -141,7 +141,7 @@ const FakeContentEn: React.FC<{}> = () => {
         department. http://www.wcgmarkets.com/
       </Box>
       <Box>Yours faithfully,</Box>
-      <Box>WCG MARKETS</Box>
+      <Box>WCG MARKETS LIMITED</Box>
     </Stack>
   );
 };
