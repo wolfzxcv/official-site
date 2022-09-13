@@ -456,84 +456,84 @@ export const productsData: IProduct[] = [
         marginCloseout: '≤ 30%',
         openingTime: '01:00',
         closingTime: '23:15'
-      },
-      {
-        product: 'UK100',
-        name: '*UK100',
-        lotRange: '0.02/10',
-        contractUnit: '10',
-        standardPoint: '10*GBP',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '03:01',
-        closingTime: '22:59'
-      },
-      {
-        product: 'JPN225',
-        name: '*JPN225',
-        lotRange: '0.02/10',
-        contractUnit: '10',
-        standardPoint: '10*USD',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '01:00',
-        closingTime: '23:55'
-      },
-      {
-        product: 'ESP35',
-        name: '*ESP35',
-        lotRange: '0.02/10',
-        contractUnit: '10',
-        standardPoint: '10*EUR',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '10:01',
-        closingTime: '20:59'
-      },
-      {
-        product: 'AUS200',
-        name: '*AUS200',
-        lotRange: '0.02/10',
-        contractUnit: '20',
-        standardPoint: '20*AUD',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '02:05',
-        closingTime: '22:59'
-      },
-      {
-        product: 'EU50',
-        name: '*EU50',
-        lotRange: '0.02/10',
-        contractUnit: '30',
-        standardPoint: '30*EUR',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '09:01',
-        closingTime: '22:59'
-      },
-      {
-        product: 'FRA40',
-        name: '*FRA40',
-        lotRange: '0.02/10',
-        contractUnit: '20',
-        standardPoint: '20*EUR',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '09:01',
-        closingTime: '22:59'
-      },
-      {
-        product: 'GER30',
-        name: '*GER30',
-        lotRange: '0.02/10',
-        contractUnit: '10',
-        standardPoint: '10*EUR',
-        leverage: '1:100',
-        marginCloseout: '≤ 30%',
-        openingTime: '01:00',
-        closingTime: '23:15'
       }
+      // {
+      //   product: 'UK100',
+      //   name: '*UK100',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '10',
+      //   standardPoint: '10*GBP',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '03:01',
+      //   closingTime: '22:59'
+      // },
+      // {
+      //   product: 'JPN225',
+      //   name: '*JPN225',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '10',
+      //   standardPoint: '10*USD',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '01:00',
+      //   closingTime: '23:55'
+      // },
+      // {
+      //   product: 'ESP35',
+      //   name: '*ESP35',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '10',
+      //   standardPoint: '10*EUR',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '10:01',
+      //   closingTime: '20:59'
+      // },
+      // {
+      //   product: 'AUS200',
+      //   name: '*AUS200',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '20',
+      //   standardPoint: '20*AUD',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '02:05',
+      //   closingTime: '22:59'
+      // },
+      // {
+      //   product: 'EU50',
+      //   name: '*EU50',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '30',
+      //   standardPoint: '30*EUR',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '09:01',
+      //   closingTime: '22:59'
+      // },
+      // {
+      //   product: 'FRA40',
+      //   name: '*FRA40',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '20',
+      //   standardPoint: '20*EUR',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '09:01',
+      //   closingTime: '22:59'
+      // },
+      // {
+      //   product: 'GER30',
+      //   name: '*GER30',
+      //   lotRange: '0.02/10',
+      //   contractUnit: '10',
+      //   standardPoint: '10*EUR',
+      //   leverage: '1:100',
+      //   marginCloseout: '≤ 30%',
+      //   openingTime: '01:00',
+      //   closingTime: '23:15'
+      // }
     ]
   },
   {

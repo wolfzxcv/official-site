@@ -1,6 +1,6 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
-import { openChatWindow, scrollToTop } from '@/utils';
+import { scrollToTop } from '@/utils';
 import {
   Box,
   Flex,
@@ -39,11 +39,6 @@ const BackToTopMobile: React.FC<{}> = () => {
     onClose();
   }
 
-  const handleClose = () => {
-    onClose();
-    openChatWindow();
-  };
-
   return (
     <>
       {/* widget bottom */}
@@ -81,7 +76,7 @@ const BackToTopMobile: React.FC<{}> = () => {
             <Flex color="white" justify="space-around">
               <MobileBaseButton
                 label={t('online')}
-                onClick={handleClose}
+                href={links.liveChat}
                 icon={<AiOutlineMessage fontSize="36px" />}
               />
 

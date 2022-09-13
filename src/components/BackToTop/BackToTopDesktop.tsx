@@ -1,6 +1,6 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
-import { openChatWindow, scrollToTop } from '@/utils';
+import { scrollToTop } from '@/utils';
 import { Box, Flex, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
@@ -25,7 +25,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
       <Flex direction={'column'} color="white">
         <DesktopBaseButton
           label={t('online')}
-          onClick={openChatWindow}
+          href={links.liveChat}
           icon={<AiOutlineMessage fontSize="32px" />}
         />
 

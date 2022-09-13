@@ -24,7 +24,10 @@ const products: React.FC<{}> = () => {
 
   const allProducts =
     currentLang === 'cn' || currentLang
-      ? productsData.filter((x) => x.category !== 'cryptocurrencies')
+      ? productsData.filter(
+          (x) =>
+            x.category !== 'cryptocurrencies' && x.category !== 'uSShareCFD'
+        )
       : productsData;
   const productsOptions = allProducts.map((x) => x.category);
   const [category, setCategory] = useState(productsOptions[0]);

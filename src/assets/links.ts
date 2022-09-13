@@ -1,4 +1,5 @@
 export const links = {
+  liveChat: 'https://direct.lc.chat/11929440/',
   whatsApp: 'https://api.whatsapp.com/message/2CCAPQTYUPV6P1',
   line: 'https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',
   telegram: 'https://t.me/WCGMarketsLtd',
