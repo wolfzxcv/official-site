@@ -32,8 +32,8 @@ const WCGCZContent: React.FC<{}> = () => (
       minH={{ base: '600px', md: '710px' }}
       bg={WCGCZ_BG_BLACK}
       bgImage={{
-        base: '../assets/images/activity_WCGCZ_M.jpg',
-        md: '../assets/images/activity_WCGCZ.jpg'
+        base: '/../assets/images/activity_WCGCZ_M.jpg',
+        md: '/../assets/images/activity_WCGCZ.jpg'
       }}
       bgPosition="top center"
       bgSize="contain"
@@ -48,7 +48,7 @@ const WCGCZContent: React.FC<{}> = () => (
             width="90px"
             height="80px"
             pr={5}
-            src="../assets/images/activity_WCGCZ_01.png"
+            src="/../assets/images/activity_WCGCZ_01.png"
             alt="activity_WCGCZ_01"
           />
 
@@ -66,7 +66,7 @@ const WCGCZContent: React.FC<{}> = () => (
             width="90px"
             height="60px"
             pr={5}
-            src="../assets/images/activity_WCGCZ_02.png"
+            src="/../assets/images/activity_WCGCZ_02.png"
             alt="activity_WCGCZ_02"
           />
 
@@ -145,8 +145,8 @@ const WCGCZRules: React.FC<{}> = () => (
     bg={WCGCZ_BG_BLACK}
     color={WCGCZ_FONT_RED}
     bgImage={{
-      base: '../assets/images/activity_WCGCZ_footer_M.jpg',
-      md: '../assets/images/activity_WCGCZ_footer.jpg'
+      base: '/../assets/images/activity_WCGCZ_footer_M.jpg',
+      md: '/../assets/images/activity_WCGCZ_footer.jpg'
     }}
     bgPosition="bottom center"
     bgSize="contain"

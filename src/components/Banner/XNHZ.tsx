@@ -15,8 +15,8 @@ const XNHZ: React.FC<{}> = () => {
     <Box
       minH={{ base: '600px', md: '500px' }}
       bgImage={{
-        base: isShowDetail ? 'none' : '../assets/images/activity_XNHZ_M.jpg',
-        md: '../assets/images/activity_XNHZ.jpg'
+        base: isShowDetail ? 'none' : '/../assets/images/activity_XNHZ_M.jpg',
+        md: '/../assets/images/activity_XNHZ.jpg'
       }}
       bgColor="red.700"
       pt={{ base: isShowDetail ? '0' : '420px', md: 0 }}

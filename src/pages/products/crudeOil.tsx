@@ -50,7 +50,7 @@ const crudeOil: React.FC<{}> = () => {
           />
         </Box>
         <Flex width={{ base: '0', xl: '40vw' }} justify="center">
-          <Image src="../assets/images/crudeOil_1.png" alt="oil" />
+          <Image src="/../assets/images/crudeOil_1.png" alt="oil" />
         </Flex>
       </Flex>
 
@@ -69,7 +69,7 @@ const crudeOil: React.FC<{}> = () => {
         >
           <InfoCard
             image={
-              <Image src="../assets/images/crudeOil_icon1.png" alt="icon1" />
+              <Image src="/../assets/images/crudeOil_icon1.png" alt="icon1" />
             }
             text={t('crudeOilAndNaturalGas')}
             withBorder
@@ -78,7 +78,7 @@ const crudeOil: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/crudeOil_icon2.png" alt="icon2" />
+              <Image src="/../assets/images/crudeOil_icon2.png" alt="icon2" />
             }
             text={t('whenYouAreTradingEnergy')}
             withBorder
@@ -87,7 +87,7 @@ const crudeOil: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/crudeOil_icon3.png" alt="icon3" />
+              <Image src="/../assets/images/crudeOil_icon3.png" alt="icon3" />
             }
             text={t('supposeYouThinkThat')}
             withBorder
@@ -107,7 +107,7 @@ const crudeOil: React.FC<{}> = () => {
         align="center"
       >
         <Box width={{ base: '60vw', xl: '40vw' }}>
-          <Image src="../assets/images/crudeOil_2.jpg" alt="crudeOil_2" />
+          <Image src="/../assets/images/crudeOil_2.jpg" alt="crudeOil_2" />
         </Box>
         <Box
           my={{ base: 10, xl: 0 }}
@@ -135,7 +135,7 @@ const crudeOil: React.FC<{}> = () => {
       >
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_3.jpg" alt="crudeOil_3" />
+            <Image src="/../assets/images/crudeOil_3.jpg" alt="crudeOil_3" />
           }
           title={t('WTI')}
           text={t('thisIsACrudeOilProduced')}
@@ -145,7 +145,7 @@ const crudeOil: React.FC<{}> = () => {
 
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_4.jpg" alt="crudeOil_4" />
+            <Image src="/../assets/images/crudeOil_4.jpg" alt="crudeOil_4" />
           }
           title={t('BRENT')}
           text={t('brentCrudeOil')}
@@ -168,7 +168,7 @@ const crudeOil: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/crudeOil_icon4.png"
+                src="/../assets/images/crudeOil_icon4.png"
                 alt="crudeOil_icon4"
               />
             }
@@ -183,7 +183,7 @@ const crudeOil: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/crudeOil_icon5.png"
+                src="/../assets/images/crudeOil_icon5.png"
                 alt="crudeOil_icon5"
               />
             }
@@ -198,7 +198,7 @@ const crudeOil: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/crudeOil_icon6.png"
+                src="/../assets/images/crudeOil_icon6.png"
                 alt="crudeOil_icon6"
               />
             }
@@ -211,7 +211,7 @@ const crudeOil: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/crudeOil_icon7.png"
+                src="/../assets/images/crudeOil_icon7.png"
                 alt="crudeOil_icon7"
               />
             }
@@ -240,7 +240,7 @@ const crudeOil: React.FC<{}> = () => {
       >
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_5.jpg" alt="crudeOil_5" />
+            <Image src="/../assets/images/crudeOil_5.jpg" alt="crudeOil_5" />
           }
           title={t('USDepartmentOfEnergy')}
           text={t('theUSDepartmentOfEnergy')}
@@ -250,7 +250,7 @@ const crudeOil: React.FC<{}> = () => {
 
         <InfoCard
           image={
-            <Image src="../assets/images/crudeOil_6.jpg" alt="crudeOil_6" />
+            <Image src="/../assets/images/crudeOil_6.jpg" alt="crudeOil_6" />
           }
           title={t('OPEC')}
           text={t('theCrudeOilReportYouShouldStudy')}

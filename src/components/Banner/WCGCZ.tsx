@@ -15,8 +15,8 @@ const WCGCZ: React.FC<{}> = () => {
         minH={{ base: '600px', md: '500px' }}
         bg={WCGCZ_BG_BLACK}
         bgImage={{
-          base: '../assets/images/activity_WCGCZ_M.jpg',
-          md: '../assets/images/activity_WCGCZ_banner.jpg'
+          base: '/../assets/images/activity_WCGCZ_M.jpg',
+          md: '/../assets/images/activity_WCGCZ_banner.jpg'
         }}
         bgPosition={{ base: 'center center', md: 'top center' }}
         bgSize={{ base: 'contain', md: 'cover' }}

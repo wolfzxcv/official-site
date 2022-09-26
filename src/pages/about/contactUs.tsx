@@ -163,7 +163,7 @@ const contactUs: React.FC<{}> = () => {
           </Flex>
         </Box>
         <Image
-          src="../assets/images/contactUs_banner.png"
+          src="/../assets/images/contactUs_banner.png"
           alt="contactUs"
           objectFit="cover"
           objectPosition="0"

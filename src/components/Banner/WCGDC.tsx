@@ -6,8 +6,8 @@ const WCGDC: React.FC<{}> = () => {
     <Box
       minH={{ base: '600px', md: '500px' }}
       bgImage={{
-        base: '../assets/images/activity_WCGDC_banner_M.jpg',
-        md: '../assets/images/activity_WCGDC_banner.jpg'
+        base: '/../assets/images/activity_WCGDC_banner_M.jpg',
+        md: '/../assets/images/activity_WCGDC_banner.jpg'
       }}
       bgPosition={{ base: 'top center', md: 'top right' }}
       bgSize="cover"

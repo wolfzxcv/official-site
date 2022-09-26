@@ -54,7 +54,7 @@ const fundManager: React.FC<{}> = () => {
           />
         </Box>
         <Image
-          src="../assets/images/fundManager_banner.png"
+          src="/../assets/images/fundManager_banner.png"
           alt="fund manager"
           objectFit="cover"
           objectPosition="0"
@@ -79,7 +79,7 @@ const fundManager: React.FC<{}> = () => {
             <Text mb={5}>{t('WCGCanHelpYourFund')}</Text>
           </Flex>
           <Image
-            src="../assets/images/fundManager_1.png"
+            src="/../assets/images/fundManager_1.png"
             alt="fund manager 1"
             flex={2}
             ml={20}
@@ -113,25 +113,25 @@ const fundManager: React.FC<{}> = () => {
             mr={{ base: 0, xl: 20 }}
           >
             <Image
-              src="../assets/images/fundManager_2.png"
+              src="/../assets/images/fundManager_2.png"
               alt="fund manager 2"
               w="100%"
               h="100%"
             />
             <Image
-              src="../assets/images/fundManager_3.png"
+              src="/../assets/images/fundManager_3.png"
               alt="fund manager 3"
               w="100%"
               h="100%"
             />
             <Image
-              src="../assets/images/fundManager_4.png"
+              src="/../assets/images/fundManager_4.png"
               alt="fund manager 4"
               w="100%"
               h="100%"
             />
             <Image
-              src="../assets/images/fundManager_5.png"
+              src="/../assets/images/fundManager_5.png"
               alt="fund manager 5"
               w="100%"
               h="100%"

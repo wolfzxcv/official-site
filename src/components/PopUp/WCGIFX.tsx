@@ -6,7 +6,7 @@ const WCGIFX: React.FC<{}> = () => {
 };
 
 const WCGIFXContent: React.FC<{}> = () => {
-  return <Image src={`../assets/images/activity_WCGIFX.jpg`} alt="notice" />;
+  return <Image src={`/../assets/images/activity_WCGIFX.jpg`} alt="notice" />;
 };
 
 export default WCGIFX;

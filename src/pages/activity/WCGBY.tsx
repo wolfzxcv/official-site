@@ -20,8 +20,8 @@ const WCGBY: React.FC<{}> = () => {
         minH={{ base: '320px', md: '600px' }}
         bg={WCGBY_BG_RED}
         bgImage={{
-          base: '../assets/images/activity_WCGBY_M.jpg',
-          md: '../assets/images/activity_WCGBY.jpg'
+          base: '/../assets/images/activity_WCGBY_M.jpg',
+          md: '/../assets/images/activity_WCGBY.jpg'
         }}
         bgPosition="top center"
         bgSize={{ base: 'cover', md: 'cover' }}

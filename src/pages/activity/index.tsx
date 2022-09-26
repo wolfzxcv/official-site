@@ -30,7 +30,7 @@ const Activity: React.FC<{}> = () => {
           <Image
             width={{ base: 87, md: 109 }}
             height={{ base: 37, md: 46 }}
-            src="../assets/images/activity_logo.png"
+            src="/../assets/images/activity_logo.png"
             alt="logo"
           />
 
@@ -57,7 +57,7 @@ const Activity: React.FC<{}> = () => {
       <Box
         maxW="100vw"
         maxH="319px"
-        bgImage="../assets/images/activity_banner.png"
+        bgImage="/../assets/images/activity_banner.png"
         bgPosition="center"
       >
         <Center>
@@ -66,7 +66,7 @@ const Activity: React.FC<{}> = () => {
             width="100vw"
             maxW="783px"
             height="auto"
-            src="../assets/images/activity_banner_word.png"
+            src="/../assets/images/activity_banner_word.png"
             alt="banner_word"
           />
         </Center>
@@ -130,7 +130,7 @@ const Activity: React.FC<{}> = () => {
       <Flex
         maxW="100vw"
         maxH="524px"
-        bgImage="../assets/images/activity_towers.png"
+        bgImage="/../assets/images/activity_towers.png"
         bgPosition="center"
         padding={10}
         flexDirection="column"
@@ -218,7 +218,7 @@ const Activity: React.FC<{}> = () => {
               <Image
                 width={{ base: '60px', md: 'auto' }}
                 height={{ base: '60px', md: 'auto' }}
-                src="../assets/images/activity_clock.png"
+                src="/../assets/images/activity_clock.png"
                 alt="clock"
               />
               <Stack marginLeft={5}>

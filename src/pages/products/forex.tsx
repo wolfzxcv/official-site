@@ -85,7 +85,7 @@ const forex: React.FC<{}> = () => {
           <InfoButton text={t('viewTradingProducts')} href="/products" />
         </Box>
         <Flex width={{ base: '0', xl: '40vw' }} justify="center">
-          <Image src="../assets/images/forex_forex.png" alt="forex" />
+          <Image src="/../assets/images/forex_forex.png" alt="forex" />
         </Flex>
       </Flex>
 

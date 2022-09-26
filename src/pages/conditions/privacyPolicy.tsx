@@ -23,7 +23,7 @@ const privacyPolicy: React.FC<{}> = () => {
           <InfoTitle title={t('privacyPolicy')} />
         </Box>
 
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
 
         <Box width={'80vw'} my={2} textAlign={isArabic ? 'right' : 'left'}>
           <InfoTitle size="22px" title={t('theCustomers')} />

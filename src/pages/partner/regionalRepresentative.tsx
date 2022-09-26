@@ -53,7 +53,7 @@ const regionalRepresentative: React.FC<{}> = () => {
           />
         </Box>
         <Image
-          src="../assets/images/regionalRepresentative_banner.png"
+          src="/../assets/images/regionalRepresentative_banner.png"
           alt="regional representative"
           objectFit="cover"
           objectPosition={{ base: 'center', xl: 0 }}
@@ -84,7 +84,7 @@ const regionalRepresentative: React.FC<{}> = () => {
           alignItems={{ base: 'center', lg: 'unset' }}
         >
           <Image
-            src="../assets/images/regionalRepresentative_1.png"
+            src="/../assets/images/regionalRepresentative_1.png"
             alt="regional representative 1"
             width={{ base: '100%', lg: '35%' }}
             objectFit="cover"
@@ -150,7 +150,7 @@ const regionalRepresentative: React.FC<{}> = () => {
             {t('theSpecificAmount')}
           </Text>
           <Image
-            src="../assets/images/regionalRepresentative_2.png"
+            src="/../assets/images/regionalRepresentative_2.png"
             alt="regional representative 2"
             width={{ base: '80vw', md: '50vw', xl: '40vw' }}
             mx="auto"
@@ -171,7 +171,7 @@ const regionalRepresentative: React.FC<{}> = () => {
         >
           <Box flex={1} position="relative">
             <Image
-              src="../assets/images/regionalRepresentative_3.png"
+              src="/../assets/images/regionalRepresentative_3.png"
               alt="regional representative 3"
               objectFit="cover"
             />
@@ -195,7 +195,7 @@ const regionalRepresentative: React.FC<{}> = () => {
           </Box>
           <Box flex={1} position="relative">
             <Image
-              src="../assets/images/regionalRepresentative_4.png"
+              src="/../assets/images/regionalRepresentative_4.png"
               alt="regional representative 4"
               objectFit="cover"
             />
@@ -219,7 +219,7 @@ const regionalRepresentative: React.FC<{}> = () => {
           </Box>
           <Box flex={1} position="relative">
             <Image
-              src="../assets/images/regionalRepresentative_5.png"
+              src="/../assets/images/regionalRepresentative_5.png"
               alt="regional representative 5"
               objectFit="cover"
             />

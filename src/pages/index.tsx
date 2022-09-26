@@ -10,7 +10,6 @@ import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import Fake from '@/components/PopUp/Fake';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
-import WCGIFX from '@/components/PopUp/WCGIFX';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -45,8 +44,6 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       <Fake />
-
-      <WCGIFX />
 
       <IntroductionVideo />
 
@@ -178,7 +175,7 @@ const Index: React.FC<{}> = () => {
         <Box fontSize={{ base: '20px', md: '24px' }} my={3}>
           {t('professionalEquals')}
         </Box>
-        <Image src="../assets/images/home_divider.png" alt="divider" />
+        <Image src="/../assets/images/home_divider.png" alt="divider" />
       </Flex>
 
       {/* Trading System */}
@@ -248,7 +245,7 @@ const Index: React.FC<{}> = () => {
         </Box>
 
         <Flex
-          bgImage="../assets/images/home_gold.jpg"
+          bgImage="/../assets/images/home_gold.jpg"
           bgSize="cover"
           height="295px"
           width="600px"
@@ -318,7 +315,7 @@ const Index: React.FC<{}> = () => {
         <Box width="100%" height="auto">
           <Image
             minW="100%"
-            src="../assets/images/home_mobileBg.jpg"
+            src="/../assets/images/home_mobileBg.jpg"
             alt="mobile"
           />
         </Box>
@@ -348,9 +345,9 @@ const Index: React.FC<{}> = () => {
       <Box display={{ base: 'none', xl: 'block' }}>
         <Flex justify="center" mt="250px">
           <Box maxW="432px" mx={2}>
-            <Image src="../assets/images/home_phone.jpg" alt="left" />
+            <Image src="/../assets/images/home_phone.jpg" alt="left" />
             <Stack
-              bgImage="../assets/images/home_cardBg.png"
+              bgImage="/../assets/images/home_cardBg.png"
               bgSize="cover"
               minH={isChinese ? '150px' : '225px'}
               p={6}
@@ -367,13 +364,13 @@ const Index: React.FC<{}> = () => {
 
           <Box maxW="432px" position="relative" top="-115px" right="16px">
             <Image
-              src="../assets/images/home_twoPhone.png"
+              src="/../assets/images/home_twoPhone.png"
               alt="middle"
               maxW="512px"
             />
 
             <Stack
-              bgImage="../assets/images/home_cardBg.png"
+              bgImage="/../assets/images/home_cardBg.png"
               bgSize="cover"
               minH={isChinese ? '150px' : '225px'}
               position="relative"
@@ -393,9 +390,9 @@ const Index: React.FC<{}> = () => {
           </Box>
 
           <Box maxW="432px" mx={2}>
-            <Image src="../assets/images/home_connectServer.jpg" alt="right" />
+            <Image src="/../assets/images/home_connectServer.jpg" alt="right" />
             <Stack
-              bgImage="../assets/images/home_cardBg.png"
+              bgImage="/../assets/images/home_cardBg.png"
               bgSize="cover"
               minH={isChinese ? '150px' : '225px'}
               p={6}
@@ -436,7 +433,7 @@ const Index: React.FC<{}> = () => {
             {t('downloadImmediately')}
           </Box>
           <Box>
-            <Image src="../assets/images/home_meta4.png" alt="meta4"></Image>
+            <Image src="/../assets/images/home_meta4.png" alt="meta4"></Image>
           </Box>
         </Flex>
 
@@ -451,7 +448,7 @@ const Index: React.FC<{}> = () => {
             isExternal
             href={links.mt4IOS}
           >
-            <Image src="../assets/images/home_apple.png" alt="apple"></Image>
+            <Image src="/../assets/images/home_apple.png" alt="apple"></Image>
           </Link>
 
           <Link
@@ -463,7 +460,7 @@ const Index: React.FC<{}> = () => {
             href={links.mt4Android}
           >
             <Image
-              src="../assets/images/home_android.png"
+              src="/../assets/images/home_android.png"
               alt="android"
             ></Image>
           </Link>
@@ -476,7 +473,7 @@ const Index: React.FC<{}> = () => {
             isExternal
             href={links.mt4Apk}
           >
-            <Image src="../assets/images/home_huawei.png" alt="huawei"></Image>
+            <Image src="/../assets/images/home_huawei.png" alt="huawei"></Image>
           </Link>
 
           <Link
@@ -486,12 +483,12 @@ const Index: React.FC<{}> = () => {
             }}
             href={links.mt4App}
           >
-            <Image src="../assets/images/home_pc.png" alt="pc"></Image>
+            <Image src="/../assets/images/home_pc.png" alt="pc"></Image>
           </Link>
         </Flex>
 
         <Center>
-          <Image src="../assets/images/home_divider.png" alt="divider" />
+          <Image src="/../assets/images/home_divider.png" alt="divider" />
         </Center>
       </Box>
     </Wrapper>

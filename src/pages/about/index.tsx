@@ -69,7 +69,7 @@ const about: React.FC<{}> = () => {
             position="relative"
             top={tallerBanner ? '185px' : '120px'}
             width={'90%'}
-            src="../assets/images/about_1.png"
+            src="/../assets/images/about_1.png"
             alt="about_1"
           />
         </Box>
@@ -86,7 +86,9 @@ const about: React.FC<{}> = () => {
           align="center"
         >
           <InfoCard
-            image={<Image src="../assets/images/about_icon1.png" alt="icon1" />}
+            image={
+              <Image src="/../assets/images/about_icon1.png" alt="icon1" />
+            }
             title={t('platformHasWonManyAwards')}
             text={t('basedOnTheBasicPrinciples')}
             withTag={false}
@@ -100,7 +102,9 @@ const about: React.FC<{}> = () => {
           />
 
           <InfoCard
-            image={<Image src="../assets/images/about_icon2.png" alt="icon2" />}
+            image={
+              <Image src="/../assets/images/about_icon2.png" alt="icon2" />
+            }
             title={t('multiPartySystemSupport')}
             text={t('fullSupport')}
             withTag={false}
@@ -123,7 +127,9 @@ const about: React.FC<{}> = () => {
           align="center"
         >
           <InfoCard
-            image={<Image src="../assets/images/about_icon3.png" alt="icon3" />}
+            image={
+              <Image src="/../assets/images/about_icon3.png" alt="icon3" />
+            }
             title={t('rapidTransaction')}
             text={t('globallyRecognizedLiquidity')}
             withTag={false}
@@ -137,7 +143,9 @@ const about: React.FC<{}> = () => {
           />
 
           <InfoCard
-            image={<Image src="../assets/images/about_icon4.png" alt="icon4" />}
+            image={
+              <Image src="/../assets/images/about_icon4.png" alt="icon4" />
+            }
             title={t('excellentCustomerService')}
             text={t('provideServices')}
             withTag={false}
@@ -185,7 +193,7 @@ const about: React.FC<{}> = () => {
       {/* WCG is always your wise choice */}
       <Flex paddingY={20} bg="gray.800" color="white" justify="center">
         <Box paddingX={20} display={{ base: 'none', xl: 'block' }}>
-          <Image src="../assets/images/about_2.png" alt="about_2" />
+          <Image src="/../assets/images/about_2.png" alt="about_2" />
         </Box>
 
         <Flex
@@ -216,7 +224,10 @@ const about: React.FC<{}> = () => {
         >
           <InfoCard
             image={
-              <Image src="../assets/images/about_icon5.png" alt="about_icon5" />
+              <Image
+                src="/../assets/images/about_icon5.png"
+                alt="about_icon5"
+              />
             }
             title={t('yearsOfCredibility')}
             text={t('adheringToTheOriginalIntention')}
@@ -225,7 +236,10 @@ const about: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/about_icon6.png" alt="about_icon6" />
+              <Image
+                src="/../assets/images/about_icon6.png"
+                alt="about_icon6"
+              />
             }
             title={t('abundantResources')}
             text={t('fullyProvideCustomers')}
@@ -233,7 +247,10 @@ const about: React.FC<{}> = () => {
           />
           <InfoCard
             image={
-              <Image src="../assets/images/about_icon7.png" alt="about_icon7" />
+              <Image
+                src="/../assets/images/about_icon7.png"
+                alt="about_icon7"
+              />
             }
             title={t('qualityService')}
             text={t('ourSalesTeam')}
@@ -252,12 +269,12 @@ const about: React.FC<{}> = () => {
           image={
             <>
               <Image
-                src="../assets/images/about_license_2.png"
+                src="/../assets/images/about_license_2.png"
                 alt="license_2"
               />
               <Image
                 ml={2}
-                src="../assets/images/about_license_2-1.png"
+                src="/../assets/images/about_license_2-1.png"
                 alt="license_2-1"
               />
             </>
@@ -269,12 +286,12 @@ const about: React.FC<{}> = () => {
           image={
             <>
               <Image
-                src="../assets/images/about_license_4.png"
+                src="/../assets/images/about_license_4.png"
                 alt="license_4"
               />
               <Image
                 ml={2}
-                src="../assets/images/about_license_4-1.png"
+                src="/../assets/images/about_license_4-1.png"
                 alt="license_4-1"
               />
             </>

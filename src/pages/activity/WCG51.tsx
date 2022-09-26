@@ -13,7 +13,7 @@ const WCG51: React.FC<{}> = () => {
       {/* PC layout 1280px up */}
       <Box
         display={{ base: 'none', md: 'block' }}
-        bgImage="../assets/images/activity_WCG51.jpg"
+        bgImage="/../assets/images/activity_WCG51.jpg"
         bgPosition="center top"
         bgRepeat="no-repeat"
         height="2905px"
@@ -34,7 +34,7 @@ const WCG51: React.FC<{}> = () => {
                 transition: '1s',
                 cursor: 'pointer'
               }}
-              src="../assets/images/activity_WCG51_b1.png"
+              src="/../assets/images/activity_WCG51_b1.png"
               alt="Instagram"
               mr={3}
             />
@@ -49,7 +49,7 @@ const WCG51: React.FC<{}> = () => {
             isExternal
           >
             <Image
-              src="../assets/images/activity_WCG51_b2.png"
+              src="/../assets/images/activity_WCG51_b2.png"
               alt="Instagram"
               mr={3}
             />
@@ -64,7 +64,7 @@ const WCG51: React.FC<{}> = () => {
             onClick={openChatWindow}
           >
             <Image
-              src="../assets/images/activity_WCG51_b3.png"
+              src="/../assets/images/activity_WCG51_b3.png"
               alt="Instagram"
             />
           </Box>
@@ -100,7 +100,7 @@ const WCG51: React.FC<{}> = () => {
       <Flex
         overflow="hidden"
         display={{ base: 'flex', md: 'none' }}
-        bgImage="../assets/images/activity_WCG51_M.jpg"
+        bgImage="/../assets/images/activity_WCG51_M.jpg"
         bgPosition="top center"
         bgSize="cover"
         pt="480px"
@@ -123,7 +123,7 @@ const WCG51: React.FC<{}> = () => {
         <Flex mt="150px" mb="100px" justify="center" w="95vw">
           <Link href="/" isExternal>
             <Image
-              src="../assets/images/activity_WCG51_M_b1.png"
+              src="/../assets/images/activity_WCG51_M_b1.png"
               alt="Instagram"
               mx={1}
             />
@@ -131,7 +131,7 @@ const WCG51: React.FC<{}> = () => {
 
           <Link href={links.userCenterZH} isExternal>
             <Image
-              src="../assets/images/activity_WCG51_M_b2.png"
+              src="/../assets/images/activity_WCG51_M_b2.png"
               alt="Instagram"
               mx={1}
             />
@@ -139,7 +139,7 @@ const WCG51: React.FC<{}> = () => {
 
           <Box onClick={openChatWindow}>
             <Image
-              src="../assets/images/activity_WCG51_M_b3.png"
+              src="/../assets/images/activity_WCG51_M_b3.png"
               alt="Instagram"
               mx={1}
             />
@@ -148,42 +148,42 @@ const WCG51: React.FC<{}> = () => {
 
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG51_M_01.png"
+            src="/../assets/images/activity_WCG51_M_01.png"
             alt="activity_WCG51_M_01"
           />
         </Flex>
 
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG51_M_02.png"
+            src="/../assets/images/activity_WCG51_M_02.png"
             alt="activity_WCG51_M_02"
           />
         </Flex>
 
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG51_M_03.png"
+            src="/../assets/images/activity_WCG51_M_03.png"
             alt="activity_WCG51_M_03"
           />
         </Flex>
 
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG51_M_04.png"
+            src="/../assets/images/activity_WCG51_M_04.png"
             alt="activity_WCG51_M_04"
           />
         </Flex>
 
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG51_M_05.png"
+            src="/../assets/images/activity_WCG51_M_05.png"
             alt="activity_WCG51_M_05"
           />
         </Flex>
 
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG51_M_06.png"
+            src="/../assets/images/activity_WCG51_M_06.png"
             alt="activity_WCG51_M_06"
           />
         </Flex>

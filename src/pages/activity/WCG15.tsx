@@ -13,7 +13,7 @@ const WCG15: React.FC<{}> = () => {
       {/* PC layout 1280px up */}
       <Box
         display={{ base: 'none', md: 'block' }}
-        bgImage="../assets/images/activity_WCG15.jpg"
+        bgImage="/../assets/images/activity_WCG15.jpg"
         bgPosition="center top"
         bgRepeat="no-repeat"
         height="1920px"
@@ -34,7 +34,7 @@ const WCG15: React.FC<{}> = () => {
                 transition: '1s',
                 cursor: 'pointer'
               }}
-              src="../assets/images/activity_WCG15_b1.png"
+              src="/../assets/images/activity_WCG15_b1.png"
               alt="Instagram"
               mr={3}
             />
@@ -49,7 +49,7 @@ const WCG15: React.FC<{}> = () => {
             isExternal
           >
             <Image
-              src="../assets/images/activity_WCG15_b2.png"
+              src="/../assets/images/activity_WCG15_b2.png"
               alt="Instagram"
               mr={3}
             />
@@ -64,7 +64,7 @@ const WCG15: React.FC<{}> = () => {
             onClick={openChatWindow}
           >
             <Image
-              src="../assets/images/activity_WCG15_b3.png"
+              src="/../assets/images/activity_WCG15_b3.png"
               alt="Instagram"
             />
           </Box>
@@ -81,7 +81,7 @@ const WCG15: React.FC<{}> = () => {
       <Flex
         overflow="hidden"
         display={{ base: 'flex', md: 'none' }}
-        bgImage="../assets/images/activity_WCG15_M.jpg"
+        bgImage="/../assets/images/activity_WCG15_M.jpg"
         bgPosition="top center"
         bgSize="cover"
         height="1615px"
@@ -91,14 +91,14 @@ const WCG15: React.FC<{}> = () => {
       >
         <Flex w="95vw" my="70px" justify="center">
           <Image
-            src="../assets/images/activity_WCG15_M_01.png"
+            src="/../assets/images/activity_WCG15_M_01.png"
             alt="activity_WCG15_M_02"
           />
         </Flex>
         <Flex my="100px" justify="center" w="95vw">
           <Link href="/" isExternal>
             <Image
-              src="../assets/images/activity_WCG15_M_b1.png"
+              src="/../assets/images/activity_WCG15_M_b1.png"
               alt="Instagram"
               mx={1}
             />
@@ -106,7 +106,7 @@ const WCG15: React.FC<{}> = () => {
 
           <Link href={links.userCenterZH} isExternal>
             <Image
-              src="../assets/images/activity_WCG15_M_b2.png"
+              src="/../assets/images/activity_WCG15_M_b2.png"
               alt="Instagram"
               mx={1}
             />
@@ -114,7 +114,7 @@ const WCG15: React.FC<{}> = () => {
 
           <Box onClick={openChatWindow}>
             <Image
-              src="../assets/images/activity_WCG15_M_b3.png"
+              src="/../assets/images/activity_WCG15_M_b3.png"
               alt="Instagram"
               mx={1}
             />

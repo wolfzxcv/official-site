@@ -46,7 +46,7 @@ const MAMSystem: React.FC<{}> = () => {
             <Image
               boxSize="40px"
               mr={5}
-              src="../assets/images/mt4mamsystem_mam.png"
+              src="/../assets/images/mt4mamsystem_mam.png"
               alt="mam"
             />
 
@@ -69,7 +69,7 @@ const MAMSystem: React.FC<{}> = () => {
           </Box>
         </Box>
         <Box width={{ base: '0', xl: '40vw' }}>
-          <Image src="../assets/images/mt4mamsystem_1.png" alt="pc" />
+          <Image src="/../assets/images/mt4mamsystem_1.png" alt="pc" />
         </Box>
       </Flex>
 
@@ -87,7 +87,7 @@ const MAMSystem: React.FC<{}> = () => {
           align="center"
         >
           <Flex
-            bgImage="../assets/images/mt4mamsystem_2.png"
+            bgImage="/../assets/images/mt4mamsystem_2.png"
             bgSize="100% 100%"
             width={{ base: '80vw', sm: '60vw', md: '500px' }}
             height={{ base: '80vw', sm: '60vw', md: '500px' }}
@@ -165,7 +165,7 @@ const MAMSystem: React.FC<{}> = () => {
       >
         <Box width={{ base: '100%', xl: '40vw' }}>
           <Center>
-            <Image src="../assets/images/mt4pcdownload_2.jpg" alt="device" />
+            <Image src="/../assets/images/mt4pcdownload_2.jpg" alt="device" />
           </Center>
         </Box>
         <Box
@@ -200,7 +200,7 @@ const MAMSystem: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4mamsystem_3.jpg"
+                src="/../assets/images/mt4mamsystem_3.jpg"
                 alt="pcdownload_3"
               />
             }
@@ -211,7 +211,7 @@ const MAMSystem: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4mamsystem_4.jpg"
+                src="/../assets/images/mt4mamsystem_4.jpg"
                 alt="pcdownload_4"
               />
             }
@@ -221,7 +221,7 @@ const MAMSystem: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/mt4mamsystem_5.jpg"
+                src="/../assets/images/mt4mamsystem_5.jpg"
                 alt="pcdownload_5"
               />
             }

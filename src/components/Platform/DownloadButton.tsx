@@ -47,21 +47,21 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
                 <Image
                   minW="150px"
                   height="150x"
-                  src="../assets/images/huawei-qr.png"
+                  src="/../assets/images/huawei-qr.png"
                   alt="huawei-qr"
                 />
               ) : type === 'android' ? (
                 <Image
                   minW="150px"
                   height="150x"
-                  src="../assets/images/android-qr.png"
+                  src="/../assets/images/android-qr.png"
                   alt="android-qr"
                 />
               ) : type === 'ios' ? (
                 <Image
                   minW="150px"
                   height="150x"
-                  src="../assets/images/ios-qr.png"
+                  src="/../assets/images/ios-qr.png"
                   alt="ios-qr"
                 />
               ) : (
@@ -109,21 +109,21 @@ const CommonContent = forwardRef<HTMLDivElement, DownloadButtonProps>(
             <Image
               width="28px"
               height="28px"
-              src="../assets/images/huawei.png"
+              src="/../assets/images/huawei.png"
               alt="huawei"
             />
           ) : type === 'android' ? (
             <Image
               minW="28px"
               height="28px"
-              src="../assets/images/android.png"
+              src="/../assets/images/android.png"
               alt="android"
             />
           ) : type === 'ios' ? (
             <Image
               minW="28px"
               height="28px"
-              src="../assets/images/ios.png"
+              src="/../assets/images/ios.png"
               alt="ios"
             />
           ) : type === 'user' ? (

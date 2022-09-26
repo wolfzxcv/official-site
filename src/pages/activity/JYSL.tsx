@@ -18,7 +18,7 @@ const JYSL: React.FC<{}> = () => {
       <LiveChat />
 
       <Box
-        bgImage="../assets/images/activity_JYSL_bg.jpg"
+        bgImage="/../assets/images/activity_JYSL_bg.jpg"
         bgPosition="center top"
         bgRepeat="no-repeat"
         pb={10}
@@ -33,7 +33,7 @@ const JYSL: React.FC<{}> = () => {
             <Image
               width={{ base: 87, md: 109 }}
               height={{ base: 37, md: 46 }}
-              src="../assets/images/activity_logo.png"
+              src="/../assets/images/activity_logo.png"
               alt="logo"
             />
 
@@ -50,7 +50,7 @@ const JYSL: React.FC<{}> = () => {
                     display="inline"
                     height="inherit"
                     width="auto"
-                    src="../assets/images/activity_JYSL_icon_1.png"
+                    src="/../assets/images/activity_JYSL_icon_1.png"
                     alt="icon_1"
                   />
                   官网首页
@@ -68,7 +68,7 @@ const JYSL: React.FC<{}> = () => {
                   display="inline"
                   height="inherit"
                   width="auto"
-                  src="../assets/images/activity_JYSL_icon_2.png"
+                  src="/../assets/images/activity_JYSL_icon_2.png"
                   alt="icon_2"
                 />
                 在线客服
@@ -87,14 +87,14 @@ const JYSL: React.FC<{}> = () => {
             <Center width={{ base: '90%', md: '50%' }}>
               <Image
                 margin="auto"
-                src="../assets/images/activity_JYSL_laptop.png"
+                src="/../assets/images/activity_JYSL_laptop.png"
                 alt="laptop"
               />
             </Center>
             <Center width={{ base: '90%', md: '50%' }}>
               <Image
                 margin="auto"
-                src="../assets/images/activity_JYSL_word.png"
+                src="/../assets/images/activity_JYSL_word.png"
                 alt="word"
               />
             </Center>
@@ -131,7 +131,7 @@ const JYSL: React.FC<{}> = () => {
             >
               <Image
                 height="auto"
-                src="../assets/images/activity_JYSL_buttonb.png"
+                src="/../assets/images/activity_JYSL_buttonb.png"
                 alt="b"
               />
             </Link>
@@ -180,7 +180,7 @@ const JYSL: React.FC<{}> = () => {
             <Image
               width={{ base: '50%', md: '40%' }}
               height="auto"
-              src="../assets/images/activity_JYSL_20.png"
+              src="/../assets/images/activity_JYSL_20.png"
               alt="20"
             />
           </Flex>
@@ -195,13 +195,13 @@ const JYSL: React.FC<{}> = () => {
             <Image
               width={{ base: '40%', md: '30%' }}
               height="auto"
-              src="../assets/images/activity_JYSL_15.png"
+              src="/../assets/images/activity_JYSL_15.png"
               alt="15"
             />
             <Image
               width={{ base: '40%', md: '30%' }}
               height="auto"
-              src="../assets/images/activity_JYSL_5.png"
+              src="/../assets/images/activity_JYSL_5.png"
               alt="5"
             />
           </Flex>
@@ -240,7 +240,7 @@ const JYSL: React.FC<{}> = () => {
               _hover={{
                 cursor: 'pointer'
               }}
-              src="../assets/images/activity_JYSL_buttona.png"
+              src="/../assets/images/activity_JYSL_buttona.png"
               alt="a"
             />
             <Link
@@ -256,7 +256,7 @@ const JYSL: React.FC<{}> = () => {
               <Image
                 height="auto"
                 width="100%"
-                src="../assets/images/activity_JYSL_buttonb.png"
+                src="/../assets/images/activity_JYSL_buttonb.png"
                 alt="b"
               />
             </Link>
@@ -283,7 +283,7 @@ const JYSL: React.FC<{}> = () => {
                 <Image
                   height="auto"
                   width="100%"
-                  src="../assets/images/activity_JYSL_GZH_LOGO.png"
+                  src="/../assets/images/activity_JYSL_GZH_LOGO.png"
                   alt="GZH_LOGO"
                 />
               </Box>
@@ -302,7 +302,7 @@ const JYSL: React.FC<{}> = () => {
         <Box
           width="100%"
           height="100%"
-          bgImage="../assets/images/activity_JYSL_grass.png"
+          bgImage="/../assets/images/activity_JYSL_grass.png"
           bgPosition="center"
           bgRepeat="no-repeat"
         ></Box>

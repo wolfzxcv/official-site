@@ -14,8 +14,8 @@ const WCGQYHK: React.FC<{}> = () => {
       <Flex
         minH={{ base: '600px', md: '500px' }}
         bgImage={{
-          base: '../assets/images/activity_WCGQYHK_M.jpg',
-          md: '../assets/images/activity_WCGQYHK_banner.jpg'
+          base: '/../assets/images/activity_WCGQYHK_M.jpg',
+          md: '/../assets/images/activity_WCGQYHK_banner.jpg'
         }}
         bgPosition={{ base: 'top center', md: 'top right' }}
         bgSize="cover"

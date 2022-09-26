@@ -407,7 +407,7 @@ const amlPolicy: React.FC<{}> = () => {
           <Text>August, 2021</Text>
         </Box>
 
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
 
         <InfoAccordion data={data} />
       </Flex>

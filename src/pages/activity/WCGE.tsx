@@ -37,7 +37,7 @@ const WCGE: React.FC<{}> = () => {
               <Image
                 width={181}
                 height={76}
-                src="../assets/images/logo.svg"
+                src="/../assets/images/logo.svg"
                 alt="logo"
               />
             </Flex>
@@ -48,7 +48,7 @@ const WCGE: React.FC<{}> = () => {
                   mr={3}
                   w="16px"
                   h="16px"
-                  src="../assets/images/activity_WCGE_icon1.png"
+                  src="/../assets/images/activity_WCGE_icon1.png"
                   alt="icon1"
                 />
                 {'WCG Markets Ltd'.toUpperCase()}
@@ -59,7 +59,7 @@ const WCGE: React.FC<{}> = () => {
                     mr={3}
                     w="16px"
                     h="12px"
-                    src="../assets/images/activity_WCGE_icon2.png"
+                    src="/../assets/images/activity_WCGE_icon2.png"
                     alt="icon2"
                   />
                   {`${links.email}`.toUpperCase()}
@@ -70,7 +70,7 @@ const WCGE: React.FC<{}> = () => {
                   mr={3}
                   w="16px"
                   h="14px"
-                  src="../assets/images/activity_WCGE_icon3.png"
+                  src="/../assets/images/activity_WCGE_icon3.png"
                   alt="icon3"
                 />
                 4001 203 612
@@ -81,7 +81,7 @@ const WCGE: React.FC<{}> = () => {
                     mr={3}
                     w="16px"
                     h="16px"
-                    src="../assets/images/activity_WCGE_icon4.png"
+                    src="/../assets/images/activity_WCGE_icon4.png"
                     alt="icon4"
                   />
                   {'www.wcgmarkets.com'.toUpperCase()}
@@ -100,7 +100,7 @@ const WCGE: React.FC<{}> = () => {
                 mr={3}
                 w="25px"
                 h="26px"
-                src="../assets/images/activity_WCGE_icon6.png"
+                src="/../assets/images/activity_WCGE_icon6.png"
                 alt="icon6"
               />
               WCGMarkets
@@ -116,7 +116,7 @@ const WCGE: React.FC<{}> = () => {
                   mr={3}
                   w="25px"
                   h="26px"
-                  src="../assets/images/activity_WCGE_icon7.png"
+                  src="/../assets/images/activity_WCGE_icon7.png"
                   alt="icon7"
                 />
                 <Box>在线客服</Box>

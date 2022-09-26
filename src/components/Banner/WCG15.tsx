@@ -13,8 +13,8 @@ const WCG15: React.FC<{}> = () => {
       <Box
         minH={{ base: '600px', md: '500px' }}
         bgImage={{
-          base: '../assets/images/activity_WCG15_banner_M.jpg',
-          md: '../assets/images/activity_WCG15_banner.jpg'
+          base: '/../assets/images/activity_WCG15_banner_M.jpg',
+          md: '/../assets/images/activity_WCG15_banner.jpg'
         }}
         bgPosition={{ base: 'top center', md: 'top right' }}
         bgSize="cover"

@@ -71,7 +71,7 @@ const LangSelector: React.FC<{}> = () => {
   return (
     <Menu>
       <MenuButton minW="90px" as={Button} rightIcon={<ChevronDownIcon />}>
-        <Image src={`../assets/images/${language}.png`} alt={language}></Image>
+        <Image src={`/../assets/images/${language}.png`} alt={language}></Image>
       </MenuButton>
       <MenuList minW={{ base: '90px', md: '150px' }} zIndex={3}>
         {locales.map((locale: Locales) => (
@@ -84,7 +84,7 @@ const LangSelector: React.FC<{}> = () => {
           >
             <Image
               border="1px"
-              src={`../assets/images/${locale}.png`}
+              src={`/../assets/images/${locale}.png`}
               alt={locale}
             ></Image>
             <Text ml={4} display={{ base: 'none', md: 'block' }}>

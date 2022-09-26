@@ -51,7 +51,7 @@ const introducingBroker: React.FC<{}> = () => {
           <InfoButtonBase text={t('iBApplication')} onClick={openChatWindow} />
         </Box>
         <Image
-          src="../assets/images/introducingBroker_banner.png"
+          src="/../assets/images/introducingBroker_banner.png"
           alt="introducing broker"
           objectFit="cover"
           objectPosition={{ base: 'center', xl: 0 }}
@@ -82,7 +82,7 @@ const introducingBroker: React.FC<{}> = () => {
           alignItems={{ base: 'center', lg: 'unset' }}
         >
           <Image
-            src="../assets/images/introducingBroker_1.png"
+            src="/../assets/images/introducingBroker_1.png"
             alt="introducing broker 1"
             width={{ base: '100%', lg: '50%' }}
             objectFit="cover"
@@ -120,7 +120,7 @@ const introducingBroker: React.FC<{}> = () => {
             <Text mb={5}>{t('customizeACommission')}</Text>
           </Flex>
           <Image
-            src="../assets/images/introducingBroker_2.png"
+            src="/../assets/images/introducingBroker_2.png"
             alt="introducing broker 2"
             width={{ base: '100%', lg: '50%' }}
             objectFit="cover"
@@ -153,7 +153,7 @@ const introducingBroker: React.FC<{}> = () => {
             }}
           >
             <Image
-              src="../assets/images/introducingBroker_3.png"
+              src="/../assets/images/introducingBroker_3.png"
               alt="introducing broker 3"
               objectFit="cover"
             />

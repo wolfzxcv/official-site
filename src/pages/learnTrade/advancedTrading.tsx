@@ -98,7 +98,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_9.png'
+          objectKey: '/../assets/images/course_9.png'
         },
         {
           type: 'text',
@@ -106,7 +106,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_10.png'
+          objectKey: '/../assets/images/course_10.png'
         },
         {
           type: 'text',
@@ -114,7 +114,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_11.png'
+          objectKey: '/../assets/images/course_11.png'
         },
         {
           type: 'text',
@@ -292,7 +292,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_12.png'
+          objectKey: '/../assets/images/course_12.png'
         },
         {
           type: 'text',
@@ -300,7 +300,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_13.png'
+          objectKey: '/../assets/images/course_13.png'
         }
       ]
     },
@@ -333,7 +333,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_14.png'
+          objectKey: '/../assets/images/course_14.png'
         },
         {
           type: 'text',
@@ -353,7 +353,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_15.png'
+          objectKey: '/../assets/images/course_15.png'
         },
         {
           type: 'text',
@@ -369,7 +369,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_16.png'
+          objectKey: '/../assets/images/course_16.png'
         },
         {
           type: 'text',
@@ -389,7 +389,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_17.png'
+          objectKey: '/../assets/images/course_17.png'
         },
         {
           type: 'title',
@@ -475,7 +475,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_18.png'
+          objectKey: '/../assets/images/course_18.png'
         },
         {
           type: 'title',
@@ -483,7 +483,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_19.png'
+          objectKey: '/../assets/images/course_19.png'
         },
         {
           type: 'text',
@@ -499,7 +499,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_19.png' //in the old website, 19 & 20 are same image
+          objectKey: '/../assets/images/course_19.png' //in the old website, 19 & 20 are same image
         },
         {
           type: 'text',
@@ -511,7 +511,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_21.png'
+          objectKey: '/../assets/images/course_21.png'
         },
         {
           type: 'text',
@@ -527,7 +527,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_22.png'
+          objectKey: '/../assets/images/course_22.png'
         },
         {
           type: 'text',
@@ -539,7 +539,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_19.png' //in the old website, 19 & 23 are same image
+          objectKey: '/../assets/images/course_19.png' //in the old website, 19 & 23 are same image
         },
         {
           type: 'text',
@@ -555,7 +555,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_24.png'
+          objectKey: '/../assets/images/course_24.png'
         },
         {
           type: 'text',
@@ -571,7 +571,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_25.png'
+          objectKey: '/../assets/images/course_25.png'
         },
         {
           type: 'text',
@@ -583,7 +583,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_26.png'
+          objectKey: '/../assets/images/course_26.png'
         },
         {
           type: 'text',
@@ -595,7 +595,7 @@ const advancedTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_27.png'
+          objectKey: '/../assets/images/course_27.png'
         },
         {
           type: 'text',

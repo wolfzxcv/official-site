@@ -43,7 +43,7 @@ const FakeContentZh: React.FC<{}> = () => {
       <Box>有關網站截圖如下:</Box>
 
       <Box>
-        <Image src={`../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
+        <Image src={`/../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
       </Box>
       <Box>
         現謹鄭重聲明，WCG MARKETS
@@ -76,7 +76,7 @@ const FakeContentCn: React.FC<{}> = () => {
       <Box>有关网站截图如下:</Box>
 
       <Box>
-        <Image src={`../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
+        <Image src={`/../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
       </Box>
       <Box>
         现谨郑重声明，WCG MARKETS
@@ -121,7 +121,7 @@ const FakeContentEn: React.FC<{}> = () => {
       <Box>Screenshots of the website are as follows:</Box>
 
       <Box>
-        <Image src={`../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
+        <Image src={`/../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
       </Box>
       <Box>
         We hereby solemnly declare that WCG MARKETS &quot;the company&quot; and

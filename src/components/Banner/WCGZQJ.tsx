@@ -15,8 +15,8 @@ const WCGZQJ: React.FC<{}> = () => {
         minH={{ base: '600px', md: '500px' }}
         bg={WCGZQJ_BG_BROWN}
         bgImage={{
-          base: '../assets/images/activity_WCGZQJ_M.jpg',
-          md: '../assets/images/activity_WCGZQJ_banner.jpg'
+          base: '/../assets/images/activity_WCGZQJ_M.jpg',
+          md: '/../assets/images/activity_WCGZQJ_banner.jpg'
         }}
         bgPosition={{ base: 'center center', md: 'top center' }}
         bgSize={{ base: 'contain', md: 'cover' }}

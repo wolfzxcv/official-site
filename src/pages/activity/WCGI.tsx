@@ -19,7 +19,7 @@ const WCGI: React.FC<{}> = () => {
         {/* PC layout 1280px up */}
         <Box
           display={{ base: 'none', xl: 'block' }}
-          bgImage="../assets/images/activity_WCGI_bg.jpg"
+          bgImage="/../assets/images/activity_WCGI_bg.jpg"
           bgPosition="center top"
           bgRepeat="no-repeat"
           height="3380px"
@@ -44,7 +44,7 @@ const WCGI: React.FC<{}> = () => {
               >
                 <Image
                   height="auto"
-                  src="../assets/images/activity_WCGI_buttonb.png"
+                  src="/../assets/images/activity_WCGI_buttonb.png"
                   alt="b"
                 />
               </Link>
@@ -59,7 +59,7 @@ const WCGI: React.FC<{}> = () => {
                 _hover={{
                   cursor: 'pointer'
                 }}
-                src="../assets/images/activity_WCGI_buttona.png"
+                src="/../assets/images/activity_WCGI_buttona.png"
                 alt="a"
               />
             </Box>
@@ -73,7 +73,7 @@ const WCGI: React.FC<{}> = () => {
                 isExternal
               >
                 <Image
-                  src="../assets/images/activity_WCGI_buttonb.png"
+                  src="/../assets/images/activity_WCGI_buttonb.png"
                   alt="b"
                 />
               </Link>
@@ -94,7 +94,7 @@ const WCGI: React.FC<{}> = () => {
         <Image
           mx="auto"
           height="auto"
-          src="../assets/images/activity_WCGI_banner_word.png"
+          src="/../assets/images/activity_WCGI_banner_word.png"
           alt="banner_word"
         />
         <Flex bg={red} padding={10} flexDirection="column" align="center">
@@ -141,7 +141,7 @@ const WCGI: React.FC<{}> = () => {
             >
               <Image
                 height="auto"
-                src="../assets/images/activity_WCGI_buttonb.png"
+                src="/../assets/images/activity_WCGI_buttonb.png"
                 alt="b"
               />
             </Link>
@@ -175,13 +175,13 @@ const WCGI: React.FC<{}> = () => {
             <Image
               width="48%"
               height="auto"
-              src="../assets/images/activity_WCGI_2500.png"
+              src="/../assets/images/activity_WCGI_2500.png"
               alt="15"
             />
             <Image
               width="48%"
               height="auto"
-              src="../assets/images/activity_WCGI_2000.png"
+              src="/../assets/images/activity_WCGI_2000.png"
               alt="5"
             />
           </Flex>
@@ -198,13 +198,13 @@ const WCGI: React.FC<{}> = () => {
             <Image
               width="48%"
               height="auto"
-              src="../assets/images/activity_WCGI_1500.png"
+              src="/../assets/images/activity_WCGI_1500.png"
               alt="15"
             />
             <Image
               width="48%"
               height="auto"
-              src="../assets/images/activity_WCGI_1000.png"
+              src="/../assets/images/activity_WCGI_1000.png"
               alt="5"
             />
           </Flex>
@@ -251,7 +251,7 @@ const WCGI: React.FC<{}> = () => {
               _hover={{
                 cursor: 'pointer'
               }}
-              src="../assets/images/activity_WCGI_buttona.png"
+              src="/../assets/images/activity_WCGI_buttona.png"
               alt="a"
             />
             <Link
@@ -267,7 +267,7 @@ const WCGI: React.FC<{}> = () => {
               <Image
                 height="auto"
                 width="100%"
-                src="../assets/images/activity_WCGI_buttonb.png"
+                src="/../assets/images/activity_WCGI_buttonb.png"
                 alt="b"
               />
             </Link>
@@ -289,7 +289,7 @@ const WCGI: React.FC<{}> = () => {
                 <Image
                   height="auto"
                   width="100%"
-                  src="../assets/images/activity_WCGI_GZH_LOGO.png"
+                  src="/../assets/images/activity_WCGI_GZH_LOGO.png"
                   alt="GZH_LOGO"
                 />
               </Box>
@@ -386,7 +386,7 @@ const TopLinks = () => {
         <Image
           width={{ base: 87, md: 109 }}
           height={{ base: 37, md: 46 }}
-          src="../assets/images/activity_logo.png"
+          src="/../assets/images/activity_logo.png"
           alt="logo"
         />
 
@@ -403,7 +403,7 @@ const TopLinks = () => {
                 display="inline"
                 height="inherit"
                 width="auto"
-                src="../assets/images/activity_WCGI_icon_1.png"
+                src="/../assets/images/activity_WCGI_icon_1.png"
                 alt="icon_1"
               />
               官网首页
@@ -421,7 +421,7 @@ const TopLinks = () => {
               display="inline"
               height="inherit"
               width="auto"
-              src="../assets/images/activity_WCGI_icon_2.png"
+              src="/../assets/images/activity_WCGI_icon_2.png"
               alt="icon_2"
             />
             在线客服

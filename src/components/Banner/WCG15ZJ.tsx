@@ -10,8 +10,8 @@ const WCG15ZJ: React.FC<{}> = () => {
         <Box
           minH={{ base: '600px', md: '500px' }}
           bgImage={{
-            base: '../assets/images/activity_WCG15ZJ_M_detail.jpg',
-            md: '../assets/images/activity_WCG15ZJ_detail.jpg'
+            base: '/../assets/images/activity_WCG15ZJ_M_detail.jpg',
+            md: '/../assets/images/activity_WCG15ZJ_detail.jpg'
           }}
           bgPosition="top center"
           bgSize="cover"
@@ -48,8 +48,8 @@ const WCG15ZJ: React.FC<{}> = () => {
         <Box
           minH={{ base: '600px', md: '500px' }}
           bgImage={{
-            base: '../assets/images/activity_WCG15ZJ_M.jpg',
-            md: '../assets/images/activity_WCG15ZJ.jpg'
+            base: '/../assets/images/activity_WCG15ZJ_M.jpg',
+            md: '/../assets/images/activity_WCG15ZJ.jpg'
           }}
           bgPosition="top center"
           bgSize="cover"

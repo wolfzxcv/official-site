@@ -10,7 +10,7 @@ const HTMLHead: React.FC<{}> = () => {
         <meta name="version" content={`${packageJson.version}`}></meta>
       )}
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <link rel="icon" type="image/ico" href="../assets/images/favicon.ico" />
+      <link rel="icon" type="image/ico" href="/../assets/images/favicon.ico" />
     </Head>
   );
 };

@@ -50,7 +50,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           <InfoButtonBase text={t('applyFor')} onClick={openChatWindow} />
         </Box>
         <Image
-          src="../assets/images/whiteLabelCooperation_banner.png"
+          src="/../assets/images/whiteLabelCooperation_banner.png"
           alt="white label cooperation"
           objectFit="cover"
           objectPosition={{ base: 'center', xl: 0 }}
@@ -70,7 +70,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           mt={{ base: 0, lg: 40 }}
         >
           <Image
-            src="../assets/images/whiteLabelCooperation_1.png"
+            src="/../assets/images/whiteLabelCooperation_1.png"
             alt="white label cooperation 1"
             width={{ base: '100%', lg: '50%' }}
             objectFit="cover"
@@ -115,7 +115,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/whiteLabelCooperation_2.png"
+                src="/../assets/images/whiteLabelCooperation_2.png"
                 alt="white label cooperation 2"
                 w="95%"
                 objectFit="cover"
@@ -129,7 +129,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/whiteLabelCooperation_3.png"
+                src="/../assets/images/whiteLabelCooperation_3.png"
                 alt="white label cooperation 3"
                 w="95%"
                 objectFit="cover"
@@ -143,7 +143,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/whiteLabelCooperation_4.png"
+                src="/../assets/images/whiteLabelCooperation_4.png"
                 alt="white label cooperation 4"
                 w="95%"
                 objectFit="cover"
@@ -163,7 +163,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
         align="center"
         py={20}
         h="460px"
-        bgImage="../assets/images/whiteLabelCooperation_5.png"
+        bgImage="/../assets/images/whiteLabelCooperation_5.png"
         justifyContent="center"
       >
         <Box

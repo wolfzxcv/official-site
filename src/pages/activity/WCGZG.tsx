@@ -25,7 +25,7 @@ const WCGZG: React.FC<{}> = () => {
           <Image
             width={{ base: 87, md: 109 }}
             height={{ base: 37, md: 46 }}
-            src="../assets/images/activity_logo.png"
+            src="/../assets/images/activity_logo.png"
             alt="logo"
           />
 
@@ -54,7 +54,7 @@ const WCGZG: React.FC<{}> = () => {
         <Box display={{ base: 'inherit', md: 'none' }}>
           <Image
             height="auto"
-            src="../assets/images/activity_WCGZG_banner_pic.png"
+            src="/../assets/images/activity_WCGZG_banner_pic.png"
             alt="banner_pic"
           />
         </Box>
@@ -63,7 +63,7 @@ const WCGZG: React.FC<{}> = () => {
         display={{ base: 'none', md: 'inherit' }}
         maxW="100vw"
         height="897px"
-        bgImage="../assets/images/activity_WCGZG_banner.jpg"
+        bgImage="/../assets/images/activity_WCGZG_banner.jpg"
         bgPosition="center"
       ></Box>
 
@@ -71,7 +71,7 @@ const WCGZG: React.FC<{}> = () => {
         <Box position={{ base: 'inherit', md: 'absolute' }} zIndex="1">
           <Image
             height="auto"
-            src="../assets/images/activity_WCGZG_gold.png"
+            src="/../assets/images/activity_WCGZG_gold.png"
             alt="5"
           />
         </Box>
@@ -82,7 +82,7 @@ const WCGZG: React.FC<{}> = () => {
             left="1000px"
             top="80px"
             height="auto"
-            src="../assets/images/activity_WCGZG_lantern.png"
+            src="/../assets/images/activity_WCGZG_lantern.png"
             alt="lantern"
           />
         </Box>
@@ -92,7 +92,7 @@ const WCGZG: React.FC<{}> = () => {
             right="800px"
             top="350px"
             height="auto"
-            src="../assets/images/activity_WCGZG_cloud.png"
+            src="/../assets/images/activity_WCGZG_cloud.png"
             alt="cloud"
           />
         </Box>
@@ -140,19 +140,19 @@ const WCGZG: React.FC<{}> = () => {
           <Image
             width="30%"
             height="auto"
-            src="../assets/images/activity_WCGZG_5.png"
+            src="/../assets/images/activity_WCGZG_5.png"
             alt="5"
           />
           <Image
             width="30%"
             height="auto"
-            src="../assets/images/activity_WCGZG_15.png"
+            src="/../assets/images/activity_WCGZG_15.png"
             alt="15"
           />
           <Image
             width="30%"
             height="auto"
-            src="../assets/images/activity_WCGZG_20.png"
+            src="/../assets/images/activity_WCGZG_20.png"
             alt="20"
           />
         </Flex>
@@ -165,7 +165,7 @@ const WCGZG: React.FC<{}> = () => {
             right="250px"
             top="150px"
             height="auto"
-            src="../assets/images/activity_WCGZG_lantern.png"
+            src="/../assets/images/activity_WCGZG_lantern.png"
             alt="lantern"
           />
         </Box>
@@ -183,7 +183,7 @@ const WCGZG: React.FC<{}> = () => {
             _hover={{
               cursor: 'pointer'
             }}
-            src="../assets/images/activity_WCGZG_buttona.png"
+            src="/../assets/images/activity_WCGZG_buttona.png"
             alt="a"
           />
           <Link
@@ -196,7 +196,7 @@ const WCGZG: React.FC<{}> = () => {
           >
             <Image
               height="auto"
-              src="../assets/images/activity_WCGZG_buttonb.png"
+              src="/../assets/images/activity_WCGZG_buttonb.png"
               alt="b"
             />
           </Link>
@@ -207,7 +207,7 @@ const WCGZG: React.FC<{}> = () => {
             left="650px"
             bottom="100px"
             height="auto"
-            src="../assets/images/activity_WCGZG_cloud.png"
+            src="/../assets/images/activity_WCGZG_cloud.png"
             alt="cloud"
           />
         </Box>

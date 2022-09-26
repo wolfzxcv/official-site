@@ -75,7 +75,7 @@ const uSShareCFD: React.FC<{}> = () => {
         >
           <InfoCard
             image={
-              <Image src="../assets/images/uSShareCFD_icon1.png" alt="icon1" />
+              <Image src="/../assets/images/uSShareCFD_icon1.png" alt="icon1" />
             }
             text={t('competitivePrices')}
             bigW="20vw"
@@ -84,7 +84,7 @@ const uSShareCFD: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/uSShareCFD_icon2.png" alt="icon2" />
+              <Image src="/../assets/images/uSShareCFD_icon2.png" alt="icon2" />
             }
             text={t('tradeShortAndLong')}
             bigW="20vw"
@@ -93,7 +93,7 @@ const uSShareCFD: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/uSShareCFD_icon3.png" alt="icon3" />
+              <Image src="/../assets/images/uSShareCFD_icon3.png" alt="icon3" />
             }
             text={t('tradeShares')}
             bigW="20vw"
@@ -102,7 +102,7 @@ const uSShareCFD: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/uSShareCFD_icon4.png" alt="icon4" />
+              <Image src="/../assets/images/uSShareCFD_icon4.png" alt="icon4" />
             }
             text={t('WCGOffersZeroCommission')}
             bigW="20vw"

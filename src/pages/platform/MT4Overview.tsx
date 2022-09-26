@@ -26,7 +26,7 @@ const MT4Overview: React.FC<{}> = () => {
         <Box my={20} width={{ base: '80vw', md: '60vw' }} textAlign="center">
           <InfoTitle title="WCG MT4" />
           <InfoTitleSub title={t('efficientAndFreeTrading')} />
-          <Image src="../assets/images/mt4overview_1.jpg" alt="device" />
+          <Image src="/../assets/images/mt4overview_1.jpg" alt="device" />
         </Box>
         <Flex
           my={10}
@@ -36,7 +36,10 @@ const MT4Overview: React.FC<{}> = () => {
         >
           <InfoCard
             image={
-              <Image src="../assets/images/mt4overview_icon1.png" alt="icon1" />
+              <Image
+                src="/../assets/images/mt4overview_icon1.png"
+                alt="icon1"
+              />
             }
             title={t('personalTradingIndicators')}
             text={t('MT4ProvidesSimpleAndEasyToUse')}
@@ -46,7 +49,10 @@ const MT4Overview: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/mt4overview_icon2.png" alt="icon2" />
+              <Image
+                src="/../assets/images/mt4overview_icon2.png"
+                alt="icon2"
+              />
             }
             title={t('advancedChartTools')}
             text={t('MT4Provides31Chart')}
@@ -56,7 +62,10 @@ const MT4Overview: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/mt4overview_icon3.png" alt="icon3" />
+              <Image
+                src="/../assets/images/mt4overview_icon3.png"
+                alt="icon3"
+              />
             }
             title={t('diversifiedInvestmentTransactions')}
             text={t('theBestWayToManageRisk')}
@@ -76,7 +85,7 @@ const MT4Overview: React.FC<{}> = () => {
           align="center"
         >
           <Box width={{ base: '60vw', xl: '40vw' }}>
-            <Image src="../assets/images/mt4overview_2.jpg" alt="device" />
+            <Image src="/../assets/images/mt4overview_2.jpg" alt="device" />
           </Box>
           <Box
             my={{ base: 10, xl: 0 }}
@@ -106,7 +115,7 @@ const MT4Overview: React.FC<{}> = () => {
             <Text my={3}>{t('throughTheFurtherDevelopment')}</Text>
           </Box>
           <Box width={{ base: '60vw', xl: '40vw' }}>
-            <Image src="../assets/images/mt4overview_3.jpg" alt="device" />
+            <Image src="/../assets/images/mt4overview_3.jpg" alt="device" />
           </Box>
         </Flex>
       </Flex>
@@ -122,7 +131,7 @@ const MT4Overview: React.FC<{}> = () => {
             href={links.mt4IOS}
             image={
               <Image
-                src="../assets/images/mt4overview_ios.png"
+                src="/../assets/images/mt4overview_ios.png"
                 alt="forIPhone"
               />
             }
@@ -133,7 +142,7 @@ const MT4Overview: React.FC<{}> = () => {
             href={links.mt4Android}
             image={
               <Image
-                src="../assets/images/mt4overview_android.png"
+                src="/../assets/images/mt4overview_android.png"
                 alt="forAndroid"
               />
             }
@@ -145,7 +154,7 @@ const MT4Overview: React.FC<{}> = () => {
             href={links.mt4Apk}
             image={
               <Image
-                src="../assets/images/mt4overview_huawei.png"
+                src="/../assets/images/mt4overview_huawei.png"
                 alt="forHuawei"
               />
             }
@@ -156,7 +165,7 @@ const MT4Overview: React.FC<{}> = () => {
           <MT4DownloadOption
             href={links.mt4App}
             image={
-              <Image src="../assets/images/mt4overview_pc.png" alt="forPC" />
+              <Image src="/../assets/images/mt4overview_pc.png" alt="forPC" />
             }
             text={t('forPC')}
           />

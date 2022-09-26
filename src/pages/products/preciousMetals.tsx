@@ -55,7 +55,7 @@ const preciousMetals: React.FC<{}> = () => {
           />
         </Box>
         <Flex width={{ base: '0', xl: '40vw' }} justify="center">
-          <Image src="../assets/images/preciousMetals_1.png" alt="gold" />
+          <Image src="/../assets/images/preciousMetals_1.png" alt="gold" />
         </Flex>
       </Flex>
 
@@ -70,7 +70,7 @@ const preciousMetals: React.FC<{}> = () => {
         <InfoCard
           image={
             <Image
-              src="../assets/images/preciousMetals_icon1.png"
+              src="/../assets/images/preciousMetals_icon1.png"
               alt="icon1"
             />
           }
@@ -83,7 +83,7 @@ const preciousMetals: React.FC<{}> = () => {
         <InfoCard
           image={
             <Image
-              src="../assets/images/preciousMetals_icon2.png"
+              src="/../assets/images/preciousMetals_icon2.png"
               alt="icon2"
             />
           }
@@ -96,7 +96,7 @@ const preciousMetals: React.FC<{}> = () => {
         <InfoCard
           image={
             <Image
-              src="../assets/images/preciousMetals_icon3.png"
+              src="/../assets/images/preciousMetals_icon3.png"
               alt="icon3"
             />
           }
@@ -130,7 +130,7 @@ const preciousMetals: React.FC<{}> = () => {
         align="center"
       >
         <Box width={{ base: '60vw', xl: '40vw' }}>
-          <Image src="../assets/images/preciousMetals_2.jpg" alt="gold2" />
+          <Image src="/../assets/images/preciousMetals_2.jpg" alt="gold2" />
         </Box>
         <Box
           my={{ base: 10, xl: 0 }}
@@ -202,7 +202,7 @@ const preciousMetals: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/preciousMetals_3.jpg"
+                src="/../assets/images/preciousMetals_3.jpg"
                 alt="preciousMetals_3"
               />
             }
@@ -215,7 +215,7 @@ const preciousMetals: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/preciousMetals_4.jpg"
+                src="/../assets/images/preciousMetals_4.jpg"
                 alt="preciousMetals_4"
               />
             }
@@ -228,7 +228,7 @@ const preciousMetals: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/preciousMetals_5.jpg"
+                src="/../assets/images/preciousMetals_5.jpg"
                 alt="preciousMetals_5"
               />
             }
@@ -241,7 +241,7 @@ const preciousMetals: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/preciousMetals_6.jpg"
+                src="/../assets/images/preciousMetals_6.jpg"
                 alt="preciousMetals_6"
               />
             }
@@ -264,7 +264,7 @@ const preciousMetals: React.FC<{}> = () => {
 
         <Box px={2}>
           <Image
-            src="../assets/images/preciousMetals_7.png"
+            src="/../assets/images/preciousMetals_7.png"
             alt="goldPricePic"
           />
         </Box>

@@ -22,7 +22,7 @@ const SocialMediaLinks: React.FC<{}> = () => {
         <Image
           minW="28px"
           height="28px"
-          src="../assets/images/facebook.png"
+          src="/../assets/images/facebook.png"
           alt="Facebook"
         />
       </Link>
@@ -37,7 +37,7 @@ const SocialMediaLinks: React.FC<{}> = () => {
         <Image
           minW="28px"
           height="28px"
-          src="../assets/images/instagram.png"
+          src="/../assets/images/instagram.png"
           alt="Instagram"
         />
       </Link>

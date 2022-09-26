@@ -54,7 +54,7 @@ const tradeDetails: React.FC<{}> = () => {
           <InfoTitle title={t('tradeDetails')} />
         </Box>
 
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
 
         <InfoAccordion data={data} />
       </Flex>

@@ -440,7 +440,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_1.png'
+          objectKey: '/../assets/images/course_1.png'
         },
         {
           type: 'text',
@@ -468,7 +468,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_2.png'
+          objectKey: '/../assets/images/course_2.png'
         },
         {
           type: 'title',
@@ -480,7 +480,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_3.png'
+          objectKey: '/../assets/images/course_3.png'
         },
         {
           type: 'text',
@@ -496,7 +496,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_4.png'
+          objectKey: '/../assets/images/course_4.png'
         },
         {
           type: 'title',
@@ -508,7 +508,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_5.png'
+          objectKey: '/../assets/images/course_5.png'
         },
         {
           type: 'text',
@@ -528,7 +528,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_6.png'
+          objectKey: '/../assets/images/course_6.png'
         },
         {
           type: 'text',
@@ -626,7 +626,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_7.png'
+          objectKey: '/../assets/images/course_7.png'
         },
         {
           type: 'title',
@@ -724,7 +724,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'image',
-          objectKey: '../assets/images/course_8.png'
+          objectKey: '/../assets/images/course_8.png'
         },
         {
           type: 'text',

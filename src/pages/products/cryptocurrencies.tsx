@@ -65,7 +65,7 @@ const cryptocurrencies: React.FC<{}> = () => {
             </Box>
             <Flex width={{ base: '0', xl: '40vw' }} justify="center">
               <Image
-                src="../assets/images/cryptocurrencies_1.png"
+                src="/../assets/images/cryptocurrencies_1.png"
                 alt="cryptocurrencies"
               />
             </Flex>
@@ -112,7 +112,10 @@ const cryptocurrencies: React.FC<{}> = () => {
             align="center"
           >
             <Box width={{ base: '60vw', xl: '40vw' }}>
-              <Image src="../assets/images/cryptocurrencies_2.png" alt="pic2" />
+              <Image
+                src="/../assets/images/cryptocurrencies_2.png"
+                alt="pic2"
+              />
             </Box>
             <Box
               my={{ base: 10, xl: 0 }}
@@ -144,7 +147,10 @@ const cryptocurrencies: React.FC<{}> = () => {
               <Text my={3}>{t('bitcoinAndManyOther')}</Text>
             </Box>
             <Box width={{ base: '60vw', xl: '40vw' }}>
-              <Image src="../assets/images/cryptocurrencies_3.png" alt="pic3" />
+              <Image
+                src="/../assets/images/cryptocurrencies_3.png"
+                alt="pic3"
+              />
             </Box>
           </Flex>
 
@@ -167,7 +173,7 @@ const cryptocurrencies: React.FC<{}> = () => {
               <InfoCard
                 image={
                   <Image
-                    src="../assets/images/cryptocurrencies_icon1.png"
+                    src="/../assets/images/cryptocurrencies_icon1.png"
                     alt="icon1"
                   />
                 }
@@ -178,7 +184,7 @@ const cryptocurrencies: React.FC<{}> = () => {
               <InfoCard
                 image={
                   <Image
-                    src="../assets/images/cryptocurrencies_icon2.png"
+                    src="/../assets/images/cryptocurrencies_icon2.png"
                     alt="icon2"
                   />
                 }
@@ -188,7 +194,7 @@ const cryptocurrencies: React.FC<{}> = () => {
               <InfoCard
                 image={
                   <Image
-                    src="../assets/images/cryptocurrencies_icon3.png"
+                    src="/../assets/images/cryptocurrencies_icon3.png"
                     alt="icon3"
                   />
                 }
@@ -216,7 +222,10 @@ const cryptocurrencies: React.FC<{}> = () => {
             </Box>
 
             <Box px={2} py={5}>
-              <Image src="../assets/images/cryptocurrencies_4.png" alt="data" />
+              <Image
+                src="/../assets/images/cryptocurrencies_4.png"
+                alt="data"
+              />
             </Box>
 
             <Stack

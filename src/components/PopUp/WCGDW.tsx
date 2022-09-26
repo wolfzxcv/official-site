@@ -13,7 +13,10 @@ const WCGDW: React.FC<WCGDWProps> = ({ lang }: WCGDWProps) => {
 const WCGDWContent: React.FC<WCGDWProps> = ({ lang }: WCGDWProps) => {
   return (
     <Box>
-      <Image src={`../assets/images/activity_WCGDW_${lang}.jpg`} alt="notice" />
+      <Image
+        src={`/../assets/images/activity_WCGDW_${lang}.jpg`}
+        alt="notice"
+      />
     </Box>
   );
 };

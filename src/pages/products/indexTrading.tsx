@@ -51,7 +51,10 @@ const indexTrading: React.FC<{}> = () => {
           />
         </Box>
         <Flex width={{ base: '0', xl: '40vw' }} justify="center">
-          <Image src="../assets/images/indexTrading_1.png" alt="indexTrading" />
+          <Image
+            src="/../assets/images/indexTrading_1.png"
+            alt="indexTrading"
+          />
         </Flex>
       </Flex>
 
@@ -70,7 +73,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_icon1.png"
+                src="/../assets/images/indexTrading_icon1.png"
                 alt="icon1"
               />
             }
@@ -84,7 +87,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_icon2.png"
+                src="/../assets/images/indexTrading_icon2.png"
                 alt="icon2"
               />
             }
@@ -113,7 +116,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_SPX500.jpg"
+                src="/../assets/images/indexTrading_SPX500.jpg"
                 alt="SPX500"
               />
             }
@@ -123,7 +126,7 @@ const indexTrading: React.FC<{}> = () => {
 
           <InfoCard
             image={
-              <Image src="../assets/images/indexTrading_US30.jpg" alt="US30" />
+              <Image src="/../assets/images/indexTrading_US30.jpg" alt="US30" />
             }
             title={t('US30')}
             text={t('stocksFrom30Companies')}
@@ -132,7 +135,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_NASDAQ.jpg"
+                src="/../assets/images/indexTrading_NASDAQ.jpg"
                 alt="NASDAQ"
               />
             }
@@ -150,7 +153,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_UK100.jpg"
+                src="/../assets/images/indexTrading_UK100.jpg"
                 alt="UK100"
               />
             }
@@ -161,7 +164,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_GER30.jpg"
+                src="/../assets/images/indexTrading_GER30.jpg"
                 alt="GER30"
               />
             }
@@ -172,7 +175,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_JPN225.jpg"
+                src="/../assets/images/indexTrading_JPN225.jpg"
                 alt="JPN225"
               />
             }
@@ -190,7 +193,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_AUS200.jpg"
+                src="/../assets/images/indexTrading_AUS200.jpg"
                 alt="AUS200"
               />
             }
@@ -201,7 +204,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_FRA40.jpg"
+                src="/../assets/images/indexTrading_FRA40.jpg"
                 alt="FRA40"
               />
             }
@@ -212,7 +215,7 @@ const indexTrading: React.FC<{}> = () => {
           <InfoCard
             image={
               <Image
-                src="../assets/images/indexTrading_ESTX50.jpg"
+                src="/../assets/images/indexTrading_ESTX50.jpg"
                 alt="ESTX50"
               />
             }
@@ -254,7 +257,7 @@ const indexTrading: React.FC<{}> = () => {
               <Text>{t('theChartBelow')}</Text>
 
               <Box py={10}>
-                <Image src="../assets/images/indexTrading_2.png" alt="data" />
+                <Image src="/../assets/images/indexTrading_2.png" alt="data" />
               </Box>
 
               <Text>{t('anIndexIsEitherBasedOn')}</Text>

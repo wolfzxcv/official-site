@@ -21,8 +21,8 @@ const WCGDYN: React.FC<{}> = () => {
         minH={{ base: '320px', md: '600px' }}
         bg={WCGDYN_BG_GREEN}
         bgImage={{
-          base: '../assets/images/activity_WCGDYN_M.jpg',
-          md: '../assets/images/activity_WCGDYN.jpg'
+          base: '/../assets/images/activity_WCGDYN_M.jpg',
+          md: '/../assets/images/activity_WCGDYN.jpg'
         }}
         bgPosition="top center"
         bgSize={{ base: 'cover', md: 'cover' }}
@@ -115,7 +115,7 @@ const WCGDYNContent: React.FC<{}> = () => (
 
     <Flex mt={20} mb={5}>
       <Image
-        src={`../assets/images/activity_WCGDYN_slogan.jpg`}
+        src={`/../assets/images/activity_WCGDYN_slogan.jpg`}
         alt="slogan"
       ></Image>
     </Flex>

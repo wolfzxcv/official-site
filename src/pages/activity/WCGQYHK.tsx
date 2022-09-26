@@ -13,7 +13,7 @@ const WCGQYHK: React.FC<{}> = () => {
       {/* PC layout 1280px up */}
       <Flex
         display={{ base: 'none', md: 'block' }}
-        bgImage="../assets/images/activity_WCGQYHK.jpg"
+        bgImage="/../assets/images/activity_WCGQYHK.jpg"
         bgPosition="top center"
         bgSize="cover"
         height="100vh"
@@ -29,7 +29,7 @@ const WCGQYHK: React.FC<{}> = () => {
               isExternal
             >
               <Image
-                src="../assets/images/activity_WCGQYHK_b1.png"
+                src="/../assets/images/activity_WCGQYHK_b1.png"
                 alt="activity_WCGQYHK_b1"
               />
             </Link>
@@ -43,7 +43,7 @@ const WCGQYHK: React.FC<{}> = () => {
               isExternal
             >
               <Image
-                src="../assets/images/activity_WCGQYHK_b2.png"
+                src="/../assets/images/activity_WCGQYHK_b2.png"
                 alt="activity_WCGQYHK_b2"
               />
             </Link>
@@ -57,7 +57,7 @@ const WCGQYHK: React.FC<{}> = () => {
               onClick={openChatWindow}
             >
               <Image
-                src="../assets/images/activity_WCGQYHK_b3.png"
+                src="/../assets/images/activity_WCGQYHK_b3.png"
                 alt="activity_WCGQYHK_b3"
               />
             </Box>
@@ -79,7 +79,7 @@ const WCGQYHK: React.FC<{}> = () => {
         display={{ base: 'flex', md: 'none' }}
         minH="710px"
         bg="#34c0e1"
-        bgImage="../assets/images/activity_WCGQYHK_M.jpg"
+        bgImage="/../assets/images/activity_WCGQYHK_M.jpg"
         bgPosition="top center"
         bgSize="cover"
         flexDir="column"
@@ -88,7 +88,7 @@ const WCGQYHK: React.FC<{}> = () => {
         <Flex pt="400px" pb="10px" justify="center">
           <Link href="/" isExternal width="30%">
             <Image
-              src="../assets/images/activity_WCGQYHK_b1.png"
+              src="/../assets/images/activity_WCGQYHK_b1.png"
               alt="Instagram"
               mr={3}
             />
@@ -96,7 +96,7 @@ const WCGQYHK: React.FC<{}> = () => {
 
           <Link href={links.userCenterZH} isExternal width="30%">
             <Image
-              src="../assets/images/activity_WCGQYHK_b2.png"
+              src="/../assets/images/activity_WCGQYHK_b2.png"
               alt="Instagram"
               mr={3}
             />
@@ -104,7 +104,7 @@ const WCGQYHK: React.FC<{}> = () => {
 
           <Box width="30%" onClick={openChatWindow}>
             <Image
-              src="../assets/images/activity_WCGQYHK_b3.png"
+              src="/../assets/images/activity_WCGQYHK_b3.png"
               alt="Instagram"
             />
           </Box>

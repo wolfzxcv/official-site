@@ -28,7 +28,7 @@ const WCGEPopOver: React.FC<{}> = () => {
             mr={3}
             w="25px"
             h="26px"
-            src="../assets/images/activity_WCGE_icon5.png"
+            src="/../assets/images/activity_WCGE_icon5.png"
             alt="icon5"
           />
           WCGMarkets
@@ -36,7 +36,10 @@ const WCGEPopOver: React.FC<{}> = () => {
       </PopoverTrigger>
       <PopoverContent>
         <PopoverBody>
-          <Image src="../assets/images/activity_WCGE_wechat.png" alt="wechat" />
+          <Image
+            src="/../assets/images/activity_WCGE_wechat.png"
+            alt="wechat"
+          />
         </PopoverBody>
       </PopoverContent>
     </Popover>

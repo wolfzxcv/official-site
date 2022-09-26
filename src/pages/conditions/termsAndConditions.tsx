@@ -22,7 +22,7 @@ const termsAndConditions: React.FC<{}> = () => {
           <InfoTitle title={t('conditions')} />
         </Box>
 
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
 
         <Text width={'80vw'} textAlign={isArabic ? 'right' : 'left'}>
           {t('whenYouUseThisWebsite')}

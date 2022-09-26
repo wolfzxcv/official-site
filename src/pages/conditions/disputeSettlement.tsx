@@ -24,7 +24,7 @@ const disputeSettlement: React.FC<{}> = () => {
           <InfoTitle title={t('disputeSettlement')} />
         </Box>
 
-        <Image my={3} src="../assets/images/home_divider.png" alt="divider" />
+        <Image my={3} src="/../assets/images/home_divider.png" alt="divider" />
 
         <Box width={'80vw'} textAlign={isArabic ? 'right' : 'left'}>
           <Text>{t('weWelcomeYourInvaluableComments')}</Text>

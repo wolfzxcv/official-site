@@ -14,7 +14,7 @@ const Logo: React.FC<{}> = () => {
         <Image
           width={109}
           height={46}
-          src="../assets/images/logo.svg"
+          src="/../assets/images/logo.svg"
           alt="logo"
         />
       </Link>
