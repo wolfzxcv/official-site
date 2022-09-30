@@ -76,6 +76,13 @@ const companyNews: React.FC<{}> = () => {
       month: t('April'),
       text: [t('focusingOn')],
       color: '#e23a59'
+    },
+    {
+      year: '2022',
+      month: t('October'),
+      text: [t('WCGIFXEXPO')],
+      color: '#fcc82b',
+      href: '/../assets/WCG_IFX_ EXPO.mp4'
     }
   ];
   return (
@@ -86,7 +93,7 @@ const companyNews: React.FC<{}> = () => {
         <br />
         <br />
 
-        {data.map((x, idx) => (
+        {data.reverse().map((x, idx) => (
           <HistoryItem
             key={x.text[0]}
             location={idx % 2 === 1 ? 'right' : 'left'}
@@ -94,6 +101,7 @@ const companyNews: React.FC<{}> = () => {
             month={x.month}
             text={x.text}
             color={x.color}
+            href={x.href}
           />
         ))}
       </Flex>

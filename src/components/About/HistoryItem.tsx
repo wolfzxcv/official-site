@@ -1,5 +1,6 @@
 import { Box, Flex, Stack, Text } from '@chakra-ui/layout';
-import React from 'react';
+import { Link } from '@chakra-ui/react';
+import React, { forwardRef } from 'react';
 
 type ILocation = 'left' | 'right';
 export type HistoryItemProps = {
@@ -8,6 +9,7 @@ export type HistoryItemProps = {
   month: string;
   text: string[];
   color: string;
+  href?: string;
 };
 
 const HistoryItem: React.FC<HistoryItemProps> = ({
@@ -15,55 +17,101 @@ const HistoryItem: React.FC<HistoryItemProps> = ({
   year,
   month,
   text,
-  color
+  color,
+  href
 }: HistoryItemProps) => {
   return (
     <>
-      {/* desktop layout */}
-      <Flex
-        width="100%"
-        border="2px"
-        borderColor="white"
-        display={{ base: 'none', md: 'inherit' }}
-      >
-        <HistoryWording
-          location="left"
-          month={location === 'left' ? month : ''}
-          text={location === 'left' ? text : []}
-        />
-        <Flex>
-          <HistoryCircle
-            location="left"
-            color={location === 'left' ? color : ''}
-            year={location === 'left' ? year : ''}
+      {href ? (
+        <Link
+          href={href}
+          isExternal
+          display="flex"
+          width="100%"
+          _hover={{
+            textDecoration: 'none'
+          }}
+        >
+          <HistoryItemEach
+            location={location}
+            year={year}
+            month={month}
+            text={text}
+            color={color}
           />
-          <Stem location={location} color={color} />
-          <HistoryCircle
-            color={location === 'right' ? color : ''}
-            year={location === 'right' ? year : ''}
-          />
-        </Flex>
-        <HistoryWording
-          month={location === 'right' ? month : ''}
-          text={location === 'right' ? text : []}
+        </Link>
+      ) : (
+        <HistoryItemEach
+          location={location}
+          year={year}
+          month={month}
+          text={text}
+          color={color}
         />
-      </Flex>
-
-      {/* mobile layout */}
-      <Flex
-        width="100%"
-        border="2px"
-        borderColor="white"
-        borderRight="none"
-        display={{ base: 'inherit', md: 'none' }}
-      >
-        <Stem color={color} />
-        <HistoryCircle color={color} year={year} />
-        <HistoryWording month={month} text={text} />
-      </Flex>
+      )}
     </>
   );
 };
+
+const HistoryItemEach = forwardRef<HTMLDivElement, HistoryItemProps>(
+  (
+    { location = 'right', year, month, text, color, ...rest }: HistoryItemProps,
+    ref
+  ) => {
+    return (
+      <>
+        {/* desktop layout */}
+        <Flex
+          ref={ref}
+          {...rest}
+          width="100%"
+          border="2px"
+          borderColor="white"
+          display={{ base: 'none', md: 'inherit' }}
+        >
+          <HistoryWording
+            location="left"
+            month={location === 'left' ? month : ''}
+            text={location === 'left' ? text : []}
+          />
+          <Flex>
+            <HistoryCircle
+              location="left"
+              color={location === 'left' ? color : ''}
+              year={location === 'left' ? year : ''}
+            />
+            <Stem location={location} color={color} />
+            <HistoryCircle
+              color={location === 'right' ? color : ''}
+              year={location === 'right' ? year : ''}
+            />
+          </Flex>
+          <HistoryWording
+            month={location === 'right' ? month : ''}
+            text={location === 'right' ? text : []}
+          />
+        </Flex>
+
+        {/* mobile layout */}
+        <Flex
+          ref={ref}
+          {...rest}
+          width="100%"
+          border="2px"
+          borderColor="white"
+          borderRight="none"
+          display={{ base: 'inherit', md: 'none' }}
+        >
+          <Stem color={color} />
+          <HistoryCircle color={color} year={year} />
+          <HistoryWording month={month} text={text} />
+        </Flex>
+      </>
+    );
+  }
+);
+
+HistoryItemEach.displayName = 'HistoryItemEach';
 
 type StemProps = {
   location?: ILocation;

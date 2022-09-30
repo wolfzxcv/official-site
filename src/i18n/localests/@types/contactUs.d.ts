@@ -117,4 +117,6 @@ export type ContactUs = {
   theTradingSystem: string;
   /** Focusing on */
   focusingOn: string;
+  /**  WCG IFX EXPO */
+  WCGIFXEXPO: string;
 };

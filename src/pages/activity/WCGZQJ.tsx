@@ -35,7 +35,7 @@ const WCGZQJ: React.FC<{}> = () => {
       <WCGZQJContent />
 
       {/* rules */}
-      <Flex fontSize="8px" bg={WCGZQJ_FOOTER_BG} justify="center">
+      <Flex bg={WCGZQJ_FOOTER_BG} justify="center">
         <Stack
           my={10}
           width={{ base: '90vw', md: '80vw' }}

@@ -1,4 +1,5 @@
 import { Locales } from '@/i18n/config';
+import styled from '@emotion/styled';
 import axios from 'axios';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
@@ -6,11 +7,15 @@ import React, { useEffect, useState } from 'react';
 
 type ApiDataListProps = {
   api: string;
+  onTop?: number[];
 };
 
 const InfoAccordion = dynamic(() => import('./InfoAccordion'), { ssr: false });
 
-const ApiDataList: React.FC<ApiDataListProps> = ({ api }: ApiDataListProps) => {
+const ApiDataList: React.FC<ApiDataListProps> = ({
+  api,
+  onTop
+}: ApiDataListProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   useEffect(() => {
@@ -49,16 +54,31 @@ const ApiDataList: React.FC<ApiDataListProps> = ({ api }: ApiDataListProps) => {
         `${process.env.NEXT_PUBLIC_API_URL}${api}?lang=${currentLang}`
       );
 
-      const newItems = data.map((x) => ({
-        id: x.id,
-        date: x.displayTime,
-        title: x.title,
-        htmlContent:
-          x.content +
-          (x.url
-            ? `<br/><br/><a target="_blank" style="background-color: #C53030; color: white; padding: 10px;" href="${x.url}">${buttonText}  ></a>`
-            : '')
-      }));
+      let newItems = data.map((x) => {
+        const output = {
+          id: x.id,
+          date: x.displayTime,
+          title: x.title,
+          htmlContent:
+            x.content +
+            (x.url
+              ? `<br/><br/><a target="_blank" style="background-color: #C53030; color: white; padding: 10px;" href="${x.url}">${buttonText}  ></a>`
+              : '')
+        };
+
+        if (!!onTop && Array.isArray(onTop) && onTop.includes(x.id)) {
+          // @ts-ignore
+          output.isTop = true;
+        }
+
+        return output;
+      });
+
+      const topItems = newItems.filter((x) => x.isTop === true);
+
+      const restItems = newItems.filter((x) => x.isTop !== true);
+
+      newItems = [...topItems, ...restItems];
 
       setItems(newItems);
     } catch (e) {
@@ -67,10 +87,18 @@ const ApiDataList: React.FC<ApiDataListProps> = ({ api }: ApiDataListProps) => {
   };
 
   return (
-    <>
+    <StyledApiDataList>
       <InfoAccordion data={items} />
-    </>
+    </StyledApiDataList>
   );
 };
+
+const StyledApiDataList = styled.div`
+  @media (max-width: 1279px) {
+    .chakra-accordion__panel {
+      overflow-x: scroll;
+    }
+  }
+`;
 
 export default ApiDataList;

@@ -1,14 +1,11 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
-import WCGCZ from '@/components/Banner/WCGCZ';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGIFXBanner from '@/components/Banner/WCGIFX';
-import WCGZQJ from '@/components/Banner/WCGZQJ';
+import WCGSSS from '@/components/Banner/WCGSSS';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
-import Fake from '@/components/PopUp/Fake';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
@@ -34,17 +31,13 @@ const Index: React.FC<{}> = () => {
 
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
   const sliders = [
-    <WCGCZ key="WCGCZ" />,
-    <WCGZQJ key="WCGZQJ" />,
-    <WCGIFXBanner key="WCGIFX" />,
+    <WCGSSS key="WCGSSS" />,
     <WCGDC key="WCGDC" />,
     <Banner key="Banner" />
   ];
 
   return (
     <Wrapper>
-      <Fake />
-
       <IntroductionVideo />
 
       <Carousel
