@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](https://github.com/wolfzxcv/official-site/compare/v1.20.5...v1.21.0) (2022-09-30)
+
+
+### Features
+
+* **many:** modify companyNews, announcements, add new activity ([3e55936](https://github.com/wolfzxcv/official-site/commit/3e55936278fed4d80d3b61fddec0c86cfe359dca))
+
+
+### Bug Fixes
+
+* **announcements:** add 3 langs id to ApiDataList api="/notice" onTop array ([a177a5b](https://github.com/wolfzxcv/official-site/commit/a177a5b337ea1569b62a20b40ed14214fdf91095))
+
 ### [1.20.5](https://github.com/wolfzxcv/official-site/compare/v1.20.4...v1.20.5) (2022-09-26)
 
 ### [1.20.4](https://github.com/wolfzxcv/official-site/compare/v1.20.3...v1.20.4) (2022-09-13)
