@@ -14,6 +14,9 @@ export const questions: Questions = {
   HowToOpenAnAccountInWCG: 'كيفية فتح حساب في WCG?',
   youCanRegisterYourRealAccount:
     'يمكنك تسجيل حسابك الحقيقي على الموقع الرسمي لـ WCG، أو انقر هنا للتسجيل',
+  WCGAccountOpeningAge: 'سن فتح حساب WCG',
+  theAgeToOpenAnAccount:
+    'يجب أن يكون سن فتح الحساب في WCG 18 عامًا أو أكثر ، ولا يتم قبول العملاء الذين تبلغ أعمارهم 65 عامًا أو أكثر للتقدم لفتح الحساب.',
   whatKindOfAccounts: 'ما نوع الحسابات التي توفرها المنصة ?',
   weProvideDifferentAccountTypes:
     'نحن نقدم أنواع حسابات مختلفة، الرجاء الاتصال بموظفي خدمة العملاء للحصول على التفاصيل',

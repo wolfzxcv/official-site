@@ -14,6 +14,9 @@ export const questions: Questions = {
   HowToOpenAnAccountInWCG: 'How to open an account in WCG?',
   youCanRegisterYourRealAccount:
     'You can register your real account on the official website of WCG, or click here to register.',
+  WCGAccountOpeningAge: 'WCG account opening age',
+  theAgeToOpenAnAccount:
+    'The age to open an account at WCG must be 18 years old or above. Clients aged 65 or above are not accepted to apply for account opening.',
   whatKindOfAccounts: 'What kind of accounts do the platform provide?',
   weProvideDifferentAccountTypes:
     'We provide different account types, please contact our customer service staff for details.',

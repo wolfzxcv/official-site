@@ -13,6 +13,9 @@ export const questions: Questions = {
   HowToOpenAnAccountInWCG: '如何在WCG開戶?',
   youCanRegisterYourRealAccount:
     '您可以在WCG官網注冊您的真實帳戶，或點此注冊。',
+  WCGAccountOpeningAge: 'WCG開戶年齡',
+  theAgeToOpenAnAccount:
+    '您好，於WCG開戶年齡必須年滿18歲或以上，不接受65歲或以上歲數客戶申請開戶。',
   whatKindOfAccounts: '平台提供什麽種類的帳戶?',
   weProvideDifferentAccountTypes: '詳情請洽客服人員。',
   whatKindOfDocuments: '我需要上傳哪些檔案?',

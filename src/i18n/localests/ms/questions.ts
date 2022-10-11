@@ -14,6 +14,9 @@ export const questions: Questions = {
   HowToOpenAnAccountInWCG: 'Bagaimana cara membuka akaun di WCG?',
   youCanRegisterYourRealAccount:
     'Anda boleh mendaftarkan akaun sebenar anda di laman web rasmi WCG, atau klik di sini untuk mendaftar.',
+  WCGAccountOpeningAge: 'Umur pembukaan akaun WCG',
+  theAgeToOpenAnAccount:
+    'Umur membuka akaun di WCG mestilah berumur 18 tahun ke atas, dan pelanggan yang berumur 65 tahun ke atas tidak diterima untuk memohon pembukaan akaun.',
   whatKindOfAccounts: 'Apakah jenis akaun yang disediakan oleh platform?',
   weProvideDifferentAccountTypes:
     'Kami menyediakan pelbagai jenis akaun, sila hubungi kakitangan perkhidmatan pelanggan kami untuk maklumat lanjut.',

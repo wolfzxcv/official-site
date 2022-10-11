@@ -18,6 +18,10 @@ export type Questions = {
   HowToOpenAnAccountInWCG: string;
   /** You can register your real account */
   youCanRegisterYourRealAccount: string;
+  /** WCG account opening age */
+  WCGAccountOpeningAge: string;
+  /** The age to open an account */
+  theAgeToOpenAnAccount: string;
   /** What kind of accounts */
   whatKindOfAccounts: string;
   /** We provide different account types */

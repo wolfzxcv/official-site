@@ -33,6 +33,10 @@ const questions: React.FC<{}> = () => {
       externalHref: links.register
     },
     {
+      title: t('WCGAccountOpeningAge'),
+      content: [t('theAgeToOpenAnAccount')]
+    },
+    {
       title: t('whatKindOfAccounts'),
       content: [t('weProvideDifferentAccountTypes')]
     },
