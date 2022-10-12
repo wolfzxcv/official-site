@@ -27,10 +27,17 @@ export const questions: Questions = {
   accountOpeningWillTake:
     'Việc mở tài khoản sẽ diễn ra bình thường trong 1 ngày làm việc.',
   howLongWillItTakeToProcess: 'Mất bao lâu để xử lý đơn rút tiền?',
-  submitTheWithdrawal:
-    'Gửi hướng dẫn rút tiền trước 11:00 sáng và bạn sẽ có thể nhận được tài khoản của mình trước khoảng 1:00 chiều cùng ngày.',
-  submitTheWithdrawalInstruction:
-    'Gửi hướng dẫn rút tiền trước 5:00 chiều và tài khoản sẽ được ghi có trước 7:00 tối cùng ngày.',
+  WCGProcessingWithdrawalApplicationTime:
+    'WCG xử lý đơn yêu cầu rút tiền: 11: 00-12: 00 trưa / 2: 00-5: 00 chiều. Việc rút tiền sẽ được xử lý mỗi giờ một lần và tài khoản sẽ được nhận nhanh nhất trong vòng 2 giờ. Một ngày làm việc đối với Chế biến.',
+  WCGWithdrawalConditions: 'Điều kiện rút tiền WCG?',
+  ifTheCustomerDepositsFunds:
+    'Nếu khách hàng gửi tiền, họ phải rút tiền mà không thực hiện bất kỳ giao dịch nào và phí xử lý 3% sẽ được tính cho việc trả lại tiền.',
+  afterACertainTransactionVolume:
+    'Sau khi một khối lượng giao dịch nhất định được đáp ứng, phí xử lý sẽ được miễn. Yêu cầu về khối lượng giao dịch: Số tiền gửi tích lũy mới nhất sẽ được ưu tiên. Ví dụ: số tiền gửi gần nhất là 1.000 USD. Miễn phí giao dịch sau khi giao dịch 1 lô và sau đó đăng ký rút tiền. Gửi 2.000 USD yêu cầu giao dịch 2 lô và gửi 5.000 USD yêu cầu giao dịch. 5 lô, v.v.',
+  ifTheTransactionVolume:
+    'Nếu khối lượng giao dịch không đủ và bạn nhất quyết muốn rút tiền, bạn cần phải khấu trừ 3% của lô giao dịch từ số tiền gửi tích lũy gần nhất làm phí rút tiền. (Khách hàng lưu ý sẽ trừ phí trừ tiền khi khách hàng rút tiền, nếu không giao dịch rút tiền sẽ bị từ chối).',
+  ifTheTransactionVolumeIsInsufficient:
+    'Nếu khối lượng giao dịch không đủ, phí quản lý $ 5 sẽ được tính cho các lần rút tiền dưới $ 50.',
   HowDoIKnowMyWithdrawal:
     'Làm cách nào để biết đơn rút tiền của tôi đã được chấp thuận?',
   onceTheWithdrawalApplication:

@@ -50,11 +50,16 @@ const questions: React.FC<{}> = () => {
     },
     {
       title: t('howLongWillItTakeToProcess'),
-      content: [t('submitTheWithdrawal'), t('submitTheWithdrawalInstruction')]
+      content: [t('WCGProcessingWithdrawalApplicationTime')]
     },
     {
-      title: t('HowDoIKnowMyWithdrawal'),
-      content: [t('onceTheWithdrawalApplication')]
+      title: t('WCGWithdrawalConditions'),
+      content: [
+        t('ifTheCustomerDepositsFunds'),
+        t('afterACertainTransactionVolume'),
+        t('ifTheTransactionVolume'),
+        t('ifTheTransactionVolumeIsInsufficient')
+      ]
     },
     {
       title: t('whatIsTheMT4Platform'),

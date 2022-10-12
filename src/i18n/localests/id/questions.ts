@@ -29,10 +29,17 @@ export const questions: Questions = {
     'Pembukaan rekening biasanya memakan waktu 1 hari kerja.',
   howLongWillItTakeToProcess:
     'Berapa lama waktu yang dibutuhkan untuk memproses aplikasi penarikan?',
-  submitTheWithdrawal:
-    'Kirim instruksi penarikan sebelum pukul 11:00 pagi, dan Anda akan bisa mendapatkan akun Anda sebelum sekitar pukul 13:00 pada hari yang sama.',
-  submitTheWithdrawalInstruction:
-    'Kirim instruksi penarikan sebelum pukul 17:00, dan akun akan dikreditkan sebelum pukul 19:00 pada hari yang sama.',
+  WCGProcessingWithdrawalApplicationTime:
+    'Waktu aplikasi penarikan pemrosesan WCG: 11:00-12:00 siang/ 2:00-5:00 sore. Penarikan akan diproses setiap jam sekali, dan akun akan diterima paling cepat dalam 2 jam. Satu hari kerja untuk pengolahan.',
+  WCGWithdrawalConditions: 'Kondisi penarikan WCG?',
+  ifTheCustomerDepositsFunds:
+    'Jika nasabah menyetor dana, mereka harus menariknya tanpa transaksi apa pun, dan biaya penanganan 3% akan dikenakan untuk pengembalian dana.',
+  afterACertainTransactionVolume:
+    'Setelah volume transaksi tertentu terpenuhi, biaya penanganan akan dibebaskan. Persyaratan volume perdagangan: Jumlah setoran akumulasi terakhir yang berlaku. Misalnya, jumlah setoran terakhir adalah USD 1.000. Biaya transaksi dibebaskan setelah perdagangan 1 lot dan kemudian mengajukan penarikan. Penyetoran USD 2.000 membutuhkan perdagangan 2 lot, dan penyetoran USD 5.000 membutuhkan perdagangan 5 lot, dan seterusnya.',
+  ifTheTransactionVolume:
+    'Jika volume transaksi tidak mencukupi dan Anda bersikeras untuk menarik, Anda perlu mengurangi 3% dari lot yang diperdagangkan dari jumlah akumulasi deposit terakhir sebagai biaya penarikan. (Pelanggan menyatakan bahwa biaya pemotongan akan dipotong ketika pelanggan menarik uang, jika tidak, penarikan akan ditolak).',
+  ifTheTransactionVolumeIsInsufficient:
+    'Jika volume transaksi tidak mencukupi, biaya administrasi $5 akan dikenakan untuk penarikan di bawah $50.',
   HowDoIKnowMyWithdrawal:
     'Bagaimana saya tahu aplikasi penarikan saya disetujui?',
   onceTheWithdrawalApplication:

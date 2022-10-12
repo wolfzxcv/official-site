@@ -36,10 +36,18 @@ export type Questions = {
   accountOpeningWillTake: string;
   /** How long will it take to process */
   howLongWillItTakeToProcess: string;
-  /** Submit the withdrawal */
-  submitTheWithdrawal: string;
-  /** Submit the withdrawal instruction  */
-  submitTheWithdrawalInstruction: string;
+  /** WCG processing withdrawal application time */
+  WCGProcessingWithdrawalApplicationTime: string;
+  /** WCG withdrawal conditions */
+  WCGWithdrawalConditions: string;
+  /** If the customer deposits funds */
+  ifTheCustomerDepositsFunds: string;
+  /** After a certain transaction volume */
+  afterACertainTransactionVolume: string;
+  /** If the transaction volume */
+  ifTheTransactionVolume: string;
+  /** If the transaction volume is insufficient */
+  ifTheTransactionVolumeIsInsufficient: string;
   /** How do I know my withdrawal */
   HowDoIKnowMyWithdrawal: string;
   /** Once the withdrawal application */

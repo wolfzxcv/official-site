@@ -29,10 +29,17 @@ export const questions: Questions = {
     'Pembukaan akaun akan memakan masa 1 hari bekerja seperti biasa.',
   howLongWillItTakeToProcess:
     'Berapa lama masa yang diperlukan untuk memproses permohonan pengeluaran?',
-  submitTheWithdrawal:
-    'Kirim arahan pengeluaran sebelum jam 11:00 pagi, dan anda akan dapat akaun anda sebelum kira-kira jam 1:00 petang pada hari yang sama.',
-  submitTheWithdrawalInstruction:
-    'Kirim arahan pengeluaran sebelum jam 5:00 petang, dan akaun akan dikreditkan sebelum jam 7:00 malam pada hari yang sama.',
+  WCGProcessingWithdrawalApplicationTime:
+    'Masa permohonan pengeluaran pemprosesan WCG: 11:00-12:00 tengah hari/ 2:00-5:00 petang. Pengeluaran akan diproses sekali setiap jam, dan akaun akan diterima paling cepat dalam masa 2 jam. Satu hari perniagaan untuk pemprosesan.',
+  WCGWithdrawalConditions: 'Syarat pengeluaran WCG?',
+  ifTheCustomerDepositsFunds:
+    'Jika pelanggan mendepositkan dana, mereka mesti mengeluarkannya tanpa sebarang transaksi, dan yuran pengendalian sebanyak 3% akan dikenakan untuk memulangkan dana.',
+  afterACertainTransactionVolume:
+    'Selepas jumlah transaksi tertentu dipenuhi, yuran pengendalian akan diketepikan. Keperluan volum dagangan: Amaun deposit terkumpul terkini akan diguna pakai. Contohnya, jumlah deposit terkini ialah USD 1,000. Yuran transaksi diketepikan selepas berdagang 1 lot dan kemudian memohon untuk pengeluaran. Mendepositkan USD 2,000 memerlukan dagangan 2 lot dan mendepositkan USD 5,000 memerlukan perdagangan. 5 lot, dan seterusnya.',
+  ifTheTransactionVolume:
+    'Jika jumlah urus niaga tidak mencukupi dan anda berkeras untuk mengeluarkan, anda perlu memotong 3% daripada lot dagangan daripada jumlah deposit terkumpul terkini sebagai yuran pengeluaran. (Pelanggan menyatakan bahawa yuran potongan akan ditolak apabila pelanggan mengeluarkan wang, jika tidak pengeluaran akan ditolak).',
+  ifTheTransactionVolumeIsInsufficient:
+    'Jika jumlah transaksi tidak mencukupi, yuran pentadbiran $5 akan dikenakan untuk pengeluaran di bawah $50.',
   HowDoIKnowMyWithdrawal:
     'Bagaimana saya tahu bahawa permohonan pengeluaran saya diluluskan?',
   onceTheWithdrawalApplication:
