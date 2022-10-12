@@ -14,7 +14,7 @@ export const links = {
   // MT4 Windows version
   mt4App:
     process.env.NEXT_PUBLIC_MT4_APP ||
-    'https://download.mql5.com/cdn/web/17749/mt4/wenchuangloballtd4setup.exe',
+    'https://download.mql5.com/cdn/web/asa.group.trading/mt4/asa4setup.exe',
   // MT4 Android version-APK
   mt4Apk:
     process.env.NEXT_PUBLIC_MT4_APK ||
