@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.22.0](https://github.com/wolfzxcv/official-site/compare/v1.21.3...v1.22.0) (2022-10-13)
+
+
+### Features
+
+* **popup:** add popup WCGFQ ([67ed7d0](https://github.com/wolfzxcv/official-site/commit/67ed7d0fb417eb83dfcf728d5ed41bf3c55ff743))
+
 ### [1.21.3](https://github.com/wolfzxcv/official-site/compare/v1.21.2...v1.21.3) (2022-10-12)
 
 ### [1.21.2](https://github.com/wolfzxcv/official-site/compare/v1.21.1...v1.21.2) (2022-10-07)
