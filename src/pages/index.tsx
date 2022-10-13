@@ -7,6 +7,7 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
+import WCGFQ from '@/components/PopUp/WCGFQ';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -38,6 +39,8 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      <WCGFQ />
+
       <IntroductionVideo />
 
       <Carousel
