@@ -16,7 +16,7 @@ const announcements: React.FC<{}> = () => {
         <InfoTitle title={t('announcements')} />
         <InfoTitleSub title={t('throughOurCompanyNews')} />
 
-        <ApiDataList api="/notice" onTop={[202, 204, 205]} />
+        <ApiDataList api="/notice" onTop={[207, 208, 209]} />
       </Flex>
     </Wrapper>
   );
