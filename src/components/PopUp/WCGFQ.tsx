@@ -27,7 +27,14 @@ const WCGFQButton: React.FC<WCGFQButtonProps> = ({
       textDecoration: 'none'
     }}
   >
-    <Box bg={BTN_RED} color="white" borderRadius="5px" px={5} py={2}>
+    <Box
+      bg={BTN_RED}
+      color="white"
+      borderRadius="5px"
+      px={{ base: 1, md: 5 }}
+      mx={{ base: 1, md: 0 }}
+      py={2}
+    >
       {text}
     </Box>
   </Link>
@@ -39,19 +46,19 @@ const WCGFQ: React.FC<{}> = () => {
 
   return currentLang === 'zh' ? (
     <PopUp
-      title="親愛的客戶及合作夥伴"
+      title="轉換服務器通知"
       content={<WCGFQContentZh />}
       useBorder={false}
     />
   ) : currentLang === 'cn' ? (
     <PopUp
-      title="亲爱的客户及合作伙伴"
+      title="转换服务器通知"
       content={<WCGFQContentCn />}
       useBorder={false}
     />
   ) : (
     <PopUp
-      title="Dear valued customers and partners"
+      title="Server change notification"
       content={<WCGFQContentEn />}
       useBorder={false}
     />
@@ -60,7 +67,9 @@ const WCGFQ: React.FC<{}> = () => {
 
 const WCGFQContentZh: React.FC<{}> = () => {
   return (
-    <Stack spacing={5} p={5}>
+    <Stack spacing={5} p={3}>
+      <Box fontWeight={700}>親愛的客戶及合作夥伴</Box>
+
       <Box>
         感謝您長期以來的忠實支持，由於WCG
         Markets發展迅速，客戶數量持續大幅上升，為配合更好的發展及客戶更完善的交易體驗，除目前正在使用的邁達克交易系統
@@ -102,7 +111,9 @@ const WCGFQContentZh: React.FC<{}> = () => {
 
 const WCGFQContentCn: React.FC<{}> = () => {
   return (
-    <Stack spacing={5} p={5}>
+    <Stack spacing={5} p={3}>
+      <Box fontWeight={700}>亲爱的客户及合作伙伴</Box>
+
       <Box>
         感谢您长期以来的忠实支持，由于WCG
         Markets发展迅速，客户数量持续大幅上升，为配合更好的发展及客户更完善的交易体验，除目前正在使用的迈达克交易系统
@@ -144,7 +155,9 @@ const WCGFQContentCn: React.FC<{}> = () => {
 
 const WCGFQContentEn: React.FC<{}> = () => {
   return (
-    <Stack spacing={5} p={5}>
+    <Stack spacing={5} p={3}>
+      <Box fontWeight={700}>Dear valued customers and partners</Box>
+
       <Box>
         Thank you for your long-term and continue support for WCG. Due to the
         rapid development of WCG Markets, the number of clients has continued to
