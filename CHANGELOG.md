@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.22.1](https://github.com/wolfzxcv/official-site/compare/v1.22.0...v1.22.1) (2022-10-14)
+
+
+### Bug Fixes
+
+* **popup:** modify styling and wording of WCGFQ ([b8c0b25](https://github.com/wolfzxcv/official-site/commit/b8c0b2543727592af58a1732bd375378c42656f7))
+
 ## [1.22.0](https://github.com/wolfzxcv/official-site/compare/v1.21.3...v1.22.0) (2022-10-13)
 
 
