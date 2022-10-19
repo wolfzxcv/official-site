@@ -22,7 +22,7 @@ const WCGGN: React.FC<{}> = () => {
     />
   ) : (
     <PopUp
-      title="喜讯！ WCG Markets已完成收购盈富Wealth Gold Group及酷极KUJI两大交易商"
+      title="Good News! WCG Markets has completed the acquisition of two well-known FX brokers, Wealth Gold Group and KUJI"
       content={<WCGGNEn />}
       useBorder={false}
     />
@@ -150,36 +150,46 @@ const WCGGNCn: React.FC<{}> = () => {
 const WCGGNEn: React.FC<{}> = () => {
   return (
     <Stack spacing={5} p={5}>
-      <Box>致亲爱的客户及合作伙伴：</Box>
+      <Box>Dear valued customers and partners:</Box>
 
       <Box>
-        我们欣然地通知您WCG Markets已完成向”盈富Wealth Gold
-        Group”及”酷极KUJI”两大交易商作出的收购程序，并将于2022年10月24日（星期一）起统一以WCG
-        Markets名义继续为您服务。
+        We are pleased to inform you that WCG Markets has completed the
+        acquisition of &quot;Wealth Gold Group (WGG)&quot; and &quot;KUJI&quot;
+        and will combine with WCG Markets from October 24, 2022 (Monday). We
+        continue to serve you all in the name of WCG Markets.
       </Box>
 
       <Box>
-        WCG
-        Markets秉持灵活、创新、积极、热诚的态度，让我们在金融市场上一直保持领先。面对疫情的严峻及环球市场的遽然变化，WCG
-        Markets拥抱机遇，借此契机并购两大知名金融机构”盈富Wealth Gold
-        Group”及”酷极KUJI”，相信会为未来发展奠下良好基础。
+        WCG Markets upholds a flexible, innovative, active and enthusiastic
+        attitude, which keeps us at the forefront of the financial market.
+        Facing the severity of the epidemic and the sudden changes in the global
+        market, WCG Markets embraced and took this opportunity to acquire two
+        well-known financial institutions &quot;Wealth Gold Group&quot; and
+        &quot;KUJI&quot;, which is believed to lay a good foundation for future
+        development.
       </Box>
 
       <Box>
-        我们很高兴能在此跟大家分享这份喜悦，在过去三年面对疫情带来的严峻考验，全赖您的忠实支持，让我们坚定不移地克服各种挑战。感谢您陪伴WCG
-        Markets走过每一步，现在是时候让我们再次一同在金融市场上翱翔。为感谢您对我们一直以来的支持，并让您于投资路上迈步向前，我们将为您安排特别的奖赏活动，以答谢您的信赖与支持。详情将于本月底透过电邮及官方网页内公布，敬请留意。
+        We are pleased to share this joy with you here. In the past three years,
+        facing the severe test brought by the epidemic, we are thankful to your
+        loyal support that we will steadfastly overcome various challenges.
+        Thank you for accompanying WCG Markets every step of the way, it is time
+        for us to once again soar together in the financial markets. In order to
+        thank you for your continuous support, we will arrange special reward
+        campaigns for you. Details will be announced by email and on official
+        website by the end of this month, so stay tuned.
       </Box>
 
       <Box>
-        再次衷心感谢你一直以来对WCG
-        Markets的支持和信赖，如您对此次安排有任何查询或疑问，欢迎随时联络我司客户服务部。
+        Once again, I sincerely thank you for your continued support and trust
+        in WCG Markets. If you have any inquiries or questions about this
+        arrangement, please feel free to contact our customer service
+        department.
       </Box>
 
-      <Box>祝身体安康，旗开得胜！</Box>
-
-      <Box>客户服务热线：4001 203 612 / 4008 428 912</Box>
+      <Box>CS Hotline: 4001 203 612 / 4008 428 912</Box>
       <Box>
-        客户服务电邮：
+        Email:
         <Link
           _hover={{ cursor: 'pointer' }}
           href={`mailto:${links.email}`}
@@ -189,7 +199,7 @@ const WCGGNEn: React.FC<{}> = () => {
         </Link>
       </Box>
       <Box>
-        在线客户服务：
+        Online CS:
         <Link _hover={{ cursor: 'pointer' }} href={links.liveChat} isExternal>
           {links.liveChat}
         </Link>
@@ -201,7 +211,8 @@ const WCGGNEn: React.FC<{}> = () => {
           alt="qr-code"
         ></Image>
       </Box>
-      <Box>WCG MARKETS 谨启</Box>
+      <Box>Yours Sincerely, </Box>
+      <Box>WCG MARKETS</Box>
     </Stack>
   );
 };

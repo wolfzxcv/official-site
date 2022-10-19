@@ -35,6 +35,14 @@ const PopUp: React.FC<PopUpProps> = ({
     onOpen();
   };
 
+  let HEADER_SIZE = isDesktop ? '24px' : '20px';
+
+  const longTitle = title.length > 30;
+
+  if (longTitle) {
+    HEADER_SIZE = isDesktop ? '16px' : '12px';
+  }
+
   return (
     <Modal
       motionPreset="slideInBottom"
@@ -48,7 +56,7 @@ const PopUp: React.FC<PopUpProps> = ({
 
       <ModalContent>
         <ModalHeader
-          fontSize={isDesktop ? '24px' : '20px'}
+          fontSize={HEADER_SIZE}
           fontWeight="bold"
           bg="black"
           color="white"
@@ -57,7 +65,11 @@ const PopUp: React.FC<PopUpProps> = ({
         >
           {title}
         </ModalHeader>
-        <ModalCloseButton color="white" size="lg" top={isDesktop ? 1 : 0} />
+        <ModalCloseButton
+          color="white"
+          size="lg"
+          top={longTitle ? 4 : isDesktop ? 1 : 0}
+        />
         <ModalBody p={0} border={useBorder ? '1px' : '0'} borderColor="white">
           {content}
         </ModalBody>
