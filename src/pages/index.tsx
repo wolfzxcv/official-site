@@ -7,7 +7,6 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
-import WCGFQ from '@/components/PopUp/WCGFQ';
 import WCGGN from '@/components/PopUp/WCGGN';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
@@ -41,8 +40,6 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       <WCGGN />
-
-      <WCGFQ />
 
       <IntroductionVideo />
 
