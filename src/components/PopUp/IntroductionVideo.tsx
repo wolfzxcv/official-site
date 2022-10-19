@@ -1,5 +1,3 @@
-import { Locales } from '@/i18n/config';
-import { useRouter } from 'next/router';
 import React from 'react';
 import PopUp from './PopUp';
 
@@ -14,12 +12,6 @@ const IntroductionVideo: React.FC<{}> = () => {
 };
 
 const IntroductionVideoContent: React.FC<{}> = () => {
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'zh';
-
-  const WCG_VIDEO_LANG = isChinese ? 'video' : 'video_en';
-
   return (
     <video
       controls
@@ -27,12 +19,12 @@ const IntroductionVideoContent: React.FC<{}> = () => {
       playsInline
       loop
       muted
-      src={`../assets/${WCG_VIDEO_LANG}.mp4`}
-      poster="../assets/video_pic.jpg"
+      src={'/../assets/WCG_IFX_ EXPO.mp4'}
+      poster="../assets/video_pic2.jpg"
     >
       Sorry, your browser doesn&apos;t support embedded videos, but don&apos;t
       worry, you can
-      <a href={`../assets/${WCG_VIDEO_LANG}.mp4`}>download it</a>
+      <a href={'/../assets/WCG_IFX_ EXPO.mp4'}>download it</a>
       and watch it with your favorite video player!
     </video>
   );
