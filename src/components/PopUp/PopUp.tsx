@@ -11,7 +11,7 @@ import {
 import React, { useEffect } from 'react';
 
 type PopUpProps = {
-  title: string;
+  title: string | JSX.Element;
   content: JSX.Element;
   useBorder?: boolean;
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'full';
@@ -35,13 +35,16 @@ const PopUp: React.FC<PopUpProps> = ({
     onOpen();
   };
 
-  let HEADER_SIZE = isDesktop ? '24px' : '20px';
+  // const HEADER_SIZE = isDesktop ? '24px' : '20px';
 
-  const longTitle = title.length > 30;
-
+  const longTitle = title.valueOf.length > 30;
+  let closeTop = 0;
   if (longTitle) {
-    HEADER_SIZE = isDesktop ? '16px' : '12px';
+    // HEADER_SIZE = isDesktop ? '16px' : '12px';
+    closeTop = 4;
   }
+
+  const titleType = typeof title;
 
   return (
     <Modal
@@ -56,7 +59,6 @@ const PopUp: React.FC<PopUpProps> = ({
 
       <ModalContent>
         <ModalHeader
-          fontSize={HEADER_SIZE}
           fontWeight="bold"
           bg="black"
           color="white"
@@ -65,10 +67,11 @@ const PopUp: React.FC<PopUpProps> = ({
         >
           {title}
         </ModalHeader>
+
         <ModalCloseButton
           color="white"
           size="lg"
-          top={longTitle ? 4 : isDesktop ? 1 : 0}
+          top={titleType == 'string' ? closeTop : isDesktop ? 1 : 0}
         />
         <ModalBody p={0} border={useBorder ? '1px' : '0'} borderColor="white">
           {content}

@@ -1,6 +1,6 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
-import { Box, Image, Link, Stack } from '@chakra-ui/react';
+import { Box, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import PopUp from './PopUp';
 
@@ -10,19 +10,32 @@ const WCGGN: React.FC<{}> = () => {
 
   return currentLang === 'zh' ? (
     <PopUp
-      title="喜訊！ WCG Markets已完成收購盈富Wealth Gold Group及酷極KUJI兩大交易商"
+      title={
+        <Text fontSize={'14px'}>
+          喜訊!
+          <br />
+          WCG Markets已完成收購盈富Wealth Gold Group及酷極KUJI兩大交易商
+        </Text>
+      }
+      // title2="WCG Markets已完成收購盈富Wealth Gold Group及酷極KUJI兩大交易商"
       content={<WCGGNZh />}
       useBorder={false}
     />
   ) : currentLang === 'cn' ? (
     <PopUp
-      title="喜讯！ WCG Markets已完成收购盈富Wealth Gold Group及酷极KUJI两大交易商"
+      title={
+        <Text fontSize={'14px'}>
+          喜讯!
+          <br />
+          WCG Markets已完成收购盈富Wealth Gold Group及酷极KUJI两大交易商
+        </Text>
+      }
       content={<WCGGNCn />}
       useBorder={false}
     />
   ) : (
     <PopUp
-      title="Good News! WCG Markets has completed the acquisition of two well-known FX brokers, Wealth Gold Group and KUJI"
+      title="Good News! WCG Markets has completed the acquisition of two well-known FX brokers"
       content={<WCGGNEn />}
       useBorder={false}
     />
