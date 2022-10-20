@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.23.0](https://github.com/wolfzxcv/official-site/compare/v1.22.7...v1.23.0) (2022-10-20)
+
+
+### Features
+
+* **add wcgfy/wcgkj landpage:** add WCGFY/WCGKJ landpage，index add slider page *2 ([7a57855](https://github.com/wolfzxcv/official-site/commit/7a57855a2d3e17481ab2c078e179eec2690e8f40))
+
+
+### Bug Fixes
+
+* **activity:** modify activity: WCGYF, WCGKJ ([7a48c66](https://github.com/wolfzxcv/official-site/commit/7a48c6607693c5279e5f8809e4bc678c9812d2b0))
+
 ### [1.22.7](https://github.com/wolfzxcv/official-site/compare/v1.22.6...v1.22.7) (2022-10-20)
 
 
