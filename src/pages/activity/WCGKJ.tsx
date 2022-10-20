@@ -166,18 +166,13 @@ export const WCGKJTitle: React.FC<{}> = () => (
       活动可与[WCG超级优惠不止双11]活动重迭
     </Box>
 
-    <Box
-      pt={50}
-      pb={50}
-      fontSize="18px"
-      width="90vw"
-      textAlign="center"
-      top={'2xl'}
-    >
-      活动一：酷极客户成功转移帐后只需要完成交易一手即可获取赠金50美元
-      <br />
+    <Box>活动一：酷极客户成功转移帐后只需要完成交易一手即可获取赠金50美元</Box>
+
+    <Box>
       活动二：酷极客户在活动期间存入金额2000美元或以上，即自动参加本活动!!!
-      <br />
+    </Box>
+
+    <Box>
       客户在活动期间内首次存入任何金额的48小时内累计达要求，即可按层级交易手数回赠。每手回赠每逄周一结算。一经发放已等同现金可自由取出。
     </Box>
   </Flex>
@@ -214,6 +209,7 @@ const StyledWCGKJTable = styled.table`
     color: ${WCGKJ_FONT_YELLOW};
     border: 1px solid ${WCGKJ_FONT_YELLOW};
     padding: 10px;
+    width: 50%;
   }
 
   thead {
