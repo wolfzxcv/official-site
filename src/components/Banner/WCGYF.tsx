@@ -1,32 +1,32 @@
 import { Locales } from '@/i18n/config';
-import { WCGFY_BG_RED } from '@/pages/activity/WCGFY';
-import { Flex } from '@chakra-ui/react';
+import { WCGYF_BG_BROWN } from '@/pages/activity/WCGYF';
+import { Box } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const WCGFY: React.FC<{}> = () => {
+const WCGYF: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
   return (
-    <NextLink passHref={true} href="/activity/WCGFY" locale={currentLang}>
-      <Flex
+    <NextLink passHref={true} href="/activity/WCGYF" locale={currentLang}>
+      <Box
         minH={{ base: '600px', md: '500px' }}
-        bg={WCGFY_BG_RED}
+        bg={WCGYF_BG_BROWN}
         bgImage={{
-          base: '/../assets/images/activity_WCGFY_M.jpg',
-          md: '/../assets/images/activity_WCGFY_banner.jpg'
+          base: '/../assets/images/activity_WCGYF_M.jpg',
+          md: '/../assets/images/activity_WCGYF_banner.jpg'
         }}
-        bgPosition={{ base: 'top center', md: 'top center' }}
+        bgPosition="top center"
         bgSize={{ base: 'contain', md: 'cover' }}
         bgRepeat="no-repeat"
         _hover={{
           cursor: 'pointer'
         }}
-      ></Flex>
+      ></Box>
     </NextLink>
   );
 };
 
-export default WCGFY;
+export default WCGYF;
