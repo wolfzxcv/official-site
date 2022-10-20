@@ -23,6 +23,7 @@ export const header: Header = {
   MT4Overview: 'Tổng quan về',
   MT4PCDownload: 'Tải phiên bản',
   MT4APPDownload: 'Tải phần mềm MT4',
+  MT4WebTrader: 'Nhà giao dịch web MT4',
   MAMSystem: 'Hệ thống quản',
   notice: 'Thông báo giao dịch',
   abnormalTrade: 'Giao dịch bất thường',
