@@ -23,6 +23,7 @@ export const header: Header = {
   MT4Overview: 'Tinjauan platform MT4',
   MT4PCDownload: 'Unduhan versi MT4 PC',
   MT4APPDownload: 'Unduhan MT4 APP',
+  MT4WebTrader: 'Pedagang Web MT4',
   MAMSystem: 'Sistem manajemen multi-akun MAM',
   notice: 'Perlu diketahui',
   abnormalTrade: 'Perdagangan Tidak Normal',

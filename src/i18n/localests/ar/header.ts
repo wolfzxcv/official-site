@@ -23,6 +23,7 @@ export const header: Header = {
   MT4Overview: 'نظرة عامة على منصة MT4',
   MT4PCDownload: 'تحميل نسخة MT4 للكمبيوتر الشخصي',
   MT4APPDownload: 'حميل تطبيق MT4',
+  MT4WebTrader: 'MT4 ويب تريدر',
   MAMSystem: 'نظام إدارة الحسابات المتعددة MAM',
   notice: 'إخطار',
   abnormalTrade: 'جارة غير طبيعية',

@@ -23,6 +23,7 @@ export const header: Header = {
   MT4Overview: 'MT4 Overview',
   MT4PCDownload: 'MT4 PC Download',
   MT4APPDownload: 'MT4 APP Download',
+  MT4WebTrader: 'MT4 Web Trader',
   MAMSystem: 'MAM System',
   notice: 'Notice',
   abnormalTrade: 'Abnormal Trade',

@@ -49,6 +49,8 @@ export type Header = {
   MT4PCDownload: string;
   /** MT4 APP download */
   MT4APPDownload: string;
+  /** MT4 Web Trader */
+  MT4WebTrader: string;
   /** MAM system */
   MAMSystem: string;
   /****************************************/

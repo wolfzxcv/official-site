@@ -23,6 +23,7 @@ export const header: Header = {
   MT4Overview: 'MT4 平台概览',
   MT4PCDownload: 'MT4 电脑版下载',
   MT4APPDownload: 'MT4 APP版下载',
+  MT4WebTrader: 'MT4 网页版',
   MAMSystem: 'MAM 多帐号管理系统',
   notice: '交易须知',
   abnormalTrade: '异常交易',
