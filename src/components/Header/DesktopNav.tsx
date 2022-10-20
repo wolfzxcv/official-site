@@ -17,7 +17,7 @@ import {
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 export const PopoverTrigger: React.FC<{ children: React.ReactNode }> =
   OrigPopoverTrigger;
@@ -100,14 +100,34 @@ const DesktopNav = () => {
   );
 };
 
-const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
-  const { t } = useTranslation('header');
+const DesktopSubNav: React.FC<ILinkSource> = ({
+  i18n,
+  href,
+  isExternal = false
+}: ILinkSource) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
-
-  return (
+  return isExternal ? (
+    <DesktopSubNavBase i18n={i18n} href={href} isExternal={isExternal} />
+  ) : (
     <NextLink passHref={true} href={href} locale={currentLang}>
+      <DesktopSubNavBase i18n={i18n} href={href} />
+    </NextLink>
+  );
+};
+
+const DesktopSubNavBase = forwardRef<HTMLAnchorElement, ILinkSource>(
+  ({ i18n, href, isExternal = false, ...rest }: ILinkSource, ref) => {
+    const { t } = useTranslation('header');
+    const router = useRouter();
+    const currentLang = router.locale as Locales;
+
+    return (
       <Link
+        ref={ref}
+        {...rest}
+        href={isExternal ? href : ''}
+        isExternal={isExternal}
         role={'group'}
         display={
           currentLang === 'cn' && i18n === 'cryptocurrencies' ? 'none' : 'block'
@@ -141,8 +161,10 @@ const DesktopSubNav: React.FC<ILinkSource> = ({ i18n, href }: ILinkSource) => {
           </Flex>
         </Stack>
       </Link>
-    </NextLink>
-  );
-};
+    );
+  }
+);
+
+DesktopSubNavBase.displayName = 'DesktopSubNavBase';
 
 export default DesktopNav;

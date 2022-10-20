@@ -36,6 +36,10 @@ export type Header = {
   uSShareCFD: string;
   /** cryptocurrencies */
   cryptocurrencies: string;
+  /** YF product rules */
+  YFProductRules: string;
+  /** KJ product rules */
+  KJProductRules: string;
   /****************************************/
   /** platform */
   platform: string;

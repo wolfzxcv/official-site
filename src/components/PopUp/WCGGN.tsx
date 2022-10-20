@@ -1,6 +1,6 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
-import { Box, Image, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Image, Link, Stack } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import PopUp from './PopUp';
 
@@ -10,13 +10,23 @@ const WCGGN: React.FC<{}> = () => {
 
   return currentLang === 'zh' ? (
     <PopUp
-      title={<Text>喜訊！ WCG Markets已完成收購兩大交易商</Text>}
+      title={
+        <>
+          <Box>喜訊！</Box>
+          <Box>WCG Markets已完成收購兩大交易商</Box>
+        </>
+      }
       content={<WCGGNZh />}
       useBorder={false}
     />
   ) : currentLang === 'cn' ? (
     <PopUp
-      title={<Text>喜讯！ WCG Markets已完成收购两大交易商</Text>}
+      title={
+        <>
+          <Box>喜讯！</Box>
+          <Box>WCG Markets已完成收购两大交易商</Box>
+        </>
+      }
       content={<WCGGNCn />}
       useBorder={false}
     />

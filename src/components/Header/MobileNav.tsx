@@ -1,5 +1,5 @@
 import { links } from '@/assets/links';
-import { IMenuItem, menuList } from '@/assets/menuList';
+import { ILinkSource, IMenuItem, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
@@ -15,6 +15,7 @@ import {
 import { useTranslation } from 'next-i18next';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
+import { forwardRef } from 'react';
 import LinkButton from '../TopLinks/LinkButton';
 
 const MobileNav = () => {
@@ -107,35 +108,60 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
           align={'start'}
         >
           {children &&
-            children.map((child) => (
-              <NextLink
-                passHref={true}
-                key={child.href}
-                href={child.href}
-                locale={currentLang}
-              >
-                <Link
-                  width="100%"
-                  display={
-                    currentLang === 'cn' && child.i18n === 'cryptocurrencies'
-                      ? 'none'
-                      : 'block'
-                  }
-                  py={2}
-                  bgColor={
-                    router.pathname === child.href ? 'red.50' : 'inherit'
-                  }
-                  fontWeight={router.pathname === child.href ? 700 : 500}
-                  color={router.pathname === child.href ? 'red.800' : 'inherit'}
+            children.map((child) =>
+              child.isExternal ? (
+                <MobileNavItemChild child={child} />
+              ) : (
+                <NextLink
+                  passHref={true}
+                  key={child.href}
+                  href={child.href}
+                  locale={currentLang}
                 >
-                  {t(`${child.i18n}`)}
-                </Link>
-              </NextLink>
-            ))}
+                  <MobileNavItemChild child={child} />
+                </NextLink>
+              )
+            )}
         </Stack>
       </Collapse>
     </Stack>
   );
 };
+
+type MobileNavItemChildProps = {
+  child?: ILinkSource;
+};
+
+const MobileNavItemChild = forwardRef<
+  HTMLAnchorElement,
+  MobileNavItemChildProps
+>(({ child, ...rest }: MobileNavItemChildProps, ref) => {
+  const { t } = useTranslation('header');
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  return (
+    <Link
+      ref={ref}
+      {...rest}
+      width="100%"
+      display={
+        currentLang === 'cn' && child.i18n === 'cryptocurrencies'
+          ? 'none'
+          : 'block'
+      }
+      href={child.isExternal ? child.href : ''}
+      isExternal={!!child.isExternal}
+      py={2}
+      bgColor={router.pathname === child.href ? 'red.50' : 'inherit'}
+      fontWeight={router.pathname === child.href ? 700 : 500}
+      color={router.pathname === child.href ? 'red.800' : 'inherit'}
+    >
+      {t(`${child.i18n}`)}
+    </Link>
+  );
+});
+
+MobileNavItemChild.displayName = 'MobileNavItemChild';
 
 export default MobileNav;

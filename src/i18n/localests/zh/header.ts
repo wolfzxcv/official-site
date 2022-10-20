@@ -17,6 +17,8 @@ export const header: Header = {
   index: '指數',
   uSShareCFD: '美股CFD',
   cryptocurrencies: '加密貨幣',
+  YFProductRules: '盈富產品合約細則',
+  KJProductRules: '酷極產品合約細則',
   platform: '交易平台',
   MT4Overview: 'MT4 平台概覽',
   MT4PCDownload: 'MT4 電腦版下載',

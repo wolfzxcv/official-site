@@ -1,6 +1,7 @@
 import { useDisclosure } from '@chakra-ui/hooks';
 import {
   AlertDialogOverlay,
+  Box,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -35,16 +36,15 @@ const PopUp: React.FC<PopUpProps> = ({
     onOpen();
   };
 
-  // const HEADER_SIZE = isDesktop ? '24px' : '20px';
+  let HEADER_SIZE = isDesktop ? '24px' : '20px';
 
-  const longTitle = title.valueOf.length > 30;
-  let closeTop = 0;
-  if (longTitle) {
-    // HEADER_SIZE = isDesktop ? '16px' : '12px';
-    closeTop = 4;
+  const titleIsString = typeof title === 'string';
+
+  const longTitle = titleIsString && title.length > 30;
+
+  if (longTitle || !titleIsString) {
+    HEADER_SIZE = '14px';
   }
-
-  const titleType = typeof title;
 
   return (
     <Modal
@@ -60,18 +60,18 @@ const PopUp: React.FC<PopUpProps> = ({
       <ModalContent>
         <ModalHeader
           fontWeight="bold"
+          fontSize={HEADER_SIZE}
           bg="black"
           color="white"
           textAlign="center"
           py={isDesktop ? 1 : 2}
         >
-          {title}
+          {typeof title === 'string' ? <Box>{title}</Box> : title}
         </ModalHeader>
-
         <ModalCloseButton
           color="white"
           size="lg"
-          top={titleType == 'string' ? closeTop : isDesktop ? 1 : 0}
+          top={!titleIsString || longTitle ? 4 : isDesktop ? 1 : 0}
         />
         <ModalBody p={0} border={useBorder ? '1px' : '0'} borderColor="white">
           {content}
