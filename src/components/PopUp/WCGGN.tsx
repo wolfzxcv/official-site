@@ -1,4 +1,5 @@
 import { links } from '@/assets/links';
+import { HOVER_PARAMS } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { Box, Image, Link, Stack } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
@@ -69,6 +70,26 @@ const WCGGNZh: React.FC<{}> = () => {
 
       <Box>祝身體安康，旗開得勝！</Box>
 
+      <Link
+        _hover={HOVER_PARAMS}
+        color="blue.500"
+        textDecor="underline"
+        href="https://image.wcgmarkets.com/1V6.pdf"
+        isExternal
+      >
+        <Box>盈富客戶激活WCG MARKETS平台步驟</Box>
+      </Link>
+
+      <Link
+        _hover={HOVER_PARAMS}
+        color="blue.500"
+        textDecor="underline"
+        href="https://image.wcgmarkets.com/2V6.pdf"
+        isExternal
+      >
+        <Box>酷極客戶激活WCG MARKETS平台步驟</Box>
+      </Link>
+
       <Box>客戶服務熱線：4001 203 612 / 4008 428 912</Box>
       <Box>
         客戶服務電郵：
@@ -127,6 +148,26 @@ const WCGGNCn: React.FC<{}> = () => {
       </Box>
 
       <Box>祝身体安康，旗开得胜！</Box>
+
+      <Link
+        _hover={HOVER_PARAMS}
+        color="blue.500"
+        textDecor="underline"
+        href="https://image.wcgmarkets.com/1V6.pdf"
+        isExternal
+      >
+        <Box>盈富客户激活WCG MARKETS平台步骤</Box>
+      </Link>
+
+      <Link
+        _hover={HOVER_PARAMS}
+        color="blue.500"
+        textDecor="underline"
+        href="https://image.wcgmarkets.com/2V6.pdf"
+        isExternal
+      >
+        <Box>酷极客户激活WCG MARKETS平台步骤</Box>
+      </Link>
 
       <Box>客户服务热线：4001 203 612 / 4008 428 912</Box>
       <Box>
@@ -196,6 +237,26 @@ const WCGGNEn: React.FC<{}> = () => {
         arrangement, please feel free to contact our customer service
         department.
       </Box>
+
+      <Link
+        _hover={HOVER_PARAMS}
+        color="blue.500"
+        textDecor="underline"
+        href="https://image.wcgmarkets.com/1V6.pdf"
+        isExternal
+      >
+        <Box>How WGG customers active WCG MARKETS&apos;s platform</Box>
+      </Link>
+
+      <Link
+        _hover={HOVER_PARAMS}
+        color="blue.500"
+        textDecor="underline"
+        href="https://image.wcgmarkets.com/2V6.pdf"
+        isExternal
+      >
+        <Box>How KUJI customers active WCG MARKETS&apos;s platform</Box>
+      </Link>
 
       <Box>CS Hotline: 4001 203 612 / 4008 428 912</Box>
       <Box>

@@ -1,4 +1,5 @@
 import { ILinkSource, menuList } from '@/assets/menuList';
+import { TRANSITION } from '@/assets/styleConfig';
 import { Locales } from '@/i18n/config';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import {
@@ -140,7 +141,7 @@ const DesktopSubNavBase = forwardRef<HTMLAnchorElement, ILinkSource>(
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
-              transition={'all .5s ease'}
+              transition={TRANSITION}
               _groupHover={{ color: 'white' }}
               fontWeight={router.pathname === href ? 700 : 500}
               color={router.pathname === href ? 'red.800' : 'inherit'}
