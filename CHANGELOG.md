@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.24.0](http://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.23.2...v1.24.0) (2022-10-25)
+
+
+### Features
+
+* **add wcgyhs:** add WCGYHS activity page,banner and modify Readme ([a09741c](http://git.wcgmarkets.com/Alice_Chou/wcg/commit/a09741cb9898cc5a131650ac2e1506923d1e8fcd))
+
 ### [1.23.2](https://github.com/wolfzxcv/official-site/compare/v1.23.1...v1.23.2) (2022-10-21)
 
 ### [1.23.1](https://github.com/wolfzxcv/official-site/compare/v1.23.0...v1.23.1) (2022-10-21)
