@@ -2,6 +2,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box, Fade, Flex, Icon } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
 import React, { useEffect, useState } from 'react';
+import { flushSync } from 'react-dom';
 
 const ProgressBar = dynamic(() => import('./ProgressBar'), { ssr: false });
 
@@ -29,7 +30,7 @@ const Carousel: React.FC<CarouselProps> = ({
   sliders,
   showArrow = false,
   duration = 0.5,
-  transition = 10,
+  transition = 5,
   type = 'circle'
 }: CarouselProps) => {
   const [index, setIndex] = useState(0);
@@ -46,7 +47,9 @@ const Carousel: React.FC<CarouselProps> = ({
     let id: NodeJS.Timeout | undefined;
     if (isPlay) {
       id = setInterval(() => {
-        handleRightArrowClick();
+        flushSync(() => {
+          handleRightArrowClick();
+        });
       }, transition * 1000);
     }
     return () => {
@@ -56,10 +59,12 @@ const Carousel: React.FC<CarouselProps> = ({
     };
   }, [isPlay]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleSelect = async (dotIndex: number) => {
+  const handleSelect = (dotIndex: number) => {
     setIsPlay(false);
 
-    await setIndex(dotIndex);
+    flushSync(() => {
+      setIndex(dotIndex);
+    });
 
     setIsPlay(true);
   };

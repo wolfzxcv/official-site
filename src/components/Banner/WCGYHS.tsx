@@ -12,7 +12,7 @@ const WCGYHS: React.FC<{}> = () => {
   return (
     <NextLink passHref={true} href="/activity/WCGYHS" locale={currentLang}>
       <Box
-        minH={{ base: '630px', md: '555px' }}
+        minH={{ base: '600px', md: '500px' }}
         bg={WCGYHS_BG}
         bgImage={{
           base: '/../assets/images/activity_WCGYHS_M.jpg',

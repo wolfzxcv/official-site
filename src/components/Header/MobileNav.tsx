@@ -65,12 +65,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
 
   return (
     <Stack spacing={4} onClick={children && onToggle}>
-      <NextLink
-        passHref={true}
-        key={href}
-        href={href ?? '#'}
-        locale={currentLang}
-      >
+      <NextLink passHref={true} href={href ?? '#'} locale={currentLang}>
         <Flex
           py={2}
           as={Link}
@@ -110,7 +105,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
           {children &&
             children.map((child) =>
               child.isExternal ? (
-                <MobileNavItemChild child={child} />
+                <MobileNavItemChild key={child.href} child={child} />
               ) : (
                 <NextLink
                   passHref={true}
