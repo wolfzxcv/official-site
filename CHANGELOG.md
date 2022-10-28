@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.25.0](https://github.com/wolfzxcv/official-site/compare/v1.23.2...v1.25.0) (2022-10-28)
+
+
+### Features
+
+* **add wcgyhs:** add WCGYHS activity page,banner and modify Readme ([a09741c](https://github.com/wolfzxcv/official-site/commit/a09741cb9898cc5a131650ac2e1506923d1e8fcd))
+
+
+### Bug Fixes
+
+* **carousel, mobilenavitem, wcgyhs:** modify func in Carousel, add key in MobileNavItem, modify css ([3f9b448](https://github.com/wolfzxcv/official-site/commit/3f9b44861a3f5b7d25361323555973d379a39b4a))
+
 ## [1.24.0](http://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.23.2...v1.24.0) (2022-10-25)
 
 
