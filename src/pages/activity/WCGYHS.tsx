@@ -2,7 +2,7 @@ import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
 import { openChatWindow } from '@/utils';
-import { Box, Flex, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Link, Stack } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import React from 'react';
 
@@ -57,17 +57,15 @@ const WCGYHSContent: React.FC<{}> = () => (
     {/* table */}
     <WCGYHSTable />
 
-    <Stack
+    <Box
       width={{ base: '350px', md: '800px' }}
       maxW="800px"
       my={5}
       textAlign="center"
-      fontSize={{ base: '16px', md: '18px' }}
+      fontSize={{ base: '12px', md: '18px' }}
     >
-      <Text>
-        例子：A客户11月份首次入金6,000美元，48小时内再入金4,000美元即达10000美元层级所以有10000美元待领赠金。在活动结算前完成了3000手，每手回赠5美元，但1万累计入金层级只有待领赠金10,000，因此整个活动A共得10,000回赠并在活动完结之后自动转变成现金可自由取出。
-      </Text>
-    </Stack>
+      例子：A客户11月份首次入金6,000美元，48小时内再入金4,000美元即达10000美元层级所以有10000美元待领赠金。在活动结算前完成了3000手，每手回赠5美元，但1万累计入金层级只有待领赠金10,000，因此整个活动A共得10,000回赠并在活动完结之后自动转变成现金可自由取出。
+    </Box>
 
     <Flex
       justify="center"
@@ -81,16 +79,18 @@ const WCGYHSContent: React.FC<{}> = () => (
       <Link
         width="30vw"
         maxW="200px"
+        textAlign="center"
         mx={2}
-        py={2}
+        py={3}
         bg={WCGYHS_TITLE_BOX_BG}
         border="1px"
         borderColor="white"
         borderRadius="5px"
-        fontWeight={900}
-        lineHeight={1}
+        fontWeight={700}
+        fontSize="24px"
+        lineHeight="42px"
         _hover={{
-          opacity: 0.6,
+          opacity: 0.8,
           transition: '1s'
         }}
         href="/"
@@ -101,14 +101,16 @@ const WCGYHSContent: React.FC<{}> = () => (
       <Link
         width="30vw"
         maxW="200px"
+        textAlign="center"
         mx={2}
-        py={2}
+        py={3}
         bg={WCGYHS_TITLE_BOX_BG}
         border="1px"
         borderColor="white"
         borderRadius="5px"
-        fontWeight={900}
-        lineHeight={1}
+        fontWeight={700}
+        fontSize="24px"
+        lineHeight="42px"
         _hover={{
           opacity: 0.8,
           transition: '1s'
@@ -121,19 +123,19 @@ const WCGYHSContent: React.FC<{}> = () => (
       <Box
         width="30vw"
         maxW="200px"
+        textAlign="center"
         mx={2}
-        py={2}
+        py={3}
         bg={WCGYHS_TITLE_BOX_BG}
         border="1px"
         borderColor="white"
         borderRadius="5px"
-        fontWeight={900}
-        alignItems="center"
-        lineHeight={1}
+        fontWeight={700}
+        fontSize="24px"
+        lineHeight="42px"
         _hover={{
-          opacity: 0.6,
-          transition: '1s',
-          cursor: 'pointer'
+          opacity: 0.8,
+          transition: '1s'
         }}
         onClick={openChatWindow}
       >
@@ -170,7 +172,7 @@ export const WCGYHSTitle: React.FC<{}> = () => (
       my={5}
       px={5}
       py={3}
-      fontSize={{ base: '16px', md: 'inherit' }}
+      fontSize={{ base: '12px', md: 'inherit' }}
     >
       客户11月内存入金额最低2000美元和交易量达4手起,
       即自动参加超级优惠不止双11活动!!!
@@ -178,7 +180,7 @@ export const WCGYHSTitle: React.FC<{}> = () => (
 
     <Box
       width={{ base: '90vw', md: '760px' }}
-      fontSize={{ base: '16px', md: '18px' }}
+      fontSize={{ base: '12px', md: '18px' }}
     >
       客户在活动期间存入2000美元或以上和交易量达4手，即自动参加本活动，客户11月内首次存入任何金额的48小时内累计达要求，即可按层级拥有待领赠金。每手交易每逄周一结算返回5美元(信用额)直到完结待领赠金或整个活动完结，已发放的回赠会自动转变成现金可自由取出。
     </Box>
@@ -186,7 +188,11 @@ export const WCGYHSTitle: React.FC<{}> = () => (
 );
 
 const WCGYHSTable: React.FC<{}> = () => (
-  <Box width={{ base: '90vw', md: '800px' }} my={8}>
+  <Box
+    width={{ base: '90vw', md: '800px' }}
+    my={8}
+    fontSize={{ base: '12px', md: '18px' }}
+  >
     <StyledWCGYHSTable>
       <thead>
         <tr>
@@ -232,6 +238,7 @@ const StyledWCGYHSTable = styled.table`
     background-color: ${WCGYHS_TITLE_BOX_BG};
     color: white;
     text-align: center;
+    white-space: nowrap;
   }
 
   th {
