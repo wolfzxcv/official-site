@@ -1,5 +1,8 @@
+import { Locales } from '@/i18n/config';
 import { Box } from '@chakra-ui/react';
-import Link from 'next/link';
+import NextLink from 'next/link';
+import { useRouter } from 'next/router';
+
 import React from 'react';
 
 type CopyrightLinksProps = {
@@ -11,6 +14,9 @@ const CopyrightLinks: React.FC<CopyrightLinksProps> = ({
   text,
   href
 }: CopyrightLinksProps) => {
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
   return (
     <Box
       mx={1}
@@ -19,7 +25,9 @@ const CopyrightLinks: React.FC<CopyrightLinksProps> = ({
         color: 'gray.700'
       }}
     >
-      <Link href={href}>{text}</Link>
+      <NextLink passHref={true} href={href} locale={currentLang}>
+        {text}
+      </NextLink>
     </Box>
   );
 };

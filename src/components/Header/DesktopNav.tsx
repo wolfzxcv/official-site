@@ -46,7 +46,7 @@ const DesktopNav = () => {
                     href={each.href ?? '#'}
                     locale={currentLang}
                   >
-                    <Link
+                    <Text
                       p={1}
                       fontSize={'md'}
                       fontWeight={600}
@@ -58,7 +58,7 @@ const DesktopNav = () => {
                       }}
                     >
                       {t(each.i18n)}
-                    </Link>
+                    </Text>
                   </NextLink>
                 ) : (
                   <Text
