@@ -161,6 +161,7 @@
   - [WCGYF](http://newwcg.012wenchuan.com/activity/WCGYF)
   - [WCGKJ](http://newwcg.012wenchuan.com/activity/WCGKJ)
   - [WCGYHS](http://newwcg.012wenchuan.com/activity/WCGYHS)
+  - [WCGZKZJ](http://newwcg.012wenchuan.com/activity/WCGZKZJ)
 
 - 新活動改放在首頁 banner
 
