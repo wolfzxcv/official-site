@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
 import { openChatWindow } from '@/utils';
@@ -127,7 +126,7 @@ const WCGZKZJContent: React.FC<{}> = () => (
           opacity: 0.8,
           transition: '1s'
         }}
-        href={links.userCenterZH}
+        href="https://my.wcgmarkets-global.com/zh/register?referral=8ec170e9f1c2276d591d3864ae2e20a3"
         isExternal
       >
         立即开户
