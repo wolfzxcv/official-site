@@ -1,9 +1,7 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGKJ from '@/components/Banner/WCGKJ';
-import WCGYF from '@/components/Banner/WCGYF';
-import WCGYHS from '@/components/Banner/WCGYHS';
+import WCGDRJ from '@/components/Banner/WCGDRJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -34,10 +32,7 @@ const Index: React.FC<{}> = () => {
 
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
   const sliders = [
-    <WCGYHS key="WCGYHS" />,
-    <WCGYF key="WCGYF" />,
-    <WCGKJ key="WCGKJ" />,
-
+    <WCGDRJ key="WCGDRJ" />,
     <WCGDC key="WCGDC" />,
     <Banner key="Banner" />
   ];
