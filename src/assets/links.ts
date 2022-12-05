@@ -1,4 +1,5 @@
 export const links = {
+  majkf: 'https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&accountid=135464',
   liveChat: 'https://direct.lc.chat/11929440/',
   whatsApp: 'https://api.whatsapp.com/message/2CCAPQTYUPV6P1',
   line: 'https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',

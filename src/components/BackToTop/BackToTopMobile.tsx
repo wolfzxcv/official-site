@@ -4,6 +4,7 @@ import { scrollToTop } from '@/utils';
 import {
   Box,
   Flex,
+  Image,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -75,7 +76,21 @@ const BackToTopMobile: React.FC<{}> = () => {
           <ModalBody pb={6}>
             <Flex color="white" justify="space-around">
               <MobileBaseButton
-                label={t('online')}
+                bg="twitter.500"
+                label={t('Miduoke')}
+                href={links.majkf}
+                icon={
+                  <Image
+                    width="30px"
+                    height="30px"
+                    src="/../assets/images/majkf.svg"
+                    alt="majkf"
+                  />
+                }
+              />
+
+              <MobileBaseButton
+                label={t('LiveChat')}
                 href={links.liveChat}
                 icon={<AiOutlineMessage fontSize="36px" />}
               />

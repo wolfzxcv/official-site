@@ -14,8 +14,10 @@ export type Common = {
   contactUs: string;
   /** telegram */
   telegram: string;
-  /** online */
-  online: string;
+  /** Miduoke */
+  Miduoke: string;
+  /** LiveChat */
+  LiveChat: string;
   /** whatsApp */
   whatsApp: string;
   /** line */

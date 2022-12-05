@@ -1,7 +1,7 @@
 import { links } from '@/assets/links';
 import { Locales } from '@/i18n/config';
 import { scrollToTop } from '@/utils';
-import { Box, Flex, Tooltip } from '@chakra-ui/react';
+import { Box, Flex, Image, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -24,7 +24,20 @@ const BackToTopDesktop: React.FC<{}> = () => {
     <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
       <Flex direction={'column'} color="white">
         <DesktopBaseButton
-          label={t('online')}
+          label={t('Miduoke')}
+          href={links.majkf}
+          icon={
+            <Image
+              width="30px"
+              height="30px"
+              src="/../assets/images/majkf.svg"
+              alt="majkf"
+            />
+          }
+        />
+
+        <DesktopBaseButton
+          label={t('LiveChat')}
           href={links.liveChat}
           icon={<AiOutlineMessage fontSize="32px" />}
         />
@@ -38,7 +51,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
         <DesktopBaseButton
           label={t('line')}
           href={links.line}
-          icon={<FaLine fontSize="32px" />}
+          icon={<FaLine fontSize="30px" />}
         />
 
         <DesktopBaseButton
@@ -50,7 +63,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
         <DesktopBaseButton
           label={t('clientPortal')}
           href={links.register}
-          icon={<BsPencilSquare fontSize="32px" />}
+          icon={<BsPencilSquare fontSize="30px" />}
         />
 
         <DesktopBaseButton
