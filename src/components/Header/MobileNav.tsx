@@ -3,6 +3,7 @@ import { ILinkSource, IMenuItem, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
+  Box,
   Collapse,
   Flex,
   Icon,
@@ -68,7 +69,6 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
       <NextLink passHref={true} href={href ?? '#'} locale={currentLang}>
         <Flex
           py={2}
-          as={Link}
           justify={'space-between'}
           align={'center'}
           _hover={{
@@ -105,7 +105,28 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
           {children &&
             children.map((child) =>
               child.isExternal ? (
-                <MobileNavItemChild key={child.href} child={child} />
+                <Link
+                  width="100%"
+                  display={
+                    currentLang === 'cn' && child.i18n === 'cryptocurrencies'
+                      ? 'none'
+                      : 'block'
+                  }
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                  key={child.i18n}
+                  href={child.isExternal ? child.href : ''}
+                  isExternal={!!child.isExternal}
+                  py={2}
+                  bgColor={
+                    router.pathname === child.href ? 'red.50' : 'inherit'
+                  }
+                  fontWeight={router.pathname === child.href ? 700 : 500}
+                  color={router.pathname === child.href ? 'red.800' : 'inherit'}
+                >
+                  {t(`${child.i18n}`)}
+                </Link>
               ) : (
                 <NextLink
                   passHref={true}
@@ -113,7 +134,24 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
                   href={child.href}
                   locale={currentLang}
                 >
-                  <MobileNavItemChild child={child} />
+                  <Box
+                    width="100%"
+                    display={
+                      currentLang === 'cn' && child.i18n === 'cryptocurrencies'
+                        ? 'none'
+                        : 'block'
+                    }
+                    py={2}
+                    bgColor={
+                      router.pathname === child.href ? 'red.50' : 'inherit'
+                    }
+                    fontWeight={router.pathname === child.href ? 700 : 500}
+                    color={
+                      router.pathname === child.href ? 'red.800' : 'inherit'
+                    }
+                  >
+                    {t(`${child.i18n}`)}
+                  </Box>
                 </NextLink>
               )
             )}

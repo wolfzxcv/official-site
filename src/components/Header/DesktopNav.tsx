@@ -109,26 +109,23 @@ const DesktopSubNav: React.FC<ILinkSource> = ({
   const router = useRouter();
   const currentLang = router.locale as Locales;
   return isExternal ? (
-    <DesktopSubNavBase i18n={i18n} href={href} isExternal={isExternal} />
+    <Link
+      href={isExternal ? href : ''}
+      isExternal={isExternal}
+      role={'group'}
+      display={
+        currentLang === 'cn' && i18n === 'cryptocurrencies' ? 'none' : 'block'
+      }
+      p={2}
+      rounded={'md'}
+      bgColor={router.pathname === href ? 'red.50' : 'inherit'}
+      _hover={{ bg: useColorModeValue('#b81c22', 'gray.900') }}
+    >
+      <DesktopSubNavBase i18n={i18n} href={href} />{' '}
+    </Link>
   ) : (
     <NextLink passHref={true} href={href} locale={currentLang}>
-      <DesktopSubNavBase i18n={i18n} href={href} />
-    </NextLink>
-  );
-};
-
-const DesktopSubNavBase = forwardRef<HTMLAnchorElement, ILinkSource>(
-  ({ i18n, href, isExternal = false, ...rest }: ILinkSource, ref) => {
-    const { t } = useTranslation('header');
-    const router = useRouter();
-    const currentLang = router.locale as Locales;
-
-    return (
-      <Link
-        ref={ref}
-        {...rest}
-        href={isExternal ? href : ''}
-        isExternal={isExternal}
+      <Box
         role={'group'}
         display={
           currentLang === 'cn' && i18n === 'cryptocurrencies' ? 'none' : 'block'
@@ -138,30 +135,41 @@ const DesktopSubNavBase = forwardRef<HTMLAnchorElement, ILinkSource>(
         bgColor={router.pathname === href ? 'red.50' : 'inherit'}
         _hover={{ bg: useColorModeValue('#b81c22', 'gray.900') }}
       >
-        <Stack direction={'row'} align={'center'}>
-          <Box>
-            <Text
-              transition={TRANSITION}
-              _groupHover={{ color: 'white' }}
-              fontWeight={router.pathname === href ? 700 : 500}
-              color={router.pathname === href ? 'red.800' : 'inherit'}
-            >
-              {t(i18n)}
-            </Text>
-          </Box>
-          <Flex
-            transition={'all .3s ease'}
-            transform={'translateX(-10px)'}
-            opacity={0}
-            _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
-            justify={'flex-end'}
-            align={'center'}
-            flex={1}
+        <DesktopSubNavBase i18n={i18n} href={href} />
+      </Box>
+    </NextLink>
+  );
+};
+
+const DesktopSubNavBase = forwardRef<HTMLDivElement, ILinkSource>(
+  ({ i18n, href, ...rest }: ILinkSource, ref) => {
+    const { t } = useTranslation('header');
+    const router = useRouter();
+
+    return (
+      <Stack ref={ref} {...rest} direction={'row'} align={'center'}>
+        <Box>
+          <Text
+            transition={TRANSITION}
+            _groupHover={{ color: 'white' }}
+            fontWeight={router.pathname === href ? 700 : 500}
+            color={router.pathname === href ? 'red.800' : 'inherit'}
           >
-            <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} />
-          </Flex>
-        </Stack>
-      </Link>
+            {t(i18n)}
+          </Text>
+        </Box>
+        <Flex
+          transition={'all .3s ease'}
+          transform={'translateX(-10px)'}
+          opacity={0}
+          _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
+          justify={'flex-end'}
+          align={'center'}
+          flex={1}
+        >
+          <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} />
+        </Flex>
+      </Stack>
     );
   }
 );
