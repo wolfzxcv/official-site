@@ -17,7 +17,11 @@ import {
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import React from 'react';
-import { AiOutlineCloudDownload, AiOutlineWhatsApp } from 'react-icons/ai';
+import {
+  AiOutlineCloudDownload,
+  AiOutlineMessage,
+  AiOutlineWhatsApp
+} from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
@@ -79,8 +83,8 @@ const BackToTopMobile: React.FC<{}> = () => {
                   <Image
                     width="30px"
                     height="30px"
-                    src="/../assets/images/majkf.svg"
-                    alt="majkf"
+                    src="/../assets/images/Miduoke.svg"
+                    alt="Miduoke"
                   />
                 }
               />
@@ -88,14 +92,7 @@ const BackToTopMobile: React.FC<{}> = () => {
               <MobileBaseButton
                 label={t('LiveChat')}
                 href={links.liveChat}
-                icon={
-                  <Image
-                    width="30px"
-                    height="30px"
-                    src="/../assets/images/livechat.svg"
-                    alt="livechat"
-                  />
-                }
+                icon={<AiOutlineMessage fontSize="32px" />}
               />
 
               <MobileBaseButton
