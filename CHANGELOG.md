@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.27.5](https://github.com/wolfzxcv/official-site/compare/v1.27.4...v1.27.5) (2022-12-07)
+
+
+### Bug Fixes
+
+* **many:** change livechat icon, fix validateDOMNesting ([caaa118](https://github.com/wolfzxcv/official-site/commit/caaa118077e893d5f0db772c10f462ae02b23dea))
+
 ### [1.27.4](https://github.com/wolfzxcv/official-site/compare/v1.27.3...v1.27.4) (2022-12-05)
 
 ### [1.27.3](https://github.com/wolfzxcv/official-site/compare/v1.27.2...v1.27.3) (2022-11-30)
