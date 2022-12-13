@@ -4,11 +4,11 @@ export const regionalRepresentative: RegionalRepresentative = {
   regionalRepresentative: 'Wakil daerah',
   thisIsAUnique:
     'Ini adalah peluang unik bagi orang yang ingin mengembangkan perniagaan mereka di dalam negara. Membuka pejabat wilayah WCG akan menjadi pilihan kerjasama peringkat lebih tinggi. Uruskan syarikat agensi anda sendiri di kawasan anda untuk memperoleh pendapatan yang stabil dan pada masa yang sama memberi anda syarat dan teknologi perdagangan terbaik dalam industri dengan kelebihan daya saing kami.',
-  representativeApplcation: 'Permohonan wakil',
+  representativeApplication: 'Permohonan wakil',
   doNotMiss: 'Jangan lepaskan peluang ini!',
   setYourOwn:
     'Tetapkan model perniagaan anda sendiri dengan bebas, rancangan pemasaran anda, atur seminar, webinar dan aktiviti yang bermanfaat atau berkaitan dengan keperluan pasaran tertentu. Kami akan membantu anda memperoleh asas yang stabil dan kukuh di pasaran tempatan anda.',
-  brandsThatSahre: 'Jenama yang mempunyai reputasi global',
+  brandsThatShare: 'Jenama yang mempunyai reputasi global',
   theSupportWe:
     'Sokongan yang kami berikan kepada pejabat daerah merangkumi tetapi tidak terbatas pada memenuhi semua keperluan untuk pengembangan perniagaan tempatan. WCG menyediakan perkhidmatan perundingan, bahan promosi dan anggaran pemasaran, serta hubungan langsung dengan pelanggan untuk mendapatkan sokongan yang lebih cepat dan tepat. Kami memberikan bantuan kepada wakil daerah dalam semua hal teknikal, pelaksanaan dan penyatuan perkhidmatan tempatan (seperti sistem pembayaran yang paling popular di rantau ini) untuk membantu mengoptimumkan prestasi perniagaan mereka.',
   soleRegional: 'Wakil wilayah tunggal',

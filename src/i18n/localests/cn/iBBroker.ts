@@ -2,9 +2,9 @@ import { IBBroker } from '../@types/iBBroker';
 
 export const iBBroker: IBBroker = {
   introducingBroker: '代理商（IB）',
-  wCGsIBPlanIsPeopleOriented:
+  WCGsIBPlanIsPeopleOriented:
     'WCG的代理商计划以人为本，不论您是个人或拥有数十甚至数百名员工的公司，我们都了解到您的业务成长所需。我们的代理商计划供多种返佣选项、灵活弹性的代理后台、专业的经理团队，随时准备为您和您的客户提供贴心细致的服务。',
-  iBApplication: '申请代理',
+  IBApplication: '申请代理',
   exclusiveIBPlan: '专属代理企划',
   whetherYouAreATrading:
     '无论您是交易教育工作者、信号提供者、市场营销人员，还是能提供其他附加价值给交易者的人员，我们都能为您提供解决方案。',
@@ -18,7 +18,7 @@ export const iBBroker: IBBroker = {
   asTheAgentOfWCG:
     '作为WCG的代理人，您介绍的客户会受到最好的服务待遇。我们保证客户信息加载的全过程，从开户到安全快速的入金都会得到充分的照顾。让您完全无后顾之忧，全身心投入到推荐客户中。',
   excellentAgencyExperience: '出色的代理体验',
-  weTreatYouAsOurVvip:
+  weTreatYouAsOurVip:
     '我们以您为中心、直观并优化的代理体验，为您提供一系列范围广泛的定制产品和服务以满足您的需求。',
   efficientAndInstant: '高效即时返佣系统',
   accordingToTheTransaction:
@@ -35,7 +35,7 @@ export const iBBroker: IBBroker = {
   getCustomerTransaction: '随时获取客户交易报告和收入报表、交易量等统计数据。',
   howMuchCanIProfit: '我能获利多少?',
   accountTypeOfYourClient: '您客户的帐户类型',
-  yourVlientSTransactionVolume: '您客户的交易量',
+  yourClientsTransactionVolume: '您客户的交易量',
   commissionPerLot: '每一手佣金',
   yourTotalCommission: '您的佣金总数',
   earnCommissionsInstantly: '立即轻松赚取佣金',

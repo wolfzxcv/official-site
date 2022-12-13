@@ -37,5 +37,5 @@ export const whiteLabelCooperation: WhiteLabelCooperation = {
   customerSupport: 'Sokongan pengguna',
   provideDevelopment: 'Berikan sokongan pembangunan untuk',
   achieveBrandIntegration: 'mencapai tujuan penyatuan jenama',
-  applyforWhite: 'Memohon white label cooperation'
+  applyForWhite: 'Memohon white label cooperation'
 };

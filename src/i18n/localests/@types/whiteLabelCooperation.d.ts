@@ -57,5 +57,5 @@ export type WhiteLabelCooperation = {
   /** achieve brand integration */
   achieveBrandIntegration: string;
   /** Apply for white  */
-  applyforWhite: string;
+  applyForWhite: string;
 };

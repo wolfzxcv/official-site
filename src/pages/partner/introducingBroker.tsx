@@ -47,8 +47,8 @@ const introducingBroker: React.FC<{}> = () => {
             <InfoTitle title={t('introducingBroker')} />
           </Flex>
 
-          <Text my={10}>{t('wCGsIBPlanIsPeopleOriented')}</Text>
-          <InfoButtonBase text={t('iBApplication')} onClick={openChatWindow} />
+          <Text my={10}>{t('WCGsIBPlanIsPeopleOriented')}</Text>
+          <InfoButtonBase text={t('IBApplication')} onClick={openChatWindow} />
         </Box>
         <Image
           src="/../assets/images/introducingBroker_banner.png"
@@ -180,7 +180,7 @@ const introducingBroker: React.FC<{}> = () => {
           my={16}
         >
           <InfoTitle title={t('excellentAgencyExperience')} />
-          <Text>{t('weTreatYouAsOurVvip')}</Text>
+          <Text>{t('weTreatYouAsOurVip')}</Text>
         </Box>
         <Flex
           px={8}

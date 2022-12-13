@@ -228,7 +228,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           />
         </Flex>
         <Box>
-          <InfoButtonBase text={t('applyforWhite')} onClick={openChatWindow} />
+          <InfoButtonBase text={t('applyForWhite')} onClick={openChatWindow} />
         </Box>
       </Flex>
     </Wrapper>

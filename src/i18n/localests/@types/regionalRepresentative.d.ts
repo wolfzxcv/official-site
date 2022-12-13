@@ -6,14 +6,14 @@ export type RegionalRepresentative = {
   regionalRepresentative: string;
   /** This is a unique */
   thisIsAUnique: string;
-  /**Representative applcation  */
-  representativeApplcation: string;
+  /**Representative application  */
+  representativeApplication: string;
   /** Do not miss */
   doNotMiss: string;
   /** Set your own */
   setYourOwn: string;
   /** Brands that share */
-  brandsThatSahre: string;
+  brandsThatShare: string;
   /** The support we */
   theSupportWe: string;
   /** Sole regional  */

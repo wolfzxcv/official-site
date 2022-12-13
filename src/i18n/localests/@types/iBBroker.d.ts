@@ -4,9 +4,9 @@ export type IBBroker = {
   /* Introducing Broker */
   introducingBroker: string;
   /* WCG's IB plan is people-oriented */
-  wCGsIBPlanIsPeopleOriented: string;
+  WCGsIBPlanIsPeopleOriented: string;
   /* IB Application */
-  iBApplication: string;
+  IBApplication: string;
   /* Exclusive IB plan */
   exclusiveIBPlan: string;
   /* Whether you are a trading */
@@ -26,7 +26,7 @@ export type IBBroker = {
   /* Excellent agency experience */
   excellentAgencyExperience: string;
   /* We treat you as our vvip */
-  weTreatYouAsOurVvip: string;
+  weTreatYouAsOurVip: string;
   /* Efficient and instant */
   efficientAndInstant: string;
   /* According to the transaction */
@@ -56,7 +56,7 @@ export type IBBroker = {
   /* Account type of your client */
   accountTypeOfYourClient: string;
   /* Your client's transaction volume */
-  yourVlientSTransactionVolume: string;
+  yourClientsTransactionVolume: string;
   /* Commission per lot */
   commissionPerLot: string;
   /* Your total commission */

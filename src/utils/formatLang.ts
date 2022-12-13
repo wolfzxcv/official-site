@@ -19,6 +19,9 @@ export const formatLang = (lang, escapeLang = undefined) => {
     case 'ms':
       output = 'ms-MY';
       break;
+    case 'th':
+      output = 'th';
+      break;
     case 'ar':
       output = 'ar';
       break;

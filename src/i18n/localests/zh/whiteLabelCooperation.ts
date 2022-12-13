@@ -36,5 +36,5 @@ export const whiteLabelCooperation: WhiteLabelCooperation = {
   customerSupport: '客戶支援',
   provideDevelopment: '提供開發支援',
   achieveBrandIntegration: '實現品牌整合',
-  applyforWhite: '申請白標合作'
+  applyForWhite: '申請白標合作'
 };

@@ -48,7 +48,7 @@ const regionalRepresentative: React.FC<{}> = () => {
 
           <Text my={10}>{t('thisIsAUnique')}</Text>
           <InfoButtonBase
-            text={t('representativeApplcation')}
+            text={t('representativeApplication')}
             onClick={openChatWindow}
           />
         </Box>
@@ -97,7 +97,7 @@ const regionalRepresentative: React.FC<{}> = () => {
             py={8}
             px={{ base: 0, lg: 8 }}
           >
-            <InfoTitle title={t('brandsThatSahre')} size="20px" />
+            <InfoTitle title={t('brandsThatShare')} size="20px" />
             <Text mb={5}>{t('theSupportWe')}</Text>
           </Flex>
         </Flex>

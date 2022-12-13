@@ -36,9 +36,6 @@ export const advancedTrading: AdvancedTrading = {
     '辨別趨勢的工具有很多，幾乎所有的技術分析都會涉及到趨勢的判斷。在本篇中，我們先介紹如何在圖表中繪制趨勢線、支持/阻力線，以及趨勢是否結束的一般法則。',
   noteThatAlthough:
     '註意，分鐘圖盡管有時候也能反映一些趨勢，但我們仍然建議您在較為長線的圖表上使用技術分析工具，因為長線圖表的價格資料較為全面，在統計學上更為可靠。例如，小時圖上的價格資料比分鐘圖更可靠，日線圖上的價格資料比小時圖更可靠。',
-  seniorClassD: 'senior-class-content-four-d',
-  seniorClassE: 'senior-class-content-four-e',
-  seniorClassF: 'senior-class-content-four-f',
   trendLines: '趨勢線、支撐線和阻力線',
   aTrendLine:
     '趨勢線是一條顯示貨幣對趨勢的直線，由兩個或以上的價格連接而成。在上漲市場中，趨勢線是一條支撐線；在下跌市場中，趨勢線是一條阻力線。',

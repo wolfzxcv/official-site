@@ -38,10 +38,7 @@ export const advancedTrading: AdvancedTrading = {
     'Terdapat banyak alat untuk mengenal pasti trend dan hampir semua teknikal analisis melibatkan penilaian trend. Dalam artikel ini, pertama kita akan memperkenalkan cara menggambar garis trend, garis sokongan/rintangan dalam carta dan peraturan umum menilai arah aliran sudah berakhir.',
   noteThatAlthough:
     'Perhatikan bahawa walaupun carta minit kadang-kadang dapat menggambarkan beberapa trend, kami tetap mengesyorkan agar anda menggunakan alat teknikal analisis pada carta jangka panjang, kerana maklumat harga pada carta jangka panjang lebih komprehensif dan lebih dipercayai secara statistik. Sebagai contoh, data harga pada carta setiap jam lebih dipercayai daripada carta minit dan data harga pada carta harian lebih dipercayai daripada yang dicatat setiap jam.',
-  seniorClassD: 'senior-class-content-four-d',
-  seniorClassE: 'senior-class-content-four-e',
-  seniorClassF: 'senior-class-content-four-f',
-  trendLines: 'Garis trend、garis sokongan dan garis rintangan',
+  trendLines: 'Garis trend, garis sokongan dan garis rintangan',
   aTrendLine:
     'Garis trend adalah garis lurus yang menunjukkan arah aliran pasangan mata wang, yang terbentuk dengan menghubungkan dua atau lebih harga. Dalam pasaran yang sedang meningkat, garis trend adalah garis sokongan; dalam pasaran yang jatuh, garis trend adalah garis rintangan.',
   aSupportLine:

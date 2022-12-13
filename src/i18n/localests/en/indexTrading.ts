@@ -3,14 +3,14 @@ import { IndexTrading } from '../@types/indexTrading';
 export const indexTrading: IndexTrading = {
   indexTrading: 'Index trading',
   indexAlsoKnownAs:
-    "Index, also known as ‘stock index’, is a measure of the value of a specific set of companies, and is usually used to evaluate the economic performance of a certain industry, region or country. CFDs are contracts for difference, so you don't need to own physical products, but you can also trade for product price differences. In general, index CFDs are a way for investors to allow them to trade the index without having to own the relevant shares or the index itself.",
+    "Index, also known as 'stock index', is a measure of the value of a specific set of companies, and is usually used to evaluate the economic performance of a certain industry, region or country. CFDs are contracts for difference, so you don't need to own physical products, but you can also trade for product price differences. In general, index CFDs are a way for investors to allow them to trade the index without having to own the relevant shares or the index itself.",
   viewTradingProducts: 'View Trading Products',
   theBasisOfTradingIndexes: 'The basis of trading indexes',
   indexesAllowUs:
     'Indexes allow us to study the performance of market sectors to better identify investment opportunities and market fluctuations. Since the index tracks many publicly traded stocks, traders can track the index to understand the general changes in the market and formulate corresponding investment strategies. The price calculation methods it uses can be divided into two categories.',
   marketValueWeightedIndex: 'Market value weighted index',
   TheMarketValueWeightedIndex:
-    'The market weighted index is calculated based on the total market value of its constituent companies. This means that the larger the company’s market value, the greater the impact on index prices. This is the most commonly used index compilation method. The UK FTSE Index and the German DAX Index are typical representatives.',
+    "The market weighted index is calculated based on the total market value of its constituent companies. This means that the larger the company's market value, the greater the impact on index prices. This is the most commonly used index compilation method. The UK FTSE Index and the German DAX Index are typical representatives.",
   priceWeightedIndex: 'Price-weighted index',
   thisTypeOfIndex:
     'This type of index is based on the arithmetic average of the stock prices of all component companies, which means that the calculation of the index is related to the base period and current stock prices, and has nothing to do with market value. In this case, the higher the stock price of the constituent stocks, the greater the influence on the overall price of the index.',
@@ -25,7 +25,7 @@ export const indexTrading: IndexTrading = {
     'Stocks from 30 companies in nine core industries. A unique feature of the index is that it is a price-weighted average, so its rise and fall are often used as an indicator of global risk sentiment.',
   NASDAQ: 'Nasdaq Index (NASDAQ)',
   americasMostFamous:
-    "America's most famous technology industry representative index. Although it also includes some other industries, it still attracts investors’ attention with technology companies such as Apple, Facebook, and Google.",
+    "America's most famous technology industry representative index. Although it also includes some other industries, it still attracts investors' attention with technology companies such as Apple, Facebook, and Google.",
   UK100: 'The UK FTSE 100 Index (UK100)',
   itContainsSomeLargeCompanies:
     'It contains some large companies that are regulated by UK company law, but not all constituent stocks are established in the UK. The price of the index is calculated in real time. When the market opens, the price is calculated and updated in seconds.',

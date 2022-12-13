@@ -43,7 +43,7 @@ export const cryptocurrencies: Cryptocurrencies = {
   HighPointInTheSpring:
     'High point in the spring of 2013: The first burst of Bitcoin price occurred from March to April 2013, when its price soared from $30 to $230. One possible reason for this rise is that the banking industry in Cyprus is dangerous. At that time, large deposits exceeding a certain amount may be directly confiscated by the bank, and Bitcoin is completely immune to such incidents.',
   riseInNovember:
-    'Rise in November 2013: Due to increased demand from China and the US Senate’s interest in Bitcoin, the price of Bitcoin rose to $1,000.',
+    "Rise in November 2013: Due to increased demand from China and the US Senate's interest in Bitcoin, the price of Bitcoin rose to $1,000.",
   lowPointInJanuary:
     'Low point in January 2015: Due to the restrictions of the Chinese government and the arrest of the founder of Silk Road, an online drug trading platform, the price of Bitcoin dropped sharply.',
   highPoint: '2017 high point: The price of Bitcoin broke above $10,000.',

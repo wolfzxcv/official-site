@@ -36,5 +36,5 @@ export const whiteLabelCooperation: WhiteLabelCooperation = {
   customerSupport: 'دعم العملاء',
   provideDevelopment: 'لتحقيق غرض تكامل العلامة التجارية',
   achieveBrandIntegration: 'تقديم الدعم التنموي',
-  applyforWhite: 'التقدم بطلب للحصول على شراكة البطاقة البيضاء'
+  applyForWhite: 'التقدم بطلب للحصول على شراكة البطاقة البيضاء'
 };

@@ -8,7 +8,7 @@
 
 import nextI18next from '~/next-i18next.config';
 
-export type Locales = 'cn' | 'ar' | 'en' | 'ms' | 'id' | 'vi' | 'zh';
+export type Locales = 'cn' | 'ar' | 'en' | 'ms' | 'id' | 'th' | 'vi' | 'zh';
 
 export const locales: Locales[] = nextI18next.i18n.locales as Locales[];
 
@@ -23,6 +23,7 @@ export const localesOptions: localesOptions[] = [
   { code: 'en', value: 'English' },
   { code: 'ms', value: 'Malay' },
   { code: 'id', value: 'Indonesia' },
+  { code: 'th', value: 'ภาษาไทย' },
   { code: 'vi', value: 'Việt Nam' },
   { code: 'zh', value: '繁體' }
 ];

@@ -11,7 +11,7 @@ export const platform: Platform = {
     'MT4 provides 31 chart analysis tools and 30 different trading indicators, you can set each indicator and chart category, establish parameters and display methods that suit you, so that you can get a satisfactory trading experience.',
   diversifiedInvestmentTransactions: 'Diversified investment transactions',
   theBestWayToManageRisk:
-    'The best way to manage risk is to diversify investment. In WCG’s MT4 trading platform, you can choose from a series of trading products and markets to strengthen and diversify your investment.',
+    "The best way to manage risk is to diversify investment. In WCG's MT4 trading platform, you can choose from a series of trading products and markets to strengthen and diversify your investment.",
   intuitiveAndEasyToUse: 'Intuitive and easy to use',
   completeAndComprehensiveReports:
     'Complete and comprehensive reports, such as tracking number, opening price, transaction volume, account status of all orders and comprehensive information about positions, can be provided in the terminal window. You can view real-time market information anytime, anywhere, to assist you in making rational trading decisions. More supports for intelligent trading (EA) and strategy back-testing systems, to provide you with a high degree of trading flexibility, supervision and control.',

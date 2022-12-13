@@ -53,12 +53,6 @@ export type AdvancedTrading = {
   thereAreMany: string;
   /** Note that although */
   noteThatAlthough: string;
-  /** senior-class-d */
-  seniorClassD: string;
-  /** senior-class-e */
-  seniorClassE: string;
-  /** senior-class-f */
-  seniorClassF: string;
   /** Trend lines */
   trendLines: string;
   /** A trend line */

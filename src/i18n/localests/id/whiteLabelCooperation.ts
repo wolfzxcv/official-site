@@ -37,5 +37,5 @@ export const whiteLabelCooperation: WhiteLabelCooperation = {
   customerSupport: 'Dukungan pelanggan ',
   provideDevelopment: 'Memberikan dukungan pengembangan untuk',
   achieveBrandIntegration: 'mencapai tujuan integrasi merek',
-  applyforWhite: 'Ajukan lamaran kerja sama white label'
+  applyForWhite: 'Ajukan lamaran kerja sama white label'
 };

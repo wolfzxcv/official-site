@@ -37,5 +37,5 @@ export const whiteLabelCooperation: WhiteLabelCooperation = {
   customerSupport: 'Customer support',
   provideDevelopment: 'Provide development support to ',
   achieveBrandIntegration: 'achieve brand integration purpose',
-  applyforWhite: 'Apply for white label cooperation'
+  applyForWhite: 'Apply for white label cooperation'
 };

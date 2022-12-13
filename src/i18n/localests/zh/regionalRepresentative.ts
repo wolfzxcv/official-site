@@ -4,11 +4,11 @@ export const regionalRepresentative: RegionalRepresentative = {
   regionalRepresentative: '區域代表',
   thisIsAUnique:
     '對於想要在本地發展交易服務的人們來說，這是一個獨一無二的機會。開設WCG區域辦事處將是一個更高層次的合作選擇，在您的地區管理自己的代理公司來獲得穩定收益，同時以我們強大的優勢為您提供行業內最好的交易條件及技術。',
-  representativeApplcation: '申請代表',
+  representativeApplication: '申請代表',
   doNotMiss: '您的絕佳機會',
   setYourOwn:
     '自由設定屬於您自己的商業模式、營銷藍圖、組織研討會、網路研討會以及對特定市場需求有益或相關的活動。我們將幫助您在您的當地市場獲得穩定扎實的基礎。',
-  brandsThatSahre: '共享全球信譽的品牌',
+  brandsThatShare: '共享全球信譽的品牌',
   theSupportWe:
     '我們為區域辦事處提供的支援包括但不僅限於滿足發展本地業務的所有需求。WCG提供諮詢服務、宣傳資料和自己的預算，以及為更快更準確地提供支援而與客戶直接地聯絡。我們為區域代表提供所有技術事項、實施和整合本機服務（例如當地最受歡迎的支付系統）的協助，以幫助優化他們的業務表現。',
   soleRegional: '唯一地區代表',

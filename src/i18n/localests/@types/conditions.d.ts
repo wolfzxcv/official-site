@@ -14,7 +14,7 @@ export type Conditions = {
   transferSuchPersonalData: string;
   /** To provide any */
   toProvideAny: string;
-  /** WCG will keep the client’s personal */
+  /** WCG will keep the client's personal */
   WCGWillKeep: string;
   /** WCG other companies include */
   WCGOtherCompanies: string;

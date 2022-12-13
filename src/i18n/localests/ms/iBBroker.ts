@@ -2,9 +2,9 @@ import { IBBroker } from '../@types/iBBroker';
 
 export const iBBroker: IBBroker = {
   introducingBroker: 'Introducing Broker (IB)',
-  wCGsIBPlanIsPeopleOriented:
+  WCGsIBPlanIsPeopleOriented:
     'Pelan IB WCG berorientasikan orang. Sama ada anda seorang individu atau syarikat dengan berpuluh-puluh atau bahkan ratusan pekerja, kami memahami apa yang perniagaan anda perlukan untuk berkembang. Pelan IB kami menawarkan pelbagai pilihan rebat, agent back office yang fleksibel dan pasukan pengurusan profesional, yang bersedia memberi anda dan pelanggan anda perkhidmatan yang teliti pada setiap saat.',
-  iBApplication: 'Permohonan IB',
+  IBApplication: 'Permohonan IB',
   exclusiveIBPlan: 'Pelan IB eksklusif',
   whetherYouAreATrading:
     'Sama ada anda seorang pendidik perdagangan, penyedia isyarat, penjualan, pemasaran atau seseorang yang dapat memberikan nilai tambah lain kepada pedagang, kami dapat memberikan anda penyelesaian.',
@@ -18,8 +18,8 @@ export const iBBroker: IBBroker = {
   asTheAgentOfWCG:
     'Sebagai ejen WCG, pelanggan yang anda kenalkan akan mendapat perkhidmatan terbaik. Kami menjamin bahawa keseluruhan proses memasukkan maklumat pelanggan, dari pembukaan akaun hingga deposit yang selamat dan cepat akan dijaga sepenuhnya. Anda tidak perlu risau dan mengabdikan diri anda kepada pelanggan yang disyorkan.',
   excellentAgencyExperience: 'Pengalaman agensi yang sangat baik',
-  weTreatYouAsOurVvip:
-    'Kami memperlakukan anda sebagai vvip kami, dengan pengalaman agensi yang intuitif dan dioptimumkan, menyediakan anda pelbagai produk dan perkhidmatan yang disesuaikan untuk memenuhi keperluan anda.',
+  weTreatYouAsOurVip:
+    'Kami memperlakukan anda sebagai vip kami, dengan pengalaman agensi yang intuitif dan dioptimumkan, menyediakan anda pelbagai produk dan perkhidmatan yang disesuaikan untuk memenuhi keperluan anda.',
   efficientAndInstant: 'Sistem rebat yang cekap dan segera',
   accordingToTheTransaction:
     'Mengikut jumlah transaksi pelanggan yang anda rujuk, anda akan mendapat rebat yang sangat kompetitif dalam masa nyata.',
@@ -40,7 +40,7 @@ export const iBBroker: IBBroker = {
     'Dapatkan laporan transaksi pelanggan, penyata pendapatan, jumlah transaksi dan data statistik lain pada bila-bila masa.',
   howMuchCanIProfit: 'Berapa banyak yang boleh saya untung?',
   accountTypeOfYourClient: 'Jenis akaun pelanggan anda',
-  yourVlientSTransactionVolume: 'Jumlah urus niaga pelanggan anda',
+  yourClientsTransactionVolume: 'Jumlah urus niaga pelanggan anda',
   commissionPerLot: 'Komisen per lot',
   yourTotalCommission: 'Jumlah komisen anda',
   earnCommissionsInstantly: 'Dapatkan komisen dengan serta-merta',

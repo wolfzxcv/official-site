@@ -214,7 +214,7 @@ const amlPolicy: React.FC<{}> = () => {
         }Mailing an official letter from the WCG Markets (HK) Limited to the Client's permanent address where a scanned copy of the letter content is required for confirmation`,
         `${
           !isArabic ? '4. ' : ''
-        }In addition to the above, the procedure for the verification of a client’s identity is reinforced if the said Client is introduced by a reliable staff member of the WCG Markets (HK) Limited, or by another existing reliable Client who is personally known to a member of the Board. Details of such introductions are kept in the Client's file.`,
+        }In addition to the above, the procedure for the verification of a client's identity is reinforced if the said Client is introduced by a reliable staff member of the WCG Markets (HK) Limited, or by another existing reliable Client who is personally known to a member of the Board. Details of such introductions are kept in the Client's file.`,
         `${
           !isArabic ? '5. ' : ''
         }In addition to the aim of preventing Money Laundering and Terrorist Financing, the abovementioned information is also essential for implementing the financial sanctions imposed against various persons that can be validated against sources listed in Relevant International Organizations. In this respect, passport's number, issuing date and the Client's date of birth always appear on the documents obtained, so that WCG Markets (HK) Limited would be in the position to verify precisely whether a client is included in the relevant list of persons subject to financial sanctions which are validated against sources listed in Relevant International Organizations.`
@@ -236,7 +236,7 @@ const amlPolicy: React.FC<{}> = () => {
     {
       title: 'Suspicious Transactions',
       content: [
-        'The definition of a suspicious transaction as well as the types of suspicious transactions which may be used for Money Laundering and Terrorist Financing are almost unlimited. A suspicious transaction will often be one which is inconsistent with a client’s known, legitimate business or personal activities or with the normal business of the specific account, or in general with the economic profile that WCG Markets (HK) Limited has created for the Client. WCG Markets (HK) Limited shall ensure that it maintains adequate information and knows enough about its Clients ‘activities in order to recognize on time that a transaction or a series of transactions is unusual or suspicious.',
+        "The definition of a suspicious transaction as well as the types of suspicious transactions which may be used for Money Laundering and Terrorist Financing are almost unlimited. A suspicious transaction will often be one which is inconsistent with a client's known, legitimate business or personal activities or with the normal business of the specific account, or in general with the economic profile that WCG Markets (HK) Limited has created for the Client. WCG Markets (HK) Limited shall ensure that it maintains adequate information and knows enough about its Clients ‘activities in order to recognize on time that a transaction or a series of transactions is unusual or suspicious.",
         'In order to identify suspicious transactions, the AMLCO shall perform the following activities:',
         `${
           !isArabic ? '1. ' : ''
