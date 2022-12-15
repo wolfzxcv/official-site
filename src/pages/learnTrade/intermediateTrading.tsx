@@ -581,7 +581,7 @@ const intermediateTrading: React.FC<{}> = () => {
         },
         {
           type: 'text',
-          objectKey: t('profitTargetProfitTarget')
+          objectKey: t('profitTargetIs')
         }
       ]
     },

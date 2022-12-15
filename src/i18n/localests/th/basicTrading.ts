@@ -1,209 +1,208 @@
 import { BasicTrading } from '../@types/basicTrading';
 
 export const basicTrading: BasicTrading = {
-  howToStartTrading: 'How to start trading',
+  howToStartTrading: 'วิธีเริ่มต้นการซื้อขาย',
   haventHadExperience:
-    "Haven't had experience in financial transactions? We will guide you step by step to start trading.",
-  basicTradingCourse: 'Basic Trading Course',
-  intermediateTradingCourse: 'Intermediate Trading Course',
-  whatIsForeignExchangeTrading: 'What is foreign exchange trading',
-  factorsAffectingTheMarket: 'Factors affecting the market',
-  basicOperationOfTheMT4Platform: 'Basic operation of the MT4 platform',
-  leverageAndMargin: 'Leverage and margin',
-  whatIsACFDTransaction: 'What is a CFD transaction',
-  step1: 'Step 1: Apply for a real account',
+    'ไม่เคยมีประสบการณ์ในการทำธุรกรรมทางการเงิน? เราจะแนะนำคุณทีละขั้นตอนเพื่อเริ่มต้นการซื้อขาย',
+  basicTradingCourse: 'หลักสูตรการซื้อขายขั้นพื้นฐาน',
+  intermediateTradingCourse: 'หลักสูตรการค้าระดับกลาง',
+  whatIsForeignExchangeTrading: 'การซื้อขายแลกเปลี่ยนเงินตราต่างประเทศคืออะไร',
+  factorsAffectingTheMarket: 'ปัจจัยที่มีผลกระทบต่อตลาด',
+  basicOperationOfTheMT4Platform: 'การทำงานพื้นฐานของแพลตฟอร์ม MT4',
+  leverageAndMargin: 'เลเวอเรจและมาร์จิ้น',
+  whatIsACFDTransaction: 'ธุรกรรม CFD คืออะไร',
+  step1: 'ขั้นตอนที่ 1: สมัครบัญชีจริง',
   weOfferTo:
-    'We offer to trade a variety of global financial products. You only need to fill in and submit an account opening application form online, and upload the required documents, we will review your application in the shortest possible time and email you the transaction account information.',
-  applyForARealAccountNow: 'Apply for a real account now',
-  step2: 'Step 2: Deposit funds',
+    'เราเสนอการซื้อขายผลิตภัณฑ์ทางการเงินระดับโลกที่หลากหลาย คุณจะต้องกรอกและส่งแบบฟอร์มใบสมัครเปิดบัญชีทางออนไลน์ และอัปโหลดเอกสารที่จำเป็น เราจะตรวจสอบใบสมัครของคุณในเวลาที่สั้นที่สุดและส่งอีเมลข้อมูลบัญชีการทำธุรกรรมให้คุณ',
+  applyForARealAccountNow: 'สมัครบัญชีจริงได้เลย',
+  step2: 'ขั้นตอนที่ 2: ฝากเงิน',
   afterYourRealAccount:
-    'After your real account is successfully opened, you can deposit funds to start the first transaction. Depositing funds is very convenient, just log in to the customer portal to operate. In the website, you can choose to deposit funds using electronic wallets such as credit/debit cards and bank wire transfers. After the deposited funds are in your account, you are ready to start your first transaction.',
-  depositFundsNow: 'Deposit funds now',
-  step3: 'Step 3: Start trading',
+    'หลังจากเปิดบัญชีจริงของคุณสำเร็จแล้ว คุณสามารถฝากเงินเพื่อเริ่มการทำธุรกรรมครั้งแรกได้ การฝากเงินสะดวกมาก เพียงเข้าสู่ระบบพอร์ทัลลูกค้าเพื่อดำเนินการ ในเว็บไซต์ คุณสามารถเลือกฝากเงินโดยใช้กระเป๋าเงินอิเล็กทรอนิกส์ เช่น บัตรเครดิต/เดบิต และการโอนเงินผ่านธนาคาร หลังจากที่เงินฝากอยู่ในบัญชีของคุณ คุณก็พร้อมที่จะเริ่มการทำธุรกรรมครั้งแรกของคุณ',
+  depositFundsNow: 'ฝากเงินตอนนี้',
+  step3: 'ขั้นตอนที่ 3: เริ่มการซื้อขาย',
   nowThatYourTradingAccount:
-    'Now that your trading account has been successfully opened and the funds has been successfully deposited, you are ready to start your first transaction. The following points are some things you need to pay attention to before you start trading. Please remember: Do not trade when you are not sure, every new trade implies a new risk, please make sure that you are fully prepared before clicking to open a position.',
-  understandTheMarket: '1.Understand the market',
-  knowWhatYouWantTo: 'Know what you want to trade and when to trade.',
-  understandTheOperation: '2.Understand the operation of the trading platform',
+    'ตอนนี้บัญชีเทรดของคุณเปิดสำเร็จและฝากเงินสำเร็จแล้ว คุณก็พร้อมที่จะเริ่มธุรกรรมแรกของคุณ ประเด็นต่อไปนี้คือบางสิ่งที่คุณต้องให้ความสนใจก่อนที่จะเริ่มซื้อขาย โปรดจำไว้ว่า: อย่าซื้อขายเมื่อคุณไม่แน่ใจ ทุกการซื้อขายใหม่แสดงถึงความเสี่ยงใหม่ โปรดตรวจสอบให้แน่ใจว่าคุณได้เตรียมพร้อมอย่างเต็มที่ก่อนที่จะคลิกเพื่อเปิดสถานะ',
+  understandTheMarket: '1. เข้าใจตลาด',
+  knowWhatYouWantTo: 'รู้ว่าคุณต้องการเทรดอะไรและควรเทรดเมื่อใด',
+  understandTheOperation: '2. เข้าใจการทำงานของแพลตฟอร์มการซื้อขาย',
   beforeMaking:
-    'Before making the first transaction,you need to be familiar with the operation of the trading platform.',
-  startYourTransaction: '3.Start your transaction',
+    'ก่อนทำธุรกรรมครั้งแรก คุณต้องคุ้นเคยกับการทำงานของแพลตฟอร์มการซื้อขาย',
+  startYourTransaction: '3. เริ่มการทำธุรกรรมของคุณ',
   afterYouAreFamiliarWith:
-    'After you are familiar with the operation of the platform,you can start your first transaction.',
+    'หลังจากที่คุณคุ้นเคยกับการทำงานของแพลตฟอร์มแล้ว คุณสามารถเริ่มธุรกรรมแรกของคุณได้',
   theForeignExchangeMarket:
-    'The foreign exchange market is the largest financial market in the world, with a daily trading volume of up to 5 trillion US dollars. As the main currency exchange mechanism, the foreign exchange market does not only provides basic services for global commerce and trade. Such a huge transaction volume also provides various trading opportunities for those who want to invest in the foreign exchange market. Forex traders can buy or sell different currencies five days a week, 24 hours a day, and use leverage (increasing nominal trading volume) to speculate on global currency flows and market fluctuations.',
+    'ตลาดแลกเปลี่ยนเงินตราต่างประเทศเป็นตลาดการเงินที่ใหญ่ที่สุดในโลก โดยมีปริมาณการซื้อขายต่อวันสูงถึง 5 ล้านล้านเหรียญสหรัฐ ในฐานะที่เป็นกลไกการแลกเปลี่ยนสกุลเงินหลัก ตลาดแลกเปลี่ยนเงินตราต่างประเทศไม่เพียงแต่ให้บริการขั้นพื้นฐานสำหรับการค้าและการค้าทั่วโลกเท่านั้น ปริมาณธุรกรรมที่มหาศาลเช่นนี้ยังมอบโอกาสในการซื้อขายที่หลากหลายสำหรับผู้ที่ต้องการลงทุนในตลาดแลกเปลี่ยนเงินตราต่างประเทศ นักเทรดฟอเร็กซ์สามารถซื้อหรือขายสกุลเงินต่างๆ ได้ 5 วันต่อสัปดาห์ ตลอด 24 ชั่วโมง และใช้เลเวอเรจ (เพิ่มปริมาณการซื้อขายเล็กน้อย) เพื่อเก็งกำไรกระแสสกุลเงินทั่วโลกและความผันผวนของตลาด',
   theForeignExchangeMarketIsUsually:
-    'The foreign exchange market is usually referred to as "foreign exchange" or "FX". It is a global, decentralized, over-the-counter currency trading financial market.',
-  globalMarket: 'Global Market',
+    'ตลาดแลกเปลี่ยนเงินตราต่างประเทศมักเรียกว่า "การแลกเปลี่ยนเงินตราต่างประเทศ" หรือ "FX" เป็นตลาดการเงินการซื้อขายสกุลเงินแบบกระจายอำนาจทั่วโลกที่ไม่ต้องสั่งโดยแพทย์',
+  globalMarket: 'ตลาดโลก',
   thisIsAGlobalMarket:
-    '- This is a global market. All the quotes you see are the relative value of one country is currency to another country is currency.',
+    '- นี่คือตลาดโลก ราคาทั้งหมดที่คุณเห็นคือค่าสัมพัทธ์ของประเทศหนึ่งเป็นสกุลเงินไปยังอีกประเทศหนึ่งเป็นสกุลเงิน',
   globalEconomic:
-    '- Global economic and political events drive these markets, which in turn affects the relative value of the currencies of these countries.',
-  decentralizedMarket: 'Decentralized market',
+    '- เหตุการณ์ทางเศรษฐกิจและการเมืองทั่วโลกขับเคลื่อนตลาดเหล่านี้ ซึ่งจะส่งผลต่อมูลค่าสัมพัทธ์ของสกุลเงินของประเทศเหล่านี้',
+  decentralizedMarket: 'ตลาดกระจายอำนาจ',
   decentralizedMarketMeans:
-    '- Decentralized market means that the foreign exchange market is different from the traditional stock market in that it does not have a centralized exchange.',
+    '- ตลาดแบบกระจายศูนย์ หมายความว่าตลาดแลกเปลี่ยนเงินตราต่างประเทศแตกต่างจากตลาดหุ้นแบบดั้งเดิมตรงที่ไม่มีการแลกเปลี่ยนแบบรวมศูนย์',
   insteadFinancialCenters:
-    '- Instead, financial centers around the world have formed a large 24-hour trading network that brings together different types of buyers and sellers, and the market is closed only on weekends.',
-  overTheCounterTransactions: 'Over-the-counter transactions',
+    '- ศูนย์กลางทางการเงินทั่วโลกได้สร้างเครือข่ายการค้าขนาดใหญ่ตลอด 24 ชั่วโมงที่รวบรวมผู้ซื้อและผู้ขายประเภทต่างๆ และตลาดจะปิดเฉพาะในวันหยุดสุดสัปดาห์',
+  overTheCounterTransactions: 'การทำธุรกรรมผ่านเคาน์เตอร์',
   theForeignExchangeMarketIsNotControlled:
-    '- The foreign exchange market is not controlled by any central regulatory agency, and there is no clearing agency to guarantee transactions.',
+    '- ตลาดแลกเปลี่ยนเงินตราต่างประเทศไม่ได้ถูกควบคุมโดยหน่วยงานกำกับดูแลส่วนกลาง และไม่มีหน่วยงานสำนักหักบัญชีที่จะรับประกันการทำธุรกรรม',
   brokersAndTraders:
-    '- Brokers and traders negotiate transactions with each other directly through the electronic network',
+    '- นายหน้าและผู้ค้าเจรจาธุรกรรมระหว่างกันโดยตรงผ่านเครือข่ายอิเล็กทรอนิกส์',
   thisKindOfMarket:
-    '- This kind of market in which traders negotiate prices with each other is called "over-the-counter trading.',
-  tradingForeignExchange: 'Trading foreign exchange',
+    '- ตลาดประเภทนี้ที่ผู้ค้าต่อรองราคากันเรียกว่า "การซื้อขายผ่านเคาน์เตอร์',
+  tradingForeignExchange: 'การซื้อขายแลกเปลี่ยนเงินตราต่างประเทศ',
   forActiveTraders:
-    'For active traders, the foreign exchange market is not much different from other trading markets (such as stocks, commodities or fixed income markets). The foreign exchange market is also a place for buyers and sellers to trade, but the vehicles bought and sold are currency pairs. The currency pair may be the EUR to USD, USD to JPY, GBP to USD, EUR to GBP, or a combination of many other currencies.',
+    'สำหรับเทรดเดอร์ที่ใช้งานอยู่ ตลาดแลกเปลี่ยนเงินตราต่างประเทศไม่แตกต่างจากตลาดซื้อขายอื่นๆ มากนัก (เช่น หุ้น สินค้าโภคภัณฑ์ หรือตลาดตราสารหนี้) ตลาดแลกเปลี่ยนเงินตราต่างประเทศยังเป็นสถานที่สำหรับผู้ซื้อและผู้ขายในการแลกเปลี่ยน แต่ยานพาหนะที่ซื้อและขายเป็นคู่สกุลเงิน คู่สกุลเงินอาจเป็น EUR เป็น USD, USD เป็น JPY, GBP เป็น USD, EUR เป็น GBP หรือหลายสกุลเงินรวมกัน',
   differentCurrency:
-    'Different currency combinations represent the value of one currency against another, and this relationship is expressed by a price. In the foreign exchange market, combined with the economic and political status and expectations of the two countries, the price of a currency pair is actually the expected market value of one currency measured in another currency. From the perspective of stocks, the price mechanism of currency pairs is similar to stock prices.',
-  comparedWithOtherMarkets: 'Compared with other markets',
+    'การผสมสกุลเงินที่แตกต่างกันแสดงถึงมูลค่าของสกุลเงินหนึ่งเทียบกับอีกสกุลเงินหนึ่ง และความสัมพันธ์นี้จะแสดงด้วยราคา ในตลาดแลกเปลี่ยนเงินตราต่างประเทศ เมื่อรวมกับสถานะทางเศรษฐกิจและการเมืองและความคาดหวังของทั้งสองประเทศ ราคาของคู่สกุลเงินคือมูลค่าตลาดที่คาดหวังของสกุลเงินหนึ่งซึ่งวัดด้วยอีกสกุลเงินหนึ่ง จากมุมมองของหุ้น กลไกราคาของคู่สกุลเงินจะคล้ายกับราคาหุ้น',
+  comparedWithOtherMarkets: 'เมื่อเทียบกับตลาดอื่นๆ',
   theDailyTradingVolume:
-    'The daily trading volume of the stock market is about few billions of US dollars, while the daily trading volume of the foreign exchange market is as high as 5 trillion US dollars. Participants in the foreign exchange market include central banks, hedge funds and other financial institutions, global companies and individual investors. Most foreign exchange transactions are the result of currency exchange involved in daily global trade. The huge daily trading volume of the foreign exchange market provides endless trading opportunities, while also allowing traders to make more diversified investments through the global foreign exchange market.',
+    'ปริมาณการซื้อขายรายวันของตลาดหุ้นมีมูลค่าประมาณสองสามพันล้านดอลลาร์สหรัฐ ในขณะที่ปริมาณการซื้อขายรายวันของตลาดแลกเปลี่ยนเงินตราต่างประเทศสูงถึง 5 ล้านล้านดอลลาร์สหรัฐ ผู้เข้าร่วมในตลาดแลกเปลี่ยนเงินตราต่างประเทศ ได้แก่ ธนาคารกลาง กองทุนเฮดจ์ฟันด์ และสถาบันการเงินอื่น ๆ บริษัทระดับโลก และนักลงทุนรายย่อย ธุรกรรมแลกเปลี่ยนเงินตราต่างประเทศส่วนใหญ่เป็นผลมาจากการแลกเปลี่ยนสกุลเงินที่เกี่ยวข้องกับการค้าโลกทุกวัน ปริมาณการซื้อขายรายวันที่มหาศาลของตลาดแลกเปลี่ยนเงินตราต่างประเทศมอบโอกาสการซื้อขายที่ไม่รู้จบ ในขณะเดียวกันก็ช่วยให้ผู้ค้าทำการลงทุนที่หลากหลายมากขึ้นผ่านตลาดแลกเปลี่ยนเงินตราต่างประเทศทั่วโลก',
   whatFactorsPlayAKeyRole:
-    "What factors play a key role in foreign exchange transactions? How does it compare to stocks? Let us illustrate with an example. Suppose a country's inflation rate or bank interest rate is both low and stable, its economic output is growing strongly and its political environment is very stable. One can expect that the currency of this country compares to another country whose fundamentals are not so good will be relatively strong.",
+    'ปัจจัยใดที่มีบทบาทสำคัญในการทำธุรกรรมเงินตราต่างประเทศ? เปรียบเทียบกับหุ้นได้อย่างไร? ให้เราอธิบายด้วยตัวอย่าง สมมติว่าอัตราเงินเฟ้อหรืออัตราดอกเบี้ยธนาคารของประเทศหนึ่งต่ำและมีเสถียรภาพ ผลผลิตทางเศรษฐกิจของประเทศกำลังเติบโตอย่างแข็งแกร่ง และสภาพแวดล้อมทางการเมืองมีเสถียรภาพมาก เราสามารถคาดหวังได้ว่าสกุลเงินของประเทศนี้เมื่อเทียบกับประเทศอื่นที่มีปัจจัยพื้นฐานไม่ดีนักจะค่อนข้างแข็งแกร่ง',
   LetsTakeAnotherExample:
-    "Let's take another example of stocks for comparison. Assuming domestic and global economic performance is strong, while inflation is not that serious. Additionally market competition has not weakened the company's product's market share, product demand is stable, and worker production efficiency is high, then you can expect that the company is stock price will remain strong compare to those companies with situation not as good.",
+    'ยกตัวอย่างหุ้นตัวอื่นมาเปรียบเทียบกัน สมมติว่าเศรษฐกิจในประเทศและเศรษฐกิจโลกแข็งแกร่งในขณะที่อัตราเงินเฟ้อไม่รุนแรงขนาดนั้น นอกจากนี้ การแข่งขันในตลาดไม่ได้ทำให้ส่วนแบ่งการตลาดของผลิตภัณฑ์ของบริษัทลดลง ความต้องการผลิตภัณฑ์คงที่ และประสิทธิภาพการผลิตของพนักงานก็อยู่ในระดับสูง คุณจึงคาดได้ว่าราคาหุ้นของบริษัทจะยังคงแข็งแกร่งเมื่อเทียบกับบริษัทที่มีสถานการณ์ไม่ดีนัก',
   similarToStocks:
-    'Similar to stocks, the short-term trend of foreign exchange currency pairs will be affected by some other factors, including technical analysis, short-term supply and demand, seasonal capital flow patterns, current prices, etc. These factors are generally in dynamic changes.',
+    'เช่นเดียวกับหุ้น แนวโน้มระยะสั้นของคู่สกุลเงินแลกเปลี่ยนเงินตราต่างประเทศจะได้รับผลกระทบจากปัจจัยอื่นๆ รวมถึงการวิเคราะห์ทางเทคนิค อุปสงค์และอุปทานระยะสั้น รูปแบบการไหลของเงินทุนตามฤดูกาล ราคาปัจจุบัน ฯลฯ ปัจจัยเหล่านี้มักมีการเปลี่ยนแปลงแบบไดนามิก .',
   earlierWeIntroducedYou:
-    'Earlier we introduced you to the participants in the foreign exchange market, and now we will continue to introduce you to the common reasons for market price changes.',
+    'ก่อนหน้านี้เราได้แนะนำคุณให้รู้จักกับผู้เข้าร่วมในตลาดแลกเปลี่ยนเงินตราต่างประเทศ และตอนนี้เราจะแนะนำคุณต่อไปถึงสาเหตุทั่วไปของการเปลี่ยนแปลงราคาในตลาด',
   rememberThatTheMajorPlayers:
-    "Remember that the major players in the market contribute most of the liquidity in the market. At the same time, what causes price fluctuations and evolves into market trends is the flow of funds from one currency to another. The actual capital flow may be related to real speculative demand, such as hedging by customers for wealth protection purposes, or the need to purchase assets. However, people's expectations also account for a large part of the reason, that is, the market Expectations of changes in capital flows.",
+    'โปรดจำไว้ว่าผู้เล่นหลักในตลาดมีส่วนทำให้สภาพคล่องส่วนใหญ่ในตลาด ในขณะเดียวกัน สิ่งที่ทำให้ราคาผันผวนและพัฒนาไปสู่แนวโน้มของตลาดคือการไหลเวียนของเงินทุนจากสกุลเงินหนึ่งไปยังอีกสกุลเงินหนึ่ง กระแสเงินทุนที่เกิดขึ้นจริงอาจเกี่ยวข้องกับความต้องการเก็งกำไรที่แท้จริง เช่น การป้องกันความเสี่ยงโดยลูกค้าเพื่อวัตถุประสงค์ในการปกป้องความมั่งคั่ง หรือความต้องการซื้อสินทรัพย์ อย่างไรก็ตาม ความคาดหวังของผู้คนยังเป็นสาเหตุส่วนใหญ่ นั่นคือ ความคาดหวังของตลาดต่อการเปลี่ยนแปลงของกระแสเงินทุน',
   changesInGDP:
-    'Changes in GDP (gross domestic product, or "gross domestic product"), inflation, interest rates, government budgets and trading surplus/deficit, as well as changes in other macroeconomic conditions, may cause market participants to expect changes in capital flows.',
-  newsOrEvents: 'News or events that may trigger market volatility',
-  grossDomesticProductGDP: '- Gross Domestic Product GDP',
-  interestRate: '- Interest Rate',
-  employment: '- Employment / Unemployment Status',
-  tradeSurplus: '- Trade Surplus / Deficit',
-  forceMajeureEvent: '- Force Majeure Events',
-  nonFarmPayroll: 'Non-farm payroll and unemployment Rate',
+    'การเปลี่ยนแปลงของ GDP (ผลิตภัณฑ์มวลรวมภายในประเทศ หรือ "ผลิตภัณฑ์มวลรวมภายในประเทศ") อัตราเงินเฟ้อ อัตราดอกเบี้ย งบประมาณของรัฐบาล และการเกินดุล/ขาดดุลการค้า ตลอดจนการเปลี่ยนแปลงของสภาวะเศรษฐกิจมหภาคอื่นๆ อาจทำให้ผู้เข้าร่วมตลาดคาดว่าการเปลี่ยนแปลงของกระแสเงินทุน',
+  newsOrEvents: 'ข่าวหรือเหตุการณ์ที่อาจก่อให้เกิดความผันผวนของตลาด',
+  grossDomesticProductGDP: '- ผลิตภัณฑ์มวลรวมภายในประเทศ GDP',
+  interestRate: '- อัตราดอกเบี้ย',
+  employment: '- การจ้างงาน / สถานะการว่างงาน',
+  tradeSurplus: '- เกินดุลการค้า / ขาดดุล',
+  forceMajeureEvent: '- เหตุสุดวิสัย',
+  nonFarmPayroll: 'การจ้างงานนอกภาคเกษตรและอัตราการว่างงาน',
   theMostInfluentialMarketData:
-    'The most influential market data is the u.s non-farm payroll and unemployment rate. The release of these two data may bring a lot of volatility to the market. Watch the webinar below to learn more about it.',
-  economicCalendar: 'Economic Calendar',
+    'ข้อมูลการตลาดที่มีอิทธิพลมากที่สุดคือการจ้างงานนอกภาคเกษตรและอัตราการว่างงานของสหรัฐฯ การเปิดตัวข้อมูลทั้งสองนี้อาจสร้างความผันผวนอย่างมากให้กับตลาด ดูการสัมมนาผ่านเว็บด้านล่างเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับเรื่องนี้',
+  economicCalendar: 'ปฏิทินเศรษฐกิจ',
   soHowCanWeKeepAnEyeOn:
-    "So, how can we keep an eye on these potential market drivers? Although we can't predict the world, we can use the economic calendar to monitor which important news releases will take place in the coming days, weeks or months.",
+    'แล้วเราจะจับตาดูตัวขับเคลื่อนตลาดเหล่านี้ได้อย่างไร? แม้ว่าเราจะไม่สามารถทำนายโลกได้ แต่เราสามารถใช้ปฏิทินเศรษฐกิจเพื่อติดตามข่าวสารสำคัญที่จะเกิดขึ้นในอีกไม่กี่วัน สัปดาห์ หรือเดือนที่จะถึงนี้',
   theEconomicCalendarListsTheNews:
-    "The economic calendar lists the news and events that are publicly released in a particular country, which means that people all over the world can get the same news at the same time. Although this is a major benefit for retail traders like us, it's best to realize that banks also have a major advantage: i.e. they can see where the money is going (and where it comes from) by seeing the flow of orders from customers.",
-  marketSentiment: 'Market sentiment',
+    'ปฏิทินเศรษฐกิจแสดงรายการข่าวและเหตุการณ์ที่เผยแพร่สู่สาธารณะในประเทศใดประเทศหนึ่ง ซึ่งหมายความว่าผู้คนทั่วโลกสามารถรับข่าวสารเดียวกันได้ในเวลาเดียวกัน แม้ว่าสิ่งนี้จะเป็นประโยชน์หลักสำหรับผู้ค้าปลีกเช่นเรา แต่ควรตระหนักว่าธนาคารก็มีข้อได้เปรียบที่สำคัญเช่นกัน กล่าวคือ พวกเขาสามารถเห็นได้ว่าเงินจะไปที่ใด (และมาจากไหน) โดยดูการไหลของคำสั่งซื้อจากลูกค้า',
+  marketSentiment: 'ความรู้สึกของตลาด',
   marketSentimentCanBeUsedBy:
-    'Market sentiment can be used by both long-term and short-term traders. For long-term traders, they are more tend to observe the trend of data over several weeks or months and compare it with the price of the relevant currency pair.',
-  newsTrading: 'News trading',
+    'อารมณ์ตลาดสามารถใช้ได้ทั้งเทรดเดอร์ระยะยาวและระยะสั้น สำหรับผู้ค้าระยะยาว พวกเขามักจะสังเกตแนวโน้มของข้อมูลในช่วงหลายสัปดาห์หรือหลายเดือน และเปรียบเทียบกับราคาของคู่สกุลเงินที่เกี่ยวข้อง',
+  newsTrading: 'ซื้อขายข่าว',
   newsTradingIsAVeryPopularWay:
-    'News trading is a very popular way of foreign exchange trading. This part of traders focuses on trading before and after the news release. As mentioned above, real data that deviates from market expectations will cause greater market volatility.',
-  avoidNewsTrading: 'Avoid news trading',
+    'การเทรดตามข่าวเป็นวิธีที่ได้รับความนิยมอย่างมากในการซื้อขายแลกเปลี่ยนเงินตราต่างประเทศ ผู้ค้าส่วนนี้มุ่งเน้นไปที่การซื้อขายก่อนและหลังการประกาศข่าว ตามที่กล่าวไว้ข้างต้น ข้อมูลจริงที่เบี่ยงเบนไปจากการคาดการณ์ของตลาดจะทำให้ตลาดมีความผันผวนมากขึ้น',
+  avoidNewsTrading: 'หลีกเลี่ยงการซื้อขายข่าวสาร',
   thisIsTheThirdTradingMethod:
-    'This is the third trading method, that is, use the same filter to filter out high-influential news and make sure to avoid these news periods to trade. This method is more suitable for traders (or ultra-long-term traders) who use 1-hour, 4-hour or daily charts to set up trading strategies.',
+    'นี่คือวิธีการซื้อขายที่สาม นั่นคือ ใช้ตัวกรองเดียวกันเพื่อกรองข่าวที่มีอิทธิพลสูง และตรวจสอบให้แน่ใจว่าได้หลีกเลี่ยงช่วงข่าวเหล่านี้เพื่อซื้อขาย วิธีนี้เหมาะสำหรับนักเทรด (หรือนักเทรดระยะยาวเป็นพิเศษ) ที่ใช้กราฟราย 1 ชั่วโมง, 4 ชั่วโมง หรือรายวันเพื่อกำหนดกลยุทธ์การซื้อขาย',
   afterTheDownloadProcess:
-    'After the download process is completed, start the installation process:',
+    'หลังจากกระบวนการดาวน์โหลดเสร็จสิ้น ให้เริ่มกระบวนการติดตั้ง:',
   checkYesIAgreeWith:
-    '1. Check "Yes, I agree with all the terms of this license agreement" and then press the "Next" button. If you need to specify the installation path of the MT4 platform, click the "Settings" button.',
+    '1. ทำเครื่องหมายที่ "ใช่ ฉันเห็นด้วยกับเงื่อนไขทั้งหมดของข้อตกลงใบอนุญาตนี้" จากนั้นกดปุ่ม "ถัดไป" หากคุณต้องการระบุเส้นทางการติดตั้งของแพลตฟอร์ม MT4 ให้คลิกปุ่ม "การตั้งค่า"',
   theInstallationWizard:
-    '2. The installation wizard will automatically connect to the MetaQuotes website and start downloading platform content. When the download progress bar is complete, click the "Finish" button.',
+    '2. วิซาร์ดการติดตั้งจะเชื่อมต่อกับเว็บไซต์ MetaQuotes โดยอัตโนมัติและเริ่มดาวน์โหลดเนื้อหาแพลตฟอร์ม เมื่อแถบความคืบหน้าการดาวน์โหลดเสร็จสิ้น ให้คลิกปุ่ม "เสร็จสิ้น"',
   thePlatformInterface:
-    '3. The platform interface will automatically open, indicating that the MT4 platform has been successfully installed. If you encounter any problems during the installation process, please contact the online customer service or call the toll-free number to contact the customer service team.',
+    '3. อินเทอร์เฟซของแพลตฟอร์มจะเปิดขึ้นโดยอัตโนมัติ ซึ่งแสดงว่าแพลตฟอร์ม MT4 ได้รับการติดตั้งเรียบร้อยแล้ว หากคุณพบปัญหาใดๆ ในระหว่างกระบวนการติดตั้ง โปรดติดต่อฝ่ายบริการลูกค้าออนไลน์หรือโทรไปที่หมายเลขโทรฟรีเพื่อติดต่อทีมบริการลูกค้า',
   logInToTheTradingAccount:
-    '4. Log in to the trading account. If you already have a trading account, please click "File" on the top left of the platform-"Log in to trading account.',
+    '4. เข้าสู่บัญชีการซื้อขาย หากคุณมีบัญชีซื้อขายแล้ว โปรดคลิก "ไฟล์" ที่ด้านบนซ้ายของแพลตฟอร์ม-"เข้าสู่ระบบบัญชีซื้อขาย',
   inThePopUpLoginWindow:
-    '5. In the pop-up login window, enter the account number and password, choose the correct server, and then click the "Login" button.',
+    '5. ในหน้าต่างเข้าสู่ระบบป๊อปอัป ให้ป้อนหมายเลขบัญชีและรหัสผ่าน เลือกเซิร์ฟเวอร์ที่ถูกต้อง จากนั้นคลิกปุ่ม "เข้าสู่ระบบ"',
   thePlatformWillTakeSomeTime:
-    'The platform will take some time to log in to the account. You can check the bottom right corner of the platform to confirm whether the connection is successful. When the platform is successfully logged in, the data traffic should be displayed in the lower right corner.',
-  createAMarketOrder: '6. Create a market order',
+    'แพลตฟอร์มจะใช้เวลาสักครู่เพื่อเข้าสู่บัญชี คุณสามารถตรวจสอบที่มุมขวาล่างของแพลตฟอร์มเพื่อยืนยันว่าการเชื่อมต่อสำเร็จหรือไม่ เมื่อแพลตฟอร์มเข้าสู่ระบบสำเร็จ การรับส่งข้อมูลควรจะแสดงที่มุมล่างขวา',
+  createAMarketOrder: '6. สร้างคำสั่งตลาด',
   thereAreManyWaysTo:
-    'There are many ways to open a new transaction on the MT4 platform. The easiest operation is to directly click the "New Order" shortcut button on the toolbar at the top of the platform, and then an order window will appear.',
-  productCategory: '7. Product category: Choose your trading targets',
+    'มีหลายวิธีในการเปิดธุรกรรมใหม่บนแพลตฟอร์ม MT4 การดำเนินการที่ง่ายที่สุดคือการคลิกปุ่มทางลัด "คำสั่งใหม่" บนแถบเครื่องมือที่ด้านบนของแพลตฟอร์มโดยตรง จากนั้นหน้าต่างคำสั่งจะปรากฏขึ้น',
+  productCategory: '7. หมวดหมู่สินค้า: เลือกเป้าหมายการซื้อขายของคุณ',
   lotsEnterTheLotSize:
-    'Lots: Enter the lot size, the minimum is 0.01 lots (foreign exchange, gold and silver).',
+    'ล็อต: ป้อนขนาดล็อต ขั้นต่ำคือ 0.01 ล็อต (การแลกเปลี่ยนเงินตราต่างประเทศ ทองคำและเงิน)',
   stopLossPrice:
-    'Stop Loss Price: When the price reaches the specified price, the position is automatically closed out; the default is zero, which means no stop loss is set.',
+    'ราคา Stop Loss: เมื่อราคาถึงราคาที่กำหนด ตำแหน่งจะปิดโดยอัตโนมัติ ค่าเริ่มต้นคือศูนย์ ซึ่งหมายความว่าไม่มีการตั้งค่า Stop Loss',
   takeProfitPrice:
-    'Take Profit price: When the price reaches the specified price, the position will be automatically closed to keep the profit; the default is zero, which means no take profit is set.',
+    'ราคา Take Profit: เมื่อราคาถึงราคาที่กำหนด ตำแหน่งจะปิดโดยอัตโนมัติเพื่อรักษากำไร ค่าเริ่มต้นคือศูนย์ ซึ่งหมายความว่าไม่มีการตั้งค่าการทำกำไร',
   sellAtMarketPriceOrBuy:
-    'Sell ​​at market price or buy at market price: click the red button to sell, and click the blue button to buy.',
+    'ขายในราคาตลาดหรือซื้อในราคาตลาด: คลิกปุ่มสีแดงเพื่อขาย และคลิกปุ่มสีน้ำเงินเพื่อซื้อ',
   theOrderTypeColumn:
-    'The "Order Type" column in the order window, the default selection is "Market Price", which means to create a transaction at the current market price.',
-  pendingOrder: '8. Pending order',
+    'คอลัมน์ "ประเภทคำสั่ง" ในหน้าต่างคำสั่ง การเลือกเริ่มต้นคือ "ราคาตลาด" ซึ่งหมายถึงการสร้างธุรกรรมในราคาตลาดปัจจุบัน',
+  pendingOrder: '8. คำสั่งซื้อที่รอดำเนินการ',
   changeTheOrderType:
-    'Change the order type to "Pending Order" in the order window to execute the pending order instruction.',
-  thereAreFourTypes: 'There are four types of pending orders:',
+    'เปลี่ยนประเภทคำสั่งเป็น "คำสั่งที่รอดำเนินการ" ในหน้าต่างคำสั่งเพื่อดำเนินการคำสั่งคำสั่งที่รอดำเนินการ',
+  thereAreFourTypes: 'คำสั่งที่รอดำเนินการมีสี่ประเภท:',
   buyLimitBuyPending:
-    'Buy limit——Buy pending orders at price which is lower than the market price;',
+    'Buy limit —— ซื้อคำสั่งที่รอดำเนินการในราคาที่ต่ำกว่าราคาตลาด',
   sellLimitSellPending:
-    'Sell limit——Sell pending orders at price which is higher than the market price;',
+    'ขีดจำกัดการขาย —— ขายคำสั่งซื้อที่รอดำเนินการในราคาที่สูงกว่าราคาตลาด',
   buyStopBuyPending:
-    'Buy stop——Buy pending orders at price which is higher than the market price;',
+    'Buy stop —— ซื้อคำสั่งซื้อที่รอดำเนินการในราคาที่สูงกว่าราคาตลาด',
   sellStopSellPending:
-    'Sell stop——Sell pending order at price which is lower than the market price.',
+    'หยุดการขาย —— ขายคำสั่งที่รอดำเนินการในราคาที่ต่ำกว่าราคาตลาด',
   afterSelectingTheCorresponding:
-    'After selecting the corresponding pending order type, enter the required price in the price column and click "Place Order".',
-  oneClickTrading: '9. One-click trading',
+    'หลังจากเลือกประเภทคำสั่งที่รอดำเนินการแล้ว ให้ป้อนราคาที่ต้องการในคอลัมน์ราคาแล้วคลิก "สั่งซื้อ"',
+  oneClickTrading: '9. การซื้อขายด้วยคลิกเดียว',
   foreignExchangePrices:
-    'Foreign exchange prices fluctuate rapidly, sometimes we have to find a faster and more efficient way to place orders. Fortunately, MT4 provides one-click trading functions. Right click with your mouse in the chart window on the right side of the platform and select "One Click Trading" in the menu options.',
+    'ราคาแลกเปลี่ยนเงินตราต่างประเทศผันผวนอย่างรวดเร็ว บางครั้งเราต้องหาวิธีที่รวดเร็วและมีประสิทธิภาพมากขึ้นในการสั่งซื้อ โชคดีที่ MT4 มีฟังก์ชันการซื้อขายแบบคลิกเดียว คลิกขวาด้วยเมาส์ของคุณในหน้าต่างแผนภูมิทางด้านขวาของแพลตฟอร์ม และเลือก "One Click Trading" ในตัวเลือกเมนู',
   onTheUpperLeftCorner:
-    'On the upper left corner of the chart, there will be a one-click trading quote floating window. Left click on the price to automatically open a sell position, and then right click on the price to automatically open a buy position. Before clicking, be sure to enter the number of lots to be traded in the middle trading volume column.',
-  modifyTheOrder: '10. Modify the order',
+    'ที่มุมซ้ายบนของแผนภูมิ จะมีหน้าต่างแสดงราคาการซื้อขายแบบลอยตัวในคลิกเดียว คลิกซ้ายที่ราคาเพื่อเปิดตำแหน่งขายโดยอัตโนมัติ จากนั้นคลิกขวาที่ราคาเพื่อเปิดตำแหน่งซื้อโดยอัตโนมัติ ก่อนคลิก อย่าลืมป้อนจำนวนล็อตที่จะซื้อขายในคอลัมน์ปริมาณการซื้อขายระดับกลาง',
+  modifyTheOrder: '10. แก้ไขคำสั่ง',
   afterOpening:
-    'After opening a position, sometimes we need to set a stop loss/profit for the position. In the "Trade" column of the "Summary" window at the bottom of the platform, find the position that needs to be modified, right-click on it, and select "Modify or Delete Order" from the menu.',
+    'หลังจากเปิดตำแหน่งแล้ว บางครั้งเราจำเป็นต้องตั้งค่า Stop Loss/Profit สำหรับตำแหน่งนั้น ในคอลัมน์ "Trade" ของหน้าต่าง "Summary" ที่ด้านล่างของแพลตฟอร์ม ค้นหาตำแหน่งที่ต้องแก้ไข คลิกขวาที่ตำแหน่งนั้น แล้วเลือก "Modify or Delete Order" จากเมนู',
   inThePopUpWindow:
-    'In the pop-up window, follow the settings in the figure below to change the stop loss/take profit of the position.',
-  closePosition: '11. Close position',
-  theSummaryWindowAt: 'the "Summary" window at the bottom of the platform:',
+    'ในหน้าต่างป๊อปอัพ ทำตามการตั้งค่าในรูปด้านล่างเพื่อเปลี่ยนจุดหยุดการขาดทุน/การทำกำไรของตำแหน่ง',
+  closePosition: '11. ปิดตำแหน่ง',
+  theSummaryWindowAt: 'หน้าต่าง "สรุป" ที่ด้านล่างของแพลตฟอร์ม:',
   theAccountBalance:
-    'The account balance, net value, used margin (occupied margin), and available margin are also displayed in the window and used margin ratio (used margin ratio = equity/used margin). Now we close this transaction, right-click on the order and select "Close Position".',
+    'ยอดเงินในบัญชี มูลค่าสุทธิ มาร์จิ้นที่ใช้ (มาร์จิ้นที่ถูกครอบครอง) และมาร์จิ้นที่มีอยู่จะแสดงในหน้าต่างและอัตราส่วนมาร์จิ้นที่ใช้ (อัตราส่วนมาร์จิ้นที่ใช้ = ทุน/มาร์จิ้นที่ใช้) ตอนนี้เราปิดธุรกรรมนี้ คลิกขวาที่คำสั่งซื้อแล้วเลือก "ปิดตำแหน่ง"',
   atThisTimeWeOpened:
-    'At this time, we opened the closed trade confirmation window and clicked on the yellow button in the window to close this trade and realize profit for the position.',
+    'ในเวลานี้ เราเปิดหน้าต่างยืนยันการซื้อขายที่ปิดแล้วและคลิกที่ปุ่มสีเหลืองในหน้าต่างเพื่อปิดการซื้อขายนี้และรับรู้ผลกำไรสำหรับตำแหน่ง',
   oneClickClosing:
-    'One-click closing: Click the X button on the far right hand side of the position to activate one-click trading, which can complete the closing operation more quickly.',
-  accountHistory: '12. Account history',
+    'การปิดด้วยคลิกเดียว: คลิกปุ่ม X ที่ด้านขวาสุดของตำแหน่งเพื่อเปิดใช้งานการซื้อขายในคลิกเดียว ซึ่งสามารถดำเนินการปิดให้เสร็จสิ้นได้รวดเร็วยิ่งขึ้น',
+  accountHistory: '12. ประวัติบัญชี',
   youCanFindAllClosed:
-    'You can find all closed positions in the "Account History" column of the "Summary" window.',
+    'คุณสามารถค้นหาตำแหน่งที่ปิดทั้งหมดได้ในคอลัมน์ "ประวัติบัญชี" ของหน้าต่าง "สรุป"',
   profitLossTheTotal:
-    'Profit/Loss: the total profit and loss of the transaction, including rollover interest.',
-  depositsTotalDeposits: 'Deposits: total deposits.',
-  withdrawalTheTotal: 'Withdrawal: the total amount of withdrawals.',
-  openTheChartAndLoad: '13. Open the chart and load the technical indicators',
+    'กำไร/ขาดทุน: กำไรและขาดทุนทั้งหมดของธุรกรรม รวมถึงดอกเบี้ยแบบโรลโอเวอร์',
+  depositsTotalDeposits: 'เงินฝาก: เงินฝากทั้งหมด',
+  withdrawalTheTotal: 'การถอน: จำนวนเงินที่ถอนทั้งหมด',
+  openTheChartAndLoad: '13. เปิดแผนภูมิและโหลดตัวบ่งชี้ทางเทคนิค',
   afterTheMT4Platform:
-    'After the MT4 platform is installed, four charts will be opened by default. If you want to create a new chart, the easiest way is to right-click on the price quotation of the product that needs the chart, and select the menu option "Chart Window".',
+    'หลังจากติดตั้งแพลตฟอร์ม MT4 แล้ว สี่แผนภูมิจะเปิดขึ้นตามค่าเริ่มต้น หากคุณต้องการสร้างแผนภูมิใหม่ วิธีที่ง่ายที่สุดคือการคลิกขวาที่ใบเสนอราคาของสินค้าที่ต้องการแผนภูมิ แล้วเลือกตัวเลือกเมนู "หน้าต่างแผนภูมิ"',
   ifYouWantToSwitch:
-    'If you want to switch the time period of the current chart, you can find it directly on the toolbar at the top of the platform. The list of technical indicators that comes',
+    'หากคุณต้องการเปลี่ยนช่วงเวลาของแผนภูมิปัจจุบัน คุณสามารถค้นหาได้โดยตรงบนแถบเครื่องมือที่ด้านบนสุดของแพลตฟอร์ม รายการตัวบ่งชี้ทางเทคนิคที่มา',
   withMT4IsLocatedInThe:
-    'with MT4 is located in the navigation window on the left side of the platform. Right-click the indicator that needs to be added to the chart and select "Attach to Chart" to add the indicator to the current chart.',
+    'ด้วย MT4 จะอยู่ในหน้าต่างนำทางทางด้านซ้ายของแพลตฟอร์ม คลิกขวาที่ตัวบ่งชี้ที่ต้องการเพิ่มในแผนภูมิ และเลือก "แนบกับแผนภูมิ" เพื่อเพิ่มตัวบ่งชี้ในแผนภูมิปัจจุบัน',
   afterReadingThis:
-    "After reading this, you have learned the basic operations that you must master when using the MT4 platform. It is recommended that you register for a demo account and practice harder. If you have any questions about the platform, you are welcome to contact WCG's online customer service.",
+    'หลังจากอ่านข้อความนี้ คุณได้เรียนรู้การทำงานพื้นฐานที่คุณต้องเชี่ยวชาญเมื่อใช้แพลตฟอร์ม MT4 ขอแนะนำให้คุณลงทะเบียนบัญชีทดลองและฝึกฝนให้หนักขึ้น หากคุณมีคำถามใดๆ เกี่ยวกับแพลตฟอร์ม คุณสามารถติดต่อฝ่ายบริการลูกค้าออนไลน์ของ WCG ได้',
   leverageAndMarginMargin:
-    'Leverage and margin (margin is also called "prepayment" on the MT4 platform) are like two sides of a coin， they actually refer to the same concept. Here we use an example to illustrate how leverage and margin play a role in trading.',
+    'เลเวอเรจและมาร์จิ้น (margin เรียกอีกอย่างว่า "การชำระล่วงหน้า" บนแพลตฟอร์ม MT4) เปรียบเสมือนเหรียญสองด้าน ซึ่งจริงๆแล้วหมายถึงแนวคิดเดียวกัน ที่นี่เราใช้ตัวอย่างเพื่อแสดงให้เห็นว่าเลเวอเรจและมาร์จิ้นมีบทบาทอย่างไรในการซื้อขาย',
   assumingThatA1Lot:
-    'Assuming that a 1 lot USD/JPY position is established， the value of the position is 100，000 USD:',
+    'สมมติว่ามีการสร้างตำแหน่ง USD/JPY จำนวน 1 ล็อต มูลค่าของตำแหน่งคือ 100,000 USD:',
   whenTheLeverageRatioIs11:
-    'When the leverage ratio is 1:1， the margin occupied by the position is USD 100，000. In other words， you need to prepare at least $100，000 to open an equal position (the stock market is a market with a leverage ratio of 1:1).',
+    'เมื่ออัตราส่วนเลเวอเรจเท่ากับ 1:1 มาร์จิ้นที่อยู่ในตำแหน่งคือ 100,000 ดอลลาร์สหรัฐฯ กล่าวอีกนัยหนึ่ง คุณต้องเตรียมเงินอย่างน้อย $100,000 เพื่อเปิดตำแหน่งที่เท่ากัน (ตลาดหุ้นคือตลาดที่มีอัตราส่วนเลเวอเรจ 1:1)',
   whenTheLeverageRatioIs1400:
-    'When the leverage ratio is 1:400， the margin occupied by the position is 100，000 / 400 = USD 250. In other words， with a leverage of 400 times， you can open a position worth $100，000 with just $250 as a margin.',
+    'เมื่ออัตราส่วนเลเวอเรจเท่ากับ 1:400 มาร์จิ้นครอบครองโดยตำแหน่งคือ 100,000 / 400 = 250 ดอลลาร์สหรัฐฯ กล่าวอีกนัยหนึ่ง ด้วยเลเวอเรจ 400 เท่า คุณสามารถเปิดตำแหน่งมูลค่า 100,000 ดอลลาร์ด้วยเงินเพียง 250 ดอลลาร์ในฐานะ ขอบ',
   pleaseKeepInMindThat:
-    'Please keep in mind that the margin is the deposit that needs to be paid to establish a new transaction， it is not a charge to you. When a transaction is opened， a part of the funds in your account will be used as margin. The bigger the leverage， the smaller the margin is required for the transaction. When the trade is closed， the occupied margin will become available margin again for your account to open new positions or maintain the floating losses of other positions.',
+    'โปรดทราบว่ามาร์จิ้นคือเงินมัดจำที่ต้องจ่ายเพื่อสร้างธุรกรรมใหม่ ซึ่งไม่ถือเป็นการเรียกเก็บเงินจากคุณ เมื่อเปิดธุรกรรม เงินส่วนหนึ่งในบัญชีของคุณจะใช้เป็นหลักประกัน ยิ่งเลเวอเรจมากเท่าใด มาร์จิ้นที่จำเป็นสำหรับธุรกรรมก็จะยิ่งน้อยลงเท่านั้น เมื่อการซื้อขายปิดลง มาร์จิ้นที่ถูกครอบครองจะกลายเป็นมาร์จิ้นที่ใช้ได้อีกครั้งสำหรับบัญชีของคุณในการเปิดโพซิชั่นใหม่หรือรักษาการขาดทุนแบบลอยตัวของโพซิชั่นอื่นๆ',
   weUsuallyRecommendTraders:
-    'We usually recommend traders to use leverage with caution. Leverage is a double-edged sword. It can amplify profits as well as losses. In the above example， assuming that there are 100，000 US dollars in the account and the leverage ratio is 1:1， you can only open 1 lot of USD/JPY. When the leverage ratio is 1:400， you can open up to 400 lots of USD/JPY. JPY (100，000 / 250)， as the transaction volume increases， the potential risks and profits are enlarged.',
+    'เรามักจะแนะนำให้เทรดเดอร์ใช้เลเวอเรจด้วยความระมัดระวัง เลเวอเรจเป็นดาบสองคม สามารถเพิ่มกำไรและขาดทุนได้ ในตัวอย่างข้างต้น สมมติว่ามีเงิน 100,000 ดอลลาร์สหรัฐในบัญชีและอัตราส่วนเลเวอเรจคือ 1:1 คุณสามารถเปิด USD/JPY ได้เพียง 1 ล็อตเท่านั้น เมื่ออัตราส่วนเลเวอเรจเท่ากับ 1:400 คุณสามารถเปิด USD/JPY ได้มากถึง 400 ล็อต JPY (100,000 / 250) เมื่อปริมาณธุรกรรมเพิ่มขึ้น ความเสี่ยงและผลกำไรที่อาจเกิดขึ้นก็เพิ่มขึ้น',
   stopLossPriceWhenThePrice:
-    'Stop Loss Price: When the price reaches the specified price， the position is automatically closed out; the default is zero， which means no stop loss is set.',
+    'ราคา Stop Loss: เมื่อราคาถึงราคาที่กำหนด ตำแหน่งจะปิดโดยอัตโนมัติ ค่าเริ่มต้นคือศูนย์ ซึ่งหมายความว่าไม่มีการตั้งค่า Stop Loss',
   whenUsingLeverage:
-    'When using leverage， you also need to prevent the risk of liquidation: if the opened position is too large， and the price continues to fluctuate in the unfavorable direction of the position， when the account equity (account capital that changes with the profit and loss of the position) drops to 50% of the occupied margin， that is， when the prepayment ratio on the MT4 platform drops to 50%， all positions in the account will be forced to liquidate immediately',
+    'เมื่อใช้เลเวอเรจ คุณยังต้องป้องกันความเสี่ยงของการชำระบัญชี: หากสถานะที่เปิดอยู่มีขนาดใหญ่เกินไป และราคายังคงผันผวนในทิศทางที่ไม่เอื้ออำนวยของสถานะ เมื่อส่วนของบัญชี (ทุนของบัญชีที่เปลี่ยนแปลงตามกำไรและขาดทุน ของสถานะ) ลดลงเหลือ 50% ของมาร์จิ้นที่ถูกครอบครอง นั่นคือเมื่ออัตราส่วนการชำระเงินล่วงหน้าบนแพลตฟอร์ม MT4 ลดลงเหลือ 50% สถานะทั้งหมดในบัญชีจะถูกบังคับให้ชำระบัญชีทันที',
   weRecommendThatYou:
-    'We recommend that you， as a newbie， try different leverages in your demo account to find out the most suitable leverage ratio for yourself.',
+    'ในฐานะมือใหม่ เราขอแนะนำให้คุณลองใช้เลเวอเรจแบบต่างๆ ในบัญชีทดลองของคุณเพื่อหาอัตราส่วนเลเวอเรจที่เหมาะสมที่สุดสำหรับตัวคุณเอง',
   contractForDifference:
-    'Contract for difference "CFD" as a derivative investment tool allows investors to trade the price changes of various financial assets such as stock indexes and commodity futures. By trading CFDs， investors can conveniently speculate in different financial markets without actually holding the underlying assets of the relevant market. Because it can easily meet the needs of diversified investment and global investment， CFD trading has become more and more popular.',
-  exploreTheCfdMarket: 'Explore the CFD market',
-  index: '-Index',
-  energy: '-Energy',
-  preciousMetals: '-Precious Metals',
-  contractDetails: '-Contract Details',
-  WhatAreTheDifferentTypes:
-    'What are the different types of underlying assets of CFDs?',
+    'สัญญาซื้อขายส่วนต่าง "CFD" เป็นเครื่องมือการลงทุนอนุพันธ์ช่วยให้นักลงทุนซื้อขายการเปลี่ยนแปลงราคาของสินทรัพย์ทางการเงินต่างๆ เช่น ดัชนีหุ้นและฟิวเจอร์สสินค้าโภคภัณฑ์ ด้วยการซื้อขาย CFD นักลงทุนสามารถเก็งกำไรในตลาดการเงินต่างๆ ได้อย่างสะดวก โดยไม่ต้องถือครองสินทรัพย์อ้างอิงของตลาดที่เกี่ยวข้อง เนื่องจากสามารถตอบสนองความต้องการของการลงทุนที่หลากหลายและการลงทุนทั่วโลกได้อย่างง่ายดาย การเทรด CFD จึงเป็นที่นิยมมากขึ้นเรื่อยๆ',
+  exploreTheCfdMarket: 'สำรวจตลาด CFD',
+  index: '-ดัชนี',
+  energy: '-พลังงาน',
+  preciousMetals: '-โลหะมีค่า',
+  contractDetails: 'รายละเอียดสัญญา',
+  WhatAreTheDifferentTypes: 'สินทรัพย์อ้างอิงประเภทต่างๆ ของ CFD มีอะไรบ้าง?',
   aStockIndexAsAFinancial:
-    'A stock index is a financial asset that represents the value of a specific part of the stock in the stock market. For example， one of the most popular stock indexes， the Standard & Poors 500， represents the overall performance of the leading 500 companies publicly traded on the US stock market. If you trade the S&P 500 CFDs through WCG， you can decide whether to open a buy or sell position by speculating whether the index will rise or fall. WCG also provides CFD trading on other famous stock indexes， including the UK FTSE Index (UK100)， the US Dow Jones 30 Index (US30)， the US Nasdaq 100 Index (NAS100)， the French CAC 40 Index (FRA40)， and Europe Stoxx 50 Index (ESTX50)， German DAX Index (GER30)， Nikkei 225 Index (JPN225) and Australia ASX 200 Index (AUS200).',
+    'ดัชนีหุ้นเป็นสินทรัพย์ทางการเงินที่แสดงถึงมูลค่าของส่วนใดส่วนหนึ่งของหุ้นในตลาดหุ้น ตัวอย่างเช่น หนึ่งในดัชนีหุ้นยอดนิยมอย่าง Standard & Poors 500 แสดงถึงประสิทธิภาพโดยรวมของบริษัทชั้นนำ 500 แห่งที่ซื้อขายต่อสาธารณะในตลาดหุ้นสหรัฐฯ หากคุณซื้อขาย CFD ของ S&P 500 ผ่าน WCG คุณสามารถตัดสินใจได้ว่าจะเปิดสถานะซื้อหรือขายโดยการคาดเดาว่าดัชนีจะขึ้นหรือลง WCG ยังให้บริการซื้อขาย CFD ของดัชนีหุ้นที่มีชื่อเสียงอื่นๆ เช่น ดัชนี FTSE ของสหราชอาณาจักร (UK100) ดัชนีดาวโจนส์ 30 ของสหรัฐฯ (US30) ดัชนี Nasdaq 100 ของสหรัฐฯ (NAS100) ดัชนี CAC 40 ของฝรั่งเศส (FRA40) และยุโรป ดัชนี Stoxx 50 (ESTX50), ดัชนี DAX ของเยอรมัน (GER30), ดัชนี Nikkei 225 (JPN225) และดัชนี ASX 200 ของออสเตรเลีย (AUS200)',
   commodityFuturesAreAlso:
-    'Commodity futures are also a kind of financial asset. It represents an agreement to buy or sell a said amount of a certain commodity， such as platinum， copper or crude oil at a predetermined date and price. Since the prices of commodities always fluctuate with changes in supply and demand， traders can speculate on their price fluctuations by buying and selling commodity futures. If you trade platinum CFDs through WCG， you can predict whether the price of platinum will rise or fall in the future and decide whether to open a buy or sell order. The commodity CFDs provided by WCG also include copper and crude oil (Texas light crude oil WTI and BRENT crude oil).',
+    'ฟิวเจอร์สสินค้าโภคภัณฑ์ยังเป็นสินทรัพย์ทางการเงินประเภทหนึ่ง เป็นข้อตกลงในการซื้อหรือขายสินค้าโภคภัณฑ์จำนวนหนึ่ง เช่น แพลทินัม ทองแดง หรือน้ำมันดิบ ณ วันที่และราคาที่กำหนดไว้ล่วงหน้า เนื่องจากราคาของสินค้าโภคภัณฑ์มักผันผวนตามการเปลี่ยนแปลงของอุปสงค์และอุปทาน ผู้ค้าจึงสามารถเก็งกำไรจากความผันผวนของราคาได้โดยการซื้อและขายโภคภัณฑ์ล่วงหน้า หากคุณซื้อขาย CFD แพลทินัมผ่าน WCG คุณสามารถคาดการณ์ได้ว่าราคาของแพลทินัมจะเพิ่มขึ้นหรือลดลงในอนาคต และตัดสินใจว่าจะเปิดคำสั่งซื้อหรือขาย CFD สินค้าโภคภัณฑ์ที่ให้บริการโดย WCG ยังรวมถึงทองแดงและน้ำมันดิบ (น้ำมันดิบ Texas light WTI และน้ำมันดิบ BRENT)',
   byOpeningAnAccountThrough:
-    'By opening an account through WCG， you can trade foreign exchange and stock index or commodity CFDs on the same platform and account. You will be able to freely swift between the foreign exchange market and different CFD markets， open and close positions accurately.',
-  whatAreTheAdvantages: 'What are the advantages of CFD trading?',
+    'เมื่อเปิดบัญชีผ่าน WCG คุณสามารถซื้อขายแลกเปลี่ยนเงินตราต่างประเทศและดัชนีหุ้นหรือ CFD สินค้าโภคภัณฑ์บนแพลตฟอร์มและบัญชีเดียวกัน คุณจะสามารถสลับไปมาได้อย่างอิสระระหว่างตลาดแลกเปลี่ยนเงินตราต่างประเทศและตลาด CFD ต่างๆ เปิดและปิดตำแหน่งได้อย่างถูกต้อง',
+  whatAreTheAdvantages: 'ข้อดีของการซื้อขาย CFD คืออะไร?',
   theMostSignificantAdvantage:
-    'The most significant advantage of trading CFDs is that you can use up to 100 times leverage， which means you can open larger transactions with lower starting capital and relatively small transaction costs. It should be noted that although leverage can magnify profits， it will also magnify losses. Therefore， you need to adopt appropriate risk management strategies when trading CFDs with leverage. CFDs also support two-ways trading， whether it is a bear market or a bull market， you can buy and sell freely， and the whole process you will not be charged any commission or financing fees. Trade all products on one account and take full advantage of the multiple trading opportunities that WCG provides you.'
+    'ข้อได้เปรียบที่สำคัญที่สุดของการเทรด CFD คือคุณสามารถใช้เลเวอเรจได้มากถึง 100 เท่า ซึ่งหมายความว่าคุณสามารถเปิดธุรกรรมขนาดใหญ่ขึ้นด้วยทุนเริ่มต้นที่ต่ำกว่าและต้นทุนการทำธุรกรรมที่ค่อนข้างน้อย ควรสังเกตว่าแม้ว่าเลเวอเรจจะช่วยเพิ่มผลกำไรได้ แต่ก็จะขยายการขาดทุนด้วย ดังนั้น คุณต้องใช้กลยุทธ์การจัดการความเสี่ยงที่เหมาะสมเมื่อซื้อขาย CFD ด้วยเลเวอเรจ CFDs ยังรองรับการซื้อขายแบบสองทาง ไม่ว่าจะเป็นตลาดหมีหรือตลาดกระทิง คุณสามารถซื้อและขายได้อย่างอิสระ และคุณจะไม่ถูกเรียกเก็บค่าคอมมิชชั่นหรือค่าธรรมเนียมทางการเงินใดๆ ในกระบวนการทั้งหมด ซื้อขายผลิตภัณฑ์ทั้งหมดในบัญชีเดียวและใช้ประโยชน์จากโอกาสในการซื้อขายที่หลากหลายที่ WCG มอบให้คุณ'
 };

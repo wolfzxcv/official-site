@@ -97,7 +97,7 @@ export const basicTrading: BasicTrading = {
   thisIsTheThirdTradingMethod:
     'Ini adalah kaedah perdagangan ketiga, iaitu gunakan tapisan yang sama untuk menyaring berita yang berpengaruh tinggi dan pastikan untuk mengelakkan tempoh berita ini diperdagangkan. Kaedah ini lebih sesuai untuk pedagang (atau pedagang jangka panjang) yang menggunakan carta 1 jam, 4 jam atau harian untuk mengatur strategi perdagangan . ',
   afterTheDownloadProcess:
-    'Setelah proses muat turun selesai, mulakan proses pemasangan ：',
+    'Setelah proses muat turun selesai, mulakan proses pemasangan :',
   checkYesIAgreeWith:
     '1. Tandakan "Ya, saya setuju dengan semua syarat perjanjian lesen ini" dan kemudian tekan butang "Seterusnya". Sekiranya anda perlu menentukan jalan pemasangan platform MT4, klik butang "Tetapan". ',
   theInstallationWizard:
@@ -113,21 +113,21 @@ export const basicTrading: BasicTrading = {
   createAMarketOrder: '6. Buat market order',
   thereAreManyWaysTo:
     'Terdapat banyak cara untuk membuka transaksi baru di platform MT4. Operasi termudah adalah dengan mengklik butang pintasan "Pesanan Baru" pada toolbar di bahagian atas platform dan kemudian order window akan muncul',
-  productCategory: '7. Kategori produk ：Pilih sasaran perdagangan anda',
+  productCategory: '7. Kategori produk :Pilih sasaran perdagangan anda',
   lotsEnterTheLotSize:
-    'Lot： Masukkan ukuran lot, minimum ialah 0.01 lot (pertukaran mata wang asing, emas dan perak). ',
+    'Lot: Masukkan ukuran lot, minimum ialah 0.01 lot (pertukaran mata wang asing, emas dan perak). ',
   stopLossPrice:
-    'Stop Loss Price： Apabila harga mencapai harga yang ditentukan, kedudukan ditutup secara automatik; default adalah sifar, yang bermaksud tiada stop loss yang ditetapkan. ',
+    'Stop Loss Price: Apabila harga mencapai harga yang ditentukan, kedudukan ditutup secara automatik; default adalah sifar, yang bermaksud tiada stop loss yang ditetapkan. ',
   takeProfitPrice:
-    'Harga take profit：Apabila harga mencapai harga yang ditentukan, posisi akan ditutup secara automatik untuk mengekalkan keuntungan; default adalah sifar, yang bermaksud tiada take profit ditetapkan. ',
+    'Harga take profit:Apabila harga mencapai harga yang ditentukan, posisi akan ditutup secara automatik untuk mengekalkan keuntungan; default adalah sifar, yang bermaksud tiada take profit ditetapkan. ',
   sellAtMarketPriceOrBuy:
-    'Jual pada harga pasaran atau beli pada harga pasaran：klik butang merah untuk menjual dan klik butang biru untuk membeli. ',
+    'Jual pada harga pasaran atau beli pada harga pasaran:klik butang merah untuk menjual dan klik butang biru untuk membeli. ',
   theOrderTypeColumn:
     '"Jenis Order" di order window, pilihan default adalah "Harga Pasaran", yang bermaksud membuat transaksi pada harga pasaran semasa. ',
   pendingOrder: '8. Pending order',
   changeTheOrderType:
     'Ubah jenis order menjadi "Pending Order" di order window untuk melaksanakan arahan order yang belum selesai. ',
-  thereAreFourTypes: 'Terdapat empat jenis pending order：：',
+  thereAreFourTypes: 'Terdapat empat jenis pending order:',
   buyLimitBuyPending:
     'Buy limit—— Beli pending order dengan harga yang lebih rendah daripada harga pasaran; ',
   sellLimitSellPending:
@@ -150,7 +150,7 @@ export const basicTrading: BasicTrading = {
     'Di pop-up window, ikuti tetapan pada gambar di bawah untuk mengubah stop loss/take profit dari posisi. ',
   closePosition: '11. Tutup posisi',
   theSummaryWindowAt:
-    'Setelah membuka perdagangan, anda dapat lihat posisi di bahagian "Transaksi" di tetingkap "Ringkasan" di bahagian bawah platform：',
+    'Setelah membuka perdagangan, anda dapat lihat posisi di bahagian "Transaksi" di tetingkap "Ringkasan" di bahagian bawah platform:',
   theAccountBalance:
     'Baki akaun, nilai bersih, margin terpakai (margin diduduki), dan margin yang tersedia juga dipaparkan di tetingkap dan nisbah margin terpakai (nisbah margin terpakai = ekuiti/margin terpakai). Sekarang kita akan menutup transaksi ini, klik kanan pada order dan pilih "Tutup Posisi"」. ',
   atThisTimeWeOpened:
@@ -176,7 +176,7 @@ export const basicTrading: BasicTrading = {
   leverageAndMarginMargin:
     'Leverage dan margin (margin juga disebut "prabayar" di platform MT4) adalah seperti dua sisi duit syiling, mereka sebenarnya merujuk kepada konsep yang sama. Di sini kami menggunakan contoh untuk menggambarkan bagaimana leverage dan margin berperanan dalam perdagangan. ',
   assumingThatA1Lot:
-    'Dengan andaian bahawa kedudukan USD/JPY 1 lot ditetapkan, nilai posisinya adalah 100,000 USD：',
+    'Dengan andaian bahawa kedudukan USD/JPY 1 lot ditetapkan, nilai posisinya adalah 100,000 USD:',
   whenTheLeverageRatioIs11:
     'Apabila nisbah leverage adalah 1:1, margin yang ditempati oleh posisi adalah USD 100,000. Dengan kata lain, anda perlu mempersiapkan sekurang-kurangnya $100,000 untuk membuka posisi yang sama (pasaran saham adalah pasaran dengan nisbah leverage 1:1)）. ',
   whenTheLeverageRatioIs1400:
@@ -186,7 +186,7 @@ export const basicTrading: BasicTrading = {
   weUsuallyRecommendTraders:
     'Kami biasanya mengesyorkan pedagang menggunakan leverage dengan berhati-hati. Leverage adalah pedang bermata dua. Ia dapat meningkatkan keuntungan dan juga kerugian. Dalam contoh di atas, dengan anggapan terdapat 100,000 US dolar dalam akaun dan nisbah leverage adalah 1:1, anda hanya dapat membuka 1 lot USD/JPY. Apabila nisbah leverage adalah 1:400, anda boleh membuka hingga 400 lot USD/JPY. JPY (100,000/250), apabila jumlah urus niaga meningkat, potensi risiko dan keuntungan akan bertambah. ',
   stopLossPriceWhenThePrice:
-    'Harga take profit：Apabila harga mencapai harga yang ditentukan, posisi akan ditutup secara automatik untuk mengekalkan keuntungan; default adalah sifar, yang bermaksud tiada take profit ditetapkan. ',
+    'Harga take profit:Apabila harga mencapai harga yang ditentukan, posisi akan ditutup secara automatik untuk mengekalkan keuntungan; default adalah sifar, yang bermaksud tiada take profit ditetapkan. ',
   whenUsingLeverage:
     'Semasa menggunakan leverage, anda juga perlu mencegah risiko pembubaran: jika posisi dibuka terlalu besar, dan harga terus berubah ke arah posisi yang tidak menguntungkan, ketika ekuiti akaun (modal akaun yang berubah dengan untung rugi dari kedudukan) turun ke 50% dari margin yang diduduki, iaitu apabila nisbah pembayaran di platform MT4 jatuh ke 50%, semua posisi di dalam akaun akan dipaksa untuk segera dicairkan. ',
   weRecommendThatYou:

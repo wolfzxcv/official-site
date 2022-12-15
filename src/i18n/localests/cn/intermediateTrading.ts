@@ -168,7 +168,7 @@ export const intermediateTrading: IntermediateTrading = {
     '在交易开设后，盈利目标通常设置为从头部到颈线的点数距离。',
   inAdditionYouMaySometimes:
     '另外，也许有时候您还会碰到头肩底形态，头肩底往往出现在一波下跌趋势的末尾，并意味着未来价格上涨的可能性较大。头肩底由一个波谷，紧接着一个更低的底部和一个更高的波谷构成。与头肩顶类似，头肩底的进场时机是在确认颈线被价格突破的时候，或者等待看看颈线是否会被回测。',
-  theFigureBelowShowsThe: '下图是实际市场中的头肩底形态：：',
+  theFigureBelowShowsThe: '下图是实际市场中的头肩底形态：',
   doubleTopAndDoubleBottom: '双顶和双底',
   doubleTopPatternOften:
     '双顶形态往往出现在一段上涨趋势的顶部，它也是一个倒转形态，意味着一波上涨趋势的结束。双顶形态由两个紧挨着的峰值构成，且两个峰值的价格是相近的。形态的颈线位于价格形成的支持水平。当价格跌破支持水平，也即颈线时，我们认为形态已经形成。',
@@ -205,7 +205,7 @@ export const intermediateTrading: IntermediateTrading = {
   profitTargetProfit:
     '每当价格朝着有利的方向移动一定点数时，追踪止损的价格也跟着发生移动。换句话说，当价格朝着有利方向移动时，追踪止损会自动「追踪」价格。这个功能能帮助您锁定利润，并自动管理您的交易。',
   profitTarget: '盈利目标',
-  profitTargetProfitTarget:
+  profitTargetIs:
     '盈利目标是一种预先设定的价格，在此价格上您将盈利平仓。在您打算开设仓位前，您应该确定您的获利价格设在哪里。盈利目标是订单管理的重要组成部分，只要市场价格达到了获利价格，您无需在电脑旁监控仓位，获利会帮助您自动平仓结利。',
   marketOrder: '市价单',
   aMarketOrder:

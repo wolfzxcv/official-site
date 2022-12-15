@@ -30,7 +30,7 @@ export const fundManager: FundManager = {
   openMainAccount: 'Buka akaun utama',
   collectTheTradingHistory: 'Kumpulkan sejarah perdagangan akaun mereka',
   manageInvestorAccounts: 'Urus akaun pelabur',
-  setANickname: 'Tetapkan nama samaran， tetapkan had risiko',
+  setANickname: 'Tetapkan nama samaran, tetapkan had risiko',
   setFees: 'Tetapkan yuran',
   investorsCan: 'Pelabur boleh',
   lookForAFund: 'Cari pengurus pelaburan dana',

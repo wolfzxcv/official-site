@@ -64,7 +64,7 @@ export const advancedTrading: AdvancedTrading = {
     'Tất nhiên, phân tích cơ bản không nhằm vào giá thị trường chính xác. Ví dụ: khi phân tích báo cáo việc làm của một quốc gia, chúng ta có thể hiểu tương đối rõ ràng về điều kiện kinh tế tổng thể của quốc gia đó, nhưng nếu chúng ta muốn có được các chiến lược giao dịch cụ thể như điểm vào và điểm ra, chúng ta vẫn cần sử dụng phương pháp phân tích kỹ thuật. Vì lý do này, nhiều nhà giao dịch có thể chọn từ bỏ hoàn toàn phân tích cơ bản và chỉ dựa vào phân tích kỹ thuật nói riêng khi họ thua lỗ bằng cách sử dụng một lượng lớn thông tin cơ bản. Đây là một cách tiếp cận sai lầm. Giao dịch mà không có sự hiểu biết nhất định về các yếu tố cơ bản giống như người mù sờ voi. Thông tin giá bạn thấy trên biểu đồ có thể không phải là sự thật của thị trường. ',
   longTerm: 'Phân tích dài hạn về các nguyên tắc cơ bản',
   whenMeasuringCurrencys:
-    'Khi đo lường giá trị tiền tệ， các nguyên tắc cơ bản trong dài hạn sử dụng hai phương pháp phân tích cổ điển: lý thuyết ngang giá sức mua và lý thuyết cán cân thanh toán quốc tế. ',
+    'Khi đo lường giá trị tiền tệ, các nguyên tắc cơ bản trong dài hạn sử dụng hai phương pháp phân tích cổ điển: lý thuyết ngang giá sức mua và lý thuyết cán cân thanh toán quốc tế. ',
   purchasingPower: 'Lý thuyết ngang giá sức mua',
   purchasingPowerParity:
     'Lý thuyết ngang giá sức mua phát biểu rằng tỷ giá hối đoái của hai loại tiền tệ phải bằng tỷ lệ giữa mức giá của một rổ hàng hóa và dịch vụ ở hai quốc gia này. Điều này là do nếu giá thực tế của một nhóm hàng hoá ở hai quốc gia chênh lệch nhau khá nhiều, giả sử rằng chi phí vận chuyển bằng 0, thương nhân có thể kiếm lời bằng cách mua và bán. ',
@@ -143,7 +143,7 @@ export const advancedTrading: AdvancedTrading = {
   whenThePrice:
     'Khi giá quay trở lại mức thấp trước đó hoặc mức cao trước đó lặp đi lặp lại, số lần quay trở lại càng nhiều thì hỗ trợ hoặc kháng cự của giá càng mạnh. Nếu thị trường tiền tệ phá vỡ thành công mức hỗ trợ và thay đổi xu hướng, mức hỗ trợ mạnh ban đầu có khả năng chuyển thành mức kháng cự mạnh trong diễn biến thị trường tiếp theo hoặc ngược lại.',
   theAbove:
-    'Hình trên là biểu đồ hàng tuần của AUD/CAD. Tỷ giá hối đoái đã được hỗ trợ trong vùng 0，99-1，00 nhiều lần, và sau đó tỷ giá hối đoái đã gặp phải kháng cự ở cùng mức độ nhiều lần. ',
+    'Hình trên là biểu đồ hàng tuần của AUD/CAD. Tỷ giá hối đoái đã được hỗ trợ trong vùng 0，99-1,00 nhiều lần, và sau đó tỷ giá hối đoái đã gặp phải kháng cự ở cùng mức độ nhiều lần. ',
   patternRecognitionJudgment: 'Phán đoán nhận dạng mẫu',
   chartPatterns:
     'Các mẫu biểu đồ thường cung cấp các phương pháp để đánh giá các mức hỗ trợ và kháng cự. ',
@@ -161,7 +161,7 @@ export const advancedTrading: AdvancedTrading = {
     'Đứng đầu với khối lượng giao dịch lớn nhất, người tham gia có thể hưởng mức chênh lệch thấp nhất. ',
   centralBanks: 'Ngân hàng Trung ương',
   controlTheMoney:
-    'Kiểm soát cung tiền, tỷ lệ lạm phát， lãi suất, sử dụng dự trữ ngoại hối khổng lồ để ổn định thị trường trong nước. ',
+    'Kiểm soát cung tiền, tỷ lệ lạm phát, lãi suất, sử dụng dự trữ ngoại hối khổng lồ để ổn định thị trường trong nước. ',
   thisMeansThat:
     'Điều này có nghĩa là các ngân hàng trung ương cũng chiếm vị trí quan trọng trên thị trường ngoại hối. ',
   investmentManagementCompanies: 'Công ty quản lý đầu tư',

@@ -68,7 +68,7 @@ export const intermediateTrading: IntermediateTrading = {
     'The specific operation method is to right-click the pointer in the navigation window and select "Set Shortcut Key"',
   favoriteIndicatorList: 'Favorite indicator list',
   inOrderToSimplifyThe:
-    'In order to simplify the steps of retrieving commonly used indicators, you can create a “favorites” list for frequently used indicators. The following is an introduction to you on how to add indicators to your favorites:',
+    'In order to simplify the steps of retrieving commonly used indicators, you can create a "favorites" list for frequently used indicators. The following is an introduction to you on how to add indicators to your favorites:',
   openTheNavigationWindow: 'Open the navigation window (Ctrl+N);',
   expandTheRelevantContent:
     'Expand the relevant content directory (technical indicators, scripts, etc.);',
@@ -175,7 +175,7 @@ export const intermediateTrading: IntermediateTrading = {
   inAdditionYouMaySometimes:
     'In addition, you may sometimes encounter a head-and-shoulders bottom pattern. The head-and-shoulders bottom tends to appear at the end of a wave of downtrend and means that the future price increase is more likely. The head and shoulders bottom consists of a trough, followed by a lower bottom and a higher trough. Similar to the head and shoulders, the entry timing of the head and shoulders is when you confirm that the neckline is broken by the price, or wait to see if the neckline will be backtested.',
   theFigureBelowShowsThe:
-    'The figure below shows the head and shoulders bottom pattern in the actual market: ：',
+    'The figure below shows the head and shoulders bottom pattern in the actual market: ',
   doubleTopAndDoubleBottom: 'Double top and double bottom',
   doubleTopPatternOften:
     'Double top pattern often appears at the top of an uptrend. It is also a reversal pattern, which means the end of an uptrend. The double top pattern consists of two peaks next to each other, and the prices of the two peaks are similar. The neckline of the pattern is at the support level formed by the price. When the price breaks below the support level, the neckline, we believe that the pattern has formed.',
@@ -213,8 +213,8 @@ export const intermediateTrading: IntermediateTrading = {
   profitTargetProfit:
     "Profit target Profit target is a pre-set price at which you will close your position profitably. Before you plan to open a position, you should determine where your profit price is set. The profit target is an important part of order management. As long as the market price reaches the profit price, you don't need to monitor the position next to the computer, and the profit will help you automatically close the profit.",
   profitTarget: 'Profit target',
-  profitTargetProfitTarget:
-    "Profit target Profit target is a pre-set price at which you will close your position profitably. Before you plan to open a position, you should determine where your profit price is set. The profit target is an important part of order management. As long as the market price reaches the profit price, you don't need to monitor the position next to the computer, and the profit will help you automatically close the profit.",
+  profitTargetIs:
+    "Profit target is a pre-set price at which you will close your position profitably. Before you plan to open a position, you should determine where your profit price is set. The profit target is an important part of order management. As long as the market price reaches the profit price, you don't need to monitor the position next to the computer, and the profit will help you automatically close the profit.",
   marketOrder: 'Market order',
   aMarketOrder:
     'A market order is a trader who manually opens a position and executes an order at the current market tradable price. Day traders and some scalping traders are more inclined to open market orders for trading.',

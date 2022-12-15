@@ -24,7 +24,7 @@ export const preciousMetals: PreciousMetals = {
     'Di antara semua logam berharga, emas adalah yang paling popular di kalangan pedagang. Emas memberi banyak peluang perdagangan untuk pedagang dalam talian Ini terutamanya kerana emas unik dan kedudukannya dalam ekonomi dunia adalah unik.',
   participantsInGoldTrading: 'Peserta dalam perdagangan emas',
   theGoldMarketAttracts:
-    'Pasaran emas menarik sebilangan besar pedagang. Sebilangan besar dari mereka mencari pilihan pelaburan yang selamat dan menguntungkan untuk mencapai pertumbuhan kekayaan yang mampan atau untuk mengelakkan risiko yang ditimbulkan oleh pelaburan lain. Inilah sebabnya mengapa emas begitu menarik. Peserta dalam pasaran emas boleh dibahagikan kepada dua kategori berikut：',
+    'Pasaran emas menarik sebilangan besar pedagang. Sebilangan besar dari mereka mencari pilihan pelaburan yang selamat dan menguntungkan untuk mencapai pertumbuhan kekayaan yang mampan atau untuk mengelakkan risiko yang ditimbulkan oleh pelaburan lain. Inilah sebabnya mengapa emas begitu menarik. Peserta dalam pasaran emas boleh dibahagikan kepada dua kategori berikut:',
   goldBelievers: 'Penganut emas',
   mainlyIncludeIndividualInvestors:
     'Terutama merangkumi pelabur individu dan pedagang emas. Penganut emas menyumbang sebahagian besar dari keseluruhan pasaran emas. Orang-orang ini pada dasarnya optimis dengan komoditi yang mahal ini dan memperuntukkan sejumlah besar aset kepada emas. Sebilangan besar pemain runcit di pasaran adalah seperti jenis ini. Mereka sering memegang posisi jangka panjang dan memasukkan sejumlah besar kecairan ke dalam pasaran emas melalui niat pembelian yang.',

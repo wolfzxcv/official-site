@@ -95,7 +95,7 @@ export const basicTrading: BasicTrading = {
   thisIsTheThirdTradingMethod:
     'Đây là phương pháp giao dịch thứ ba, tức là sử dụng cùng một bộ lọc để lọc ra những tin tức có ảnh hưởng lớn và đảm bảo tránh giao dịch vào những khoảng thời gian tin tức này. Phương pháp này phù hợp hơn với các nhà giao dịch (hoặc các nhà giao dịch siêu dài hạn) sử dụng biểu đồ 1 giờ, 4 giờ hoặc hàng ngày để thiết lập chiến lược giao dịch.',
   afterTheDownloadProcess:
-    'Sau khi quá trình tải xuống hoàn tất， hãy bắt đầu quá trình cài đặt:',
+    'Sau khi quá trình tải xuống hoàn tất, hãy bắt đầu quá trình cài đặt:',
   checkYesIAgreeWith:
     '1. Đánh dấu vào "Có, tôi đồng ý với tất cả các điều khoản của thỏa thuận cấp phép này" và sau đó nhấn nút "Tiếp theo". Nếu bạn cần chỉ định đường dẫn cài đặt của nền tảng MT4, hãy nhấp vào nút "Cài đặt". ',
   theInstallationWizard:
@@ -113,7 +113,7 @@ export const basicTrading: BasicTrading = {
     'Có nhiều cách để mở một giao dịch mới trên nền tảng MT4. Thao tác đơn giản nhất là nhấp trực tiếp vào nút tắt "Đơn đặt hàng mới" trên thanh công cụ ở đầu nền tảng, sau đó cửa sổ đặt hàng sẽ xuất hiện. ',
   productCategory: '7. Danh mục sản phẩm: Chọn mục tiêu giao dịch của bạn',
   lotsEnterTheLotSize:
-    'Lot: Nhập kích thước lô， tối thiểu là 0, 01 lot (ngoại hối， vàng và bạc)',
+    'Lot: Nhập kích thước lô, tối thiểu là 0, 01 lot (ngoại hối, vàng và bạc)',
   stopLossPrice:
     'Giá cắt lỗ: Khi giá đạt đến mức giá xác định, vị trí sẽ tự động bị đóng; mặc định là 0, có nghĩa là không đặt điểm dừng lỗ. ',
   takeProfitPrice:
@@ -125,7 +125,7 @@ export const basicTrading: BasicTrading = {
   pendingOrder: '8. Lệnh đang chờ xử lý',
   changeTheOrderType:
     'Thay đổi loại lệnh thành "Lệnh đang chờ xử lý" trong cửa sổ lệnh để thực hiện lệnh lệnh chờ. ',
-  thereAreFourTypes: 'Có bốn loại lệnh đang chờ xử lý：',
+  thereAreFourTypes: 'Có bốn loại lệnh đang chờ xử lý:',
   buyLimitBuyPending:
     'Giới hạn mua —— Mua lệnh chờ ở mức giá thấp hơn giá thị trường;',
   sellLimitSellPending:
@@ -164,7 +164,7 @@ export const basicTrading: BasicTrading = {
   withdrawalTheTotal: 'Rút tiền: tổng số tiền rút. ',
   openTheChartAndLoad: '13. Mở biểu đồ và tải các chỉ báo kỹ thuật. ',
   afterTheMT4Platform:
-    'Sau khi nền tảng MT4 được cài đặt， bốn biểu đồ sẽ được mở theo mặc định',
+    'Sau khi nền tảng MT4 được cài đặt, bốn biểu đồ sẽ được mở theo mặc định',
   ifYouWantToSwitch:
     'Nếu bạn muốn tạo một biểu đồ mới, cách đơn giản nhất là nhấp chuột phải vào bảng báo giá của sản phẩm cần tạo biểu đồ mới, và chọn tùy chọn menu "Cửa sổ Biểu đồ". ',
   withMT4IsLocatedInThe:

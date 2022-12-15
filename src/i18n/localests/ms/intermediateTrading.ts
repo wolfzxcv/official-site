@@ -165,7 +165,7 @@ export const intermediateTrading: IntermediateTrading = {
   topAndHeadAndShoulders:
     'Top and Head and Shoulders Bottom The head and shoulders adalah salah satu yang paling dihargai oleh pedagang dan salah satu corak terbalik yang paling biasa. Umumnya terbentuk secara beransur-ansur dalam arah aliran menaik dan menandakan pembalikan keadaan pasaran. Dengan kata lain, penampilan corak head and shoulders sering bermaksud berakhirnya gelombang aliran menaik.',
   aTypicalHeadAndShoulders:
-    'Corak head and shoulders khas ditunjukkan di bawah：',
+    'Corak head and shoulders khas ditunjukkan di bawah:',
   whenThePriceRisesAnd:
     'Apabila harga naik dan turun kembali ke titik tetap, puncak terbentuk yang kelihatan seperti bahu kiri. Harga kemudian melantun semula dan mencipta puncak yang lebih tinggi daripada puncak sebelumnya dan kemudian turun kembali ke tahap sokongan pada puncak pertama. Puncak baru disebut "head" dan tahap sokongan disebut "garis leher". Sekiranya corak terbentuk sepenuhnya, harga akan melonjak di garis leher dan membuat puncak yang lebih rendah, yang merupakan bahu kanan.',
   whenYouFindAHeadAnd:
@@ -177,7 +177,7 @@ export const intermediateTrading: IntermediateTrading = {
   inAdditionYouMaySometimes:
     'Di samping itu, anda mungkin menghadapi corak bahagian bawah head and shoulders. Bahagian bawah head and shoulders cenderung muncul pada akhir gelombang aliran menurun dan bermaksud kenaikan harga di masa depan lebih mungkin berlaku. Bahagian bawah head and shoulders terdiri dari palung, diikuti oleh palung bawah dan palung yang lebih tinggi. Sama seperti head and shoulders, waktu masuk head and shoulders adalah ketika anda mengesahkan bahawa garis leher dipecah oleh harganya, atau tunggu untuk melihat apakah garis leher akan diuji kembali.',
   theFigureBelowShowsThe:
-    'Gambar di bawah menunjukkan corak bahagian bawah head and shoulders di pasaran sebenar：：',
+    'Gambar di bawah menunjukkan corak bahagian bawah head and shoulders di pasaran sebenar:',
   doubleTopAndDoubleBottom: 'Double top dan double bottom',
   doubleTopPatternOften:
     'Corak atas berganda sering muncul di bahagian atas aliran menaik. Ini juga merupakan pola pembalikan, yang bermaksud akhir aliran menaik. Corak double top terdiri daripada dua puncak di sebelah satu sama lain, dan harga kedua puncaknya serupa. Garis leher corak berada pada tahap sokongan yang dibentuk oleh harga. Apabila harga pecah di bawah tahap sokongan dan garis leher, kami percaya bahawa corak telah terbentuk.',
@@ -215,7 +215,7 @@ export const intermediateTrading: IntermediateTrading = {
   profitTargetProfit:
     'Sebagai contoh, anda boleh menentukan bahawa setiap kali harga naik 5 mata, stop loss anda akan naik 5 mata. Apabila anda tidak dapat menguruskan urus niaga dalam masa nyata, stop loss akan membantu anda merealisasikan pengurusan posisi yang disebutkan di atas secara automatik. Apabila harga mula berubah-ubah ke arah yang bertentangan, stop loss akan kekal pada harga asal. Apabila harga pasaran mencapai harga stop loss, posisi anda secara automatik akan ditutup-stop loss adalah strategi yang berkesan untuk mengurangkan kerugian.',
   profitTarget: 'Sasaran keuntungan',
-  profitTargetProfitTarget:
+  profitTargetIs:
     'Sasaran keuntungan adalah harga yang telah ditetapkan di mana anda akan menutup posisi anda dengan menguntungkan. Sebelum anda merancang untuk membuka kedudukan, anda harus menentukan di mana harga keuntungan anda ditetapkan. Sasaran keuntungan adalah bahagian penting dalam pengurusan pesanan. Selagi harga pasaran mencapai harga keuntungan, anda tidak perlu memantau kedudukan di sebelah komputer dan keuntungan akan membantu anda menutup keuntungan secara automatik.',
   marketOrder: 'Market order',
   aMarketOrder:
@@ -270,7 +270,7 @@ export const intermediateTrading: IntermediateTrading = {
   theAboveIsAScreenshot:
     'Di atas adalah tangkapan skrin tetingkap pembukaan MT4, di mana anda dapat melihat harga jualan, harga beli dan spread semasa. Apabila anda membuka buy atau sell order, harga yang dilaksanakan akan berbeza.',
   buyOrderLongPosition: 'Buy order (posisi panjang)',
-  quotation: 'Sebutharga：1. 36298/1. 36301',
+  quotation: 'Sebutharga:1. 36298/1. 36301',
   theOpeningPriceForBuying: 'Harga pembukaan untuk membeli adalah1.36301',
   sellOrderShortPosition: 'Sell ​​order (posisi pendek)',
   theOpeningPriceForSelling: 'Harga pembukaan untuk penjualan adalah1.36298',

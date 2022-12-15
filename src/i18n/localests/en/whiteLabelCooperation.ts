@@ -3,7 +3,7 @@ import { WhiteLabelCooperation } from '../@types/whiteLabelCooperation';
 export const whiteLabelCooperation: WhiteLabelCooperation = {
   whiteLabel: 'White label cooperation',
   wCGsWhite:
-    "WCG's white label cooperation program allows you to create a personal (or company) brand in the foreign exchange industry. This is a solution that allows you to use your own identity and website to run the brokerage business. We can provide you with high-quality products， fully functional trading platforms, cutting-edge technology and competitive conditions to meet all your customers' needs.",
+    "WCG's white label cooperation program allows you to create a personal (or company) brand in the foreign exchange industry. This is a solution that allows you to use your own identity and website to run the brokerage business. We can provide you with high-quality products, fully functional trading platforms, cutting-edge technology and competitive conditions to meet all your customers' needs.",
   applyFor: 'Apply for cooperation',
   wCGWhite: 'WCG White Label Strategy',
   asALeading:

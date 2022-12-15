@@ -18,7 +18,7 @@ export const advancedTrading: AdvancedTrading = {
   unlikeFundamentalAnalysis:
     'Tidak seperti analisis fundamental yang berfokus pada perkembangan ekonomi, politik, dan keuangan, analisis teknis pada dasarnya hanya berfokus pada grafik dengan mempelajari perubahan harga historis untuk memprediksi pergerakan pasar di masa depan.',
   tradersWhoUse:
-    'Pedagang yang menggunakan analisis teknis mengandalkan tiga tempat berikut：',
+    'Pedagang yang menggunakan analisis teknis mengandalkan tiga tempat berikut:',
   theMarketPrice:
     'Harga pasar berisi semua informasi yang perlu dipahami orang;',
   thePriceFluctuates: 'Harga berfluktuasi di sekitar garis tren；',
@@ -41,7 +41,7 @@ export const advancedTrading: AdvancedTrading = {
   seniorClassD: 'senior-class-content-four-d',
   seniorClassE: 'senior-class-content-four-e',
   seniorClassF: 'senior-class-content-four-f',
-  trendLines: 'Garis trend， garis support dan garis resistensi',
+  trendLines: 'Garis trend, garis support dan garis resistensi',
   aTrendLine:
     'Garis trend adalah garis lurus yang menunjukkan trend suatu pasangan mata uang, yang dibentuk dengan menghubungkan dua harga atau lebih. Dalam pasar yang naik, garis trend adalah garis dukungan; di pasar yang sedang jatuh, garis trend adalah garis resistensi.',
   aSupportLine:
@@ -49,7 +49,7 @@ export const advancedTrading: AdvancedTrading = {
   theResistanceLine:
     '-> Garis resistensi mengacu pada garis yang dihubungkan oleh harga dengan resistensi. Jika nilai tukar telah naik ke tingkat harga dan berbalik berkali-kali, kami menganggap ini sebagai harga dengan resistensi. Semakin banyak poin resistensi, semakin dapat diandalkan garis resistensi.',
   onTheMT4:
-    'Di platform MT4， kita dapat menemukan alat untuk menggambar garis trend pada toolbar di atas platform.',
+    'Di platform MT4, kita dapat menemukan alat untuk menggambar garis trend pada toolbar di atas platform.',
   thePrincipleOf:
     'Prinsip menggambar garis tren adalah menemukan titik tertinggi dan terendah yang relevan dalam trend naik (turun) dalam periode waktu yang sedang dipertimbangkan, dan menghubungkannya dengan garis lurus, di mana harga tidak dapat melewati garis tren. Semakin panjang garis trend yang ditarik, semakin kuat gaya yang diwakili, dan semakin besar kemungkinan harga akan turun (naik) dan kembali di dekat garis trend',
   drawingATrend:
@@ -63,7 +63,7 @@ export const advancedTrading: AdvancedTrading = {
     'Faktor-faktor yang mempengaruhi perubahan nilai tukar melibatkan banyak aspek seperti masyarakat, ekonomi dan politik. Akibatnya, analisis fundamental mungkin perlu memasukkan banyak elemen analisis. Masalah ini membatasi banyak pemula dalam analisis fundamental karena fundamental pasar yang sangat dinamis. Tetap sensitif setiap saat tidaklah mudah. Tapi jangan khawatir, saat Anda memperdalam penelitian tentang analisis fundamental, konsep-konsep dalam ekonomi dinamis global akan membentuk gambaran di benak Anda. Perubahan jangka pendek dalam fundamental pasar terus mengubah gambaran ini.',
   ofCourse:
     'Tentu saja analisis fundamental tidak ditujukan pada harga pasar yang tepat. Misalnya, ketika menganalisis laporan ketenagakerjaan suatu negara, kita dapat memiliki pemahaman yang relatif jelas tentang kondisi ekonomi negara secara keseluruhan, tetapi jika kita ingin memperoleh strategi perdagangan khusus seperti titik masuk dan titik keluar, kita masih perlu menggunakan metode analisis teknis. Untuk alasan ini, banyak trader dapat memilih untuk meninggalkan analisis fundamental sepenuhnya dan hanya mengandalkan analisis teknis khususnya ketika mereka mengalami kerugian dengan menggunakan sejumlah besar informasi fundamental. Ini adalah pendekatan yang salah. Berdagang tanpa pemahaman pasti tentang faktor fundamental ibarat orang buta menyentuh gajah. Informasi harga yang Anda lihat pada grafik mungkin bukan kebenaran pasar.',
-  longTerm: 'Analisis fundamental jangka panjang：',
+  longTerm: 'Analisis fundamental jangka panjang:',
   whenMeasuringCurrencys:
     'Saat mengukur nilai mata uang, fundamental jangka panjang menggunakan dua metode analisis klasik: teori paritas daya beli dan teori neraca pembayaran internasional.',
   purchasingPower: 'Teori paritas daya beli',
@@ -128,7 +128,7 @@ export const advancedTrading: AdvancedTrading = {
     'Metode untuk mengidentifikasi level support dan resistance terutama mencakup garis tren, tinggi / rendah sebelumnya, penilaian pola dan penilaian indikator teknis.',
   trendline: 'Garis trend',
   weIntroduced:
-    'Dalam "Analisis Teknis dan Penghakiman Tredn"， kami memperkenalkan cara menggambar garis trend. Faktanya, garis tren adalah cara untuk menilai level support dan resistance: garis tren di pasar naik terdiri dari serangkaian level support. Ketika nilai tukar turun kembali ke dekat garis trend, tingkat dukungan pada garis tren sangat mungkin untuk mendukung nilai tukar. Garis trend di pasar jatuh terdiri dari serangkaian level resistensi. Ketika nilai tukar naik mendekati garis trend, level resistance pada garis trend kemungkinan besar akan menyebabkan nilai tukar turun lagi. Oleh karena itu, garis tren adalah cara umum untuk menentukan level support dan resistance di pasar trending.',
+    'Dalam "Analisis Teknis dan Penghakiman Tredn", kami memperkenalkan cara menggambar garis trend. Faktanya, garis tren adalah cara untuk menilai level support dan resistance: garis tren di pasar naik terdiri dari serangkaian level support. Ketika nilai tukar turun kembali ke dekat garis trend, tingkat dukungan pada garis tren sangat mungkin untuk mendukung nilai tukar. Garis trend di pasar jatuh terdiri dari serangkaian level resistensi. Ketika nilai tukar naik mendekati garis trend, level resistance pada garis trend kemungkinan besar akan menyebabkan nilai tukar turun lagi. Oleh karena itu, garis tren adalah cara umum untuk menentukan level support dan resistance di pasar trending.',
   sometimes:
     'Terkadang, saat harga turun di bawah garis trend, garis trend yang semula memberikan support bisa menjadi resistance.',
   theAbovePicture:
@@ -150,7 +150,7 @@ export const advancedTrading: AdvancedTrading = {
   chartPatterns:
     'Pola grafik sering kali memberikan metode untuk menilai level support dan resistance.',
   inADouble:
-    'Misalnya， dalam pola double top, puncaknya dapat dianggap sebagai level resistensi yang kuat, karena harga mengalami retracements dua kali pada posisi ini. Palung (garis leher) dapat dianggap sebagai level dukungan.',
+    'Misalnya, dalam pola double top, puncaknya dapat dianggap sebagai level resistensi yang kuat, karena harga mengalami retracements dua kali pada posisi ini. Palung (garis leher) dapat dianggap sebagai level dukungan.',
   technicalIndexJudgment: 'Penilaian indeks teknis',
   someClassicalTechnical:
     'Beberapa indikator teknis klasik juga dapat digunakan untuk menentukan level support dan resistance. Yang paling klasik adalah garis bagian emas.',
@@ -183,7 +183,7 @@ export const advancedTrading: AdvancedTrading = {
   thisIsATrading:
     'Ini adalah gaya perdagangan yang diadopsi oleh banyak pedagang amatir. Mereka dapat melakukan analisis pasar sekali sehari atau seminggu, dan kemudian mengatur pesanan tertunda untuk menangkap fluktuasi harga. Alih-alih mengamati pasar dengan cermat untuk mendapatkan ide perdagangan, mereka menggunakan pesanan tertunda untuk berdagang.',
   ifYouAreBusy:
-    'Jika Anda sibuk， gaya trading EOD harus menjadi pilihan yang baik, karena Anda tidak perlu terlalu banyak menghabiskan waktu untuk menganalisis dan mengelola transaksi.',
+    'Jika Anda sibuk, gaya trading EOD harus menjadi pilihan yang baik, karena Anda tidak perlu terlalu banyak menghabiskan waktu untuk menganalisis dan mengelola transaksi.',
   fundamentals: 'Fundamental (perdagangan makro)',
   useFundamentalInformation:
     'Gunakan informasi fundamental dan / atau model keuangan untuk menilai kekuatan dan kelemahan saham, mata uang, pasar, atau negara untuk memprediksi pergerakan harga di masa depan. Sumber informasi saham dan valuta asing tidak sama. Saham sebagian besar dipengaruhi oleh berita internal perusahaan tertentu, sedangkan valuta asing terutama dipengaruhi oleh faktor makroekonomi.',

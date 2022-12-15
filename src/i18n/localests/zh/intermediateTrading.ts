@@ -168,7 +168,7 @@ export const intermediateTrading: IntermediateTrading = {
     '在交易開設後，盈利目標通常設置為從頭部到頸線的點數距離。',
   inAdditionYouMaySometimes:
     '另外，也許有時候您還會碰到頭肩底形態，頭肩底往往出現在一波下跌趨勢的末尾，並意味著未來價格上漲的可能性較大。頭肩底由一個波谷，緊接著一個更低的底部和一個更高的波谷構成。與頭肩頂類似，頭肩底的進場時機是在確認頸線被價格突破的時候，或者等待看看頸線是否會被回測。',
-  theFigureBelowShowsThe: '下圖是實際市場中的頭肩底形態：：',
+  theFigureBelowShowsThe: '下圖是實際市場中的頭肩底形態：',
   doubleTopAndDoubleBottom: '雙頂和雙底',
   doubleTopPatternOften:
     '雙頂形態往往出現在一段上漲趨勢的頂部，它也是一個倒轉形態，意味著一波上漲趨勢的結束。雙頂形態由兩個緊挨著的峰值構成，且兩個峰值的價格是相近的。形態的頸線位於價格形成的支持水平。當價格跌破支持水平，也即頸線時，我們認為形態已經形成。',
@@ -205,7 +205,7 @@ export const intermediateTrading: IntermediateTrading = {
   profitTargetProfit:
     '每當價格朝著有利的方向移動一定點數時，追蹤止損的價格也跟著發生移動。換句話說，當價格朝著有利方向移動時，追蹤止損會自動「追蹤」價格。這個功能能幫助您鎖定利潤，并自動管理您的交易。',
   profitTarget: '盈利目標',
-  profitTargetProfitTarget:
+  profitTargetIs:
     '盈利目標是一種預先設定的價格，在此價格上您將盈利平倉。在您打算開設倉位前，您應該確定您的獲利價格設在哪裡。盈利目標是訂單管理的重要組成部分，只要市場價格達到了獲利價格，您無需在電腦旁監控倉位，獲利會幫助您自動平倉結利。',
   marketOrder: '市價單',
   aMarketOrder:

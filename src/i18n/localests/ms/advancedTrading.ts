@@ -18,7 +18,7 @@ export const advancedTrading: AdvancedTrading = {
   unlikeFundamentalAnalysis:
     'Tidak seperti analisia fundamental yang memfokuskan pada pembangunan ekonomi, politik dan kewangan, teknikal analisis pada dasarnya hanya memfokuskan pada carta dengan mengkaji perubahan harga sejarah untuk meramalkan pergerakan pasaran masa depan.',
   tradersWhoUse:
-    'Pedagang yang menggunakan teknikal analisis bergantung pada tiga premis berikut：',
+    'Pedagang yang menggunakan teknikal analisis bergantung pada tiga premis berikut:',
   theMarketPrice:
     'Harga pasaran mengandungi semua maklumat yang perlu difahami oleh orang lain;',
   thePriceFluctuates: 'Harga berubah mengikut garis arah aliran;',
@@ -60,7 +60,7 @@ export const advancedTrading: AdvancedTrading = {
     'Faktor-faktor yang mempengaruhi perubahan kadar pertukaran melibatkan banyak aspek seperti masyarakat, ekonomi dan politik. Hasilnya, analisa asas mungkin perlu memasukkan banyak elemen analisa. Masalah ini menyekat banyak pemula dalam analisa fundamental kerana asas pasaran yang sangat dinamik. Sentiasa peka sepanjang masa bukanlah sesuatu yang mudah. Tetapi jangan risau, ketika anda memperdalamkan kajian anda mengenai analisa asas, konsep dalam ekonomi dinamik global akan membentuk gambaran dalam fikiran anda. Perubahan jangka pendek dalam asas pasaran selalu mengubah gambaran ini.',
   ofCourse:
     'Sudah tentu, analisa fundamental tidak bertujuan untuk harga pasaran yang tepat. Sebagai contoh, ketika menganalisa laporan pekerjaan negara, kita dapat memiliki pemahaman yang relatif jelas mengenai keadaan ekonomi negara secara keseluruhan, tetapi jika kita ingin mendapatkan strategi perdagangan tertentu seperti pintu masuk dan pintu keluar, kita masih perlu menggunakan kaedah teknikal analisis. Atas sebab ini, ramai pedagang boleh memilih untuk meninggalkan analisa fundamental sepenuhnya dan hanya bergantung pada teknikal analisis khususnya ketika mereka mengalami kerugian dengan menggunakan sejumlah besar maklumat asas. Ini adalah pendekatan yang salah. Berdagang tanpa pemahaman tertentu mengenai faktor-faktor asas adalah seperti orang buta yang menyentuh gajah. Maklumat harga yang anda lihat pada carta mungkin bukan kebenaran pasaran.',
-  longTerm: 'Analisa jangka panjang dalam asas：',
+  longTerm: 'Analisa jangka panjang dalam asas:',
   whenMeasuringCurrencys:
     'Semasa mengukur nilai mata wang, asas jangka panjang menggunakan dua kaedah analisa klasik: teori pariti daya beli dan teori imbangan pembayaran antarabangsa.',
   purchasingPower: 'Pembelian teori pariti kuasa',
@@ -69,7 +69,7 @@ export const advancedTrading: AdvancedTrading = {
   exchangeRate:
     'Nilai tukar = harga komoditi di satu negara / harga komoditi di negara lain',
   forExample:
-    'Contohnya：satu tin Coke berharga 1 US dolar di Amerika Syarikat dan 100 yen di Jepun. Menurut teori pariti daya beli, kadar pertukaran = Kos coke US / Kos coke Jepun = 1:100',
+    'Contohnya:satu tin Coke berharga 1 US dolar di Amerika Syarikat dan 100 yen di Jepun. Menurut teori pariti daya beli, kadar pertukaran = Kos coke US / Kos coke Jepun = 1:100',
   ifTheCurrent:
     'Sekiranya kadar pertukaran semasa adalah1:110，menurut teori pariti daya beli, yen dinilai lebih rendah dan dolar dinilai lebih tinggi. Pedagang boleh membeli barang di Jepun dengan harga 100 yen dan kemudian mengangkutnya ke Amerika Syarikat untuk menjualnya dengan harga 1 US dolar. US dolar yang dihasilkan akan ditukar menjadi 110 yen pada kadar pertukaran semasa, dengan arbitraj bebas risiko 10 yen. Oleh itu, permintaan untuk yen akan meningkat, akhirnya akan meningkatkan kenaikan yen dan kejatuhan US dolar. Nilai tukar US dolar terhadap yen akan kembali ke tahap 1:100.',
   itShouldBeNoted:
@@ -86,7 +86,7 @@ export const advancedTrading: AdvancedTrading = {
   whenACountry:
     'Apabila pasaran saham suatu negara positif, ini menunjukkan bahawa modal mengalir ke pasaran saham dan modal asing juga akan tertarik, sehingga meningkatkan nilai mata wang tempatan. Ketika pasaran saham negara berada dalam arah aliran menurun, ini menunjukkan bahawa modal menarik diri dari pasar, dan modal asing juga ditarik, yang merugikan nilai mata wang tempatan. Oleh itu, peniaga pertukaran asing dapat mengikuti prestasi pasaran saham global untuk meramalkan aliran modal negara dalam jangka masa yang relatif panjang. ',
   theFixedIncomeMarket:
-    'Pasaran pendapatan tetap serupa dengan pasaran saham. Semakin tinggi kadar pulangan, semakin kondusif untuk kenaikan mata wang negara. Perbezaannya ialah apabila ekonomi global tidak stabil, ciri stabil dan selamat dari pasaran berpendapatan tetap berfungsi sebagai tempat perlindungan modal global. Pedagang jangka panjang harus memperhatikan penyebaran di pasaran pendapatan tetap：',
+    'Pasaran pendapatan tetap serupa dengan pasaran saham. Semakin tinggi kadar pulangan, semakin kondusif untuk kenaikan mata wang negara. Perbezaannya ialah apabila ekonomi global tidak stabil, ciri stabil dan selamat dari pasaran berpendapatan tetap berfungsi sebagai tempat perlindungan modal global. Pedagang jangka panjang harus memperhatikan penyebaran di pasaran pendapatan tetap:',
   detectCurrency:
     '1. Kesan spread mata wang - Kadar Tawaran Antara Bank Eropah dan Eurodolar',
   investorsCanPay:
@@ -111,7 +111,7 @@ export const advancedTrading: AdvancedTrading = {
     'Sebilangan pedagang suka melukis garis retracement Fibonacci secara berasingan untuk trend jangka panjang dan jangka pendek pada carta jangka masa yang berbeza. Sekiranya tahap garis retracement jangka panjang lebih dekat ke tahap garis retracement jangka pendek, maka garis retracement ini lebih dipercayai. ',
   parameter: 'parameter',
   uptrendOrDowntrend:
-    '38.2%， 50.0%， dan 61.8% dari aliran menaik atau aliran menurun adalah tahap retracement yang paling biasa digunakan. 38.2% secara amnya dianggap sebagai tahap kebolehpercayaan terendah， iaitu tidak mungkin kadar pertukaran akan kembali ke arah aliran semula ketika mencapai tahap ini。 Semakin tinggi tahap peratusan kadar pertukaran hampir (iaitu 61.8%), semakin besar peluang untuk kembali ke arah aliran semula.',
+    '38.2%, 50.0%, dan 61.8% dari aliran menaik atau aliran menurun adalah tahap retracement yang paling biasa digunakan. 38.2% secara amnya dianggap sebagai tahap kebolehpercayaan terendah, iaitu tidak mungkin kadar pertukaran akan kembali ke arah aliran semula ketika mencapai tahap ini。 Semakin tinggi tahap peratusan kadar pertukaran hampir (iaitu 61.8%), semakin besar peluang untuk kembali ke arah aliran semula.',
   applicationExample: 'Contoh aplikasi',
   ifYouFind:
     'Sekiranya anda menjumpai gelombang aliran menaik atau aliran menurun yang baru saja berakhir pada carta (peraturan 123 boleh digunakan untuk menentukan sama ada tren berakhir, sila rujuk "Teknikal Analisis dan Penghakiman Trend" Akademi Novice untuk keterangan), anda boleh mempertimbangkan untuk memulakan dengan garis retracement Fibonacci untuk menentukan sokongan atau rintangan seterusnya. ',
@@ -131,7 +131,7 @@ export const advancedTrading: AdvancedTrading = {
   theAbovePicture:
     'Gambar di atas menunjukkan bahawa garis trend kenaikan pada carta harian NZD/CAD telah menjadi rintangan apabila kadar pertukaran melambung naik. ',
   inManyCases:
-    'Dalam banyak kes， tahap rintangan dan sokongan boleh ditukar ganti. Tahap sokongan asal boleh menjadi tahap rintangan, atau sebaliknya. Keadaan ini biasa berlaku dalam menilai tahap sokongan/rintangan dengan tahap tertinggi dan tahap sebelumnya. ',
+    'Dalam banyak kes, tahap rintangan dan sokongan boleh ditukar ganti. Tahap sokongan asal boleh menjadi tahap rintangan, atau sebaliknya. Keadaan ini biasa berlaku dalam menilai tahap sokongan/rintangan dengan tahap tertinggi dan tahap sebelumnya. ',
   previousHigh: 'Tinggi/rendah sebelumnya',
   whenTheFX:
     'Apabila kadar FX berubah menjadi penurunan atau penyatuan setelah pergerakan menaik, ia sering membentuk harga tertinggi jangka pendek, yang kita sebut "harga tinggi sebelumnya." Konsep yang sesuai adalah rendah sebelumnya, iaitu harga terendah jangka pendek yang terbentuk ketika nilai tukar berubah menjadi kenaikan atau penyatuan setelah menyelesaikan pergerakan trend menurun',

@@ -63,7 +63,7 @@ export const intermediateTrading: IntermediateTrading = {
   viewAllDataInformation:
     'Lihat semua informasi data produk di jendela grafik saat ini.',
   onTheMT4Platform:
-    'Di platform MT4， saat Anda mengganti template grafik， Anda akan kehilangan semua analisis pada grafik saat ini. Untuk mencegah hal ini terjadi, Anda dapat menjaga grafik tetap terbuka dan hanya mengubah indikator yang Anda gunakan. Kemudian Anda dapat menggunakan tombol pintas. Anda dapat mengatur tombol pintas untuk indikator tertentu tanpa berpindah template untuk menambahkan indikator.',
+    'Di platform MT4, saat Anda mengganti template grafik, Anda akan kehilangan semua analisis pada grafik saat ini. Untuk mencegah hal ini terjadi, Anda dapat menjaga grafik tetap terbuka dan hanya mengubah indikator yang Anda gunakan. Kemudian Anda dapat menggunakan tombol pintas. Anda dapat mengatur tombol pintas untuk indikator tertentu tanpa berpindah template untuk menambahkan indikator.',
   theSpecificOperation:
     'Metode operasi khusus adalah dengan mengklik kanan penunjuk di jendela navigasi dan memilih "Set Shortcut Key".',
   favoriteIndicatorList: 'Daftar indikator favorit',
@@ -92,24 +92,24 @@ export const intermediateTrading: IntermediateTrading = {
     'Kesenjangan harga pasar mengacu pada fluktuasi besar yang tiba-tiba terjadi di pasar dalam waktu yang sangat singkat.',
   example: 'Contoh',
   upposeYouHaveAUD10:
-    'Misalkan Anda memiliki AUD 10.000 di akun Anda， dan dana yang bersedia Anda ambil untuk menanggung akun risiko sebesar 2% dari total dana. Selanjutnya, Anda perlu menghitung ukuran posisi perdagangan. Dalam proses penghitungan, jenis pasangan mata uang yang Anda perdagangkan juga akan memengaruhi penghitungan posisi terbuka. Misalnya, modal risiko 200 dolar Australia, saat memperdagangkan AUD / USD, berbeda dengan NZD / CAD, karena perbedaan nilai basis poin pasangan mata uang yang berbeda.',
+    'Misalkan Anda memiliki AUD 10.000 di akun Anda, dan dana yang bersedia Anda ambil untuk menanggung akun risiko sebesar 2% dari total dana. Selanjutnya, Anda perlu menghitung ukuran posisi perdagangan. Dalam proses penghitungan, jenis pasangan mata uang yang Anda perdagangkan juga akan memengaruhi penghitungan posisi terbuka. Misalnya, modal risiko 200 dolar Australia, saat memperdagangkan AUD / USD, berbeda dengan NZD / CAD, karena perbedaan nilai basis poin pasangan mata uang yang berbeda.',
   trade1LotOfAUDUSDInAn:
     'Perdagangkan 1 lot AUD / USD di akun dengan penyelesaian AUD.',
   transactionVolume: 'Volume transaksi = 100.000',
-  yiPip00001: '1 pip = 0，0001',
+  yiPip00001: '1 pip = 0,0001',
   aUDUSDexchangeRate: 'Nilai tukar AUD / USD = 0，7465',
-  pipValue0000107465: 'Nilai pip = 0，0001 / 0，7465   100，000 = AUD 13，39',
+  pipValue0000107465: 'Nilai pip = 0,0001 / 0，7465   100,000 = AUD 13，39',
   trade1LotOfNZDCADin:
     'Perdagangkan 1 lot NZD / CAD di akun dengan penyelesaian AUD',
   tradingVolume: 'Volume perdagangan = 100.000',
   aUDCADExchangeRate: 'Nilai tukar AUD / CAD = 0，9907',
-  pipValue0000109907: 'Nilai pip = 0，0001 / 0，9907   100，000 = AUD 10，09',
+  pipValue0000109907: 'Nilai pip = 0,0001 / 0，9907   100,000 = AUD 10,09',
   asYouCanSeeTradingDifferent:
-    'Seperti yang Anda lihat, memperdagangkan pasangan mata uang yang berbeda berarti nilai pip dari fluktuasi mata uang juga akan bervariasi secara berbeda. Saat memperdagangkan AUD / USD, risiko modal per pip adalah AUD 13，39， sedangkan',
+    'Seperti yang Anda lihat, memperdagangkan pasangan mata uang yang berbeda berarti nilai pip dari fluktuasi mata uang juga akan bervariasi secara berbeda. Saat memperdagangkan AUD / USD, risiko modal per pip adalah AUD 13，39, sedangkan',
   toCalculateTheSpecificPrice:
-    'memperdagangkan NZD / CAD， nilai pip yang sesuai adalah AUD 10, 09.Untuk menghitung harga spesifik di mana Anda harus menetapkan stop loss, Anda perlu menghitung titik di mana kerugian kumulatif posisi akan mencapai AUD 200.',
+    'memperdagangkan NZD / CAD, nilai pip yang sesuai adalah AUD 10, 09.Untuk menghitung harga spesifik di mana Anda harus menetapkan stop loss, Anda perlu menghitung titik di mana kerugian kumulatif posisi akan mencapai AUD 200.',
   aUDUSD: 'AUD / USD— $ 200 / $ 13，39 = stop loss 15 poin',
-  nZDCAD: 'NZD / CAD— $ 200 / $ 10，09 = stop loss 20 poin',
+  nZDCAD: 'NZD / CAD— $ 200 / $ 10,09 = stop loss 20 poin',
   ifYouWantToSetALargerStop:
     'Jika Anda ingin menetapkan stop loss yang lebih besar, maka Anda perlu mengurangi volume perdagangan, misalnya mengurangi volume perdagangan dari 1 lot standar menjadi 1 lot mini (10.000).',
   inTheCaseOfTrading:
@@ -144,7 +144,7 @@ export const intermediateTrading: IntermediateTrading = {
   recordTheOverallTrading:
     'Catat kinerja perdagangan secara keseluruhan, yang dapat membantu Anda menganalisis keefektifan strategi perdagangan Anda. Jika terjadi kerugian dalam jangka waktu tertentu, catatan transaksi juga dapat membantu Anda melihat di mana letak masalahnya.',
   theKeyInformationThatNeeds:
-    'Informasi utama yang perlu dicatat mencakup faktor-faktor berikut：',
+    'Informasi utama yang perlu dicatat mencakup faktor-faktor berikut:',
   openingPrice: 'harga pembukaan；',
   closingPrice: 'harga penutupan;；',
   yourInitialStopLoss: 'stop loss dan tingkat keuntungan awal Anda；',
@@ -155,7 +155,7 @@ export const intermediateTrading: IntermediateTrading = {
   openingAndClosingPositions:
     'posisi pembukaan dan penutupan Screenshot dari grafik waktu.',
   ifYouWantToBeAConsistent:
-    'Jika Anda ingin menjadi trader yang konsisten， memiliki strategi perdagangan sangat penting - jangan pernah meremehkan kekuatan rencana tersebut',
+    'Jika Anda ingin menjadi trader yang konsisten, memiliki strategi perdagangan sangat penting - jangan pernah meremehkan kekuatan rencana tersebut',
   whatIsAChartPattern: 'Apa itu pola grafik?',
   inTheMarketBuyersAnd:
     'Di pasar, pembeli dan penjual memainkan permainan kekuatan sepanjang waktu, dan bagan adalah catatan hasil permainan ini. Orang-orang secara bertahap menemukan beberapa pola grafik yang khas pada grafik. Dengan bantuan mereka, orang dapat melihat dengan jelas apakah pembeli dominan atau penjual kuat di pasar. Selain itu, dengan pola klasik yang muncul berkali-kali ini, orang menemukan bahwa perubahan yang sama pada kekuatan pembeli dan penjual selalu muncul di pasar. Oleh karena itu, kita dapat menggunakan pengalaman pola pembelajaran untuk memprediksi tren prospek pasar. Ini adalah analisis pola.',
@@ -165,9 +165,9 @@ export const intermediateTrading: IntermediateTrading = {
   topAndHeadAndShoulders:
     'Atas dan Kepala dan Pundak Bawah Pola kepala dan bahu adalah salah satu yang paling dihargai oleh pedagang dan salah satu pola terbalik yang paling umum. Ini umumnya terbentuk secara bertahap dalam tren naik dan menandakan pembalikan kondisi pasar. Dengan kata lain, kemunculan pola head and shoulders seringkali berarti akhir dari gelombang tren naik',
   aTypicalHeadAndShoulders:
-    'Pola kepala dan bahu yang khas ditunjukkan di bawah ini：',
+    'Pola kepala dan bahu yang khas ditunjukkan di bawah ini:',
   whenThePriceRisesAnd:
-    'Ketika harga naik dan turun kembali ke titik tetap， puncak terbentuk, yang terlihat seperti bahu kiri. Harga kemudian rebound lagi dan menciptakan puncak yang lebih tinggi dari puncak sebelumnya, dan kemudian turun kembali ke level dukungan dari puncak pertama. Puncak baru disebut "kepala" dan tingkat dukungan disebut "garis leher". Jika pola terbentuk sepenuhnya, harga akan memantul di garis leher dan menciptakan puncak yang lebih rendah, yaitu bahu kanan.',
+    'Ketika harga naik dan turun kembali ke titik tetap, puncak terbentuk, yang terlihat seperti bahu kiri. Harga kemudian rebound lagi dan menciptakan puncak yang lebih tinggi dari puncak sebelumnya, dan kemudian turun kembali ke level dukungan dari puncak pertama. Puncak baru disebut "kepala" dan tingkat dukungan disebut "garis leher". Jika pola terbentuk sepenuhnya, harga akan memantul di garis leher dan menciptakan puncak yang lebih rendah, yaitu bahu kanan.',
   whenYouFindAHeadAnd:
     'Ketika Anda menemukan pola head and shoulders di grafik, titik masuk potensial adalah ketika harga mengkonfirmasi telah menembus garis leher, yaitu ketika grafik candle ditutup di bawah garis leher, kami membukaposisi jual pada pembukaan grafik candle berikutnya. Posisi.',
   moreCautiousTraders:
@@ -177,7 +177,7 @@ export const intermediateTrading: IntermediateTrading = {
   inAdditionYouMaySometimes:
     'Selain itu, terkadang Anda mungkin menemukan pola bagian bawah kepala dan bahu. Bagian bawah head-and-shoulders cenderung muncul pada akhir gelombang tren turun dan berarti bahwa kenaikan harga di masa depan lebih mungkin terjadi. Bagian bawah kepala dan bahu terdiri dari palung, diikuti oleh bagian bawah dan palung yang lebih tinggi. Mirip dengan kepala dan bahu, waktu masuk dari kepala dan bahu adalah saat Anda memastikan bahwa garis leher dipatahkan oleh harga, atau menunggu untuk melihat apakah garis leher akan diuji ulang.',
   theFigureBelowShowsThe:
-    'Gambar di bawah ini menunjukkan pola dasar kepala dan bahu di pasar sebenarnya：：',
+    'Gambar di bawah ini menunjukkan pola dasar kepala dan bahu di pasar sebenarnya:',
   doubleTopAndDoubleBottom: 'Double top dan double bottom',
   doubleTopPatternOften:
     'Pola double top sering muncul di bagian atas trend naik. Ini juga merupakan pola pembalikan, yang berarti akhir dari tren naik. Pola double top terdiri dari dua puncak di samping satu sama lain, dan harga kedua puncak tersebut serupa. Garis leher dari pola tersebut berada di level dukungan yang dibentuk oleh harga. Ketika harga menembus di bawah level support, neckline, kami percaya bahwa pola telah terbentuk.',
@@ -199,7 +199,7 @@ export const intermediateTrading: IntermediateTrading = {
   theFigureBelowShowsTheFlag:
     'Isi di atas dapat digunakan sebagai panduan pengantar bagi Anda untuk mempelajari',
   theAboveContentCanBe:
-    'analisis pola lebih lanjut. Di masa mendatang， Anda akan mempelajari lebih banyak jenis pola grafik.',
+    'analisis pola lebih lanjut. Di masa mendatang, Anda akan mempelajari lebih banyak jenis pola grafik.',
   stopLossCanHelp:
     'Stop loss dapat membantu Anda mengurangi gangguan emosional dalam perdagangan, dan juga sangat berguna jika Anda tidak dapat terus memantau pasar.',
   supposeThereIsAn:
@@ -211,11 +211,11 @@ export const intermediateTrading: IntermediateTrading = {
     'Setelah Anda membuka posisi, Anda harus mempertimbangkan berapa stop loss yang perlu Anda tetapkan. Pengaturan stop loss harus didasarkan pada toleransi risiko pribadi Anda, tetapi jumlah poin stop loss tidak boleh terlalu kecil, jika tidak, transaksi dapat dihentikan terlalu cepat. Biasanya, -Anda perlu menyisakan ruang yang wajar untuk kerugian mengambang. Umumnya disarankan agar stop loss yang Anda tetapkan tidak boleh membiarkan kerugian dana melebihi 1% hingga 5%.',
   trailingStopLoss: 'Trailing stop loss',
   wheneverThePriceMoves:
-    'trailing stop loss juga bergerak. Dengan kata lain， ketika harga bergerak ke arah yang menguntungkan， trailing stop loss akan secara otomatis "melacak" harga. Fitur ini dapat membantu Anda mengunci keuntungan dan secara otomatis mengelola transaksi Anda. Misalnya, Anda dapat menentukan bahwa setiap kali harga naik 5 poin, stop loss Anda akan naik 5 poin',
+    'trailing stop loss juga bergerak. Dengan kata lain, ketika harga bergerak ke arah yang menguntungkan, trailing stop loss akan secara otomatis "melacak" harga. Fitur ini dapat membantu Anda mengunci keuntungan dan secara otomatis mengelola transaksi Anda. Misalnya, Anda dapat menentukan bahwa setiap kali harga naik 5 poin, stop loss Anda akan naik 5 poin',
   profitTargetProfit:
     'Ketika Anda tidak dapat mengelola transaksi secara real time, trailing stop loss dapat membantu Anda secara otomatis mewujudkan manajemen posisi yang disebutkan di atas. Ketika harga mulai berfluktuasi ke arah yang berlawanan, stop loss akan tetap pada harga aslinya. Ketika',
   profitTarget: 'harga pasar mencapai harga stop loss',
-  profitTargetProfitTarget:
+  profitTargetIs:
     'Target laba Target laba adalah harga yang telah ditentukan sebelumnya di mana Anda akan menutup posisi secara menguntungkan. Sebelum Anda berencana untuk membuka posisi, Anda harus menentukan di mana harga keuntungan Anda ditetapkan. Target keuntungan adalah bagian penting dari manajemen pesanan. Selama harga pasar mencapai harga keuntungan, Anda tidak perlu memantau posisi di sebelah komputer, dan keuntungan akan membantu Anda menutup keuntungan secara otomatis.',
   marketOrder: 'Market order',
   aMarketOrder:
@@ -264,13 +264,13 @@ export const intermediateTrading: IntermediateTrading = {
   theCompleteQuotation:
     'Kutipan lengkap terdiri dari dua bagian: harga jual dan harga beli. Perbedaan antara keduanya disebut "selisih". Spread sebenarnya adalah biaya yang dikenakan oleh broker atau bank saat Anda membuka posisi (mis., Biaya transaksi). Semakin besar spread berarti semakin tinggi biaya transaksi Anda, sebaliknya semakin rendah spread berarti semakin murah biaya transaksinya.',
   theLargerTheTransaction:
-    'Semakin besar volume transaksi dan mata uang yang lebih populer, semakin kecil spread selama transaksi， dan semakin kecil volume transaksi, mata uang yang kurang populer seringkali memiliki spread yang lebih besar.',
+    'Semakin besar volume transaksi dan mata uang yang lebih populer, semakin kecil spread selama transaksi, dan semakin kecil volume transaksi, mata uang yang kurang populer seringkali memiliki spread yang lebih besar.',
   forTradersWhoTrade:
     'Untuk Traders yang lebih sering bertransaksi, seperti pedagang harian atau pedagang jangka pendek, ukuran spread sangat penting. Tentu saja, untuk trader jangka menengah hingga panjang, ukuran spread memiliki efek yang lebih kecil.',
   theAboveIsAScreenshot:
     'Di atas adalah screenshot dari opening window MT4, dimana Anda dapat melihat harga jual, harga beli dan spread saat ini. Saat Anda membuka order beli atau jual, harga yang dieksekusi akan berbeda.',
   buyOrderLongPosition: 'Beli pesanan (posisi panjang)',
-  quotation: 'Kutipan：1. 36298/1. 36301',
+  quotation: 'Kutipan:1. 36298/1. 36301',
   theOpeningPriceForBuying: 'Harga pembukaan untuk membeli adalah 1. 36301',
   sellOrderShortPosition: 'Order jual (posisi pendek)',
   theOpeningPriceForSelling: 'Harga pembukaan untuk penjualan adalah 1, 36298',

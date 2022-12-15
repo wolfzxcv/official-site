@@ -45,7 +45,7 @@ export type IntermediateTrading = {
   ifYouWantToSetTheMost: string;
   /* Economic Calendar */
   economicCalendar: string;
-  /* So， how can we keep an eye */
+  /* So, how can we keep an eye */
   soHowCanWeKeepAnEye: string;
   /* The economic calendar lists */
   theEconomicCalendarLists: string;
@@ -69,7 +69,7 @@ export type IntermediateTrading = {
   usingShortcutKeys: string;
   /* Keyboard shortcuts are */
   keyboardShortcutsAre: string;
-  /* In the long run， this will */
+  /* In the long run, this will */
   inTheLongRunThisWill: string;
   /* Terminal */
   terminal: string;
@@ -151,7 +151,7 @@ export type IntermediateTrading = {
   aUDCADExchangeRate: string;
   /* Pip value = 0.0001/0.9907  */
   pipValue0000109907: string;
-  /* As you can see， trading different  */
+  /* As you can see, trading different  */
   asYouCanSeeTradingDifferent: string;
   /* To calculate the specific */
   toCalculateTheSpecificPrice: string;
@@ -221,7 +221,7 @@ export type IntermediateTrading = {
   ifYouWantToBeAConsistent: string;
   /* What is a chart pattern? */
   whatIsAChartPattern: string;
-  /* In the market， buyers and */
+  /* In the market, buyers and */
   inTheMarketBuyersAnd: string;
   /* Typical chart patterns */
   typicalChartPatterns: string;
@@ -239,7 +239,7 @@ export type IntermediateTrading = {
   moreCautiousTraders: string;
   /* After the trade is opened */
   afterTheTradeIsOpened: string;
-  /* In addition， you may sometimes */
+  /* In addition, you may sometimes */
   inAdditionYouMaySometimes: string;
   /* The figure below shows the  */
   theFigureBelowShowsThe: string;
@@ -286,7 +286,7 @@ export type IntermediateTrading = {
   /* Profit target */
   profitTarget: string;
   /* Profit target Profit target */
-  profitTargetProfitTarget: string;
+  profitTargetIs: string;
   /* Market order */
   marketOrder: string;
   /* A market order */

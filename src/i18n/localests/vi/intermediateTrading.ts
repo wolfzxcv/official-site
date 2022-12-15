@@ -63,7 +63,7 @@ export const intermediateTrading: IntermediateTrading = {
   viewAllDataInformation:
     'Xem tất cả thông tin dữ liệu của sản phẩm trong cửa sổ biểu đồ hiện tại.',
   onTheMT4Platform:
-    'Trên nền tảng MT4, khi bạn chuyển đổi các mẫu biểu đồ， bạn sẽ mất tất cả các phân tích trên biểu đồ hiện tại. Để ngăn điều này xảy ra, bạn có thể giữ biểu đồ mở và chỉ cần thay đổi các chỉ báo bạn sử dụng. Sau đó, bạn có thể sử dụng các phím tắt. Bạn có thể đặt phím tắt cho một chỉ báo cụ thể mà không cần chuyển đổi mẫu để thêm chỉ báo.',
+    'Trên nền tảng MT4, khi bạn chuyển đổi các mẫu biểu đồ, bạn sẽ mất tất cả các phân tích trên biểu đồ hiện tại. Để ngăn điều này xảy ra, bạn có thể giữ biểu đồ mở và chỉ cần thay đổi các chỉ báo bạn sử dụng. Sau đó, bạn có thể sử dụng các phím tắt. Bạn có thể đặt phím tắt cho một chỉ báo cụ thể mà không cần chuyển đổi mẫu để thêm chỉ báo.',
   theSpecificOperation:
     'Phương pháp hoạt động cụ thể là nhấp chuột phải vào con trỏ trong cửa sổ điều hướng và chọn "Đặt Phím tắt".',
   favoriteIndicatorList: 'Danh sách chỉ báo kỹ thuật yêu thích',
@@ -101,15 +101,15 @@ export const intermediateTrading: IntermediateTrading = {
   trade1LotOfNZDCADin: 'Trade 1 lot of AUD/USD in an AUD-settled account.',
   tradingVolume: 'Khối lượng giao dịch = 100.000',
   aUDCADExchangeRate: 'Tỷ giá hối đoái AUD / CAD = 0, 9907',
-  pipValue0000109907: 'Giá trị Pip = 0，0001 / 0，7465   100，000 = AUD 13，39',
+  pipValue0000109907: 'Giá trị Pip = 0,0001 / 0，7465   100,000 = AUD 13，39',
   asYouCanSeeTradingDifferent:
-    'Như bạn có thể thấy, giao dịch các cặp tiền tệ khác nhau có nghĩa là giá trị pip của biến động tiền tệ cũng sẽ khác nhau. Khi giao dịch AUD / USD, rủi ro vốn cho mỗi pip là 13, 39 AUD, trong khi giao dịch NZD / CAD, giá trị pip tương ứng là 10，09 AUD.',
+    'Như bạn có thể thấy, giao dịch các cặp tiền tệ khác nhau có nghĩa là giá trị pip của biến động tiền tệ cũng sẽ khác nhau. Khi giao dịch AUD / USD, rủi ro vốn cho mỗi pip là 13, 39 AUD, trong khi giao dịch NZD / CAD, giá trị pip tương ứng là 10,09 AUD.',
   toCalculateTheSpecificPrice:
     'Để tính toán mức giá cụ thể mà bạn nên đặt lệnh cắt lỗ, bạn cần phải tính toán thời điểm mà mức lỗ tích lũy của vị thế sẽ đạt tới 200 AUD.',
   aUDUSD: 'AUD / USD— $200 / $13, 39 = 15 điểm dừng lỗ',
   nZDCAD: 'NZD / CAD— $ 200 / $ 10, 09 = cắt lỗ 20 điểm',
   ifYouWantToSetALargerStop:
-    'Nếu bạn muốn đặt mức cắt lỗ lớn hơn, thì bạn cần giảm khối lượng giao dịch， ví dụ: giảm khối lượng giao dịch của 1 lot tiêu chuẩn xuống 1 lot nhỏ (10. 000).',
+    'Nếu bạn muốn đặt mức cắt lỗ lớn hơn, thì bạn cần giảm khối lượng giao dịch, ví dụ: giảm khối lượng giao dịch của 1 lot tiêu chuẩn xuống 1 lot nhỏ (10. 000).',
   inTheCaseOfTrading:
     'Trong trường hợp giao dịch 1 lot nhỏ AUD / USD, mức dừng lỗ của bạn có thể được mở rộng lên 150 điểm so với giá mở cửa, trong khi đối với giao dịch NZD / CAD, mức cắt lỗ của bạn có thể được mở rộng lên 200 điểm so với giá mở cửa.',
   pleaseRememberThat:
@@ -173,9 +173,9 @@ export const intermediateTrading: IntermediateTrading = {
   afterTheTradeIsOpened:
     'Sau khi giao dịch được mở, mục tiêu lợi nhuận thường được đặt là khoảng cách tính bằng điểm từ đầu đến đường viền cổ.',
   inAdditionYouMaySometimes:
-    'Ngoài ra， đôi khi bạn có thể gặp mô hình Đầu - Vai - Đáy. Đáy vai đầu vai có xu hướng xuất hiện vào cuối một làn sóng xu hướng giảm, và có nghĩa là khả năng tăng giá trong tương lai nhiều hơn. Đáy - đầu và vai bao gồm một máng， tiếp theo là đáy thấp hơn và đáy cao hơn. Tương tự như đầu và vai, thời điểm vào lệnh của đầu và vai là khi bạn xác nhận rằng đường viền cổ bị phá vỡ bởi giá hoặc chờ xem đường viền cổ có được kiểm định lại hay không.',
+    'Ngoài ra, đôi khi bạn có thể gặp mô hình Đầu - Vai - Đáy. Đáy vai đầu vai có xu hướng xuất hiện vào cuối một làn sóng xu hướng giảm, và có nghĩa là khả năng tăng giá trong tương lai nhiều hơn. Đáy - đầu và vai bao gồm một máng, tiếp theo là đáy thấp hơn và đáy cao hơn. Tương tự như đầu và vai, thời điểm vào lệnh của đầu và vai là khi bạn xác nhận rằng đường viền cổ bị phá vỡ bởi giá hoặc chờ xem đường viền cổ có được kiểm định lại hay không.',
   theFigureBelowShowsThe:
-    'Hình dưới đây cho thấy mô hình đáy đầu và vai trên thị trường thực tế:：',
+    'Hình dưới đây cho thấy mô hình đáy đầu và vai trên thị trường thực tế::',
   doubleTopAndDoubleBottom: 'Mô hình : Double top and double bottom',
   doubleTopPatternOften:
     'Mô hình hai đỉnh thường xuất hiện ở đầu xu hướng tăng. Nó cũng là một mô hình đảo chiều, có nghĩa là sự kết thúc của một xu hướng tăng. Mô hình đỉnh kép bao gồm hai đỉnh cạnh nhau và giá của hai đỉnh tương tự nhau. Đường viền cổ của mô hình đang ở mức hỗ trợ được hình thành bởi giá. Khi giá phá vỡ dưới mức hỗ trợ đường viền cổ, chúng tôi tin rằng mô hình đã hình thành.',
@@ -209,11 +209,11 @@ export const intermediateTrading: IntermediateTrading = {
     'Khi bạn mở một vị thế, bạn phải xem xét mức cắt lỗ mà bạn cần đặt. Việc thiết lập cắt lỗ phải dựa trên mức độ chấp nhận rủi ro cá nhân của bạn, nhưng số lượng điểm cắt lỗ không được quá nhỏ, nếu không giao dịch có thể bị dừng quá sớm. Thông thường, bạn cần để lại một số khoảng trống hợp lý cho các khoản lỗ thả nổi. Thông thường, khuyến nghị rằng mức cắt lỗ bạn đặt không được để khoản lỗ tiền vượt quá 1% đến 5%.',
   trailingStopLoss: 'Trailing stop loss',
   wheneverThePriceMoves:
-    'Bất cứ khi nào giá di chuyển một số điểm nhất định theo hướng thuận lợi, giá của lệnh cắt lỗ cũng di chuyển theo. Nói cách khác， khi giá di chuyển theo hướng có lợi, lệnh cắt lỗ trailing sẽ tự động "theo dõi" giá. Tính năng này có thể giúp bạn chốt lợi nhuận và tự động quản lý các giao dịch của mình',
+    'Bất cứ khi nào giá di chuyển một số điểm nhất định theo hướng thuận lợi, giá của lệnh cắt lỗ cũng di chuyển theo. Nói cách khác, khi giá di chuyển theo hướng có lợi, lệnh cắt lỗ trailing sẽ tự động "theo dõi" giá. Tính năng này có thể giúp bạn chốt lợi nhuận và tự động quản lý các giao dịch của mình',
   profitTargetProfit:
-    'Ví dụ: bạn có thể chỉ định rằng bất cứ khi nào giá tăng 5 điểm, lệnh dừng lỗ của bạn sẽ tăng 5 điểm. Khi bạn không thể quản lý giao dịch trong thời gian thực, lệnh cắt lỗ theo dõi có thể giúp bạn tự động thực hiện việc quản lý vị thế đã đề cập ở trên. Khi giá bắt đầu biến động theo hướng ngược lại， lệnh cắt lỗ sẽ vẫn ở mức giá ban đầu. Khi giá thị trường đạt đến mức giá cắt lỗ, vị thế của bạn sẽ tự động đóng cửa cắt lỗ là một chiến lược hiệu quả để giảm lỗ.',
+    'Ví dụ: bạn có thể chỉ định rằng bất cứ khi nào giá tăng 5 điểm, lệnh dừng lỗ của bạn sẽ tăng 5 điểm. Khi bạn không thể quản lý giao dịch trong thời gian thực, lệnh cắt lỗ theo dõi có thể giúp bạn tự động thực hiện việc quản lý vị thế đã đề cập ở trên. Khi giá bắt đầu biến động theo hướng ngược lại, lệnh cắt lỗ sẽ vẫn ở mức giá ban đầu. Khi giá thị trường đạt đến mức giá cắt lỗ, vị thế của bạn sẽ tự động đóng cửa cắt lỗ là một chiến lược hiệu quả để giảm lỗ.',
   profitTarget: 'Mục tiêu lợi nhuận',
-  profitTargetProfitTarget:
+  profitTargetIs:
     'Mục tiêu lợi nhuận là mức giá đặt trước mà bạn sẽ đóng vị thế của mình một cách có lãi. Trước khi dự định mở một vị thế, bạn nên xác định nơi đặt giá lợi nhuận của mình. Mục tiêu lợi nhuận là một phần quan trọng của quản lý đơn hàng. Chỉ cần giá thị trường đạt đến giá lợi nhuận, bạn không cần theo dõi vị trí bên cạnh máy tính, lợi nhuận sẽ giúp bạn tự động chốt lời.',
   marketOrder: 'Lệnh thị trường',
   aMarketOrder:
@@ -238,10 +238,10 @@ export const intermediateTrading: IntermediateTrading = {
   chartsAreTheCore:
     'Biểu đồ là cốt lõi của giao dịch. Ngoài việc giúp các nhà giao dịch theo dõi giá trị thời gian thực của các vị trí, biểu đồ cũng có thể giúp họ hiểu được xu hướng giá trong quá khứ và cung cấp manh mối về xu hướng tương lai của giá trên cơ sở này',
   theFirstThingTo:
-    'Vì vậy， học cách hiểu các biểu đồ là bước quan trọng để trở thành một nhà giao dịch giỏi. Điều đầu tiên cần hiểu là giá trên biểu đồ hiển thị hiệu suất của giá tại thời điểm tương ứng.',
+    'Vì vậy, học cách hiểu các biểu đồ là bước quan trọng để trở thành một nhà giao dịch giỏi. Điều đầu tiên cần hiểu là giá trên biểu đồ hiển thị hiệu suất của giá tại thời điểm tương ứng.',
   timeXAxisFromLeftToRight: 'Thời gian: Trục X (từ trái sang phải):',
   theXAxisOnTheChart:
-    'Trục X trên biểu đồ hiển thị thời gian (từ trái sang phải). Càng xa về bên trái， thời gian càng sớm. Nến hoặc thanh giá mới nhất đại diện cho thời điểm hiện tại. Mỗi cây nến hoặc thanh giá đại diện cho một đơn vị thời gian. Thông qua thanh cài đặt khoảng thời gian ở đầu biểu đồ, bạn có thể thay đổi độ dài thời gian được biểu thị bằng một đơn vị thời gian. Ví dụ: giả sử bạn đặt khoảng thời gian là hàng ngày (D1), có nghĩa là mỗi cây nến hoặc thanh giá đại diện cho biến động giá trong ngày. Nếu nó được đặt thành 5 phút (M5), điều đó có nghĩa là mỗi cây nến hoặc thanh giá thể hiện biến động giá trong 5 phút.',
+    'Trục X trên biểu đồ hiển thị thời gian (từ trái sang phải). Càng xa về bên trái, thời gian càng sớm. Nến hoặc thanh giá mới nhất đại diện cho thời điểm hiện tại. Mỗi cây nến hoặc thanh giá đại diện cho một đơn vị thời gian. Thông qua thanh cài đặt khoảng thời gian ở đầu biểu đồ, bạn có thể thay đổi độ dài thời gian được biểu thị bằng một đơn vị thời gian. Ví dụ: giả sử bạn đặt khoảng thời gian là hàng ngày (D1), có nghĩa là mỗi cây nến hoặc thanh giá đại diện cho biến động giá trong ngày. Nếu nó được đặt thành 5 phút (M5), điều đó có nghĩa là mỗi cây nến hoặc thanh giá thể hiện biến động giá trong 5 phút.',
   priceYAxisFromTopToBottom: 'Giá: Trục Y (từ trên xuống dưới)',
   youCanReadThePrice:
     'Bạn có thể đọc giá của sản phẩm trên trục Y thẳng đứng. Vị trí của nến hoặc thanh giá càng cao thì giá càng cao tại thời điểm tương ứng. Ngược lại, nếu một cây nến hoặc một thanh giá ở dưới cùng của biểu đồ, điều đó có nghĩa là giá tại thời điểm tương ứng thấp hơn.',

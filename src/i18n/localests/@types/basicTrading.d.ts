@@ -193,7 +193,7 @@ export type BasicTrading = {
   theSummaryWindowAt: string;
   /* The account balance */
   theAccountBalance: string;
-  /* At this time， we opened */
+  /* At this time, we opened */
   atThisTimeWeOpened: string;
   /* One-click closing */
   oneClickClosing: string;

@@ -71,7 +71,7 @@ export const advancedTrading: AdvancedTrading = {
   forExample:
     'For example: a can of Coke costs 1 u.s dollar in the United States and 100 yen in Japan. According to the purchasing power parity theory, the exchange rate = u.s Coke cost / Japanese Coke cost = 1:100',
   ifTheCurrent:
-    'If the current exchange rate is 1:110, according to the purchasing power parity theory, the yen is undervalued and the dollar is overvalued. Traders can buy goods in Japan for 100 yen and then transport them to the United States to sell them for 1 u.s dollar. The resulting u.s dollars will be converted into 110 yen at the current exchange rate, with a risk-free arbitrage of 10 yen. Therefore, the demand for the yen will rise， which will eventually boost the appreciation of the yen and the depreciation of the u.s dollar. The exchange rate of the u.s dollar against the yen will return to the 1:100 level.',
+    'If the current exchange rate is 1:110, according to the purchasing power parity theory, the yen is undervalued and the dollar is overvalued. Traders can buy goods in Japan for 100 yen and then transport them to the United States to sell them for 1 u.s dollar. The resulting u.s dollars will be converted into 110 yen at the current exchange rate, with a risk-free arbitrage of 10 yen. Therefore, the demand for the yen will rise, which will eventually boost the appreciation of the yen and the depreciation of the u.s dollar. The exchange rate of the u.s dollar against the yen will return to the 1:100 level.',
   itShouldBeNoted:
     'It should be noted that Coke is just an example to illustrate the meaning of the theory. In fact, the purchasing power parity theory is not based on a single commodity, but a basket of commodities and services. The combination of commodities and services depends on the preferences of different analysts. At the same time, the purchasing power parity theory ignores some important factors affecting prices, including transportation costs, trade barriers, tariffs, etc., and it does not specify data on non-traded goods. Purchasing power parity theory is generally only applicable to long-term forecasts over 3 to 5 years.',
   balanceOfPayments: 'Balance of Payments Theory',
@@ -147,7 +147,7 @@ export const advancedTrading: AdvancedTrading = {
   chartPatterns:
     'Chart patterns often provide methods for judging support and resistance levels.',
   inADouble:
-    'For example， in a double top pattern, its crest can be regarded as a strong resistance level, because the price retracements twice at this position. The trough (neckline) can be regarded as a support level.',
+    'For example, in a double top pattern, its crest can be regarded as a strong resistance level, because the price retracements twice at this position. The trough (neckline) can be regarded as a support level.',
   technicalIndexJudgment: 'Technical index judgment',
   someClassicalTechnical:
     'Some classical technical indicators can also be used to determine support and resistance levels. The most classical is the golden section line.',

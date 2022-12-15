@@ -1,119 +1,119 @@
 import { Conditions } from '../@types/conditions';
 
 export const conditions: Conditions = {
-  privacyPolicy: 'Privacy Policy',
+  privacyPolicy: 'นโยบายความเป็นส่วนตัว',
   theCustomers:
-    "The customer's personal data will be used for the following purposes according to actual conditions and needs:",
+    'ข้อมูลส่วนบุคคลของลูกค้าจะถูกนำไปใช้เพื่อวัตถุประสงค์ตามเงื่อนไขและความต้องการที่แท้จริงดังต่อไปนี้:',
   theVerificationProcedures:
-    "The verification procedures for executing customer instructions or responding to customer-related inquiries, daily administration of accounts, or direct or indirect marketing of related investment products or services, share with WCG's affiliated or related companies on related investment or transaction services, Repeatedly verify and transfer such personal data",
-  dealWithCustomers:
-    "Deal with customers' collateral, or collect debts from customers;",
+    'ขั้นตอนการตรวจสอบสำหรับดำเนินการตามคำแนะนำของลูกค้าหรือตอบคำถามที่เกี่ยวข้องกับลูกค้า การบริหารบัญชีประจำวัน หรือการตลาดโดยตรงหรือโดยอ้อมของผลิตภัณฑ์หรือบริการการลงทุนที่เกี่ยวข้อง ร่วมกับบริษัทในเครือของ WCG หรือบริษัทที่เกี่ยวข้องในบริการการลงทุนหรือธุรกรรมที่เกี่ยวข้อง ตรวจสอบและถ่ายโอนซ้ำๆ ข้อมูลส่วนบุคคลดังกล่าว',
+  dealWithCustomers: 'จัดการกับหลักประกันของลูกค้าหรือเรียกเก็บหนี้จากลูกค้า',
   transferSuchPersonalData:
-    'Transfer such personal data to third-party service providers for credit verification and/or data verification purposes;',
+    'โอนข้อมูลส่วนบุคคลดังกล่าวไปยังผู้ให้บริการบุคคลที่สามเพื่อวัตถุประสงค์ในการตรวจสอบเครดิตและ/หรือการตรวจสอบข้อมูล',
   toProvideAny:
-    'To provide any such data for any purpose in or in relation to complying with any laws, regulations, ordinances or orders of regulatory agencies;',
+    'เพื่อให้ข้อมูลดังกล่าวเพื่อวัตถุประสงค์ใด ๆ หรือเกี่ยวข้องกับการปฏิบัติตามกฎหมาย ระเบียบ ข้อบังคับ หรือคำสั่งของหน่วยงานกำกับดูแลใด ๆ',
   WCGWillKeep:
-    "WCG will keep the client's personal information confidential, but may provide it to the following organizations/persons based on actual conditions and needs:",
+    'WCG จะรักษาข้อมูลส่วนบุคคลของลูกค้าไว้เป็นความลับ แต่อาจมอบให้กับองค์กร/บุคคลต่อไปนี้ตามเงื่อนไขและความต้องการที่แท้จริง:',
   WCGOtherCompanies:
-    'WCG other companies include wholly-owned or partially-owned companies in the name of wholly-owned subsidiaries or affiliated companies of subsidiaries or directors and employees of the group;',
+    'บริษัทอื่นๆ ของ WCG รวมถึงบริษัทที่เป็นเจ้าของทั้งหมดหรือบางส่วนในนามของบริษัทย่อยที่เป็นเจ้าของทั้งหมดหรือบริษัทในเครือของบริษัทย่อย หรือกรรมการและพนักงานของกลุ่ม',
   agentsAndThirdPartyService:
-    'Agents and third-party service providers who handle related business for customers include: clearing houses, professional service companies, financial institutions, computer system service providers, and telecommunication system support services as necessary procedures for completing customer services',
+    'ตัวแทนและผู้ให้บริการบุคคลที่สามที่จัดการธุรกิจที่เกี่ยวข้องให้กับลูกค้า ได้แก่ สำนักหักบัญชี บริษัทผู้ให้บริการมืออาชีพ สถาบันการเงิน ผู้ให้บริการระบบคอมพิวเตอร์ และบริการสนับสนุนระบบโทรคมนาคม เป็นขั้นตอนที่จำเป็นสำหรับการบริการลูกค้าให้เสร็จสมบูรณ์',
   anyRegulatoryOrGovernmentAgency:
-    'Any regulatory or government agency that is related to or supervises any business of WCG',
+    'หน่วยงานกำกับดูแลหรือหน่วยงานของรัฐที่เกี่ยวข้องหรือกำกับดูแลธุรกิจใดๆ ของ WCG',
   personsDeemedAppropriate:
-    "Persons deemed appropriate or appropriate in accordance with the confidentiality obligation, including group member companies and their employees. These authorized persons must keep the customer's personal information confidential.",
+    'บุคคลที่เห็นว่าเหมาะสมหรือเหมาะสมตามภาระผูกพันในการรักษาความลับ รวมถึงบริษัทสมาชิกในกลุ่มและพนักงานของพวกเขา ผู้มีอำนาจเหล่านี้จะต้องรักษาข้อมูลส่วนบุคคลของลูกค้าไว้เป็นความลับ',
   AccordingTo:
-    'According to the terms of the regulations, customers have the right to request that any false data about customers be corrected by WCG and to request in writing that we terminate the use of their personal data for direct or indirect marketing purposes. WCG reserves the right to charge a reasonable fee for processing requests for data or corrections made in accordance with the provisions of the regulations.',
-  conditions: 'Conditions',
+    'ตามข้อกำหนดของข้อบังคับ ลูกค้ามีสิทธิ์ร้องขอให้ WCG แก้ไขข้อมูลเท็จเกี่ยวกับลูกค้า และร้องขอเป็นลายลักษณ์อักษรให้เรายุติการใช้ข้อมูลส่วนบุคคลของพวกเขาเพื่อวัตถุประสงค์ทางการตลาดทางตรงหรือทางอ้อม WCG ขอสงวนสิทธิ์ในการเรียกเก็บค่าธรรมเนียมที่สมเหตุสมผลสำหรับการดำเนินการตามคำขอสำหรับข้อมูลหรือการแก้ไขตามข้อกำหนดของข้อบังคับ',
+  conditions: 'เงื่อนไข',
   whenYouUseThisWebsite:
-    'When you use this website, this agreement applies. By accessing and using this website, you agree to abide by the following terms of this agreement.',
-  visitWebsite: 'Visit website',
+    'เมื่อคุณใช้เว็บไซต์นี้ ข้อตกลงนี้จะมีผลบังคับใช้ การเข้าถึงและใช้เว็บไซต์นี้แสดงว่าคุณตกลงที่จะปฏิบัติตามข้อกำหนดต่อไปนี้ของข้อตกลงนี้',
+  visitWebsite: 'เข้าไปดูในเว็บไซต์',
   theCopyrightsOfThisWebsiteAndAllText:
-    'The copyrights of this website and all text, graphics, images, software and other materials on this website belong to WCG or its licensors.',
+    'ลิขสิทธิ์ของเว็บไซต์นี้และข้อความ กราฟิก รูปภาพ ซอฟต์แวร์ และวัสดุอื่น ๆ ทั้งหมดบนเว็บไซต์นี้เป็นของ WCG หรือผู้ออกใบอนุญาต',
   theInformationOnThisWebsite:
-    'The information on this website is for your personal use only and for non-commercial purposes only. You can only display or print the information on this website as it is on the computer screen for the above-mentioned purposes.',
+    'ข้อมูลบนเว็บไซต์นี้มีไว้สำหรับการใช้งานส่วนตัวของคุณเท่านั้นและเพื่อวัตถุประสงค์ที่ไม่ใช่เชิงพาณิชย์เท่านั้น คุณสามารถแสดงหรือพิมพ์ข้อมูลบนเว็บไซต์นี้ตามที่ปรากฏบนหน้าจอคอมพิวเตอร์เท่านั้นเพื่อวัตถุประสงค์ดังกล่าวข้างต้น',
   exceptAsExpresslyStipulatedInThisAgreement:
-    'Except as expressly stipulated in this agreement, without the prior written permission of WCG, you may not change, modify, copy, distribute or commercially use any information on this website.',
+    'เว้นแต่จะกำหนดไว้อย่างชัดแจ้งในข้อตกลงนี้ หากไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจาก WCG คุณไม่สามารถเปลี่ยนแปลง แก้ไข คัดลอก แจกจ่าย หรือใช้ข้อมูลใด ๆ บนเว็บไซต์นี้ในเชิงพาณิชย์',
   forTheAboveMentionedPurposes:
-    'For the above-mentioned purposes, you can copy the above-mentioned trademarks as they are from the materials downloaded from this website. WCG may at any time notify you of changes to this agreement by posting the latest version of this agreement on this website. You are responsible for reviewing this agreement frequently. By using this website after the above-mentioned changes are posted, you agree to the above-mentioned changes.',
-  entireAgreement: 'Entire Agreement',
+    'สำหรับวัตถุประสงค์ที่กล่าวถึงข้างต้น คุณสามารถคัดลอกเครื่องหมายการค้าที่กล่าวถึงข้างต้นได้จากเอกสารที่ดาวน์โหลดจากเว็บไซต์นี้ WCG อาจแจ้งให้คุณทราบเมื่อใดก็ได้เกี่ยวกับการเปลี่ยนแปลงข้อตกลงนี้โดยการโพสต์ข้อตกลงฉบับล่าสุดบนเว็บไซต์นี้ คุณมีหน้าที่รับผิดชอบในการตรวจสอบข้อตกลงนี้บ่อยๆ การใช้เว็บไซต์นี้หลังจากโพสต์การเปลี่ยนแปลงที่กล่าวถึงข้างต้น แสดงว่าคุณยอมรับการเปลี่ยนแปลงที่กล่าวถึงข้างต้น',
+  entireAgreement: 'ข้อตกลงทั้งหมด',
   thisAgreementContains:
-    'This agreement contains the entire agreement between you and WCG regarding your access to and use of this website. WCG may at any time notify you of changes to this agreement by posting the latest version of this agreement on this website. You are responsible for reviewing this agreement frequently. By using this website after the above-mentioned changes are posted, you agree to the above-mentioned changes.',
-  thirdPartyInformation: 'Third-party information and website',
+    'ข้อตกลงนี้ประกอบด้วยข้อตกลงทั้งหมดระหว่างคุณและ WCG เกี่ยวกับการเข้าถึงและการใช้เว็บไซต์นี้ WCG อาจแจ้งให้คุณทราบเมื่อใดก็ได้เกี่ยวกับการเปลี่ยนแปลงข้อตกลงนี้โดยการโพสต์ข้อตกลงฉบับล่าสุดบนเว็บไซต์นี้ คุณมีหน้าที่รับผิดชอบในการตรวจสอบข้อตกลงนี้บ่อยๆ การใช้เว็บไซต์นี้หลังจากโพสต์การเปลี่ยนแปลงที่กล่าวถึงข้างต้น แสดงว่าคุณยอมรับการเปลี่ยนแปลงที่กล่าวถึงข้างต้น',
+  thirdPartyInformation: 'ข้อมูลบุคคลที่สามและเว็บไซต์',
   thisWebsiteMayContain:
-    "This website may contain materials produced by third parties or links to other websites. The above-mentioned materials and websites are provided by third-party vendors and are not under the direct control of WCG. WCG assumes no responsibility or responsibility for the operation or content of any of the above-mentioned third-party materials or other websites (whether or not linked to this website). obligation. You confirm that if you set up any links between other websites and this website without WCG's prior written consent, WCG reserves the right to request you to delete it.",
-  responsibilitiesOfWCGInternational: 'Responsibilities of WCG',
+    'เว็บไซต์นี้อาจมีเนื้อหาที่ผลิตโดยบุคคลที่สามหรือลิงก์ไปยังเว็บไซต์อื่น เนื้อหาและเว็บไซต์ที่กล่าวถึงข้างต้นจัดทำโดยผู้ขายที่เป็นบุคคลภายนอก และไม่อยู่ภายใต้การควบคุมโดยตรงของ WCG WCG ไม่รับผิดชอบหรือรับผิดชอบต่อการดำเนินการหรือเนื้อหาของเนื้อหาของบุคคลที่สามหรือเว็บไซต์อื่น ๆ ที่กล่าวถึงข้างต้น (ไม่ว่าจะเชื่อมโยงกับเว็บไซต์นี้หรือไม่ก็ตาม) ภาระผูกพัน. คุณยืนยันว่าหากคุณตั้งค่าลิงก์ใดๆ ระหว่างเว็บไซต์อื่นกับเว็บไซต์นี้โดยไม่ได้รับความยินยอมเป็นลายลักษณ์อักษรล่วงหน้าจาก WCG WCG ขอสงวนสิทธิ์ในการขอให้คุณลบออก',
+  responsibilitiesOfWCGInternational: 'ความรับผิดชอบของ WCG',
   whenYouRegisterAs:
-    "When you register as a WCG customer and accept WCG's services, you must accept the WCG business terms. Business terms apply to your relationship with WCG and WCG's responsibilities to you for the services it provides. Although WCG regularly updates the website, it does not guarantee that the information or data contained in the website reflects the latest situation or is accurate, or that the products or services listed on the website are currently valid. WCG may change the information posted on this website at any time without notice.",
+    'เมื่อคุณลงทะเบียนเป็นลูกค้า WCG และยอมรับบริการของ WCG คุณต้องยอมรับเงื่อนไขทางธุรกิจของ WCG ข้อกำหนดทางธุรกิจมีผลบังคับใช้กับความสัมพันธ์ของคุณกับ WCG และความรับผิดชอบของ WCG ที่มีต่อคุณสำหรับบริการที่มีให้ แม้ว่า WCG จะอัปเดตเว็บไซต์เป็นประจำ แต่ก็ไม่รับประกันว่าข้อมูลหรือข้อมูลที่อยู่ในเว็บไซต์จะสะท้อนถึงสถานการณ์ล่าสุดหรือถูกต้อง หรือผลิตภัณฑ์หรือบริการที่แสดงบนเว็บไซต์นั้นถูกต้องในปัจจุบัน WCG อาจเปลี่ยนแปลงข้อมูลที่โพสต์บนเว็บไซต์นี้ได้ตลอดเวลาโดยไม่ต้องแจ้งให้ทราบล่วงหน้า',
   inAdditionToTheAboveMentionedServiceDescriptions:
-    'In addition to the above-mentioned service descriptions, this website and all software and other materials on this website are provided to you on "as is" and "as is" conditions, and their accuracy, timeliness or completeness cannot be guaranteed. To the extent permitted by law, all statements and guarantees, whether express, implied, statutory or other, including but not limited to any guarantees regarding accuracy, timeliness, saleability, quality satisfaction or suitable for a specific or any purpose Or conditions are excluded here.',
+    'นอกจากคำอธิบายบริการที่กล่าวถึงข้างต้นแล้ว เว็บไซต์นี้และซอฟต์แวร์ทั้งหมดและวัสดุอื่น ๆ บนเว็บไซต์นี้มีให้คุณตามเงื่อนไข "ตามสภาพ" และ "ตามที่เป็น" และไม่สามารถรับประกันความถูกต้อง ความทันเวลา หรือความครบถ้วนสมบูรณ์ได้ ตามขอบเขตที่กฎหมายอนุญาต ข้อความและการรับประกันทั้งหมดไม่ว่าจะโดยชัดแจ้ง โดยนัย ตามกฎหมายหรืออื่น ๆ รวมถึงแต่ไม่จำกัดเพียงการรับประกันใด ๆ เกี่ยวกับความถูกต้อง ความทันเวลา ความสามารถในการขาย ความพึงพอใจในคุณภาพ .',
   youSufferAnyIndirect:
-    'You suffer any indirect, special, incidental or consequential damages due to use, delay in use or inability to access this website, or for any other reasons related to this website, including but not limited to downloading any software from this website, including but not Limited to damage to your computer or computer system or settings, loss of data, loss of income or profit, WCG does not assume any responsibility for you. WCG does not represent or guarantee that the website or information meets your requirements or that the website or any software will be uninterrupted, safe or free of any errors or viruses.',
-  yourInformation: 'Your information',
+    'คุณได้รับความเสียหายทางอ้อม พิเศษ โดยบังเอิญหรือเป็นผลสืบเนื่องจากการใช้งาน ความล่าช้าในการใช้งานหรือไม่สามารถเข้าถึงเว็บไซต์นี้ หรือด้วยเหตุผลอื่นใดที่เกี่ยวข้องกับเว็บไซต์นี้ รวมถึงแต่ไม่จำกัดเฉพาะการดาวน์โหลดซอฟต์แวร์ใดๆ จากเว็บไซต์นี้ รวมถึงแต่ไม่จำกัดเพียง จำกัดเฉพาะความเสียหายต่อคอมพิวเตอร์หรือระบบคอมพิวเตอร์หรือการตั้งค่า การสูญหายของข้อมูล การสูญเสียรายได้หรือกำไร WCG จะไม่รับผิดชอบต่อคุณ WCG ไม่รับรองหรือรับประกันว่าเว็บไซต์หรือข้อมูลตรงตามความต้องการของคุณ หรือเว็บไซต์หรือซอฟต์แวร์ใดๆ จะไม่หยุดชะงัก ปลอดภัยหรือปราศจากข้อผิดพลาดหรือไวรัสใดๆ',
+  yourInformation: 'ข้อมูลของคุณ',
   inAdditionToYourObligation:
-    'In addition to your obligation to register as a customer of WCG, you agree to ensure that all information you provide to WCG is complete and accurate to the extent you know and believe. You agree to notify WCG immediately of any changes in the information you provide, so that WCG can update records in a timely manner and accurately reflect the latest situation.',
-  companyInformation: 'Company Information',
-  WCGInternational: 'WCG Markets Ltd',
-  disputeSettlement: 'Dispute Settlement',
+    'นอกจากภาระผูกพันของคุณในการลงทะเบียนเป็นลูกค้าของ WCG แล้ว คุณตกลงที่จะรับรองว่าข้อมูลทั้งหมดที่คุณให้กับ WCG นั้นสมบูรณ์และถูกต้องตามขอบเขตที่คุณทราบและเชื่อ คุณตกลงที่จะแจ้ง WCG ทันทีเมื่อมีการเปลี่ยนแปลงข้อมูลที่คุณให้ เพื่อให้ WCG สามารถอัปเดตบันทึกได้อย่างทันท่วงทีและสะท้อนถึงสถานการณ์ล่าสุดได้อย่างถูกต้อง',
+  companyInformation: 'ข้อมูล บริษัท',
+  WCGInternational: 'WCG Markets จำกัด',
+  disputeSettlement: 'การระงับข้อพิพาท',
   weWelcomeYourInvaluableComments:
-    'We welcome your invaluable comments. If anything could improve our service comes to your mind, please let us know. Whether it is a suggestion, compliment or complaint, your feedback is the key to improving our products and services.',
+    'เรายินดีรับฟังความคิดเห็นอันมีค่าของคุณ หากคุณมีสิ่งใดที่สามารถปรับปรุงบริการของเราได้ โปรดแจ้งให้เราทราบ ไม่ว่าจะเป็นข้อเสนอแนะ ชมเชย หรือข้อร้องเรียน ความคิดเห็นของคุณคือกุญแจสำคัญในการปรับปรุงผลิตภัณฑ์และบริการของเรา',
   ifYouNeedAnyAssistance:
-    'For assistance, please contact the 24-hours online customer service staff ',
-  orEmailUs: 'or kindly send us your comments to ',
-  makeASuggestion: 'Make a suggestion',
+    'หากต้องการความช่วยเหลือ โปรดติดต่อเจ้าหน้าที่ฝ่ายบริการลูกค้าออนไลน์ตลอด 24 ชั่วโมง ',
+  orEmailUs: 'หรือกรุณาส่งความคิดเห็นของคุณมาที่',
+  makeASuggestion: 'ให้คำแนะนำ',
   weUnderstandThatEven:
-    'We understand that even well-established institutions would make mistakes. If you have a complaint, please let us know and let us have a chance to solve these problems. We will investigate the issue, answer your questions, and do our best to restore your confidence in us.',
+    'เราเข้าใจว่าแม้แต่สถาบันที่มีชื่อเสียงก็ยังทำผิดพลาดได้ หากคุณมีข้อร้องเรียน โปรดแจ้งให้เราทราบและแจ้งให้เรามีโอกาสแก้ไขปัญหาเหล่านี้ เราจะตรวจสอบปัญหา ตอบคำถามของคุณ และพยายามอย่างดีที่สุดเพื่อเรียกความมั่นใจของคุณกลับคืนมา',
   toAssistUsInHelpingYou:
-    'To assist us in helping you, we recommend that you follow a simple five steps process:',
-  collectMaterials: 'Collect materials',
+    'เพื่อช่วยให้เราช่วยเหลือคุณ เราขอแนะนำให้คุณทำตามขั้นตอนง่ายๆ ห้าขั้นตอน:',
+  collectMaterials: 'รวบรวมวัสดุ',
   forCurrentTrades:
-    'For current trades, please contact our dealing room; for previous trades or other matters, please contact our customer service staff.',
-  transferTo: 'Transfer to senior management',
+    'สำหรับการซื้อขายในปัจจุบัน โปรดติดต่อห้องซื้อขายของเรา สำหรับการซื้อขายก่อนหน้าหรือเรื่องอื่น ๆ โปรดติดต่อเจ้าหน้าที่บริการลูกค้าของเรา',
+  transferTo: 'ถ่ายโอนไปยังผู้บริหารระดับสูง',
   contactOurComplianceDepartment:
-    'Contact our compliance department, internal audit and risk management supervisor',
+    'ติดต่อฝ่ายปฏิบัติตามกฎระเบียบ ฝ่ายตรวจสอบภายใน และหัวหน้างานบริหารความเสี่ยง',
   collectAllTheSupportingMaterials:
-    'Collect all the supporting materials related to the complaint, think about the questions you require us to answer and how we think we should decide.',
+    'รวบรวมเอกสารสนับสนุนทั้งหมดที่เกี่ยวข้องกับการร้องเรียน คิดถึงคำถามที่คุณต้องการให้เราตอบ และเราคิดว่าเราควรตัดสินใจอย่างไร',
   thenIfTheQuestionRelates:
-    'Then, if the question relates to current or recent trades, please contact our dealing room directly. Please remember that you should contact us in the most possible instant time, it will give us the opportunity to help you to solve the problem in the simplest and quickest way. If the problem involves a transaction that occurred in the past, then contacting our customer service officer may be the best way. Our staff will comprehensively review the situation and resolve these issues as soon as possible.',
+    'จากนั้น หากคำถามเกี่ยวข้องกับการซื้อขายในปัจจุบันหรือล่าสุด โปรดติดต่อห้องซื้อขายของเราโดยตรง โปรดจำไว้ว่าคุณควรติดต่อเราโดยเร็วที่สุดเท่าที่จะเป็นไปได้ ซึ่งจะทำให้เรามีโอกาสที่จะช่วยคุณแก้ปัญหาด้วยวิธีที่ง่ายและรวดเร็วที่สุด หากปัญหาเกี่ยวข้องกับธุรกรรมที่เกิดขึ้นในอดีต การติดต่อเจ้าหน้าที่ฝ่ายบริการลูกค้าของเราอาจเป็นวิธีที่ดีที่สุด เจ้าหน้าที่ของเราจะตรวจสอบสถานการณ์อย่างละเอียดและแก้ไขปัญหาเหล่านี้โดยเร็วที่สุด',
   ifAtThisStage:
-    'If at this stage, the problem has not been resolved or cannot be handled satisfactorily, please ask the person in charge to report the matter to their upper management. We will provide you with the name and contact details of the person who is responsible for investigating your complaint. We will grant the person in charge the necessary authority to review your case.',
+    'หากในขั้นตอนนี้ ปัญหายังไม่ได้รับการแก้ไขหรือไม่สามารถจัดการได้อย่างน่าพอใจ โปรดขอให้ผู้รับผิดชอบรายงานเรื่องนี้ต่อผู้บริหารระดับสูง เราจะแจ้งชื่อและรายละเอียดการติดต่อของบุคคลที่รับผิดชอบในการตรวจสอบการร้องเรียนของคุณ เราจะให้อำนาจที่จำเป็นแก่บุคคลที่รับผิดชอบในการตรวจสอบกรณีของคุณ',
   ifTheProblem:
-    'If the problem cannot be resolved, you can consider reporting it to the compliance, internal audit and risk management supervisor. The supervisor will conduct an independent inspection and contact you directly.',
-  emailTo: 'Email to: ',
-  headOfCompliance: 'Head of compliance, internal audit and risk management',
+    'หากปัญหาไม่สามารถแก้ไขได้ คุณสามารถพิจารณารายงานต่อหัวหน้างานกำกับดูแล การตรวจสอบภายใน และการบริหารความเสี่ยง หัวหน้างานจะดำเนินการตรวจสอบอย่างอิสระและติดต่อคุณโดยตรง',
+  emailTo: 'อีเมลไปที่: ',
+  headOfCompliance:
+    'หัวหน้าฝ่ายการปฏิบัติตามกฎระเบียบ การตรวจสอบภายใน และการบริหารความเสี่ยง',
   weTargetToResolve:
-    'We target to resolve all disputes within 15 working days. However, some complicated issues may take longer to process. If this is the case, we will keep you updated with our progress.',
-  riskDisclaimer: 'Risk Disclaimer',
-  internetConnectivityFailure: 'Internet connectivity failure',
+    'เราตั้งเป้าที่จะแก้ไขข้อพิพาททั้งหมดภายใน 15 วันทำการ อย่างไรก็ตาม ปัญหาที่ซับซ้อนบางอย่างอาจใช้เวลาในการดำเนินการนานกว่า หากเป็นกรณีนี้ เราจะแจ้งความคืบหน้าให้คุณทราบ',
+  riskDisclaimer: 'การปฏิเสธความรับผิดชอบต่อความเสี่ยง',
+  internetConnectivityFailure: 'ความล้มเหลวในการเชื่อมต่ออินเทอร์เน็ต',
   sinceWCGCannotControl:
-    "Since WCG cannot control the signal capacity, the reception of signals through the Internet and routing depends on the structure of the client's equipment or the reliability of the connection. WCG does not responsible for communication failures, distortions or delays in transactions on the Internet.",
-  marketRiskAndOnlineTrading: 'Market risk and online trading',
+    'เนื่องจาก WCG ไม่สามารถควบคุมความจุของสัญญาณได้ การรับสัญญาณผ่านอินเทอร์เน็ตและการกำหนดเส้นทางจึงขึ้นอยู่กับโครงสร้างอุปกรณ์ของลูกค้าหรือความน่าเชื่อถือของการเชื่อมต่อ WCG ไม่รับผิดชอบต่อความล้มเหลวในการสื่อสาร การบิดเบือน หรือความล่าช้าในการทำธุรกรรมบนอินเทอร์เน็ต',
+  marketRiskAndOnlineTrading: 'ความเสี่ยงด้านตลาดและการซื้อขายออนไลน์',
   preciousMetalsTrading:
-    'Precious metals trading involves significant level of risks and is not suitable for everyone. Please refer to the customer contract for a detailed introduction of risks. No matter how convenient or efficient online trading is, this does not reduce the risk of precious metals trading.',
+    'การซื้อขายโลหะมีค่ามีความเสี่ยงสูงและไม่เหมาะสำหรับทุกคน โปรดดูสัญญาของลูกค้าสำหรับรายละเอียดเบื้องต้นของความเสี่ยง ไม่ว่าการซื้อขายออนไลน์จะสะดวกและมีประสิทธิภาพเพียงใด สิ่งนี้ไม่ได้ช่วยลดความเสี่ยงของการซื้อขายโลหะมีค่า',
   customersMustKeepThePassword:
-    "Customers must keep the password confidential to ensure that third parties cannot access the trading facilities. The client agrees to be responsible for all instructions sent via email and all instructions sent to WCG via email, verbal or by written, even if issued by a third party, these instructions have been authenticated with the client's password and account number. According to WCG's judgment, it is believed to be basic authorization of clients. WCG does not responsible for making further inquiries about this apparent permission, nor it is responsible for the consequences of actions or non-actions based on these instructions or apparent permission.",
-  passwordProtection: 'Password protection',
-  incorrectPriceQuotation: 'Incorrect Price Quotation',
+    'ลูกค้าต้องเก็บรหัสผ่านไว้เป็นความลับเพื่อให้แน่ใจว่าบุคคลที่สามไม่สามารถเข้าถึงสิ่งอำนวยความสะดวกในการซื้อขายได้ ลูกค้าตกลงที่จะรับผิดชอบต่อคำแนะนำทั้งหมดที่ส่งทางอีเมลและคำแนะนำทั้งหมดที่ส่งไปยัง WCG ทางอีเมล ทางวาจาหรือทางลายลักษณ์อักษร แม้ว่าจะออกโดยบุคคลที่สามก็ตาม คำแนะนำเหล่านี้ได้รับการรับรองความถูกต้องด้วยรหัสผ่านและหมายเลขบัญชีของลูกค้า ตามการพิจารณาของ WCG เชื่อว่าเป็นการอนุญาตขั้นพื้นฐานของลูกค้า WCG ไม่รับผิดชอบในการสอบถามเพิ่มเติมเกี่ยวกับการอนุญาตที่ชัดเจนนี้ และไม่รับผิดชอบต่อผลที่ตามมาของการกระทำหรือการไม่กระทำตามคำแนะนำเหล่านี้หรือการอนุญาตที่ชัดเจน',
+  passwordProtection: 'การป้องกันรหัสผ่าน',
+  incorrectPriceQuotation: 'ใบเสนอราคาไม่ถูกต้อง',
   whenQuotationOrTransaction:
-    "When quotation or transaction price error occurs, WCG will not be responsible for the account balance error caused by this. These errors include, but are not limited to: dealer's wrong quotation, non-international market price quotation, or any quotation error (for example: hardware, software, network problems, or incorrect data provided by a third party). WCG does not responsible for the affected account balance caused by the error. When placing an order, you need to reserve enough time to execute the order and the time for system to calculate the required margin level. If the execution price of the order or the order setting is too close to the market price, it may trigger other orders (regardless of the order type) or results in a margin alert. WCG will not be responsible for margin reminders or incorrect account balances / positions due to the system's insufficient time to execute orders or perform calculations.The above shall not be regarded as an exhaustive list. In the event of a quotation or execution error, WCG reserves the right to make any corrections or adjustments. Any disputes related to quotation and transaction errors can only be resolved by WCG at its sole discretion. If this causes WCG to have any loss, damage or liability, the customer agrees to make compensation so that WCG will not suffer the loss.",
-  arbitrage: 'Arbitrage',
+    'เมื่อเกิดข้อผิดพลาดในใบเสนอราคาหรือราคาซื้อขาย WCG จะไม่รับผิดชอบต่อข้อผิดพลาดของยอดเงินในบัญชีที่เกิดจากสิ่งนี้ ข้อผิดพลาดเหล่านี้รวมถึงแต่ไม่จำกัดเพียง: ใบเสนอราคาที่ไม่ถูกต้องของตัวแทนจำหน่าย ใบเสนอราคาที่ไม่ใช่ราคาตลาดระหว่างประเทศ หรือข้อผิดพลาดในการเสนอราคาใดๆ (ตัวอย่างเช่น: ฮาร์ดแวร์ ซอฟต์แวร์ ปัญหาเครือข่าย หรือข้อมูลที่ไม่ถูกต้องจากบุคคลที่สาม) WCG ไม่รับผิดชอบต่อยอดเงินในบัญชีที่ได้รับผลกระทบซึ่งเกิดจากข้อผิดพลาด เมื่อทำการสั่งซื้อ คุณต้องสำรองเวลาให้เพียงพอในการดำเนินการตามคำสั่ง และเวลาสำหรับระบบในการคำนวณระดับมาร์จิ้นที่ต้องการ หากราคาการดำเนินการของคำสั่งหรือการตั้งค่าคำสั่งใกล้เคียงกับราคาตลาดมากเกินไป คำสั่งนั้นอาจเรียกใช้งานคำสั่งอื่นๆ (โดยไม่คำนึงถึงประเภทคำสั่ง) หรือส่งผลให้เกิดการแจ้งเตือนมาร์จิ้น WCG จะไม่รับผิดชอบต่อการเตือนมาร์จิ้นหรือยอดคงเหลือในบัญชี / ตำแหน่งที่ไม่ถูกต้อง เนื่องจากระบบมีเวลาไม่เพียงพอในการดำเนินการตามคำสั่งหรือดำเนินการคำนวณ รายการข้างต้นจะไม่ถือเป็นรายการที่ครบถ้วนสมบูรณ์ ในกรณีที่มีข้อผิดพลาดในใบเสนอราคาหรือการดำเนินการ WCG ขอสงวนสิทธิ์ในการแก้ไขหรือปรับปรุงใดๆ ข้อพิพาทใด ๆ ที่เกี่ยวข้องกับใบเสนอราคาและข้อผิดพลาดในการทำธุรกรรมสามารถแก้ไขได้โดย WCG ตามดุลยพินิจของ WCG แต่เพียงผู้เดียว หากสิ่งนี้ทำให้ WCG ต้องสูญเสีย เสียหาย หรือรับผิดใดๆ ลูกค้าตกลงที่จะชดใช้เพื่อที่ WCG จะไม่ได้รับความสูญเสีย',
+  arbitrage: 'การเก็งกำไร',
   internetIssues:
-    'Internet issues, connection delays and errors in quotation sometimes cause the quotation displayed on the WCG Trading Platform does not accurately reflect the real-time market price. "Arbitrage" and "scalping", or the behavior of profiting from the price difference due to the delay of network connection, is prohibited in the over-the-counter market where customers directly trade with the dealer. WCG does not allow customers to conduct such arbitrage on the company\'s trading platform. Transactions that rely on arbitrage opportunities due to price lag may be cancelled. WCG reserves the right to make necessary changes and adjustments to the accounts involved in the aforementioned transactions. WCG may, at its sole discretion, require dealers to intervene or manually approve all orders or even terminate the accounts of relevant customers if necessary. WCG can completely resolve disputes arising from arbitrage or price manipulation on its own. WCG reserves the right to deduct the specific client\'s withdrawal until the above problems can be solved. Any actions or resolutions stated here will not damage or cause WCG to waive any rights or compensations held by customers and their employees.',
-  price: 'Price, order execution and platform manipulation',
+    'ปัญหาเกี่ยวกับอินเทอร์เน็ต ความล่าช้าในการเชื่อมต่อ และข้อผิดพลาดในใบเสนอราคาบางครั้งทำให้ใบเสนอราคาที่แสดงบนแพลตฟอร์มการซื้อขาย WCG ไม่สะท้อนราคาตลาดตามเวลาจริงอย่างถูกต้อง "การเก็งกำไร" และ "การเก็งกำไร" หรือพฤติกรรมการทำกำไรจากส่วนต่างราคาเนื่องจากความล่าช้าของการเชื่อมต่อเครือข่าย เป็นสิ่งต้องห้ามในตลาดที่ซื้อขายผ่านเคาน์เตอร์ซึ่งลูกค้าซื้อขายโดยตรงกับดีลเลอร์ WCG ไม่อนุญาตให้ลูกค้าทำการเก็งกำไรบนแพลตฟอร์มการซื้อขายของบริษัท ธุรกรรมที่อาศัยโอกาสในการเก็งกำไรเนื่องจากความล่าช้าของราคาอาจถูกยกเลิก WCG สงวนสิทธิ์ในการเปลี่ยนแปลงที่จำเป็นและปรับปรุงบัญชีที่เกี่ยวข้องในธุรกรรมดังกล่าว WCG อาจใช้ดุลยพินิจแต่เพียงผู้เดียวในการกำหนดให้ตัวแทนจำหน่ายเข้าแทรกแซงหรืออนุมัติคำสั่งซื้อทั้งหมดด้วยตนเอง หรือแม้แต่ยุติบัญชีของลูกค้าที่เกี่ยวข้องหากจำเป็น WCG สามารถยุติข้อพิพาทที่เกิดจากการเก็งกำไรหรือการควบคุมราคาได้อย่างสมบูรณ์ด้วยตัวมันเอง WCG ขอสงวนสิทธิ์ในการหักเงินที่ลูกค้าถอนออกจนกว่าปัญหาข้างต้นจะได้รับการแก้ไข การกระทำหรือมติใด ๆ ที่ระบุไว้ในที่นี้จะไม่สร้างความเสียหายหรือทำให้ WCG สละสิทธิ์หรือค่าชดเชยใด ๆ ที่ลูกค้าและพนักงานของพวกเขาถืออยู่',
+  price: 'ราคา การดำเนินการตามคำสั่ง และการจัดการแพลตฟอร์ม',
   WCGStrictlyProhibits:
-    "WCG strictly prohibits any account from controlling its price, execution and platform in any form. If WCG suspects that any account is engaged in manipulation, WCG reserves the right to investigate and review the account, and deduct the profits earned from related activities from the suspected account. WCG reserves the right to make necessary corrections or adjustments to the relevant accounts. For accounts that are suspected of engaging in manipulation, WCG may, at its sole discretion, require dealers to intervene, approve orders, and terminate the accounts of relevant customers. Any disputes arising from arbitrage or manipulation shall be determined by WCG on its own. WCG may, at its discretion, report the incident to any relevant regulatory or law enforcement agency. Any actions or resolutions stated here do not exempt or impair WCG's rights or compensations to customers and their employees, and all are expressly reserved rights or compensations.",
-  bankruptcyDisclosure: 'Bankruptcy Disclosure',
+    'WCG ห้ามมิให้บัญชีใด ๆ ควบคุมราคา การดำเนินการ และแพลตฟอร์มในรูปแบบใด ๆ โดยเด็ดขาด หาก WCG สงสัยว่ามีบัญชีใดเกี่ยวข้องกับการจัดการ WCG ขอสงวนสิทธิ์ในการตรวจสอบและตรวจสอบบัญชี และหักกำไรที่ได้รับจากกิจกรรมที่เกี่ยวข้องออกจากบัญชีที่ต้องสงสัย WCG ขอสงวนสิทธิ์ในการแก้ไขหรือปรับปรุงที่จำเป็นในบัญชีที่เกี่ยวข้อง สำหรับบัญชีที่ต้องสงสัยว่ามีการยักย้ายถ่ายเท WCG อาจใช้ดุลยพินิจแต่เพียงผู้เดียวในการกำหนดให้ตัวแทนจำหน่ายเข้าแทรกแซง อนุมัติคำสั่งซื้อ และยุติบัญชีของลูกค้าที่เกี่ยวข้อง ข้อพิพาทใดๆ ที่เกิดขึ้นจากอนุญาโตตุลาการหรือการจัดการจะถูกตัดสินโดย WCG เอง WCG อาจใช้ดุลยพินิจในการรายงานเหตุการณ์ต่อหน่วยงานกำกับดูแลหรือหน่วยงานบังคับใช้กฎหมายที่เกี่ยวข้อง การกระทำหรือการแก้ปัญหาใดๆ ที่ระบุไว้ในที่นี้ไม่ได้เป็นการยกเว้นหรือลดทอนสิทธิ์หรือการชดเชยของ WCG ต่อลูกค้าและพนักงานของพวกเขา และทั้งหมดเป็นสิทธิ์หรือการชดเชยที่สงวนไว้โดยชัดแจ้ง',
+  bankruptcyDisclosure: 'การเปิดเผยข้อมูลการล้มละลาย',
   theTransactionsBetween:
-    'The transactions between clients and WCG are not conducted on Exchanges. Once WCG goes bankrupt, the client may not get the priority of repayment from WCG. Without priority repayment, the client is an unsecured creditor, and will receive compensation from other creditors only after paying those priority claims.',
-  introducingBrokerDisclosure: 'Introducing Broker disclosure',
+    'การทำธุรกรรมระหว่างลูกค้าและ WCG ไม่ได้ดำเนินการบน Exchanges เมื่อ WCG ล้มละลาย ลูกค้าอาจไม่ได้รับลำดับความสำคัญในการชำระคืนจาก WCG ลูกค้าจะเป็นเจ้าหนี้ที่ไม่มีหลักประกันและจะได้รับการชดเชยจากเจ้าหนี้รายอื่นก็ต่อเมื่อได้ชำระสิทธิเรียกร้องดังกล่าวแล้วเท่านั้น',
+  introducingBrokerDisclosure: 'แนะนำการเปิดเผยนายหน้า',
   WCGDoesNotSupervise:
-    'WCG does not supervise the activities of the introducing broker, and is not responsible for any statements made by the introducing broker. WCG and the introducing broker are completely independent of each other. The direct agreement between WCG and the introducing broker does not establish a joint venture or partnership. The introducing broker is not an official agent or staff of WCG.',
+    'WCG ไม่ได้กำกับดูแลกิจกรรมของโบรกเกอร์แนะนำ และไม่รับผิดชอบต่อข้อความใด ๆ ที่ทำโดยโบรกเกอร์แนะนำ WCG และโบรกเกอร์แนะนำเป็นอิสระจากกันโดยสิ้นเชิง ข้อตกลงโดยตรงระหว่าง WCG และโบรกเกอร์แนะนำไม่ได้เป็นการจัดตั้งกิจการร่วมค้าหรือหุ้นส่วน นายหน้าที่แนะนำไม่ใช่ตัวแทนหรือพนักงานอย่างเป็นทางการของ WCG',
   theClientUnderstandsAndAgrees:
-    "The client understands and agrees that if the client's account in WCG is introduced by an introducing broker, the introducing broker may obtain the customer's personal information and other data about the customer's transaction activities in the WCG account. The customer understands and agrees that if the customer's account in WCG is introduced by an introducing broker, the introducing broker shall not engage in transactions with the customer's WCG account unless the client authorizes the introducing broker to trade on behalf of the client through an authorization agreement.",
+    'ลูกค้าเข้าใจและตกลงว่าหากบัญชีของลูกค้าใน WCG ถูกแนะนำโดยโบรกเกอร์ที่แนะนำ โบรกเกอร์ที่แนะนำอาจได้รับข้อมูลส่วนบุคคลของลูกค้าและข้อมูลอื่น ๆ เกี่ยวกับกิจกรรมการทำธุรกรรมของลูกค้าในบัญชี WCG ลูกค้าเข้าใจและตกลงว่าหากบัญชีของลูกค้าใน WCG ถูกแนะนำโดยโบรกเกอร์ที่แนะนำ โบรกเกอร์ที่แนะนำจะไม่มีส่วนร่วมในการทำธุรกรรมกับบัญชี WCG ของลูกค้า เว้นแต่ลูกค้าจะอนุญาตให้โบรกเกอร์แนะนำทำการซื้อขายในนามของลูกค้าผ่านข้อตกลงการอนุญาต .',
   becauseTheRisk:
-    'Because the risk factor of CFD trading is very high, only real "high-risk" funds can be used for such transactions. If client has no surplus funds to lose, one should not trade in the CFD market.',
+    'เนื่องจากปัจจัยเสี่ยงของการเทรด CFD นั้นสูงมาก จึงสามารถใช้เฉพาะเงินที่ "มีความเสี่ยงสูง" จริงสำหรับการทำธุรกรรมดังกล่าว หากลูกค้าไม่มีเงินเหลือให้เสีย ก็ไม่ควรซื้อขายในตลาด CFD',
   theClientUnderstands:
-    'The client understands that the introducing broker or many third parties who sell trading systems, courses, programs, research report or trading recommendations may not be regulated by government agencies.',
+    'ลูกค้าเข้าใจว่านายหน้าแนะนำหรือบุคคลที่สามจำนวนมากที่ขายระบบการซื้อขาย หลักสูตร โปรแกรม รายงานการวิจัย หรือคำแนะนำการซื้อขาย อาจไม่ได้รับการควบคุมโดยหน่วยงานของรัฐ',
   ifTheCustomer:
-    'If the customer has previously been told or believed that the use of any third party trading system, course, program, or research report or advices provided by the introducing broker or other third party will bring trading profits, the customer hereby confirms, agrees and understands on trading CFD transactions through any third party trading system.'
+    'หากลูกค้าได้รับการบอกกล่าวหรือเชื่อว่าการใช้ระบบการซื้อขายของบุคคลที่สาม หลักสูตร โปรแกรม หรือรายงานการวิจัย หรือคำแนะนำที่จัดทำโดยนายหน้าแนะนำหรือบุคคลที่สามอื่น ๆ จะนำมาซึ่งผลกำไรจากการซื้อขาย ลูกค้าขอยืนยัน ตกลง และเข้าใจ ในการซื้อขายธุรกรรม CFD ผ่านระบบการซื้อขายของบุคคลที่สาม'
 };
