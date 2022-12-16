@@ -38,9 +38,6 @@ export const advancedTrading: AdvancedTrading = {
     'Ada banyak alat untuk mengidentifikasi trend, dan hampir semua analisis teknis melibatkan penilaian trend. Pada artikel ini, pertama-tama kami akan memperkenalkan cara menggambar garis tredn, garis support / resistance pada grafik, dan aturan umum untuk menilai trend sudah berakhir.',
   noteThatAlthough:
     'Perhatikan bahwa meskipun grafik menit terkadang dapat mencerminkan beberapa trend, kami tetap menyarankan Anda untuk menggunakan alat analisis teknis pada grafik jangka panjang, karena informasi harga pada grafik jangka panjang lebih komprehensif dan secara statistik lebih dapat diandalkan. Misalnya, data harga pada grafik per jam lebih dapat diandalkan daripada grafik menit, dan data harga pada grafik harian lebih dapat diandalkan daripada grafik per jam.',
-  seniorClassD: 'senior-class-content-four-d',
-  seniorClassE: 'senior-class-content-four-e',
-  seniorClassF: 'senior-class-content-four-f',
   trendLines: 'Garis trend, garis support dan garis resistensi',
   aTrendLine:
     'Garis trend adalah garis lurus yang menunjukkan trend suatu pasangan mata uang, yang dibentuk dengan menghubungkan dua harga atau lebih. Dalam pasar yang naik, garis trend adalah garis dukungan; di pasar yang sedang jatuh, garis trend adalah garis resistensi.',

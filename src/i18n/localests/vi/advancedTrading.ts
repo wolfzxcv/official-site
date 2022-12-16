@@ -37,9 +37,6 @@ export const advancedTrading: AdvancedTrading = {
     'Có nhiều công cụ để xác định xu hướng và hầu hết tất cả các phân tích kỹ thuật đều liên quan đến việc phán đoán xu hướng. Trong bài viết này, trước tiên chúng tôi sẽ giới thiệu cách vẽ đường xu hướng, đường hỗ trợ / kháng cự trong biểu đồ và các quy tắc chung để đánh giá xu hướng đã kết thúc. ',
   noteThatAlthough:
     'Lưu ý rằng mặc dù biểu đồ phút đôi khi có thể phản ánh một số xu hướng, chúng tôi vẫn khuyên bạn nên sử dụng các công cụ phân tích kỹ thuật trên biểu đồ dài hạn, vì thông tin giá trên biểu đồ dài hạn toàn diện hơn và đáng tin cậy hơn về mặt thống kê. Ví dụ: dữ liệu giá trên biểu đồ hàng giờ đáng tin cậy hơn biểu đồ phút và dữ liệu giá trên biểu đồ hàng ngày đáng tin cậy hơn biểu đồ hàng giờ. ',
-  seniorClassD: 'senior-class-content-four-d',
-  seniorClassE: 'senior-class-content-four-e',
-  seniorClassF: 'senior-class-content-four-f',
   trendLines: 'Đường xu hướng, đường hỗ trợ và đường kháng cự',
   aTrendLine:
     'Đường xu hướng là một đường thẳng thể hiện xu hướng của một cặp tiền tệ, được hình thành bằng cách kết nối hai hoặc nhiều mức giá. Trong thị trường đang tăng, đường xu hướng là đường hỗ trợ; trong một thị trường giảm, đường xu hướng là đường kháng cự. ',
