@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.28.0](https://github.com/wolfzxcv/official-site/compare/v1.27.7...v1.28.0) (2022-12-22)
+
+
+### Features
+
+* **i18n:** add Thai ([57e99e0](https://github.com/wolfzxcv/official-site/commit/57e99e0f5974050022af2b5086415886af2dafdf))
+
+
+### Bug Fixes
+
+* **i18n:** fix i18n, update package.json ([78a8e62](https://github.com/wolfzxcv/official-site/commit/78a8e62f9c623751172e0108e262053f239b8eaf))
+
 ### [1.27.7](https://github.com/wolfzxcv/official-site/compare/v1.27.6...v1.27.7) (2022-12-07)
 
 ### [1.27.6](https://github.com/wolfzxcv/official-site/compare/v1.27.5...v1.27.6) (2022-12-07)
