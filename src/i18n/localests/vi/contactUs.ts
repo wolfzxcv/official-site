@@ -49,28 +49,36 @@ export const contactUs: ContactUs = {
   October: 'October',
   November: 'November',
   December: 'December',
-  setUpVietnam: 'Set up Vietnam Liaison Office.',
+  setUpVietnam: 'Lập Văn Phòng Liên Lạc Việt Nam.',
   invitedToParticipate:
-    'Invited to participate in the 16th China Shanghai Financial Expo, accepting media interviews.',
+    'Được mời tham gia Triển lãm tài chính Thượng Hải Trung Quốc lần thứ 16, chấp nhận các cuộc phỏng vấn của giới truyền thông.',
   partneredWith:
-    'Partnered with a well-known local licensed dealer in Indonesia – Central Capital Futures Co., Ltd., officially entering the fourth largest market in the world.',
+    'Hợp tác với một đại lý địa phương nổi tiếng được cấp phép tại Indonesia – Central Capital Futures Co., Ltd., chính thức bước vào thị trường lớn thứ tư trên thế giới.',
   awardedTheMostInvestorTrusted:
-    'Awarded the Most Investor Trusted Precious Metal Dealer of the Year.',
+    'Được trao giải Đại lý kim loại quý đáng tin cậy nhất của nhà đầu tư trong năm.',
   WCGMarketsLtdObtained:
-    'WCG Markets Ltd obtained the Saint Vincent and the Grenadines Financial Services Authority (SVGFSA) license with the number 126087 BC 2020.',
-  establishedMalaysia: 'Established Malaysia Liaison Office.',
-  setUpTaiwan: 'Set up Taiwan Liaison Office.',
+    'WCG Markets Ltd đã nhận được giấy phép của Cơ quan Dịch vụ Tài chính Saint Vincent và Grenadines (SVGFSA) với số 126087 BC 2020.',
+  establishedMalaysia: 'Thành lập Văn phòng Liên lạc Malaysia.',
+  setUpTaiwan: 'Thiết lập Văn phòng Liên lạc Đài Loan.',
   aLeaderInTheIndustry:
-    "Mr. Wu Guoqiang, a leader in the industry, joined forces and is responsible for the risk control and monitoring department. Mr. Wu has a master's degree in finance and a number of international professional qualifications. He has served as chief trader and head of risk management department of many world-class banks.",
+    'Ông Wu Guoqiang, một nhà lãnh đạo trong ngành, đã gia nhập lực lượng và chịu trách nhiệm về bộ phận giám sát và kiểm soát rủi ro. Ông Wu có bằng thạc sĩ tài chính và một số bằng cấp chuyên nghiệp quốc tế. Ông từng là trưởng phòng kinh doanh và trưởng phòng quản lý rủi ro của nhiều ngân hàng tầm cỡ thế giới.',
   WCGMarketsLtdObtainedTheFINTRAC:
-    'WCG Markets Ltd obtained the FINTRAC MSB license of Canada, the number is M20282836.',
+    'WCG Markets Ltd đã nhận được giấy phép FINTRAC MSB của Canada, số là M20282836.',
   startCharityProjects:
-    'Start charity projects, actively participate in education and medical charity projects, and strive to become a good corporate citizen and give back to the society.',
+    'Bắt đầu các dự án từ thiện, tích cực tham gia các dự án từ thiện về giáo dục và y tế, đồng thời cố gắng trở thành một công dân doanh nghiệp tốt và cống hiến cho xã hội.',
   integrateAndUpdate:
-    'Integrate and update the brand. Adopting new logos and slogans, and also grandly launching a new webpage with multiple languages ​​to facilitate international investors.',
+    'Tích hợp và cập nhật thương hiệu. Thông qua logo và khẩu hiệu mới, đồng thời khai trương trang web mới với nhiều ngôn ngữ để tạo điều kiện thuận lợi cho các nhà đầu tư quốc tế.',
   theTradingSystem:
-    'The trading system is upgraded, and more new products are launched, such as US stocks, cryptocurrency, etc., to optimize the investment experience of customers.',
+    'Nâng cấp hệ thống giao dịch, ra mắt thêm nhiều sản phẩm mới như chứng khoán Mỹ, tiền điện tử… nhằm tối ưu hóa trải nghiệm đầu tư của khách hàng.',
   focusingOn:
-    "Focusing on rural quality education, we specially sponsor the Zhixing Education Foundation's 21-22 Zhixing Book Corner Project. It is estimated that there will be at least 6 primary schools and thousands of primary school students can benefit from it.",
-  WCGIFXEXPO: 'WCG & IFX EXPO'
+    'Tập trung vào giáo dục chất lượng ở nông thôn, chúng tôi đặc biệt tài trợ cho Dự án Góc sách Zhixing 21-22 của Quỹ Giáo dục Zhixing. Ước tính sẽ có ít nhất 6 trường tiểu học và hàng nghìn học sinh tiểu học được hưởng lợi.',
+  WCGIFXEXPO: 'WCG & IFX EXPO',
+  TheStrengthOfWCGMarketsIsReconfirmed:
+    'Sức mạnh của WCG Markets được xác nhận lại rằng khả năng quản lý của các chức năng của nền tảng giao dịch điện tử đều ở trên mức tiêu chuẩn, đồng thời nó đã vượt qua bài kiểm tra đánh giá và hoàn thành thành công các dự án và quy trình đánh giá được chỉ định. Đạt huy hiệu GTP Certified của Hiệp hội kinh doanh vàng bạc đá quý.',
+  WCGMarketsWonTheThirdPlace:
+    'WCG Markets đã giành vị trí thứ ba trong cuộc quyên góp từ thiện cao nhất của một công ty Hồng Kông vào năm 2021. Vinh dự này là sự khẳng định đầy đủ cho những thành tựu phúc lợi công cộng xuất sắc của WCG Markets.',
+  BusinessExpansionTechnologyUpgrade:
+    'Mở rộng kinh doanh, nâng cấp công nghệ, mua lại máy chủ giao dịch ASA để cung cấp cho khách hàng một môi trường giao dịch ưu việt hơn.',
+  WCGMarketsAcquired:
+    'WCG Markets đã mua lại hai tổ chức tài chính nổi tiếng "Wealth Gold Group" và "KUJI", tạo nền tảng tốt cho sự phát triển trong tương lai.'
 };

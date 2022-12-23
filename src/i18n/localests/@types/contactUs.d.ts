@@ -117,6 +117,14 @@ export type ContactUs = {
   theTradingSystem: string;
   /** Focusing on */
   focusingOn: string;
-  /**  WCG IFX EXPO */
+  /** The strength of WCG Markets is reconfirmed */
+  TheStrengthOfWCGMarketsIsReconfirmed: string;
+  /** WCG Markets won the third place */
+  WCGMarketsWonTheThirdPlace: string;
+  /** Business expansion, technology upgrade */
+  BusinessExpansionTechnologyUpgrade: string;
+  /** WCG IFX EXPO */
   WCGIFXEXPO: string;
+  /** WCG Markets acquired */
+  WCGMarketsAcquired: string;
 };

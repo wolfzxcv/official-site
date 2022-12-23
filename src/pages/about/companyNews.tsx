@@ -79,10 +79,34 @@ const companyNews: React.FC<{}> = () => {
     },
     {
       year: '2022',
+      month: t('February'),
+      text: [t('TheStrengthOfWCGMarketsIsReconfirmed')],
+      color: '#fcc82b'
+    },
+    {
+      year: '2022',
+      month: t('April'),
+      text: [t('WCGMarketsWonTheThirdPlace')],
+      color: '#45aeae'
+    },
+    {
+      year: '2022',
+      month: t('August'),
+      text: [t('BusinessExpansionTechnologyUpgrade')],
+      color: '#3e7b97'
+    },
+    {
+      year: '2022',
       month: t('October'),
       text: [t('WCGIFXEXPO')],
-      color: '#fcc82b',
+      color: '#e23a59',
       href: '/../assets/WCG_IFX_ EXPO.mp4'
+    },
+    {
+      year: '2022',
+      month: t('November'),
+      text: [t('WCGMarketsAcquired')],
+      color: '#fcc82b'
     }
   ];
   return (

@@ -68,5 +68,13 @@ export const contactUs: ContactUs = {
     '交易系統升級，推出更多新產品，如美股等，優化客戶的投資體驗',
   focusingOn:
     '心系鄉村素質教育，特讚助知行教育基金會 21-22 年度知行圖書角項目，預計最少有6所小學，數以千計的小學生可因此獲益',
-  WCGIFXEXPO: 'WCG & IFX EXPO 國際環球金融展覽'
+  WCGIFXEXPO: 'WCG & IFX EXPO 國際環球金融展覽',
+  TheStrengthOfWCGMarketsIsReconfirmed:
+    'WCG Markets 實力再被確認電子交易平台功能的管理能力均在標準以上的水準， 並通過考核測試，順利完成指定項目及考核程式。獲金銀業貿易場GTP Certified徽章。',
+  WCGMarketsWonTheThirdPlace:
+    'WCG Markets 獲得2021年度香港公司最高慈善捐款第三名的殊榮，這項榮譽，是對WCG Markets 出色的公益成果的充分肯定。',
+  BusinessExpansionTechnologyUpgrade:
+    '業務再擴張，技術升級，收購ASA交易伺服器，為客戶提供更優越的交易環境。',
+  WCGMarketsAcquired:
+    'WCG Markets 收購兩大知名金融機構”盈富Wealth Gold Group”及”酷極KUJI”，為未來發展奠下良好基礎。'
 };

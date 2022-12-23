@@ -48,28 +48,36 @@ export const contactUs: ContactUs = {
   October: 'October',
   November: 'November',
   December: 'December',
-  setUpVietnam: 'Set up Vietnam Liaison Office.',
+  setUpVietnam: 'إنشاء مكتب اتصال فيتنام.',
   invitedToParticipate:
-    'Invited to participate in the 16th China Shanghai Financial Expo, accepting media interviews.',
+    'تمت دعوتهم للمشاركة في معرض شنغهاي المالي الصيني السادس عشر ، وقبول المقابلات الإعلامية.',
   partneredWith:
-    'Partnered with a well-known local licensed dealer in Indonesia – Central Capital Futures Co., Ltd., officially entering the fourth largest market in the world.',
+    'شراكة مع تاجر محلي مرخص معروف في إندونيسيا - شركة Central Capital Futures Co.، Ltd. ، ودخلت رسميًا رابع أكبر سوق في العالم.',
   awardedTheMostInvestorTrusted:
-    'Awarded the Most Investor Trusted Precious Metal Dealer of the Year.',
+    'حصل على جائزة تاجر المعادن النفيسة الأكثر ثقة من قبل المستثمرين.',
   WCGMarketsLtdObtained:
-    'WCG Markets Ltd obtained the Saint Vincent and the Grenadines Financial Services Authority (SVGFSA) license with the number 126087 BC 2020.',
-  establishedMalaysia: 'Established Malaysia Liaison Office.',
-  setUpTaiwan: 'Set up Taiwan Liaison Office.',
+    'حصلت WCG Markets Ltd على ترخيص هيئة الخدمات المالية في سانت فنسنت وجزر غرينادين (SVGFSA) برقم 126087 قبل الميلاد 2020.',
+  establishedMalaysia: 'إنشاء مكتب الاتصال الماليزي.',
+  setUpTaiwan: 'قم بإعداد مكتب الاتصال التايواني.',
   aLeaderInTheIndustry:
-    "Mr. Wu Guoqiang, a leader in the industry, joined forces and is responsible for the risk control and monitoring department. Mr. Wu has a master's degree in finance and a number of international professional qualifications. He has served as chief trader and head of risk management department of many world-class banks.",
+    'انضم السيد Wu Guoqiang ، الرائد في الصناعة ، إلى قواه وهو مسؤول عن إدارة مراقبة ومراقبة المخاطر. السيد Wu حاصل على درجة الماجستير في التمويل وعدد من المؤهلات المهنية الدولية. شغل منصب كبير المتداولين ورئيس قسم إدارة المخاطر في العديد من البنوك العالمية.',
   WCGMarketsLtdObtainedTheFINTRAC:
-    'WCG Markets Ltd obtained the FINTRAC MSB license of Canada, the number is M20282836.',
+    'حصلت WCG Markets Ltd على ترخيص FINTRAC MSB من كندا ، والرقم هو M20282836.',
   startCharityProjects:
-    'Start charity projects, actively participate in education and medical charity projects, and strive to become a good corporate citizen and give back to the society.',
+    'بدء المشاريع الخيرية ، والمشاركة بنشاط في المشاريع الخيرية التعليمية والطبية ، والسعي لتصبح شركة مواطنة جيدة ورد الجميل للمجتمع.',
   integrateAndUpdate:
-    'Integrate and update the brand. Adopting new logos and slogans, and also grandly launching a new webpage with multiple languages ​​to facilitate international investors.',
+    'دمج وتحديث العلامة التجارية. اعتماد شعارات وشعارات جديدة ، وكذلك إطلاق صفحة ويب جديدة بعدة لغات لتسهيل المستثمرين الدوليين.',
   theTradingSystem:
-    'The trading system is upgraded, and more new products are launched, such as US stocks, cryptocurrency, etc., to optimize the investment experience of customers.',
+    'تمت ترقية نظام التداول ، وإطلاق المزيد من المنتجات الجديدة ، مثل الأسهم الأمريكية ، والعملات المشفرة ، وما إلى ذلك ، لتحسين تجربة الاستثمار للعملاء.',
   focusingOn:
-    "Focusing on rural quality education, we specially sponsor the Zhixing Education Foundation's 21-22 Zhixing Book Corner Project. It is estimated that there will be at least 6 primary schools and thousands of primary school students can benefit from it.",
-  WCGIFXEXPO: 'WCG & IFX EXPO'
+    'مع التركيز على التعليم الريفي الجيد ، فإننا نرعى بشكل خاص مشروع Zhixing Book Corner 21-22 لمؤسسة Zhixing Education Foundation. تشير التقديرات إلى أنه سيكون هناك ما لا يقل عن 6 مدارس ابتدائية ويمكن للآلاف من طلاب المدارس الابتدائية الاستفادة منها.',
+  WCGIFXEXPO: 'WCG & IFX EXPO',
+  TheStrengthOfWCGMarketsIsReconfirmed:
+    'تم التأكيد مجددًا على قوة WCG Markets على أن القدرات الإدارية لوظائف منصة التداول الإلكترونية أعلى من المستوى القياسي ، وقد اجتازت اختبار التقييم وأكملت بنجاح المشاريع المحددة وإجراءات التقييم. الحصول على شارة GTP المعتمدة لجمعية تجارة الذهب والفضة.',
+  WCGMarketsWonTheThirdPlace:
+    'فازت WCG Markets بالمركز الثالث في أعلى تبرع خيري من شركة هونغ كونغ في عام 2021. هذا الشرف هو تأكيد كامل لإنجازات WCG Markets المتميزة في مجال الرعاية العامة.',
+  BusinessExpansionTechnologyUpgrade:
+    'توسيع الأعمال ، ترقية التكنولوجيا ، الاستحواذ على خادم تداول ASA ، لتزويد العملاء ببيئة تداول أكثر تفوقًا.',
+  WCGMarketsAcquired:
+    'استحوذت WCG Markets على مؤسستين ماليتين مشهورتين "Wealth Gold Group" و "KUJI" ، مما وضع أساسًا جيدًا للتنمية المستقبلية.'
 };
