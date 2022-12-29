@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.29.0](https://github.com/wolfzxcv/official-site/compare/v1.28.0...v1.29.0) (2022-12-29)
+
+
+### Features
+
+* **activity:** add WCGJYK ([4ba3bd7](https://github.com/wolfzxcv/official-site/commit/4ba3bd739f2611c62f1315d896b3ea509ac03a9f))
+* **companynews:** add new content on companyNews page ([a3ea2ae](https://github.com/wolfzxcv/official-site/commit/a3ea2aefc804a7bf4ca437d05bac149d3a79d6e7))
+
 ## [1.28.0](https://github.com/wolfzxcv/official-site/compare/v1.27.7...v1.28.0) (2022-12-22)
 
 
