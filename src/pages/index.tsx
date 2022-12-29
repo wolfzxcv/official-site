@@ -31,11 +31,14 @@ const Index: React.FC<{}> = () => {
   const isArabic = currentLang === 'ar';
 
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
-  const sliders = [
-    <WCGJYK key="WCGJYK" />,
-    <WCGDC key="WCGDC" />,
-    <Banner key="Banner" />
-  ];
+  const sliders =
+    currentLang !== 'th'
+      ? [
+          <WCGJYK key="WCGJYK" />,
+          <WCGDC key="WCGDC" />,
+          <Banner key="Banner" />
+        ]
+      : [<Banner key="Banner" />];
 
   return (
     <Wrapper>
@@ -306,16 +309,18 @@ const Index: React.FC<{}> = () => {
                 minWidth: '600px'
               }}
             ></iframe>
-            <Box textAlign="center">
-              <Link
-                href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
-                isExternal
-                color="blue.300"
-              >
-                財經日曆
-              </Link>
-              由TradingView提供
-            </Box>
+            {isChinese && (
+              <Box textAlign="center">
+                <Link
+                  href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
+                  isExternal
+                  color="blue.300"
+                >
+                  財經日曆
+                </Link>
+                由TradingView提供
+              </Box>
+            )}
           </div>
         )}
       </Box>

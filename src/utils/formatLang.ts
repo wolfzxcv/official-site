@@ -20,7 +20,7 @@ export const formatLang = (lang, escapeLang = undefined) => {
       output = 'ms-MY';
       break;
     case 'th':
-      output = 'th';
+      output = 'th-TH';
       break;
     case 'ar':
       output = 'ar';
