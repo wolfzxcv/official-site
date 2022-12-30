@@ -45,7 +45,7 @@ const WCG51: React.FC<{}> = () => {
               opacity: 0.8,
               transition: '1s'
             }}
-            href={links.userCenterZH}
+            href={links.registerZH}
             isExternal
           >
             <Image
@@ -129,7 +129,7 @@ const WCG51: React.FC<{}> = () => {
             />
           </Link>
 
-          <Link href={links.userCenterZH} isExternal>
+          <Link href={links.registerZH} isExternal>
             <Image
               src="/../assets/images/activity_WCG51_M_b2.png"
               alt="Instagram"

@@ -99,7 +99,7 @@ const WCGSSSContent: React.FC<{}> = () => (
           opacity: 0.8,
           transition: '1s'
         }}
-        href={links.userCenterZH}
+        href={links.registerZH}
         isExternal
       >
         立即开户

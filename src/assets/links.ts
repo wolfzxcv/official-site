@@ -30,14 +30,14 @@ export const links = {
   register:
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
     'https://my.wcgmarkets-global.com/register',
+  // 用戶中心註冊(中文)
+  registerZH:
+    process.env.NEXT_PUBLIC_REGISTER_ZH ||
+    'https://my.wcgmarkets-global.com/zh/register',
   // 用戶中心
   userCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
     'https://my.wcgmarkets-global.com/login',
-  // 用戶中心(中文)
-  userCenterZH:
-    process.env.NEXT_PUBLIC_USERS_CENTER_ZH ||
-    'https://my.wcgmarkets-global.com/zh/register',
   // 聯絡信箱
   email: 'cs@wcgmarkets.com',
   // 聯絡電話
