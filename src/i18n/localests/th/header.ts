@@ -1,7 +1,7 @@
 import { Header } from '../@types/header';
 
 export const header: Header = {
-  home: 'บ้าน',
+  home: 'หน้าหลัก',
   about: 'เกี่ยวกับ WCG',
   companyNews: 'ข่าวบริษัท',
   corporateResponsibility: 'ความรับผิดชอบขององค์กร',
