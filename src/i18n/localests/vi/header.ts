@@ -17,8 +17,6 @@ export const header: Header = {
   index: 'Mục lục',
   uSShareCFD: 'CDC cổ phần Mỹ',
   cryptocurrencies: 'Tiền kỹ thuật',
-  YFProductRules: 'Chi tiết sản phẩm WGG',
-  KJProductRules: 'Chi tiết sản phẩm KUJI',
   platform: 'Giao dịch',
   MT4Overview: 'Tổng quan về',
   MT4PCDownload: 'Tải phiên bản',

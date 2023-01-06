@@ -17,8 +17,6 @@ export const header: Header = {
   index: 'المؤشر',
   uSShareCFD: 'تداول العقود مقابل الفروقات',
   cryptocurrencies: 'مسؤولية الشركة',
-  YFProductRules: 'تفاصيل المنتج WGG',
-  KJProductRules: 'تفاصيل منتج KUJI',
   platform: 'منصة التداول',
   MT4Overview: 'نظرة عامة على منصة MT4',
   MT4PCDownload: 'تحميل نسخة MT4 للكمبيوتر الشخصي',

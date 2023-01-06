@@ -40,18 +40,8 @@ export const menuList: IMenuItem[] = [
       { i18n: 'preciousMetals', href: '/products/preciousMetals' },
       { i18n: 'crudeOil', href: '/products/crudeOil' },
       { i18n: 'index', href: '/products/indexTrading' },
-      { i18n: 'uSShareCFD', href: '/products/uSShareCFD' },
+      { i18n: 'uSShareCFD', href: '/products/uSShareCFD' }
       // { i18n: 'cryptocurrencies', href: '/products/cryptocurrencies' }
-      {
-        i18n: 'YFProductRules',
-        href: 'https://image.wcgmarkets.com/yftraderules.pdf',
-        isExternal: true
-      },
-      {
-        i18n: 'KJProductRules',
-        href: 'https://image.wcgmarkets.com/kjtraderules.pdf',
-        isExternal: true
-      }
     ]
   },
   {

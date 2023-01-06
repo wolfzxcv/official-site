@@ -17,8 +17,6 @@ export const header: Header = {
   index: 'indeks',
   uSShareCFD: 'US Share CFD',
   cryptocurrencies: 'Mata uang Crypto',
-  YFProductRules: 'Detail Produk WGG',
-  KJProductRules: 'Detail Produk KUJI',
   platform: 'perdagangan',
   MT4Overview: 'Tinjauan platform MT4',
   MT4PCDownload: 'Unduhan versi MT4 PC',

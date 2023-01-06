@@ -17,8 +17,6 @@ export const header: Header = {
   index: 'ดัชนี',
   uSShareCFD: 'CFD หุ้นสหรัฐ',
   cryptocurrencies: 'สกุลเงินดิจิทัล',
-  YFProductRules: 'รายละเอียดสินค้า WGG',
-  KJProductRules: 'รายละเอียดสินค้าคูจิ',
   platform: 'แพลตฟอร์ม',
   MT4Overview: 'ภาพรวม MT4',
   MT4PCDownload: 'ดาวน์โหลด MT4 สำหรับพีซี',
