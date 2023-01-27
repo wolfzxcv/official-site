@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.30.0](https://github.com/wolfzxcv/official-site/compare/v1.29.6...v1.30.0) (2023-01-27)
+
+
+### Features
+
+* **activity, index:** modify index video, wording of WCGJYK ([233bc7d](https://github.com/wolfzxcv/official-site/commit/233bc7d666e5a9669f3011d3c2df454197421286))
+* **activity:** add WCGEYS ([27b2b36](https://github.com/wolfzxcv/official-site/commit/27b2b360c52096d0a0ab496a21bfb7ada1af7a89))
+
 ### [1.29.6](https://github.com/wolfzxcv/official-site/compare/v1.29.5...v1.29.6) (2023-01-06)
 
 ### [1.29.5](https://github.com/wolfzxcv/official-site/compare/v1.29.4...v1.29.5) (2023-01-03)
