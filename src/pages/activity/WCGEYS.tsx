@@ -170,7 +170,7 @@ export const WCGEYSTitle: React.FC<{}> = () => (
       py={2}
       fontSize={{ base: '12px', md: 'inherit' }}
     >
-      2022年12月1日 – 2022年12月31日
+      2023年2月1日 – 2023年2月28日
     </Box>
 
     <Box
