@@ -3,6 +3,7 @@ import {
   Checkbox,
   CheckboxGroup,
   FormControl,
+  FormControlProps,
   FormErrorMessage,
   FormLabel,
   Input,
@@ -21,12 +22,18 @@ import { IFieldType } from './SubmitForm';
 
 type InputFieldProps = InputHTMLAttributes<HTMLInputElement> &
   InputHTMLAttributes<HTMLTextAreaElement> &
-  InputHTMLAttributes<HTMLSelectElement> & {
-    label: string;
-    name: string;
-    type?: IFieldType;
-    options?: IOption[];
-  };
+  InputHTMLAttributes<HTMLSelectElement> &
+  IFieldCommonProps;
+
+export type IFieldCommonProps = {
+  label?: string;
+  name: string;
+  type?: IFieldType;
+  options?: IOption[];
+  placeholder?: string;
+  variant?: string;
+  formControlWidth?: FormControlProps['width'];
+};
 
 export type IOption = string | IOptionObject;
 
@@ -41,6 +48,9 @@ const InputField: React.FC<InputFieldProps> = ({
   size: _,
   type = 'text',
   options,
+  placeholder = '',
+  variant = 'outline',
+  formControlWidth = { base: '100%', md: type === 'textarea' ? '100%' : '50%' },
   ...props
 }: InputFieldProps) => {
   const [field, { error, touched }] = useField(props);
@@ -55,11 +65,19 @@ const InputField: React.FC<InputFieldProps> = ({
   return (
     <FormControl
       isInvalid={!!error && !!touched}
-      width={{ base: '100%', md: type === 'textarea' ? '100%' : '50%' }}
+      width={formControlWidth}
       p={2}
     >
-      <FormLabel htmlFor={field.name}>{label}</FormLabel>
-      {type === 'text' && <Input {...field} {...props} id={field.name} />}
+      {label && <FormLabel htmlFor={field.name}>{label}</FormLabel>}
+      {type === 'text' && (
+        <Input
+          {...field}
+          {...props}
+          id={field.name}
+          placeholder={placeholder}
+          variant={variant}
+        />
+      )}
       {type === 'password' && (
         <InputGroup size="md">
           <Input
@@ -68,6 +86,8 @@ const InputField: React.FC<InputFieldProps> = ({
             {...props}
             id={field.name}
             type={show ? 'text' : 'password'}
+            placeholder={placeholder}
+            variant={variant}
           />
           <InputRightElement width="4.5rem">
             <Button h="1.75rem" size="md" onClick={handleClick}>
@@ -77,13 +97,21 @@ const InputField: React.FC<InputFieldProps> = ({
         </InputGroup>
       )}
       {type === 'textarea' && (
-        <Textarea resize="none" {...field} {...props} id={field.name} />
+        <Textarea
+          resize="none"
+          {...field}
+          {...props}
+          id={field.name}
+          placeholder={placeholder}
+          variant={variant}
+        />
       )}
       {type === 'radio' && options && (
         <RadioGroup
           colorScheme="green"
           {...field}
           id={field.name}
+          variant={variant}
           {...(props as unknown)}
         >
           <Stack spacing="24px">
@@ -102,6 +130,7 @@ const InputField: React.FC<InputFieldProps> = ({
       {type === 'checkbox' && options && (
         <CheckboxGroup
           colorScheme="green"
+          variant={variant}
           {...field}
           {...(props as unknown)}
           onChange={(values) => console.log(values)}
@@ -127,6 +156,7 @@ const InputField: React.FC<InputFieldProps> = ({
           placeholder={
             isString(options[0]) ? options[0] : options[0]['value'] || ''
           }
+          variant={variant}
           id={field.name}
         >
           {options.map((x, index) => {

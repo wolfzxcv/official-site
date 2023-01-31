@@ -22,7 +22,6 @@ export const links = {
     'https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk?utm_source=www.metatrader4.com&utm_campaign=install.metaquotes',
   // MT4 Web Trader
   mt4Web: process.env.NEXT_PUBLIC_MT4_WEB || 'https://trade.asawcgm.com/',
-
   // 代理中心
   ibCenter:
     process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',

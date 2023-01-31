@@ -1,10 +1,10 @@
-import { Box, Button, Checkbox, Flex } from '@chakra-ui/react';
+import { Box, Button, ButtonProps, Checkbox, Flex } from '@chakra-ui/react';
 import axios from 'axios';
 import { Form, Formik } from 'formik';
 import React, { useState } from 'react';
 import * as Yup from 'yup';
 import { RequiredStringSchema } from 'yup/lib/string';
-import InputField, { IOption } from './InputField';
+import InputField, { IFieldCommonProps, IOption } from './InputField';
 
 export type IFieldType =
   | 'text'
@@ -14,11 +14,8 @@ export type IFieldType =
   | 'checkbox'
   | 'select';
 
-export type IField = {
-  type?: IFieldType;
+export type IField = IFieldCommonProps & {
   options?: IOption[];
-  label: string;
-  name: string;
   initialValue: string | (string | number)[];
   rule: RequiredStringSchema<string, Record<string, unknown>> | unknown;
 };
@@ -29,6 +26,7 @@ type SubmitFormProps = {
   afterSubmit: string;
   api: string;
   agreement?: string;
+  submitButtonWidth?: ButtonProps['width'];
 };
 
 const SubmitForm: React.FC<SubmitFormProps> = ({
@@ -36,7 +34,8 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
   submit,
   afterSubmit,
   api,
-  agreement
+  agreement,
+  submitButtonWidth = { base: '50vw', md: '300px' }
 }) => {
   const [hasAgreed, setHasAgreed] = useState(false);
 
@@ -96,11 +95,14 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
                 {data &&
                   data.map((x) => (
                     <InputField
-                      key={x.label}
+                      key={x.label + x.name + x.placeholder}
                       label={x.label}
                       name={x.name}
                       type={x.type}
                       options={x.options}
+                      placeholder={x.placeholder}
+                      variant={x.variant}
+                      formControlWidth={x.formControlWidth}
                     />
                   ))}
               </Flex>
@@ -119,7 +121,7 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
 
               <Button
                 mt={5}
-                w={{ base: '50vw', md: '300px' }}
+                w={submitButtonWidth}
                 display="block"
                 mx="auto"
                 color="white"
