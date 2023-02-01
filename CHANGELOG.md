@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.32.0](https://github.com/wolfzxcv/official-site/compare/v1.31.1...v1.32.0) (2023-02-01)
+
+
+### Features
+
+* **apis:** modify api related settings/files ([7d91317](https://github.com/wolfzxcv/official-site/commit/7d9131741a6ec8723d12279fee3fa48e80f74a1d))
+
 ### [1.31.1](https://github.com/wolfzxcv/official-site/compare/v1.31.0...v1.31.1) (2023-01-31)
 
 ## [1.31.0](https://github.com/wolfzxcv/official-site/compare/v1.30.0...v1.31.0) (2023-01-31)
