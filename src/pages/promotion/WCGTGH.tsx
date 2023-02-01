@@ -2,11 +2,13 @@ import { links } from '@/assets/links';
 import CopyrightLinks from '@/components/Footer/CopyrightLinks';
 import SubmitForm, { IField } from '@/components/Form/SubmitForm';
 import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
+import styled from '@emotion/styled';
 import * as Yup from 'yup';
 
 const UPPER_BG_COLOR = '#34065b';
 const LOWER_BG_COLOR = '#5820a9';
 const HR_COLOR = '#674484';
+const SUBMIT_BUTTON_COLOR = '#efa847';
 const FONT_WHITE = 'white';
 const FONT_YELLOW = '#ffda00';
 const FONT_PINK = '#ff23be';
@@ -46,6 +48,23 @@ const PageHeader: React.FC<{}> = () => {
     </Flex>
   );
 };
+
+const StyledSubmitForm = styled.div`
+  .chakra-button {
+    background-color: ${SUBMIT_BUTTON_COLOR};
+    width: 85%;
+    margin: 20px 0 0 10px;
+    &:hover {
+      background-color: ${SUBMIT_BUTTON_COLOR};
+      opacity: 0.5;
+      transition: all 1s;
+    }
+  }
+
+  .chakra-input {
+    max-width: 300px;
+  }
+`;
 
 const MESSAGES = {
   tooShort: '太短',
@@ -103,7 +122,12 @@ const FormBanner: React.FC<{}> = () => {
   ];
 
   return (
-    <Flex bg={UPPER_BG_COLOR} justify="center" color={FONT_WHITE}>
+    <Flex
+      bg={UPPER_BG_COLOR}
+      justify="center"
+      color={FONT_WHITE}
+      pb={{ base: 10, md: 0 }}
+    >
       <Flex wrap="wrap-reverse" justify="center">
         {/* LEFT */}
         <Flex flexDir="column" mt={{ base: 5, md: '40px' }}>
@@ -143,13 +167,15 @@ const FormBanner: React.FC<{}> = () => {
                 </Box>
               </Box>
 
-              <SubmitForm
-                data={data}
-                submit={'立即开户'}
-                afterSubmit={'weWillContactYou'}
-                api="/contact"
-                submitButtonWidth={{ base: '80vw', md: '80%' }}
-              />
+              <StyledSubmitForm>
+                <SubmitForm
+                  data={data}
+                  submit={'立即开户'}
+                  afterSubmit={'weWillContactYou'}
+                  api="/contact"
+                  submitButtonWidth={{ base: '80vw', md: '80%' }}
+                />
+              </StyledSubmitForm>
             </Flex>
           </Flex>
         </Flex>
@@ -177,20 +203,21 @@ const Products: React.FC<{}> = () => {
         justify="space-around"
         align="center"
         width="100%"
+        maxW="1400px"
       >
-        <Flex flexDir="column" align="center">
+        <Flex flexDir="column" fontSize={{ base: 'inherit', md: '24px' }}>
           <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
             黄金白银
           </Box>
           <Flex align="center">
             <Box>买卖点差低至</Box>
-            <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
+            <Box fontSize={{ base: '18px', md: '36px' }} fontWeight={700}>
               0.3
             </Box>
           </Flex>
           <Flex align="center">
             <Box>杠杆高达</Box>
-            <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
+            <Box fontSize={{ base: '18px', md: '36px' }} fontWeight={700}>
               400倍
             </Box>
           </Flex>
@@ -202,19 +229,23 @@ const Products: React.FC<{}> = () => {
           />
         </Flex>
 
-        <Flex flexDir="column" align="center">
+        <Flex
+          flexDir="column"
+          fontSize={{ base: 'inherit', md: '24px' }}
+          my={{ base: 10, md: 0 }}
+        >
           <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
             原油
           </Box>
           <Flex align="center">
             <Box>买卖点差低至</Box>
-            <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
+            <Box fontSize={{ base: '18px', md: '36px' }} fontWeight={700}>
               0.05
             </Box>
           </Flex>
           <Flex align="center">
             <Box>杠杆高达</Box>
-            <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
+            <Box fontSize={{ base: '18px', md: '36px' }} fontWeight={700}>
               400倍
             </Box>
           </Flex>
@@ -226,19 +257,19 @@ const Products: React.FC<{}> = () => {
           />
         </Flex>
 
-        <Flex flexDir="column" align="center">
+        <Flex flexDir="column" fontSize={{ base: 'inherit', md: '24px' }}>
           <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
             货币对
           </Box>
           <Flex align="center">
             <Box>买卖点差低至</Box>
-            <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
+            <Box fontSize={{ base: '18px', md: '36px' }} fontWeight={700}>
               1
             </Box>
           </Flex>
           <Flex align="center">
             <Box>杠杆高达</Box>
-            <Box fontSize={{ base: 'inherit', md: '24px' }} fontWeight={700}>
+            <Box fontSize={{ base: '18px', md: '36px' }} fontWeight={700}>
               400倍
             </Box>
           </Flex>
@@ -292,7 +323,7 @@ const WhyChooseWCG: React.FC<{}> = () => {
             fontSize={{ base: '26px', md: '36px' }}
             fontWeight={700}
             textDecor="underline"
-            pb={5}
+            pb="60px"
           >
             → 为何选择WCG MARKETS?
           </Box>
