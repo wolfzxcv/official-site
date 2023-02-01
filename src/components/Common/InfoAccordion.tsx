@@ -49,7 +49,7 @@ export type InfoAccordionItemProps = {
   htmlContent?: string;
   content?: string[];
   complexContent?: IComplexContent[];
-  isTop?: boolean;
+  onTop?: boolean;
   internalHref?: string;
   externalHref?: string;
 };
@@ -60,7 +60,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
   htmlContent = '',
   content = [],
   complexContent = [],
-  isTop = false,
+  onTop = false,
   internalHref = '',
   externalHref = ''
 }: InfoAccordionItemProps) => {
@@ -74,7 +74,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
         <AccordionButton fontSize={{ base: '12px', md: 'inherit' }}>
           {date && (
             <Box
-              bg={isTop ? 'red.500' : 'gray.500'}
+              bg={onTop ? 'red.500' : 'gray.500'}
               color="white"
               px={{ base: 1, md: 2 }}
               py={1}
@@ -88,7 +88,7 @@ const InfoAccordionItem: React.FC<InfoAccordionItemProps> = ({
             textAlign="left"
             fontWeight="600"
             py={2}
-            color={isTop ? 'red.500' : 'inherit'}
+            color={onTop ? 'red.500' : 'inherit'}
           >
             {title}
           </Box>

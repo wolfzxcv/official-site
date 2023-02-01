@@ -114,10 +114,7 @@ const FormBanner: React.FC<{}> = () => {
       variant: 'filled',
       formControlWidth: '90%',
       initialValue: '',
-      rule: Yup.string()
-        .min(8, MESSAGES.tooShort)
-        .max(15, MESSAGES.tooLong)
-        .required(MESSAGES.required)
+      rule: Yup.string().min(8, MESSAGES.tooShort).max(30, MESSAGES.tooLong)
     }
   ];
 
@@ -171,8 +168,8 @@ const FormBanner: React.FC<{}> = () => {
                 <SubmitForm
                   data={data}
                   submit={'立即开户'}
-                  afterSubmit={'weWillContactYou'}
-                  api="/contact"
+                  afterSubmit={'提交成功，专员将尽速与您联繫!'}
+                  api="/wcgtgh"
                   submitButtonWidth={{ base: '80vw', md: '80%' }}
                 />
               </StyledSubmitForm>

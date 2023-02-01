@@ -6,16 +6,12 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
 type ApiDataListProps = {
-  api: string;
-  onTop?: number[];
+  api: '/market' | '/responsibility' | '/notice' | '/news' | '/checkip';
 };
 
 const InfoAccordion = dynamic(() => import('./InfoAccordion'), { ssr: false });
 
-const ApiDataList: React.FC<ApiDataListProps> = ({
-  api,
-  onTop
-}: ApiDataListProps) => {
+const ApiDataList: React.FC<ApiDataListProps> = ({ api }: ApiDataListProps) => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   useEffect(() => {
@@ -47,18 +43,24 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
   }
 
   const getItems = async (currentLang: Locales) => {
+    const lang =
+      currentLang === 'cn' || currentLang === 'zh' ? currentLang : 'en';
+
     try {
       const {
         data: { data }
       } = await axios.get(
-        `${process.env.NEXT_PUBLIC_API_URL}${api}?lang=${currentLang}`
+        `${process.env.NEXT_PUBLIC_API_URL}${api}?lang=${lang}${
+          api === '/notice' ? '&site=g' : ''
+        }`
       );
 
-      let newItems = data.map((x) => {
+      const formatItems = data.map((x) => {
         const output = {
           id: x.id,
-          date: x.displayTime,
+          date: x.time,
           title: x.title,
+          onTop: x.onTop,
           htmlContent:
             x.content +
             (x.url
@@ -66,21 +68,10 @@ const ApiDataList: React.FC<ApiDataListProps> = ({
               : '')
         };
 
-        if (!!onTop && Array.isArray(onTop) && onTop.includes(x.id)) {
-          // @ts-ignore
-          output.isTop = true;
-        }
-
         return output;
       });
 
-      const topItems = newItems.filter((x) => x.isTop === true);
-
-      const restItems = newItems.filter((x) => x.isTop !== true);
-
-      newItems = [...topItems, ...restItems];
-
-      setItems(newItems);
+      setItems(formatItems);
     } catch (e) {
       console.log(e);
     }

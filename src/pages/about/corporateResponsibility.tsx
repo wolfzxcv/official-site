@@ -17,7 +17,7 @@ const corporateResponsibility: React.FC<{}> = () => {
         <InfoTitle title={t('corporateResponsibility')} />
         <InfoTitleSub title={t('corporateResponsibility')} />
 
-        <ApiDataList api="/response" />
+        <ApiDataList api="/responsibility" />
       </Flex>
     </Wrapper>
   );

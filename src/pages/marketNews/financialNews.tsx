@@ -103,7 +103,7 @@ const financialNews: React.FC<{}> = () => {
             </Flex>
           ))}
 
-        {showBackup && <ApiDataList api="/focus" />}
+        {showBackup && <ApiDataList api="/news" />}
       </Flex>
     </Wrapper>
   );

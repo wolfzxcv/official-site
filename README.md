@@ -1,6 +1,6 @@
 # WCG Markets 官網
 
-- [正式環境](https://www.wcgpartner.com/)
+- [正式環境](https://www.wcgmarkets.com/)
 - [測試環境](http://newwcg.012wenchuan.com)
 
 ## 運行方式
@@ -170,24 +170,16 @@
 
 ## 情報
 
-### 目前已知域名
+### 國際站域名
 
 - 國際站
 
   - https://www.wcgmarkets.com/
   - https://www.wcgmarkets-global.com/
 
-- 國內站
+- 國際站/代理站/金業, 共用後台(裡面有分各站內容添加)
 
-  - https://www.wc012.com/
-  - http://wcgold.hk
-
-- 國際站/國內站, 共用後台(裡面有分國內和國際內容添加)
-
-  - http://admin.wc012.com/admin
-
-- 支付回調網址
-  - https://www.wc012.com/home/Pay/RetVite
+  - https://cms.wcgos.com/
 
 ## API 文件
 
@@ -214,78 +206,70 @@ type IResponseFormat = {
   ms = 馬來語
   id = 印尼語
   ar = 阿拉伯語
+  th = 泰語
 
-- 因應"後台"增加日期選擇器, API 回傳 displayTime 規則更新.
-
-  - 如果該筆資料, 有 showTime,則回傳 showTime
-  - 若無,則回傳 time
-  - time = 文章插入時間, showTime = 日期選擇器時間
+- API 回傳資料 Order of priority
+  - onTop === 1
+  - showTime(DESC)
+  - createTime(DESC)
 
 ```typescript=
 type DataOutputFormat = {
   id: number;
   title: string;
   content: string;
-  url?: string;  // 目前僅有 企業責任 可能有這個參數
-  displayTime: string;
+  url?: string;  // 目前僅有 企業責任 會有這個參數
+  onTop?: boolean;  // 目前僅有 平台公告 會有這個參數
+  time: string;
 };
 ```
 
-### 1.市場分析
+## 1.市場分析
 
-| Item   | Value          |
-| ------ | -------------- |
-| Method | GET            |
-| path   | **/quotation** |
-| param  | lang           |
-| table  | d_quotation    |
+| Item   | Value       |
+| ------ | ----------- |
+| Method | GET         |
+| path   | **/market** |
+| param  | lang        |
+| table  | g_market    |
 
-### 2.財經新聞
+## 2.企業責任
 
-| Item   | Value      |
-| ------ | ---------- |
-| Method | GET        |
-| path   | **/focus** |
-| param  | lang       |
-| table  | d_focus    |
+| Item   | Value               |
+| ------ | ------------------- |
+| Method | GET                 |
+| path   | **/responsibility** |
+| param  | lang                |
+| table  | g_responsibility    |
 
-### 3.企業責任
-
-| Item   | Value         |
-| ------ | ------------- |
-| Method | GET           |
-| path   | **/response** |
-| param  | lang          |
-| table  | d_response    |
-
-### 4.平台公告
+## 3.平台公告
 
 | Item   | Value       |
 | ------ | ----------- |
 | Method | GET         |
 | path   | **/notice** |
 | param  | lang        |
-| table  | d_notice    |
+| param  | site        |
+| table  | \*\_notice  |
 
-### 5.聯繫我們
+## 4.聯繫我們
 
 | Item   | Value        |
 | ------ | ------------ |
 | Method | POST         |
 | path   | **/contact** |
 | param  |              |
-| table  | d_contact    |
+| table  | g_contact    |
 
 ```typescript=
 type IContactInput = {
-  name: string;
-  surname: string;
+  firstName: string;
+  lastName: string;
   mobile: string;
   email: string;
   area: string;
   type: string;
-  iScustomer: string;
-  login?: string;
+  account?: string;
   content?: string;
 };
 ```
@@ -294,7 +278,24 @@ type IContactInput = {
 - 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到.env 設定的 CUSTOMER_SERVICE_EMAIL
 - 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD
 
-### 6.偵測 IP 來源地區
+## 5.取得即時新聞
+
+| Item   | Value     |
+| ------ | --------- |
+| Method | GET       |
+| path   | **/news** |
+| param  |           |
+
+```typescript=
+type INewsRes = {
+  imageUrl: string | null;
+  id: string;
+  createAt: number;
+  text: string;
+};
+```
+
+## 6.偵測 IP 來源地區
 
 | Item   | Value        |
 | ------ | ------------ |
@@ -309,20 +310,24 @@ type ICheckIpRes = {
 };
 ```
 
-### 7.取得即時新聞
+## 7.WCGTGH 廣告投放
 
-| Item   | Value     |
-| ------ | --------- |
-| Method | GET       |
-| path   | **/news** |
-| param  |           |
+| Item   | Value       |
+| ------ | ----------- |
+| Method | POST        |
+| path   | **/wcgtgh** |
+| param  |             |
+| table  | g_WCGTGH    |
 
 ```typescript=
-type INewsRes = {
-  author: string | null;
-  imageUrl: string | null;
-  id: string;
-  createAt: number;
-  text: string;
+type IWCGTGH = {
+  name: string;
+  email: string;
+  mobile: string;
+  qq?: string;
 };
 ```
+
+- 以上沒打問號的, 代表必填
+- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到.env 設定的 CUSTOMER_SERVICE_EMAIL
+- 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD

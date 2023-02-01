@@ -16,7 +16,7 @@ const marketAnalysis: React.FC<{}> = () => {
         <InfoTitle title={t('theLatestReview')} />
         <InfoTitleSub title={t('theLatestReviewsAndForecasts')} />
 
-        <ApiDataList api="/quotation" />
+        <ApiDataList api="/market" />
       </Flex>
     </Wrapper>
   );
