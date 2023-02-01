@@ -202,11 +202,6 @@ type IResponseFormat = {
   cn = 簡體中文
   zh = 繁體中文
   en = 英語
-  vi = 越南語
-  ms = 馬來語
-  id = 印尼語
-  ar = 阿拉伯語
-  th = 泰語
 
 - API 回傳資料 Order of priority
   - onTop === 1
