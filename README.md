@@ -166,7 +166,8 @@
   - [WCGJYK](http://newwcg.012wenchuan.com/activity/WCGJYK)
   - [WCGEYS](http://newwcg.012wenchuan.com/activity/WCGEYS)
 
-- 新活動改放在首頁 banner
+- 目前廣告投放頁面們(依照開發順序陳列)
+  - [WCGTGH](http://newwcg.012wenchuan.com/promotion/WCGTGH)
 
 ## 情報
 

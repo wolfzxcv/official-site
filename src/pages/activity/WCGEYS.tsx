@@ -212,7 +212,7 @@ const WCGEYSTable: React.FC<{}> = () => (
         </tr>
         <tr>
           <td className="table_left_content">16000或以上</td>
-          <td className="table_right_content">2000</td>
+          <td className="table_right_content">4800</td>
         </tr>
       </tbody>
     </StyledWCGEYSTable>
