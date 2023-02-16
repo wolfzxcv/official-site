@@ -122,8 +122,8 @@
   - 開立真實帳戶
 - NEXT_PUBLIC_USERS_CENTER
   - 客戶中心
-- NEXT_PUBLIC_USERS_CENTER_ZH
-  - 客戶中心(中文)
+- NEXT_PUBLIC_REGISTER_ZH
+  - 開立真實帳戶(中文)
 - NEXT_PUBLIC_IB_CENTER
   - 代理中心
 - NEXT_PUBLIC_MT4_APP

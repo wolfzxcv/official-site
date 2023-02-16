@@ -42,12 +42,6 @@ export type ContactUs = {
   partner: string;
   /** your account */
   yourAccount: string;
-  /** Are you our existing customer */
-  areYouOurExistingCustomer: string;
-  /** Yes */
-  Yes: string;
-  /** No */
-  No: string;
   /** Leave a message */
   leaveAMessage: string;
   /** I agree to */

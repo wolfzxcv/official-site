@@ -24,9 +24,6 @@ export const contactUs: ContactUs = {
   disputesComplaints: 'Pertikaian / Aduan',
   partner: 'Rakan kongsi',
   yourAccount: 'akaun anda',
-  areYouOurExistingCustomer: 'Adakah anda pelanggan kami yang sedia ada',
-  Yes: 'Ya',
-  No: 'tidak',
   leaveAMessage: 'tinggalkan pesanan',
   iAgreeTo:
     'Saya bersetuju untuk menyerahkan maklumat saya ke WCG. Untuk maklumat mengenai produk dan tawaran promosi lain, saya boleh dihubungi melalui e-mel atau telefon. Saya telah membaca dan bersetuju dengan dasar privasi WCG.Anda boleh memilih untuk menolak untuk menerima komunikasi pemasaran kami pada bila-bila masa.',

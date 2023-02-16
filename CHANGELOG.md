@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.32.3](https://github.com/wolfzxcv/official-site/compare/v1.32.1...v1.32.3) (2023-02-16)
+
+
+### Bug Fixes
+
+* **submitform:** fix type in SubmitForm.tsx ([de725b5](https://github.com/wolfzxcv/official-site/commit/de725b569587560282a39721e7d8c71342738bbb))
+
+### [1.32.2](https://github.com/wolfzxcv/official-site/compare/v1.32.1...v1.32.2) (2023-02-16)
+
 ### [1.32.1](https://github.com/wolfzxcv/official-site/compare/v1.32.0...v1.32.1) (2023-02-02)
 
 ## [1.32.0](https://github.com/wolfzxcv/official-site/compare/v1.31.1...v1.32.0) (2023-02-01)

@@ -27,7 +27,7 @@ const contactUs: React.FC<{}> = () => {
   const data: IField[] = [
     {
       label: t('firstName'),
-      name: 'name',
+      name: 'firstName',
       initialValue: '',
       rule: Yup.string()
         .min(2, t('tooShort'))
@@ -36,7 +36,7 @@ const contactUs: React.FC<{}> = () => {
     },
     {
       label: t('lastName'),
-      name: 'surname',
+      name: 'lastName',
       initialValue: '',
       rule: Yup.string()
         .min(1, t('tooShort'))
@@ -88,14 +88,6 @@ const contactUs: React.FC<{}> = () => {
         .min(3, t('tooShort'))
         .max(20, t('tooLong'))
         .notRequired()
-    },
-    {
-      label: t('areYouOurExistingCustomer'),
-      name: 'iScustomer',
-      type: 'select',
-      options: [t('pleaseSelectAnItem'), t('No'), t('Yes')],
-      initialValue: '',
-      rule: Yup.string().required(t('required'))
     },
     {
       label: t('leaveAMessage'),

@@ -24,9 +24,6 @@ export const contactUs: ContactUs = {
   disputesComplaints: 'Disputes/Complaints',
   partner: 'Partnership',
   yourAccount: 'Your account',
-  areYouOurExistingCustomer: 'Are you our existing customer',
-  Yes: 'Yes',
-  No: 'No',
   leaveAMessage: 'Leave a message',
   iAgreeTo:
     "I agree to submit my information to WCG. For information about products and other promotion offers, I can be reached by email or phone. I have read and agree with the WCG's privacy policy.You can choose to refuse to accept our marketing communications at any time.",

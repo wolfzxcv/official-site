@@ -112,6 +112,7 @@ const InputField: React.FC<InputFieldProps> = ({
           {...field}
           id={field.name}
           variant={variant}
+          // @ts-ignore
           {...(props as unknown)}
         >
           <Stack spacing="24px">
@@ -132,6 +133,7 @@ const InputField: React.FC<InputFieldProps> = ({
           colorScheme="green"
           variant={variant}
           {...field}
+          // @ts-ignore
           {...(props as unknown)}
           onChange={(values) => console.log(values)}
         >

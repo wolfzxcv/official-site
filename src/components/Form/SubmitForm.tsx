@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Form, Formik } from 'formik';
 import React, { useState } from 'react';
 import * as Yup from 'yup';
-import { RequiredStringSchema } from 'yup/lib/string';
+import { StringSchema } from 'yup';
 import InputField, { IFieldCommonProps, IOption } from './InputField';
 
 export type IFieldType =
@@ -17,7 +17,7 @@ export type IFieldType =
 export type IField = IFieldCommonProps & {
   options?: IOption[];
   initialValue: string | (string | number)[];
-  rule: RequiredStringSchema<string, Record<string, unknown>> | unknown;
+  rule: StringSchema | unknown;
 };
 
 type SubmitFormProps = {
