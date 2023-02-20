@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.33.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.33.0...v1.33.1) (2023-02-20)
+
+
+### Bug Fixes
+
+* **wcgtgh:** fix params error ([c6f3de6](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/c6f3de61b2098ed79ed95b922916e7f3667bf11b))
+
 ## [1.33.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.32.4...v1.33.0) (2023-02-20)
 
 
