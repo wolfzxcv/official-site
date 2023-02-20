@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.33.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.32.4...v1.33.0) (2023-02-20)
+
+
+### Features
+
+* **activity:** add WCGNSJ ([6bc7a7b](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/6bc7a7b9cd9f091b9c5d8dc2bc29c7c88f463c3b))
+
 ### [1.32.4](https://github.com/wolfzxcv/official-site/compare/v1.32.1...v1.32.4) (2023-02-16)
 
 ### [1.32.3](https://github.com/wolfzxcv/official-site/compare/v1.32.1...v1.32.3) (2023-02-16)
