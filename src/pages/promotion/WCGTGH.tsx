@@ -109,7 +109,7 @@ const FormBanner: React.FC<{}> = () => {
         .required(MESSAGES.required)
     },
     {
-      name: 'QQ',
+      name: 'qq',
       placeholder: '输入微信或QQ',
       variant: 'filled',
       formControlWidth: '90%',
