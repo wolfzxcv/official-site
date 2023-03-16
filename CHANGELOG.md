@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.34.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.33.3...v1.34.0) (2023-03-16)
+
+
+### Features
+
+* **popup:** add Adjustment popup ([b4e3b5c](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/b4e3b5c06e6eaf44d23ea460af6b1a761b1a33c8))
+
 ### [1.33.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.33.2...v1.33.3) (2023-02-28)
 
 ### [1.33.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.33.1...v1.33.2) (2023-02-23)

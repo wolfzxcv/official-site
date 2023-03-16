@@ -1,6 +1,6 @@
 {
   "name": "wcg-markets",
-  "version": "1.33.3",
+  "version": "1.34.0",
   "engines": {
     "node": "^14.17.0",
     "npm": "^6.14.13"
