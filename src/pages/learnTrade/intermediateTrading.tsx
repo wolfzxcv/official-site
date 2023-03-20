@@ -24,191 +24,191 @@ const intermediateTrading: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   const data: InfoAccordionItemProps[] = [
-    {
-      title: t('MT4Tips'),
-      complexContent: [
-        {
-          type: 'title',
-          objectKey: t('personalizationOfTheChart')
-        },
-        {
-          type: 'text',
-          objectKey: t('youCanPersonalizeYourChart')
-        },
-        {
-          type: 'title',
-          objectKey: t('hidingTheSellingPriceLine')
-        },
-        {
-          type: 'text',
-          objectKey: t('ifYouAddALotOfIndicators')
-        },
-        {
-          type: 'title',
-          objectKey: t('setDefaultChart')
-        },
-        {
-          type: 'text',
-          objectKey: t('onceYouHaveSetUpAVery')
-        },
-        {
-          type: 'text',
-          objectKey: t('ifYouWantToSetTheMost')
-        },
-        {
-          type: 'title',
-          objectKey: t('economicCalendar')
-        },
-        {
-          type: 'text',
-          objectKey: t('soHowCanWeKeepAnEye')
-        },
-        {
-          type: 'text',
-          objectKey: t('theEconomicCalendarLists')
-        },
-        {
-          type: 'title',
-          objectKey: t('customizationOfToolbars')
-        },
-        {
-          type: 'text',
-          objectKey: t('common')
-        },
-        {
-          type: 'text',
-          objectKey: t('chart')
-        },
-        {
-          type: 'text',
-          objectKey: t('drawLine')
-        },
-        {
-          type: 'text',
-          objectKey: t('cycle')
-        },
-        {
-          type: 'text',
-          objectKey: t('youCanSimplyDragThe')
-        },
-        {
-          type: 'text',
-          objectKey: t('hereYouCanComplete')
-        },
-        {
-          type: 'text',
-          objectKey: t('throughTheAboveOperations')
-        },
-        {
-          type: 'title',
-          objectKey: t('usingShortcutKeys')
-        },
-        {
-          type: 'text',
-          objectKey: t('keyboardShortcutsAre')
-        },
-        {
-          type: 'text',
-          objectKey: t('inTheLongRunThisWill')
-        },
-        {
-          type: 'text',
-          objectKey: t('terminal')
-        },
-        {
-          type: 'text',
-          objectKey: t('controlT')
-        },
-        {
-          type: 'text',
-          objectKey: t('thisIsTheMainWindow')
-        },
-        {
-          type: 'text',
-          objectKey: t('navigate')
-        },
-        {
-          type: 'text',
-          objectKey: t('controlN')
-        },
-        {
-          type: 'text',
-          objectKey: t('toAddIndicators')
-        },
-        {
-          type: 'text',
-          objectKey: t('marketQuotation')
-        },
-        {
-          type: 'text',
-          objectKey: t('controlM')
-        },
-        {
-          type: 'text',
-          objectKey: t('viewProductQuotation')
-        },
-        {
-          type: 'text',
-          objectKey: t('dataWindow')
-        },
-        {
-          type: 'text',
-          objectKey: t('controlD')
-        },
-        {
-          type: 'text',
-          objectKey: t('viewAllDataInformation')
-        },
-        {
-          type: 'title',
-          objectKey: t('usingShortcutKeys')
-        },
-        {
-          type: 'text',
-          objectKey: t('onTheMT4Platform')
-        },
-        {
-          type: 'text',
-          objectKey: t('theSpecificOperation')
-        },
-        {
-          type: 'title',
-          objectKey: t('favoriteIndicatorList')
-        },
-        {
-          type: 'text',
-          objectKey: t('inOrderToSimplifyThe')
-        },
-        {
-          type: 'text',
-          objectKey: t('openTheNavigationWindow')
-        },
-        {
-          type: 'text',
-          objectKey: t('expandTheRelevantContent')
-        },
-        {
-          type: 'text',
-          objectKey: t('moveTheMouseCursor')
-        },
-        {
-          type: 'text',
-          objectKey: t('rightClickTheMouse')
-        },
-        {
-          type: 'text',
-          objectKey: t('selectAddToFavorites')
-        },
-        {
-          type: 'title',
-          objectKey: t('alerts')
-        },
-        {
-          type: 'text',
-          objectKey: t('throughTheAlertFunction')
-        }
-      ]
-    },
+    // {
+    //   title: t('MT4Tips'),
+    //   complexContent: [
+    //     {
+    //       type: 'title',
+    //       objectKey: t('personalizationOfTheChart')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('youCanPersonalizeYourChart')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('hidingTheSellingPriceLine')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('ifYouAddALotOfIndicators')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('setDefaultChart')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('onceYouHaveSetUpAVery')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('ifYouWantToSetTheMost')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('economicCalendar')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('soHowCanWeKeepAnEye')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theEconomicCalendarLists')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('customizationOfToolbars')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('common')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('chart')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('drawLine')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('cycle')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('youCanSimplyDragThe')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('hereYouCanComplete')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('throughTheAboveOperations')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('usingShortcutKeys')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('keyboardShortcutsAre')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('inTheLongRunThisWill')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('terminal')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('controlT')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('thisIsTheMainWindow')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('navigate')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('controlN')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('toAddIndicators')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('marketQuotation')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('controlM')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('viewProductQuotation')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('dataWindow')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('controlD')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('viewAllDataInformation')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('usingShortcutKeys')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('onTheMT4Platform')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theSpecificOperation')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('favoriteIndicatorList')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('inOrderToSimplifyThe')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('openTheNavigationWindow')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('expandTheRelevantContent')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('moveTheMouseCursor')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('rightClickTheMouse')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('selectAddToFavorites')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('alerts')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('throughTheAlertFunction')
+    //     }
+    //   ]
+    // },
     {
       title: t('riskManagement'),
       complexContent: [

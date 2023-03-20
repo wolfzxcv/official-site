@@ -206,14 +206,14 @@ const about: React.FC<{}> = () => {
             {t('WCGIsAlwaysYourWiseChoice')}
           </Box>
           <Box paddingY={5}>{t('WCGKeepsAdvancingWithTimes')}</Box>
-
+          {/* 
           <InfoButton
             text={t('tradingPlatform')}
             href="/platform/MT4Overview"
             withBorder
             bgColor="gray.800"
             hoverBg="gray.700"
-          />
+          /> */}
         </Flex>
       </Flex>
 

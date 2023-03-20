@@ -261,200 +261,200 @@ const basicTrading: React.FC<{}> = () => {
         }
       ]
     },
-    {
-      title: t('basicOperationOfTheMT4Platform'),
-      complexContent: [
-        {
-          type: 'text',
-          objectKey: t('afterTheDownloadProcess')
-        },
-        {
-          type: 'text',
-          objectKey: t('checkYesIAgreeWith')
-        },
-        {
-          type: 'text',
-          objectKey: t('theInstallationWizard')
-        },
-        {
-          type: 'text',
-          objectKey: t('thePlatformInterface')
-        },
-        {
-          type: 'text',
-          objectKey: t('logInToTheTradingAccount')
-        },
-        {
-          type: 'text',
-          objectKey: t('inThePopUpLoginWindow')
-        },
-        {
-          type: 'text',
-          objectKey: t('thePlatformWillTakeSomeTime')
-        },
-        {
-          type: 'title',
-          objectKey: t('createAMarketOrder')
-        },
-        {
-          type: 'text',
-          objectKey: t('thereAreManyWaysTo')
-        },
-        {
-          type: 'title',
-          objectKey: t('productCategory')
-        },
-        {
-          type: 'text',
-          objectKey: t('lotsEnterTheLotSize')
-        },
-        {
-          type: 'text',
-          objectKey: t('stopLossPrice')
-        },
-        {
-          type: 'text',
-          objectKey: t('takeProfitPrice')
-        },
-        {
-          type: 'text',
-          objectKey: t('sellAtMarketPriceOrBuy')
-        },
-        {
-          type: 'text',
-          objectKey: t('theOrderTypeColumn')
-        },
-        {
-          type: 'title',
-          objectKey: t('economicCalendar')
-        },
-        {
-          type: 'text',
-          objectKey: t('soHowCanWeKeepAnEyeOn')
-        },
-        {
-          type: 'text',
-          objectKey: t('theEconomicCalendarListsTheNews')
-        },
+    // {
+    //   title: t('basicOperationOfTheMT4Platform'),
+    //   complexContent: [
+    //     {
+    //       type: 'text',
+    //       objectKey: t('afterTheDownloadProcess')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('checkYesIAgreeWith')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theInstallationWizard')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('thePlatformInterface')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('logInToTheTradingAccount')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('inThePopUpLoginWindow')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('thePlatformWillTakeSomeTime')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('createAMarketOrder')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('thereAreManyWaysTo')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('productCategory')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('lotsEnterTheLotSize')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('stopLossPrice')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('takeProfitPrice')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('sellAtMarketPriceOrBuy')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theOrderTypeColumn')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('economicCalendar')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('soHowCanWeKeepAnEyeOn')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theEconomicCalendarListsTheNews')
+    //     },
 
-        {
-          type: 'title',
-          objectKey: t('pendingOrder')
-        },
-        {
-          type: 'text',
-          objectKey: t('changeTheOrderType')
-        },
-        {
-          type: 'text',
-          objectKey: t('thereAreFourTypes')
-        },
-        {
-          type: 'text',
-          objectKey: t('buyLimitBuyPending')
-        },
-        {
-          type: 'text',
-          objectKey: t('sellLimitSellPending')
-        },
-        {
-          type: 'text',
-          objectKey: t('buyStopBuyPending')
-        },
-        {
-          type: 'text',
-          objectKey: t('sellStopSellPending')
-        },
-        {
-          type: 'text',
-          objectKey: t('afterSelectingTheCorresponding')
-        },
-        {
-          type: 'title',
-          objectKey: t('oneClickTrading')
-        },
-        {
-          type: 'text',
-          objectKey: t('foreignExchangePrices')
-        },
-        {
-          type: 'text',
-          objectKey: t('onTheUpperLeftCorner')
-        },
-        {
-          type: 'title',
-          objectKey: t('modifyTheOrder')
-        },
-        {
-          type: 'text',
-          objectKey: t('afterOpening')
-        },
-        {
-          type: 'text',
-          objectKey: t('inThePopUpWindow')
-        },
-        {
-          type: 'title',
-          objectKey: t('closePosition')
-        },
-        {
-          type: 'text',
-          objectKey: t('theSummaryWindowAt')
-        },
-        {
-          type: 'text',
-          objectKey: t('theAccountBalance')
-        },
-        {
-          type: 'text',
-          objectKey: t('atThisTimeWeOpened')
-        },
-        {
-          type: 'text',
-          objectKey: t('oneClickClosing')
-        },
-        {
-          type: 'title',
-          objectKey: t('accountHistory')
-        },
-        {
-          type: 'text',
-          objectKey: t('youCanFindAllClosed')
-        },
-        {
-          type: 'text',
-          objectKey: t('profitLossTheTotal')
-        },
-        {
-          type: 'text',
-          objectKey: t('depositsTotalDeposits')
-        },
-        {
-          type: 'text',
-          objectKey: t('withdrawalTheTotal')
-        },
-        {
-          type: 'title',
-          objectKey: t('openTheChartAndLoad')
-        },
-        {
-          type: 'text',
-          objectKey: t('afterTheMT4Platform')
-        },
-        {
-          type: 'text',
-          objectKey: t('ifYouWantToSwitch')
-        },
-        {
-          type: 'text',
-          objectKey: t('withMT4IsLocatedInThe')
-        },
-        {
-          type: 'text',
-          objectKey: t('afterReadingThis')
-        }
-      ]
-    },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('pendingOrder')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('changeTheOrderType')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('thereAreFourTypes')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('buyLimitBuyPending')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('sellLimitSellPending')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('buyStopBuyPending')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('sellStopSellPending')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('afterSelectingTheCorresponding')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('oneClickTrading')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('foreignExchangePrices')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('onTheUpperLeftCorner')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('modifyTheOrder')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('afterOpening')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('inThePopUpWindow')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('closePosition')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theSummaryWindowAt')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('theAccountBalance')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('atThisTimeWeOpened')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('oneClickClosing')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('accountHistory')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('youCanFindAllClosed')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('profitLossTheTotal')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('depositsTotalDeposits')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('withdrawalTheTotal')
+    //     },
+    //     {
+    //       type: 'title',
+    //       objectKey: t('openTheChartAndLoad')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('afterTheMT4Platform')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('ifYouWantToSwitch')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('withMT4IsLocatedInThe')
+    //     },
+    //     {
+    //       type: 'text',
+    //       objectKey: t('afterReadingThis')
+    //     }
+    //   ]
+    // },
     {
       title: t('leverageAndMargin'),
       complexContent: [
