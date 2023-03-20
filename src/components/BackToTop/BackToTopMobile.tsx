@@ -1,5 +1,4 @@
 import { links } from '@/assets/links';
-import { Locales } from '@/i18n/config';
 import { scrollToTop } from '@/utils';
 import {
   Box,
@@ -15,13 +14,8 @@ import {
   useMediaQuery
 } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
 import React from 'react';
-import {
-  AiOutlineCloudDownload,
-  AiOutlineMessage,
-  AiOutlineWhatsApp
-} from 'react-icons/ai';
+import { AiOutlineMessage, AiOutlineWhatsApp } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
@@ -31,8 +25,6 @@ import { StyledIconButton } from '../Styled/Styled';
 const BackToTopMobile: React.FC<{}> = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { t } = useTranslation('common');
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
 
   const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
@@ -122,13 +114,13 @@ const BackToTopMobile: React.FC<{}> = () => {
                 href={links.register}
                 icon={<BsPencilSquare fontSize="36px" />}
               />
-
+              {/* 
               <MobileBaseButton
                 bg="red.600"
                 label={t('downloadMT4')}
                 href={`/${currentLang}/platform/MT4Overview`}
                 icon={<AiOutlineCloudDownload fontSize="32px" />}
-              />
+              /> */}
             </Flex>
           </ModalBody>
         </ModalContent>

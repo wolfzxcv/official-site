@@ -1,15 +1,9 @@
 import { links } from '@/assets/links';
-import { Locales } from '@/i18n/config';
 import { scrollToTop } from '@/utils';
 import { Box, Flex, Image, Tooltip } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
 import React from 'react';
-import {
-  AiOutlineCloudDownload,
-  AiOutlineMessage,
-  AiOutlineWhatsApp
-} from 'react-icons/ai';
+import { AiOutlineMessage, AiOutlineWhatsApp } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
@@ -17,8 +11,6 @@ import { StyledIconButton } from '../Styled/Styled';
 
 const BackToTopDesktop: React.FC<{}> = () => {
   const { t } = useTranslation('common');
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
 
   return (
     <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
@@ -66,11 +58,11 @@ const BackToTopDesktop: React.FC<{}> = () => {
           icon={<BsPencilSquare fontSize="30px" />}
         />
 
-        <DesktopBaseButton
+        {/* <DesktopBaseButton
           label={t('downloadMT4')}
           href={`/${currentLang}/platform/MT4Overview`}
           icon={<AiOutlineCloudDownload fontSize="32px" />}
-        />
+        /> */}
 
         <DesktopBaseButton
           label={t('top')}

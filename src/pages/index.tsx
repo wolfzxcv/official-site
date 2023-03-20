@@ -10,7 +10,7 @@ import { Adjustment } from '@/components/PopUp/Adjustment';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
-import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -427,7 +427,7 @@ const Index: React.FC<{}> = () => {
       </Box>
 
       {/* Download immediately */}
-      <Box
+      {/* <Box
         mt={{ base: '100px', md: 0 }}
         mx={10}
         mb="100px"
@@ -507,7 +507,7 @@ const Index: React.FC<{}> = () => {
         <Center>
           <Image src="/../assets/images/home_divider.png" alt="divider" />
         </Center>
-      </Box>
+      </Box> */}
     </Wrapper>
   );
 };
