@@ -106,9 +106,9 @@ export const platform: Platform = {
   accordingToAccountLevel:
     'Menurut level akun, berikan fungsi penutupan sebagian',
   customersCanStart:
-    'Pelanggan dapat mulai mengalokasikan semua jenis pesanan MT4 yang kompatibel ketika volume perdagangan mencapai 0.01 lot',
+    'Pelanggan dapat mulai mengalokasikan semua jenis pesanan yang kompatibel ketika volume perdagangan mencapai 0.01 lot',
   compatibleWithAll:
-    'Kompatibel dengan semua pesanan MT4, misalnya, stop loss, harga batas, dll.',
+    'Kompatibel dengan semua pesanan, misalnya, stop loss, harga batas, dll.',
   thereIsNoLimit: 'Tidak ada batasan jumlah akun saat melakukan pemesanan.',
   yourPartnerToTheRoadOfSuccess: 'Mitra Anda menuju jalan kesuksesan',
   toProvideYouWithFlexibleAndCompetitiveRates:

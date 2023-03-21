@@ -172,7 +172,7 @@ const about: React.FC<{}> = () => {
               withBorder
             />
           </Box>
-          <Box m={5}>
+          {/* <Box m={5}>
             <InfoButton
               text={t('tradingPlatform')}
               href="/platform/MT4Overview"
@@ -180,7 +180,7 @@ const about: React.FC<{}> = () => {
               bgColor="gray.800"
               hoverBg="gray.700"
             />
-          </Box>
+          </Box> */}
         </Flex>
       </Stack>
 

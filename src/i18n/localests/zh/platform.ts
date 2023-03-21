@@ -96,7 +96,7 @@ export const platform: Platform = {
   establishMultipleTrading: '為各種政策建立多個交易子群組',
   accordingToAccountLevel: '根據帳戶水準，提供部分平倉功能',
   customersCanStart: '客戶的交易量達到0.01手就可以開始分配',
-  compatibleWithAll: '相容所有MT4訂單類型：止損、限價、跟蹤止損、全部平倉等',
+  compatibleWithAll: '相容所有訂單類型：止損、限價、跟蹤止損、全部平倉等',
   thereIsNoLimit: '下單不限制客戶帳號數量',
   yourPartnerToTheRoadOfSuccess: '您的成功夥伴',
   toProvideYouWithFlexibleAndCompetitiveRates:

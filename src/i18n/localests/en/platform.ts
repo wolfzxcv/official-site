@@ -108,9 +108,9 @@ export const platform: Platform = {
   accordingToAccountLevel:
     'According to account level, provide partial closing function',
   customersCanStart:
-    'Customers can start to allocate compatible all MT4 order types when the trading volume reaches 0.01 lot',
+    'Customers can start to allocate compatible all order types when the trading volume reaches 0.01 lot',
   compatibleWithAll:
-    'Compatible with all MT4 orders, for instance, stop loss, limit price, etc.',
+    'Compatible with all orders, for instance, stop loss, limit price, etc.',
   thereIsNoLimit: 'There is no limit of account amount when placing order.',
   yourPartnerToTheRoadOfSuccess: 'Your partner to the road of success',
   toProvideYouWithFlexibleAndCompetitiveRates:

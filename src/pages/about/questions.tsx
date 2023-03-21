@@ -61,10 +61,10 @@ const questions: React.FC<{}> = () => {
         t('ifTheTransactionVolumeIsInsufficient')
       ]
     },
-    {
-      title: t('whatIsTheMT4Platform'),
-      content: [t('MetaTrader4')]
-    },
+    // {
+    //   title: t('whatIsTheMT4Platform'),
+    //   content: [t('MetaTrader4')]
+    // },
     {
       title: t('howToDownload'),
       content: [t('youCanClickHere')],

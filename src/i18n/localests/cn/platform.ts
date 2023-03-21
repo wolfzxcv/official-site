@@ -96,7 +96,7 @@ export const platform: Platform = {
   establishMultipleTrading: '为各种政策建立多个交易子群组',
   accordingToAccountLevel: '根据账户水准，提供部分平仓功能',
   customersCanStart: '客户的交易量达到0.01手就可以开始分配',
-  compatibleWithAll: '相容所有MT4订单类型：止损、限价、跟踪止损、全部平仓等',
+  compatibleWithAll: '相容所有订单类型：止损、限价、跟踪止损、全部平仓等',
   thereIsNoLimit: '下单不限制客户帐号数量',
   yourPartnerToTheRoadOfSuccess: '您的成功伙伴',
   toProvideYouWithFlexibleAndCompetitiveRates:

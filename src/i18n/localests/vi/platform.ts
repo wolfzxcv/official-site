@@ -106,9 +106,9 @@ export const platform: Platform = {
   accordingToAccountLevel:
     'Theo cấp tài khoản, cung cấp chức năng đóng một phần',
   customersCanStart:
-    'Khách hàng có thể bắt đầu phân bổ tất cả các loại lệnh MT4 tương thích khi khối lượng giao dịch đạt 0,01 lot',
+    'Khách hàng có thể bắt đầu phân bổ tất cả các loại lệnh tương thích khi khối lượng giao dịch đạt 0,01 lot',
   compatibleWithAll:
-    'Tương thích với tất cả các lệnh MT4, ví dụ: cắt lỗ, giới hạn giá, v.v.',
+    'Tương thích với tất cả các lệnh, ví dụ: cắt lỗ, giới hạn giá, v.v.',
   thereIsNoLimit: 'Không giới hạn số tiền tài khoản khi đặt hàng.',
   yourPartnerToTheRoadOfSuccess: 'Đối tác của bạn trên con đường thành công',
   toProvideYouWithFlexibleAndCompetitiveRates:

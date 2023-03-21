@@ -108,9 +108,9 @@ export const platform: Platform = {
   accordingToAccountLevel:
     'Mengikut tahap akaun, sediakan fungsi penutupan separa',
   customersCanStart:
-    'Pelanggan boleh mula memperuntukkan semua jenis pesanan MT4 yang serasi apabila jumlah dagangan mencapai 0.01 lot',
+    'Pelanggan boleh mula memperuntukkan semua jenis pesanan yang serasi apabila jumlah dagangan mencapai 0.01 lot',
   compatibleWithAll:
-    'Sesuai dengan semua pesanan MT4, misalnya, stop loss, had harga, dll.',
+    'Sesuai dengan semua pesanan, misalnya, stop loss, had harga, dll.',
   thereIsNoLimit: 'Tidak ada had jumlah akaun semasa membuat pesanan.',
   yourPartnerToTheRoadOfSuccess: 'Rakan kongsi anda ke jalan kejayaan',
   toProvideYouWithFlexibleAndCompetitiveRates:
