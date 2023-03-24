@@ -1,37 +1,38 @@
-import { Locales } from '@/i18n/config';
 import { Box, Flex } from '@chakra-ui/react';
-import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
 import React from 'react';
 
 const FooterBottom: React.FC<{}> = () => {
-  const { t } = useTranslation('footer');
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
-  const isArabic = currentLang === 'ar';
   return (
     <Flex direction="column" align="center" p={10}>
-      <Box fontSize="sm">{t('WCGIsABusinessBrand')}</Box>
-      <Flex direction="column" m={3}>
-        <Box fontSize="sm">{t('WCGMarketsLtdIsALimitedLiabilityCompany')}</Box>
-
-        <Box fontSize="sm" my={3}>
-          {t('WCGMarketsLtdIsRegulatedByTheFINTRAC')}
-        </Box>
-
-        <Box fontSize="sm">{t('WCGGlobalLtd')}</Box>
-      </Flex>
-      <Box
-        width={{ base: '85vw', md: '92vw' }}
-        m={3}
-        p={3}
-        bg="gray.900"
-        textAlign={isArabic ? 'right' : 'left'}
-      >
-        {t('HighRiskInvestmentWarning')}
+      <Box>EMAIL: info@wcggroups.com</Box>
+      <Box>
+        Register Address: Intershore Chambers, Road Town, Tortola, British
+        Virgin Islands
       </Box>
-      <Box fontSize="sm" p={3} textAlign={isArabic ? 'right' : 'left'}>
-        {t('restrictedAreas')}
+      <Box>Registration Number: 1749546</Box>
+      <Box>Telephone Number: +852 46143795</Box>
+      <Box>
+        Physical Address: Room 7, 16/F, Block B, Kailey Industrial Centre, 12
+        Fung Yip St, Chai Wan, Hong Kong
+      </Box>
+
+      <Box>
+        High-risk investment warning: Contracts for Difference (CFD) are complex
+        financial products, and their use of leveraged trading attributes is
+        likely to cause rapid loss of principal, and you may be required to call
+        for margin. Please understand the product principles of CFDs and
+        consider whether you can withstand this risk before entering the market.
+        The past prices and performance of all financial derivatives instruments
+        do not guarantee or represent future trends. Such financial products are
+        not suitable for all investors. Please be sure to fully understand all
+        potential risks before entering the market and seek independent advice
+        when necessary. Restricted areas: WCG Group Limited&apos;s website
+        information does not aimed at targeting residents of British Columbia,
+        Quebec and Saskatchewan, the Democratic People&apos;s Republic of Korea
+        (North Korea), Iran, the United States and Hong Kong; And not to send or
+        use the information to people in countries or jurisdictions where the
+        publication or use of this information violates local laws and
+        regulations.
       </Box>
     </Flex>
   );

@@ -23,7 +23,6 @@ import {
   AiOutlineWhatsApp
 } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
-import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
 import { GiTalk } from 'react-icons/gi';
 import { StyledIconButton } from '../Styled/Styled';
@@ -114,13 +113,6 @@ const BackToTopMobile: React.FC<{}> = () => {
                 label={t('line')}
                 href={links.line}
                 icon={<FaLine fontSize="36px" />}
-              />
-
-              <MobileBaseButton
-                bg="purple.600"
-                label={t('clientPortal')}
-                href={links.register}
-                icon={<BsPencilSquare fontSize="36px" />}
               />
 
               <MobileBaseButton

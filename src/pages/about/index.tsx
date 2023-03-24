@@ -1,13 +1,9 @@
-import { links } from '@/assets/links';
-import LicenseCard from '@/components/About/LicenseCard';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoButton from '@/components/Common/InfoButton';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import InfoTitleSub from '@/components/Common/InfoTitleSub';
-import LinkButton from '@/components/TopLinks/LinkButton';
 import { Locales } from '@/i18n/config';
-import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -47,22 +43,22 @@ const about: React.FC<{}> = () => {
             {t('buildTheWorldWithIntegrity')}
           </Box>
           <Box>{t('WCGHasASolidFoundation')}</Box>
-          <LinkButton
+          {/* <LinkButton
             text={t('registerARealAccountNow')}
             href={links.register}
             inMobile
             borderColor="#b81c22"
             mdWidth="300px"
-          ></LinkButton>
+          ></LinkButton> */}
 
-          <LinkButton
+          {/* <LinkButton
             text={t('registerADemoAccountNow')}
             onClick={openChatWindow}
             inMobile
             borderColor="green"
             mdWidth="300px"
             style={{ marginLeft: '8px' }}
-          ></LinkButton>
+          ></LinkButton> */}
         </Stack>
         <Box paddingX={20} display={{ base: 'none', xl: 'block' }}>
           <Image
@@ -260,7 +256,7 @@ const about: React.FC<{}> = () => {
       </Flex>
 
       {/* License introduction */}
-      <Flex py={20} wrap="wrap" justify="center">
+      {/* <Flex py={20} wrap="wrap" justify="center">
         <Box mb={5} w="100%" textAlign="center">
           <InfoTitle title={t('licenseIntroduction')} />
         </Box>
@@ -300,7 +296,7 @@ const about: React.FC<{}> = () => {
           button={t('view')}
           link="https://www10.fintrac-canafe.gc.ca/msb-esm/public/detailed-information/msb-details/7b226d73624f72674e756d626572223a3136333237382c227072696d617279536561726368223a7b226f72674e616d65223a22574347204d41524b455453204c5444222c2273656172636854797065223a337d7d/"
         />
-      </Flex>
+      </Flex> */}
     </Wrapper>
   );
 };

@@ -1,13 +1,10 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGNSJ from '@/components/Banner/WCGNSJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
-import { Adjustment } from '@/components/PopUp/Adjustment';
-import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -33,18 +30,14 @@ const Index: React.FC<{}> = () => {
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
   const sliders =
     currentLang !== 'th'
-      ? [
-          <WCGNSJ key="WCGNSJ" />,
-          <WCGDC key="WCGDC" />,
-          <Banner key="Banner" />
-        ]
+      ? [<WCGDC key="WCGDC" />, <Banner key="Banner" />]
       : [<Banner key="Banner" />];
 
   return (
     <Wrapper>
-      <IntroductionVideo />
+      {/* <IntroductionVideo /> */}
 
-      <Adjustment />
+      {/* <Adjustment /> */}
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}

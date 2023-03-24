@@ -11,7 +11,6 @@ import {
   AiOutlineWhatsApp
 } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
-import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
 import { StyledIconButton } from '../Styled/Styled';
 
@@ -58,12 +57,6 @@ const BackToTopDesktop: React.FC<{}> = () => {
           label={t('telegram')}
           href={links.telegram}
           icon={<FaTelegramPlane fontSize="32px" />}
-        />
-
-        <DesktopBaseButton
-          label={t('clientPortal')}
-          href={links.register}
-          icon={<BsPencilSquare fontSize="30px" />}
         />
 
         <DesktopBaseButton

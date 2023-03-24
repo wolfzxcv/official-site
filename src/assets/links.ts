@@ -23,23 +23,16 @@ export const links = {
   // MT4 Web Trader
   mt4Web: process.env.NEXT_PUBLIC_MT4_WEB || 'https://trade.asawcgm.com/',
   // 代理中心
-  ibCenter:
-    process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',
+  ibCenter: '/',
   // 用戶中心註冊
-  register:
-    process.env.NEXT_PUBLIC_REGISTER_REAL ||
-    'https://my.wcgmarkets-global.com/register',
+  register: '/',
   // 用戶中心註冊(中文)
-  registerZH:
-    process.env.NEXT_PUBLIC_REGISTER_ZH ||
-    'https://my.wcgmarkets-global.com/zh/register',
+  registerZH: '/',
   // 用戶中心
-  userCenter:
-    process.env.NEXT_PUBLIC_USERS_CENTER ||
-    'https://my.wcgmarkets-global.com/login',
+  userCenter: '/',
   // 聯絡信箱
-  email: 'cs@wcgmarkets.com',
+  email: 'info@wcggroups.com',
   // 聯絡電話
-  tel: '4001 203 612',
-  tel2: '4008 428 912'
+  tel: '+852 46143795',
+  tel2: ''
 };
