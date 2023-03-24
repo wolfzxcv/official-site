@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.35.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.34.0...v1.35.0) (2023-03-24)
+
+
+### Features
+
+* **many:** for kyc ([6511d8b](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/6511d8b49aeb67805e01a229386903a5345d3681))
+
 ## [1.34.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.33.3...v1.34.0) (2023-03-16)
 
 
