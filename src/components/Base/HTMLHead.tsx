@@ -5,7 +5,7 @@ import packageJson from '~/package.json';
 const HTMLHead: React.FC<{}> = () => {
   return (
     <Head>
-      <title>WCG Markets</title>
+      <title>WCG Group</title>
       {packageJson.version && (
         <meta name="version" content={`${packageJson.version}`}></meta>
       )}
