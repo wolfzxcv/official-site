@@ -1,5 +1,4 @@
 import { Header } from '@/i18n/localests/@types/header';
-import { links } from './links';
 
 export type ILinkSource = {
   i18n: keyof Header;
@@ -27,7 +26,7 @@ export const menuList: IMenuItem[] = [
       //   href: '/about/corporateResponsibility'
       // },
       { i18n: 'questions', href: '/about/questions' },
-      { i18n: 'announcements', href: '/about/announcements' },
+      // { i18n: 'announcements', href: '/about/announcements' },
       { i18n: 'aboutUs', href: '/about' },
       { i18n: 'contactUs', href: '/about/contactUs' }
     ]
@@ -50,11 +49,11 @@ export const menuList: IMenuItem[] = [
       { i18n: 'MT4Overview', href: '/platform/MT4Overview' },
       { i18n: 'MT4PCDownload', href: '/platform/MT4PCDownload' },
       { i18n: 'MT4APPDownload', href: '/platform/MT4APPDownload' },
-      {
-        i18n: 'MT4WebTrader',
-        href: links.mt4Web,
-        isExternal: true
-      },
+      // {
+      //   i18n: 'MT4WebTrader',
+      //   href: links.mt4Web,
+      //   isExternal: true
+      // },
       { i18n: 'MAMSystem', href: '/platform/MAMSystem' }
     ]
   },
@@ -77,8 +76,8 @@ export const menuList: IMenuItem[] = [
     i18n: 'marketNews',
     children: [
       { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' },
-      { i18n: 'financialNews', href: '/marketNews/financialNews' },
-      { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
+      { i18n: 'financialNews', href: '/marketNews/financialNews' }
+      // { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
     ]
   },
   {

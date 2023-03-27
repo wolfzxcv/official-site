@@ -19,14 +19,14 @@ const questions: React.FC<{}> = () => {
   const { t } = useTranslation('questions');
 
   const data: InfoAccordionItemProps[] = [
-    {
-      title: t('whatKindOfSupervision'),
-      content: [
-        t('WCGIsABusinessBrand'),
-        t('WCGMarketsLtdIsSupervised'),
-        t('WCGMarketsLtdIsRegistered')
-      ]
-    },
+    // {
+    //   title: t('whatKindOfSupervision'),
+    //   content: [
+    //     t('WCGIsABusinessBrand'),
+    //     t('WCGMarketsLtdIsSupervised'),
+    //     t('WCGMarketsLtdIsRegistered')
+    //   ]
+    // },
     {
       title: t('HowToOpenAnAccountInWCG'),
       content: [t('youCanRegisterYourRealAccount')],

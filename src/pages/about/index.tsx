@@ -4,7 +4,7 @@ import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import InfoTitleSub from '@/components/Common/InfoTitleSub';
 import { Locales } from '@/i18n/config';
-import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Stack } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -157,7 +157,7 @@ const about: React.FC<{}> = () => {
       </Box>
 
       {/* Strictly regulated and trustworthy */}
-      <Stack bg="red.600" color="white" p={20} spacing={5} textAlign="center">
+      {/* <Stack bg="red.600" color="white" p={20} spacing={5} textAlign="center">
         <InfoTitle size="28px" title={t('strictlyRegulatedAndTrustworthy')} />
         <Text>{t('WCGInternational')}</Text>
         <Flex justify="center" mt={10}>
@@ -178,7 +178,7 @@ const about: React.FC<{}> = () => {
             />
           </Box>
         </Flex>
-      </Stack>
+      </Stack> */}
 
       {/* Diversified products， create the future */}
       <Flex p={{ base: 10, md: 20 }} direction="column" align="center">

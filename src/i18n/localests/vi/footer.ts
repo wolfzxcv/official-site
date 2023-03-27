@@ -1,7 +1,7 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
-  copyright: '© WCG Bảo lưu mọi quyền, không tái bản',
+  copyright: '© WCG Group Limited Bảo lưu mọi quyền, không tái bản',
   privacyPolicy: 'Chính sách bảo mật',
   termsAndConditions: 'Các điều khoản và điều kiện',
   disputeSettlement: 'Giải quyết tranh chấp',

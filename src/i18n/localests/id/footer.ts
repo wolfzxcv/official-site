@@ -1,7 +1,8 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
-  copyright: '© WCG Hak cipta dilindungi undang-undang tidak ada cetak ulang',
+  copyright:
+    '© WCG Group Limited Hak cipta dilindungi undang-undang tidak ada cetak ulang',
   privacyPolicy: 'Kebijakan Privasi',
   termsAndConditions: 'Syarat dan Ketentuan',
   disputeSettlement: 'Penyelesaian Sengketa',
