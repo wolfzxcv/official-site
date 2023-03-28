@@ -88,8 +88,8 @@ export const menuList: IMenuItem[] = [
       {
         i18n: 'regionalRepresentative',
         href: '/partner/regionalRepresentative'
-      },
-      { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
+      }
+      // { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
     ]
   }
 ];
