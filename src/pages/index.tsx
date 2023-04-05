@@ -8,6 +8,7 @@ import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import { Adjustment } from '@/components/PopUp/Adjustment';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
+import NameChange from '@/components/PopUp/NameChange';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -42,6 +43,7 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      <NameChange />
       <IntroductionVideo />
 
       <Adjustment />
