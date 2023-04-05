@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.37.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.36.0...v1.37.0) (2023-04-05)
+
+
+### Features
+
+* **popup:** add namechange ([97d4612](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/97d461239bd0196cd39231619f27c036f9e8b005))
+
 ## [1.36.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.34.0...v1.36.0) (2023-03-29)
 
 
