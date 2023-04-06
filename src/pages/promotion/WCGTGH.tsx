@@ -114,7 +114,7 @@ const FormBanner: React.FC<{}> = () => {
       variant: 'filled',
       formControlWidth: '90%',
       initialValue: '',
-      rule: Yup.string().min(8, MESSAGES.tooShort).max(30, MESSAGES.tooLong)
+      rule: Yup.string().notRequired()
     }
   ];
 
