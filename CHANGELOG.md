@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.37.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.2...v1.37.3) (2023-04-20)
+
 ### [1.37.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.1...v1.37.2) (2023-04-12)
 
 ### [1.37.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.0...v1.37.1) (2023-04-11)
