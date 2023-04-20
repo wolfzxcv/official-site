@@ -57,8 +57,7 @@ const questions: React.FC<{}> = () => {
       content: [
         t('ifTheCustomerDepositsFunds'),
         t('afterACertainTransactionVolume'),
-        t('ifTheTransactionVolume'),
-        t('ifTheTransactionVolumeIsInsufficient')
+        t('ifTheTransactionVolume')
       ]
     },
     {

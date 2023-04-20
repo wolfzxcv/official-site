@@ -46,8 +46,6 @@ export type Questions = {
   afterACertainTransactionVolume: string;
   /** If the transaction volume */
   ifTheTransactionVolume: string;
-  /** If the transaction volume is insufficient */
-  ifTheTransactionVolumeIsInsufficient: string;
   /** How do I know my withdrawal */
   HowDoIKnowMyWithdrawal: string;
   /** Once the withdrawal application */

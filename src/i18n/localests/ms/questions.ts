@@ -38,8 +38,6 @@ export const questions: Questions = {
     'Selepas jumlah transaksi tertentu dipenuhi, yuran pengendalian akan diketepikan. Keperluan volum dagangan: Amaun deposit terkumpul terkini akan diguna pakai. Contohnya, jumlah deposit terkini ialah USD 1,000. Yuran transaksi diketepikan selepas berdagang 1 lot dan kemudian memohon untuk pengeluaran. Mendepositkan USD 2,000 memerlukan dagangan 2 lot dan mendepositkan USD 5,000 memerlukan perdagangan. 5 lot, dan seterusnya.',
   ifTheTransactionVolume:
     'Jika jumlah urus niaga tidak mencukupi dan anda berkeras untuk mengeluarkan, anda perlu memotong 3% daripada lot dagangan daripada jumlah deposit terkumpul terkini sebagai yuran pengeluaran. (Pelanggan menyatakan bahawa yuran potongan akan ditolak apabila pelanggan mengeluarkan wang, jika tidak pengeluaran akan ditolak).',
-  ifTheTransactionVolumeIsInsufficient:
-    'Jika jumlah transaksi tidak mencukupi, yuran pentadbiran $5 akan dikenakan untuk pengeluaran di bawah $50.',
   HowDoIKnowMyWithdrawal:
     'Bagaimana saya tahu bahawa permohonan pengeluaran saya diluluskan?',
   onceTheWithdrawalApplication:
