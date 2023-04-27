@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.38.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.4...v1.38.0) (2023-04-27)
+
+
+### Features
+
+* **popup:** add SystemUpgrade ([d00d0d2](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/d00d0d215f572cae2746a8d9589cd661645e5b26))
+
 ### [1.37.4](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.3...v1.37.4) (2023-04-27)
 
 ### [1.37.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.2...v1.37.3) (2023-04-20)
