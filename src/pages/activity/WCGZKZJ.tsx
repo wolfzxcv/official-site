@@ -177,7 +177,7 @@ export const WCGZKZJTitle: React.FC<{}> = () => (
       py={2}
       fontSize={{ base: '12px', md: 'inherit' }}
     >
-      活动时间：2022-11-01 至 2022-12-31
+      活动时间：2023-01-01 至 2023-12-31
     </Box>
 
     <Box
