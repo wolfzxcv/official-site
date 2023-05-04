@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.39.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.38.0...v1.39.0) (2023-05-04)
+
+
+### Features
+
+* **popup/button:** add popup TransferNotificationOfPayment, add new usercenter and ib ([881b9fa](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/881b9fabe39cb4830b34bce3362389ef5f68c248))
+
 ## [1.38.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.37.4...v1.38.0) (2023-04-27)
 
 
