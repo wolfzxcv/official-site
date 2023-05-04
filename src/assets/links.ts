@@ -44,7 +44,7 @@ export const links = {
   // 用戶中心註冊(中文)
   registerZH:
     process.env.NEXT_PUBLIC_REGISTER_ZH ||
-    'https://my.wcgmarkets-global.com/zh/register',
+    'https://clientportal.wcgmarkets-asia.com/register/trader/multi-step',
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
