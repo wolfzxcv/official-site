@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.39.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.39.0...v1.39.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* **.env,links.ts:** update url ([b5b36b1](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/b5b36b13c3068ec90f983b1893991f202042fb5c))
+
 ## [1.39.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.38.0...v1.39.0) (2023-05-04)
 
 
