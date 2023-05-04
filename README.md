@@ -120,12 +120,18 @@
   - Google 分析的 GTM 標籤, 已在此標籤下編輯, 同時控制 Google Analytics 以及 Visitor Analytics
 - NEXT_PUBLIC_REGISTER_REAL
   - 開立真實帳戶
-- NEXT_PUBLIC_USERS_CENTER
-  - 客戶中心
+- NEXT_PUBLIC_REGISTER_DEMO
+  - 開立模擬帳戶
 - NEXT_PUBLIC_REGISTER_ZH
   - 開立真實帳戶(中文)
+- NEXT_PUBLIC_USERS_CENTER
+  - 客戶中心
+- NEXT_PUBLIC_USERS_CENTER_NEW
+  - 客戶中心(新的)
 - NEXT_PUBLIC_IB_CENTER
   - 代理中心
+- NEXT_PUBLIC_IB_CENTER_NEW
+  - 代理中心(新的)
 - NEXT_PUBLIC_MT4_APP
   - MT4 電腦版下載
 - NEXT_PUBLIC_MT4_APK

@@ -25,18 +25,34 @@ export const links = {
   // 代理中心
   ibCenter:
     process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',
+  // 代理中心(新的)
+  ibCenterNew:
+    process.env.NEXT_PUBLIC_IB_CENTER_NEW ||
+    'https://clientportal.wcgmarkets-asia.com/',
   // 用戶中心註冊
   register:
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
     'https://my.wcgmarkets-global.com/register',
+  // 開立真實帳戶
+  registerReal:
+    process.env.NEXT_PUBLIC_REGISTER_REAL ||
+    'https://clientportal.wcgmarkets-asia.com/register/trader/multi-step',
+  // 開立模擬帳戶
+  registerDemo:
+    process.env.NEXT_PUBLIC_REGISTER_DEMO ||
+    'https://clientportal.wcgmarkets-asia.com/register/demo?link_id=fc9djea3',
   // 用戶中心註冊(中文)
   registerZH:
     process.env.NEXT_PUBLIC_REGISTER_ZH ||
     'https://my.wcgmarkets-global.com/zh/register',
   // 用戶中心
-  userCenter:
+  usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
     'https://my.wcgmarkets-global.com/login',
+  // 用戶中心(新的)
+  usersCenterNew:
+    process.env.NEXT_PUBLIC_USERS_CENTER_NEW ||
+    'https://clientportal.wcgmarkets-asia.com/',
   // 聯絡信箱
   email: 'cs@wcgmarkets.com',
   // 聯絡電話
