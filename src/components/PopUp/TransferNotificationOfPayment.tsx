@@ -42,37 +42,37 @@ const TransferNotificationOfPaymentZh: React.FC<{}> = () => {
       </Flex>
 
       <Box>
-        本公司于2023年5月6日会转移出入金通道到全新的用户中心，因此出入金功能于以下时间暂停服务。
+        本公司於2023年5月6日會轉移出入金通道到全新的用戶中心，因此出入金功能於以下時間暫停服務。
       </Box>
 
       <Flex flexDir="column" align="center" fontWeight="bold">
-        <Box>2023年5月6日北京时间04:59</Box>
+        <Box>2023年5月6日北京時間04:59</Box>
 
         <Box>至</Box>
 
-        <Box>2023年5月8日北京时间07:01</Box>
+        <Box>2023年5月8日北京時間07:01</Box>
       </Flex>
-      <Box>届时全新的用户中心正式上线并已开通包括出入金在内的所有功能。</Box>
+      <Box>屆時全新的用戶中心正式上線並已開通包括出入金在內的所有功能。</Box>
       <Box>
-        首次登入全新的用户中心的客户点击[
+        首次登入全新的用戶中心的客戶點擊[
         <Link
           color="blue.500"
           isExternal
           href="https://clientportal.wcgmarkets-asia.com/forgot-password"
         >
-          忘记密码
+          忘記密碼
         </Link>
-        ]，重置密码后便可登入取得登录的密码。
+        ]，重置密碼後便可登入取得登錄的密碼。
       </Box>
 
       <Box>
-        我们都准备了全新用户中心的教学欢迎向
+        我們都準備了全新用戶中心的教學歡迎向
         <Link
           color="blue.500"
           isExternal
           href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&accountid=135464"
         >
-          在线客服
+          在線客服
         </Link>
         索取。
       </Box>
@@ -127,30 +127,20 @@ const TransferNotificationOfPaymentCn: React.FC<{}> = () => {
         />
       </Flex>
 
-      <Box>致：亲爱的用户</Box>
-
       <Box>
-        我们一直都十分重视与每一位用户的体验，WCG
-        Markets发展致今一直未忘初心，保持着谦卑和务实的态度去进步与创新。
+        本公司于2023年5月6日会转移出入金通道到全新的用户中心，因此出入金功能于以下时间暂停服务。
       </Box>
 
-      <Box>
-        WCG
-        Markets全新的用户中心将于2023年5月8日正式推出，届时会全面取代现有的用户中心系统。
-      </Box>
+      <Flex flexDir="column" align="center" fontWeight="bold">
+        <Box>2023年5月6日北京时间04:59</Box>
 
-      <Box>2023年5月1日用户已经可以抢先登陸体验除出入金外的所有功能。</Box>
+        <Box>至</Box>
 
+        <Box>2023年5月8日北京时间07:01</Box>
+      </Flex>
+      <Box>届时全新的用户中心正式上线并已开通包括出入金在内的所有功能。</Box>
       <Box>
-        于
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          新的用户中心
-        </Link>
-        系统的登陸页面按[
+        首次登入全新的用户中心的客户点击[
         <Link
           color="blue.500"
           isExternal
@@ -158,20 +148,19 @@ const TransferNotificationOfPaymentCn: React.FC<{}> = () => {
         >
           忘记密码
         </Link>
-        ]便可在已注册的邮箱中收到新用户中心的登入密码，当中如使用遇上任何问题都欢迎立即向
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          在綫客服
-        </Link>
-        查询。
+        ]，重置密码后便可登入取得登录的密码。
       </Box>
 
       <Box>
-        在这个AI人工智能快速发展的时代，WCG Markets
-        抢先一步提供革命性的最优更新，助您在这个环境下快人一步夺得财富增长的先机。让我们一起携手进步。
+        我们都准备了全新用户中心的教学欢迎向
+        <Link
+          color="blue.500"
+          isExternal
+          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&accountid=135464"
+        >
+          在线客服
+        </Link>
+        索取。
       </Box>
 
       <Box>
