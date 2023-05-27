@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.40.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.39.2...v1.40.0) (2023-05-27)
+
+
+### Features
+
+* **companynews:** add companyNews content ([878ec9a](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/878ec9a6f2cca9db743b5448e527a2acb8a8c4a6))
+
 ### [1.39.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.39.1...v1.39.2) (2023-05-05)
 
 
