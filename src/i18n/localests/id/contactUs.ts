@@ -76,5 +76,11 @@ export const contactUs: ContactUs = {
   BusinessExpansionTechnologyUpgrade:
     'Ekspansi bisnis, peningkatan teknologi, akuisisi server perdagangan ASA, untuk memberi pelanggan lingkungan perdagangan yang lebih unggul.',
   WCGMarketsAcquired:
-    'WCG Markets mengakuisisi dua lembaga keuangan terkenal "Wealth Gold Group" dan "KUJI", meletakkan dasar yang baik untuk pengembangan di masa depan.'
+    'WCG Markets mengakuisisi dua lembaga keuangan terkenal "Wealth Gold Group" dan "KUJI", meletakkan dasar yang baik untuk pengembangan di masa depan.',
+  AMoreHumanizedUserCenter:
+    'Pusat pengguna yang lebih manusiawi yang dibangun dengan teknologi kecerdasan buatan baru menghadirkan pengalaman terbaik bagi pelanggan.',
+  AwardedAsThe:
+    'Dianugerahi sebagai perusahaan [Teknologi dan Solusi Finansial Terbaik] oleh agen pemeringkat regulator terkenal [Foreign Exchange WikiFX].',
+  ObtainedThePreciousMetals:
+    'Memperoleh lisensi [Pendaftaran Dealer Logam Mulia dan Batu Permata] dari Departemen Pabean Wilayah Administratif Khusus Hong Kong, Republik Rakyat Tiongkok.'
 };

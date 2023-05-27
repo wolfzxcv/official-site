@@ -107,6 +107,25 @@ const companyNews: React.FC<{}> = () => {
       month: t('November'),
       text: [t('WCGMarketsAcquired')],
       color: '#fcc82b'
+    },
+    {
+      year: '2023',
+      month: t('March'),
+      text: [t('AMoreHumanizedUserCenter')],
+      color: '#45aeae'
+    },
+    {
+      year: '2023',
+      month: t('April'),
+      text: [t('AwardedAsThe')],
+      color: '#3e7b97'
+    },
+    {
+      year: '2023',
+      month: t('June'),
+      text: [t('ObtainedThePreciousMetals')],
+      color: '#e23a59',
+      href: 'https://www.drs.customs.gov.hk/wsrh/001s0'
     }
   ];
   return (

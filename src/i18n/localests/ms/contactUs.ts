@@ -76,5 +76,11 @@ export const contactUs: ContactUs = {
   BusinessExpansionTechnologyUpgrade:
     'Pengembangan perniagaan, peningkatan teknologi, pemerolehan pelayan dagangan ASA, untuk menyediakan pelanggan dengan persekitaran dagangan yang lebih unggul.',
   WCGMarketsAcquired:
-    'WCG Markets memperoleh dua institusi kewangan terkenal "Wealth Gold Group" dan "KUJI", meletakkan asas yang baik untuk pembangunan masa depan.'
+    'WCG Markets memperoleh dua institusi kewangan terkenal "Wealth Gold Group" dan "KUJI", meletakkan asas yang baik untuk pembangunan masa depan.',
+  AMoreHumanizedUserCenter:
+    'Pusat pengguna yang lebih berperikemanusiaan yang dibina dengan teknologi kecerdasan buatan baharu membawa pengalaman terbaik kepada pelanggan.',
+  AwardedAsThe:
+    'Dianugerahkan sebagai syarikat [Teknologi Kewangan dan Penyelesaian Terbaik] oleh agensi penarafan kawal selia peniaga terkenal [Foreign Exchange WikiFX].',
+  ObtainedThePreciousMetals:
+    'Mendapat lesen [Pendaftaran Peniaga Logam Berharga dan Batu Permata] daripada Jabatan Kastam Wilayah Pentadbiran Khas Hong Kong Republik Rakyat China.'
 };

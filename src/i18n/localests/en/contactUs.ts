@@ -76,5 +76,11 @@ export const contactUs: ContactUs = {
   BusinessExpansionTechnologyUpgrade:
     'Business expansion, technology upgrade, acquisition of ASA trading server, to provide customers with a more superior trading environment.',
   WCGMarketsAcquired:
-    'WCG Markets acquired two well-known financial institutions "Wealth Gold Group" and "KUJI", laying a good foundation for future development.'
+    'WCG Markets acquired two well-known financial institutions "Wealth Gold Group" and "KUJI", laying a good foundation for future development.',
+  AMoreHumanizedUserCenter:
+    'A more humanized user center built with new artificial intelligence technology brings the ultimate experience to customers.',
+  AwardedAsThe:
+    'Awarded as the "Best Financial Technology and Solution" company by the well-known dealer regulatory rating agency "Foreign Exchange WikiFX".',
+  ObtainedThePreciousMetals:
+    'Obtained the "Precious Metals and Gemstone Dealer Registration" license from the Customs Department of the Hong Kong Special Administrative Region of the People\'s Republic of China.'
 };

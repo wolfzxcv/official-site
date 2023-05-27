@@ -73,5 +73,11 @@ export const contactUs: ContactUs = {
   BusinessExpansionTechnologyUpgrade:
     '业务再扩张，技术升级，收购ASA交易伺服器，为客户提供更优越的交易环境。',
   WCGMarketsAcquired:
-    'WCG Markets 收购两大知名金融机构”盈富Wealth Gold Group”及”酷极KUJI”，为未来发展奠下良好基础。'
+    'WCG Markets 收购两大知名金融机构”盈富Wealth Gold Group”及”酷极KUJI”，为未来发展奠下良好基础。',
+  AMoreHumanizedUserCenter:
+    '采用全新人工智能技术打造的更人性化的用户中心，为客户带来极致的体验。',
+  AwardedAsThe:
+    '获得知名交易商监管评分机构[外汇天眼 WikiFX]评为[最佳金融科技和解决方案]公司。',
+  ObtainedThePreciousMetals:
+    '取得中华人民共和国香港特别行政区海关处[贵金属及宝石交易商注册]牌照。'
 };

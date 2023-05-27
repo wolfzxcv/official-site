@@ -121,4 +121,10 @@ export type ContactUs = {
   WCGIFXEXPO: string;
   /** WCG Markets acquired */
   WCGMarketsAcquired: string;
+  /** A more humanized user center */
+  AMoreHumanizedUserCenter: string;
+  /** Awarded as the */
+  AwardedAsThe: string;
+  /** Obtained the Precious Metals */
+  ObtainedThePreciousMetals: string;
 };

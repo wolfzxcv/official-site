@@ -76,5 +76,11 @@ export const contactUs: ContactUs = {
   BusinessExpansionTechnologyUpgrade:
     'Mở rộng kinh doanh, nâng cấp công nghệ, mua lại máy chủ giao dịch ASA để cung cấp cho khách hàng một môi trường giao dịch ưu việt hơn.',
   WCGMarketsAcquired:
-    'WCG Markets đã mua lại hai tổ chức tài chính nổi tiếng "Wealth Gold Group" và "KUJI", tạo nền tảng tốt cho sự phát triển trong tương lai.'
+    'WCG Markets đã mua lại hai tổ chức tài chính nổi tiếng "Wealth Gold Group" và "KUJI", tạo nền tảng tốt cho sự phát triển trong tương lai.',
+  AMoreHumanizedUserCenter:
+    'Một trung tâm người dùng nhân bản hơn được xây dựng bằng công nghệ trí tuệ nhân tạo mới mang lại trải nghiệm tuyệt vời nhất cho khách hàng.',
+  AwardedAsThe:
+    'Được trao giải là công ty [Công nghệ và giải pháp tài chính tốt nhất] bởi cơ quan xếp hạng quản lý đại lý nổi tiếng [Foreign Exchange WikiFX].',
+  ObtainedThePreciousMetals:
+    'Nhận được giấy phép [Đăng ký đại lý kim loại quý và đá quý] từ Cục Hải quan của Khu hành chính đặc biệt Hồng Kông của Cộng hòa Nhân dân Trung Hoa.'
 };

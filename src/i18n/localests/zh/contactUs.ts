@@ -73,5 +73,11 @@ export const contactUs: ContactUs = {
   BusinessExpansionTechnologyUpgrade:
     '業務再擴張，技術升級，收購ASA交易伺服器，為客戶提供更優越的交易環境。',
   WCGMarketsAcquired:
-    'WCG Markets 收購兩大知名金融機構”盈富Wealth Gold Group”及”酷極KUJI”，為未來發展奠下良好基礎。'
+    'WCG Markets 收購兩大知名金融機構”盈富Wealth Gold Group”及”酷極KUJI”，為未來發展奠下良好基礎。',
+  AMoreHumanizedUserCenter:
+    '採用全新人工智能技術打造的更人性化的用戶中心，為客戶帶來極致的體驗。',
+  AwardedAsThe:
+    '獲得知名交易商監管評分機構[外匯天眼 WikiFX]評為[最佳金融科技和解決方案]公司。',
+  ObtainedThePreciousMetals:
+    '取得中華人民共和國香港特別行政區海關處[貴金屬及寶石交易商註冊]牌照。'
 };
