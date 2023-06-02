@@ -7,7 +7,6 @@ import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
 import { SystemUpgrade } from '@/components/PopUp/SystemUpgrade';
-import { TransferNotificationOfPayment } from '@/components/PopUp/TransferNotificationOfPayment';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -41,8 +40,6 @@ const Index: React.FC<{}> = () => {
       <IntroductionVideo />
 
       <SystemUpgrade />
-
-      <TransferNotificationOfPayment />
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}
