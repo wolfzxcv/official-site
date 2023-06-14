@@ -34,6 +34,8 @@ const BackToTopMobile: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
+  const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
+
   const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
   if (isDesktop && isOpen) {
@@ -91,7 +93,7 @@ const BackToTopMobile: React.FC<{}> = () => {
 
               <MobileBaseButton
                 label={t('LiveChat')}
-                href={links.liveChat}
+                href={liveChat}
                 icon={<AiOutlineMessage fontSize="32px" />}
               />
 

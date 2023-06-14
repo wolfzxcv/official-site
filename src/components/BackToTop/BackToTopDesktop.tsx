@@ -20,6 +20,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
+  const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
+
   return (
     <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
       <Flex direction={'column'} color="white">
@@ -38,7 +40,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
         <DesktopBaseButton
           label={t('LiveChat')}
-          href={links.liveChat}
+          href={liveChat}
           icon={<AiOutlineMessage fontSize="32px" />}
         />
 
