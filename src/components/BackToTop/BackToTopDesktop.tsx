@@ -25,18 +25,20 @@ const BackToTopDesktop: React.FC<{}> = () => {
   return (
     <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
       <Flex direction={'column'} color="white">
-        <DesktopBaseButton
-          label={t('Miduoke')}
-          href={links.majkf}
-          icon={
-            <Image
-              width="30px"
-              height="30px"
-              src="/../assets/images/Miduoke.svg"
-              alt="Miduoke"
-            />
-          }
-        />
+        {currentLang !== 'vi' && (
+          <DesktopBaseButton
+            label={t('Miduoke')}
+            href={links.majkf}
+            icon={
+              <Image
+                width="30px"
+                height="30px"
+                src="/../assets/images/Miduoke.svg"
+                alt="Miduoke"
+              />
+            }
+          />
+        )}
 
         <DesktopBaseButton
           label={t('LiveChat')}

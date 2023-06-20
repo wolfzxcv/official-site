@@ -77,19 +77,21 @@ const BackToTopMobile: React.FC<{}> = () => {
           <ModalCloseButton size="lg" />
           <ModalBody pb={6}>
             <Flex color="white" justify="space-around">
-              <MobileBaseButton
-                bg="twitter.500"
-                label={t('Miduoke')}
-                href={links.majkf}
-                icon={
-                  <Image
-                    width="30px"
-                    height="30px"
-                    src="/../assets/images/Miduoke.svg"
-                    alt="Miduoke"
-                  />
-                }
-              />
+              {currentLang !== 'vi' && (
+                <MobileBaseButton
+                  bg="twitter.500"
+                  label={t('Miduoke')}
+                  href={links.majkf}
+                  icon={
+                    <Image
+                      width="30px"
+                      height="30px"
+                      src="/../assets/images/Miduoke.svg"
+                      alt="Miduoke"
+                    />
+                  }
+                />
+              )}
 
               <MobileBaseButton
                 label={t('LiveChat')}
