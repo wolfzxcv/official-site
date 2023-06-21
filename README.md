@@ -173,6 +173,7 @@
   - [WCGEYS](http://newwcg.012wenchuan.com/activity/WCGEYS)
   - [WCGNSJ](http://newwcg.012wenchuan.com/activity/WCGNSJ)
   - [WCGCNHK](http://newwcg.012wenchuan.com/activity/WCGCNHK)
+  - [WCGJYZ](http://newwcg.012wenchuan.com/activity/WCGJYZ)
 
 - 目前廣告投放頁面們(依照開發順序陳列)
   - [WCGTGH](http://newwcg.012wenchuan.com/promotion/WCGTGH)
