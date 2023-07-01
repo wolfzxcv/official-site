@@ -40,29 +40,8 @@ const MobileNav = () => {
         pt={3}
       >
         <LinkButton
-          text={t('usersCenter20')}
-          href={links.usersCenterNew}
-          inMobile
-        ></LinkButton>
-
-        <LinkButton
           text={t('usersCenter')}
           href={links.usersCenter}
-          inMobile
-        ></LinkButton>
-      </Flex>
-
-      <Flex
-        display={{ base: 'flex', md: 'none' }}
-        bgColor="gray.700"
-        minH="40px"
-        justify="center"
-        color="white"
-        pt={3}
-      >
-        <LinkButton
-          text={t('iBCenter20')}
-          href={links.ibCenterNew}
           inMobile
         ></LinkButton>
 

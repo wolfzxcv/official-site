@@ -25,10 +25,7 @@ export const links = {
   mt4Web: process.env.NEXT_PUBLIC_MT4_WEB || 'https://trade.asawcgm.com/',
   // 代理中心
   ibCenter:
-    process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',
-  // 代理中心(新的)
-  ibCenterNew:
-    process.env.NEXT_PUBLIC_IB_CENTER_NEW ||
+    process.env.NEXT_PUBLIC_IB_CENTER ||
     'https://clientportal.wcgmarkets-asia.com/',
   // 用戶中心註冊
   register:
@@ -49,10 +46,6 @@ export const links = {
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
-    'https://my.wcgmarkets-global.com/login',
-  // 用戶中心(新的)
-  usersCenterNew:
-    process.env.NEXT_PUBLIC_USERS_CENTER_NEW ||
     'https://clientportal.wcgmarkets-asia.com/',
   // 聯絡信箱
   email: 'cs@wcgmarkets.com',
