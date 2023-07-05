@@ -36,6 +36,8 @@ const BackToTopMobile: React.FC<{}> = () => {
 
   const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
 
+  const line = currentLang === 'vi' ? links.lineVi : links.line;
+
   const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
   if (isDesktop && isOpen) {
@@ -99,6 +101,22 @@ const BackToTopMobile: React.FC<{}> = () => {
                 icon={<AiOutlineMessage fontSize="32px" />}
               />
 
+              {currentLang === 'vi' && (
+                <MobileBaseButton
+                  bg="twitter.500"
+                  label={'Zalo'}
+                  href={links.zalo}
+                  icon={
+                    <Image
+                      width="30px"
+                      height="30px"
+                      src="/../assets/images/zalo.svg"
+                      alt="Zalo"
+                    />
+                  }
+                />
+              )}
+
               <MobileBaseButton
                 bg="whatsapp.600"
                 label={t('whatsApp')}
@@ -116,7 +134,7 @@ const BackToTopMobile: React.FC<{}> = () => {
               <MobileBaseButton
                 bg="whatsapp.600"
                 label={t('line')}
-                href={links.line}
+                href={line}
                 icon={<FaLine fontSize="36px" />}
               />
 

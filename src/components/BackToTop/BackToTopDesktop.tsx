@@ -22,6 +22,8 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
   const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
 
+  const line = currentLang === 'vi' ? links.lineVi : links.line;
+
   return (
     <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
       <Flex direction={'column'} color="white">
@@ -46,6 +48,21 @@ const BackToTopDesktop: React.FC<{}> = () => {
           icon={<AiOutlineMessage fontSize="32px" />}
         />
 
+        {currentLang === 'vi' && (
+          <DesktopBaseButton
+            label={'Zalo'}
+            href={links.zalo}
+            icon={
+              <Image
+                width="30px"
+                height="30px"
+                src="/../assets/images/zalo.svg"
+                alt="Zalo"
+              />
+            }
+          />
+        )}
+
         <DesktopBaseButton
           label={t('whatsApp')}
           href={links.whatsApp}
@@ -54,7 +71,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
         <DesktopBaseButton
           label={t('line')}
-          href={links.line}
+          href={line}
           icon={<FaLine fontSize="30px" />}
         />
 

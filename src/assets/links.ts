@@ -4,6 +4,9 @@ export const links = {
   liveChatVi: 'https://direct.lc.chat/15545295/',
   whatsApp: 'https://api.whatsapp.com/message/2CCAPQTYUPV6P1',
   line: 'https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',
+  lineVi:
+    'https://line.me/R/ti/p/@128wgzup?from=page&accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',
+  zalo: 'https://zaloapp.com/qr/p/1i8whcp5kukpm',
   telegram: 'https://t.me/WCGMarketsLtd',
   facebook: 'https://www.facebook.com/WCG-109473260957040',
   instagram: 'https://www.instagram.com/wcg_markets',
@@ -25,7 +28,10 @@ export const links = {
   mt4Web: process.env.NEXT_PUBLIC_MT4_WEB || 'https://trade.asawcgm.com/',
   // 代理中心
   ibCenter:
-    process.env.NEXT_PUBLIC_IB_CENTER ||
+    process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',
+  // 代理中心(新的)
+  ibCenterNew:
+    process.env.NEXT_PUBLIC_IB_CENTER_NEW ||
     'https://clientportal.wcgmarkets-asia.com/',
   // 用戶中心註冊
   register:
@@ -46,6 +52,10 @@ export const links = {
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
+    'https://my.wcgmarkets-global.com/login',
+  // 用戶中心(新的)
+  usersCenterNew:
+    process.env.NEXT_PUBLIC_USERS_CENTER_NEW ||
     'https://clientportal.wcgmarkets-asia.com/',
   // 聯絡信箱
   email: 'cs@wcgmarkets.com',
