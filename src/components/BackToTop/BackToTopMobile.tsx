@@ -36,6 +36,9 @@ const BackToTopMobile: React.FC<{}> = () => {
 
   const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
 
+  const whatsApp = currentLang === 'vi' ? links.whatsAppVi : links.whatsApp;
+  const telegram = currentLang === 'vi' ? links.telegramVi : links.telegram;
+
   const line = currentLang === 'vi' ? links.lineVi : links.line;
 
   const [isDesktop] = useMediaQuery('(min-width: 832px)');
@@ -120,14 +123,14 @@ const BackToTopMobile: React.FC<{}> = () => {
               <MobileBaseButton
                 bg="whatsapp.600"
                 label={t('whatsApp')}
-                href={links.whatsApp}
+                href={whatsApp}
                 icon={<AiOutlineWhatsApp fontSize="36px" />}
               />
 
               <MobileBaseButton
                 bg="twitter.500"
                 label={t('telegram')}
-                href={links.telegram}
+                href={telegram}
                 icon={<FaTelegramPlane fontSize="36px" />}
               />
 

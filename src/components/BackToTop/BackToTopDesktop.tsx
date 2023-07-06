@@ -22,6 +22,9 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
   const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
 
+  const whatsApp = currentLang === 'vi' ? links.whatsAppVi : links.whatsApp;
+  const telegram = currentLang === 'vi' ? links.telegramVi : links.telegram;
+
   const line = currentLang === 'vi' ? links.lineVi : links.line;
 
   return (
@@ -65,7 +68,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
         <DesktopBaseButton
           label={t('whatsApp')}
-          href={links.whatsApp}
+          href={whatsApp}
           icon={<AiOutlineWhatsApp fontSize="32px" />}
         />
 
@@ -77,7 +80,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
         <DesktopBaseButton
           label={t('telegram')}
-          href={links.telegram}
+          href={telegram}
           icon={<FaTelegramPlane fontSize="32px" />}
         />
 

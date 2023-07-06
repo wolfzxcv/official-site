@@ -3,11 +3,13 @@ export const links = {
   liveChat: 'https://direct.lc.chat/11929440/',
   liveChatVi: 'https://direct.lc.chat/15545295/',
   whatsApp: 'https://api.whatsapp.com/message/2CCAPQTYUPV6P1',
+  whatsAppVi: 'https://wa.me/message/FTCZMMCFRFLAK1',
   line: 'https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',
   lineVi:
     'https://line.me/R/ti/p/@128wgzup?from=page&accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',
   zalo: 'https://zaloapp.com/qr/p/1i8whcp5kukpm',
   telegram: 'https://t.me/WCGMarketsLtd',
+  telegramVi: 'https://t.me/WCGMarketsVI',
   facebook: 'https://www.facebook.com/WCG-109473260957040',
   instagram: 'https://www.instagram.com/wcg_markets',
   wechat: 'http://weixin.qq.com/r/eRIzKz3E0mCtrXlI90dr',
