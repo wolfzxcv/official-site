@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.42.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.41.3...v1.42.0) (2023-07-25)
+
+
+### Features
+
+* **activity:** add WCGDSH ([ec3f427](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/ec3f4275f87da29de836a354ca39a3e70e0d80a2))
+
 ### [1.41.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.41.2...v1.41.3) (2023-07-06)
 
 ### [1.41.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.41.1...v1.41.2) (2023-07-05)
