@@ -3,10 +3,10 @@ import { IMenuItem, menuList } from '@/assets/menuList';
 import { Locales } from '@/i18n/config';
 import { ChevronDownIcon } from '@chakra-ui/icons';
 import {
+  Box,
   Collapse,
   Flex,
   Icon,
-  Link,
   Stack,
   Text,
   useColorModeValue,
@@ -67,7 +67,6 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
       <NextLink key={href} href={href ?? '#'} locale={currentLang}>
         <Flex
           py={2}
-          as={Link}
           justify={'space-between'}
           align={'center'}
           _hover={{
@@ -104,7 +103,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
           {children &&
             children.map((child) => (
               <NextLink key={child.href} href={child.href} locale={currentLang}>
-                <Link
+                <Box
                   width="100%"
                   display={
                     currentLang === 'cn' && child.i18n === 'cryptocurrencies'
@@ -119,7 +118,7 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
                   color={router.pathname === child.href ? 'red.800' : 'inherit'}
                 >
                   {t(`${child.i18n}`)}
-                </Link>
+                </Box>
               </NextLink>
             ))}
         </Stack>

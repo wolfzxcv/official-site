@@ -132,7 +132,7 @@ const DesktopBaseButton: React.FC<DesktopBaseButtonProps> = ({
         aria-hidden
         icon={icon}
         bgColor="gray.700"
-        borderColor="white"
+        color="white"
         border="1px"
         _hover={{
           bgColor: 'red.600',
