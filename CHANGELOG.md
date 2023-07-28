@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.43.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.42.1...v1.43.0) (2023-07-28)
+
+
+### Features
+
+* **banner:** set different banner for vi lang, modify dockerfile ([737315f](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/737315fa98854f8fc15f478111dcd8d20deeb2a9))
+
 ### [1.42.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.42.0...v1.42.1) (2023-07-28)
 
 ## [1.42.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.41.3...v1.42.0) (2023-07-25)
