@@ -1,5 +1,8 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
+import BannerVN1 from '@/components/Banner/BannerVN1';
+import BannerVN2 from '@/components/Banner/BannerVN2';
+import BannerVN3 from '@/components/Banner/BannerVN3';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGDSH from '@/components/Banner/WCGDSH';
 import Wrapper from '@/components/Base/Wrapper';
@@ -34,6 +37,15 @@ const Index: React.FC<{}> = () => {
 
   if (currentLang !== 'th') {
     sliders = [<WCGDSH key="WCGDSH" />, <WCGDC key="WCGDC" />, ...sliders];
+  }
+
+  if (currentLang === 'vi') {
+    sliders = [
+      <BannerVN1 key="BannerVN1" />,
+      <BannerVN2 key="BannerVN2" />,
+      <BannerVN3 key="BannerVN3" />,
+      ...sliders
+    ];
   }
 
   return (

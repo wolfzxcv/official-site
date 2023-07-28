@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:18.17.0-alpine
 
 ENV APP_ROOT /app/
 
