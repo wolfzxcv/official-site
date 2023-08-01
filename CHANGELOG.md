@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.44.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.43.0...v1.44.0) (2023-08-01)
+
+
+### Features
+
+* **activity:** add id activity WCGMLHDE ([88877c2](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/88877c275bfbcc6fde867a838891329372189008))
+
 ## [1.43.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.42.1...v1.43.0) (2023-07-28)
 
 
