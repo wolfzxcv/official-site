@@ -5,6 +5,7 @@ import BannerVN2 from '@/components/Banner/BannerVN2';
 import BannerVN3 from '@/components/Banner/BannerVN3';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGDSH from '@/components/Banner/WCGDSH';
+import WCGMLHDE from '@/components/Banner/WCGMLHDE';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -46,6 +47,10 @@ const Index: React.FC<{}> = () => {
       <BannerVN3 key="BannerVN3" />,
       ...sliders
     ];
+  }
+
+  if (currentLang === 'id') {
+    sliders = [<WCGMLHDE key="WCGMLHDE" />, ...sliders];
   }
 
   return (

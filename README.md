@@ -171,6 +171,8 @@
   - [WCGCNHK](http://newwcg.012wenchuan.com/activity/WCGCNHK)
   - [WCGJYZ](http://newwcg.012wenchuan.com/activity/WCGJYZ)
   - [WCGDSH](http://newwcg.012wenchuan.com/activity/WCGDSH)
+  - [WCGMLHDE](http://newwcg.012wenchuan.com/activity/WCGMLHDE)
+    - 印尼語系專門活動, 使用英文
 
 - 目前廣告投放頁面們(依照開發順序陳列)
   - [WCGTGH](http://newwcg.012wenchuan.com/promotion/WCGTGH)
