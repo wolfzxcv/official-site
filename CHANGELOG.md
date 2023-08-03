@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.44.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.44.0...v1.44.1) (2023-08-03)
+
+
+### Bug Fixes
+
+* **index:** modify lang condition ([25dce5e](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/25dce5e6c7f1379c049aa6df72ed756d949ee448))
+
 ## [1.44.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.43.0...v1.44.0) (2023-08-01)
 
 
