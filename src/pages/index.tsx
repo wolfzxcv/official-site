@@ -49,7 +49,7 @@ const Index: React.FC<{}> = () => {
     ];
   }
 
-  if (currentLang === 'id') {
+  if (currentLang === 'ms') {
     sliders = [<WCGMLHDE key="WCGMLHDE" />, ...sliders];
   }
 
