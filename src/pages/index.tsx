@@ -342,6 +342,22 @@ const Index: React.FC<{}> = () => {
 
       {/* TradingView Widget END */}
 
+      {/* Market News START */}
+      <Box my="150px">
+        <iframe
+          // @ts-expect-error
+          allowtransparency="true"
+          src={`https://www.jin10.com/example/jin10.com.html?fontSize=14px&theme=white"`}
+          style={{
+            height: '600px',
+            margin: '0 auto',
+            width: '80vw',
+            minWidth: '600px'
+          }}
+        ></iframe>
+      </Box>
+      {/* Market News END */}
+
       {/* Mobile Real-time quotation of our trading products */}
       <Box display={{ base: 'block', xl: 'none' }} width="100%">
         <Box width="100%" height="auto">
