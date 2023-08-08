@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.45.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.44.2...v1.45.0) (2023-08-08)
+
+
+### Features
+
+* **home:** add market news iframe ([52f318c](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/52f318cd7d5ae0287a9e1ba66976a00cd300286b))
+
 ### [1.44.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.44.1...v1.44.2) (2023-08-03)
 
 ### [1.44.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.44.0...v1.44.1) (2023-08-03)
