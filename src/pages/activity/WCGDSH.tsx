@@ -69,7 +69,7 @@ const WCGDSHDate: React.FC<{}> = () => (
       fontWeight="700"
       textAlign="center"
     >
-      活动由2003年8月1号开始，2023年9月30号结束
+      活动由2023年8月1号开始，2023年9月30号结束
     </Box>
   </Flex>
 );
