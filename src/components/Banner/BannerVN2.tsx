@@ -5,7 +5,7 @@ const BannerVN2: React.FC<{}> = () => {
   return (
     <Box
       minH={{ base: '600px', md: '500px' }}
-      bg="black"
+      bg="#595959"
       bgImage={{
         base: '/../assets/images/banner_WCGVN2_M.jpg',
         md: '/../assets/images/banner_WCGVN2.jpg'
