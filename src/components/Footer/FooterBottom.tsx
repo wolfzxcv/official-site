@@ -18,8 +18,8 @@ const FooterBottom: React.FC<{}> = () => {
         <Box fontSize="sm" my={3}>
           {t('WCGMarketsLtdIsRegulatedByTheFINTRAC')}
         </Box>
-
-        <Box fontSize="sm">{t('WCGGlobalLtd')}</Box>
+        {/*  On 28 Aug 2023, Wayno wanted to remove it */}
+        {/* <Box fontSize="sm">{t('WCGGlobalLtd')}</Box> */}
       </Flex>
       <Box
         width={{ base: '85vw', md: '92vw' }}
