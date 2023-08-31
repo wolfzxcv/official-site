@@ -145,7 +145,9 @@ const WCGMLHDEButtons: React.FC<{}> = () => (
         opacity: 0.8,
         transition: '1s'
       }}
-      href={links.registerZH}
+      href={
+        'https://clientportal.wcgmarkets-asia.com/register/trader?link_id=vilef578&referrer_id=2237'
+      }
       isExternal
     >
       REGISTER
