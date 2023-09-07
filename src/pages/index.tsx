@@ -5,6 +5,7 @@ import BannerVN2 from '@/components/Banner/BannerVN2';
 import BannerVN3 from '@/components/Banner/BannerVN3';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGDSH from '@/components/Banner/WCGDSH';
+import WCGZQC from '@/components/Banner/WCGZQC';
 import WCGMLHDE from '@/components/Banner/WCGMLHDE';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
@@ -41,7 +42,7 @@ const Index: React.FC<{}> = () => {
   }
 
   if (currentLang !== 'th' && currentLang !== 'ms') {
-    sliders = [<WCGDSH key="WCGDSH" />, ...sliders];
+    sliders = [<WCGZQC key="WCGZQC" />, <WCGDSH key="WCGDSH" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
