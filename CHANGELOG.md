@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.47.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.46.0...v1.47.0) (2023-09-18)
+
+
+### Features
+
+* **activity:** add EWCGYNH ([12e6597](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/12e65970123a73bdf1a1c8be897270e79a72d5d9))
+
 ## [1.46.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.45.4...v1.46.0) (2023-09-07)
 
 
