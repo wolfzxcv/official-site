@@ -3,10 +3,11 @@ import Banner from '@/components/Banner/Banner';
 import BannerVN1 from '@/components/Banner/BannerVN1';
 import BannerVN2 from '@/components/Banner/BannerVN2';
 import BannerVN3 from '@/components/Banner/BannerVN3';
+import WCGMLHDE from '@/components/Banner/EWCGMLHDE';
+import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGDSH from '@/components/Banner/WCGDSH';
 import WCGZQC from '@/components/Banner/WCGZQC';
-import WCGMLHDE from '@/components/Banner/WCGMLHDE';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -41,7 +42,7 @@ const Index: React.FC<{}> = () => {
     sliders = [<WCGDC key="WCGDC" />, ...sliders];
   }
 
-  if (currentLang !== 'th' && currentLang !== 'ms') {
+  if (currentLang !== 'th' && currentLang !== 'ms' && currentLang !== 'id') {
     sliders = [<WCGZQC key="WCGZQC" />, <WCGDSH key="WCGDSH" />, ...sliders];
   }
 
@@ -56,6 +57,10 @@ const Index: React.FC<{}> = () => {
 
   if (currentLang === 'ms') {
     sliders = [<WCGMLHDE key="WCGMLHDE" />, ...sliders];
+  }
+
+  if (currentLang === 'id') {
+    sliders = [<EWCGYNH key="EWCGYNH" />, ...sliders];
   }
 
   return (

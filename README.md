@@ -1,6 +1,6 @@
 # WCG Markets 官網
 
-- [正式環境](https://www.wcgmarkets.com/)
+- [正式環境](https://www.wcgmarkets-global.com/)
 - [測試環境](http://newwcg.012wenchuan.com)
 
 ## 運行方式
@@ -145,38 +145,44 @@
 
 - 目前活動頁面們(依照開發順序陳列)
 
-  - [index](https://www.wcgmarkets.com/activity)
-  - [WCGZG](https://www.wcgmarkets.com/activity/WCGZG)
-  - [JYSL](https://www.wcgmarkets.com/activity/JYSL)
-  - [WCGI](https://www.wcgmarkets.com/activity/WCGI)
-  - [WCGE (Business card)](https://www.wcgmarkets.com/activity/WCGE)
-  - [WCG51](https://www.wcgmarkets.com/activity/WCG51)
-  - [WCG15](https://www.wcgmarkets.com/activity/WCG15)
-  - [WCG51](https://www.wcgmarkets.com/activity/WCGQYHK)
-  - [WCG15](https://www.wcgmarkets.com/activity/WCGDLJS)
-  - [WCGQYHK](https://www.wcgmarkets.com/activity/WCGQYHK)
-  - [WCGBY](https://www.wcgmarkets.com/activity/WCGBY)
-  - [WCGDYN](https://www.wcgmarkets.com/activity/WCGDYN)
-  - [WCGZQJ](https://www.wcgmarkets.com/activity/WCGZQJ)
-  - [WCGCZ](https://www.wcgmarkets.com/activity/WCGCZ)
-  - [WCGSSS](https://www.wcgmarkets.com/activity/WCGSSS)
-  - [WCGYF](https://www.wcgmarkets.com/activity/WCGYF)
-  - [WCGKJ](https://www.wcgmarkets.com/activity/WCGKJ)
-  - [WCGYHS](https://www.wcgmarkets.com/activity/WCGYHS)
-  - [WCGZKZJ](https://www.wcgmarkets.com/activity/WCGZKZJ)
-  - [WCGDRJ](https://www.wcgmarkets.com/activity/WCGDRJ)
-  - [WCGJYK](https://www.wcgmarkets.com/activity/WCGJYK)
-  - [WCGEYS](https://www.wcgmarkets.com/activity/WCGEYS)
-  - [WCGNSJ](https://www.wcgmarkets.com/activity/WCGNSJ)
-  - [WCGCNHK](https://www.wcgmarkets.com/activity/WCGCNHK)
-  - [WCGJYZ](https://www.wcgmarkets.com/activity/WCGJYZ)
-  - [WCGDSH](https://www.wcgmarkets.com/activity/WCGDSH)
-  - [WCGMLHDE](https://www.wcgmarkets.com/activity/WCGMLHDE)
-    - 印尼語系專門活動, 使用英文
-  - [WCGZQC](https://www.wcgmarkets.com/activity/WCGZQC)
+  - [index](https://www.wcgmarkets-global.com/activity)
+  - [WCGZG](https://www.wcgmarkets-global.com/activity/WCGZG)
+  - [JYSL](https://www.wcgmarkets-global.com/activity/JYSL)
+  - [WCGI](https://www.wcgmarkets-global.com/activity/WCGI)
+  - [WCGE (Business card)](https://www.wcgmarkets-global.com/activity/WCGE)
+  - [WCG51](https://www.wcgmarkets-global.com/activity/WCG51)
+  - [WCG15](https://www.wcgmarkets-global.com/activity/WCG15)
+  - [WCG51](https://www.wcgmarkets-global.com/activity/WCGQYHK)
+  - [WCG15](https://www.wcgmarkets-global.com/activity/WCGDLJS)
+  - [WCGQYHK](https://www.wcgmarkets-global.com/activity/WCGQYHK)
+  - [WCGBY](https://www.wcgmarkets-global.com/activity/WCGBY)
+  - [WCGDYN](https://www.wcgmarkets-global.com/activity/WCGDYN)
+  - [WCGZQJ](https://www.wcgmarkets-global.com/activity/WCGZQJ)
+  - [WCGCZ](https://www.wcgmarkets-global.com/activity/WCGCZ)
+  - [WCGSSS](https://www.wcgmarkets-global.com/activity/WCGSSS)
+  - [WCGYF](https://www.wcgmarkets-global.com/activity/WCGYF)
+  - [WCGKJ](https://www.wcgmarkets-global.com/activity/WCGKJ)
+  - [WCGYHS](https://www.wcgmarkets-global.com/activity/WCGYHS)
+  - [WCGZKZJ](https://www.wcgmarkets-global.com/activity/WCGZKZJ)
+  - [WCGDRJ](https://www.wcgmarkets-global.com/activity/WCGDRJ)
+  - [WCGJYK](https://www.wcgmarkets-global.com/activity/WCGJYK)
+  - [WCGEYS](https://www.wcgmarkets-global.com/activity/WCGEYS)
+  - [WCGNSJ](https://www.wcgmarkets-global.com/activity/WCGNSJ)
+  - [WCGCNHK](https://www.wcgmarkets-global.com/activity/WCGCNHK)
+  - [WCGJYZ](https://www.wcgmarkets-global.com/activity/WCGJYZ)
+  - [WCGDSH](https://www.wcgmarkets-global.com/activity/WCGDSH)
+  - [WCGZQC](https://www.wcgmarkets-global.com/activity/WCGZQC)
+
+- 馬來語系專門活動, 使用英文
+
+  - [WCGMLHDE](https://www.wcgmarkets-global.com/activity/WCGMLHDE)
+
+- 印尼語系專門活動, 使用印尼語
+
+  - [EWCGYNH](https://www.wcgmarkets-global.com/activity/EWCGYNH)
 
 - 目前廣告投放頁面們(依照開發順序陳列)
-  - [WCGTGH](https://www.wcgmarkets.com/promotion/WCGTGH)
+  - [WCGTGH](https://www.wcgmarkets-global.com/promotion/WCGTGH)
 
 ## 情報
 
