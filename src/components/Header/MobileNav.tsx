@@ -19,6 +19,17 @@ import LinkButton from '../TopLinks/LinkButton';
 
 const MobileNav = () => {
   const { t } = useTranslation('common');
+  const router = useRouter();
+  const currentLang = router.locale as Locales;
+
+  let customerService = links.liveChat;
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+
+  if (currentLang === 'vi') {
+    customerService = links.liveChatVi;
+  } else if (isChinese) {
+    customerService = links.majkf;
+  }
 
   return (
     <>
@@ -46,8 +57,8 @@ const MobileNav = () => {
         ></LinkButton>
 
         <LinkButton
-          text={t('iBCenter')}
-          href={links.ibCenter}
+          text={t('CustomerService')}
+          href={customerService}
           inMobile
         ></LinkButton>
       </Flex>

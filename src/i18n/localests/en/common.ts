@@ -11,6 +11,7 @@ export const common: Common = {
   telegram: 'Telegram',
   Miduoke: 'Customer service 1',
   LiveChat: 'Customer service 2',
+  CustomerService: 'Customer service',
   whatsApp: 'WhatsApp',
   line: 'Line',
   clientPortal: 'Client Portal',

@@ -22,6 +22,8 @@ export type Common = {
   Miduoke: string;
   /** LiveChat */
   LiveChat: string;
+  /** Customer Service */
+  CustomerService: string;
   /** whatsApp */
   whatsApp: string;
   /** line */
