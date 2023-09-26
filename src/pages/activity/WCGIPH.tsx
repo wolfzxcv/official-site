@@ -162,7 +162,7 @@ export const WCGIPHTitle: React.FC<{}> = () => (
       color={WCGIPH_TITLE_FONT}
       py={2}
       px={{ base: 5, md: '50px' }}
-      width={'fit-content'}
+      whiteSpace="nowrap"
       mb={10}
       fontSize={{ base: '14px', md: '22px' }}
       textAlign="center"
