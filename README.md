@@ -172,6 +172,7 @@
   - [WCGJYZ](https://www.wcgmarkets-global.com/activity/WCGJYZ)
   - [WCGDSH](https://www.wcgmarkets-global.com/activity/WCGDSH)
   - [WCGZQC](https://www.wcgmarkets-global.com/activity/WCGZQC)
+  - [WCGIPH](https://www.wcgmarkets-global.com/activity/WCGIPH)
 
 - 馬來語系專門活動, 使用英文
 
