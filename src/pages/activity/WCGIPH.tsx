@@ -162,6 +162,7 @@ export const WCGIPHTitle: React.FC<{}> = () => (
       color={WCGIPH_TITLE_FONT}
       py={2}
       px={{ base: 5, md: '50px' }}
+      width={'fit-content'}
       mb={10}
       fontSize={{ base: '14px', md: '22px' }}
       textAlign="center"
@@ -189,7 +190,7 @@ export const WCGIPHTitle: React.FC<{}> = () => (
 
 const WCGIPHTable: React.FC<{}> = () => (
   <Box
-    width={{ base: '90vw', md: '800px' }}
+    width={{ base: '95vw', md: '800px' }}
     my={8}
     fontSize={{ base: '10px', md: '18px' }}
   >
