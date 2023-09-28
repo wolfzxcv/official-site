@@ -57,7 +57,7 @@ const PopUp: React.FC<PopUpProps> = ({
     >
       <AlertDialogOverlay />
 
-      <ModalContent>
+      <ModalContent maxH="100%">
         <ModalHeader
           fontWeight="bold"
           fontSize={HEADER_SIZE}
