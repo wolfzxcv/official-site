@@ -7,13 +7,11 @@ import WCGMLHDE from '@/components/Banner/EWCGMLHDE';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGIPH from '@/components/Banner/WCGIPH';
-import WCGZQC from '@/components/Banner/WCGZQC';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
-import WCGZQ from '@/components/PopUp/WCGZQ';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -44,7 +42,7 @@ const Index: React.FC<{}> = () => {
   }
 
   if (currentLang !== 'th' && currentLang !== 'ms' && currentLang !== 'id') {
-    sliders = [<WCGIPH key="WCGIPH" />, <WCGZQC key="WCGZQC" />, ...sliders];
+    sliders = [<WCGIPH key="WCGIPH" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
@@ -66,7 +64,6 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
-      {isChinese && <WCGZQ lang={currentLang} />}
       <IntroductionVideo />
 
       <Carousel
