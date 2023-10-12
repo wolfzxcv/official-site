@@ -68,8 +68,8 @@ const NameChangeContentZh: React.FC<{}> = () => {
       <Box>客戶服務熱線: 4008 428 912</Box>
       <Box>
         客戶服務電郵:
-        <Link color="blue.500" href="mailto:cs@wcgmarkets.com" isExternal>
-          cs@wcgmarkets.com
+        <Link color="blue.500" href="mailto:support@wcgmarkets.com" isExternal>
+          support@wcgmarkets.com
         </Link>
       </Box>
       <Box>
@@ -148,8 +148,8 @@ const NameChangeContentCn: React.FC<{}> = () => {
       <Box>客户服务热线: 4008 428 912</Box>
       <Box>
         客户服务电邮:
-        <Link color="blue.500" href="mailto:cs@wcgmarkets.com" isExternal>
-          cs@wcgmarkets.com
+        <Link color="blue.500" href="mailto:support@wcgmarkets.com" isExternal>
+          support@wcgmarkets.com
         </Link>
       </Box>
       <Box>
@@ -245,8 +245,8 @@ const NameChangeContentEn: React.FC<{}> = () => {
       <Box>Customer service hotline: 4008 428 912</Box>
       <Box>
         Customer service email:{' '}
-        <Link color="blue.500" href="mailto:cs@wcgmarkets.com" isExternal>
-          cs@wcgmarkets.com
+        <Link color="blue.500" href="mailto:support@wcgmarkets.com" isExternal>
+          support@wcgmarkets.com
         </Link>
       </Box>
       <Box>

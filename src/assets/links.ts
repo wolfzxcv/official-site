@@ -60,7 +60,7 @@ export const links = {
     process.env.NEXT_PUBLIC_USERS_CENTER_NEW ||
     'https://clientportal.wcgmarkets-asia.com/',
   // 聯絡信箱
-  email: 'cs@wcgmarkets.com',
+  email: 'support@wcgmarkets.com',
   // 聯絡電話
   tel: '4001 203 612',
   tel2: '4008 428 912'
