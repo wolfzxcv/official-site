@@ -30,7 +30,9 @@ export const home: Home = {
   LondonGoldLondonSilver: '交易规则简单，T+0操作。',
   shortFundSettlementTime: '资金结算时间短，网上电子交易快捷安全。',
   accountOpening: '开户交易',
-  realTimeQuotation: '实时的交易品种报价',
+  Calendar: '财经日历',
+  ByTradingView: 'Provided by TradingView',
+  realTimeQuotation: '由TradingView提供',
   aVarietyOfProfessional:
     '多种专业图表分析工具及技术指标。您可以自由设定您自己的技术指标参数和限时模式。',
   investmentProductsAcross: '横跨全球的投资产品',

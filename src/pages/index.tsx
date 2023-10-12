@@ -302,7 +302,6 @@ const Index: React.FC<{}> = () => {
       <Box my={10} display={{ base: 'none', md: 'block' }}>
         {currentLang === 'cn' ? (
           <iframe
-            frameBorder="0"
             height="580"
             style={{
               height: '600px',
@@ -310,17 +309,14 @@ const Index: React.FC<{}> = () => {
               width: '80vw',
               minWidth: '600px'
             }}
-            scrolling="yes"
             src={`https://rili-d.jin10.com/open.php?fontSize=14px&theme=primary`}
           ></iframe>
         ) : (
           <div className="tradingview-widget-container">
             <div className="tradingview-widget-container__widget"></div>
             <iframe
-              scrolling="no"
               // @ts-expect-error
               allowtransparency="true"
-              frameBorder="0"
               src={`https://www.tradingview-widget.com/embed-widget/events/?locale=${lang}#%7B%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22importanceFilter%22%3A%22-1%2C0%2C1%22%2C%22utm_source%22%3A%22www.wcglb.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22events%22%7D`}
               style={{
                 height: '600px',
@@ -329,18 +325,18 @@ const Index: React.FC<{}> = () => {
                 minWidth: '600px'
               }}
             ></iframe>
-            {isChinese && (
-              <Box textAlign="center">
-                <Link
-                  href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
-                  isExternal
-                  color="blue.300"
-                >
-                  財經日曆
-                </Link>
-                由TradingView提供
-              </Box>
-            )}
+
+            <Box textAlign="center">
+              <Link
+                href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
+                isExternal
+                color="blue.300"
+              >
+                {t('Calendar')}
+              </Link>
+              &nbsp;
+              {t('ByTradingView')}
+            </Box>
           </div>
         )}
       </Box>

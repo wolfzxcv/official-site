@@ -37,6 +37,8 @@ export const home: Home = {
   shortFundSettlementTime:
     'Waktu penyelesaian dana pendek, dan transaksi elektronik dalam talian yang cepat dan selamat.',
   accountOpening: 'Pembukaan Akaun',
+  Calendar: 'Kalendar kewangan',
+  ByTradingView: 'Disediakan oleh TradingView',
   realTimeQuotation: 'Petikan masa nyata produk perdagangan kami',
   aVarietyOfProfessional:
     'Pelbagai alat analisis carta profesional dan petunjuk teknikal. Anda boleh menetapkan parameter dan jangka masa penunjuk teknikal anda secara bebas.',

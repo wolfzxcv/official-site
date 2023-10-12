@@ -34,6 +34,8 @@ export const home: Home = {
   shortFundSettlementTime:
     'وقت قصير لتسوية الأموال ، معاملات إلكترونية سريعة وآمنة',
   accountOpening: 'فتح الحساب',
+  Calendar: 'التقويم المالي',
+  ByTradingView: 'مقدمة من TradingView',
   realTimeQuotation: 'عرض أسعار فوري في الوقت الفعلي لمنتجاتنا التجارية',
   aVarietyOfProfessional:
     'مجموعة متنوعة من الأدوات الاحترافية لتحليل الرسوم البيانية والمؤشرات الفنية. يمكنك تعيين معلمات المؤشر الفني والإطار الزمني الخاصة بك بحرية',
