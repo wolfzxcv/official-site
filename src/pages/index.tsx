@@ -306,8 +306,8 @@ const Index: React.FC<{}> = () => {
             style={{
               height: '600px',
               margin: '0 auto',
-              width: '80vw',
-              minWidth: '600px'
+              width: '85vw',
+              maxWidth: '800px'
             }}
             src={`https://rili-d.jin10.com/open.php?fontSize=14px&theme=primary`}
           ></iframe>
@@ -321,8 +321,8 @@ const Index: React.FC<{}> = () => {
               style={{
                 height: '600px',
                 margin: '0 auto',
-                width: '80vw',
-                minWidth: '600px'
+                width: '85vw',
+                maxWidth: '800px'
               }}
             ></iframe>
 
@@ -352,8 +352,8 @@ const Index: React.FC<{}> = () => {
           style={{
             height: '600px',
             margin: '0 auto',
-            width: '80vw',
-            minWidth: '600px'
+            width: '85vw',
+            maxWidth: '800px'
           }}
         ></iframe>
       </Box>
