@@ -10,7 +10,7 @@ const WCGMLHDE: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   return (
-    <NextLink passHref={true} href="/activity/WCGMLHDE" locale={currentLang}>
+    <NextLink passHref={true} href="/activity/EWCGMLHDE" locale={currentLang}>
       <Box
         minH={{ base: '600px', md: '500px' }}
         bg={WCGMLHDE_BG}

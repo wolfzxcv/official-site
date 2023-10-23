@@ -68,7 +68,7 @@ const WCGMLHDEDate: React.FC<{}> = () => (
       textAlign="center"
       borderRadius={{ base: 0, md: '25px' }}
     >
-      August 1, 2023 to September 30, 2023
+      OCTOBER 24, 2023 TO NOVEMBER 25, 2023
     </Box>
   </Flex>
 );
@@ -79,24 +79,24 @@ const WCGMLHDEContent: React.FC<{}> = () => (
     mb={{ base: 10, md: '100px' }}
     fontSize={{ base: '12px', md: '18px' }}
     width={{ base: '80vw', md: '90vw' }}
-    maxW={{ base: 'auto', md: '900px' }}
+    maxW={{ base: 'auto', md: '1100px' }}
     textAlign="center"
     lineHeight={{ base: 5, md: 10 }}
   >
     <Box mb={5}>
-      Thank you for your support of WCG MARKETS. To celebrate the
-      company&lsquo;s development in Malaysia, we will launch the following
-      promotions from August 1, 2023 to September 30, 2023:
+      THANK YOU FOR YOUR SUPPORT OF WCG MARKETS. TO CELEBRATE THE
+      COMPANY&lsquo;S DEVELOPMENT IN MALAYSIA, WE WILL LAUNCH THE FOLLOWING
+      PROMOTIONS FROM OCTOBER 24, 2023 TO NOVEMBER 25, 2023:
     </Box>
     <Box color={WCGMLHDE_FONT_YELLOW}>
-      1. Promotion target: All new and existing Malaysian customers who make
-      their first deposit into a WCG MARKETS real trading account during the
-      promotion period.
+      1. PROMOTION TARGET: ALL NEW AND EXISTING MALAYSIAN CUSTOMERS WHO MAKE
+      THEIR FIRST DEPOSIT INTO A WCG MARKETS REAL TRADING ACCOUNT DURING THE
+      PROMOTION PERIOD.
     </Box>
     <Box color={WCGMLHDE_FONT_YELLOW}>
-      2. Promotion offer: 30% of the first deposit amount will be credited to
-      the customer&lsquo;s account as additional credit. For example, deposit
-      $1,000 for the first time to get an additional $300 credit.
+      2. PROMOTION OFFER: 30% OF THE FIRST DEPOSIT AMOUNT WILL BE CREDITED TO
+      THE CUSTOMER&lsquo;S ACCOUNT AS ADDITIONAL CREDIT. FOR EXAMPLE, DEPOSIT
+      $1,000 FOR THE FIRST TIME TO GET AN ADDITIONAL $300 CREDIT.
     </Box>
   </Box>
 );
@@ -210,27 +210,21 @@ const WCGMLHDERules: React.FC<{}> = () => (
         customer and the credited amount will be clawed back.
       </Box>
       <Box>7. The credit can only be used for trading, not for withdrawal.</Box>
+
       <Box>
-        8. The credit can be used as margin for loss protection, but the
-        customer is responsible for covering any losses incurred.
+        8. After the promotion ends, any unused credit will be clawed back.
       </Box>
       <Box>
-        9. After the promotion ends, any unused credit will be clawed back.
-      </Box>
-      <Box>
-        10. The company reserves the right to amend, terminate the promotion and
+        9. The company reserves the right to amend, terminate the promotion and
         claw back the credit at any time.
       </Box>
       <Box>
-        11. This offer can not be used in conjunction with other promotion of
-        the company.
-      </Box>
-      <Box>
-        12. The company reserves the right of final interpretation of the
+        10. The company reserves the right of final interpretation of the
         promotion.
       </Box>
+
       <Box>
-        13. High risk investment warning: CFDs are complex financial products,
+        11. High risk investment warning: CFDs are complex financial products,
         using leverage can lead to the high possibility of losing the principal
         quickly. You may be required to deposit additional margin. Please
         understand the product mechanics and consider whether you can withstand
@@ -240,27 +234,18 @@ const WCGMLHDERules: React.FC<{}> = () => (
         understand all potential risks and seek independent advice if necessary
         before entering the market.
       </Box>
-      <Box>14. Promotion quotas are limited, first come first served.</Box>
+      <Box>12. Promotion quotas are limited, first come first served.</Box>
       <Box>
-        15. Each customer can only participate in this promotion once with one
+        13. Each customer can only participate in this promotion once with one
         account.
       </Box>
       <Box>
-        16. A single trading account can receive a maximum gift of $30,000.
+        14. A single trading account can receive a maximum gift of $30,000.
       </Box>
       <Box>
-        17. WCG reserves the right to amend or terminate this promotion at any
+        15. WCG reserves the right to amend or terminate this promotion at any
         time. Any amendments or termination notices will be subject to WCG
         Markets&lsquo; announcements.
-      </Box>
-      <Box>
-        18. All abnormal transactions, including scalping within 15 minutes, A/B
-        account trading, using cheat software or other computer programs
-        resulting in multiple accounts placing orders from the same IP address
-        simultaneously, and other suspicious operations, will be considered
-        invalid trading lots and will not be included in the calculation for
-        this promotion (For the definition of abnormal transactions, please
-        refer to the WCG official website).
       </Box>
     </Stack>
   </Flex>
