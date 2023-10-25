@@ -173,6 +173,7 @@
   - [WCGDSH](https://www.wcgmarkets-global.com/activity/WCGDSH)
   - [WCGZQC](https://www.wcgmarkets-global.com/activity/WCGZQC)
   - [WCGIPH](https://www.wcgmarkets-global.com/activity/WCGIPH)
+  - [WCGXJJ](https://www.wcgmarkets-global.com/activity/WCGXJJ)
 
 - 馬來語系專門活動, 使用英文
 
@@ -194,7 +195,7 @@
   - https://www.wcgmarkets.com/
   - https://www.wcgmarkets-global.com/
 
-- 國際站/代理站/金業, 共用後台(裡面有分各站內容添加)
+- 國際站/金業, 共用後台(裡面有分各站內容添加)
 
   - https://cms.wcgos.com/
 
