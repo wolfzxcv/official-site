@@ -1,5 +1,4 @@
 import { links } from '@/assets/links';
-import { openChatWindow } from '@/utils';
 import { Box, Flex, Stack, Text } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -32,7 +31,7 @@ const FooterMiddle: React.FC<{}> = () => {
             >
               <LinkButton
                 text={t('common:openRealAccount')}
-                href={links.register}
+                href={links.registerReal}
                 inMobile
                 borderColor="#b81c22"
                 isFooter
@@ -55,7 +54,7 @@ const FooterMiddle: React.FC<{}> = () => {
             >
               <LinkButton
                 text={t('common:openDemoAccount')}
-                onClick={openChatWindow}
+                href={links.registerDemo}
                 inMobile
                 borderColor="green"
                 isFooter

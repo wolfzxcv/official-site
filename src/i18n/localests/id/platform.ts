@@ -26,7 +26,6 @@ export const platform: Platform = {
   multiAccountManagementSystem: 'Sistem manajemen multi-akun MT4',
   forIPhone: 'MT4 untuk iPhone',
   forAndroid: 'MT4 untuk Android',
-  forHuawei: 'MT4 untuk Huawei',
   MT4PcVersion: 'Versi PC MT4',
   MetaTrader4IsTheMostPopular:
     'MetaTrader 4 adalah platform perdagangan online paling populer di dunia dan telah menetapkan posisi terdepan di industri selama bertahun-tahun. MetaTrader 4 (MT4) dirancang khusus untuk transaksi valuta asing dan berjangka. Pedagang dapat menganalisis tren pasar, menggambar grafik perdagangan, dan mengelola posisi dan pesanan mereka melalui antarmuka pengguna yang intuitif dan fungsi yang lengkap.',
@@ -71,9 +70,6 @@ export const platform: Platform = {
   MetaTrader4MobileApp: 'Aplikasi seluler MetaTrader4',
   downloadOurMT4MobileAppNow:
     'Unduh aplikasi seluler MT4 kami sekarang dan jadikan itu mitra dagang Anda, membantu Anda memasuki pasar keuangan kapan saja, di mana saja, dan raih setiap peluang perdagangan 24 jam sehari.',
-  IOSVersion: 'versi iOS',
-  AndroidVersion: 'versi Android',
-  HuaweiVersion: 'versi Huawei',
   MAMMultiAccountManagementSystem: 'Sistem manajemen multi-akun MAM',
   theMultiAccountManagementSystem:
     'Sistem Manajemen Multi-Akun (MAM) memiliki fungsi manajemen terintegrasi yang penting, memungkinkan manajer aset untuk mengelola banyak akun hanya melalui satu antarmuka. Sebuah antarmuka tunggal memungkinkan manajer aset untuk secara efektif dan akurat mengkonfigurasi kondisi perdagangan untuk beberapa akun pribadi, dan secara merata mendistribusikan kondisi dan strategi perdagangan yang sama ke akun individu sesuai dengan rasio yang telah ditetapkan, membantu Anda mengelola aktivitas perdagangan dan meningkatkan keterampilan manajemen.',

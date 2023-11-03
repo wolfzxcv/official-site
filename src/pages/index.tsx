@@ -248,7 +248,7 @@ const Index: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href={links.register}
+              href={links.registerReal}
               isExternal
             >
               <Box
@@ -278,7 +278,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               textDecoration: 'none'
             }}
-            href={links.register}
+            href={links.registerReal}
             isExternal
           >
             <Box
@@ -522,7 +522,7 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href={links.mt4Apk}
+            href={links.mt4Apk2}
           >
             <Image src="/../assets/images/home_huawei.png" alt="huawei"></Image>
           </Link>

@@ -1,9 +1,9 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
-import InfoButtonBase from '@/components/Common/InfoButtonBase';
+import InfoButton from '@/components/Common/InfoButton';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import { Locales } from '@/i18n/config';
-import { openChatWindow } from '@/utils';
 import { CheckIcon } from '@chakra-ui/icons';
 import { Box, Flex, Grid, Icon, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
@@ -48,9 +48,10 @@ const fundManager: React.FC<{}> = () => {
           </Flex>
 
           <Text my={10}>{t('WCGProvidesAssetManagement')}</Text>
-          <InfoButtonBase
+          <InfoButton
             text={t('applyForManager')}
-            onClick={openChatWindow}
+            href={links.majkf}
+            isExternal
           />
         </Box>
         <Image
@@ -258,9 +259,10 @@ const fundManager: React.FC<{}> = () => {
           />
         </Flex>
         <Box>
-          <InfoButtonBase
+          <InfoButton
             text={t('iWantToBeAManager')}
-            onClick={openChatWindow}
+            href={links.majkf}
+            isExternal
           />
         </Box>
       </Flex>

@@ -30,7 +30,7 @@ const questions: React.FC<{}> = () => {
     {
       title: t('HowToOpenAnAccountInWCG'),
       content: [t('youCanRegisterYourRealAccount')],
-      externalHref: links.register
+      externalHref: links.registerReal
     },
     {
       title: t('WCGAccountOpeningAge'),

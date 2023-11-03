@@ -38,8 +38,6 @@ export type Platform = {
   forIPhone: string;
   /** for Android */
   forAndroid: string;
-  /** for Huawei */
-  forHuawei: string;
   /** MT4 pc version */
   MT4PcVersion: string;
   /** MetaTrader 4 is the most popular */
@@ -100,12 +98,6 @@ export type Platform = {
   MetaTrader4MobileApp: string;
   /** Download our MT4 mobile app now */
   downloadOurMT4MobileAppNow: string;
-  /** IOS version */
-  IOSVersion: string;
-  /** Android version */
-  AndroidVersion: string;
-  /** Huawei version */
-  HuaweiVersion: string;
   /** MAM multi-account management system */
   MAMMultiAccountManagementSystem: string;
   /** The Multi-Account Management System */

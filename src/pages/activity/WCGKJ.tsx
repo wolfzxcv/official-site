@@ -1,7 +1,6 @@
 import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
-import { openChatWindow } from '@/utils';
 import { Box, Flex, Link, Stack, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import React from 'react';
@@ -106,12 +105,12 @@ const WCGKJContent: React.FC<{}> = () => (
           opacity: 0.8,
           transition: '1s'
         }}
-        href={links.registerZH}
+        href={links.registerReal}
         isExternal
       >
         立即开户
       </Link>
-      <Box
+      <Link
         width="30vw"
         maxW="200px"
         textAlign="center"
@@ -126,13 +125,13 @@ const WCGKJContent: React.FC<{}> = () => (
         lineHeight="42px"
         _hover={{
           opacity: 0.8,
-          transition: '1s',
-          cursor: 'pointer'
+          transition: '1s'
         }}
-        onClick={openChatWindow}
+        href={links.majkf}
+        isExternal
       >
         在线客服
-      </Box>
+      </Link>
     </Flex>
   </Flex>
 );

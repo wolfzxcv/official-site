@@ -1,7 +1,7 @@
 # WCG Markets 官網
 
 - [正式環境](https://www.wcgmarkets-global.com/)
-- [測試環境](http://newwcg.012wenchuan.com)
+- 測試環境 server 已停用
 
 ## 運行方式
 
@@ -122,16 +122,14 @@
   - 開立真實帳戶
 - NEXT_PUBLIC_REGISTER_DEMO
   - 開立模擬帳戶
-- NEXT_PUBLIC_REGISTER_ZH
-  - 開立真實帳戶(中文)
 - NEXT_PUBLIC_USERS_CENTER
   - 客戶中心
-- NEXT_PUBLIC_IB_CENTER
-  - 代理中心
 - NEXT_PUBLIC_MT4_APP
   - MT4 電腦版下載
-- NEXT_PUBLIC_MT4_APK
-  - MT4 APP(華為)下載
+- NEXT_PUBLIC_MT4_APK1
+  - MT4 APK下載1
+- NEXT_PUBLIC_MT4_APK2
+  - MT4 APK下載2
 - NEXT_PUBLIC_MT4_WEB
   - MT4 網頁版
 
@@ -288,7 +286,7 @@ type IContactInput = {
 ```
 
 - 以上沒打問號的, 代表必填
-- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到.env 設定的 CUSTOMER_SERVICE_EMAIL
+- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到"後端/後台專案"的.env 設定的 CUSTOMER_SERVICE_EMAIL
 - 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD
 
 ## 5.取得即時新聞
@@ -342,5 +340,5 @@ type IWCGTGH = {
 ```
 
 - 以上沒打問號的, 代表必填
-- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到.env 設定的 CUSTOMER_SERVICE_EMAIL
+- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到"後端/後台專案"的.env 設定的 CUSTOMER_SERVICE_EMAIL
 - 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD

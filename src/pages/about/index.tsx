@@ -7,7 +7,6 @@ import InfoTitle from '@/components/Common/InfoTitle';
 import InfoTitleSub from '@/components/Common/InfoTitleSub';
 import LinkButton from '@/components/TopLinks/LinkButton';
 import { Locales } from '@/i18n/config';
-import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -49,7 +48,7 @@ const about: React.FC<{}> = () => {
           <Box>{t('WCGHasASolidFoundation')}</Box>
           <LinkButton
             text={t('registerARealAccountNow')}
-            href={links.register}
+            href={links.registerReal}
             inMobile
             borderColor="#b81c22"
             mdWidth="300px"
@@ -57,7 +56,7 @@ const about: React.FC<{}> = () => {
 
           <LinkButton
             text={t('registerADemoAccountNow')}
-            onClick={openChatWindow}
+            href={links.registerDemo}
             inMobile
             borderColor="green"
             mdWidth="300px"

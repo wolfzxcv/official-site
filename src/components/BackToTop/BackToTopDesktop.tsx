@@ -86,7 +86,7 @@ const BackToTopDesktop: React.FC<{}> = () => {
 
         <DesktopBaseButton
           label={t('clientPortal')}
-          href={links.register}
+          href={links.registerReal}
           icon={<BsPencilSquare fontSize="30px" />}
         />
 

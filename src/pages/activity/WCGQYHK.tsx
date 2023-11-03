@@ -39,7 +39,7 @@ const WCGQYHK: React.FC<{}> = () => {
                 opacity: 0.8,
                 transition: '1s'
               }}
-              href={links.registerZH}
+              href={links.registerReal}
               isExternal
             >
               <Image
@@ -94,7 +94,7 @@ const WCGQYHK: React.FC<{}> = () => {
             />
           </Link>
 
-          <Link href={links.registerZH} isExternal width="30%">
+          <Link href={links.registerReal} isExternal width="30%">
             <Image
               src="/../assets/images/activity_WCGQYHK_b2.png"
               alt="Instagram"

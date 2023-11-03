@@ -1,7 +1,6 @@
 import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
 import LiveChat from '@/components/Base/LiveChat';
-import { openChatWindow } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import React from 'react';
@@ -235,23 +234,30 @@ const Activity: React.FC<{}> = () => {
           <Box color={white}>如有任何疑问，欢迎联系客服查询。</Box>
 
           <Flex color={white} marginTop={{ base: 10, md: 20 }} justify="center">
-            <Box
-              width="40vw"
-              maxW="300px"
-              bg={leftButton}
-              onClick={openChatWindow}
-              textAlign="center"
-              marginX={1}
-              paddingY={3}
+            <Link
+              _hover={{
+                textDecoration: 'none'
+              }}
+              href={links.majkf}
+              isExternal
             >
-              在线咨询
-            </Box>
+              <Box
+                width="40vw"
+                maxW="300px"
+                bg={leftButton}
+                textAlign="center"
+                marginX={1}
+                paddingY={3}
+              >
+                在线咨询
+              </Box>
+            </Link>
 
             <Link
               _hover={{
                 textDecoration: 'none'
               }}
-              href={links.register}
+              href={links.registerReal}
               isExternal
             >
               <Box

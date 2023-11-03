@@ -22,35 +22,24 @@ export const links = {
   mt4App:
     process.env.NEXT_PUBLIC_MT4_APP ||
     'https://download.mql5.com/cdn/web/asa.group.trading/mt4/asa4setup.exe',
-  // MT4 Android version-APK
-  mt4Apk:
-    process.env.NEXT_PUBLIC_MT4_APK ||
+  // MT4 APK 1
+  mt4Apk1:
+    process.env.NEXT_PUBLIC_MT4_APK1 ||
     'https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk?utm_source=www.metatrader4.com&utm_campaign=install.metaquotes',
+  // MT4 APK 2
+  mt4Apk2:
+    process.env.NEXT_PUBLIC_MT4_APK2 ||
+    'https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/metatrader4.apk',
   // MT4 Web Trader
   mt4Web: process.env.NEXT_PUBLIC_MT4_WEB || 'https://trade.asawcgm.com/',
-  // 代理中心
-  ibCenter:
-    process.env.NEXT_PUBLIC_IB_CENTER || 'https://my.wcgmarkets-global.com',
-  // 代理中心(新的)
-  ibCenterNew:
-    process.env.NEXT_PUBLIC_IB_CENTER_NEW ||
-    'https://clientportal.wcgmarkets-asia.com/',
-  // 用戶中心註冊
-  register:
-    process.env.NEXT_PUBLIC_REGISTER_REAL ||
-    'https://my.wcgmarkets-global.com/register',
   // 開立真實帳戶
   registerReal:
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
-    'https://clientportal.wcgmarkets-asia.com/register/trader/multi-step',
+    'https://clientportal.wcgmarkets-asia.com/register/trader?link_id=dsnpsip4',
   // 開立模擬帳戶
   registerDemo:
     process.env.NEXT_PUBLIC_REGISTER_DEMO ||
     'https://clientportal.wcgmarkets-asia.com/register/demo?link_id=fc9djea3',
-  // 用戶中心註冊(中文)
-  registerZH:
-    process.env.NEXT_PUBLIC_REGISTER_ZH ||
-    'https://clientportal.wcgmarkets-asia.com/register/trader/multi-step',
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||

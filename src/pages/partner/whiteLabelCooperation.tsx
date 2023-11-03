@@ -1,10 +1,10 @@
+import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
-import InfoButtonBase from '@/components/Common/InfoButtonBase';
+import InfoButton from '@/components/Common/InfoButton';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import { StyledBoxTag } from '@/components/Styled/Styled';
 import { Locales } from '@/i18n/config';
-import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -47,7 +47,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           </Flex>
 
           <Text my={10}>{t('wCGsWhite')}</Text>
-          <InfoButtonBase text={t('applyFor')} onClick={openChatWindow} />
+          <InfoButton text={t('applyFor')} href={links.majkf} isExternal />
         </Box>
         <Image
           src="/../assets/images/whiteLabelCooperation_banner.png"
@@ -228,7 +228,7 @@ const whiteLabelCooperation: React.FC<{}> = () => {
           />
         </Flex>
         <Box>
-          <InfoButtonBase text={t('applyForWhite')} onClick={openChatWindow} />
+          <InfoButton text={t('applyForWhite')} href={links.majkf} isExternal />
         </Box>
       </Flex>
     </Wrapper>

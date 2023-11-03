@@ -113,7 +113,7 @@ const WCGIPHContent: React.FC<{}> = () => (
           opacity: 0.8,
           transition: '1s'
         }}
-        href={links.registerZH}
+        href={links.registerReal}
         isExternal
       >
         立即开户
