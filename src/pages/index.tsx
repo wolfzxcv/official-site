@@ -499,7 +499,7 @@ const Index: React.FC<{}> = () => {
             isExternal
             href={links.mt4IOS}
           >
-            <Image src="/../assets/images/home_apple.png" alt="apple"></Image>
+            <Image src="/../assets/images/home_ios.png" alt="ios"></Image>
           </Link>
 
           <Link
@@ -524,7 +524,7 @@ const Index: React.FC<{}> = () => {
             isExternal
             href={links.mt4Apk2}
           >
-            <Image src="/../assets/images/home_huawei.png" alt="huawei"></Image>
+            <Image src="/../assets/images/home_apk.png" alt="apk"></Image>
           </Link>
 
           <Link

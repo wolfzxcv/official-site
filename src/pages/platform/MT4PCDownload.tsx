@@ -18,7 +18,7 @@ const MT4PCDownload: React.FC<{}> = () => {
   const { t } = useTranslation('platform');
   const router = useRouter();
   const currentLang = router.locale as Locales;
-  const isChinese = currentLang === 'cn' || currentLang === 'zh';
+
   const isArabic = currentLang === 'ar';
 
   return (
@@ -52,14 +52,8 @@ const MT4PCDownload: React.FC<{}> = () => {
           </Flex>
           <InfoTitleSub title={t('MetaTrader4IsTheMostPopular')} />
 
-          <Box
-            mt={20}
-            width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
-          >
-            <DownloadButton
-              href={links.mt4App}
-              text={t('downloadImmediately')}
-            />
+          <Box mt={20}>
+            <DownloadButton href={links.mt4App} type="pc" />
           </Box>
         </Box>
         <Box width={{ base: '0', xl: '40vw' }}>
@@ -203,11 +197,8 @@ const MT4PCDownload: React.FC<{}> = () => {
       </Flex>
 
       <Center>
-        <Box
-          mb={20}
-          width={{ base: 'auto', xl: isChinese ? '200px' : '400px' }}
-        >
-          <DownloadButton href={links.mt4App} text={t('downloadImmediately')} />
+        <Box mb={20}>
+          <DownloadButton href={links.mt4App} type="pc" />
         </Box>
       </Center>
     </Wrapper>
