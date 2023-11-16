@@ -13,8 +13,9 @@ const DesktopHeader: React.FC<{}> = () => {
       align={'center'}
       display={{ base: 'none', md: 'flex' }}
     >
-      <Logo />
-
+      <Flex justify={'center'} ml={{ base: 5, lg: 10 }}>
+        <Logo />
+      </Flex>
       <Flex mx={10}>
         <DesktopNav />
       </Flex>
