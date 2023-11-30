@@ -331,7 +331,7 @@ type ICheckIpRes = {
 | table  | g_WCGTGH    |
 
 ```typescript=
-type IWCGTGH = {
+type IPromotion = {
   name: string;
   email: string;
   mobile: string;
