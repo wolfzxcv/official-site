@@ -28,7 +28,7 @@ const WCGKN: React.FC<{}> = () => {
       <LiveChat />
       {/* banner */}
       <Flex
-        minH={{ base: '500px', md: '500px' }}
+        minH={{ base: '420px', md: '500px' }}
         bg={{ base: WCGKN_BG_M, md: WCGKN_BG }}
         bgImage={{
           base: '/../assets/images/activity_WCGKN_M.jpg',
@@ -181,7 +181,8 @@ export const WCGKNTitle: React.FC<{}> = () => (
       bg={WCGKN_DATE_BG}
       color={WCGKN_TITLE_FONT}
       py={2}
-      my={10}
+      mt={{ base: 0, md: 10 }}
+      mb={10}
       width={{ base: '100%', md: 'auto' }}
       px={{ base: 'auto', md: '50px' }}
       whiteSpace="nowrap"

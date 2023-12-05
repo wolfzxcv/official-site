@@ -18,7 +18,7 @@ const WCGKN: React.FC<{}> = () => {
           base: '/../assets/images/activity_WCGKN_M.jpg',
           md: '/../assets/images/activity_WCGKN_banner.jpg'
         }}
-        bgPosition={{ base: 'top center', md: 'center' }}
+        bgPosition={{ base: 'center', md: 'center' }}
         bgSize={{ base: 'contain', md: 'cover' }}
         bgRepeat="no-repeat"
         _hover={{
