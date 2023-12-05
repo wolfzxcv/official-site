@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.50.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.49.2...v1.50.0) (2023-12-05)
+
+
+### Features
+
+* **wcgkn:** add activity WCGKN ([4bf7b38](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/4bf7b388b94070a9d5d77ce9395b4566410cffd1))
+
 ### [1.49.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.49.1...v1.49.2) (2023-11-16)
 
 ### [1.49.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.49.0...v1.49.1) (2023-11-04)
