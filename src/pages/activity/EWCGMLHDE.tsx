@@ -68,7 +68,7 @@ const WCGMLHDEDate: React.FC<{}> = () => (
       textAlign="center"
       borderRadius={{ base: 0, md: '25px' }}
     >
-      OCTOBER 24, 2023 TO NOVEMBER 25, 2023
+      WITHIN THREE DAYS OF COMPLETE REGISTRATION OF NEW CUSTOMERS
     </Box>
   </Flex>
 );
@@ -86,7 +86,8 @@ const WCGMLHDEContent: React.FC<{}> = () => (
     <Box mb={5}>
       THANK YOU FOR YOUR SUPPORT OF WCG MARKETS. TO CELEBRATE THE
       COMPANY&lsquo;S DEVELOPMENT IN MALAYSIA, WE WILL LAUNCH THE FOLLOWING
-      PROMOTIONS FROM OCTOBER 24, 2023 TO NOVEMBER 25, 2023:
+      PROMOTIONS FOR WITHIN THREE DAYS OF COMPLETE REGISTRATION OF NEW
+      CUSTOMERS:
     </Box>
     <Box color={WCGMLHDE_FONT_YELLOW}>
       1. PROMOTION TARGET: ALL NEW AND EXISTING MALAYSIAN CUSTOMERS WHO MAKE
@@ -194,8 +195,8 @@ const WCGMLHDERules: React.FC<{}> = () => (
         account openings and deposits will not be calculated cumulatively.
       </Box>
       <Box>
-        3. Customers must complete the first deposit within 30 days after
-        opening an account, otherwise it will be invalid.
+        3. Customers must complete the first deposit within 3 days after opening
+        an account, otherwise it will be invalid.
       </Box>
       <Box>
         4. The deposit amount must be $300 or above to be eligible for the
