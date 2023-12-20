@@ -12,6 +12,7 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
+import WCGCH2023 from '@/components/PopUp/WCGCH2023';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -64,6 +65,7 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      <WCGCH2023 lang={isChinese ? currentLang : 'en'} />
       <IntroductionVideo />
 
       <Carousel
