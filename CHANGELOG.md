@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.50.4](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.3...v1.50.4) (2023-12-20)
+
+
+### Bug Fixes
+
+* **popup:** add Christmas popup ([ff6d3c9](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/ff6d3c9af722ff73def65c319fa34fb9236f3f7c))
+
 ### [1.50.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.2...v1.50.3) (2023-12-18)
 
 ### [1.50.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.1...v1.50.2) (2023-12-11)
