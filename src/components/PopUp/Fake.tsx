@@ -33,12 +33,12 @@ const FakeContentZh: React.FC<{}> = () => {
     <Stack spacing={5} p={5}>
       <Text as="b">
         澄清聲明:
-        假冒網站「https://wcgfore.com」與本集團及旗下業務絕無任何關聯。
+        假冒網站「https://wcgfore.com」「www.wcgplus.com」與本公司及旗下業務絕無任何關聯。。
       </Text>
       <Text>
         致廣大客戶及投資者:
         <br /> <br />
-        本集團客服近日收到查詢，得悉有自稱為「https://wcgfore.com」的網站假冒本集團。有關網站在未有本集團的授權、同意及/或批准下使用及展示與本集團或與本集團相似的商業名稱或商標，以及盜用本集團牌照規管資訊，提供網上交易活動，誘使公眾誤信其與本集團有關。
+        本集團客服近日收到查詢，得悉有自稱為「https://wcgfore.com」「www.wcgplus.com」的網站假冒本集團。有關網站在未有本集團的授權、同意及/或批准下使用及展示與本集團或與本集團相似的商業名稱或商標，以及盜用本集團牌照規管資訊，提供網上交易活動，誘使公眾誤信其與本集團有關。
         <br /> <br />
         有關網站截圖如下:
       </Text>
@@ -49,6 +49,18 @@ const FakeContentZh: React.FC<{}> = () => {
         <Image
           src={`/../assets/images/pop_up_fake-2.png`}
           alt="pop_up_fake-2"
+        />
+      </Box>
+      <Box>
+        <Image
+          src={`/../assets/images/pop_up_fake-3.png`}
+          alt="pop_up_fake-3"
+        />
+      </Box>
+      <Box>
+        <Image
+          src={`/../assets/images/pop_up_fake-4.png`}
+          alt="pop_up_fake-4"
         />
       </Box>
       <Text>
@@ -67,7 +79,7 @@ const FakeContentZh: React.FC<{}> = () => {
         文傳金融集團 謹啟
         <br />
         <br />
-        二零二三年十月十六日
+        二零二三年十二月二十二日
         <br />
       </Text>
     </Stack>
@@ -79,12 +91,12 @@ const FakeContentCn: React.FC<{}> = () => {
     <Stack spacing={5} p={5}>
       <Text as="b">
         澄清声明:
-        假冒网站「https://wcgfore.com」与本集团及旗下业务绝无任何关联。
+        假冒网站「https://wcgfore.com」「www.wcgplus.com」与本集团及旗下业务绝无任何关联。
       </Text>
       <Text>
         致广大客户及投资者:
         <br /> <br />
-        本集团客服近日收到查询，得悉有自称为「https://wcgfore.com」的网站假冒本集团。有关网站在未有本集团的授权、同意及/或批准下使用及展示与本集团或与本集团相似的商业名称或商标，以及盗用本集团牌照规管资讯，提供网上交易活动，诱使公众误信其与本集团有关。
+        本集团客服近日收到查询，得悉有自称为「https://wcgfore.com」「www.wcgplus.com」的网站假冒本集团。有关网站在未有本集团的授权、同意及/或批准下使用及展示与本集团或与本集团相似的商业名称或商标，以及盗用本集团牌照规管资讯，提供网上交易活动，诱使公众误信其与本集团有关。
         <br /> <br />
         有关网站截图如下:
       </Text>
@@ -95,6 +107,18 @@ const FakeContentCn: React.FC<{}> = () => {
         <Image
           src={`/../assets/images/pop_up_fake-2.png`}
           alt="pop_up_fake-2"
+        />
+      </Box>
+      <Box>
+        <Image
+          src={`/../assets/images/pop_up_fake-3.png`}
+          alt="pop_up_fake-3"
+        />
+      </Box>
+      <Box>
+        <Image
+          src={`/../assets/images/pop_up_fake-4.png`}
+          alt="pop_up_fake-4"
         />
       </Box>
       <Text>
@@ -113,7 +137,7 @@ const FakeContentCn: React.FC<{}> = () => {
         文传金融集团 谨启
         <br />
         <br />
-        二零二三年十月十六日
+        二零二三年十二月二十二日
         <br />
       </Text>
     </Stack>
@@ -123,7 +147,7 @@ const FakeContentCn: React.FC<{}> = () => {
 const FakeContentEn: React.FC<{}> = () => {
   return (
     <Stack spacing={5} p={5}>
-      <Box>16 October 2023</Box>
+      <Box>22 December 2023</Box>
 
       <Box fontWeight={700} textDecoration="underline">
         Beware of Deliberately Fraudulent and Phishing Websites
@@ -131,7 +155,7 @@ const FakeContentEn: React.FC<{}> = () => {
 
       <Box>
         Clarification: The below websites is not affiliated with our company or
-        brand “https://wcgfore.com”
+        brand &quot;https://wcgfore.com&quot; and &quot;www.wcgplus.com&quot;
       </Box>
 
       <Box>To our customers and investors:</Box>
@@ -152,6 +176,18 @@ const FakeContentEn: React.FC<{}> = () => {
         <Image
           src={`/../assets/images/pop_up_fake-2.png`}
           alt="pop_up_fake-2"
+        />
+      </Box>
+      <Box>
+        <Image
+          src={`/../assets/images/pop_up_fake-3.png`}
+          alt="pop_up_fake-3"
+        />
+      </Box>
+      <Box>
+        <Image
+          src={`/../assets/images/pop_up_fake-4.png`}
+          alt="pop_up_fake-4"
         />
       </Box>
       <Box>

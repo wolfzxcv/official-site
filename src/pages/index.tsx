@@ -12,6 +12,7 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import Clarification from '@/components/PopUp/Clarification';
+import Fake from '@/components/PopUp/Fake';
 import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
 import WCGCH2023 from '@/components/PopUp/WCGCH2023';
 import { Locales } from '@/i18n/config';
@@ -67,6 +68,7 @@ const Index: React.FC<{}> = () => {
   return (
     <Wrapper>
       <Clarification />
+      <Fake />
       <WCGCH2023 lang={isChinese ? currentLang : 'en'} />
       <IntroductionVideo />
 

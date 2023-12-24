@@ -52,6 +52,7 @@ const PopUp: React.FC<PopUpProps> = ({
       onClose={onClose}
       isOpen={isOpen}
       scrollBehavior="inside"
+      blockScrollOnMount={false}
       isCentered
       size={size}
     >
