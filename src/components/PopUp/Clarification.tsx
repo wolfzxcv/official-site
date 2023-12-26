@@ -82,7 +82,7 @@ const ClarificationContentZh: React.FC<{}> = () => {
         WCG MARKETS 謹啟
         <br />
         <br />
-        二零二二年十二月二十二日
+        二零二三年十二月二十二日
         <br />
       </Text>
     </Stack>
@@ -143,7 +143,7 @@ const ClarificationContentCn: React.FC<{}> = () => {
         WCG MARKETS 谨启
         <br />
         <br />
-        二零二二年十二月二十二日
+        二零二三年十二月二十二日
         <br />
       </Text>
     </Stack>
@@ -204,7 +204,7 @@ const ClarificationContentEn: React.FC<{}> = () => {
         WCG MARKETS 谨启
         <br />
         <br />
-        二零二二年十二月二十二日
+        二零二三年十二月二十二日
         <br />
       </Text>
     </Stack>
