@@ -241,7 +241,7 @@ const WCGMLHDERules: React.FC<{}> = () => (
         account.
       </Box>
       <Box>
-        14. A single trading account can receive a maximum gift of $30,000.
+        14. A single trading account can receive a maximum gift of $1,000.
       </Box>
       <Box>
         15. WCG reserves the right to amend or terminate this promotion at any

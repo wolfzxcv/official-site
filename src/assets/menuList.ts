@@ -76,7 +76,7 @@ export const menuList: IMenuItem[] = [
     i18n: 'marketNews',
     children: [
       { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' },
-      { i18n: 'financialNews', href: '/marketNews/financialNews' },
+      // { i18n: 'financialNews', href: '/marketNews/financialNews' },
       { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
     ]
   },
