@@ -7,15 +7,12 @@ import WCGMLHDE from '@/components/Banner/EWCGMLHDE';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGKN from '@/components/Banner/WCGKN';
-import WCGNY2023 from '@/components/Banner/WCGNY2023';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import Clarification from '@/components/PopUp/Clarification';
 import Fake from '@/components/PopUp/Fake';
-import IntroductionVideo from '@/components/PopUp/IntroductionVideo';
-import NY2023 from '@/components/PopUp/NY2023';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -66,14 +63,10 @@ const Index: React.FC<{}> = () => {
     sliders = [<EWCGYNH key="EWCGYNH" />, ...sliders];
   }
 
-  sliders = [<WCGNY2023 key="WCGNY2023" />, ...sliders];
-
   return (
     <Wrapper>
       <Clarification />
       <Fake />
-      <NY2023 lang={currentLang === 'zh' ? currentLang : 'cn'} />
-      <IntroductionVideo />
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}
