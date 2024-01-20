@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.51.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.10...v1.51.0) (2024-01-20)
+
+
+### Features
+
+* **home:** add EWCGMLN activity for ms language ([a22d9c6](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/a22d9c6dc65302c8a759fd78dd634870f38fd163))
+
 ### [1.50.10](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.9...v1.50.10) (2024-01-16)
 
 ### [1.50.9](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.8...v1.50.9) (2024-01-12)
