@@ -75,7 +75,7 @@ const EWCGMLNContent: React.FC<{}> = () => (
         borderTop={{ base: `1px solid ${EWCGMLN_FONT_YELLOW}`, md: 'none' }}
         width="fit-content"
       >
-        2024年1月29日至2024年3月31日
+        2024年1月22日至2024年3月31日
       </Box>
     </Flex>
 
