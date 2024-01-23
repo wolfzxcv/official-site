@@ -173,6 +173,7 @@
   - [WCGIPH](https://www.wcgmarkets-global.com/activity/WCGIPH)
   - [WCGXJJ](https://www.wcgmarkets-global.com/activity/WCGXJJ)
   - [WCGKN](https://www.wcgmarkets-global.com/activity/WCGKN)
+  - [WCGLNX](https://www.wcgmarkets-global.com/activity/WCGLNX)
 
 - 馬來語系專門活動, 使用英文
 

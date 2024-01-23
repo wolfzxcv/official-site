@@ -282,10 +282,6 @@ const StyledWCGKNTable = styled.table`
     font-size: ${{ base: '16px', md: '20pt' }};
     white-space: ${{ base: 'nowrap', md: 'inherit' }};
   }
-
-  .yellow {
-    color: ${WCGKN_TABLE_FONT_YELLOW};
-  }
 `;
 
 const WCGKNRules: React.FC<{}> = () => (

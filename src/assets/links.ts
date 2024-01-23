@@ -43,11 +43,7 @@ export const links = {
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
-    'https://my.wcgmarkets-global.com/login',
-  // 用戶中心(新的)
-  usersCenterNew:
-    process.env.NEXT_PUBLIC_USERS_CENTER_NEW ||
-    'https://clientportal.wcgmarkets-asia.com/',
+    'https://clientportal.wcgmarkets-sy.com/login',
   // 聯絡信箱
   email: 'support@wcgmarkets.com',
   // 聯絡電話
