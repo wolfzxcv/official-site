@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.52.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.51.1...v1.52.0) (2024-01-23)
+
+
+### Features
+
+* **many:** add activity WCGLNX, update README, package.json, links.ts, some wording ([5abd183](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/5abd183d5a499019a4d2546f2885a5f23e61f834))
+
 ### [1.51.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.51.0...v1.51.1) (2024-01-20)
 
 ## [1.51.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.50.10...v1.51.0) (2024-01-20)
