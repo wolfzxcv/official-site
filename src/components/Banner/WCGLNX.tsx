@@ -9,14 +9,20 @@ const WCGLNX: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
+  const isZh = currentLang === 'zh';
+
   return (
     <NextLink passHref={true} href="/activity/WCGLNX" locale={currentLang}>
       <Box
         minH={{ base: '600px', md: '500px' }}
         bg={WCGLNX_BG}
         bgImage={{
-          base: '/../assets/images/activity_WCGLNX_M.jpg',
-          md: '/../assets/images/activity_WCGLNX_banner.jpg'
+          base: isZh
+            ? '/../assets/images/activity_WCGLNX_M_zh.jpg'
+            : '/../assets/images/activity_WCGLNX_M.jpg',
+          md: isZh
+            ? '/../assets/images/activity_WCGLNX_banner_zh.jpg'
+            : '/../assets/images/activity_WCGLNX_banner.jpg'
         }}
         bgPosition={{ base: 'top center', md: 'center' }}
         bgSize={{ base: 'contain', md: 'cover' }}

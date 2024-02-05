@@ -12,7 +12,6 @@ import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
-import Clarification from '@/components/PopUp/Clarification';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -69,8 +68,6 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
-      <Clarification />
-
       <Carousel
         defaultSlider={<Banner key="Banner" />}
         sliders={sliders}
