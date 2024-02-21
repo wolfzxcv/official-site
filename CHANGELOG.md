@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.53.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.52.4...v1.53.0) (2024-02-21)
+
+
+### Features
+
+* **popup:** add Adjustment2, remove NY2024 popup ([f8b30f4](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/f8b30f40a11a8072208aeb9db63f42a61e4050bf))
+
 ### [1.52.4](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.52.3...v1.52.4) (2024-02-07)
 
 ### [1.52.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.52.2...v1.52.3) (2024-02-05)
