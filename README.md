@@ -175,6 +175,7 @@
   - [WCGKN](https://www.wcgmarkets-global.com/activity/WCGKN)
   - [WCGLNX](https://www.wcgmarkets-global.com/activity/WCGLNX)
   - [WCGYJJ](https://www.wcgmarkets-global.com/activity/WCGYJJ)
+  - [WCGSSJ](https://www.wcgmarkets-global.com/activity/WCGSSJ)
 
 - 馬來語系專門活動, 使用英文
 
