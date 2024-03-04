@@ -22,7 +22,7 @@ const WCGYJJ: React.FC<{}> = () => {
       <LiveChat />
       {/* banner */}
       <Flex
-        minH={{ base: '420px', md: '500px' }}
+        minH={{ base: '420px', md: '608px' }}
         bg={WCGYJJ_BG}
         bgImage={{
           base: '/../assets/images/activity_WCGYJJ_M.jpg',
