@@ -176,6 +176,8 @@
   - [WCGLNX](https://www.wcgmarkets-global.com/activity/WCGLNX)
   - [WCGYJJ](https://www.wcgmarkets-global.com/activity/WCGYJJ)
   - [WCGSSJ](https://www.wcgmarkets-global.com/activity/WCGSSJ)
+  - [WCGSSJ15](https://www.wcgmarkets-global.com/activity/WCGSSJ15)
+  - [WCGSSJ40](https://www.wcgmarkets-global.com/activity/WCGSSJ40)
 
 - 馬來語系專門活動, 使用英文
 

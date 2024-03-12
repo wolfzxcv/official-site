@@ -13,7 +13,7 @@ const WCGSSJ_FOOTER_BG = '#0a1e3f';
 
 const WCGSSJ_TITLE_FONT = 'white';
 
-const WCGSSJ: React.FC<{}> = () => {
+const WCGSSJ40: React.FC<{}> = () => {
   return (
     <>
       <HTMLHead />
@@ -23,8 +23,8 @@ const WCGSSJ: React.FC<{}> = () => {
         minH={{ base: '420px', md: '500px' }}
         bg={WCGSSJ_BG}
         bgImage={{
-          base: '/../assets/images/activity_WCGSSJ_M.jpg',
-          md: '/../assets/images/activity_WCGSSJ.jpg'
+          base: '/../assets/images/activity_WCGSSJ40_M.jpg',
+          md: '/../assets/images/activity_WCGSSJ40.jpg'
         }}
         bgPosition={{ base: 'top center', md: 'top center' }}
         bgSize={{ base: 'contain', md: 'cover' }}
@@ -164,7 +164,7 @@ export const WCGSSJTitle: React.FC<{}> = () => {
         fontSize={{ base: '14px', md: '22px' }}
         textAlign="center"
       >
-        每日返利首筆平倉交易最高達80美元
+        每日返利首筆平倉交易最高達40美元
       </Box>
 
       <Box mt={10} mb={2} fontWeight={700}>
@@ -184,12 +184,12 @@ const WCGSSJRules: React.FC<{}> = () => {
       <Box textAlign="center" fontWeight="bold" mb={5}>
         ·條款細則
       </Box>
-      <Box>1. 存入不低於5000美元到WCG MARKETS標準交易賬戶。</Box>
+      <Box>1. 存入不低於3000美元到WCG MARKETS標準交易賬戶。</Box>
       <Box>2. 需主動向客服報名參加。</Box>
       <Box>3. 活動時間由客服確定報名的當天起計算20個交易日。</Box>
       <Box>4. 活動期間如申請任何出金會取消活動資格。</Box>
       <Box>5. 返利於活動結束的10天內發放並調整到客戶的MT4賬戶。</Box>
-      <Box>6. 單日返利最高上限80美元。</Box>
+      <Box>6. 單日返利最高上限40美元。</Box>
       <Box>
         7.
         返利只適用于每個交易日的第一筆平倉交易，如果當天的交易損失超過返利金額，客戶必須按正常交易條款由賬戶餘額扣除。
@@ -220,4 +220,4 @@ const WCGSSJRules: React.FC<{}> = () => {
   );
 };
 
-export default WCGSSJ;
+export default WCGSSJ40;
