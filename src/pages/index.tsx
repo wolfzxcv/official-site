@@ -7,7 +7,7 @@ import WCGMLHDE from '@/components/Banner/EWCGMLHDE';
 import EWCGMLN from '@/components/Banner/EWCGMLN';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGYJJ from '@/components/Banner/WCGYJJ';
+import WCGRJJ from '@/components/Banner/WCGRJJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -42,7 +42,7 @@ const Index: React.FC<{}> = () => {
   }
 
   if (currentLang !== 'th' && currentLang !== 'ms' && currentLang !== 'id') {
-    sliders = [<WCGYJJ key="WCGYJJ" />, ...sliders];
+    sliders = [<WCGRJJ key="WCGRJJ" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
