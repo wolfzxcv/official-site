@@ -1,6 +1,5 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
-import BannerVN1 from '@/components/Banner/BannerVN1';
 import BannerVN2 from '@/components/Banner/BannerVN2';
 import BannerVN3 from '@/components/Banner/BannerVN3';
 import WCGMLHDE from '@/components/Banner/EWCGMLHDE';
@@ -47,7 +46,7 @@ const Index: React.FC<{}> = () => {
 
   if (currentLang === 'vi') {
     sliders = [
-      <BannerVN1 key="BannerVN1" />,
+      // <BannerVN1 key="BannerVN1" />,
       <BannerVN2 key="BannerVN2" />,
       <BannerVN3 key="BannerVN3" />,
       ...sliders
