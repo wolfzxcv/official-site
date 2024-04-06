@@ -1,6 +1,8 @@
 # WCG Markets 官網
 
-- [正式環境](https://www.wcgmarkets-global.com/)
+- [正式環境](https://www.wcgmarkets.com/)
+- [正式環境2](https://www.wcgmarkets-asia.com/)
+- [正式環境3](https://global.wcgmarkets.com/)
 - 測試環境 server 已停用
 
 ## 運行方式

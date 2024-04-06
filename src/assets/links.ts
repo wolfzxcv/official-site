@@ -35,15 +35,15 @@ export const links = {
   // 開立真實帳戶
   registerReal:
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
-    'https://clientportal.wcgmarkets-max.com/register/trader/multi-step?link_id=dsnpsip4',
+    'https://clientportal.wcgmarkets-vip.com/register/trader/multi-step?link_id=dsnpsip4',
   // 開立模擬帳戶
   registerDemo:
     process.env.NEXT_PUBLIC_REGISTER_DEMO ||
-    'https://clientportal.wcgmarkets-max.com/register/demo?link_id=qqod20vx',
+    'https://clientportal.wcgmarkets-vip.com/register/demo?link_id=qqod20vx',
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
-    'https://clientportal.wcgmarkets-max.com/',
+    'https://clientportal.wcgmarkets-vip.com/',
   // 聯絡信箱
   email: 'support@wcgmarkets.com',
   // 聯絡電話
