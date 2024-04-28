@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.58.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.57.3...v1.58.0) (2024-04-28)
+
+
+### Features
+
+* **activity:** add WCGWYJ, update README ([886420f](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/886420fc4fa593264c41ceaf6451c4de39394b21))
+
 ### [1.57.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.57.2...v1.57.3) (2024-04-06)
 
 ### [1.57.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.57.1...v1.57.2) (2024-04-01)
