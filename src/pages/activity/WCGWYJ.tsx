@@ -1,6 +1,5 @@
 import { links } from '@/assets/links';
 import HTMLHead from '@/components/Base/HTMLHead';
-import LiveChat from '@/components/Base/LiveChat';
 import { Locales } from '@/i18n/config';
 import { Box, Flex, Link, Stack } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
@@ -19,7 +18,7 @@ const WCGWYJ: React.FC<{}> = () => {
   return (
     <>
       <HTMLHead />
-      <LiveChat />
+
       {/* banner */}
       <Flex
         minH={{ base: '420px', md: '626px' }}

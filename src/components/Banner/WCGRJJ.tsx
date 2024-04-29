@@ -9,7 +9,8 @@ const WCGRJJ: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
-  const picLang = currentLang === 'zh' ? 'zh' : 'cn';
+  const picLang =
+    currentLang === 'zh' ? 'zh' : currentLang === 'vi' ? 'vi' : 'cn';
 
   return (
     <NextLink passHref={true} href="/activity/WCGRJJ" locale={currentLang}>

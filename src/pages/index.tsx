@@ -39,12 +39,21 @@ const Index: React.FC<{}> = () => {
     sliders = [<WCGDC key="WCGDC" />, ...sliders];
   }
 
-  if (currentLang !== 'th' && currentLang !== 'ms' && currentLang !== 'id') {
+  if (
+    currentLang !== 'th' &&
+    currentLang !== 'ms' &&
+    currentLang !== 'id' &&
+    currentLang !== 'vi'
+  ) {
     sliders = [<WCGRJJ key="WCGRJJ" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
-    sliders = [<BannerVN2 key="BannerVN2" />, ...sliders];
+    sliders = [
+      <BannerVN2 key="BannerVN2" />,
+      <WCGRJJ key="WCGRJJ" />,
+      ...sliders
+    ];
   }
 
   if (currentLang === 'ms') {
