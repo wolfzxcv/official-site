@@ -1,12 +1,11 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import BannerVN2 from '@/components/Banner/BannerVN2';
-import BannerVN3 from '@/components/Banner/BannerVN3';
 import WCGMLHDE from '@/components/Banner/EWCGMLHDE';
 import EWCGMLN from '@/components/Banner/EWCGMLN';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGWYJ from '@/components/Banner/WCGWYJ';
+import WCGRJJ from '@/components/Banner/WCGRJJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -36,21 +35,16 @@ const Index: React.FC<{}> = () => {
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
   let sliders = [<Banner key="Banner" />];
 
-  if (currentLang !== 'th') {
+  if (currentLang !== 'th' && currentLang !== 'vi') {
     sliders = [<WCGDC key="WCGDC" />, ...sliders];
   }
 
   if (currentLang !== 'th' && currentLang !== 'ms' && currentLang !== 'id') {
-    sliders = [<WCGWYJ key="WCGWYJ" />, ...sliders];
+    sliders = [<WCGRJJ key="WCGRJJ" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
-    sliders = [
-      // <BannerVN1 key="BannerVN1" />,
-      <BannerVN2 key="BannerVN2" />,
-      <BannerVN3 key="BannerVN3" />,
-      ...sliders
-    ];
+    sliders = [<BannerVN2 key="BannerVN2" />, ...sliders];
   }
 
   if (currentLang === 'ms') {
