@@ -6,6 +6,7 @@ import EWCGMLN from '@/components/Banner/EWCGMLN';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGRJJ from '@/components/Banner/WCGRJJ';
+import WCGWYJ from '@/components/Banner/WCGWYJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
@@ -45,7 +46,7 @@ const Index: React.FC<{}> = () => {
     currentLang !== 'id' &&
     currentLang !== 'vi'
   ) {
-    sliders = [<WCGRJJ key="WCGRJJ" />, ...sliders];
+    sliders = [<WCGWYJ key="WCGWYJ" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
