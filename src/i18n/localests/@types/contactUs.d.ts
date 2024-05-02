@@ -125,6 +125,4 @@ export type ContactUs = {
   AMoreHumanizedUserCenter: string;
   /** Awarded as the */
   AwardedAsThe: string;
-  /** Obtained the Precious Metals */
-  ObtainedThePreciousMetals: string;
 };

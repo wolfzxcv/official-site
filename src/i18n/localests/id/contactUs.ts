@@ -57,7 +57,7 @@ export const contactUs: ContactUs = {
   establishedMalaysia: 'Mendirikan Kantor Penghubung Malaysia.',
   setUpTaiwan: 'Mendirikan Kantor Penghubung Taiwan.',
   aLeaderInTheIndustry:
-    'Tuan Wu Guoqiang, seorang pemimpin dalam industri ini, bergabung dan bertanggung jawab atas departemen pengendalian dan pemantauan risiko. Mr. Wu memiliki gelar master di bidang keuangan dan sejumlah kualifikasi profesional internasional. Dia telah menjabat sebagai kepala pedagang dan kepala departemen manajemen risiko di banyak bank kelas dunia.',
+    'Tuan Wu, seorang pemimpin dalam industri ini, bergabung dan bertanggung jawab atas departemen pengendalian dan pemantauan risiko. Mr. Wu memiliki gelar master di bidang keuangan dan sejumlah kualifikasi profesional internasional. Dia telah menjabat sebagai kepala pedagang dan kepala departemen manajemen risiko di banyak bank kelas dunia.',
   WCGMarketsLtdObtainedTheFINTRAC:
     'WCG Markets Ltd memperoleh lisensi FINTRAC MSB Kanada, nomornya M20282836.',
   startCharityProjects:
@@ -72,7 +72,7 @@ export const contactUs: ContactUs = {
   TheStrengthOfWCGMarketsIsReconfirmed:
     'Kekuatan WCG Markets ditegaskan kembali bahwa kemampuan manajemen fungsi platform perdagangan elektronik berada di atas tingkat standar, dan telah lulus uji penilaian dan berhasil menyelesaikan proyek yang ditunjuk dan prosedur penilaian. Memperoleh lencana Bersertifikat GTP dari Asosiasi Perdagangan Emas dan Perak.',
   WCGMarketsWonTheThirdPlace:
-    'WCG Markets memenangkan tempat ketiga dalam donasi amal tertinggi dari sebuah perusahaan Hong Kong pada tahun 2021. Kehormatan ini merupakan penegasan penuh atas pencapaian kesejahteraan publik yang luar biasa dari WCG Markets.',
+    'WCG Markets memenangkan tempat ketiga dalam donasi amal tertinggi dari sebuah perusahaan pada tahun 2021. Kehormatan ini merupakan penegasan penuh atas pencapaian kesejahteraan publik yang luar biasa dari WCG Markets.',
   BusinessExpansionTechnologyUpgrade:
     'Ekspansi bisnis, peningkatan teknologi, akuisisi server perdagangan ASA, untuk memberi pelanggan lingkungan perdagangan yang lebih unggul.',
   WCGMarketsAcquired:
@@ -80,7 +80,5 @@ export const contactUs: ContactUs = {
   AMoreHumanizedUserCenter:
     'Pusat pengguna yang lebih manusiawi yang dibangun dengan teknologi kecerdasan buatan baru menghadirkan pengalaman terbaik bagi pelanggan.',
   AwardedAsThe:
-    'Dianugerahi sebagai perusahaan [Teknologi dan Solusi Finansial Terbaik] oleh agen pemeringkat regulator terkenal [Foreign Exchange WikiFX].',
-  ObtainedThePreciousMetals:
-    'Memperoleh lisensi [Pendaftaran Dealer Logam Mulia dan Batu Permata] dari Departemen Pabean Wilayah Administratif Khusus Hong Kong, Republik Rakyat Tiongkok.'
+    'Dianugerahi sebagai perusahaan [Teknologi dan Solusi Finansial Terbaik] oleh agen pemeringkat regulator terkenal [Foreign Exchange WikiFX].'
 };

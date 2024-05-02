@@ -119,13 +119,6 @@ const companyNews: React.FC<{}> = () => {
       month: t('April'),
       text: [t('AwardedAsThe')],
       color: '#3e7b97'
-    },
-    {
-      year: '2023',
-      month: t('June'),
-      text: [t('ObtainedThePreciousMetals')],
-      color: '#e23a59',
-      href: 'https://www.drs.customs.gov.hk/wsrh/001s0'
     }
   ];
   return (

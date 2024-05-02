@@ -54,7 +54,7 @@ export const contactUs: ContactUs = {
   establishedMalaysia: '設立馬來西亞聯絡處',
   setUpTaiwan: '設立台灣聯絡處',
   aLeaderInTheIndustry:
-    '業界翹楚吳國強先生強勢加盟，負責風控及監控部門。吳先生擁有財務碩士學位及多項國際專業資格，歷任多家世界級銀行首席交易員和風險管理部主管',
+    '業界翹楚吳先生強勢加盟，負責風控及監控部門。吳先生擁有財務碩士學位及多項國際專業資格，歷任多家世界級銀行首席交易員和風險管理部主管',
   WCGMarketsLtdObtainedTheFINTRAC:
     'WCG Markets Ltd取得拿大FINTRAC MSB牌照，號碼為 M20282836',
   startCharityProjects:
@@ -69,7 +69,7 @@ export const contactUs: ContactUs = {
   TheStrengthOfWCGMarketsIsReconfirmed:
     'WCG Markets 實力再被確認電子交易平台功能的管理能力均在標準以上的水準， 並通過考核測試，順利完成指定項目及考核程式。獲金銀業貿易場GTP Certified徽章。',
   WCGMarketsWonTheThirdPlace:
-    'WCG Markets 獲得2021年度香港公司最高慈善捐款第三名的殊榮，這項榮譽，是對WCG Markets 出色的公益成果的充分肯定。',
+    'WCG Markets 獲得2021年度公司最高慈善捐款第三名的殊榮，這項榮譽，是對WCG Markets 出色的公益成果的充分肯定。',
   BusinessExpansionTechnologyUpgrade:
     '業務再擴張，技術升級，收購ASA交易伺服器，為客戶提供更優越的交易環境。',
   WCGMarketsAcquired:
@@ -77,7 +77,5 @@ export const contactUs: ContactUs = {
   AMoreHumanizedUserCenter:
     '採用全新人工智能技術打造的更人性化的用戶中心，為客戶帶來極致的體驗。',
   AwardedAsThe:
-    '獲得知名交易商監管評分機構[外匯天眼 WikiFX]評為[最佳金融科技和解決方案]公司。',
-  ObtainedThePreciousMetals:
-    '取得中華人民共和國香港特別行政區海關處[貴金屬及寶石交易商註冊]牌照。'
+    '獲得知名交易商監管評分機構[外匯天眼 WikiFX]評為[最佳金融科技和解決方案]公司。'
 };
