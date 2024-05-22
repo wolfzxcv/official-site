@@ -189,6 +189,7 @@
 
   - [WCGMLHDE](https://www.wcgmarkets.com/activity/WCGMLHDE)
   - [EWCGMLN](https://www.wcgmarkets.com/activity/EWCGMLN)
+  - [EWCGMLHD](https://www.wcgmarkets.com/activity/EWCGMLHD)
 
 - 印尼語系專門活動, 使用印尼語
 
