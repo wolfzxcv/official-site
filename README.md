@@ -184,6 +184,7 @@
   - [WCGSSJ40](https://www.wcgmarkets.com/activity/WCGSSJ40)
   - [WCGRJJ](https://www.wcgmarkets.com/activity/WCGRJJ)
   - [WCGWYJ](https://www.wcgmarkets.com/activity/WCGWYJ)
+  - [WCG20RJ](https://www.wcgmarkets.com/activity/WCG20RJ)
 
 - 馬來語系專門活動, 使用英文
 
