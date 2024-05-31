@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
 type ApiDataListProps = {
-  api: '/market' | '/responsibility' | '/notice' | '/news';
+  api: '/market' | '/responsibility' | '/notice' | '/news' | '/checkip';
 };
 
 const InfoAccordion = dynamic(() => import('./InfoAccordion'), { ssr: false });
