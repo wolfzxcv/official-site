@@ -8,9 +8,9 @@ import {
   Flex,
   Icon,
   Link,
+  PopoverTrigger as OrigPopoverTrigger,
   Popover,
   PopoverContent,
-  PopoverTrigger as OrigPopoverTrigger,
   Stack,
   Text,
   useColorModeValue
@@ -114,7 +114,10 @@ const DesktopSubNav: React.FC<ILinkSource> = ({
       isExternal={isExternal}
       role={'group'}
       display={
-        currentLang === 'cn' && i18n === 'cryptocurrencies' ? 'none' : 'block'
+        (currentLang === 'cn' && i18n === 'cryptocurrencies') ||
+        (currentLang !== 'vi' && i18n === 'depositBonus')
+          ? 'none'
+          : 'block'
       }
       p={2}
       rounded={'md'}
@@ -128,7 +131,10 @@ const DesktopSubNav: React.FC<ILinkSource> = ({
       <Box
         role={'group'}
         display={
-          currentLang === 'cn' && i18n === 'cryptocurrencies' ? 'none' : 'block'
+          (currentLang === 'cn' && i18n === 'cryptocurrencies') ||
+          (currentLang !== 'vi' && i18n === 'depositBonus')
+            ? 'none'
+            : 'block'
         }
         p={2}
         rounded={'md'}

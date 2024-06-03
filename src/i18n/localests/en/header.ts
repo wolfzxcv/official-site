@@ -24,6 +24,7 @@ export const header: Header = {
   MT4WebTrader: 'MT4 Web Trader',
   MAMSystem: 'MAM System',
   notice: 'Notice',
+  depositBonus: 'Deposit Bonus',
   abnormalTrade: 'Abnormal Trade',
   tradeDetails: 'Trade Details',
   learnTrade: 'Learn Trade',

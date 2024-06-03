@@ -117,7 +117,9 @@ const MobileNavItem = ({ i18n, href, children }: IMenuItem) => {
                 <Box
                   width="100%"
                   display={
-                    currentLang === 'cn' && child.i18n === 'cryptocurrencies'
+                    (currentLang === 'cn' &&
+                      child.i18n === 'cryptocurrencies') ||
+                    (currentLang !== 'vi' && child.i18n === 'depositBonus')
                       ? 'none'
                       : 'block'
                   }

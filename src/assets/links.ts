@@ -44,6 +44,10 @@ export const links = {
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
     'https://clientportal.wcgmarkets-vip.com/',
+  // 越南語系推廣活動
+  depositBonus:
+    process.env.NEXT_PUBLIC_VI_DEPOSIT_BONUS ||
+    'https://wcg-data.wcgmarkets.com/wcg_deposit_bonus.pdf',
   // 聯絡信箱
   email: 'support@wcgmarkets.com',
   // 聯絡電話

@@ -1,4 +1,5 @@
 import { Header } from '@/i18n/localests/@types/header';
+import { links } from './links';
 
 export type ILinkSource = {
   i18n: keyof Header;
@@ -60,6 +61,11 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'notice',
     children: [
+      {
+        i18n: 'depositBonus',
+        href: links.depositBonus,
+        isExternal: true
+      },
       { i18n: 'abnormalTrade', href: '/notice/abnormalTrade' },
       { i18n: 'tradeDetails', href: '/notice/tradeDetails' }
     ]

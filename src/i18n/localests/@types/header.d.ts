@@ -52,6 +52,8 @@ export type Header = {
   /****************************************/
   /** notice */
   notice: string;
+  /** deposit bonus (vi only) */
+  depositBonus: string;
   /** abnormal trade */
   abnormalTrade: string;
   /** trade details */

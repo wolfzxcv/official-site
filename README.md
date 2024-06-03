@@ -136,6 +136,8 @@
   - MT4 APK下載2
 - NEXT_PUBLIC_MT4_WEB
   - MT4 網頁版
+- NEXT_PUBLIC_VI_DEPOSIT_BONUS
+  - 越南語系推廣活動
 
 ### 活動頁面
 
