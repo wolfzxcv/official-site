@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.61.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.60.1...v1.61.0) (2024-06-03)
+
+
+### Features
+
+* **nav:** vi lang add nav depositBonus, update README, .env, links.ts, etc, add pdf file to AWS S3 ([7fbe172](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/7fbe172923577bd2ea01d2d1623f5c54eafbd880))
+
 ### [1.60.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.60.0...v1.60.1) (2024-05-31)
 
 ## [1.60.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.59.0...v1.60.0) (2024-05-28)
