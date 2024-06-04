@@ -38,6 +38,8 @@ export const questions: Questions = {
     'Setelah volume transaksi tertentu terpenuhi, biaya penanganan akan dibebaskan. Persyaratan volume perdagangan: Jumlah setoran akumulasi terakhir yang berlaku. Misalnya, jumlah setoran terakhir adalah USD 1.000. Biaya transaksi dibebaskan setelah perdagangan 1 lot dan kemudian mengajukan penarikan. Penyetoran USD 2.000 membutuhkan perdagangan 2 lot, dan penyetoran USD 5.000 membutuhkan perdagangan 5 lot, dan seterusnya.',
   ifTheTransactionVolume:
     'Jika volume transaksi tidak mencukupi dan Anda bersikeras untuk menarik, Anda perlu mengurangi 3% dari lot yang diperdagangkan dari jumlah akumulasi deposit terakhir sebagai biaya penarikan. (Pelanggan menyatakan bahwa biaya pemotongan akan dipotong ketika pelanggan menarik uang, jika tidak, penarikan akan ditolak).',
+  ifTheTransactionVolumeIsInsufficient:
+    'Jika volume transaksi tidak mencukupi, biaya administrasi $5 akan dikenakan untuk penarikan di bawah $50.',
   HowDoIKnowMyWithdrawal:
     'Bagaimana saya tahu aplikasi penarikan saya disetujui?',
   onceTheWithdrawalApplication:

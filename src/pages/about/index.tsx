@@ -1,13 +1,10 @@
-import { links } from '@/assets/links';
-import LicenseCard from '@/components/About/LicenseCard';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoButton from '@/components/Common/InfoButton';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import InfoTitleSub from '@/components/Common/InfoTitleSub';
-import LinkButton from '@/components/TopLinks/LinkButton';
 import { Locales } from '@/i18n/config';
-import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Stack } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -46,22 +43,22 @@ const about: React.FC<{}> = () => {
             {t('buildTheWorldWithIntegrity')}
           </Box>
           <Box>{t('WCGHasASolidFoundation')}</Box>
-          <LinkButton
+          {/* <LinkButton
             text={t('registerARealAccountNow')}
-            href={links.registerReal}
+            href={links.register}
             inMobile
             borderColor="#b81c22"
             mdWidth="300px"
-          ></LinkButton>
+          ></LinkButton> */}
 
-          <LinkButton
+          {/* <LinkButton
             text={t('registerADemoAccountNow')}
-            href={links.registerDemo}
+            onClick={openChatWindow}
             inMobile
             borderColor="green"
             mdWidth="300px"
             style={{ marginLeft: '8px' }}
-          ></LinkButton>
+          ></LinkButton> */}
         </Stack>
         <Box paddingX={20} display={{ base: 'none', xl: 'block' }}>
           <Image
@@ -160,7 +157,7 @@ const about: React.FC<{}> = () => {
       </Box>
 
       {/* Strictly regulated and trustworthy */}
-      <Stack bg="red.600" color="white" p={20} spacing={5} textAlign="center">
+      {/* <Stack bg="red.600" color="white" p={20} spacing={5} textAlign="center">
         <InfoTitle size="28px" title={t('strictlyRegulatedAndTrustworthy')} />
         <Text>{t('WCGInternational')}</Text>
         <Flex justify="center" mt={10}>
@@ -181,7 +178,7 @@ const about: React.FC<{}> = () => {
             />
           </Box>
         </Flex>
-      </Stack>
+      </Stack> */}
 
       {/* Diversified products， create the future */}
       <Flex p={{ base: 10, md: 20 }} direction="column" align="center">
@@ -259,7 +256,7 @@ const about: React.FC<{}> = () => {
       </Flex>
 
       {/* License introduction */}
-      <Flex py={20} wrap="wrap" justify="center">
+      {/* <Flex py={20} wrap="wrap" justify="center">
         <Box mb={5} w="100%" textAlign="center">
           <InfoTitle title={t('licenseIntroduction')} />
         </Box>
@@ -299,7 +296,7 @@ const about: React.FC<{}> = () => {
           button={t('view')}
           link="https://www10.fintrac-canafe.gc.ca/msb-esm/public/detailed-information/msb-details/7b226d73624f72674e756d626572223a3136333237382c227072696d617279536561726368223a7b226f72674e616d65223a22574347204d41524b455453204c5444222c2273656172636854797065223a337d7d/"
         />
-      </Flex>
+      </Flex> */}
     </Wrapper>
   );
 };

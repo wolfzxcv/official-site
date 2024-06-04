@@ -21,6 +21,7 @@
   "ifTheCustomerDepositsFunds": "如客戶存入資金後，沒有進行任何交易就要提走，退回資金要收取3%手續費。",
   "afterACertainTransactionVolume": "在滿足一定的交易量後，會豁免手續費。交易量的要求：以最近累計入金金額為準，例如最近一次入金金額為1000美元，需要交易1 手後再申請出金才免手續費，入金2000美金需要交易2 手，入金5000美金就需交易5手，以此類推。",
   "ifTheTransactionVolume": "假如交易量不足，又堅持出金，需要以最近累計入金金額扣除已交易手數部分的3%作為出金手續費。 （客戶在出金時備註同意扣除手續費才會扣除，否則出金會被拒絕）。",
+  "ifTheTransactionVolumeIsInsufficient": "交易量不足，出金低於50美元需要支付5美元行政費用。",
   "HowDoIKnowMyWithdrawal": "如何知道出金申請已經被準予?",
   "onceTheWithdrawalApplication": "一旦提款申請獲得批準，出金金額將自動從平台中扣除，並減少可用於交易和維持任何未結頭寸的保證金。",
   "whatIsTheMT4Platform": "什麽是MT4平台?",

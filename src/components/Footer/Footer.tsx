@@ -2,7 +2,6 @@ import { Box, Divider } from '@chakra-ui/react';
 import React from 'react';
 import { Copyright } from './Copyright';
 import FooterBottom from './FooterBottom';
-import FooterMiddle from './FooterMiddle';
 
 const Footer: React.FC<{}> = () => {
   return (
@@ -16,8 +15,8 @@ const Footer: React.FC<{}> = () => {
     >
       <Copyright />
       <Divider />
-      <FooterMiddle />
-      <Divider />
+      {/* <FooterMiddle />
+      <Divider /> */}
 
       <FooterBottom />
     </Box>

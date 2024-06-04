@@ -1,5 +1,4 @@
 import { Header } from '@/i18n/localests/@types/header';
-import { links } from './links';
 
 export type ILinkSource = {
   i18n: keyof Header;
@@ -21,13 +20,13 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'about',
     children: [
-      { i18n: 'companyNews', href: '/about/companyNews' },
+      // { i18n: 'companyNews', href: '/about/companyNews' },
       // {
       //   i18n: 'corporateResponsibility',
       //   href: '/about/corporateResponsibility'
       // },
       { i18n: 'questions', href: '/about/questions' },
-      { i18n: 'announcements', href: '/about/announcements' },
+      // { i18n: 'announcements', href: '/about/announcements' },
       { i18n: 'aboutUs', href: '/about' },
       { i18n: 'contactUs', href: '/about/contactUs' }
     ]
@@ -61,11 +60,6 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'notice',
     children: [
-      {
-        i18n: 'depositBonus',
-        href: links.depositBonus,
-        isExternal: true
-      },
       { i18n: 'abnormalTrade', href: '/notice/abnormalTrade' },
       { i18n: 'tradeDetails', href: '/notice/tradeDetails' }
     ]
@@ -81,8 +75,9 @@ export const menuList: IMenuItem[] = [
   {
     i18n: 'marketNews',
     children: [
-      { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' },
-      { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
+      { i18n: 'financialCalendar', href: '/marketNews/financialCalendar' }
+      // { i18n: 'financialNews', href: '/marketNews/financialNews' }
+      // { i18n: 'marketAnalysis', href: '/marketNews/marketAnalysis' }
     ]
   },
   {
@@ -93,8 +88,8 @@ export const menuList: IMenuItem[] = [
       {
         i18n: 'regionalRepresentative',
         href: '/partner/regionalRepresentative'
-      },
-      { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
+      }
+      // { i18n: 'whiteLabelCooperation', href: '/partner/whiteLabelCooperation' }
     ]
   }
 ];

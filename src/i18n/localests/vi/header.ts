@@ -24,7 +24,6 @@ export const header: Header = {
   MT4WebTrader: 'Nhà giao dịch web MT4',
   MAMSystem: 'Hệ thống quản',
   notice: 'Thông báo giao dịch',
-  depositBonus: 'Tiền thưởng tiền gửi',
   abnormalTrade: 'Giao dịch bất thường',
   tradeDetails: 'Chi tiết giao dịch',
   learnTrade: 'Cách giao dịch',

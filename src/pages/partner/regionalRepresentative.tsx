@@ -1,10 +1,10 @@
-import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
-import InfoButton from '@/components/Common/InfoButton';
+import InfoButtonBase from '@/components/Common/InfoButtonBase';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import { StyledBoxTag } from '@/components/Styled/Styled';
 import { Locales } from '@/i18n/config';
+import { openChatWindow } from '@/utils';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -47,10 +47,9 @@ const regionalRepresentative: React.FC<{}> = () => {
           </Flex>
 
           <Text my={10}>{t('thisIsAUnique')}</Text>
-          <InfoButton
+          <InfoButtonBase
             text={t('representativeApplication')}
-            href={links.majkf}
-            isExternal
+            onClick={openChatWindow}
           />
         </Box>
         <Image
@@ -252,7 +251,7 @@ const regionalRepresentative: React.FC<{}> = () => {
           <Text>{t('wCGIsCurrently')}</Text>
         </Box>
         <Box>
-          <InfoButton text={t('applyNow')} href={links.majkf} isExternal />
+          <InfoButtonBase text={t('applyNow')} onClick={openChatWindow} />
         </Box>
       </Flex>
     </Wrapper>

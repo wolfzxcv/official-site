@@ -52,13 +52,12 @@ const PopUp: React.FC<PopUpProps> = ({
       onClose={onClose}
       isOpen={isOpen}
       scrollBehavior="inside"
-      blockScrollOnMount={false}
       isCentered
       size={size}
     >
       <AlertDialogOverlay />
 
-      <ModalContent maxH="100%">
+      <ModalContent>
         <ModalHeader
           fontWeight="bold"
           fontSize={HEADER_SIZE}

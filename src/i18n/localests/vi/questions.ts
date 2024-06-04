@@ -36,6 +36,8 @@ export const questions: Questions = {
     'Sau khi một khối lượng giao dịch nhất định được đáp ứng, phí xử lý sẽ được miễn. Yêu cầu về khối lượng giao dịch: Số tiền gửi tích lũy mới nhất sẽ được ưu tiên. Ví dụ: số tiền gửi gần nhất là 1.000 USD. Miễn phí giao dịch sau khi giao dịch 1 lô và sau đó đăng ký rút tiền. Gửi 2.000 USD yêu cầu giao dịch 2 lô và gửi 5.000 USD yêu cầu giao dịch. 5 lô, v.v.',
   ifTheTransactionVolume:
     'Nếu khối lượng giao dịch không đủ và bạn nhất quyết muốn rút tiền, bạn cần phải khấu trừ 3% của lô giao dịch từ số tiền gửi tích lũy gần nhất làm phí rút tiền. (Khách hàng lưu ý sẽ trừ phí trừ tiền khi khách hàng rút tiền, nếu không giao dịch rút tiền sẽ bị từ chối).',
+  ifTheTransactionVolumeIsInsufficient:
+    'Nếu khối lượng giao dịch không đủ, phí quản lý $ 5 sẽ được tính cho các lần rút tiền dưới $ 50.',
   HowDoIKnowMyWithdrawal:
     'Làm cách nào để biết đơn rút tiền của tôi đã được chấp thuận?',
   onceTheWithdrawalApplication:

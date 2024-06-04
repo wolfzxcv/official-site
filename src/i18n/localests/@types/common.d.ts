@@ -8,12 +8,8 @@ export type Common = {
   openDemoAccount: string;
   /** Users' Center */
   usersCenter: string;
-  /** Users' Center 2.0 */
-  usersCenter20: string;
   /** IB Center */
   iBCenter: string;
-  /** IB Center 2.0 */
-  iBCenter20: string;
   /** contactUs */
   contactUs: string;
   /** telegram */
@@ -22,8 +18,6 @@ export type Common = {
   Miduoke: string;
   /** LiveChat */
   LiveChat: string;
-  /** Customer Service */
-  CustomerService: string;
   /** whatsApp */
   whatsApp: string;
   /** line */

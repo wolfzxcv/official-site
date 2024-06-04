@@ -57,7 +57,7 @@ export const contactUs: ContactUs = {
   establishedMalaysia: 'Menubuhkan Pejabat Perhubungan Malaysia.',
   setUpTaiwan: 'Sediakan Pejabat Perhubungan Taiwan.',
   aLeaderInTheIndustry:
-    'Encik Wu, seorang pemimpin dalam industri, bergabung tenaga dan bertanggungjawab ke atas jabatan kawalan dan pemantauan risiko. Encik Wu mempunyai ijazah sarjana dalam kewangan dan beberapa kelayakan profesional antarabangsa. Beliau telah berkhidmat sebagai ketua peniaga dan ketua jabatan pengurusan risiko banyak bank bertaraf dunia.',
+    'Encik Wu Guoqiang, seorang pemimpin dalam industri, bergabung tenaga dan bertanggungjawab ke atas jabatan kawalan dan pemantauan risiko. Encik Wu mempunyai ijazah sarjana dalam kewangan dan beberapa kelayakan profesional antarabangsa. Beliau telah berkhidmat sebagai ketua peniaga dan ketua jabatan pengurusan risiko banyak bank bertaraf dunia.',
   WCGMarketsLtdObtainedTheFINTRAC:
     'WCG Markets Ltd memperoleh lesen FINTRAC MSB Kanada, nombornya ialah M20282836.',
   startCharityProjects:
@@ -72,13 +72,9 @@ export const contactUs: ContactUs = {
   TheStrengthOfWCGMarketsIsReconfirmed:
     'Kekuatan WCG Markets disahkan semula bahawa keupayaan pengurusan fungsi platform dagangan elektronik berada di atas tahap standard, dan ia telah lulus ujian penilaian dan berjaya menyelesaikan projek dan prosedur penilaian yang ditetapkan. Mendapat lencana Diperakui GTP bagi Persatuan Perdagangan Emas dan Perak.',
   WCGMarketsWonTheThirdPlace:
-    'WCG Markets memenangi tempat ketiga dalam sumbangan amal tertinggi sebuah syarikat pada tahun 2021. Penghormatan ini adalah pengesahan penuh pencapaian kebajikan awam WCG Markets yang cemerlang.',
+    'WCG Markets memenangi tempat ketiga dalam sumbangan amal tertinggi sebuah syarikat Hong Kong pada tahun 2021. Penghormatan ini adalah pengesahan penuh pencapaian kebajikan awam WCG Markets yang cemerlang.',
   BusinessExpansionTechnologyUpgrade:
     'Pengembangan perniagaan, peningkatan teknologi, pemerolehan pelayan dagangan ASA, untuk menyediakan pelanggan dengan persekitaran dagangan yang lebih unggul.',
   WCGMarketsAcquired:
-    'WCG Markets memperoleh dua institusi kewangan terkenal "Wealth Gold Group" dan "KUJI", meletakkan asas yang baik untuk pembangunan masa depan.',
-  AMoreHumanizedUserCenter:
-    'Pusat pengguna yang lebih berperikemanusiaan yang dibina dengan teknologi kecerdasan buatan baharu membawa pengalaman terbaik kepada pelanggan.',
-  AwardedAsThe:
-    'Dianugerahkan sebagai syarikat [Teknologi Kewangan dan Penyelesaian Terbaik] oleh agensi penarafan kawal selia peniaga terkenal [Foreign Exchange WikiFX].'
+    'WCG Markets memperoleh dua institusi kewangan terkenal "Wealth Gold Group" dan "KUJI", meletakkan asas yang baik untuk pembangunan masa depan.'
 };

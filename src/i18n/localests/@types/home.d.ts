@@ -48,10 +48,6 @@ export type Home = {
   shortFundSettlementTime: string;
   /** Account opening */
   accountOpening: string;
-  /** Calendar */
-  Calendar: string;
-  /** By TradingView */
-  ByTradingView: string;
   /** Real-time quotation */
   realTimeQuotation: string;
   /** A variety of professional */

@@ -1,4 +1,3 @@
-import { links } from '@/assets/links';
 import Wrapper from '@/components/Base/Wrapper';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
@@ -7,6 +6,7 @@ import DownloadButton from '@/components/Platform/DownloadButton';
 import InfoList from '@/components/Platform/InfoList';
 import MAMProfitList from '@/components/Platform/MAMProfitList';
 import { Locales } from '@/i18n/config';
+import { openChatWindow } from '@/utils';
 import { Box, Center, Flex, Image, List, Stack, Text } from '@chakra-ui/react';
 import { GetStaticProps } from 'next';
 import { useTranslation } from 'next-i18next';
@@ -62,7 +62,7 @@ const MAMSystem: React.FC<{}> = () => {
             }}
           >
             <DownloadButton
-              href={links.majkf}
+              onClick={openChatWindow}
               text={t('consultCustomerServiceImmediately')}
               type="user"
             />
@@ -241,7 +241,7 @@ const MAMSystem: React.FC<{}> = () => {
           }}
         >
           <DownloadButton
-            href={links.majkf}
+            onClick={openChatWindow}
             text={t('consultCustomerServiceImmediately')}
             type="user"
           />

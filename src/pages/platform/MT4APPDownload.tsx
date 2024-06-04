@@ -18,7 +18,7 @@ const MT4APPDownload: React.FC<{}> = () => {
   const { t } = useTranslation('platform');
   const router = useRouter();
   const currentLang = router.locale as Locales;
-
+  const isChinese = currentLang === 'cn' || currentLang === 'zh';
   const isArabic = currentLang === 'ar';
 
   return (
@@ -53,11 +53,10 @@ const MT4APPDownload: React.FC<{}> = () => {
           <InfoTitleSub title={t('weProvideTheMT4MobileApplication')} />
 
           <Flex direction={'column'} mt={20}>
-            <Box mt={5}>
-              <DownloadButton href={links.mt4App} type="pc" />
-            </Box>
-
-            <Box mt={5}>
+            <Box
+              mt={5}
+              width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
+            >
               <DownloadButton
                 href={links.mt4IOS}
                 text={t('IOSVersion')}
@@ -65,18 +64,26 @@ const MT4APPDownload: React.FC<{}> = () => {
               />
             </Box>
 
-            <Box mt={5}>
-              <DownloadButton href={links.mt4Android} type="android" />
+            <Box
+              mt={5}
+              width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
+            >
+              <DownloadButton
+                href={links.mt4Android}
+                text={t('AndroidVersion')}
+                type="android"
+              />
             </Box>
 
-            <Box mt={5}>
-              <DownloadButton href={links.mt4Apk1} type="apk1" />
-              <Box color="white">APK 1</Box>
-            </Box>
-
-            <Box mt={5}>
-              <DownloadButton href={links.mt4Apk2} type="apk2" />
-              <Box color="white">APK 2</Box>
+            <Box
+              mt={5}
+              width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}
+            >
+              <DownloadButton
+                href={links.mt4Apk}
+                text={t('HuaweiVersion')}
+                type="huawei"
+              />
             </Box>
           </Flex>
         </Box>
@@ -229,11 +236,29 @@ const MT4APPDownload: React.FC<{}> = () => {
         mb={20}
         mx={10}
       >
-        <DownloadButton href={links.mt4IOS} type="ios" />
+        <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
+          <DownloadButton
+            href={links.mt4IOS}
+            text={t('IOSVersion')}
+            type="ios"
+          />
+        </Box>
 
-        <DownloadButton href={links.mt4Android} type="android" />
+        <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
+          <DownloadButton
+            href={links.mt4Android}
+            text={t('AndroidVersion')}
+            type="android"
+          />
+        </Box>
 
-        <DownloadButton href={links.mt4Apk2} type="apk2" />
+        <Box mt={5} width={{ base: 'auto', xl: isChinese ? '230px' : '400px' }}>
+          <DownloadButton
+            href={links.mt4Apk}
+            text={t('HuaweiVersion')}
+            type="huawei"
+          />
+        </Box>
       </Flex>
     </Wrapper>
   );

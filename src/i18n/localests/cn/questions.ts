@@ -33,6 +33,8 @@ export const questions: Questions = {
     '在满足一定的交易量后，会豁免手续费。交易量的要求：以最近累计入金金额为准，例如最近一次入金金额为1000美元，需要交易1手后再申请出金才免手续费，入金2000美金需要交易2手，入金5000美金就需交易5手，以此类推。',
   ifTheTransactionVolume:
     '假如交易量不足，又坚持出金，需要以最近累计入金金额扣除已交易手数部分的3%作为出金手续费。（客户在出金时备注同意扣除手续费才会扣除，否则出金会被拒绝）。',
+  ifTheTransactionVolumeIsInsufficient:
+    '交易量不足，出金低于50美元需要支付5美元行政费用。',
   HowDoIKnowMyWithdrawal: '如何知道出金申请已经被准予?',
   onceTheWithdrawalApplication:
     '一旦提款申请获得批准，出金金额将自动从平台中扣除，并减少可用于交易和维持任何未结头寸的保证金。',

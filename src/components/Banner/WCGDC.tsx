@@ -9,7 +9,7 @@ const WCGDC: React.FC<{}> = () => {
         base: '/../assets/images/activity_WCGDC_banner_M.jpg',
         md: '/../assets/images/activity_WCGDC_banner.jpg'
       }}
-      bgPosition={{ base: 'top center', md: 'top center' }}
+      bgPosition={{ base: 'top center', md: 'top right' }}
       bgSize="cover"
       _hover={{
         cursor: 'pointer'

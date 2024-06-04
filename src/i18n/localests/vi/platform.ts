@@ -27,6 +27,7 @@ export const platform: Platform = {
   multiAccountManagementSystem: 'Hệ thống quản lý đa tài khoản MT4',
   forIPhone: 'MT4 dành cho iPhone',
   forAndroid: 'MT4 dành cho Android',
+  forHuawei: 'MT4 dành cho Huawei',
   MT4PcVersion: 'MT4 phiên bản cho máy tính',
   MetaTrader4IsTheMostPopular:
     'MetaTrader 4 là nền tảng giao dịch trực tuyến phổ biến nhất thế giới và đã thiết lập vị trí hàng đầu trong ngành trong nhiều năm. MetaTrader 4 (MT4) được thiết kế đặc biệt cho các giao dịch ngoại hối và giao dịch tương lai. Nhà giao dịch có thể phân tích xu hướng thị trường, vẽ biểu đồ giao dịch và quản lý các vị trí cũng như lệnh của họ thông qua giao diện người dùng trực quan và các chức năng hoàn chỉnh.',
@@ -71,6 +72,9 @@ export const platform: Platform = {
   MetaTrader4MobileApp: 'MetaTrader4 ứng dụng di động',
   downloadOurMT4MobileAppNow:
     'Tải xuống ứng dụng di động MT4 của chúng tôi ngay bây giờ và để nó trở thành đối tác thương mại của bạn, giúp bạn tham gia thị trường tài chính mọi lúc mọi nơi và nắm bắt mọi cơ hội giao dịch 24 giờ một ngày.',
+  IOSVersion: 'Phiên bản iOS',
+  AndroidVersion: 'Phiên bản Android',
+  HuaweiVersion: 'Phiên bản Huawei',
   MAMMultiAccountManagementSystem: 'Hệ thống quản lý đa tài khoản MAM',
   theMultiAccountManagementSystem:
     'Hệ thống quản lý đa tài khoản (MAM) có các chức năng quản lý tích hợp quan trọng, cho phép người quản lý tài sản quản lý nhiều tài khoản chỉ thông qua một giao diện. Một giao diện duy nhất cho phép người quản lý tài sản định cấu hình hiệu quả và chính xác các điều kiện giao dịch cho nhiều tài khoản cá nhân, đồng thời phân phối đồng đều các điều kiện và chiến lược giao dịch giống nhau cho các tài khoản cá nhân theo tỷ lệ đặt trước, giúp bạn quản lý các hoạt động giao dịch và cải thiện kỹ năng quản lý.',

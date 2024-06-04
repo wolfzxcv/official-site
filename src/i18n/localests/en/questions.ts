@@ -36,6 +36,8 @@ export const questions: Questions = {
     'After a certain transaction volume is met, the handling fee will be waived. Trading volume requirements: The latest accumulated deposit amount shall prevail. For example, the latest deposit amount is USD 1,000. The transaction fee is waived after trading 1 lot and then applying for withdrawal. Depositing USD 2,000 requires trading 2 lots, and depositing USD 5,000 requires trading. 5 lots, and so on.',
   ifTheTransactionVolume:
     'If the transaction volume is insufficient and you insist on withdrawing, you need to deduct 3% of the traded lot from the latest accumulated deposit amount as the withdrawal fee. (The customer remarks that the deduction fee will be deducted when the customer withdraws the money, otherwise the withdrawal will be rejected).',
+  ifTheTransactionVolumeIsInsufficient:
+    'If the transaction volume is insufficient, a $5 administrative fee will be charged for withdrawals below $50.',
   HowDoIKnowMyWithdrawal:
     'How do I know my withdrawal application is approved?',
   onceTheWithdrawalApplication:

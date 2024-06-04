@@ -24,7 +24,6 @@ export const header: Header = {
   MT4WebTrader: 'MT4 网页版',
   MAMSystem: 'MAM 多帐号管理系统',
   notice: '交易须知',
-  depositBonus: 'Deposit Bonus',
   abnormalTrade: '异常交易',
   tradeDetails: '交易细则',
   learnTrade: '学习交易',

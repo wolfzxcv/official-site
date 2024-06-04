@@ -124,7 +124,7 @@ const basicTrading: React.FC<{}> = () => {
         {
           type: 'buttonLink',
           objectKey: t('applyForARealAccountNow'),
-          secondKey: links.registerReal
+          secondKey: links.register
         },
         {
           type: 'title',
@@ -137,7 +137,7 @@ const basicTrading: React.FC<{}> = () => {
         {
           type: 'buttonLink',
           objectKey: t('depositFundsNow'),
-          secondKey: links.registerReal
+          secondKey: links.register
         },
         {
           type: 'title',

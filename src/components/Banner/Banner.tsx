@@ -10,11 +10,6 @@ const Banner: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
   const isArabic = currentLang === 'ar';
-  const isLongLang =
-    currentLang === 'id' ||
-    currentLang === 'ms' ||
-    currentLang === 'th' ||
-    currentLang === 'vi';
 
   return (
     <Box
@@ -39,40 +34,22 @@ const Banner: React.FC<{}> = () => {
         >
           <Text
             fontWeight="700"
-            fontSize={{
-              base: isLongLang ? '24px' : '28px',
-              md: isLongLang ? '32px' : '40px'
-            }}
+            fontSize={{ base: '28px', md: '40px' }}
             color="white"
           >
             {t('diversifiedProducts')}
           </Text>
           <Text
             fontWeight="700"
-            fontSize={{
-              base: isLongLang ? '24px' : '28px',
-              md: isLongLang ? '32px' : '40px'
-            }}
+            fontSize={{ base: '28px', md: '40px' }}
             color="white"
           >
             {t('strongAdvantages')}
           </Text>
-          <Text
-            fontSize={{
-              base: isLongLang ? '16px' : '20px',
-              md: isLongLang ? '20px' : '24px'
-            }}
-            color="white"
-          >
+          <Text fontSize={{ base: '20px', md: '24px' }} color="white">
             {t('highLiquidity')}
           </Text>
-          <Text
-            fontSize={{
-              base: isLongLang ? '16px' : '20px',
-              md: isLongLang ? '20px' : '24px'
-            }}
-            color="white"
-          >
+          <Text fontSize={{ base: '20px', md: '24px' }} color="white">
             {t('safetyOfFunds')}
           </Text>
         </Stack>

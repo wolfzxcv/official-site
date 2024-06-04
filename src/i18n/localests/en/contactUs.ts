@@ -57,7 +57,7 @@ export const contactUs: ContactUs = {
   establishedMalaysia: 'Established Malaysia Liaison Office.',
   setUpTaiwan: 'Set up Taiwan Liaison Office.',
   aLeaderInTheIndustry:
-    "Mr. Wu, a leader in the industry, joined forces and is responsible for the risk control and monitoring department. Mr. Wu has a master's degree in finance and a number of international professional qualifications. He has served as chief trader and head of risk management department of many world-class banks.",
+    "Mr. Wu Guoqiang, a leader in the industry, joined forces and is responsible for the risk control and monitoring department. Mr. Wu has a master's degree in finance and a number of international professional qualifications. He has served as chief trader and head of risk management department of many world-class banks.",
   WCGMarketsLtdObtainedTheFINTRAC:
     'WCG Markets Ltd obtained the FINTRAC MSB license of Canada, the number is M20282836.',
   startCharityProjects:
@@ -72,13 +72,9 @@ export const contactUs: ContactUs = {
   TheStrengthOfWCGMarketsIsReconfirmed:
     'The strength of WCG Markets is reconfirmed that the management capabilities of the electronic trading platform functions are above the standard level, and it has passed the assessment test and successfully completed the designated projects and assessment procedures. Obtained the GTP Certified badge of the Gold and Silver Trade Association.',
   WCGMarketsWonTheThirdPlace:
-    "WCG Markets won the third place in the highest charitable donation of company in 2021. This honor is a full affirmation of WCG Markets' outstanding public welfare achievements.",
+    "WCG Markets won the third place in the highest charitable donation of a Hong Kong company in 2021. This honor is a full affirmation of WCG Markets' outstanding public welfare achievements.",
   BusinessExpansionTechnologyUpgrade:
     'Business expansion, technology upgrade, acquisition of ASA trading server, to provide customers with a more superior trading environment.',
   WCGMarketsAcquired:
-    'WCG Markets acquired two well-known financial institutions "Wealth Gold Group" and "KUJI", laying a good foundation for future development.',
-  AMoreHumanizedUserCenter:
-    'A more humanized user center built with new artificial intelligence technology brings the ultimate experience to customers.',
-  AwardedAsThe:
-    'Awarded as the "Best Financial Technology and Solution" company by the well-known dealer regulatory rating agency "Foreign Exchange WikiFX".'
+    'WCG Markets acquired two well-known financial institutions "Wealth Gold Group" and "KUJI", laying a good foundation for future development.'
 };

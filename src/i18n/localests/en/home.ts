@@ -35,8 +35,6 @@ export const home: Home = {
   shortFundSettlementTime:
     'Short fund settlement time, and fast and safe online electronic transactions.',
   accountOpening: 'Account Opening',
-  Calendar: 'Economic Calendar',
-  ByTradingView: 'Provided by TradingView',
   realTimeQuotation: 'Real-time quotation of our trading products',
   aVarietyOfProfessional:
     'A variety of professional chart analysis tools and technical indicators. You can freely set your own technical indicator parameters and time frame.',

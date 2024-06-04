@@ -1,25 +1,12 @@
 import { links } from '@/assets/links';
-import { Locales } from '@/i18n/config';
+import { openChatWindow } from '@/utils';
 import { Flex } from '@chakra-ui/react';
 import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
 import React from 'react';
 import LinkButton from './LinkButton';
 
 const TopLinks: React.FC<{}> = () => {
   const { t } = useTranslation('common');
-
-  const router = useRouter();
-  const currentLang = router.locale as Locales;
-
-  let customerService = links.liveChat;
-  const isChinese = currentLang === 'cn' || currentLang === 'zh';
-
-  if (currentLang === 'vi') {
-    customerService = links.liveChatVi;
-  } else if (isChinese) {
-    customerService = links.majkf;
-  }
 
   return (
     <Flex
@@ -32,24 +19,21 @@ const TopLinks: React.FC<{}> = () => {
     >
       <LinkButton
         text={t('openRealAccount')}
-        href={links.registerReal}
+        href={links.register}
         inMobile
         borderColor="#b81c22"
       ></LinkButton>
 
       <LinkButton
         text={t('openDemoAccount')}
-        href={links.registerDemo}
+        onClick={openChatWindow}
         inMobile
         borderColor="green"
       ></LinkButton>
 
-      <LinkButton text={t('usersCenter')} href={links.usersCenter}></LinkButton>
+      <LinkButton text={t('usersCenter')} href={links.userCenter}></LinkButton>
 
-      <LinkButton
-        text={t('CustomerService')}
-        href={customerService}
-      ></LinkButton>
+      <LinkButton text={t('iBCenter')} href={links.ibCenter}></LinkButton>
     </Flex>
   );
 };

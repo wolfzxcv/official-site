@@ -7,7 +7,6 @@ import HTMLHead from './HTMLHead';
 
 const LiveChat = dynamic(() => import('./LiveChat'), { ssr: false });
 const Header = dynamic(() => import('../Header/Header'), { ssr: false });
-const TopLinks = dynamic(() => import('../TopLinks/TopLinks'), { ssr: false });
 
 type WrapperProps = {
   maxW?: string;
@@ -26,7 +25,7 @@ const Wrapper: React.FC<WrapperProps> = ({
 
       <Box position="sticky" top="0" zIndex={100}>
         <Header />
-        <TopLinks />
+        {/* <TopLinks /> */}
       </Box>
       <Box minH="70vh" maxW={maxW} w="100%">
         {children}

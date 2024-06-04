@@ -11,7 +11,6 @@ import {
   AiOutlineWhatsApp
 } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
-import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
 import { StyledIconButton } from '../Styled/Styled';
 
@@ -20,74 +19,44 @@ const BackToTopDesktop: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
-  const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
-
-  const whatsApp = currentLang === 'vi' ? links.whatsAppVi : links.whatsApp;
-  const telegram = currentLang === 'vi' ? links.telegramVi : links.telegram;
-
-  const line = currentLang === 'vi' ? links.lineVi : links.line;
-
   return (
     <Box zIndex={101} position="fixed" bottom={'100px'} right="3">
       <Flex direction={'column'} color="white">
-        {currentLang !== 'vi' && (
-          <DesktopBaseButton
-            label={t('Miduoke')}
-            href={links.majkf}
-            icon={
-              <Image
-                width="30px"
-                height="30px"
-                src="/../assets/images/Miduoke.svg"
-                alt="Miduoke"
-              />
-            }
-          />
-        )}
+        <DesktopBaseButton
+          label={t('Miduoke')}
+          href={links.majkf}
+          icon={
+            <Image
+              width="30px"
+              height="30px"
+              src="/../assets/images/Miduoke.svg"
+              alt="Miduoke"
+            />
+          }
+        />
 
         <DesktopBaseButton
           label={t('LiveChat')}
-          href={liveChat}
+          href={links.liveChat}
           icon={<AiOutlineMessage fontSize="32px" />}
         />
 
-        {currentLang === 'vi' && (
-          <DesktopBaseButton
-            label={'Zalo'}
-            href={links.zalo}
-            icon={
-              <Image
-                width="30px"
-                height="30px"
-                src="/../assets/images/zalo.svg"
-                alt="Zalo"
-              />
-            }
-          />
-        )}
-
         <DesktopBaseButton
           label={t('whatsApp')}
-          href={whatsApp}
+          href={links.whatsApp}
           icon={<AiOutlineWhatsApp fontSize="32px" />}
         />
 
         <DesktopBaseButton
           label={t('line')}
-          href={line}
+          href={links.line}
           icon={<FaLine fontSize="30px" />}
         />
 
         <DesktopBaseButton
           label={t('telegram')}
-          href={telegram}
+          href={links.telegram}
           icon={<FaTelegramPlane fontSize="32px" />}
-        />
-
-        <DesktopBaseButton
-          label={t('clientPortal')}
-          href={links.registerReal}
-          icon={<BsPencilSquare fontSize="30px" />}
         />
 
         <DesktopBaseButton

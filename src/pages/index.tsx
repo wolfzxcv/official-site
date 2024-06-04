@@ -1,15 +1,10 @@
 import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
-import BannerVN2 from '@/components/Banner/BannerVN2';
-import EWCGMLHD from '@/components/Banner/EWCGMLHD';
-import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGRJJ from '@/components/Banner/WCGRJJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
-import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -33,40 +28,16 @@ const Index: React.FC<{}> = () => {
   const isArabic = currentLang === 'ar';
 
   const lang = formatLang(currentLang, 'ar').replace('-', '_');
-  let sliders = [<Banner key="Banner" />];
-
-  if (currentLang !== 'th' && currentLang !== 'vi') {
-    sliders = [<WCGDC key="WCGDC" />, ...sliders];
-  }
-
-  if (
-    currentLang !== 'th' &&
-    currentLang !== 'ms' &&
-    currentLang !== 'id' &&
-    currentLang !== 'vi'
-  ) {
-    // sliders = [<WCG20RJ key="WCG20RJ" />, ...sliders];
-  }
-
-  if (currentLang === 'vi') {
-    sliders = [
-      <BannerVN2 key="BannerVN2" />,
-      <WCGRJJ key="WCGRJJ" />,
-      ...sliders
-    ];
-  }
-
-  if (currentLang === 'ms') {
-    sliders = [<EWCGMLHD key="EWCGMLHD" />, ...sliders];
-  }
-
-  if (currentLang === 'id') {
-    sliders = [<EWCGYNH key="EWCGYNH" />, ...sliders];
-  }
+  const sliders =
+    currentLang !== 'th'
+      ? [<WCGDC key="WCGDC" />, <Banner key="Banner" />]
+      : [<Banner key="Banner" />];
 
   return (
     <Wrapper>
-      <RestrictionsOnUse />
+      {/* <IntroductionVideo /> */}
+
+      {/* <Adjustment /> */}
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}
@@ -248,7 +219,7 @@ const Index: React.FC<{}> = () => {
               _hover={{
                 textDecoration: 'none'
               }}
-              href={links.registerReal}
+              href={links.register}
               isExternal
             >
               <Box
@@ -278,7 +249,7 @@ const Index: React.FC<{}> = () => {
             _hover={{
               textDecoration: 'none'
             }}
-            href={links.registerReal}
+            href={links.register}
             isExternal
           >
             <Box
@@ -304,62 +275,50 @@ const Index: React.FC<{}> = () => {
       <Box my={10} display={{ base: 'none', md: 'block' }}>
         {currentLang === 'cn' ? (
           <iframe
+            frameBorder="0"
             height="580"
             style={{
               height: '600px',
               margin: '0 auto',
-              width: '85vw',
-              maxWidth: '800px'
+              width: '80vw',
+              minWidth: '600px'
             }}
+            scrolling="yes"
             src={`https://rili-d.jin10.com/open.php?fontSize=14px&theme=primary`}
           ></iframe>
         ) : (
           <div className="tradingview-widget-container">
             <div className="tradingview-widget-container__widget"></div>
             <iframe
+              scrolling="no"
               // @ts-expect-error
               allowtransparency="true"
+              frameBorder="0"
               src={`https://www.tradingview-widget.com/embed-widget/events/?locale=${lang}#%7B%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22importanceFilter%22%3A%22-1%2C0%2C1%22%2C%22utm_source%22%3A%22www.wcglb.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22events%22%7D`}
               style={{
                 height: '600px',
                 margin: '0 auto',
-                width: '85vw',
-                maxWidth: '800px'
+                width: '80vw',
+                minWidth: '600px'
               }}
             ></iframe>
-
-            <Box textAlign="center">
-              <Link
-                href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
-                isExternal
-                color="blue.300"
-              >
-                {t('Calendar')}
-              </Link>
-              &nbsp;
-              {t('ByTradingView')}
-            </Box>
+            {isChinese && (
+              <Box textAlign="center">
+                <Link
+                  href="https://tw.tradingview.com/markets/currencies/economic-calendar/"
+                  isExternal
+                  color="blue.300"
+                >
+                  財經日曆
+                </Link>
+                由TradingView提供
+              </Box>
+            )}
           </div>
         )}
       </Box>
 
       {/* TradingView Widget END */}
-
-      {/* Market News START */}
-      <Box my="150px">
-        <iframe
-          // @ts-expect-error
-          allowtransparency="true"
-          src={`https://www.jin10.com/example/jin10.com.html?fontSize=14px&theme=white"`}
-          style={{
-            height: '600px',
-            margin: '0 auto',
-            width: '85vw',
-            maxWidth: '800px'
-          }}
-        ></iframe>
-      </Box>
-      {/* Market News END */}
 
       {/* Mobile Real-time quotation of our trading products */}
       <Box display={{ base: 'block', xl: 'none' }} width="100%">
@@ -499,7 +458,7 @@ const Index: React.FC<{}> = () => {
             isExternal
             href={links.mt4IOS}
           >
-            <Image src="/../assets/images/home_ios.png" alt="ios"></Image>
+            <Image src="/../assets/images/home_apple.png" alt="apple"></Image>
           </Link>
 
           <Link
@@ -522,9 +481,9 @@ const Index: React.FC<{}> = () => {
               transform: 'scale(1.2)'
             }}
             isExternal
-            href={links.mt4Apk2}
+            href={links.mt4Apk}
           >
-            <Image src="/../assets/images/home_apk.png" alt="apk"></Image>
+            <Image src="/../assets/images/home_huawei.png" alt="huawei"></Image>
           </Link>
 
           <Link

@@ -1,7 +1,7 @@
 import { Footer } from '../@types/footer';
 
 export const footer: Footer = {
-  copyright: '© WCG Markets Ltd 版权所有，不得转载',
+  copyright: '© WCG Group Limited 版权所有，不得转载',
   privacyPolicy: '隐私条款',
   termsAndConditions: '条款细则',
   disputeSettlement: '争端处理',
@@ -25,5 +25,5 @@ export const footer: Footer = {
   HighRiskInvestmentWarning:
     '高风险投资警告：差价合约（CFD）属于复杂的金融产品，其使用杠杆交易的属性导致本金快速亏损的可能性较高，您有可能因此被要求追加保证金。请在入市前先了解差价合约的产品原理并考虑是否能够承受此风险。所有金融衍生产品工具的过往价格与表现并不担保或代表未来走势。此类金融产品并不适合所有投资者，请务必在入市前完全了解所有潜在的风险，并在有需要时寻求独立意见。',
   restrictedAreas:
-    '受限制地区：WCG Markets Ltd 的网站信息不针对加拿大的卑诗省、魁北克省和萨斯喀彻温省地区、日本、朝鲜、伊朗、美国以及中国香港的居民；并且不向身处与发布或使用该信息有违当地法律法规的国家或管辖地之人发送或供其使用。'
+    '受限制地区：WCG Markets Ltd 的网站信息不针对加拿大的卑诗省、魁北克省和萨斯喀彻温省地区、日本、朝鲜、伊朗、美国以及香港的居民；并且不向身处与发布或使用该信息有违当地法律法规的国家或管辖地之人发送或供其使用。'
 };

@@ -23,7 +23,6 @@ import {
   AiOutlineWhatsApp
 } from 'react-icons/ai';
 import { BiArrowToTop } from 'react-icons/bi';
-import { BsPencilSquare } from 'react-icons/bs';
 import { FaLine, FaTelegramPlane } from 'react-icons/fa';
 import { GiTalk } from 'react-icons/gi';
 import { StyledIconButton } from '../Styled/Styled';
@@ -33,13 +32,6 @@ const BackToTopMobile: React.FC<{}> = () => {
   const { t } = useTranslation('common');
   const router = useRouter();
   const currentLang = router.locale as Locales;
-
-  const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
-
-  const whatsApp = currentLang === 'vi' ? links.whatsAppVi : links.whatsApp;
-  const telegram = currentLang === 'vi' ? links.telegramVi : links.telegram;
-
-  const line = currentLang === 'vi' ? links.lineVi : links.line;
 
   const [isDesktop] = useMediaQuery('(min-width: 832px)');
 
@@ -82,70 +74,45 @@ const BackToTopMobile: React.FC<{}> = () => {
           <ModalCloseButton size="lg" />
           <ModalBody pb={6}>
             <Flex color="white" justify="space-around">
-              {currentLang !== 'vi' && (
-                <MobileBaseButton
-                  bg="twitter.500"
-                  label={t('Miduoke')}
-                  href={links.majkf}
-                  icon={
-                    <Image
-                      width="30px"
-                      height="30px"
-                      src="/../assets/images/Miduoke.svg"
-                      alt="Miduoke"
-                    />
-                  }
-                />
-              )}
+              <MobileBaseButton
+                bg="twitter.500"
+                label={t('Miduoke')}
+                href={links.majkf}
+                icon={
+                  <Image
+                    width="30px"
+                    height="30px"
+                    src="/../assets/images/Miduoke.svg"
+                    alt="Miduoke"
+                  />
+                }
+              />
 
               <MobileBaseButton
                 label={t('LiveChat')}
-                href={liveChat}
+                href={links.liveChat}
                 icon={<AiOutlineMessage fontSize="32px" />}
               />
-
-              {currentLang === 'vi' && (
-                <MobileBaseButton
-                  bg="twitter.500"
-                  label={'Zalo'}
-                  href={links.zalo}
-                  icon={
-                    <Image
-                      width="30px"
-                      height="30px"
-                      src="/../assets/images/zalo.svg"
-                      alt="Zalo"
-                    />
-                  }
-                />
-              )}
 
               <MobileBaseButton
                 bg="whatsapp.600"
                 label={t('whatsApp')}
-                href={whatsApp}
+                href={links.whatsApp}
                 icon={<AiOutlineWhatsApp fontSize="36px" />}
               />
 
               <MobileBaseButton
                 bg="twitter.500"
                 label={t('telegram')}
-                href={telegram}
+                href={links.telegram}
                 icon={<FaTelegramPlane fontSize="36px" />}
               />
 
               <MobileBaseButton
                 bg="whatsapp.600"
                 label={t('line')}
-                href={line}
+                href={links.line}
                 icon={<FaLine fontSize="36px" />}
-              />
-
-              <MobileBaseButton
-                bg="purple.600"
-                label={t('clientPortal')}
-                href={links.registerReal}
-                icon={<BsPencilSquare fontSize="36px" />}
               />
 
               <MobileBaseButton

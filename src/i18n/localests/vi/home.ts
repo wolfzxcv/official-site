@@ -34,8 +34,6 @@ export const home: Home = {
   shortFundSettlementTime:
     'Thời gian giải quyết quỹ ngắn và giao dịch điện tử trực tuyến nhanh chóng và an toàn.',
   accountOpening: 'Mở tài khoản',
-  Calendar: 'lịch tài chính',
-  ByTradingView: 'Được cung cấp bởi TradingView',
   realTimeQuotation: 'Báo giá thời gian thực của các sản phẩm giao dịch',
   aVarietyOfProfessional:
     'Một loạt các công cụ phân tích biểu đồ chuyên nghiệp và các chỉ báo kỹ thuật. Bạn có thể tự do thiết lập các thông số chỉ báo kỹ thuật và khung thời gian của riêng mình.',

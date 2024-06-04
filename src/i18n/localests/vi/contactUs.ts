@@ -57,7 +57,7 @@ export const contactUs: ContactUs = {
   establishedMalaysia: 'Thành lập Văn phòng Liên lạc Malaysia.',
   setUpTaiwan: 'Thiết lập Văn phòng Liên lạc Đài Loan.',
   aLeaderInTheIndustry:
-    'Ông Wu, một nhà lãnh đạo trong ngành, đã gia nhập lực lượng và chịu trách nhiệm về bộ phận giám sát và kiểm soát rủi ro. Ông Wu có bằng thạc sĩ tài chính và một số bằng cấp chuyên nghiệp quốc tế. Ông từng là trưởng phòng kinh doanh và trưởng phòng quản lý rủi ro của nhiều ngân hàng tầm cỡ thế giới.',
+    'Ông Wu Guoqiang, một nhà lãnh đạo trong ngành, đã gia nhập lực lượng và chịu trách nhiệm về bộ phận giám sát và kiểm soát rủi ro. Ông Wu có bằng thạc sĩ tài chính và một số bằng cấp chuyên nghiệp quốc tế. Ông từng là trưởng phòng kinh doanh và trưởng phòng quản lý rủi ro của nhiều ngân hàng tầm cỡ thế giới.',
   WCGMarketsLtdObtainedTheFINTRAC:
     'WCG Markets Ltd đã nhận được giấy phép FINTRAC MSB của Canada, số là M20282836.',
   startCharityProjects:
@@ -72,13 +72,9 @@ export const contactUs: ContactUs = {
   TheStrengthOfWCGMarketsIsReconfirmed:
     'Sức mạnh của WCG Markets được xác nhận lại rằng khả năng quản lý của các chức năng của nền tảng giao dịch điện tử đều ở trên mức tiêu chuẩn, đồng thời nó đã vượt qua bài kiểm tra đánh giá và hoàn thành thành công các dự án và quy trình đánh giá được chỉ định. Đạt huy hiệu GTP Certified của Hiệp hội kinh doanh vàng bạc đá quý.',
   WCGMarketsWonTheThirdPlace:
-    'WCG Markets đã giành vị trí thứ ba trong cuộc quyên góp từ thiện cao nhất của một công ty vào năm 2021. Vinh dự này là sự khẳng định đầy đủ cho những thành tựu phúc lợi công cộng xuất sắc của WCG Markets.',
+    'WCG Markets đã giành vị trí thứ ba trong cuộc quyên góp từ thiện cao nhất của một công ty Hồng Kông vào năm 2021. Vinh dự này là sự khẳng định đầy đủ cho những thành tựu phúc lợi công cộng xuất sắc của WCG Markets.',
   BusinessExpansionTechnologyUpgrade:
     'Mở rộng kinh doanh, nâng cấp công nghệ, mua lại máy chủ giao dịch ASA để cung cấp cho khách hàng một môi trường giao dịch ưu việt hơn.',
   WCGMarketsAcquired:
-    'WCG Markets đã mua lại hai tổ chức tài chính nổi tiếng "Wealth Gold Group" và "KUJI", tạo nền tảng tốt cho sự phát triển trong tương lai.',
-  AMoreHumanizedUserCenter:
-    'Một trung tâm người dùng nhân bản hơn được xây dựng bằng công nghệ trí tuệ nhân tạo mới mang lại trải nghiệm tuyệt vời nhất cho khách hàng.',
-  AwardedAsThe:
-    'Được trao giải là công ty [Công nghệ và giải pháp tài chính tốt nhất] bởi cơ quan xếp hạng quản lý đại lý nổi tiếng [Foreign Exchange WikiFX].'
+    'WCG Markets đã mua lại hai tổ chức tài chính nổi tiếng "Wealth Gold Group" và "KUJI", tạo nền tảng tốt cho sự phát triển trong tương lai.'
 };

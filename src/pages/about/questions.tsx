@@ -19,18 +19,18 @@ const questions: React.FC<{}> = () => {
   const { t } = useTranslation('questions');
 
   const data: InfoAccordionItemProps[] = [
-    {
-      title: t('whatKindOfSupervision'),
-      content: [
-        t('WCGIsABusinessBrand'),
-        t('WCGMarketsLtdIsSupervised'),
-        t('WCGMarketsLtdIsRegistered')
-      ]
-    },
+    // {
+    //   title: t('whatKindOfSupervision'),
+    //   content: [
+    //     t('WCGIsABusinessBrand'),
+    //     t('WCGMarketsLtdIsSupervised'),
+    //     t('WCGMarketsLtdIsRegistered')
+    //   ]
+    // },
     {
       title: t('HowToOpenAnAccountInWCG'),
       content: [t('youCanRegisterYourRealAccount')],
-      externalHref: links.registerReal
+      externalHref: links.register
     },
     {
       title: t('WCGAccountOpeningAge'),
@@ -57,7 +57,8 @@ const questions: React.FC<{}> = () => {
       content: [
         t('ifTheCustomerDepositsFunds'),
         t('afterACertainTransactionVolume'),
-        t('ifTheTransactionVolume')
+        t('ifTheTransactionVolume'),
+        t('ifTheTransactionVolumeIsInsufficient')
       ]
     },
     {

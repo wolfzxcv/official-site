@@ -26,15 +26,7 @@ export const Copyright: React.FC<{}> = () => {
             href="/conditions/privacyPolicy"
           />
           <Box mx={1}>|</Box>
-          <CopyrightLinks
-            text={t('termsAndConditions')}
-            href="/conditions/termsAndConditions"
-          />
         </Flex>
-
-        <Box mx={1} display={{ base: 'none', xl: 'flex' }}>
-          |
-        </Box>
 
         <Flex wrap="wrap">
           <CopyrightLinks
@@ -46,14 +38,6 @@ export const Copyright: React.FC<{}> = () => {
             text={t('riskDisclaimer')}
             href="/conditions/riskDisclaimer"
           />
-        </Flex>
-
-        <Box mx={1} display={{ base: 'none', xl: 'flex' }}>
-          |
-        </Box>
-
-        <Flex justify="center">
-          <CopyrightLinks text={t('amlPolicy')} href="/conditions/amlPolicy" />
         </Flex>
       </Flex>
 
