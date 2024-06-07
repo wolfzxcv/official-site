@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.61.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.2...v1.61.3) (2024-06-07)
+
+
+### Bug Fixes
+
+* **popup:** fix Fake.tsx english content ([eb9d74b](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/eb9d74b4b619686eb776a81d6e7193ac519ec850))
+
 ### [1.61.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.1...v1.61.2) (2024-06-07)
 
 ### [1.61.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.0...v1.61.1) (2024-06-06)
