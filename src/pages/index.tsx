@@ -3,6 +3,7 @@ import Banner from '@/components/Banner/Banner';
 import BannerVN2 from '@/components/Banner/BannerVN2';
 import EWCGMLHD from '@/components/Banner/EWCGMLHD';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
+import WCG20RJ from '@/components/Banner/WCG20RJ';
 import WCGDC from '@/components/Banner/WCGDC';
 import WCGRJJ from '@/components/Banner/WCGRJJ';
 import Wrapper from '@/components/Base/Wrapper';
@@ -47,7 +48,7 @@ const Index: React.FC<{}> = () => {
     currentLang !== 'id' &&
     currentLang !== 'vi'
   ) {
-    // sliders = [<WCG20RJ key="WCG20RJ" />, ...sliders];
+    sliders = [<WCG20RJ key="WCG20RJ" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
