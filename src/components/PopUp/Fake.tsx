@@ -33,13 +33,25 @@ const FakeContentZh: React.FC<{}> = () => {
     <Stack spacing={5} p={5}>
       <Text as="b">
         澄清聲明:
-        假冒網站「https://wcgfore.com」「www.wcgplus.com」與本公司及旗下業務絕無任何關聯。。
+        假冒網站「http://www.wcgtransaction.com」「https://www.wcg-market.com」「https://www.wcgtradings.com」與本公司及旗下業務絕無任何關聯。。
       </Text>
       <Text>
         致廣大客戶及投資者:
         <br /> <br />
-        本集團客服近日收到查詢，得悉有自稱為「https://wcgfore.com」「www.wcgplus.com」的網站假冒本集團。有關網站在未有本集團的授權、同意及/或批准下使用及展示與本集團或與本集團相似的商業名稱或商標，以及盜用本集團牌照規管資訊，提供網上交易活動，誘使公眾誤信其與本集團有關。
-        <br /> <br />
+        本公司近日發現有人以WCG
+        MARKETS名義製作多個假冒網站，假冒網站內容一樣，域名不同。
+        <br />
+        目前發現的假冒網站域名如下：
+        <br />
+        1.(http://www.wcgtransaction.com)
+        <br />
+        2.(https://www.wcg-market.com)
+        <br />
+        3.(https://www.wcgtradings.com)
+        <br />
+        上述網站在未有本公司的授權、同意及批准下使用及展示與本公司或與本公司相似的商業名稱或商標，提供網上交易活動，誘使公眾誤信其與本公司有關。
+        <br />
+        <br />
         有關網站截圖如下:
       </Text>
       <Box>
@@ -51,35 +63,20 @@ const FakeContentZh: React.FC<{}> = () => {
           alt="pop_up_fake-2"
         />
       </Box>
-      <Box>
-        <Image
-          src={`/../assets/images/pop_up_fake-3.png`}
-          alt="pop_up_fake-3"
-        />
-      </Box>
-      <Box>
-        <Image
-          src={`/../assets/images/pop_up_fake-4.png`}
-          alt="pop_up_fake-4"
-        />
-      </Box>
       <Text>
-        現謹鄭重聲明，現謹鄭重聲明，WCG MARKETS
-        LIMITED文傳金融集團「本集團」及旗下各業務單位一概與上述假冒網站、其業務及網頁無任何關聯。
+        現謹鄭重聲明，WCG
+        MARKETS「本公司」及旗下各業務單位一概與上述假冒網站、其業務及網頁無任何關聯。
         <br />
         <br />
-        鑑於是次事件懷疑有人利用本集團之商譽，誤導大眾以謀利，本集團予以高度關注。現特此聲明，以正視聽，並務請所有投資者提高警惕，以免受到欺詐損失，同時保留一切追究法律責任的權利。
+        鑑於是次事件懷疑有人利用本公司之商譽，誤導大眾以謀利，本公司予以高度關注。現特此聲明，以正視聽，並務請所有投資者提高警惕，以免受到欺詐損失，同時保留一切追究法律責任的權利。
         <br />
         <br />
-        如有疑問，歡迎與 https://www.wcgmarkets-global.com/ 客戶服務部聯絡。
+        如有疑問，歡迎與 https://www.wcgmarkets.com 客戶服務部聯絡。
         <br />
         <br />
         WCG MARKETS LIMITED <br />
         <br />
-        文傳金融集團 謹啟
-        <br />
-        <br />
-        二零二三年十二月二十二日
+        二零二四年六月七日
         <br />
       </Text>
     </Stack>
@@ -91,13 +88,25 @@ const FakeContentCn: React.FC<{}> = () => {
     <Stack spacing={5} p={5}>
       <Text as="b">
         澄清声明:
-        假冒网站「https://wcgfore.com」「www.wcgplus.com」与本集团及旗下业务绝无任何关联。
+        假冒网站「http://www.wcgtransaction.com」「https://www.wcg-market.com」「https://www.wcgtradings.com」与本公司及旗下业务绝无任何关联。。
       </Text>
       <Text>
         致广大客户及投资者:
         <br /> <br />
-        本集团客服近日收到查询，得悉有自称为「https://wcgfore.com」「www.wcgplus.com」的网站假冒本集团。有关网站在未有本集团的授权、同意及/或批准下使用及展示与本集团或与本集团相似的商业名称或商标，以及盗用本集团牌照规管资讯，提供网上交易活动，诱使公众误信其与本集团有关。
-        <br /> <br />
+        本公司近日发现有人以WCG
+        MARKETS名义製作多个假冒网站，假冒网站内容一样，域名不同。
+        <br />
+        目前发现的假冒网站域名如下：
+        <br />
+        1.(http://www.wcgtransaction.com)
+        <br />
+        2.(https://www.wcg-market.com)
+        <br />
+        3.(https://www.wcgtradings.com)
+        <br />
+        上述网站在未有本公司的授权、同意及批准下使用及展示与本公司或与本公司相似的商业名称或商标，提供网上交易活动，诱使公众误信其与本公司有关。
+        <br />
+        <br />
         有关网站截图如下:
       </Text>
       <Box>
@@ -109,35 +118,20 @@ const FakeContentCn: React.FC<{}> = () => {
           alt="pop_up_fake-2"
         />
       </Box>
-      <Box>
-        <Image
-          src={`/../assets/images/pop_up_fake-3.png`}
-          alt="pop_up_fake-3"
-        />
-      </Box>
-      <Box>
-        <Image
-          src={`/../assets/images/pop_up_fake-4.png`}
-          alt="pop_up_fake-4"
-        />
-      </Box>
       <Text>
-        现谨郑重声明，现谨郑重声明，WCG MARKETS
-        LIMITED文传金融集团「本集团」及旗下各业务单位一概与上述假冒网站、其业务及网页无任何关联。
+        现谨郑重声明，WCG
+        MARKETS「本公司」及旗下各业务单位一概与上述假冒网站、其业务及网页无任何关联。
         <br />
         <br />
-        鉴于是次事件怀疑有人利用本集团之商誉，误导大众以谋利，本集团予以高度关注。现特此声明，以正视听，并务请所有投资者提高警惕，以免受到欺诈损失，同时保留一切追究法律责任的权利。
+        鑑于是次事件怀疑有人利用本公司之商誉，误导大众以谋利，本公司予以高度关注。现特此声明，以正视听，并务请所有投资者提高警惕，以免受到欺诈损失，同时保留一切追究法律责任的权利。
         <br />
         <br />
-        如有疑问，欢迎与 https://www.wcgmarkets-global.com/ 客户服务部联络。
+        如有疑问，欢迎与 https://www.wcgmarkets.com 客户服务部联络。
         <br />
         <br />
         WCG MARKETS LIMITED <br />
         <br />
-        文传金融集团 谨启
-        <br />
-        <br />
-        二零二三年十二月二十二日
+        二零二四年六月七日
         <br />
       </Text>
     </Stack>
@@ -147,7 +141,7 @@ const FakeContentCn: React.FC<{}> = () => {
 const FakeContentEn: React.FC<{}> = () => {
   return (
     <Stack spacing={5} p={5}>
-      <Box>22 December 2023</Box>
+      <Box>7 Jun 2024</Box>
 
       <Box fontWeight={700} textDecoration="underline">
         Beware of Deliberately Fraudulent and Phishing Websites
@@ -205,7 +199,7 @@ const FakeContentEn: React.FC<{}> = () => {
 
       <Box>
         If you have any questions, please contact our customer service
-        department. https://www.wcgmarkets-global.com/
+        department. https://www.wcgmarkets.com
       </Box>
       <Box>Yours faithfully,</Box>
       <Box>WCG MARKETS LIMITED</Box>
