@@ -173,18 +173,6 @@ const FakeContentEn: React.FC<{}> = () => {
         />
       </Box>
       <Box>
-        <Image
-          src={`/../assets/images/pop_up_fake-3.png`}
-          alt="pop_up_fake-3"
-        />
-      </Box>
-      <Box>
-        <Image
-          src={`/../assets/images/pop_up_fake-4.png`}
-          alt="pop_up_fake-4"
-        />
-      </Box>
-      <Box>
         We hereby solemnly declare that WCG MARKETS &quot;the company&quot; and
         its business units are not affiliated with the above-mentioned
         companies, their business and their websites.
