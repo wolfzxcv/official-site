@@ -10,7 +10,6 @@ import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
-import DWJ2024 from '@/components/PopUp/DWJ2024';
 import Fake from '@/components/PopUp/Fake';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
 import { Locales } from '@/i18n/config';
@@ -72,8 +71,6 @@ const Index: React.FC<{}> = () => {
       <RestrictionsOnUse />
 
       <Fake />
-
-      <DWJ2024 lang={currentLang === 'zh' ? 'zh' : 'cn'} />
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}
