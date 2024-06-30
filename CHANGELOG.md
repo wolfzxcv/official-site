@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.62.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.4...v1.62.0) (2024-06-30)
+
+
+### Features
+
+* **activity:** add WCGQYT and EWCGQYT ([77c3b0c](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/77c3b0c34ec5edb67688e1c8d362e92002d380bb))
+
 ### [1.61.4](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.3...v1.61.4) (2024-06-28)
 
 ### [1.61.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.2...v1.61.3) (2024-06-07)
