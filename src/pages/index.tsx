@@ -2,9 +2,10 @@ import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import BannerVN2 from '@/components/Banner/BannerVN2';
 import EWCGMLHD from '@/components/Banner/EWCGMLHD';
+import EWCGQYT from '@/components/Banner/EWCGQYT';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
-import WCG20RJ from '@/components/Banner/WCG20RJ';
 import WCGDC from '@/components/Banner/WCGDC';
+import WCGQYT from '@/components/Banner/WCGQYT';
 import WCGRJJ from '@/components/Banner/WCGRJJ';
 import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
@@ -47,7 +48,7 @@ const Index: React.FC<{}> = () => {
     currentLang !== 'id' &&
     currentLang !== 'vi'
   ) {
-    sliders = [<WCG20RJ key="WCG20RJ" />, ...sliders];
+    sliders = [<WCGQYT key="WCGQYT" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
@@ -59,7 +60,11 @@ const Index: React.FC<{}> = () => {
   }
 
   if (currentLang === 'ms') {
-    sliders = [<EWCGMLHD key="EWCGMLHD" />, ...sliders];
+    sliders = [
+      <EWCGQYT key="EWCGQYT" />,
+      <EWCGMLHD key="EWCGMLHD" />,
+      ...sliders
+    ];
   }
 
   if (currentLang === 'id') {
