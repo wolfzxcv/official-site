@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.63.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.62.0...v1.63.0) (2024-07-15)
+
+
+### Features
+
+* **activity:** add WCGSJZ ([012f5af](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/012f5aff54482f44b8ac7529afb6b9ab062006c3))
+
 ## [1.62.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.61.4...v1.62.0) (2024-06-30)
 
 
