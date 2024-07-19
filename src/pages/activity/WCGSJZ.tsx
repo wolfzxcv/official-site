@@ -227,7 +227,7 @@ export const WCGSJZTitle: React.FC<{}> = () => {
           >
             WCG
           </Link>
-          ，到用户中心报名并交付30美元活动注册费！
+          ，到用户中心报名并交付10美元活动注册费！
         </Box>
       </Flex>
 
