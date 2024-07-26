@@ -1,10 +1,14 @@
 # WCG Markets 官網
 
-- [正式環境](https://www.wcgmarkets.com/)
+- [正式環境1](https://www.wcgmarkets.com/)
 - [正式環境2](https://www.wcgmarkets-asia.com/)
 - [正式環境3](https://global.wcgmarkets.com/)
 - [正式環境4](https://www.wcgmarkets.org/)
 - [正式環境5](https://www.wcgmarkets.net/)
+- [正式環境6](https://www.wcgmarkets.co/)
+- [正式環境7](https://www.wcgmarkets.info/)
+- [正式環境8](https://www.wcgprime.net)
+- [正式環境9](https://www.wcgprime.co.uk)
 - 測試環境 server 已停用
 
 ## 運行方式
