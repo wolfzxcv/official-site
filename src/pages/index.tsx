@@ -2,10 +2,8 @@ import { links } from '@/assets/links';
 import Banner from '@/components/Banner/Banner';
 import BannerVN2 from '@/components/Banner/BannerVN2';
 import EWCGMLHD from '@/components/Banner/EWCGMLHD';
-import EWCGQYT from '@/components/Banner/EWCGQYT';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
-import WCGQYT from '@/components/Banner/WCGQYT';
 import WCGRJJ from '@/components/Banner/WCGRJJ';
 import WCGSJZ from '@/components/Banner/WCGSJZ';
 import Wrapper from '@/components/Base/Wrapper';
@@ -49,7 +47,7 @@ const Index: React.FC<{}> = () => {
     currentLang !== 'id' &&
     currentLang !== 'vi'
   ) {
-    sliders = [<WCGQYT key="WCGQYT" />, <WCGSJZ key="WCGSJZ" />, ...sliders];
+    sliders = [<WCGSJZ key="WCGSJZ" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
@@ -61,11 +59,7 @@ const Index: React.FC<{}> = () => {
   }
 
   if (currentLang === 'ms') {
-    sliders = [
-      <EWCGQYT key="EWCGQYT" />,
-      <EWCGMLHD key="EWCGMLHD" />,
-      ...sliders
-    ];
+    sliders = [<EWCGMLHD key="EWCGMLHD" />, ...sliders];
   }
 
   if (currentLang === 'id') {
