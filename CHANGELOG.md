@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.64.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.63.2...v1.64.0) (2024-08-20)
+
+
+### Features
+
+* **activity:** add WCGRJH ([479bf20](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/479bf20d77718dd1340c55a890de7f4e3bb08a21))
+
 ### [1.63.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.63.1...v1.63.2) (2024-07-26)
 
 ### [1.63.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.63.0...v1.63.1) (2024-07-19)
