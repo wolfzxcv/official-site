@@ -193,6 +193,7 @@
   - [WCG20RJ](https://www.wcgmarkets.com/activity/WCG20RJ)
   - [WCGQYT](https://www.wcgmarkets.com/activity/WCGQYT)
   - [WCGSJZ](https://www.wcgmarkets.com/activity/WCGSJZ)
+  - [WCGRJH](https://www.wcgmarkets.com/activity/WCGRJH)
 
 - 馬來語系專門活動, 使用英文
 
