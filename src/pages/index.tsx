@@ -13,6 +13,7 @@ import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
 import ThingsToNote from '@/components/PopUp/ThingsToNote';
+import WCGIFX2 from '@/components/PopUp/WCGIFX2';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -69,6 +70,7 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      <WCGIFX2 />
       <RestrictionsOnUse />
       <ThingsToNote />
 
