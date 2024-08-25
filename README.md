@@ -195,12 +195,13 @@
   - [WCGSJZ](https://www.wcgmarkets.com/activity/WCGSJZ)
   - [WCGRJH](https://www.wcgmarkets.com/activity/WCGRJH)
 
-- 馬來語系專門活動, 使用英文
+- 馬來語系專門活動, 多半使用英文
 
   - [WCGMLHDE](https://www.wcgmarkets.com/activity/WCGMLHDE)
   - [EWCGMLN](https://www.wcgmarkets.com/activity/EWCGMLN)
   - [EWCGMLHD](https://www.wcgmarkets.com/activity/EWCGMLHD)
   - [EWCGQYT](https://www.wcgmarkets.com/activity/EWCGQYT)
+  - [WCGMLT](https://www.wcgmarkets.com/activity/WCGMLT)
 
 - 印尼語系專門活動, 使用印尼語
 

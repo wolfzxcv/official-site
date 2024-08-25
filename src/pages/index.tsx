@@ -4,6 +4,7 @@ import BannerVN2 from '@/components/Banner/BannerVN2';
 import EWCGMLHD from '@/components/Banner/EWCGMLHD';
 import EWCGYNH from '@/components/Banner/EWCGYNH';
 import WCGDC from '@/components/Banner/WCGDC';
+import WCGMLT from '@/components/Banner/WCGMLT';
 import WCGRJH from '@/components/Banner/WCGRJH';
 import WCGRJJ from '@/components/Banner/WCGRJJ';
 import WCGSJZ from '@/components/Banner/WCGSJZ';
@@ -61,7 +62,11 @@ const Index: React.FC<{}> = () => {
   }
 
   if (currentLang === 'ms') {
-    sliders = [<EWCGMLHD key="EWCGMLHD" />, ...sliders];
+    sliders = [
+      <WCGMLT key="WCGMLT" />,
+      <EWCGMLHD key="EWCGMLHD" />,
+      ...sliders
+    ];
   }
 
   if (currentLang === 'id') {
