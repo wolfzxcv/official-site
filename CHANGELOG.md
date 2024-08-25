@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.65.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.64.0...v1.65.0) (2024-08-25)
+
+
+### Features
+
+* **activity:** add WCGMLT ([6a68d5d](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/6a68d5d92c1f44fa47120c0204a66120f7ee7a48))
+
 ## [1.64.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.63.2...v1.64.0) (2024-08-20)
 
 
