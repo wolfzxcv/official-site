@@ -2,6 +2,7 @@ export const links = {
   majkf: 'https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&accountid=135464',
   liveChat: 'https://direct.lc.chat/11929440/',
   liveChatVi: 'https://direct.lc.chat/15545295/',
+  liveChatId: 'https://direct.lc.chat/18455712/',
   whatsApp: 'https://api.whatsapp.com/message/2CCAPQTYUPV6P1',
   whatsAppVi: 'https://wa.me/message/FTCZMMCFRFLAK1',
   line: 'https://page.line.me/?accountId=739zqmre&openerPlatform=native&openerKey=talkroom%3Amessage',

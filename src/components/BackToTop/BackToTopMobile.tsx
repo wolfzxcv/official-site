@@ -34,7 +34,12 @@ const BackToTopMobile: React.FC<{}> = () => {
   const router = useRouter();
   const currentLang = router.locale as Locales;
 
-  const liveChat = currentLang === 'vi' ? links.liveChatVi : links.liveChat;
+  const liveChat =
+    currentLang === 'vi'
+      ? links.liveChatVi
+      : currentLang === 'id'
+        ? links.liveChatId
+        : links.liveChat;
 
   const whatsApp = currentLang === 'vi' ? links.whatsAppVi : links.whatsApp;
   const telegram = currentLang === 'vi' ? links.telegramVi : links.telegram;

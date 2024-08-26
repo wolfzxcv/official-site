@@ -27,6 +27,8 @@ const MobileNav = () => {
 
   if (currentLang === 'vi') {
     customerService = links.liveChatVi;
+  } else if (currentLang === 'id') {
+    customerService = links.liveChatId;
   } else if (isChinese) {
     customerService = links.majkf;
   }
