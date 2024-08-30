@@ -50,7 +50,7 @@ const Index: React.FC<{}> = () => {
     currentLang !== 'id' &&
     currentLang !== 'vi'
   ) {
-    sliders = [<WCGRJH key="WCGRJH" />, <WCGZQX key="WCGZQX" />, ...sliders];
+    sliders = [<WCGZQX key="WCGZQX" />, <WCGRJH key="WCGRJH" />, ...sliders];
   }
 
   if (currentLang === 'vi') {
