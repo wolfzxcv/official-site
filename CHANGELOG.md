@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.66.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.65.2...v1.66.0) (2024-08-30)
+
+
+### Features
+
+* **activity:** add WCGZQX ([f9c4fe6](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/f9c4fe6d7f71990c396b7b31a4a4ff0c4f6a3950))
+
 ### [1.65.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.65.1...v1.65.2) (2024-08-27)
 
 ### [1.65.1](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.65.0...v1.65.1) (2024-08-26)
