@@ -26,7 +26,7 @@ const WCGZQX: React.FC<{}> = () => {
 
       {/* banner */}
       <Flex
-        minH={{ base: '420px', md: '500px' }}
+        minH={{ base: '420px', md: '630px' }}
         bg={{ base: WCGZQX_BG, md: WCGZQX_BG }}
         bgImage={{
           base: '/../assets/images/activity_WCGZQX_M.jpg',
@@ -258,7 +258,7 @@ const WCGZQXRules: React.FC<{}> = () => (
     <Box>1. 但凡在活动期间开的已平仓单方能计算活动范围。</Box>
     <Box>2. 回赠在活动结束时按已平仓的手数层级结算。</Box>
     <Box>3. 活动需主动向客服申请参加。</Box>
-    <Box>4. 回赠将在活动完结14个工作日内发放。</Box>
+    <Box>4. 可提现回赠将在活动完结14个工作日内发放。</Box>
     <Box>5. 手数要求会在活动期间累积计算。</Box>
     <Box>6. 活动不能与其他优惠重叠。</Box>
     <Box>7. 每位客户只可使用一个账号参加此活动一次。</Box>
