@@ -13,8 +13,8 @@ import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
-import ThingsToNote from '@/components/PopUp/ThingsToNote';
 import WCGIFX2 from '@/components/PopUp/WCGIFX2';
+import ZQJ2024 from '@/components/PopUp/ZQJ2024';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
 import { Box, Center, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
@@ -77,7 +77,8 @@ const Index: React.FC<{}> = () => {
     <Wrapper>
       <WCGIFX2 />
       <RestrictionsOnUse />
-      <ThingsToNote />
+
+      <ZQJ2024 lang={currentLang == 'zh' ? 'zh' : 'cn'} />
 
       <Carousel
         defaultSlider={<Banner key="Banner" />}
