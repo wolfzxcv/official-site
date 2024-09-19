@@ -36,11 +36,11 @@ export const links = {
   // 開立真實帳戶
   registerReal:
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
-    'https://clientportal.wcgmarkets-vip.com/register/trader/multi-step?link_id=dsnpsip4',
+    'https://clientportal.wcgmarkets-fx.com/register/trader?link_id=dsnpsip4',
   // 開立模擬帳戶
   registerDemo:
     process.env.NEXT_PUBLIC_REGISTER_DEMO ||
-    'https://clientportal.wcgmarkets-vip.com/register/demo?link_id=qqod20vx',
+    'https://clientportal.wcgmarkets-fx.com/register/demo?link_id=qqod20vx',
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
