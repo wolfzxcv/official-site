@@ -44,7 +44,7 @@ export const links = {
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
-    'https://clientportal.wcgmarkets-vip.com/',
+    'https://clientportal.wcgmarkets-fx.com',
   // 越南語系推廣活動
   depositBonus:
     process.env.NEXT_PUBLIC_VI_DEPOSIT_BONUS ||
