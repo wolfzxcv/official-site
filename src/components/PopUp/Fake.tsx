@@ -8,13 +8,15 @@ const Fake: React.FC<{}> = () => {
   const currentLang = router.locale as Locales;
 
   return currentLang === 'zh' ? (
+    <PopUp title="澄清聲明" content={<FakeContentZh />} useBorder={false} />
+  ) : currentLang === 'cn' ? (
+    <PopUp title="澄清声明" content={<FakeContentCn />} useBorder={false} />
+  ) : (
     <PopUp
-      title="警惕蓄意欺詐仿冒網站"
-      content={<FakeContentZh />}
+      title="Clarification statement"
+      content={<FakeContentEn />}
       useBorder={false}
     />
-  ) : (
-    <PopUp title="澄清声明" content={<FakeContentCn />} useBorder={false} />
   );
 };
 
@@ -77,6 +79,59 @@ const FakeContentCn: React.FC<{}> = () => {
         請勿向不明人士提供個人資訊或進行任何金錢交易。
         <br />
         WCG Markets团队
+        <br />
+        <Link
+          _hover={{
+            textDecoration: 'none'
+          }}
+          href="/"
+          isExternal
+        >
+          www.wcgmarkets.com
+        </Link>
+        <br />
+      </Text>
+      <Box>
+        <Image src={`/../assets/images/pop_up_fake-1.png`} alt="pop_up_fake" />
+      </Box>
+    </Stack>
+  );
+};
+
+const FakeContentEn: React.FC<{}> = () => {
+  return (
+    <Stack spacing={5} p={5}>
+      <Text>
+        Dear Client,
+        <br />
+        <br />
+        We have recently discovered that our company email system has been
+        subject to malicious attacks. Some customers may have received
+        unauthorized messages from spoofed email addresses that include
+        advertisements related to other illegal trading platforms. We hereby
+        declare that these messages were not sent by our company, and we advise
+        you not to click on or pay attention to the related email content to
+        avoid unnecessary risks and disturbances.
+        <br />
+        <br />
+        We sincerely apologize for any inconvenience this may have caused you
+        and have immediately taken measures to enhance our system security to
+        prevent similar incidents from occurring again. Thank you for your
+        understanding and support.
+        <br />
+        <br />
+        If you have any questions or need further assistance, please feel free
+        to contact us.
+        <br /> <br />
+        Please note the following:
+        <br />
+        * Do not click on links from unknown sources in emails.
+        <br />
+        * Do not provide personal information or engage in any monetary
+        transactions with unknown individuals.
+        <br />
+        <br />
+        WCG Markets Team
         <br />
         <Link
           _hover={{
