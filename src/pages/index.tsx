@@ -12,6 +12,7 @@ import Wrapper from '@/components/Base/Wrapper';
 import Carousel from '@/components/Carousel/Carousel';
 import InfoCard from '@/components/Common/InfoCard';
 import InfoTitle from '@/components/Common/InfoTitle';
+import Fake from '@/components/PopUp/Fake';
 import RestrictionsOnUse from '@/components/PopUp/RestrictionsOnUse';
 import { Locales } from '@/i18n/config';
 import { formatLang } from '@/utils';
@@ -73,6 +74,7 @@ const Index: React.FC<{}> = () => {
 
   return (
     <Wrapper>
+      <Fake />
       <RestrictionsOnUse />
 
       <Carousel
