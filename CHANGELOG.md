@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.67.8](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.67.7...v1.67.8) (2024-10-23)
+
+
+### Bug Fixes
+
+* **env:** update env settings ([39e378b](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/39e378b54ddde9ecbf7cb73012ea368118cf705e))
+
 ### [1.67.7](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.67.6...v1.67.7) (2024-10-21)
 
 ### [1.67.6](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.67.5...v1.67.6) (2024-10-18)
