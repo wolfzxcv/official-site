@@ -36,15 +36,15 @@ export const links = {
   // 開立真實帳戶
   registerReal:
     process.env.NEXT_PUBLIC_REGISTER_REAL ||
-    'https://clientportal.wcgmarkets-fx.com/register/trader?link_id=dsnpsip4',
+    'https://clientportal.wcgmarkets-zh.com/register/trader/multi-step?link_id=dsnpsip4',
   // 開立模擬帳戶
   registerDemo:
     process.env.NEXT_PUBLIC_REGISTER_DEMO ||
-    'https://clientportal.wcgmarkets-fx.com/register/demo?link_id=qqod20vx',
+    'https://clientportal.wcgmarkets-zh.com/register/demo?link_id=qqod20vx',
   // 用戶中心
   usersCenter:
     process.env.NEXT_PUBLIC_USERS_CENTER ||
-    'https://clientportal.wcgmarkets-fx.com',
+    'https://clientportal.wcgmarkets-zh.com/',
   // 越南語系推廣活動
   depositBonus:
     process.env.NEXT_PUBLIC_VI_DEPOSIT_BONUS ||
