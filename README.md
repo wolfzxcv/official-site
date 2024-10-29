@@ -196,6 +196,7 @@
   - [WCGRJH](https://www.wcgmarkets.com/activity/WCGRJH)
   - [WCGZQX](https://www.wcgmarkets.com/activity/WCGZQX)
   - [WCGJTX](https://www.wcgmarkets.com/activity/WCGJTX)
+  - [WCGJTXJ](https://www.wcgmarkets.com/activity/WCGJTXJ)
 
 - 馬來語系專門活動, 多半使用英文
 
