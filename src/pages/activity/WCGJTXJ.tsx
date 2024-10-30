@@ -10,7 +10,7 @@ export const WCGJTXJ_BG = '#894a15';
 
 const WCGJTXJ_DATE_BG = '#e5392b';
 const WCGJTXJ_DATE_BORDER = '#c89179';
-const WCGJTXJ_BUTTON_BG = '#d77a358';
+const WCGJTXJ_BUTTON_BG = '#d77a35';
 const WCGJTXJ_FOOTER_BG = '#d77a35';
 
 const WCGJTXJ_TITLE_FONT = 'white';
