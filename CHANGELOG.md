@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.68.0](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.67.10...v1.68.0) (2024-10-30)
+
+
+### Features
+
+* **promotion:** add new promotion MLXYH ([120446d](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/120446d8298792dc4b8c07744961c0ec258c0d4c))
+
 ### [1.67.10](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.67.9...v1.67.10) (2024-10-29)
 
 ### [1.67.9](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.67.8...v1.67.9) (2024-10-24)
