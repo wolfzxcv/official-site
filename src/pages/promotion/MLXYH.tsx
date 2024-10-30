@@ -48,7 +48,7 @@ const MLXYH: React.FC<{}> = () => {
           my={'6em'}
           width={{ base: '90vw', md: '80vw' }}
           color={MLXYH_FONT_WHITE}
-          spacing={{ base: 1, md: 3 }}
+          spacing={1}
           fontSize={{ base: '10px', md: '16px' }}
           textAlign={{ base: 'left', md: 'center' }}
         >
