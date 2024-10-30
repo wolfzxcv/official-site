@@ -419,7 +419,9 @@ const MLXYHForm: React.FC<{}> = () => {
           justify="center"
         >
           <Box>申请表格 | </Box>
-          <Box color={MLXYH_FONT_YELLOW}> Application Form</Box>
+          <Box color={MLXYH_FONT_YELLOW} ml={1}>
+            Application Form
+          </Box>
         </Flex>
 
         <Box
