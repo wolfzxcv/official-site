@@ -392,7 +392,7 @@ const MLXYHForm: React.FC<{}> = () => {
         .required(MESSAGES.required)
     },
     {
-      name: 'mobile',
+      name: 'account',
       placeholder: 'MT4账户 | MT4Account',
       variant: 'filled',
       formControlWidth: '90%',
