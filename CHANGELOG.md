@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.68.4](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.68.3...v1.68.4) (2024-10-30)
+
+
+### Bug Fixes
+
+* **mlxyh:** modify send data object key ([6a31590](https://git.wcgmarkets.com/Alice_Chou/wcg/commit/6a31590fd1b48459c585aaad607f035311b0e3f1))
+
 ### [1.68.3](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.68.2...v1.68.3) (2024-10-30)
 
 ### [1.68.2](https://git.wcgmarkets.com/Alice_Chou/wcg/compare/v1.68.1...v1.68.2) (2024-10-30)
