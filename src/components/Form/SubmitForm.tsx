@@ -27,6 +27,7 @@ type SubmitFormProps = {
   api: string;
   agreement?: string;
   submitButtonWidth?: ButtonProps['width'];
+  useBlackColor?: boolean;
 };
 
 const SubmitForm: React.FC<SubmitFormProps> = ({
@@ -35,7 +36,8 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
   afterSubmit,
   api,
   agreement,
-  submitButtonWidth = { base: '50vw', md: '300px' }
+  submitButtonWidth = { base: '50vw', md: '300px' },
+  useBlackColor
 }) => {
   const [hasAgreed, setHasAgreed] = useState(false);
 
@@ -61,6 +63,7 @@ const SubmitForm: React.FC<SubmitFormProps> = ({
           fontSize={{ base: '12px', md: 'inherit' }}
           bg="gray.100"
           py={2}
+          color={useBlackColor ? 'black' : 'auto'}
         >
           {afterSubmit}
         </Box>

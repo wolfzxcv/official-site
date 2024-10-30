@@ -212,6 +212,7 @@
 
 - 目前廣告投放頁面們(依照開發順序陳列)
   - [WCGTGH](https://www.wcgmarkets.com/promotion/WCGTGH)
+  - [MLXYH](https://www.wcgmarkets.com/promotion/MLXYH)
 
 ## 情報
 
@@ -340,7 +341,28 @@ type IPromotion = {
 - 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到"後端/後台專案"的.env 設定的 CUSTOMER_SERVICE_EMAIL
 - 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD
 
-## 6.偵測 IP 來源地區
+## 6. WLXYH 廣告投放
+
+| Item   | Value      |
+| ------ | ---------- |
+| Method | POST       |
+| path   | **/mlxyh** |
+| param  |            |
+| table  | g_mlxyh    |
+
+```typescript=
+type IPromotion = {
+  name: string;
+  email: string;
+  account: string;
+};
+```
+
+- 以上沒打問號的, 代表必填
+- 以上資料除了會進到資料庫, 也會使用 nodemailer 寄信到.env 設定的 CUSTOMER_SERVICE_EMAIL
+- 寄信的 server 使用.env 的 EMAIL_ACCOUNT 及 EMAIL_PASSWORD
+
+## 7.偵測 IP 來源地區
 
 | Item   | Value        |
 | ------ | ------------ |
