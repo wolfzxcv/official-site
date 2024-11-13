@@ -22,7 +22,7 @@ export const links = {
   // MT4 Windows version
   mt4App:
     process.env.NEXT_PUBLIC_MT4_APP ||
-    'https://wcg-data.wcgmarkets.com/wcggroupltd4setup.exe',
+    'https://download.mql5.com/cdn/web/wcg.group.limited/mt4/wcggroupltd4setup.exe',
   // MT4 APK 1
   mt4Apk1:
     process.env.NEXT_PUBLIC_MT4_APK1 ||
