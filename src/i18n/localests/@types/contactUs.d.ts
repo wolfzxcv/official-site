@@ -93,7 +93,7 @@ export type ContactUs = {
   partneredWith: string;
   /** Awarded the Most Investor Trusted */
   awardedTheMostInvestorTrusted: string;
-  /** WCG Markets Ltd obtained */
+  /** WCG Group Ltd obtained */
   WCGMarketsLtdObtained: string;
   /** Established Malaysia  */
   establishedMalaysia: string;
@@ -101,7 +101,7 @@ export type ContactUs = {
   setUpTaiwan: string;
   /** a leader in the industry */
   aLeaderInTheIndustry: string;
-  /** WCG Markets Ltd obtained the FINTRAC */
+  /** WCG Group Ltd obtained the FINTRAC */
   WCGMarketsLtdObtainedTheFINTRAC: string;
   /** Start charity projects */
   startCharityProjects: string;
@@ -111,14 +111,14 @@ export type ContactUs = {
   theTradingSystem: string;
   /** Focusing on */
   focusingOn: string;
-  /** The strength of WCG Markets is reconfirmed */
+  /** The strength of WCG Group is reconfirmed */
   TheStrengthOfWCGMarketsIsReconfirmed: string;
-  /** WCG Markets won the third place */
+  /** WCG Group won the third place */
   WCGMarketsWonTheThirdPlace: string;
   /** Business expansion, technology upgrade */
   BusinessExpansionTechnologyUpgrade: string;
   /** WCG IFX EXPO */
   WCGIFXEXPO: string;
-  /** WCG Markets acquired */
+  /** WCG Group acquired */
   WCGMarketsAcquired: string;
 };

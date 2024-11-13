@@ -8,9 +8,9 @@ export const questions: Questions = {
   WCGIsABusinessBrand:
     'WCG là thương hiệu kinh doanh được nhiều công ty sử dụng, bao gồm',
   WCGMarketsLtdIsSupervised:
-    'WCG Markets Ltd được giám sát bởi Đơn vị Tình báo Tài chính Canada (FIU) và Trung tâm Phân tích Báo cáo và Giao dịch Tài chính Canada (FINTRAC). Số giấy phép MSB là M20282836.',
+    'WCG Group Ltd được giám sát bởi Đơn vị Tình báo Tài chính Canada (FIU) và Trung tâm Phân tích Báo cáo và Giao dịch Tài chính Canada (FINTRAC). Số giấy phép MSB là M20282836.',
   WCGMarketsLtdIsRegistered:
-    'WCG Markets Ltd được đăng ký theo Luật Kinh doanh Quốc tế và được điều chỉnh bởi Saint Vincent và Cơ quan Dịch vụ Tài chính Grenadines (SVGFSA), được đánh số là 26087 BC 2020.',
+    'WCG Group Ltd được đăng ký theo Luật Kinh doanh Quốc tế và được điều chỉnh bởi Saint Vincent và Cơ quan Dịch vụ Tài chính Grenadines (SVGFSA), được đánh số là 26087 BC 2020.',
   HowToOpenAnAccountInWCG: 'Làm thế nào để mở một tài khoản trong WCG?',
   youCanRegisterYourRealAccount:
     'Bạn có thể đăng ký tài khoản thực của mình trên trang web chính thức của WCG, hoặc nhấp vào đây để đăng ký.',

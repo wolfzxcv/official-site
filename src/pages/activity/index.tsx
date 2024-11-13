@@ -111,7 +111,7 @@ const Activity: React.FC<{}> = () => {
             textAlign="left"
           >
             <Text>活动产品：美原油、布伦特原油</Text>
-            <Text>活动对象：WCG Markets 新客户</Text>
+            <Text>活动对象：WCG Group 新客户</Text>
           </Box>
 
           <Box
@@ -282,10 +282,10 @@ const Activity: React.FC<{}> = () => {
           width={{ base: '85vw', md: '80vw' }}
         >
           <Text>注意事项</Text>
-          <Text>1. 任何争议WCG Markets 保留最终决定权及最终解释权利;</Text>
-          <Text>2. 每位WCG Markets 客户只可使用一个账号参加此活动</Text>
+          <Text>1. 任何争议WCG Group 保留最终决定权及最终解释权利;</Text>
+          <Text>2. 每位WCG Group 客户只可使用一个账号参加此活动</Text>
           <Text>
-            3. WCG Markets 有权对企图篡改或违反本活动细则条款的客户取消活动资格;
+            3. WCG Group 有权对企图篡改或违反本活动细则条款的客户取消活动资格;
           </Text>
           <Text>
             4. 如客户在活动期间,提取全部或部分资金,
@@ -297,8 +297,8 @@ const Activity: React.FC<{}> = () => {
             Markets 官网)
           </Text>
           <Text>
-            7. WCG Markets 将保留权利随时修改或终止此促销活动,
-            任何修改或终止活动的通知将以WCG Markets 发出的公布为准;
+            7. WCG Group 将保留权利随时修改或终止此促销活动,
+            任何修改或终止活动的通知将以WCG Group 发出的公布为准;
           </Text>
         </Stack>
       </Flex>

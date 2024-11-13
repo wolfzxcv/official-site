@@ -8,9 +8,9 @@ export const questions: Questions = {
   WCGIsABusinessBrand:
     'WCG adalah merek bisnis yang digunakan oleh banyak perusahaan, termasuk',
   WCGMarketsLtdIsSupervised:
-    'WCG Markets Ltd diawasi oleh Unit Intelijen Keuangan Kanada (FIU) dan Pusat Analisis Transaksi dan Pelaporan Keuangan Kanada (FINTRAC). Nomor lisensi MSB adalah M20282836.',
+    'WCG Group Ltd diawasi oleh Unit Intelijen Keuangan Kanada (FIU) dan Pusat Analisis Transaksi dan Pelaporan Keuangan Kanada (FINTRAC). Nomor lisensi MSB adalah M20282836.',
   WCGMarketsLtdIsRegistered:
-    'WCG Markets Ltd terdaftar di bawah Hukum Bisnis Internasional dan diatur oleh Saint Vincent dan Otoritas Jasa Keuangan Grenadines (SVGFSA), bernomor 26087 SM 2020.',
+    'WCG Group Ltd terdaftar di bawah Hukum Bisnis Internasional dan diatur oleh Saint Vincent dan Otoritas Jasa Keuangan Grenadines (SVGFSA), bernomor 26087 SM 2020.',
   HowToOpenAnAccountInWCG: 'Bagaimana cara membuka akun di WCG?',
   youCanRegisterYourRealAccount:
     'Anda dapat mendaftarkan akun riil Anda di situs resmi WCG, atau klik di sini untuk mendaftar.',

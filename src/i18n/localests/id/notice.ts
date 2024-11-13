@@ -28,7 +28,7 @@ export const notice: Notice = {
   ifTheAccountIs:
     'Jika akun dipastikan memiliki transaksi tidak normal, perusahaan akan menutup akun dan mengembalikan sisa dana kepada pelanggan, keuntungan dan komisi yang timbul dari transaksi tidak normal akan dibatalkan. ＊ Hak untuk menafsirkan "transaksi abnormal" dimiliki oleh Wenchuan International Co., Ltd. dan jika ada perselisihan, keputusan Wenchuan International bersifat final.',
   theRightToInterpret:
-    'Hak untuk menafsirkan “transaksi abnormal” dimiliki oleh WCG Markets Ltd. dan jika ada perselisihan, WCG Markets Ltd berhak untuk mengubahnya.',
+    'Hak untuk menafsirkan “transaksi abnormal” dimiliki oleh WCG Group Ltd. dan jika ada perselisihan, WCG Group Ltd berhak untuk mengubahnya.',
   tradeDetails: 'Detail Perdagangan',
   sourceOfTradeExecution: 'Sumber Eksekusi Perdagangan',
   theQuotesOfOur:

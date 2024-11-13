@@ -50,13 +50,13 @@ export const contactUs: ContactUs = {
     '伙拍印度尼西亚当地知名持牌交易商 – 中央资本期货有限公司，正式迈进全球第四大市场',
   awardedTheMostInvestorTrusted: '荣膺年度最具投资者信赖贵金属交易商',
   WCGMarketsLtdObtained:
-    'WCG Markets Ltd取得圣文森特和格林纳丁斯金融服务管理局（SVGFSA）牌照，号码为126087 BC 2020',
+    'WCG Group Ltd取得圣文森特和格林纳丁斯金融服务管理局（SVGFSA）牌照，号码为126087 BC 2020',
   establishedMalaysia: '设立马来西亚联络处',
   setUpTaiwan: '设立台湾联络处',
   aLeaderInTheIndustry:
     '业界翘楚吴国强先生强势加盟，负责风控及监控部门。吴先生拥有财务硕士学位及多项国际专业资格，历任多家世界级银行首席交易员和风险管理部主管',
   WCGMarketsLtdObtainedTheFINTRAC:
-    'WCG Markets Ltd取得拿大FINTRAC MSB牌照，号码为 M20282836',
+    'WCG Group Ltd取得拿大FINTRAC MSB牌照，号码为 M20282836',
   startCharityProjects:
     '启动慈善项目，积极参与教育及医疗慈善项目，致力成为良好企业公民，回馈社会',
   integrateAndUpdate:
@@ -67,11 +67,11 @@ export const contactUs: ContactUs = {
     '心系乡村素质教育，特赞助知行教育基金会 21-22 年度知行图书角项目，预计最少有6所小学，数以千计的小学生可因此获益',
   WCGIFXEXPO: 'WCG & IFX EXPO 国际环球金融展览',
   TheStrengthOfWCGMarketsIsReconfirmed:
-    'WCG Markets 实力再被确认电子交易平台功能的管理能力均在标准以上的水准， 并通过考核测试，顺利完成指定项目及考核程式。获金银业贸易场GTP Certified徽章。',
+    'WCG Group 实力再被确认电子交易平台功能的管理能力均在标准以上的水准， 并通过考核测试，顺利完成指定项目及考核程式。获金银业贸易场GTP Certified徽章。',
   WCGMarketsWonTheThirdPlace:
-    'WCG Markets 获得2021年度香港公司最高慈善捐款第三名的殊荣，这项荣誉，是对WCG Markets 出色的公益成果的充分肯定。',
+    'WCG Group 获得2021年度香港公司最高慈善捐款第三名的殊荣，这项荣誉，是对WCG Group 出色的公益成果的充分肯定。',
   BusinessExpansionTechnologyUpgrade:
     '业务再扩张，技术升级，收购ASA交易伺服器，为客户提供更优越的交易环境。',
   WCGMarketsAcquired:
-    'WCG Markets 收购两大知名金融机构”盈富Wealth Gold Group”及”酷极KUJI”，为未来发展奠下良好基础。'
+    'WCG Group 收购两大知名金融机构”盈富Wealth Gold Group”及”酷极KUJI”，为未来发展奠下良好基础。'
 };

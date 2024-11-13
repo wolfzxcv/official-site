@@ -117,7 +117,7 @@ const AdjustmentZh: React.FC<{}> = () => {
       </Box>
 
       <Flex flexDir="column">
-        <Box>WCG MARKETS 謹啓</Box>
+        <Box>WCG Group 謹啓</Box>
         <Box>2023年3月10日</Box>
       </Flex>
     </Stack>
@@ -210,7 +210,7 @@ const AdjustmentCn: React.FC<{}> = () => {
       </Box>
 
       <Flex flexDir="column">
-        <Box>WCG MARKETS 谨啓</Box>
+        <Box>WCG Group 谨啓</Box>
         <Box>2023年3月10日</Box>
       </Flex>
     </Stack>
@@ -328,7 +328,7 @@ const AdjustmentEn: React.FC<{}> = () => {
 
       <Flex flexDir="column">
         <Box>Yours sincerely,</Box>
-        <Box>WCG MARKETS March 16th ,2023</Box>
+        <Box>WCG Group March 16th ,2023</Box>
       </Flex>
     </Stack>
   );

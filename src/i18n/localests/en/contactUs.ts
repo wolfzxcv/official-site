@@ -53,13 +53,13 @@ export const contactUs: ContactUs = {
   awardedTheMostInvestorTrusted:
     'Awarded the Most Investor Trusted Precious Metal Dealer of the Year.',
   WCGMarketsLtdObtained:
-    'WCG Markets Ltd obtained the Saint Vincent and the Grenadines Financial Services Authority (SVGFSA) license with the number 126087 BC 2020.',
+    'WCG Group Ltd obtained the Saint Vincent and the Grenadines Financial Services Authority (SVGFSA) license with the number 126087 BC 2020.',
   establishedMalaysia: 'Established Malaysia Liaison Office.',
   setUpTaiwan: 'Set up Taiwan Liaison Office.',
   aLeaderInTheIndustry:
     "Mr. Wu Guoqiang, a leader in the industry, joined forces and is responsible for the risk control and monitoring department. Mr. Wu has a master's degree in finance and a number of international professional qualifications. He has served as chief trader and head of risk management department of many world-class banks.",
   WCGMarketsLtdObtainedTheFINTRAC:
-    'WCG Markets Ltd obtained the FINTRAC MSB license of Canada, the number is M20282836.',
+    'WCG Group Ltd obtained the FINTRAC MSB license of Canada, the number is M20282836.',
   startCharityProjects:
     'Start charity projects, actively participate in education and medical charity projects, and strive to become a good corporate citizen and give back to the society.',
   integrateAndUpdate:
@@ -70,11 +70,11 @@ export const contactUs: ContactUs = {
     "Focusing on rural quality education, we specially sponsor the Zhixing Education Foundation's 21-22 Zhixing Book Corner Project. It is estimated that there will be at least 6 primary schools and thousands of primary school students can benefit from it.",
   WCGIFXEXPO: 'WCG & IFX EXPO',
   TheStrengthOfWCGMarketsIsReconfirmed:
-    'The strength of WCG Markets is reconfirmed that the management capabilities of the electronic trading platform functions are above the standard level, and it has passed the assessment test and successfully completed the designated projects and assessment procedures. Obtained the GTP Certified badge of the Gold and Silver Trade Association.',
+    'The strength of WCG Group is reconfirmed that the management capabilities of the electronic trading platform functions are above the standard level, and it has passed the assessment test and successfully completed the designated projects and assessment procedures. Obtained the GTP Certified badge of the Gold and Silver Trade Association.',
   WCGMarketsWonTheThirdPlace:
-    "WCG Markets won the third place in the highest charitable donation of a Hong Kong company in 2021. This honor is a full affirmation of WCG Markets' outstanding public welfare achievements.",
+    "WCG Group won the third place in the highest charitable donation of a Hong Kong company in 2021. This honor is a full affirmation of WCG Markets' outstanding public welfare achievements.",
   BusinessExpansionTechnologyUpgrade:
     'Business expansion, technology upgrade, acquisition of ASA trading server, to provide customers with a more superior trading environment.',
   WCGMarketsAcquired:
-    'WCG Markets acquired two well-known financial institutions "Wealth Gold Group" and "KUJI", laying a good foundation for future development.'
+    'WCG Group acquired two well-known financial institutions "Wealth Gold Group" and "KUJI", laying a good foundation for future development.'
 };

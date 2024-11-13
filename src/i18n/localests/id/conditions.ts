@@ -52,7 +52,7 @@ export const conditions: Conditions = {
   inAdditionToYourObligation:
     'Selain kewajiban Anda untuk mendaftar sebagai pelanggan WCG, Anda setuju untuk memastikan bahwa semua informasi yang Anda berikan kepada WCG adalah lengkap dan akurat sejauh yang Anda ketahui dan yakini. Anda setuju untuk segera memberi tahu WCG setiap perubahan informasi yang Anda berikan, sehingga WCG dapat memperbarui catatan secara tepat waktu dan mencerminkan situasi terkini secara akurat.',
   companyInformation: 'Informasi Perusahaan',
-  WCGInternational: 'WCG Markets Ltd',
+  WCGInternational: 'WCG Group Ltd',
   disputeSettlement: 'Penyelesaian Sengketa',
   weWelcomeYourInvaluableComments:
     'Kami menyambut komentar Anda yang sangat berharga. Jika ada sesuatu yang dapat meningkatkan layanan kami muncul di benak Anda, beri tahu kami. Baik itu berupa saran, pujian, atau keluhan, umpan balik Anda adalah kunci untuk meningkatkan produk dan layanan kami.',

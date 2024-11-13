@@ -1,4 +1,4 @@
-# WCG Markets 官網
+# WCG Group 官網
 
 - [正式環境](https://www.wcgmarkets.com/)
 - [正式環境2](https://www.wcgmarkets-asia.com/)

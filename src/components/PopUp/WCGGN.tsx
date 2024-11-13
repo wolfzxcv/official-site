@@ -33,7 +33,7 @@ const WCGGN: React.FC<{}> = () => {
     />
   ) : (
     <PopUp
-      title="Good News! WCG Markets has completed the acquisition of two well-known FX brokers"
+      title="Good News! WCG Group has completed the acquisition of two well-known FX brokers"
       content={<WCGGNEn />}
       useBorder={false}
     />
@@ -114,7 +114,7 @@ const WCGGNZh: React.FC<{}> = () => {
           alt="qr-code"
         ></Image>
       </Box>
-      <Box>WCG MARKETS 謹啟</Box>
+      <Box>WCG Group 謹啟</Box>
     </Stack>
   );
 };
@@ -193,7 +193,7 @@ const WCGGNCn: React.FC<{}> = () => {
           alt="qr-code"
         ></Image>
       </Box>
-      <Box>WCG MARKETS 谨启</Box>
+      <Box>WCG Group 谨启</Box>
     </Stack>
   );
 };
@@ -204,17 +204,17 @@ const WCGGNEn: React.FC<{}> = () => {
       <Box>Dear valued customers and partners:</Box>
 
       <Box>
-        We are pleased to inform you that WCG Markets has completed the
+        We are pleased to inform you that WCG Group has completed the
         acquisition of &quot;Wealth Gold Group (WGG)&quot; and &quot;KUJI&quot;
-        and will combine with WCG Markets from October 24, 2022 (Monday). We
+        and will combine with WCG Group from October 24, 2022 (Monday). We
         continue to serve you all in the name of WCG Markets.
       </Box>
 
       <Box>
-        WCG Markets upholds a flexible, innovative, active and enthusiastic
+        WCG Group upholds a flexible, innovative, active and enthusiastic
         attitude, which keeps us at the forefront of the financial market.
         Facing the severity of the epidemic and the sudden changes in the global
-        market, WCG Markets embraced and took this opportunity to acquire two
+        market, WCG Group embraced and took this opportunity to acquire two
         well-known financial institutions &quot;Wealth Gold Group&quot; and
         &quot;KUJI&quot;, which is believed to lay a good foundation for future
         development.
@@ -224,7 +224,7 @@ const WCGGNEn: React.FC<{}> = () => {
         We are pleased to share this joy with you here. In the past three years,
         facing the severe test brought by the epidemic, we are thankful to your
         loyal support that we will steadfastly overcome various challenges.
-        Thank you for accompanying WCG Markets every step of the way, it is time
+        Thank you for accompanying WCG Group every step of the way, it is time
         for us to once again soar together in the financial markets. In order to
         thank you for your continuous support, we will arrange special reward
         campaigns for you. Details will be announced by email and on official

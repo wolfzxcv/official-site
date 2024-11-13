@@ -5,12 +5,11 @@ export const questions: Questions = {
   thisArticleCollects:
     'บทความนี้รวบรวมคำถามส่วนใหญ่ที่นักลงทุนมักจะถาม และหวังว่าคุณจะพบว่าคำตอบเหล่านั้นมีประโยชน์',
   whatKindOfSupervision: 'WCG มีการควบคุมดูแลแบบใด?',
-  WCGIsABusinessBrand:
-    'WCG Markets Ltd เป็นแบรนด์ธุรกิจที่หลายบริษัทใช้ รวมถึง',
+  WCGIsABusinessBrand: 'WCG Group Ltd เป็นแบรนด์ธุรกิจที่หลายบริษัทใช้ รวมถึง',
   WCGMarketsLtdIsSupervised:
-    'WCG Markets Ltd อยู่ภายใต้การดูแลของ Canadian Financial Intelligence Unit (FIU) และ Canadian Financial Transaction and Reporting Analysis Center (FINTRAC) หมายเลขใบอนุญาต MSB คือ M20282836',
+    'WCG Group Ltd อยู่ภายใต้การดูแลของ Canadian Financial Intelligence Unit (FIU) และ Canadian Financial Transaction and Reporting Analysis Center (FINTRAC) หมายเลขใบอนุญาต MSB คือ M20282836',
   WCGMarketsLtdIsRegistered:
-    'WCG Markets Ltd จดทะเบียนภายใต้กฎหมายธุรกิจระหว่างประเทศและอยู่ภายใต้การกำกับดูแลของ Saint Vincent and the Grenadines Financial Services Authority (SVGFSA) หมายเลข 26087 BC 2020',
+    'WCG Group Ltd จดทะเบียนภายใต้กฎหมายธุรกิจระหว่างประเทศและอยู่ภายใต้การกำกับดูแลของ Saint Vincent and the Grenadines Financial Services Authority (SVGFSA) หมายเลข 26087 BC 2020',
   HowToOpenAnAccountInWCG: 'จะเปิดบัญชีใน WCG ได้อย่างไร?',
   youCanRegisterYourRealAccount:
     'คุณสามารถลงทะเบียนบัญชีจริงของคุณได้ที่เว็บไซต์ทางการของ WCG หรือคลิกที่นี่เพื่อลงทะเบียน',

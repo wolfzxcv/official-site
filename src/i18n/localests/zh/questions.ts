@@ -7,9 +7,9 @@ export const questions: Questions = {
   whatKindOfSupervision: 'WCG是什麽監管?',
   WCGIsABusinessBrand: 'WCG 是由多家公司共同使用的業務品牌，包括',
   WCGMarketsLtdIsSupervised:
-    'WCG Markets Ltd 由加拿大金融情報機構 (FIU) 和加拿大金融交易和報告分析中心 (FINTRAC) 監管。 MSB 許可證編號為 M20282836。',
+    'WCG Group Ltd 由加拿大金融情報機構 (FIU) 和加拿大金融交易和報告分析中心 (FINTRAC) 監管。 MSB 許可證編號為 M20282836。',
   WCGMarketsLtdIsRegistered:
-    'WCG Markets Ltd 根據國際商法註冊並受聖文森特和格林納丁斯金融服務管理局 (SVGFSA) 監管，編號為 26087 BC 2020。',
+    'WCG Group Ltd 根據國際商法註冊並受聖文森特和格林納丁斯金融服務管理局 (SVGFSA) 監管，編號為 26087 BC 2020。',
   HowToOpenAnAccountInWCG: '如何在WCG開戶?',
   youCanRegisterYourRealAccount:
     '您可以在WCG官網注冊您的真實帳戶，或點此注冊。',

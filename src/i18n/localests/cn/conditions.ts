@@ -51,7 +51,7 @@ export const conditions: Conditions = {
   inAdditionToYourObligation:
     '在您登记成为WCG客户所须承担的义务之外，您同意确保您向WCG提供的一切资讯在您所知所信的范围内均完整、准确。您同意，您所提供的资讯發生任何变更，立即通知WCG，以便WCG及时更新记录、准确反映最新情况。',
   companyInformation: '公司资讯',
-  WCGInternational: 'WCG Markets Ltd',
+  WCGInternational: 'WCG Group Ltd',
   disputeSettlement: '争端处理',
   weWelcomeYourInvaluableComments:
     '我们欢迎您的宝贵意见。如果您有任何可以改善我们服务的想法，请告诉我们。无论是一个建议、称赞或投诉，您所回馈的意见，都是我们改善产品和服务的关键。',

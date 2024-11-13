@@ -24,21 +24,21 @@ const amlPolicy: React.FC<{}> = () => {
       title: 'General Definitions',
       content: [
         'For the purpose of this Manual, unless the context shall prescribe otherwise.',
-        '"Business Relationship" means a business, professional or commercial relationship which is connected with the professional activities of the WCG Markets (HK) Limited, and which was expected, at the time when the contact was established, to have an element of duration.',
-        '"Client" means any legal or physical person aiming to conclude a Business Relationship or conduct a single and/or more transaction(s) with WCG Markets (HK) Limited.',
+        '"Business Relationship" means a business, professional or commercial relationship which is connected with the professional activities of the WCG Group (HK) Limited, and which was expected, at the time when the contact was established, to have an element of duration.',
+        '"Client" means any legal or physical person aiming to conclude a Business Relationship or conduct a single and/or more transaction(s) with WCG Group (HK) Limited.',
         '"Company" means any of the following entities listed below',
-        'WCG Markets (HK) Limited which is incorporated in Hong Kong with registration number 2028151 and The Chinese Gold and Silver Exchange Society License 012',
+        'WCG Group (HK) Limited which is incorporated in Hong Kong with registration number 2028151 and The Chinese Gold and Silver Exchange Society License 012',
         '"Law" means the Anti-Money Laundering and Counter-Terrorist Financing Ordinance 2012.',
-        '"Manual" means WCG Markets (HK) Limited\'s Risk Management & Procedures Manual.'
+        '"Manual" means WCG Group (HK) Limited\'s Risk Management & Procedures Manual.'
       ]
     },
     {
       title: 'Introduction',
       content: [
-        "The purpose of the Manual is to lay down the WCG Markets (HK) Limited's internal practice, measures, procedures and controls relevant to the prevention of Money Laundering and Terrorist Financing.",
+        "The purpose of the Manual is to lay down the WCG Group (HK) Limited's internal practice, measures, procedures and controls relevant to the prevention of Money Laundering and Terrorist Financing.",
         'The Manual is developed and periodically updated by the Anti-Money Laundering Compliance.',
-        'Officer (hereinafter the "AMLCO") based on the general principles set up by the WCG Markets (HK) Limited\'s Board of Directors (hereinafter the "Board") in relation to the prevention of Money Laundering and Terrorist Financing. All amendments and/or changes to the Manual must be approved by the Board.',
-        "The Manual shall be communicated by the AMLCO to all the employees of the WCG Markets (HK) Limited that manage, monitor or control in any way the Client's transactions and have the responsibility for the application of the practices, measures, procedures and controls that have been determined herein. The Manual has been prepared to comply with the provisions of the Law."
+        'Officer (hereinafter the "AMLCO") based on the general principles set up by the WCG Group (HK) Limited\'s Board of Directors (hereinafter the "Board") in relation to the prevention of Money Laundering and Terrorist Financing. All amendments and/or changes to the Manual must be approved by the Board.',
+        "The Manual shall be communicated by the AMLCO to all the employees of the WCG Group (HK) Limited that manage, monitor or control in any way the Client's transactions and have the responsibility for the application of the practices, measures, procedures and controls that have been determined herein. The Manual has been prepared to comply with the provisions of the Law."
       ]
     },
     {
@@ -46,8 +46,8 @@ const amlPolicy: React.FC<{}> = () => {
       content: [
         `${
           !isArabic ? '1. ' : ''
-        }The Manual applies to all various types of services offered to the WCG Markets (HK) Limited's Clients as well as the relevant WCG Markets (HK) Limited's dealings with its Clients, including but not limited to Gold and Silver Trading transactions, which either do not aim to physically deliver the agreed foreign currency or are not materially settled in cash, irrespective of the Client account size and frequency of trading.`,
-        "In this respect, AMLCO shall be responsible to update the Manual so as to comply with Law's future requirements, as applicable, and regarding due diligence procedures being applied for Clients who deal in but not limited to gold and silver trading transactions with the WCG Markets (HK) Limited."
+        }The Manual applies to all various types of services offered to the WCG Group (HK) Limited's Clients as well as the relevant WCG Group (HK) Limited's dealings with its Clients, including but not limited to Gold and Silver Trading transactions, which either do not aim to physically deliver the agreed foreign currency or are not materially settled in cash, irrespective of the Client account size and frequency of trading.`,
+        "In this respect, AMLCO shall be responsible to update the Manual so as to comply with Law's future requirements, as applicable, and regarding due diligence procedures being applied for Clients who deal in but not limited to gold and silver trading transactions with the WCG Group (HK) Limited."
       ]
     },
     {
@@ -56,7 +56,7 @@ const amlPolicy: React.FC<{}> = () => {
         'The responsibilities of the Board in relation to the prevention of Money Laundering and Terrorist Financing include the following:',
         `${
           !isArabic ? '1. ' : ''
-        }To determine, record and approve the general policy principles of the WCG Markets (HK) Limited in relation to the prevention of Money Laundering and Terrorist Financing and communicate them to the AMLCO.`,
+        }To determine, record and approve the general policy principles of the WCG Group (HK) Limited in relation to the prevention of Money Laundering and Terrorist Financing and communicate them to the AMLCO.`,
         `${
           !isArabic ? '2. ' : ''
         }To appoint the AMLCO and, where necessary, additional assistant AMCLOs and determine their duties and responsibilities, which are recorded in this Manual.`,
@@ -82,12 +82,12 @@ const amlPolicy: React.FC<{}> = () => {
       title:
         'Responsibilities of the Anti-Money Laundering Compliance Officers',
       content: [
-        "The AMLCO shall belong hierarchically to the higher ranks of the WCG Markets (HK) Limited's organization structure so as to command the necessary authority. Furthermore, the AMLCO shall lead the WCG Markets (HK) Limited's Money Laundering Compliance procedures and processes and report to the Senior Management. The AMLCO shall also have access to all relevant information necessary to perform his duties.",
-        'During the execution of his duties and the control of the compliance of the WCG Markets (HK) Limited with the Law, the AMLCO shall obtain and utilize data, information and reports issued by international organizations.',
+        "The AMLCO shall belong hierarchically to the higher ranks of the WCG Group (HK) Limited's organization structure so as to command the necessary authority. Furthermore, the AMLCO shall lead the WCG Group (HK) Limited's Money Laundering Compliance procedures and processes and report to the Senior Management. The AMLCO shall also have access to all relevant information necessary to perform his duties.",
+        'During the execution of his duties and the control of the compliance of the WCG Group (HK) Limited with the Law, the AMLCO shall obtain and utilize data, information and reports issued by international organizations.',
         'The duties of the AMLCO shall include the following:',
         `${
           !isArabic ? '1. ' : ''
-        }To design, based on the general policy principles of the WCG Markets (HK) Limited the internal practice, measures, procedures and controls relevant to the prevention of Money Laundering and Terrorist Financing. It is provided that, the above measures and procedures for the prevention of the abuse of new technologies and systems providing financial services, for the purpose of Money Laundering and Terrorist Financing is appropriately considered and managed in the course of daily activities of the WCG Markets (HK) Limited with regard to the development of new products and possible changes in WCG Markets (HK) Limited's economic profile (e.g., penetration into new markets).`,
+        }To design, based on the general policy principles of the WCG Group (HK) Limited the internal practice, measures, procedures and controls relevant to the prevention of Money Laundering and Terrorist Financing. It is provided that, the above measures and procedures for the prevention of the abuse of new technologies and systems providing financial services, for the purpose of Money Laundering and Terrorist Financing is appropriately considered and managed in the course of daily activities of the WCG Group (HK) Limited with regard to the development of new products and possible changes in WCG Group (HK) Limited's economic profile (e.g., penetration into new markets).`,
         `${
           !isArabic ? '2. ' : ''
         }To develop and establish the Client Acceptance Policy and submit it to the Board for consideration and approval.`,
@@ -96,8 +96,8 @@ const amlPolicy: React.FC<{}> = () => {
         }To review and update the Manual as may be required from time to time, and for such updates to be communicated to the Board for their approval.`,
         `${
           !isArabic ? '4. ' : ''
-        }To provide advice and guidance to the employees of the WCG Markets (HK) Limited on subjects related to Money Laundering and Terrorist Financing.`,
-        "The constant monitoring of the Clients' accounts and transactions is an imperative element in the effective controlling of the risk of Money Laundering and Terrorist Financing. In this respect, the AMLCO shall be responsible for maintaining as well as developing the on-going monitoring process of the WCG Markets (HK) Limited."
+        }To provide advice and guidance to the employees of the WCG Group (HK) Limited on subjects related to Money Laundering and Terrorist Financing.`,
+        "The constant monitoring of the Clients' accounts and transactions is an imperative element in the effective controlling of the risk of Money Laundering and Terrorist Financing. In this respect, the AMLCO shall be responsible for maintaining as well as developing the on-going monitoring process of the WCG Group (HK) Limited."
       ]
     },
     {
@@ -116,20 +116,20 @@ const amlPolicy: React.FC<{}> = () => {
       title: 'Know Your Client (KYC) Workflow Risk-Based Approach',
       content: [
         'Company shall apply appropriate measures and procedures, by adopting a risk-based approach, so as to focus its effort in those areas where the risk of Money Laundering and Terrorist Financing appears to be comparatively higher.',
-        'The adopted risk-based approach that is followed by the WCG Markets (HK) Limited, and described in the Manual, has the following general characteristics:',
+        'The adopted risk-based approach that is followed by the WCG Group (HK) Limited, and described in the Manual, has the following general characteristics:',
         `${
           !isArabic ? '1. ' : ''
         }Recognizes that the money laundering or terrorist financing threat varies across Clients, countries, services and financial instruments.`,
         `${
           !isArabic ? '2. ' : ''
-        }Allows the Board to differentiate between Clients of the WCG Markets (HK) Limited in a way that matches the risk of their particular business.`,
+        }Allows the Board to differentiate between Clients of the WCG Group (HK) Limited in a way that matches the risk of their particular business.`,
         `${
           !isArabic ? '3. ' : ''
-        }Allows the Board to apply its own approach in the formulation of policies, procedures and controls in response to the WCG Markets (HK) Limited's particular circumstances and characteristics.`,
+        }Allows the Board to apply its own approach in the formulation of policies, procedures and controls in response to the WCG Group (HK) Limited's particular circumstances and characteristics.`,
         `${
           !isArabic ? '4. ' : ''
         }Helps to produce a more cost-effective system.`,
-        'The risk-based approach adopted by the WCG Markets (HK) Limited, and described in the Manual, involves specific measures and procedures in assessing the most cost effective and appropriate way to identify and manage the Money Laundering and Terrorist Financing risks faced by the WCG Markets (HK) Limited.',
+        'The risk-based approach adopted by the WCG Group (HK) Limited, and described in the Manual, involves specific measures and procedures in assessing the most cost effective and appropriate way to identify and manage the Money Laundering and Terrorist Financing risks faced by the WCG Group (HK) Limited.',
         'Such measures include:',
         `${
           !isArabic ? '1. ' : ''
@@ -179,7 +179,7 @@ const amlPolicy: React.FC<{}> = () => {
         'The AMLCO shall ensure that the appropriate documents and information with respect to the following cases shall be duly obtained, as applicable and appropriate:',
         `${
           !isArabic ? '1. ' : ''
-        }The WCG Markets (HK) Limited shall obtain the following information to ascertain the true identity of the natural persons:`,
+        }The WCG Group (HK) Limited shall obtain the following information to ascertain the true identity of the natural persons:`,
         ` ${
           !isArabic ? 'a. ' : ''
         }True name and/or names used as these are stated on the official identity card or passport.`,
@@ -199,25 +199,25 @@ const amlPolicy: React.FC<{}> = () => {
         }Details of the profession and other occupations of the Client including the name of employer/business organization, if necessary, in the events of conflicting information.`,
         `${
           !isArabic ? '2. ' : ''
-        }In order to verify the Client's identity/name WCG Markets (HK) Limited shall request the Client to present an original document which is issued by an independent and reliable source that carries the Client's photo (e.g., Passport, National Identity cards, Driving License). After WCG Markets (HK) Limited is satisfied for the Client's identity from the original identification document presented, it will keep copies. It is provided that, WCG Markets (HK) Limited shall be able to prove that the said document is issued by an independent and reliable source. In this respect, the AMLCO shall be responsible to evaluate the independence and reliability of the source and shall duly document and file the relevant data and information used for the evaluation, as applicable.`,
+        }In order to verify the Client's identity/name WCG Group (HK) Limited shall request the Client to present an original document which is issued by an independent and reliable source that carries the Client's photo (e.g., Passport, National Identity cards, Driving License). After WCG Group (HK) Limited is satisfied for the Client's identity from the original identification document presented, it will keep copies. It is provided that, WCG Group (HK) Limited shall be able to prove that the said document is issued by an independent and reliable source. In this respect, the AMLCO shall be responsible to evaluate the independence and reliability of the source and shall duly document and file the relevant data and information used for the evaluation, as applicable.`,
         `${
           !isArabic ? '3. ' : ''
         }The Client's permanent address shall be verified using one of the following ways:`,
         ` ${
           !isArabic ? 'a. ' : ''
-        }Visit at the place of residence (in such a case, WCG Markets (HK) Limited employee who carries out the visit prepares a memo which is retained in the Client's file)`,
+        }Visit at the place of residence (in such a case, WCG Group (HK) Limited employee who carries out the visit prepares a memo which is retained in the Client's file)`,
         ` ${
           !isArabic ? 'b. ' : ''
         }The production of a recent (up to 6 months) utility bill, local authority tax bill or a bank statement or any other document same with the aforesaid (to protect against forged or counterfeit documents, the prospective Clients are required to produce original documents)`,
         ` ${
           !isArabic ? 'c. ' : ''
-        }Mailing an official letter from the WCG Markets (HK) Limited to the Client's permanent address where a scanned copy of the letter content is required for confirmation`,
+        }Mailing an official letter from the WCG Group (HK) Limited to the Client's permanent address where a scanned copy of the letter content is required for confirmation`,
         `${
           !isArabic ? '4. ' : ''
-        }In addition to the above, the procedure for the verification of a client's identity is reinforced if the said Client is introduced by a reliable staff member of the WCG Markets (HK) Limited, or by another existing reliable Client who is personally known to a member of the Board. Details of such introductions are kept in the Client's file.`,
+        }In addition to the above, the procedure for the verification of a client's identity is reinforced if the said Client is introduced by a reliable staff member of the WCG Group (HK) Limited, or by another existing reliable Client who is personally known to a member of the Board. Details of such introductions are kept in the Client's file.`,
         `${
           !isArabic ? '5. ' : ''
-        }In addition to the aim of preventing Money Laundering and Terrorist Financing, the abovementioned information is also essential for implementing the financial sanctions imposed against various persons that can be validated against sources listed in Relevant International Organizations. In this respect, passport's number, issuing date and the Client's date of birth always appear on the documents obtained, so that WCG Markets (HK) Limited would be in the position to verify precisely whether a client is included in the relevant list of persons subject to financial sanctions which are validated against sources listed in Relevant International Organizations.`
+        }In addition to the aim of preventing Money Laundering and Terrorist Financing, the abovementioned information is also essential for implementing the financial sanctions imposed against various persons that can be validated against sources listed in Relevant International Organizations. In this respect, passport's number, issuing date and the Client's date of birth always appear on the documents obtained, so that WCG Group (HK) Limited would be in the position to verify precisely whether a client is included in the relevant list of persons subject to financial sanctions which are validated against sources listed in Relevant International Organizations.`
       ]
     },
     {
@@ -230,13 +230,13 @@ const amlPolicy: React.FC<{}> = () => {
         }The third person makes immediately available all data and information, which must be certified true copies of the originals, which were collected in the course of applying Client identification and due diligence procedures.`,
         `${
           !isArabic ? '2. ' : ''
-        }WCG Markets (HK) Limited applies the appropriate due diligence measures on the third person with respect to his professional registration and procedures and measures applied from the third person for the prevention of Money Laundering and Terrorist Financing. The AMLCO shall be responsible for the implementation of the provisions mentioned above.`
+        }WCG Group (HK) Limited applies the appropriate due diligence measures on the third person with respect to his professional registration and procedures and measures applied from the third person for the prevention of Money Laundering and Terrorist Financing. The AMLCO shall be responsible for the implementation of the provisions mentioned above.`
       ]
     },
     {
       title: 'Suspicious Transactions',
       content: [
-        "The definition of a suspicious transaction as well as the types of suspicious transactions which may be used for Money Laundering and Terrorist Financing are almost unlimited. A suspicious transaction will often be one which is inconsistent with a client's known, legitimate business or personal activities or with the normal business of the specific account, or in general with the economic profile that WCG Markets (HK) Limited has created for the Client. WCG Markets (HK) Limited shall ensure that it maintains adequate information and knows enough about its Clients ‘activities in order to recognize on time that a transaction or a series of transactions is unusual or suspicious.",
+        "The definition of a suspicious transaction as well as the types of suspicious transactions which may be used for Money Laundering and Terrorist Financing are almost unlimited. A suspicious transaction will often be one which is inconsistent with a client's known, legitimate business or personal activities or with the normal business of the specific account, or in general with the economic profile that WCG Group (HK) Limited has created for the Client. WCG Group (HK) Limited shall ensure that it maintains adequate information and knows enough about its Clients ‘activities in order to recognize on time that a transaction or a series of transactions is unusual or suspicious.",
         'In order to identify suspicious transactions, the AMLCO shall perform the following activities:',
         `${
           !isArabic ? '1. ' : ''
@@ -324,9 +324,9 @@ const amlPolicy: React.FC<{}> = () => {
         `${!isArabic ? 'xxv. ' : ''}Complex trust or nominee network.`,
         `${
           !isArabic ? 'xxvi. ' : ''
-        }Transactions or WCG Markets (HK) Limited structures established or working with an unneeded
+        }Transactions or WCG Group (HK) Limited structures established or working with an unneeded
         commercial way, e.g. companies with bearer shares or bearer financial instruments or use of a postal box.
-        xxvii. Use of general nominee documents in a way that restricts the control exercised by the WCG Markets (HK) Limited's board of directors.
+        xxvii. Use of general nominee documents in a way that restricts the control exercised by the WCG Group (HK) Limited's board of directors.
         `,
         `${
           !isArabic ? 'xxviii. ' : ''
@@ -339,7 +339,7 @@ const amlPolicy: React.FC<{}> = () => {
     {
       title: 'Record-Keeping Procedures',
       content: [
-        'The Administration/Back-Office Department of WCG Markets (HK) Limited Ltd shall maintain records of:',
+        'The Administration/Back-Office Department of WCG Group (HK) Limited Ltd shall maintain records of:',
         `${
           !isArabic ? '1. ' : ''
         }The Client identification documents obtained during the Client identification and due diligence procedures, as applicable.`,
@@ -347,21 +347,21 @@ const amlPolicy: React.FC<{}> = () => {
           !isArabic ? '2. ' : ''
         }The details of all relevant records with respect to the provision of financial services to Clients.`,
         'The documents/data of mentioned above shall be kept for a period of at least seven (7) years which is calculated after the execution of the transactions or the termination of the Business Relationship.',
-        'It is provided that the documents/data mentioned in points (1) and (2) above which may be relevant to ongoing investigations shall be kept by WCG Markets (HK) Limited until the Unit confirms that the investigation has been completed and the case has been closed.'
+        'It is provided that the documents/data mentioned in points (1) and (2) above which may be relevant to ongoing investigations shall be kept by WCG Group (HK) Limited until the Unit confirms that the investigation has been completed and the case has been closed.'
       ]
     },
     {
       title: 'Format of Records',
       content: [
         'The Administration/Back-Office Department shall retain the documents/data mentioned above, other than the original documents or their Certified true copies that are kept in a hard copy form, in other forms, such as electronic form, provided that the Administration/Back-Office Department shall be able to retrieve the relevant documents/data without undue delay and present them at any time, to regulatory bodies, after a relevant request.',
-        'In case WCG Markets (HK) Limited will establish a documents/data retention policy, they shall ensure that the said policy shall take into consideration the requirements of the Law. Certification and Language of Documents',
+        'In case WCG Group (HK) Limited will establish a documents/data retention policy, they shall ensure that the said policy shall take into consideration the requirements of the Law. Certification and Language of Documents',
         `${
           !isArabic ? '1. ' : ''
-        }The documents/data obtained, shall be in their original form or in a certified true copy form. In the case that the documents/data are certified as true by a different person than WCG Markets (HK) Limited itself or by the third person mentioned in "Reliance on Third Persons for Client Identification and Due Diligence Purposes, the documents/data must be notarized.`,
+        }The documents/data obtained, shall be in their original form or in a certified true copy form. In the case that the documents/data are certified as true by a different person than WCG Group (HK) Limited itself or by the third person mentioned in "Reliance on Third Persons for Client Identification and Due Diligence Purposes, the documents/data must be notarized.`,
         `${
           !isArabic ? '2. ' : ''
         }A true translation shall be attached in the case that the documents of point (1) above are in a language other than English.`,
-        'Each time WCG Markets (HK) Limited shall proceed with the acceptance of a new Client, the Head Administration/Back-Office Department shall be responsible for ensuring compliance with the provisions of points (1) and (2) above.'
+        'Each time WCG Group (HK) Limited shall proceed with the acceptance of a new Client, the Head Administration/Back-Office Department shall be responsible for ensuring compliance with the provisions of points (1) and (2) above.'
       ]
     },
     {
@@ -370,13 +370,13 @@ const amlPolicy: React.FC<{}> = () => {
       content: [
         `${
           !isArabic ? '1. ' : ''
-        }WCG Markets (HK) Limited's employees shall be personally liable for failure to report information or suspicion, regarding money laundering or terrorist financing.`,
+        }WCG Group (HK) Limited's employees shall be personally liable for failure to report information or suspicion, regarding money laundering or terrorist financing.`,
         `${
           !isArabic ? '2. ' : ''
         }The employees must cooperate and report, without delay, anything that comes to their attention in relation to transactions for which there is a slight suspicion that are related to money laundering or terrorist financing.`,
         `${
           !isArabic ? '3. ' : ''
-        }According to the Law, WCG Markets (HK) Limited's employees shall fulfil their legal obligation to report their suspicions regarding Money Laundering and Terrorist Financing, after their compliance with point (2) above.`
+        }According to the Law, WCG Group (HK) Limited's employees shall fulfil their legal obligation to report their suspicions regarding Money Laundering and Terrorist Financing, after their compliance with point (2) above.`
       ]
     },
     {
@@ -387,10 +387,10 @@ const amlPolicy: React.FC<{}> = () => {
         }The AMLCO shall ensure that its employees are fully aware of their legal obligations according to the Law, by introducing a complete employees' education and training program.`,
         `${
           !isArabic ? '2. ' : ''
-        }The timing and content of the training provided to the employees of the various departments will be determined according to the needs of the WCG Markets (HK) Limited. The frequency of the training can vary depending on to the amendments of legal and/or regulatory requirements, employees' duties as well as any other changes in the financial system.`,
+        }The timing and content of the training provided to the employees of the various departments will be determined according to the needs of the WCG Group (HK) Limited. The frequency of the training can vary depending on to the amendments of legal and/or regulatory requirements, employees' duties as well as any other changes in the financial system.`,
         `${
           !isArabic ? '3. ' : ''
-        }The training program aims at educating the WCG Markets (HK) Limited's employees on the latest developments in the prevention of Money Laundering and Terrorist Financing, including the practical methods.`
+        }The training program aims at educating the WCG Group (HK) Limited's employees on the latest developments in the prevention of Money Laundering and Terrorist Financing, including the practical methods.`
       ]
     }
   ];

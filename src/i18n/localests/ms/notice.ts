@@ -28,7 +28,7 @@ export const notice: Notice = {
   ifTheAccountIs:
     'Sekiranya akaun tersebut disahkan mempunyai urus niaga yang tidak normal, syarikat akan menutup akaun tersebut dan mengembalikan baki dana kepada pelanggan, sebarang keuntungan dan komisen yang timbul daripada transaksi tidak normal akan dibatalkan.',
   theRightToInterpret:
-    'Hak untuk menafsirkan "transaksi tidak normal" dimiliki oleh WCG Markets Ltd. dan jika ada perselisihan, WCG Markets Ltd berhak untuk mengubah suai.',
+    'Hak untuk menafsirkan "transaksi tidak normal" dimiliki oleh WCG Group Ltd. dan jika ada perselisihan, WCG Group Ltd berhak untuk mengubah suai.',
   tradeDetails: 'Butiran Perdagangan',
   sourceOfTradeExecution: 'Sumber Pelaksanaan Perdagangan',
   theQuotesOfOur:

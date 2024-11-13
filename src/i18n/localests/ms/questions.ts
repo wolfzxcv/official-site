@@ -8,9 +8,9 @@ export const questions: Questions = {
   WCGIsABusinessBrand:
     'WCG adalah jenama perniagaan yang digunakan oleh pelbagai syarikat, termasuk',
   WCGMarketsLtdIsSupervised:
-    'WCG Markets Ltd diselia oleh Unit Perisikan Kewangan Kanada (FIU) dan Pusat Analisis Transaksi dan Pelaporan Kewangan Kanada (FINTRAC). Nombor lesen MSB adalah M20282836.',
+    'WCG Group Ltd diselia oleh Unit Perisikan Kewangan Kanada (FIU) dan Pusat Analisis Transaksi dan Pelaporan Kewangan Kanada (FINTRAC). Nombor lesen MSB adalah M20282836.',
   WCGMarketsLtdIsRegistered:
-    'WCG Markets Ltd didaftarkan di bawah Undang-undang Perniagaan Antarabangsa dan diatur oleh Saint Vincent dan Otoritas Perkhidmatan Kewangan Grenadines (SVGFSA), bernombor 26087 SM 2020.',
+    'WCG Group Ltd didaftarkan di bawah Undang-undang Perniagaan Antarabangsa dan diatur oleh Saint Vincent dan Otoritas Perkhidmatan Kewangan Grenadines (SVGFSA), bernombor 26087 SM 2020.',
   HowToOpenAnAccountInWCG: 'Bagaimana cara membuka akaun di WCG?',
   youCanRegisterYourRealAccount:
     'Anda boleh mendaftarkan akaun sebenar anda di laman web rasmi WCG, atau klik di sini untuk mendaftar.',

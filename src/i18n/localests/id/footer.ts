@@ -21,9 +21,9 @@ export const footer: Footer = {
   WCGIsABusinessBrand:
     'WCG adalah merek bisnis yang dimiliki bersama oleh banyak perusahaan, termasuk:',
   WCGMarketsLtdIsALimitedLiabilityCompany:
-    'WCG Markets Ltd adalah perseroan terbatas yang terdaftar di bawah Hukum Perusahaan Bisnis Internasional di Saint Vincent dan Grenadines. Nomor perusahaan adalah 26087 SM 2020. Alamat terdaftar adalah: The Financial Services Center Stoney Ground, Kingstown, St.Vincent & the Grenadines.',
+    'WCG Group Ltd adalah perseroan terbatas yang terdaftar di bawah Hukum Perusahaan Bisnis Internasional di Saint Vincent dan Grenadines. Nomor perusahaan adalah 26087 SM 2020. Alamat terdaftar adalah: The Financial Services Center Stoney Ground, Kingstown, St.Vincent & the Grenadines.',
   WCGMarketsLtdIsRegulatedByTheFINTRAC:
-    'WCG Markets Ltd diatur oleh FINTRAC. Nomor lisensi MSB adalah M20282836. Alamat terdaftar adalah: 150-10451 Shellbridge Way, Richmond BC V6X 2W8, Kanada.',
+    'WCG Group Ltd diatur oleh FINTRAC. Nomor lisensi MSB adalah M20282836. Alamat terdaftar adalah: 150-10451 Shellbridge Way, Richmond BC V6X 2W8, Kanada.',
   WCGGlobalLtd:
     'Wenchuan Global Ltd adalah perseroan terbatas yang didirikan di Inggris dengan nomor perusahaan 11019948. Alamat terdaftar adalah: WC1E 6HA, Lantai 5, 3 Gower Street, London, Inggris.',
   HighRiskInvestmentWarning:

@@ -54,7 +54,7 @@ const FakeContentZh: React.FC<{}> = () => {
       </Box>
 
       <Box>如有疑問，歡迎與 http://www.wcgmarkets.com 客戶服務部聯絡。</Box>
-      <Box>WCG MARKETS LIMITED </Box>
+      <Box>WCG Group LIMITED </Box>
       <Box>文傳金融集團 謹啟</Box>
       <Box>二零二二年八月三十一日</Box>
     </Stack>
@@ -87,7 +87,7 @@ const FakeContentCn: React.FC<{}> = () => {
       </Box>
 
       <Box>如有疑问，欢迎与 http://www.wcgmarkets.com 客户服务部联络。</Box>
-      <Box>WCG MARKETS LIMITED </Box>
+      <Box>WCG Group LIMITED </Box>
       <Box>文传金融集团 谨启</Box>
       <Box>二零二二年八月三十一日</Box>
     </Stack>
@@ -124,7 +124,7 @@ const FakeContentEn: React.FC<{}> = () => {
         <Image src={`/../assets/images/pop_up_fake.png`} alt="pop_up_fake" />
       </Box>
       <Box>
-        We hereby solemnly declare that WCG MARKETS &quot;the company&quot; and
+        We hereby solemnly declare that WCG Group &quot;the company&quot; and
         its business units are not affiliated with the above-mentioned
         companies, their business and their websites.
       </Box>
@@ -141,7 +141,7 @@ const FakeContentEn: React.FC<{}> = () => {
         department. http://www.wcgmarkets.com/
       </Box>
       <Box>Yours faithfully,</Box>
-      <Box>WCG MARKETS LIMITED</Box>
+      <Box>WCG Group LIMITED</Box>
     </Stack>
   );
 };

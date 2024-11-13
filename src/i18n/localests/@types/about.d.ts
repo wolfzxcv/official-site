@@ -58,9 +58,9 @@ export type About = {
   ourSalesTeam: string;
   /** License introduction */
   licenseIntroduction: string;
-  /** WCG Markets Ltd is registered */
+  /** WCG Group Ltd is registered */
   WCGMarketsLtdIsRegistered: string;
-  /** WCG Markets Ltd is supervised */
+  /** WCG Group Ltd is supervised */
   WCGMarketsLtdIsSupervised: string;
   /** View */
   view: string;

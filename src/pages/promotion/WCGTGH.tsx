@@ -498,7 +498,7 @@ const PageFooter: React.FC<{}> = () => {
         <Box fontSize="10px" pb={8}>
           所有交易均涉及风险，您的损失可能大于您的入金。
         </Box>
-        <Box>© WCG Markets Ltd 版权所有，不得转载</Box>
+        <Box>© WCG Group Ltd 版权所有，不得转载</Box>
       </Stack>
     </Flex>
   );
