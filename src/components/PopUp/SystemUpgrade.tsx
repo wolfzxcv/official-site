@@ -1,5 +1,5 @@
 import { Locales } from '@/i18n/config';
-import { Box, Flex, Image, Link, Stack } from '@chakra-ui/react';
+import { Box, Image, Stack, Text } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React from 'react';
 import PopUp from './PopUp';
@@ -10,13 +10,13 @@ export const SystemUpgrade = () => {
 
   return currentLang === 'zh' ? (
     <PopUp
-      title="用戶系統升級"
+      title="交易模式升級"
       content={<SystemUpgradeZh />}
       useBorder={false}
     />
   ) : currentLang === 'cn' ? (
     <PopUp
-      title="用户系统升级"
+      title="交易模式升级"
       content={<SystemUpgradeCn />}
       useBorder={false}
     />
@@ -32,108 +32,53 @@ export const SystemUpgrade = () => {
 const SystemUpgradeZh: React.FC<{}> = () => {
   return (
     <Stack spacing={2} p={5} fontSize={{ base: '8px', md: '14px' }}>
-      <Flex justify="center">
+      <Box fontWeight={700}>WCG MARKETS 交易模式升級，賦予您更多交易權力！</Box>
+
+      <Box>
+        親愛的用戶，為了更好地滿足您的交易需求，WCG MARKETS
+        現已推出全新交易模式，於2024年11月25日起自動更新，將傳統的固定保證金浮動槓桿改為浮動保證金固定槓桿。
+      </Box>
+
+      <Box fontWeight={700}>什麼是浮動保證金固定槓桿？</Box>
+      <Box>
+        <Text fontWeight={700}>• 固定槓桿：</Text>
+        您可自行設定100倍至500倍的槓桿倍數，並在整個交易過程中保持不變，讓您更精準地控制風險。
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• 浮動保證金： </Text>
+        保證金要求將根據市場行情和您的持倉情況動態調整，提供更靈活的交易體驗。
+      </Box>
+
+      <Box fontWeight={700}>全新交易模式的優勢：</Box>
+      <Box>
+        <Text fontWeight={700}>• 風險控制更精準： </Text>
+        固定槓桿讓您對風險有更清晰的掌握。
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• 交易策略更靈活： </Text>
+        自由調整槓桿倍數，滿足不同交易風格的需求。
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• 交易體驗更穩定： </Text>
+        浮動保證金機制，讓您在市場波動中更加從容。
+      </Box>
+
+      <Box fontWeight={700}>
+        立即登入您的交易帳戶，體驗全新交易模式，掌握交易主動權！
+      </Box>
+
+      <Box fontWeight={700}>注意事項：</Box>
+      <Box>• 槓桿交易存在風險，請謹慎操作。</Box>
+      <Box>• 原有客戶會按本身保證金調節到相對的槓桿倍數。</Box>
+      <Box>• 詳細的交易規則請參閱我們的官方網站。 </Box>
+      <Box>• 可登陸客戶中心之後如下圖到交易賬號進行修改。</Box>
+
+      <Box>
         <Image
-          width={120}
-          height={50}
-          src="/../assets/images/logo.svg"
-          alt="logo"
+          src="/../assets/images/pop_up_upgrade-1.png"
+          alt="pop_up_upgrade"
         />
-      </Flex>
-
-      <Box>致：親愛的用戶</Box>
-
-      <Box>
-        我們一直都十分重視與每一位用戶的體驗，WCG
-        Markets發展致今一直未忘初心，保持著謙卑和務實的態度去進步與創新。
       </Box>
-
-      <Box>
-        WCG
-        Markets全新的用戶中心將於2023年5月8日正式推出，屆時會全面取代現有的用戶中心系統。
-      </Box>
-
-      <Box>2023年5月1日用戶已經可以搶先登入體驗除出入金外的所有功能。</Box>
-
-      <Box>
-        於
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          新的用戶中心
-        </Link>
-        系統的登入頁面按[
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/forgot-password"
-        >
-          忘記密碼
-        </Link>
-        ]便可在已注冊的郵箱中收到新用戶中心的登入密碼，當中如使用遇上任何問題都歡迎立即向
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          在綫客服
-        </Link>
-        查詢。
-      </Box>
-
-      <Box>
-        在這個AI人工智能快速發展的時代，WCG Markets
-        搶先一步提供革命性的最優更新，助您在這個環境下快人一步奪得財富增長的先機。讓我們一起攜手進步。
-      </Box>
-
-      <Box>
-        WCG Markets 新用戶中心:{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          WCG Markets Client Portal | Login (wcgmarkets-asia.com)
-        </Link>
-      </Box>
-
-      <Box>
-        在新用戶中心點擊
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/forgot-password"
-        >
-          忘記密碼
-        </Link>
-        ，重置密碼後便可登入全新的用戶中心
-      </Box>
-
-      <Box>
-        如有任何疑問可查詢客服:{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          24小時在綫客服(1)
-        </Link>
-        ，
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://direct.lc.chat/11929440/"
-        >
-          24小時在綫客服(2)
-        </Link>
-      </Box>
-
-      <Flex flexDir="column">
-        <Box>WCG Markets Ltd</Box>
-        <Box>市場部</Box>
-      </Flex>
     </Stack>
   );
 };
@@ -141,108 +86,53 @@ const SystemUpgradeZh: React.FC<{}> = () => {
 const SystemUpgradeCn: React.FC<{}> = () => {
   return (
     <Stack spacing={2} p={5} fontSize={{ base: '8px', md: '14px' }}>
-      <Flex justify="center">
+      <Box fontWeight={700}>WCG MARKETS 交易模式升级，赋予您更多交易权力！</Box>
+
+      <Box>
+        亲爱的用户，为了更好地满足您的交易需求，WCG MARKETS
+        现已推出全新交易模式，于2024年11月25日起自动更新，将传统的固定保证金浮动槓杆改为浮动保证金固定槓杆。
+      </Box>
+
+      <Box fontWeight={700}>什麽是浮动保证金固定槓杆？</Box>
+      <Box>
+        <Text fontWeight={700}>• 固定槓杆：</Text>
+        您可自行设定100倍至500倍的槓杆倍数，并在整个交易过程中保持不变，让您更精准地控制风险。
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• 浮动保证金： </Text>
+        保证金要求将根据市场行情和您的持仓情况动态调整，提供更灵活的交易体验。
+      </Box>
+
+      <Box fontWeight={700}>全新交易模式的优势：</Box>
+      <Box>
+        <Text fontWeight={700}>• 风险控制更精准： </Text>
+        固定槓杆让您对风险有更清晰的掌握。
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• 交易策略更灵活： </Text>
+        自由调整槓杆倍数，满足不同交易风格的需求。
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• 交易体验更稳定： </Text>
+        浮动保证金机制，让您在市场波动中更加从容。
+      </Box>
+
+      <Box fontWeight={700}>
+        立即登入您的交易帐户，体验全新交易模式，掌握交易主动权！
+      </Box>
+
+      <Box fontWeight={700}>注意事项：</Box>
+      <Box>• 槓杆交易存在风险，请谨慎操作。</Box>
+      <Box>• 原有客户会按本身保证金调节到相对的槓杆倍数。</Box>
+      <Box>• 详细的交易规则请参阅我们的官方网站。 </Box>
+      <Box>• 可登陆客户中心之后如下图到交易账号进行修改。</Box>
+
+      <Box>
         <Image
-          width={120}
-          height={50}
-          src="/../assets/images/logo.svg"
-          alt="logo"
+          src="/../assets/images/pop_up_upgrade-1.png"
+          alt="pop_up_upgrade"
         />
-      </Flex>
-
-      <Box>致：亲爱的用户</Box>
-
-      <Box>
-        我们一直都十分重视与每一位用户的体验，WCG
-        Markets发展致今一直未忘初心，保持着谦卑和务实的态度去进步与创新。
       </Box>
-
-      <Box>
-        WCG
-        Markets全新的用户中心将于2023年5月8日正式推出，届时会全面取代现有的用户中心系统。
-      </Box>
-
-      <Box>2023年5月1日用户已经可以抢先登陸体验除出入金外的所有功能。</Box>
-
-      <Box>
-        于
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          新的用户中心
-        </Link>
-        系统的登陸页面按[
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/forgot-password"
-        >
-          忘记密码
-        </Link>
-        ]便可在已注册的邮箱中收到新用户中心的登入密码，当中如使用遇上任何问题都欢迎立即向
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          在綫客服
-        </Link>
-        查询。
-      </Box>
-
-      <Box>
-        在这个AI人工智能快速发展的时代，WCG Markets
-        抢先一步提供革命性的最优更新，助您在这个环境下快人一步夺得财富增长的先机。让我们一起携手进步。
-      </Box>
-
-      <Box>
-        WCG Markets 新用户中心:{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          WCG Markets Client Portal | Login (wcgmarkets-asia.com)
-        </Link>
-      </Box>
-
-      <Box>
-        在新用户中心点击
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/forgot-password"
-        >
-          忘记密码
-        </Link>
-        ，重置密码后便可登入全新的用户中心
-      </Box>
-
-      <Box>
-        如有任何疑问可查询客服:{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          24小时在綫客服(1)
-        </Link>
-        ，
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://direct.lc.chat/11929440/"
-        >
-          24小时在綫客服(2)
-        </Link>
-      </Box>
-
-      <Flex flexDir="column">
-        <Box>WCG Markets Ltd</Box>
-        <Box>市场部</Box>
-      </Flex>
     </Stack>
   );
 };
@@ -250,119 +140,70 @@ const SystemUpgradeCn: React.FC<{}> = () => {
 const SystemUpgradeEn: React.FC<{}> = () => {
   return (
     <Stack spacing={2} p={5} fontSize={{ base: '8px', md: '14px' }}>
-      <Flex justify="center">
+      <Box fontWeight={700}>
+        WCG MARKETS Trading Model Upgrade - Empower Your Trading!
+      </Box>
+
+      <Box>
+        Dear users, to better meet your trading needs, WCG MARKETS has launched
+        a new trading model. From November 25, 2024, the trading mode will be
+        automatically updated, changing from a traditional fixed margin and
+        variable leverage model to a floating margin and fixed leverage model.
+      </Box>
+
+      <Box fontWeight={700}>What is Floating Margin with Fixed Leverage?</Box>
+      <Box>
+        <Text fontWeight={700}>• Fixed Leverage:</Text>
+        You can set a leverage multiplier between 100x and 500x, which remains
+        consistent throughout the trading process, allowing for more precise
+        risk control.
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• Floating Margin: </Text>
+        Margin requirements will dynamically adjust based on market conditions
+        and your position, providing a more flexible trading experience.
+      </Box>
+
+      <Box fontWeight={700}>Advantages of the New Trading Model:</Box>
+      <Box>
+        <Text fontWeight={700}>• More Precise Risk Control: </Text>
+        Fixed leverage gives you a clearer handle on risk management.
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• More Flexible Trading Strategies: </Text>
+        Adjust leverage freely to meet the needs of different trading styles.
+      </Box>
+      <Box>
+        <Text fontWeight={700}>• More Stable Trading Experience: </Text>
+        The floating margin mechanism enables a more composed approach during
+        market fluctuations.
+      </Box>
+
+      <Box fontWeight={700}>
+        Log in to your trading account now to experience the new trading model
+        and take control of your trades!
+      </Box>
+
+      <Box fontWeight={700}>Important Notes:</Box>
+      <Box>• Leverage trading carries risks; please operate with caution.</Box>
+      <Box>
+        • Existing clients will have their margin adjusted to the corresponding
+        leverage level.
+      </Box>
+      <Box>
+        • For detailed trading rules, please refer to our official website.{' '}
+      </Box>
+      <Box>
+        • After logging into the client center, you can modify the trading
+        account settings as shown in the image below.
+      </Box>
+
+      <Box>
         <Image
-          width={120}
-          height={50}
-          src="/../assets/images/logo.svg"
-          alt="logo"
+          src="/../assets/images/pop_up_upgrade-1.png"
+          alt="pop_up_upgrade"
         />
-      </Flex>
-
-      <Box>Dear customer</Box>
-
-      <Box>
-        We have always attached great importance to the experience of every
-        user. WCG Markets has never forgotten its original intention and has
-        maintained a humble and pragmatic attitude towards progress and
-        innovation.
       </Box>
-
-      <Box>
-        WCG Markets&apos; brand new user center will be officially launched on
-        May 8, 2023, and will completely replace the existing user center
-        system.
-      </Box>
-
-      <Box>
-        On May 1, 2023, users can log in to experience all functions except
-        deposit and withdrawal.
-      </Box>
-
-      <Box>
-        On the login page of the{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          new user center system
-        </Link>
-        click [
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/forgot-password"
-        >
-          Forgot Password
-        </Link>
-        ] to receive the login password for the new user center in the
-        registered email. If you encounter any problems, please feel free to
-        contact{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          online customer service
-        </Link>
-        .
-      </Box>
-
-      <Box>
-        In this era of rapid development of AI artificial intelligence, WCG
-        Markets takes the lead in providing revolutionary optimal updates to
-        help you seize the opportunity for wealth growth ahead of others in this
-        environment. Let us progress together.
-      </Box>
-
-      <Box>
-        WCG Markets New User Center:{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/login"
-        >
-          WCG Markets Client Portal | Login (wcgmarkets-asia.com)
-        </Link>
-      </Box>
-
-      <Box>
-        Click{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://clientportal.wcgmarkets-asia.com/forgot-password"
-        >
-          Forgot Password
-        </Link>{' '}
-        in the new user center, reset the password and then log in to the brand
-        new user center.
-      </Box>
-
-      <Box>
-        If you have any questions, please contact customer service:{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://majkf.yunhujiaozhongxin.net/Web/im.aspx?_=t&&accountid=135464"
-        >
-          24-hour online customer service (1)
-        </Link>
-        ,{' '}
-        <Link
-          color="blue.500"
-          isExternal
-          href="https://direct.lc.chat/11929440/"
-        >
-          24-hour online customer service (2)
-        </Link>
-      </Box>
-
-      <Flex flexDir="column">
-        <Box>WCG Markets Ltd</Box>
-        <Box>Marketing Department</Box>
-      </Flex>
     </Stack>
   );
 };
